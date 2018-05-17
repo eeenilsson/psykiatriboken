@@ -1,0 +1,175 @@
+# Beroende och missbruk av alkohol och droger
+
+## Inledning
+
+Detta kapitel innehåller: 
+
+- Neurobiologi med koppling till symtom och andra fenomen.
+
+## Epidemiologi
+
+## Hjärnan och beroende
+
+De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. Deras anatomi och övergripande funktioner beskrivs i kapitel \@ref(nervsystemet), stycke \@ref(basala-ganglierna). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
+
+_Striatum_ kallas ett område i hjärnan som har betydelse för vår förmåga att välja mellan olika impulser för att nå bästa möjliga utfall. Detta område ingår i hjärnans belöningssystem, som aktiveras av droger. [@Volkow:2015]
+
+När en beroendeframkallande drog (exemplevis kokain, amfetamin eller nikotin) används påverkas nervceller belägna i mitthjärnan (lat. _mesencephalon_), närmare bestämt den del av den "svarta substansen" (lat. _sustanta nigra_) som _benämns par compacta_, så att de via sina axoner frisätter höga nivåer dopamin till ett område i striatum kallat accumbenskärnan (lat. _nucleus accumbens_). Där finns celler med D1-receptorer som ingår i den sk "direkta banan" som leder till desinhibering av _thalamus_, vilket främjar beteendet[belöning?]. Där finns även celler med D2-receptorer som ingår i den "indirekta banan" som via _ventrala pallidum_ hämmar thalamus, vilket och är kopplad till bestraffning. Senare forskning har visat att celler med D1 receptorer även ingår i den indirekta banan och att celler med D2-receptorer ingår i den direkta banan. Förändrad aktivitet i båda dessa banor leder därmed till att beteendet förstärks.
+
+Där finns celler med D1-receptorer vars aktivering leder till desinhibering av thalamus och stimulering av det drogsökande beteendet. Aktiveriung av andra cellgrupper, med D2-receptorer, leder istället till hämning av beteendet.
+
+För adapteringen till dopaminagonister är direkta banan av störst betydelse.
+
+DIrect pathway: Associative rewarding stimuli vs nonassociatie ones
+Indirect pathway 
+
+
+As expected from the canonical circuitry, NAc D1-MSN activation promotes drug-seeking behavior while D2-MSNs had an inhibitory effect. However, other studies have shown that it is the input to the VP, rather than to the Vental Mesencephalon, which promotes reinstatement of drug-seeking behavior after withdrawal and that the VP itself, unlike its dorsal counterpart the globus pallidus, directly inhibits the thalamus
+
+Thus altered availability of dopamine in the striatum, induced by presentation of conditioned stimuli, is able to dynamically alter activity in direct and indirect striatal output pathways. The implications of this will be discussed in the next section
+
+
+
+Vid fortsatt drogbruk försvagas även självkontrollen över drogbeteendet och hjärnan blir mer känlig för stress och negativt humör, vilket bidrar till beroende och fortsatt användning.
+
+<!--Striatum, direct/indirect https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4228842/ -->
+
+\includegraphics[width=\textwidth]{../dropbox/images/psychiatry/brain_mesolimbic_pathway.png} 
+
+DA neurons in the VTA fire in either a tonic (1–8 Hz) or a tran- sient (<500 ms) high-frequency phasic mode (>15 Hz), with the phasic mode resulting in larger DA increases than the tonic mode. Though it was initially believed that DA signaling in the brain encoded for reward, more recent findings have revealed that it encodes for a _reward prediction_ signal. Specifically, these studies have shown that phasic DA firing is time locked to unexpected or novel reward but is also triggered by cues that predict reward  reward prediction
+
+Drugs modulate the expression of genes involved in neuro plasticity through epigenetic and possibly RNA modifications  gene expression, epigenetics, rna
+
+if the expected reward does not materialize, DA cell firing is inhibited 
+
+
+Ventral striatum
+- nucleus accumbens
+- olfactory tubercle. 
+Dorsal striatum 
+- caudate nucleus
+- putamen
+
+### Referenser
+
+Striatal direct and indirect pathways control decision-making behavior [@Macpherson:2014]
+
+Brain on drugs [@Volkow:2015].
+
+Film om direct pathway (Khan acaemy): https://www.khanacademy.org/science/health-and-medicine/nervous-system-diseases/parkinsons-disease/v/the-basal-ganglia-the-direct-pathway
+
+# Volkow brain on drugs
+
+<!-- drugs of abuse exert their initial reinforcing effects by activating reward circuits in the brain and that -->
+
+<!-- continued drug use impairs brain function by interfering with the capacity to exert self-control over drug-taking behaviors and rendering the brain more sensitive to stress and negative moods.   -->
+
+
+<!-- Drugs of abuse exert their initial reinforcing effects by triggering supraphysiologic surges of dopamine in the nucleus accumbens (NAc) that activate the direct striatal pathway via D1 receptors and inhibit the indirect striato-cortical pathway via D2 receptors. -->
+
+<!-- through their different pharmacological effects, in- crease the release of DA in the shell subregion of the NAc  -->
+
+
+<!-- DA neurons in the VTA fire in either a tonic (1–8 Hz) or a tran- sient (<500 ms) high-frequency phasic mode (>15 Hz), with the phasic mode resulting in larger DA increases than the tonic mode. Though it was initially believed that DA signaling in the brain encoded for reward, more recent findings have revealed that it encodes for a _reward prediction_ signal. Specifically, these studies have shown that phasic DA firing is time locked to unexpected or novel reward but is also triggered by cues that predict reward  reward prediction -->
+
+<!-- Drugs modulate the expression of genes involved in neuro plasticity through epigenetic and possibly RNA modifications  gene expression, epigenetics, rna -->
+
+<!-- if the expected reward does not materialize, DA cell firing is inhibited  -->
+
+Reviews: intracellular signaling cascades and epigenetic modifications associated with addiction; thus, we refer readers to recent reviews on these topics (Heller et al., 2014; Nestler, 2012; Pascoli et al., 2014a).
+
+# Drug Reward Signaling in Brain 
+
+(VTA) and projecting to the nucleus accumbens (NAc) play a key role in the processing of reward-related stimuli, including those associated with drugs of abuse  Ventral tegument in midbrain, nucleus accumbens i cortex (basal part of forebrain).
+
+D3R mostly co-localize with D1R-MSNs, with which they heteromerize, potentiating their function.
+
+The ventral striatal direct and in- direct pathways have distinct roles in modulating reward and motivation. The direct pathway is associated with reward, whereas the indirect one is associated with punishment. Thus, DA receptor stimulation of the direct pathway directly mediates reward, whereas DA-re- ceptor-mediated inhibition of the indirect pathway opposes aversive responses. This could explain why maximal drug reward is obtained when DA binds to both D1R and D2R.
+
+To be reinforcing, drug- induced DA increases need to be fast and sufficiently large to stimulate low-affinity D1R in addition to D2R, leading to the acti- vation of the direct pathway and the inhibition of the indirect pathway. Specifically, when large DA increases triggered by stimulant drugs were achieved over a short time period (<10 min), they were associated with reward, whereas DA increases achieved over 60 min were not. This may also explain why routes of administration that achieve faster and higher drug levels in the brain, such as smoking and intravenous injection, are more rewarding and addictive than routes of administration that result in slow brain uptake, like oral administration 
+
+For natural reinforcers such as food or sex, the DA signals triggered by the CS drive the motivation to get the reward since with their repeated delivery the DA cells stop firing in response to their consumption (Schultz et al., 1997). This is in sharp contrast to the response to drugs of abuse, which due to their pharmacological properties, continue increasing DA release during their consumption. Ie drugs dont give satisfaction. DA in the NAc will increase upon exposure to drug cues, which will trigger the desire to take the drug (craving) also during their consumption, which will sustain the motivation to continue consuming them. This may explain why drugs are more likely to result in compulsive patterns of administration than natural reinforcers.  
+
+The pharmacological mechanisms of action of various drugs types influence the nature of the molecular and cellular changes associated with their repeated consumption. For example, alpha 6 and beta 3 nicotinic receptors are upregu- lated in DA neurons with repeated nico- tine exposure (Visanji et al., 2006), dopamine transporters are downregulated in the striatum with repeated methamphetamine exposure (Groman et al., 2012), and cannabinoid receptors 1 are downregulated in striatum with repeated delta9-tetrahydrocan- nabinol (THC) exposure 
+
+Endogenous opioids and cannabinoids have been also implicated in drug reward responses 
+
+# Transition into Addiction 
+
+## Drug-Induced Neuroplasticity in DA Pathways 
+
+addiction seems to emerge gradually, although the rate of this transition varies as a function of several factors, including the type of drug (i.e., faster for methamphetamine and slower for cannabinoids), the pattern of exposure (greater for regular than occasional use), and the developmental stage (faster in adolescence than in adulthood) 
+
+Drug-induced DA increases trigger various forms of synaptic plasticity that can result in strengthening or weakening of synap- tic connectivity in various brain reward regions 
+
+The speed with which addiction emerges is influenced by genetics 
+
+These synaptic modifications generate a long-lasting molecular memory for the drug’s rewarding and conditioning effects that will modify subsequent behaviors 
+
+## Role of Dopamine in Addiction 
+
+reductions in striatal D2R (dorsal and ventral) in drug abusers have been associated with decreased activity in the PFC, including anterior cingulate (ACC) and orbitofrontal (OFC) cortical regions. The ACC and OFC are necessary for self-control and for processing salience attribution, and their disruption is associated with a propensity for impulsive and compulsive behaviors 
+
+Repeated exposure to different types of drugs has been associ- ated with downregulation of D2R in striatum. Low levels of D2R in striatum may mediate the risk for compulsive drug taking in part by impairing PFC regions that inhibit prepo- tent responses and enable flexibility of behavioral choices as a function of changing environments. In rodents, low levels of D2R in striatum are associated with impulsivity and predict escalating and compulsive administration of cocaine.
+
+Though, theoretically, enhanced signaling through D1R and its activation of the direct pathway would be consistent with facilita- tion of drug reward (Gore and Zweifel, 2013), the findings related to the consequences of repeated drug exposure on D1R have not been consistent.  
+
+A powerful approach for investigating changes in DA signaling in addiction is to compare the DA responses triggered by drugs in addicted versus non-addicted individuals.  . For instance, in studies that compared the effects of drug intoxication between cocaine abusers and controls, where stimulant drugs such as methylphe- nidate and amphetamine were used as pharmacological challenges. These studies have consistently shown that the DA increases triggered by stimulants are markedly attenuated in cocaine abusers 
+
+In cocaine abusers (Martinez et al., 2011) and in methamphetamine abusers undergoing substance abuse treatment (Wang et al., 2012), the blunted DA responses to stimulant drugs have been also associated with worse clinical outcomes.  
+
+In contrast, in marijuana abusers, while stimulant-induced DA increases in striatum did not differ from controls (Urban et al., 2012; Volkow et al., 2014b), the brain reactivity to DA stimulation was blunted, an effect that was associated with negative emotionality 
+
+The regional brain activation responses to a stimulant drug also differ between controls and cocaine abusers in ventral pre- frontal regions.  
+
+## Neuronal Circuitry in Addiction 
+
+In this model of addiction, the motivation to take the drug is not only driven by conditioned responses to cues, but also by nega- tive emotional states.  
+
+In consequence, the addicted individual experiences enhanced reactivity to drug cues and to stressful stimuli, the reactivity to natural reward is decreased, and there is loss of flex- ibility to adjust the saliency value of reward as a function of their context.  
+
+For example, interventions designed to counteract dysphoria or strengthen executive control, even if not resulting in complete abstinence, may improve long-term success and recovery from addiction 
+
+
+
+
+## Kroppen och missbruk
+
+## Samband med andra psykiska sjukdomar
+
+Suicidrisk mm
+
+## Att diagnosticera beroendesjukdomar
+
+## Skattningsformulär
+
+### AUDIT
+
+AUDIT[@Bohn:1995;@Reinert:2007].
+
+### DUDIT
+
+### Biologiska markörer
+
+PEth etc.
+
+## Akut behandling av överdos och abstinens
+
+CIWAS
+
+### Wernicke encephalopati och Korsakoff demens
+
+## Läkemedelsbehandling
+
+## Psykologisk och annan behandling
+
+## Beroendet i historien och kulturen
+
+Opium - även på stenåldern.
+
+Faulkner
+
+Skildringar
+
+## Sammanfattning
+

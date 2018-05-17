@@ -1,0 +1,63 @@
+---
+bibliography: ["../library/bibliography.bib"]
+csl: ../bibliography/oxford-scimed.csl
+
+---
+
+
+<!-- halftime: -->
+<!-- geometry: "left=2.3cm, right=2.3cm, top=2.3cm, bottom=2.3cm" -->
+<!-- classoption: oneside -->
+
+
+<!-- Change to this for thesis: -->
+<!-- geometry: "left=4cm, right=3cm, top=2.5cm, bottom=2.5cm" -->
+
+
+<!-- Also works here: -->
+<!-- header-includes: -->
+<!--    - \usepackage{pdfpages} -->
+
+<!-- Other options: -->
+<!-- papersize: A4 -->
+<!-- fontsize: 12pt -->
+<!-- linestretch: 1.5 -->
+<!-- fontfamily -->
+<!-- See: http://pandoc.org/MANUAL.html -->
+<!-- See latex font catalgue: http://www.tug.dk/FontCatalogue/ -->
+
+```{r global_options, include=FALSE}
+
+## set global options for knitr
+knitr::opts_chunk$set(echo=FALSE,
+                      warning=FALSE,
+                      message=FALSE)
+
+options(knitr.table.format = "markdown") # for kable tables
+
+## packages
+require(tidyverse)
+require(ggplot2)
+##library(knitr)
+library(kableExtra)
+
+## themes
+source('../functions/theme_polar.r')
+
+## Functions
+makestack <- function(x){
+    paste("\\makecell[lt]{", gsub(",", " \\\\\\\\ ", x), "}") ## replace commas with four backslashes
+}
+
+source('../functions/fix_pval.r')
+
+```
+
+```{r load-data } 
+
+## Data for plotting
+## diagnoses_comparison <- readRDS("diagnosis_comparison.rds")
+## igfdata <- readRDS("igfdata.rds")
+
+``` 
+ 
