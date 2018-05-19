@@ -2,9 +2,9 @@
 
 ## Basala ganglierna {#basala-ganglierna}
 
-De basala ganglierna (**Fig** \@ref(fig:image-basal-ganglia-coronal)) ligger djupt under hjärnbarkens främre del. De finreglerar motoriken och är inblandade i planering av målstyrt beteende, inlärning och vanemässiga beteenden. De får inflöde av signaler från hjärnbarken och efter bearbetning signalerar de tillbaks till hjärnbarken via thalamus, vilket påverkar timing- och grad av aktivitet som går från hjärnbarken till pyramidbanorna. Beteenden som leder till belöning medan beteenden som leder till negativa resultat hämmas.
+De basala ganglierna (**Fig \@ref(fig:image-basal-ganglia-coronal)**) ligger djupt under hjärnbarkens främre del. De finreglerar motoriken och är inblandade i planering av målstyrt beteende, inlärning och vanemässiga beteenden. Inflödet av signaler kommer främst från hjärnbarken och efter bearbetning signalerar de basala ganglierna tillbaks dit via thalamus. På så vis reglerar de basala ganglierna avpassningen i tid (timing-) och graden av aktivitet för de signaler som går från hjärnbarken till pyramidbanorna, bland annat med följden att beteenden som leder till belöning stimuleras och beteenden som leder till negativa resultat hämmas.
 
-Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av säskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är av särkild betydelse i detta sammanhang.
+Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av särskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är viktig i detta sammanhang.
 
 <!-- \includegraphics[width=\textwidth]{../dropbox/images/psychiatry/basal_ganglia_coronal.png} --> 
 
@@ -21,7 +21,7 @@ Striatum ------| GP -------| Thalamus-------> Cortex-------> Pyramidbanorna
 
 ### Pallidum
 
-Nervcellerna i _pallidum_ (globus pallidus och ventrala pallidum) utsänder hämmande signaler (GABA) till sina mål, så länge de inte får signaler från striatum. Signaler från striatum till pallidum gör att deras aktivitet minskar och därmed släpper hämningen av målstrukturerna som då ökar sin aktivitet (desinhiberas).
+Nervcellerna i _pallidum_ (globus pallidus och ventrala pallidum) utsänder hämmande signaler (GABA) till sina mål, så länge de inte får signaler från striatum. Signaler från striatum till pallidum gör att deras aktivitet hos nervcellerna där minskar och därmed släpper hämningen av målstrukturerna som då ökar sin aktivitet (desinhiberas).
 
 <!-- _Globus pallidus_ (som tillsammans med _ventrala pallidum_ utgör _pallidum_)får sitt tillflöde av signaler främst från övriga delar av striatum. Vid frånvaro av signaler till pallidum sänder nervcellerna där hämmande signaler (GABA) till sina mål. Signaler från striatum gör att deras aktivitet minskar och därmed sker avhämning av målstrukturerna som då ökar sin aktivitet. -->
 
@@ -37,7 +37,7 @@ Nervcellerna här producerar glutamat och har därmed en stimulerande effekt. K�
 
 The term basal ganglia in the strictest sense refers to nuclei embedded deep in the brain hemispheres (striatum or caudate-putamen and globus pallidus), whereas related nuclei consist of structures located in the diencephalon (subthalamic nucleus), mesencephalon (substantia nigra), and pons (pedunculopontine nucleus).
 
-```{r image-basal-ganglia-coronal, fig.cap='Koronalt snitt genom de basala ganglierna' } 
+```{r image-basal-ganglia-coronal, fig.cap='Koronalt snitt genom de basala ganglierna.' } 
 
 ## https://www.opencpu.org/posts/svg-release/
 
@@ -60,7 +60,6 @@ include_graphics(newNamePdf)
 ## See also package svglite?
 
 ``` 
- 
 
 1. Dorsala striatum (nuleus lenticulare)
 1.1 Nucleus caudatus (CN, sv. _svanskärnan_)
@@ -87,6 +86,22 @@ Functional Neuroanatomy of the Basal Ganglia lanciego[@Lanciego:2012] ger en öv
 
 ### Lista över nervbanor
 
+ 
+```{r mesolimbic-pathway, fig.cap = "Mesolimbiska banan."} 
+
+## install.packages("DiagrammeR")
+## install.packages("DiagrammeRsvg") ## needs tweaking to install in linux, something with V8
+
+imageName <- "brain_mesolimbic_pathway.svg"
+imageDir <- "../dropbox/images/psychiatry/"
+imagePath <- paste(imageDir, imageName, sep="")
+newNamePdf <- paste(gsub("\\..*","",imageName), ".pdf", sep = "")
+rsvg_pdf(imagePath, newNamePdf)
+include_graphics(newNamePdf)
+
+``` 
+
+
 Indirekta banan: striato-GPe-STN-GPi/SNr.
 Direct striatopallidal: Striato-GPi/SNr
 Mesolimbiska banan: 
@@ -98,7 +113,7 @@ Motorisk inlärning
 Exekutiva funktioner och beteenden
 Emotioner
 
-#### Sjukdomar och symtom vid störd funktion i basala ganglierna ####
+### Sjukdomar och symtom vid störd funktion i basala ganglierna ####
 
 Historiskt (och ibland fortfarande) används begreppet "extrapyramidala syndrom" för att beskriva störningar i de basala ganglierna, men detta begrepp anses förlegat och bör inte längre användas[@Lanciego:2012].
 
