@@ -36,10 +36,11 @@ knitr::opts_chunk$set(echo=FALSE,
 options(knitr.table.format = "markdown") # for kable tables
 
 ## packages
-require(tidyverse)
-require(ggplot2)
-##library(knitr)
-library(kableExtra)
+pacman::p_load(tidyverse,
+               ggplot2,
+               kableExtra,
+               rsvg,
+               svglite)
 
 ## themes
 source('../functions/theme_polar.r')

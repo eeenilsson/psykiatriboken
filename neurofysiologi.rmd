@@ -2,35 +2,81 @@
 
 ## Basala ganglierna {#basala-ganglierna}
 
-De basala ganglierna ligger djupt under hjärnbarkens främre del. De finreglerar motoriken och är inblandade i planering av målstyrt beteende, inlärning och vanemässiga beteenden. De basala ganglierna får inflöde av signaler från hjärnbarken och efter bearbetning signalerar de tillbaks till hjärnbarken via thalamus, vilket påverkar timing och grad av aktivitet som går från hjärnbarken till pyramidbanorna. Därigenom förstärks beteenden som leder till belöning medan beteenden som leder till negativa resultat hämmas.
+De basala ganglierna (**Fig** \@ref(fig:image-basal-ganglia-coronal)) ligger djupt under hjärnbarkens främre del. De finreglerar motoriken och är inblandade i planering av målstyrt beteende, inlärning och vanemässiga beteenden. De får inflöde av signaler från hjärnbarken och efter bearbetning signalerar de tillbaks till hjärnbarken via thalamus, vilket påverkar timing- och grad av aktivitet som går från hjärnbarken till pyramidbanorna. Beteenden som leder till belöning medan beteenden som leder till negativa resultat hämmas.
 
-Delar de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det limbiska systemet och är av säskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är av särkild betydelse i detta sammanhang.
+Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av säskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är av särkild betydelse i detta sammanhang.
 
-
-
-De basala ganglierna har betydelse vid olika psykatriska tillstånd, exempelvis drogberoende.
-
-\includegraphics[width=\textwidth]{../dropbox/images/psychiatry/basal_ganglia_coronal.png} 
-
-Historiskt (och ibland fortfarande) används begreppet "extrapyramidala syndrom" för att beskriva störningar i de basala ganglierna, men detta begrepp anses förlegat och bör inte längre användas[@Lanciego:2012].
+<!-- \includegraphics[width=\textwidth]{../dropbox/images/psychiatry/basal_ganglia_coronal.png} --> 
 
 
 
-### De basala ganglierna och relaterade kärnor
+### Striatum
+
+Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontralateralt), samt från thalamus. De flesta av neuronerna i striatum är så kallade "Medium spiny neurons" (MSNs). Dessa uttrycker förutom glutamatreceptorer även dopaminreceptorer av D1-typ och/eller D2-typ. Hos 40% av MSN i striatum finns båda dessa receptortyper. Både D1-MSN och D2-MSN har även receptorer för andra signalsubstanser, tex acetylcholin. MSN-axonerna frisätter i sin tur GABA, vilket har en inhibitorisk effekt på målcellerna. Den sk direkta banan från _ventrala_ striatum domineras av D1-MSN och är kopplat till belöning emedan den indirekta banan domineras av D2-MSN och är kopplad till aversion. De direkta och indirekta banorna i _dorsala_ striatum är istället förbundna med motoriska funktioner.
+
+Minus plus minus blir plus
+
+Striatum ------| GP -------| Thalamus-------> Cortex-------> Pyramidbanorna
+
+
+### Pallidum
+
+Nervcellerna i _pallidum_ (globus pallidus och ventrala pallidum) utsänder hämmande signaler (GABA) till sina mål, så länge de inte får signaler från striatum. Signaler från striatum till pallidum gör att deras aktivitet minskar och därmed släpper hämningen av målstrukturerna som då ökar sin aktivitet (desinhiberas).
+
+<!-- _Globus pallidus_ (som tillsammans med _ventrala pallidum_ utgör _pallidum_)får sitt tillflöde av signaler främst från övriga delar av striatum. Vid frånvaro av signaler till pallidum sänder nervcellerna där hämmande signaler (GABA) till sina mål. Signaler från striatum gör att deras aktivitet minskar och därmed sker avhämning av målstrukturerna som då ökar sin aktivitet. -->
+
+### Substantia nigra
+
+Den svarta substansen (lat. _substantia nigra_) indelas i pars compacta (SNc) och pars reticulata (SNr). SNr kommunicerar med GPi och inhiberer _thalamus_ emedan SNc producerar dopamin och reglerar aktiviteten i _striatum_.
+
+### Subthalamuskärnan
+
+Nervcellerna här producerar glutamat och har därmed en stimulerande effekt. Kärnan får hämmande signaler från GPe och skickar excitatoriska signaler till GPi (via SNr?). Den är del av den _indirekta banan_.
+
+### Lista över de basala ganglierna och relaterade kärnor
 
 The term basal ganglia in the strictest sense refers to nuclei embedded deep in the brain hemispheres (striatum or caudate-putamen and globus pallidus), whereas related nuclei consist of structures located in the diencephalon (subthalamic nucleus), mesencephalon (substantia nigra), and pons (pedunculopontine nucleus).
 
+```{r image-basal-ganglia-coronal, fig.cap='Koronalt snitt genom de basala ganglierna' } 
+
+## https://www.opencpu.org/posts/svg-release/
+
+imageName <- "basal_ganglia_coronal.svg"
+imageDir <- "../dropbox/images/psychiatry/"
+imagePath <- paste(imageDir, imageName, sep="")
+newNamePdf <- paste(gsub("\\..*","",imageName), ".pdf", sep = "")
+
+## convert svg in path to pdf in local directory
+rsvg_pdf(imagePath, newNamePdf)
+
+## include as graphic
+include_graphics(newNamePdf)
+
+## write to format via bitmap
+## bitmap <- rsvg(imagePath)
+## png::writePNG(bitmap, "bitmapToPng.png")
+## jpeg::writeJPEG(bitmap, "bitmapToJpg.jpg", quality = 1)
+## webp::write_webp(bitmap, "bitmapToWebp.webp", quality = 100)
+## See also package svglite?
+
+``` 
+ 
+
 1. Dorsala striatum (nuleus lenticulare)
-1.1 Nucleus caudatus
-1.2 Putamen
+1.1 Nucleus caudatus (CN, sv. _svanskärnan_)
+1.2 Putamen (Put, sv _yttre skalkärnan_)
 1.3 Globus pallidus
+1.3.1 Internal (medial) segment (GPi)
+1.3.2 External (lateral) segment (GPe)
 2. Ventrala striatum
-1.1 Nucleus accumbens
+1.1 Nucleus accumbens (Acb, sv. _accumbenskärnan_)
 1.1 Olfactory tubercle
 
 3. Ventrala pallidum
 4. Substantia nigra(a)
-5. Subthalamic nucleus(a)
+4.1 Pars compacta (SNc)
+4.2 Pars reticulata (SNr)
+5. Subthalamic nucleus(a) (sv. _subtalamuskärnan_)
 6. Pedunculopontine nucleus(a)
 
 Amygdala?
@@ -39,6 +85,12 @@ Amygdala?
 
 Functional Neuroanatomy of the Basal Ganglia lanciego[@Lanciego:2012] ger en översikt.
 
+### Lista över nervbanor
+
+Indirekta banan: striato-GPe-STN-GPi/SNr.
+Direct striatopallidal: Striato-GPi/SNr
+Mesolimbiska banan: 
+
 ### Funktioner relaterade till de basala ganglierna
 
 Motorik
@@ -46,7 +98,10 @@ Motorisk inlärning
 Exekutiva funktioner och beteenden
 Emotioner
 
-#### Sjukdomar som är förknippade med störd funktion i basala ganglierna ####
+#### Sjukdomar och symtom vid störd funktion i basala ganglierna ####
+
+Historiskt (och ibland fortfarande) används begreppet "extrapyramidala syndrom" för att beskriva störningar i de basala ganglierna, men detta begrepp anses förlegat och bör inte längre användas[@Lanciego:2012].
+
 
 - Movement disorders
   - Parkinsons sjukdom
@@ -56,9 +111,13 @@ Emotioner
 - Obsessive–compulsive disorder
 - Dystonia
 - Addiction
+- Tics
+- Chorea
+
+
 
 ### Referenser
 
-Lanciego[@Lanciego:2012] ger en översikt av de basala gangliernas anatomi och funktioner. Lämplig att börja med.
+Lanciego[@Lanciego:2012] beskriver de basala gangliernas anatomi i detalj tillsammans med deras funktioner.
 
 Den som önskar fördjupa sig i området kan överväga att delta i någon av de kongresser som anordnas av International Basal Ganglia Society (www.ibags2017.org).
