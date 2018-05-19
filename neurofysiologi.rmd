@@ -12,7 +12,7 @@ Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral 
 
 ### Striatum
 
-Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontralateralt), samt från thalamus. De flesta av neuronerna i striatum är så kallade "Medium spiny neurons" (MSNs). Dessa uttrycker förutom glutamatreceptorer även dopaminreceptorer av D1-typ och/eller D2-typ. Hos 40% av MSN i striatum finns båda dessa receptortyper. Både D1-MSN och D2-MSN har även receptorer för andra signalsubstanser, tex acetylcholin. MSN-axonerna frisätter i sin tur GABA, vilket har en inhibitorisk effekt på målcellerna. Den sk direkta banan från _ventrala_ striatum domineras av D1-MSN och är kopplat till belöning emedan den indirekta banan domineras av D2-MSN och är kopplad till aversion. De direkta och indirekta banorna i _dorsala_ striatum är istället förbundna med motoriska funktioner.
+Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontralateralt) samt från thalamus. De flesta av neuronerna i striatum är så kallade "Medium spiny neurons" (MSNs). Dessa uttrycker förutom glutamatreceptorer även dopaminreceptorer av D1-typ och/eller D2-typ. Hos 40% av MSN i striatum finns båda dessa receptortyper. Dopamin stimulerar D1-MSN och hämmar aktiviteten i D2-MSN. Både D1-MSN och D2-MSN har även receptorer för andra signalsubstanser, tex acetylcholin. MSN-axonerna frisätter i sin tur GABA, vilket har en inhibitorisk effekt på målet. Den sk direkta banan från _ventrala_ striatum domineras av D1-MSN och är kopplat till belöning emedan den indirekta banan domineras av D2-MSN och är kopplad till aversion. De direkta och indirekta banorna i _dorsala_ striatum är istället förbundna med motoriska funktioner.
 
 Minus plus minus blir plus
 
@@ -32,6 +32,20 @@ Den svarta substansen (lat. _substantia nigra_) indelas i pars compacta (SNc) oc
 ### Subthalamuskärnan
 
 Nervcellerna här producerar glutamat och har därmed en stimulerande effekt. Kärnan får hämmande signaler från GPe och skickar excitatoriska signaler till GPi (via SNr?). Den är del av den _indirekta banan_.
+
+### Nigrostriatala banan
+
+Nigrostriatala banan går från substantia nigra (SNc) och utgör huvuddelen av det dopaminerga inflödet till striatum. Dopamin stimulerar D1-MSN och hämmar D2-MSN.
+
+### Mesostriatala banan
+
+Vantrala tegumentet
+
+### Mesolimbiska banan
+
+Indirekta banan: striato-GPe-STN-GPi/SNr.
+Direct striatopallidal: Striato-GPi/SNr
+Mesolimbiska banan: 
 
 ### Lista över de basala ganglierna och relaterade kärnor
 
