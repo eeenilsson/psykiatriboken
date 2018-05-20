@@ -10,7 +10,7 @@ Detta kapitel innehåller:
 
 ## Hjärnan och beroende
 
-De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. Deras anatomi och övergripande funktioner beskrivs i kapitel \@ref(nervsystemet), stycke \@ref(basala-ganglierna). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
+De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. Deras anatomi och övergripande funktioner beskrivs i kapitel \@ref(basala-ganglierna). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
 
 _Striatum_ kallas ett område i hjärnan som har betydelse för vår förmåga att välja mellan olika impulser för att nå bästa möjliga utfall. Detta område ingår i hjärnans belöningssystem, som aktiveras av droger. [@Volkow:2015]
 
