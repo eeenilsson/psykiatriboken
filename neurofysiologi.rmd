@@ -4,6 +4,8 @@
 
 De basala ganglierna (**Fig \@ref(fig:image-basal-ganglia-coronal)**) ligger djupt under hjärnbarkens främre del. De finreglerar motoriken och är inblandade i planering av målstyrt beteende, inlärning och vanemässiga beteenden. Inflödet av signaler kommer främst från hjärnbarken och efter bearbetning signalerar de basala ganglierna tillbaks dit via thalamus. På så vis reglerar de basala ganglierna avpassningen i tid (timing-) och graden av aktivitet för de signaler som går från hjärnbarken till pyramidbanorna, bland annat med följden att beteenden som leder till belöning stimuleras och beteenden som leder till negativa resultat hämmas.
 
+Utflödande signaler från basala ganglierna till talamus är förknippat med utförande av en rörelse, emedan upphörd signalering från basala ganglierna är förknippat med pausning av rörelsen. Paralella system inom de basala ganglierna, med liknande uppbyggnad, finns för motorik, ögonrörelser, exekutiva funktioner och emotioner.
+
 Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av särskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är viktig i detta sammanhang.
 
 <!-- \includegraphics[width=\textwidth]{../dropbox/images/psychiatry/basal_ganglia_coronal.png} --> 
@@ -12,7 +14,13 @@ Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral 
 
 ### Striatum
 
-Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontralateralt) samt från thalamus. De flesta av neuronerna i striatum är så kallade "Medium spiny neurons" (MSNs). Dessa uttrycker förutom glutamatreceptorer även dopaminreceptorer av D1-typ och/eller D2-typ. Hos 40% av MSN i striatum finns båda dessa receptortyper. Dopamin stimulerar D1-MSN och hämmar aktiviteten i D2-MSN. Både D1-MSN och D2-MSN har även receptorer för andra signalsubstanser, tex acetylcholin. MSN-axonerna frisätter i sin tur GABA, vilket har en inhibitorisk effekt på målet. Den sk direkta banan från _ventrala_ striatum domineras av D1-MSN och är kopplat till belöning emedan den indirekta banan domineras av D2-MSN och är kopplad till aversion. De direkta och indirekta banorna i _dorsala_ striatum är istället förbundna med motoriska funktioner.
+Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontralateralt) samt från thalamus. De flesta av neuronerna i striatum är så kallade "Medium spiny neurons" (MSNs). Dessa uttrycker förutom glutamatreceptorer även dopaminreceptorer av D1-typ och/eller D2-typ. Hos 40% (en del senare studier visar dock < 6% i dosala striatum) av MSN i striatum finns båda dessa receptortyper. Dopamin _stimulerar_ D1-MSN och _hämmar_ aktiviteten i D2-MSN. Både D1-MSN och D2-MSN har även receptorer för andra signalsubstanser, tex acetylcholin. MSN-axonerna frisätter i sin tur GABA, vilket har en inhibitorisk effekt på målet. Den sk direkta banan från _ventrala_ striatum domineras av D1-MSN och är kopplat till belöning emedan den indirekta banan domineras av D2-MSN och är kopplad till aversion. De direkta och indirekta banorna i _dorsala_ striatum är istället förbundna med motoriska funktioner.
+
+Striatum får glutamaterga signaler från amygdala och serotoninerga från Raphe Nuclei. Sådana serotinonerga banor kan ligga bakom levodopa-inducerade dyskinesier.
+
+D2-MSN----| GPe
+D1-MSN----GPi/SNr
+
 
 Minus plus minus blir plus
 
@@ -23,19 +31,49 @@ Striatum ------| GP -------| Thalamus-------> Cortex-------> Pyramidbanorna
 
 Nervcellerna i _pallidum_ (globus pallidus och ventrala pallidum) utsänder hämmande signaler (GABA) till sina mål, så länge de inte får signaler från striatum. Signaler från striatum till pallidum gör att deras aktivitet hos nervcellerna där minskar och därmed släpper hämningen av målstrukturerna som då ökar sin aktivitet (desinhiberas).
 
+Pallidum består av _ventrala pallidum_, _globus pallidus interna_ och _globus pallidus externa_. GPe och GPi består av liknande celltyper (stora, GABAerga neuroner) och kommunicerar med varandra.
+
 <!-- _Globus pallidus_ (som tillsammans med _ventrala pallidum_ utgör _pallidum_)får sitt tillflöde av signaler främst från övriga delar av striatum. Vid frånvaro av signaler till pallidum sänder nervcellerna där hämmande signaler (GABA) till sina mål. Signaler från striatum gör att deras aktivitet minskar och därmed sker avhämning av målstrukturerna som då ökar sin aktivitet. -->
 
-### Substantia nigra
+### Substantia nigra och globus pallidus interna
 
 Den svarta substansen (lat. _substantia nigra_) indelas i pars compacta (SNc) och pars reticulata (SNr). SNr kommunicerar med GPi och inhiberer _thalamus_ emedan SNc producerar dopamin och reglerar aktiviteten i _striatum_.
 
+SNr och GPi benämns ibland "output nuclei". Båda består av inhibitoriska GABAerga nervceller som avger tonisk, hämmande aktivitet till thalamus. D1-MSN i den direkta banan inhiberar SNr och GPi. När den indirekta banan hämmas av dopamin leder det också till minskad aktivitet i GPi.
+
+Subtalamuskärnan skickar excitatoriska, glutamaterga projektioner till GPi och SNr via den indirekta banan.
+
+### Globus pallidus externa
+
+GPe har GABAerga nerveller och erhåller hämmande GABA-signaler från D2-MSN i striatum.  Excitatoriska glutamat-signaler kommer till GPe från subthalamuskärnan.
+
 ### Subthalamuskärnan
 
-Nervcellerna här producerar glutamat och har därmed en stimulerande effekt. Kärnan får hämmande signaler från GPe och skickar excitatoriska signaler till GPi (via SNr?). Den är del av den _indirekta banan_.
+Nervcellerna här producerar glutamat och har därmed en stimulerande effekt. Kärnan får hämmande signaler från GPe och skickar excitatoriska signaler till GPe, GPi, SNr och delar av talamus. Kärnan är del av den _indirekta banan_. Den får glutamaterga signaler direkt från cortex via den _hyperdirekta banan_, som därmed förbipasserar basala gangliernas "input nuclei" och medför snabbare konduktionstid med starkt inflytande över basala gangliernas utflöde. Subthalamuskärnan kan delas in i en motorisk, associativ respektive limbisk region.
+
+I subthalamuskärnan sätts elektroder vid "deep brain stimulation".
+
+### Signalsubstanser i de basala ganglierna
+
+Dopaminerga nervceller i SNc innehåller neuromelanin, en prekursor till dopamin, som ger området dess svarta färg. Dessa nervceller förstörs gradvis vid Parkinsons sjukdom. Överlevande nervceller innehåller aggregat av felveckade proteiner vilka ses histologiskt som sk Lewy-kroppar.  
+
+Från ventrala tegumentet, SNc och retrorubrala området kommer dopaminergt inflöde till basala ganglierna. Ventrala tegumentet förser främst nucleus accumbens och områden i limbiska systemet, medan SNc och retrrubrala området främst utgör den nigrostriatala banan.
+
+### Basala gangliernas funktion
+
+I den klassika modellen beskrivs striato-pallidala kopplingen via direkta och indirekta banan, vilka med sin grundaktivitet har motsatta effekter på utflödet från de basala ganglierna. Via direkta banan inhiberas det toniska aktiviteten i GPi/SNr. Indirekta banan inhiberar GPe och desihiberar därmed subthalamuskärnan, vilken ökar den toniska aktiviteten i GPi/SNr. Den klassiska modellen har ifrågasatts, men fått stöd av senare forskning. Den klassiska modellen har modifierats och man har nu beskrivit re-entry kretsar inom de basala ganglierna och att detta nätverk kan gynna eller hämma samtidiga signaler snarare än hantera en signal åt gången. 
+
+Brist på dopamin medför ökad inhibitorisk aktivitet i förstaneuronen i den indirekta banan, vilka löper från striatum till GPe, vars inhibition av subthalamuskärnan då i sin tur minskar. Subthalamuskärnan ökar då sina glutamaterga signaler vilket ger överaktivering av inhibitoriska neuroner i GPi/SNr. Samtleder dopaminbristen till minskad inhibitorisk aktivitet i den direkta banan vilket bidrar till överaktivering av GPi/SNr. Denna överkativitet  försvårar pausning av det hämmande utflödet från GPi till thalamus och begränsar därför igångsättning och utförande av rörelser. Dyskinesi (hemichorea-ballism, levodopainducerade dyskinesier) kan med denna modell förstås som en reduktion i utflöde från GPi, dvs motsatsen till parkinsonism.
+
+De basala ganglierna kan delas in i funktioner, beroende på deras relation till olika områden i hjärbarken: Motorisk, associativ och emotionell/limbisk funktion. Dessa är förknippade med aktivitet i olika delar av striatum, med motoriska funktioner posteriort, emotionella funktioner ventralt.
+
+Tidsuppfattning, implicit lärande, vanebildning, belöningsrelaterat beteende, emotioner är exempel på funktioner som går via striatum.
+
+Artificiell blockering av olika delar av de basala ganglierna ger dyskinesier, stereotypier, hyperaktivitet, tics-liknande beteende, sexuellt beteende (erektion, ejakulation), kräkning med mera.
 
 ### Nigrostriatala banan
 
-Nigrostriatala banan går från substantia nigra (SNc) och utgör huvuddelen av det dopaminerga inflödet till striatum. Dopamin stimulerar D1-MSN och hämmar D2-MSN.
+Nigrostriatala banan går från substantia nigra (SNc) och utgör huvuddelen av det dopaminerga inflödet till striatum. Dopamin stimulerar D1-MSN och hämmar D2-MSN, vilket leder till ökad aktivitet i den direkta banan och samtidigt minskad aktivitet i den indirekta banans förstaneuron.
 
 ### Mesostriatala banan
 
@@ -89,7 +127,7 @@ include_graphics(newNamePdf)
 4. Substantia nigra(a)
 4.1 Pars compacta (SNc)
 4.2 Pars reticulata (SNr)
-5. Subthalamic nucleus(a) (sv. _subtalamuskärnan_)
+5. Subthalamic nucleus(a) (STN, sv. _subtalamuskärnan_)
 6. Pedunculopontine nucleus(a)
 
 Amygdala?
@@ -147,6 +185,6 @@ Historiskt (och ibland fortfarande) används begreppet "extrapyramidala syndrom"
 
 ### Referenser
 
-Lanciego[@Lanciego:2012] beskriver de basala gangliernas anatomi i detalj tillsammans med deras funktioner.
+Lanciego[@Lanciego:2012] beskriver de basala gangliernas anatomi i detalj tillsammans med deras funktioner. Läsvärd men delvis ganska ingående med detaljer som kanske är mest relevanta för forskare inom området.
 
 Den som önskar fördjupa sig i området kan överväga att delta i någon av de kongresser som anordnas av International Basal Ganglia Society (www.ibags2017.org).
