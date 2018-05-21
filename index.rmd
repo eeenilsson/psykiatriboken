@@ -1,5 +1,5 @@
 ---
-bibliography: ["../library/bibliography.bib"]
+bibliography: ["../library/psychiatry.bib"]
 csl: ../bibliography/oxford-scimed.csl
 
 ---

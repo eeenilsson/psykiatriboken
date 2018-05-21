@@ -4,7 +4,7 @@ De basala ganglierna (**Fig \@ref(fig:image-basal-ganglia-coronal)**) ligger dju
 
 Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av särskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är viktig i detta sammanhang.
 
-Kanske skall man börja med att beskriva de basala gangliernas output-kärnor (SNr, GPi) som toniskt hämmar thalamus.
+De basala ganglerna utövar sin effekt på impulser från hjärnbarken via talamus, som står under kontinuerlig hämning (GABA) från de basala gangliernas sk "output"-kärnor (utflödeskärnor, SNr, GPi). När aktiviteten i dessa utflödeskärnor ökas innebär det en starkare hämning av talamus och det motsatta sker vid minskad aktivitet.
 
 <!-- \includegraphics[width=\textwidth]{../dropbox/images/psychiatry/basal_ganglia_coronal.png} --> 
 
@@ -14,18 +14,35 @@ Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontrala
 
 Striatum får glutamaterga signaler från amygdala och serotoninerga från Raphe Nuclei. Sådana serotinonerga banor kan ligga bakom levodopa-inducerade dyskinesier.
 
-D2-MSN----| GPe
-D1-MSN----GPi/SNr
+
+## Den direkta och indirekta banan
+
+Signalerna från striatum till utflödeskärnan GPi kan förenklat beskrivas med två olika banor (**Fig \@ref(fig:original-basal-ganglia-model)**). 
+
+Den "direkta banan" går direkt från striatum till GPi och består i huvudsak av axoner från D1-MSN, vilka stimuleras av dopamin och har en hämmande (GABAerg) effekt på GPi. Aktivering av den direkta banan ger således ökad thalamusaktivitet.
+
+Den "indirekta banan" går från striatum till GPi med GPe och subtalamuskärnan som mellansteg. Neuronerna från striatum till GPe är (toniskt?) inhibitoriska, liksom neuronerna från GPe till subtalamuskärnan. Denna sänder i sin tur excitatoriska signaler till GPi. Eftersom neuronerna från striatum i denna bana är i huvudsak D2-MSN _hämmas_ de av dopamin, vilket leder till att hämningen av GPe släpper, varvid denna kärna förstärker sin hämning av subtalamuskärnan, med följden att GPi får minde stimuli. Sluteffekten av en hämning i den första delen av den indirekta banan (Striatum-GPi) blir ökad thalamusaktivitet.
+
+```{r direct-indirect-pathway, fig.cap="Indirect, direct and hyperdirect pathway." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/direct-indirect-pathway.png")
+
+``` 
+
+Not: Bilden stämmer inte riktigt med nedan. Kolla upp!
+
+<!-- D2-MSN----| GPe -->
+<!-- D1-MSN----GPi/SNr -->
 
 
-Minus plus minus blir plus
+<!-- Minus plus minus blir plus -->
 
-Striatum ------| GP -------| Thalamus-------> Cortex-------> Pyramidbanorna
+<!-- Striatum ------| GP -------| Thalamus------\-> Cortex------\-> Pyramidbanorna -->
 
 
 ## Pallidum ##
 
-Nervcellerna i _pallidum_ (globus pallidus och ventrala pallidum) utsänder hämmande signaler (GABA) till sina mål, så länge de inte får signaler från striatum. Signaler från striatum till pallidum gör att deras aktivitet hos nervcellerna där minskar och därmed släpper hämningen av målstrukturerna som då ökar sin aktivitet (desinhiberas).
+Nervcellerna i _pallidum_ (globus pallidus och ventrala pallidum) utsänder hämmande signaler (GABA) till sina mål, så länge de inte får signaler från striatum. Signaler från striatum till pallidum gör att aktiviteten hos nervcellerna där minskar och därmed släpper hämningen av målstrukturerna som då ökar sin aktivitet (desinhiberas).
 
 Pallidum består av _ventrala pallidum_, _globus pallidus interna_ och _globus pallidus externa_. GPe och GPi består av liknande celltyper (stora, GABAerga neuroner) och kommunicerar med varandra.
 
@@ -33,11 +50,10 @@ Pallidum består av _ventrala pallidum_, _globus pallidus interna_ och _globus p
 
 ## Substantia nigra och globus pallidus interna ##
 
-Den svarta substansen (lat. _substantia nigra_) indelas i pars compacta (SNc) och pars reticulata (SNr). SNr kommunicerar med GPi och inhiberer _thalamus_ emedan SNc producerar dopamin och reglerar aktiviteten i _striatum_.
+Den svarta substansen (lat. _substantia nigra_) indelas i pars compacta (SNc) och pars reticulata (SNr). SNr kommunicerar med GPi och inhiberer _thalamus_ genom att frisätta GABA. SNc å andra sidan producerar dopamin och reglerar aktiviteten i _striatum_.
 
-SNr och GPi benämns ibland "output nuclei". Båda består av inhibitoriska GABAerga nervceller som avger tonisk, hämmande aktivitet till thalamus. D1-MSN i den direkta banan inhiberar SNr och GPi. När den indirekta banan hämmas av dopamin leder det också till minskad aktivitet i GPi.
+SNr tillsammans med GPi benämns ibland "output nuclei". Båda består av inhibitoriska GABAerga nervceller som avger tonisk, hämmande aktivitet till thalamus. SNr och GPi hämmas av D1-MSN belägna i striatum via den direkta banan. De stimuleras av subtalamuskärnans glutamaterga projektioner som löper i senare delen av den indirekta banan. När den första delen av den indirekta banan (D2-MSN i striatum) hämmas av dopamin leder det också till minskad aktivitet i GPi.
 
-Subtalamuskärnan skickar excitatoriska, glutamaterga projektioner till GPi och SNr via den indirekta banan.
 
 ## Globus pallidus externa ##
 
@@ -57,14 +73,13 @@ Från ventrala tegumentet, SNc och retrorubrala området kommer dopaminergt infl
 
 ## Basala gangliernas funktion ##
 
-I den klassika modellen beskrivs striato-pallidala kopplingen via direkta och indirekta banan, vilka med sin grundaktivitet har motsatta effekter på utflödet från de basala ganglierna. Via direkta banan inhiberas det toniska aktiviteten i GPi/SNr. Indirekta banan inhiberar GPe och desihiberar därmed subthalamuskärnan, vilken ökar den toniska aktiviteten i GPi/SNr. Den klassiska modellen har ifrågasatts, men fått stöd av senare forskning. Den klassiska modellen har modifierats och man har nu beskrivit re-entry kretsar inom de basala ganglierna och att detta nätverk kan gynna eller hämma samtidiga signaler snarare än hantera en signal åt gången. 
+I den klassika modellen beskrivs striato-pallidala kopplingen via direkta och indirekta banan, vilka med sin grundaktivitet har motsatta effekter på utflödet från de basala ganglierna (**Fig \@ref(fig:original-basal-ganglia-model)**). Via direkta banan inhiberas det toniska aktiviteten i GPi/SNr. Indirekta banan inhiberar GPe och desihiberar därmed subthalamuskärnan, vilken ökar den toniska aktiviteten i GPi/SNr. Den klassiska modellen har ifrågasatts, men fått stöd av senare forskning. Den klassiska modellen har modifierats och man har nu beskrivit re-entry kretsar inom de basala ganglierna och att detta nätverk kan gynna eller hämma samtidiga signaler snarare än hantera en signal åt gången.  
 
 ```{r original-basal-ganglia-model, fig.cap="Original basal ganglia model." } 
 
 include_graphics("../dropbox/images/psychiatry/original_basal_ganglia_model.png")
 
 ``` 
- 
 
 Brist på dopamin medför ökad inhibitorisk aktivitet i förstaneuronen i den indirekta banan, vilka löper från striatum till GPe, vars inhibition av subthalamuskärnan då i sin tur minskar. Subthalamuskärnan ökar då sina glutamaterga signaler vilket ger överaktivering av inhibitoriska neuroner i GPi/SNr. Samtleder dopaminbristen till minskad inhibitorisk aktivitet i den direkta banan vilket bidrar till överaktivering av GPi/SNr. Denna överaktivitet  försvårar pausning av det hämmande utflödet från GPi till thalamus och begränsar därför igångsättning och utförande av rörelser. Dyskinesi (hemichorea-ballism, levodopainducerade dyskinesier) kan med denna modell förstås som en reduktion i utflöde från GPi, dvs motsatsen till parkinsonism.
 
