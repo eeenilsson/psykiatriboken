@@ -8,21 +8,16 @@ Detta kapitel innehåller:
 
 ## Epidemiologi
 
-## Hjärnan och beroende
+## Hjärnan och beroende {#abuse-brain}
 
-De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. Deras anatomi och övergripande funktioner beskrivs i kapitel \@ref(basala-ganglierna). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
+De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. Deras anatomi och övergripande funktioner beskrivs i kapitel \@ref(basal-ganglia). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
 
-_Striatum_ kallas ett område i hjärnan som har betydelse för vår förmåga att välja mellan olika impulser för att nå bästa möjliga utfall. Detta område ingår i hjärnans belöningssystem, som aktiveras av droger. [@Volkow:2015]
-
-När en beroendeframkallande drog (exemplevis kokain, amfetamin eller nikotin) används påverkas nervceller belägna i mitthjärnan (lat. _mesencephalon_), närmare bestämt den del av den "svarta substansen" (lat. _sustanta nigra_) som _benämns par compacta_, så att de via sina axoner frisätter höga nivåer dopamin till ett område i striatum kallat accumbenskärnan (lat. _nucleus accumbens_). Där finns celler med D1-receptorer som ingår i den sk "direkta banan" som leder till desinhibering av _thalamus_, vilket främjar beteendet[belöning?]. Där finns även celler med D2-receptorer som ingår i den "indirekta banan" som via _ventrala pallidum_ hämmar thalamus, vilket och är kopplad till bestraffning. Senare forskning har visat att celler med D1 receptorer även ingår i den indirekta banan och att celler med D2-receptorer ingår i den direkta banan. Förändrad aktivitet i båda dessa banor leder därmed till att beteendet förstärks.
-
-Där finns celler med D1-receptorer vars aktivering leder till desinhibering av thalamus och stimulering av det drogsökande beteendet. Aktiveriung av andra cellgrupper, med D2-receptorer, leder istället till hämning av beteendet.
+_Striatum_ kallas ett område i hjärnan som har betydelse för vår förmåga att välja mellan olika impulser för att nå bästa möjliga utfall. Detta område ingår i hjärnans belöningssystem, som aktiveras av droger. [@Volkow:2015] När en beroendeframkallande drog (exemplevis kokain, amfetamin eller nikotin) används påverkas nervceller belägna i mitthjärnan (lat. _mesencephalon_), närmare bestämt den del av den "svarta substansen" (lat. _sustanta nigra_) som _benämns par compacta_, så att de via sina axoner frisätter höga nivåer dopamin till ett område i striatum kallat accumbenskärnan (lat. _nucleus accumbens_). Där finns celler med D1-receptorer som aktiveras av dopamin. De ingår i den sk "direkta banan" vars aktivering leder till desinhibering av _talamus_, vilket främjar beteendet[belöning?]. Där finns även andra cellgrupper, som istället har D2-receptorer och ingår i den "indirekta banan". Dessa celler _hämmas_ av dopamin, vilket via kopplingar i andra nervkärnor stimulerar till ökad aktivitet i talamus. Förändrad aktivitet i båda dessa banor leder därmed till att beteendet förstärks.
 
 För adapteringen till dopaminagonister är direkta banan av störst betydelse.
 
 DIrect pathway: Associative rewarding stimuli vs nonassociatie ones
 Indirect pathway 
-
 
 As expected from the canonical circuitry, NAc D1-MSN activation promotes drug-seeking behavior while D2-MSNs had an inhibitory effect. However, other studies have shown that it is the input to the VP, rather than to the Vental Mesencephalon, which promotes reinstatement of drug-seeking behavior after withdrawal and that the VP itself, unlike its dorsal counterpart the globus pallidus, directly inhibits the thalamus
 

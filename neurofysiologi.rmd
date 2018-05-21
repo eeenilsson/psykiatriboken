@@ -1,8 +1,8 @@
-# De basala ganglierna {#basala-ganglierna}
+# De basala ganglierna {#basal-ganglia}
 
 De basala ganglierna (**Fig \@ref(fig:image-basal-ganglia-coronal)**) ligger djupt under hjärnbarkens främre del. De finreglerar motoriken och är inblandade i planering av målstyrt beteende, inlärning och vanemässiga beteenden. Inflödet av signaler kommer främst från hjärnbarken och efter bearbetning signalerar de basala ganglierna tillbaks dit via thalamus. På så vis reglerar de basala ganglierna avpassningen i tid (timing-) och graden av aktivitet för de signaler som går från hjärnbarken till pyramidbanorna, bland annat med följden att beteenden som leder till belöning stimuleras och beteenden som leder till negativa resultat hämmas. Utflödande signaler från basala ganglierna till talamus är förknippat med utförande av en rörelse, emedan upphörd signalering från basala ganglierna är förknippat med pausning av rörelsen. Paralella system inom de basala ganglierna med liknande uppbyggnad finns för motorik, ögonrörelser, exekutiva funktioner och emotioner.
 
-Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av särskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är viktig i detta sammanhang.
+Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av särskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är viktig i detta sammanhang. De basala gangliernas roll vid drogberoende diskuteras i stycke \@ref(abuse-brain).
 
 De basala ganglerna utövar sin effekt på impulser från hjärnbarken via talamus, som står under kontinuerlig hämning (GABA) från de basala gangliernas sk "output"-kärnor (utflödeskärnor, SNr, GPi). När aktiviteten i dessa utflödeskärnor ökas innebär det en starkare hämning av talamus och det motsatta sker vid minskad aktivitet.
 
@@ -21,7 +21,9 @@ Signalerna från striatum till utflödeskärnan GPi kan förenklat beskrivas med
 
 Den "direkta banan" går direkt från striatum till GPi och består i huvudsak av axoner från D1-MSN, vilka stimuleras av dopamin och har en hämmande (GABAerg) effekt på GPi. Aktivering av den direkta banan ger således ökad thalamusaktivitet.
 
-Den "indirekta banan" går från striatum till GPi med GPe och subtalamuskärnan som mellansteg. Neuronerna från striatum till GPe är (toniskt?) inhibitoriska, liksom neuronerna från GPe till subtalamuskärnan. Denna sänder i sin tur excitatoriska signaler till GPi. Eftersom neuronerna från striatum i denna bana är i huvudsak D2-MSN _hämmas_ de av dopamin, vilket leder till att hämningen av GPe släpper, varvid denna kärna förstärker sin hämning av subtalamuskärnan, med följden att GPi får minde stimuli. Sluteffekten av en hämning i den första delen av den indirekta banan (Striatum-GPi) blir ökad thalamusaktivitet.
+Den "indirekta banan" går från striatum till GPi med GPe och subtalamuskärnan som mellansteg. Neuronerna från striatum till GPe är (toniskt?) inhibitoriska, liksom neuronerna från GPe till subtalamuskärnan. Denna sänder i sin tur excitatoriska signaler till GPi. Eftersom neuronerna från striatum i denna bana är i huvudsak D2-MSN _hämmas_ de av dopamin, vilket leder till att hämningen av GPe släpper, varvid denna kärna förstärker sin hämning av subtalamuskärnan, med följden att GPi får minde stimuli. Sluteffekten av en hämning i den första delen av den indirekta banan (Striatum-GPi) blir ökad thalamusaktivitet. Senare forskning har visat att celler med D1 receptorer även ingår i den indirekta banan och att celler med D2-receptorer ingår i den direkta banan. 
+
+Direkta banan - belöning, indirekta banan aversion?
 
 ```{r direct-indirect-pathway, fig.cap="Indirect, direct and hyperdirect pathway." , out.width = '100%'} 
 
@@ -29,7 +31,12 @@ include_graphics("../dropbox/images/psychiatry/direct-indirect-pathway.png")
 
 ``` 
 
-Not: Bilden stämmer inte riktigt med nedan. Kolla upp!
+Note: Bilden stämmer inte riktigt med nedan. Kolla upp!
+
+
+Cortex -------> Striatum -------------------GABA-----------------------| GPi
+                    \
+					 \----GABA-----| GPe ----GABA----| Subthalamus ----> GPi
 
 <!-- D2-MSN----| GPe -->
 <!-- D1-MSN----GPi/SNr -->
