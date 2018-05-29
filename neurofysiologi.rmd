@@ -159,7 +159,7 @@ Amygdala?
 
 (a) Ingår ej i snäv mening i de basala ganglierna (som ligger i hjärnhalvorna), eftersom de ligger i mesencephalon, diencephalon respektive pons.
 
-Functional Neuroanatomy of the Basal Ganglia lanciego[@Lanciego:2012] ger en översikt.
+Functional Neuroanatomy of the Basal Ganglia lanciego[@Lanciego2012] ger en översikt.
 
 ### Lista över nervbanor
 
@@ -192,7 +192,7 @@ Emotioner
 
 ### Sjukdomar och symtom vid störd funktion i basala ganglierna ####
 
-Historiskt (och ibland fortfarande) används begreppet "extrapyramidala syndrom" för att beskriva störningar i de basala ganglierna, men detta begrepp anses förlegat och bör inte längre användas[@Lanciego:2012].
+Historiskt (och ibland fortfarande) används begreppet "extrapyramidala syndrom" för att beskriva störningar i de basala ganglierna, men detta begrepp anses förlegat och bör inte längre användas[@Lanciego2012].
 
 
 - Movement disorders
@@ -229,6 +229,6 @@ Blockering av den hämmande banan från striatum till GPe (vilket leder till des
 
 ### Referenser
 
-Lanciego[@Lanciego:2012] beskriver de basala gangliernas anatomi i detalj tillsammans med deras funktioner. Läsvärd men delvis ganska ingående med detaljer som kanske är mest relevanta för forskare inom området.
+Lanciego[@Lanciego2012] beskriver de basala gangliernas anatomi i detalj tillsammans med deras funktioner. Läsvärd men delvis ganska ingående med detaljer som kanske är mest relevanta för forskare inom området.
 
 Den som önskar fördjupa sig i området kan överväga att delta i någon av de kongresser som anordnas av International Basal Ganglia Society (www.ibags2017.org).

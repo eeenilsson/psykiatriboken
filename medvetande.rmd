@@ -8,13 +8,13 @@ Integrated Information Theory (IIT)
 
 Neural correlates of conciousness.
 
-Popular overview[@Koch:2018].
+Popular overview[@Koch2018].
 
 Exempel: Anestesipatienter som minns.
 
 # Att mäta medvetande
 
-Zap and zip[@Koch:2018].
+Zap and zip[@Koch2018].
 
 # Vakenhet
 

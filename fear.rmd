@@ -1,0 +1,34 @@
+# Rädsla
+
+Fear, anxiety, horror.
+
+Anatomy of fear
+
+Neurologiska mekanismer.
+
+Andning, hjärta, synintryck, arousal.
+
+Fobier, PTSD, agression.
+
+Fight freeze or flight. En vunnen fight ger belöning. Jfr skräckfilmer.
+
+## Referenser
+
+Threat Response System [@Elman2018].
+
+A midline thalamic circuit determines reactions to visual threat[@Salay2018].
+
+The neural circuits of innate fear: detection, integration, action, and memorization[@Silva2016].
+
+A meta-analysis of heart rate variability and neuroimaging studies thayer[@Thayer2012].
+
+Emotional processing in anterior cingulate and medial prefrontal cortex[@Etkin2011].
+
+Biological studies of post-traumatic stress disorder pitman[@Pitman2012].
+
+# Stress
+
+Stress and Heart Rate Variability: A Meta-Analysis and Review of the Literature [@Kim2018]
+
+
+
