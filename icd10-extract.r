@@ -16,8 +16,11 @@ library('tidyverse')
 ## ?extract_text
 
 ## read from pdf
-pages <- 2:8 ## set pages to extract
-test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = pages, area = NULL, password = NULL,
+## pages <- 2:8 ## set pages to extract
+## test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = pages, area = NULL, password = NULL,
+##                      encoding = NULL, copy = FALSE)
+
+test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", area = NULL, password = NULL,
                      encoding = NULL, copy = FALSE)
 
 ## extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1000)
@@ -82,6 +85,41 @@ testHeaders <- gsub("## Dr", "Dr", testHeaders)
 
 writeLines(testHeaders, "test.txt")
 x
+
+### TODO: ICD10 rsearch criteria
+## Some headlines in uppercase should be marked
+
+
+### DSM-5 (not the updated version)
+
+contents <-
+    extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 5:6) ## contents
+
+classifications <-     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 13:40) ## classifications list start on p13
+
+## make list of codes
+classificationsList <- classifications
+classificationsList[1] <- gsub("(?s).*(?=Ne)", "", classificationsList[1], perl=T)
+
+
+
+
+preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 41:44) ## classifications list start on p13
+
+
+section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
+
+section2 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67:68) ## "Diagnostic criteria and codes".
+
+
+section2a <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69) ## "Neurodevelopmental disorders".
+
+extract_tables("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 72) ## table, cannot be read
+
+
+
+x
+
 
 
 ### multiple pages from list
