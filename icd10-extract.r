@@ -21,14 +21,16 @@ test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf",
 
 ## extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1000)
 
-## get page number, then remove it
+## get page number
 ## Note: If page number is to be used, we neeed to make a loop iterating reading one page at a time.
 ## Note: You have to use \\1 and \\2 to replace the term inside the first and second () with itself.
 ## pageNumber <- gsub("^.*(- [[:digit:]]{2} -).*$","\\1", test)
 ## pageNumber <- gsub("- ", "", pageNumber)
 ## pageNumber <- gsub(" -", "", pageNumber)
 ## pageNumber <- as.numeric(pageNumber)
-## test <- gsub("- [0-9]* -", "", test) ## remove page number
+
+## remove page number
+test <- gsub("- [0-9]* -", "", test) 
 
 ## citations (very few exist?)
 ## citations <- gsub("^.*(\\.[[:digit:]]{1}).*$","\\1", test)
@@ -50,19 +52,37 @@ testHeaders <- gsub("\n ", "\n", testHeaders) ## remove leading blank
 
 ## export
 testList <- strsplit(testHeaders, "\n") ## split by newline
+writeLines(testList, "test.txt")
+
+
+testList <- lapply(testHeaders, function(x) strsplit(x, "\n"))
+
+
 str(testList)
 names(testList) <- "text"
+
+?capture.output
+?sink
+length(testList)
+
+for(i in length(testList)){
+    writeLines(testList[i], con = "test.txt")
+    
+}
+
+?writeLines
+write(as.character(testList[1]), file = "test.txt")
+
+testList[1]
 
 ## test get quotes (removing duplicates)
 source('../functions/get_quote.r')
 get_quotes(testList$text, "children")[!duplicated(get_quotes(testList$text, "children"))]
 
-
+## Notes below
 
 getwd()
 setwd("../psykiatriboken/")
-test
-?gsub
 
 ?regmatches
  x <- c("A and B", "A, B and C", "A, B, C and D", "foobar")
@@ -70,14 +90,6 @@ test
      ## Match data from regexpr()
      m <- regexpr(pattern, x)
      regmatches(x, m)
-
-
-gsub("\\.[0-9]", "", test)
-
-gsub("[[:space:]]\n", " " , "hnmnm \nmm \n nn")
-
-gsub("\b", "hello" , "hn mnm nmm n oo")
-
 
 
 ## list of tables, p 2:8
