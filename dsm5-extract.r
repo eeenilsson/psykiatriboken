@@ -47,21 +47,33 @@ section2a[1] <- gsub("(?s).*(?=\nIntelle)", "", section2a[1], perl=T) ## remove 
 ## section2a[1] <- gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", section2a[1], perl=T) ## remove \n not followed by parens or CAP.
 section2a <- paste(section2a, collapse = "") ## collapse to one
 
+## remove - at end of line
+section2a <- gsub("­\n", "", section2a)
+
 section2a <- gsub("(?s)\n(?!\\(|[A-Z])", "", section2a, perl=T) ## remove \n not followed by parens or CAP
-## test
-substr(gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", section2a, perl=T), 4000, 5000)
 
-section2a
-
-
+## identify headers as lines without punctuation characters
+section2a <- gsub("((?<=\n)(?:(?![[:punct:]]).)+(?=\n){1}?)", "## \\1", section2a, perl=T)
 
 ## format details
-section2a <- gsub("Note:", "\nNote:", section2a)
-section2a <- gsub("Coding note:", "\nCoding note:", section2a)
-section2a <- gsub("Specify", "\nSpecify", section2a)
-section2a <- gsub("Specifiers", "\n## Specifiers\n", section2a)
+## section2a <- gsub("Note:", "\nNote:", section2a)
+## section2a <- gsub("Coding note:", "\nCoding note:", section2a)
+## section2a <- gsub("Specify", "\nSpecify", section2a)
+section2a <- gsub("Reiationship", "Relationship", section2a)
+section2a <- gsub("Deveiopment", "Development", section2a)
+section2a <- gsub("Reiated", "Related", section2a)
+section2a <- gsub("iVlaricers", "Markers", section2a)
+section2a <- gsub("lUloderate", "Moderate", section2a)
+## section2a <- gsub("Specifiers", "## Specifiers", section2a)
 section2a <-
-    gsub("Specify(.*:\n)", "\nSpecify\\1", section2a)
+    gsub("Specify(.*:\n)", "Specify\\1", section2a)
+section2a <- gsub("\n", "\n\n", section2a) ## double newline
+section2a <- gsub("(?s)\\.&.*Æu cru", "", section2a, perl = T) ## remove table
+
+## chunk specific replacements
+section2a <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", section2a)
+section2a <-
+    gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", section2a)
 
 ## write
 writeLines(section2a[1], "section2a.txt")
