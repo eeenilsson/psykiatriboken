@@ -64,10 +64,6 @@ A classification is a way of seeing the world at a point in time. There is no do
 
 12.Sartorius, N. et al. Progress towards achieving a common language in psychiatry: results from the field trials of the clinical guidelines accompanying the WHO Classification of Mental and Behavioural Disorders in ICD-10. Archives of general psychiatry, 1993, 50:115-124. 
 
-## 
-
-## 
-
  
 
 ## Acknowledgements 
@@ -138,12 +134,6 @@ Dr N. Wig, Regional Adviser for Mental Health, World Health Organization, Region
 
 ## Dr Yang De-sen, Hunan Medical College, Changsha, Hunan, China 
 
-## 
-
-## 
-
-## 
-
  
 
 ## Introduction 
@@ -176,8 +166,6 @@ The chapter that dealt with mental disorders in ICD-9 had only 30 three-characte
 
 ICD-10 as a whole is designed to be a central ("core") classification for a family of disease- and health-related classifications. Some members of the family of classifications are derived by using a fifth or even sixth character to specify more detail. In others, the categories are condensed to give broad groups suitable for use, for instance, in primary health care or general medical practice. There is a multiaxial presentation of Chapter V(F) of ICD-10 and a version for child psychiatric practice and research. The "family" also includes classifications that cover information not contained in the ICD, but having important medical or health implications, e.g. the classification of impairments, disabilities and handicaps, the classification of procedures in medicine, and the classification of reasons for encounter between patients and health workers. 
 
-## 
-
  
 
 ## Neurosis and psychosis 
@@ -195,8 +183,6 @@ The new arrangement of mental and behavioural disorders due to psychoactive subs
 The block that covers schizophrenia, schizotypal states and delusional disorders (F20-F29) has been expanded by the introduction of new categories such as undifferentiated schizophrenia, postschizophrenic depression, and schizotypal disorder. The classification of acute short-lived psychoses, which are commonly seen in most developing countries, is considerably expanded compared with that in the ICD-9. 
 
 Classification of affective disorders has been particularly influenced by the adoption of the principle of grouping together disorders with a common theme. Terms such as "neurotic depression" and "endogenous depression" are not used, but their close equivalents can be found in the different types and severities of depression now specified (including dysthymia (F34.1)). 
-
-## 
 
  
 
@@ -220,8 +206,6 @@ The term "psychogenic" has not been used in the titles of categories, in view of
 
 ## Impairment, disability, handicap and related terms 
 
-## 
-
  
 
 The terms "impairment", "disability" and "handicap" are used according to the recommendations of the system adopted by WHO.1 Occasionally, where justified by clinical tradition, the terms are used in a broader sense. See also pages 8 and 9 regarding dementia and its relationships with impairment, disability and handicap. 
@@ -240,8 +224,6 @@ It is recommended that clinicians should follow the general rule of recording as
 
 The use of other chapters of the ICD-10 system in addition to Chapter V(F) is strongly recommended. The categories most relevant to mental health services are listed in the Annex to this book. 
 
-## 
-
 1International classification of impairments, disabilities and handicaps. Geneva, World Health Organization, 1980. 
 
  
@@ -249,8 +231,6 @@ The use of other chapters of the ICD-10 system in addition to Chapter V(F) is st
 ## Notes on selected categories in the classification of mental and behavioural disorders in ICD-10 
 
 In the course of preparation of the ICD-10 chapter on mental disorder, certain categories attracted considerable interest and debate before a reasonable level of consensus could be achieved among all concerned. Brief notes are presented here on some of the issues that were raised. 
-
-## 
 
 ## Dementia (F01-F03) and its relationships with impairment, disability and handicap 
 
@@ -260,15 +240,11 @@ This is an opportune moment to refer to the general issue of the relationships b
 
 In contrast, a handicap ("the disadvantage for an individual... that prevents or limits the performance of a role that is normal...for that individual") represents the effects of impairments or disabilities in a wide social context that may be heavily influenced by culture. Handicaps should therefore not be used as essential components of a diagnosis. 
 
-## 
-
 2International classification of impairments, disabilities and handicaps. Geneva, World Health Organization, 1980. 
 
  
 
-## 
-
-Duration of symptoms required for schizophrenia (F20.-) 
+## Duration of symptoms required for schizophrenia (F20.-) 
 
 ## Prodromal states 
 
@@ -276,13 +252,9 @@ Before the appearance of typical schizophrenic symptoms, there is sometimes a pe
 
 If a prodrome typical of and specific to schizophrenia could be identified, described reliably, and shown to be uncommon in those with other psychiatric disorders and those with no disorders at all, it would be justifiable to include a prodrome among the optional criteria for schizophrenia. For the purposes of ICD-10, it was considered that insufficient information is available on these points at present to justify the inclusion of a prodromal state as a contributor to this diagnosis. An additional, closely related, and still unsolved problem is the extent to which such prodromes can be distinguished from schizoid and paranoid personality disorders. 
 
-## 
-
-Separation of acute and transient psychotic disorders (F23.-) from schizophrenia (F20.-) 
+## Separation of acute and transient psychotic disorders (F23.-) from schizophrenia (F20.-) 
 
 In ICD-10, the diagnosis of schizophrenia depends upon the presence of typical delusions, hallucinations or other symptoms (described on pages 86-89), and a minimum duration of 1 month is specified. 
 
 Strong clinical traditions in several countries, based on descriptive though not epidemiological studies, contribute towards the conclusion that, whatever the nature of the dementia praecox of Kraepelin and the schizophrenias of Bleuler, it, or they, are not the same as very acute psychoses that have an abrupt onset, a short course of a few weeks or even days, and a favourable outcome. Terms such as "bouffée délirante", "psychogenic psychosis", "schizophreniform psychosis", "cycloid psychosis" and "brief reactive psychosis" indicate the widespread but diverse opinion and traditions that have developed. Opinions and evidence also vary as to whether transient but typical schizophrenic symptoms may occur with these disorders, and whether they are usually or always associated with acute psychological stress (bouffée délirante, at least, was originally described as not usually associated with an obvious psychological precipitant). 
-
-## 
 

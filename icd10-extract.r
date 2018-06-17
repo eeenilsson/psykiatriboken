@@ -16,7 +16,8 @@ library('tidyverse')
 ## ?extract_text
 
 ## read from pdf
-test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1:14, area = NULL, password = NULL,
+pages <- 14 ## set pages to extract
+test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = pages, area = NULL, password = NULL,
                      encoding = NULL, copy = FALSE)
 
 ## extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1000)
@@ -39,12 +40,32 @@ test <- gsub("- [0-9]* -", "", test)
 test <- gsub("\n(?=[^ ])", "", test, perl = T, ignore.case=TRUE) ## regexp with lookahead removes only newlines in text
 
 test <- gsub("(\n[[:space:]]){2,}", "\n ", test) ## reduce ocurrances of two or more \n to one \n
+test <- gsub("(\n[[:space:]]*\n)", "\n ", test) ## repeat but no space after last \n
 
-test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more speces
+test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more spaces
 
 ## Identify headers - newlines not ending with dot before next newline (add hash to these)
-testHeaders <-
-    gsub("((?<=\n){1}[^$.|\n]*(?=[[:space:]]\n){1}?)", "##\\1", perl = TRUE, ignore.case=TRUE, test) ## [^$.|\n] matches NOT ^$. OR \n
+## testHeaders <-
+##     gsub("((?<=\n){1}[^$.|\n]*(?=[[:space:]]\n){1}?)", "##\\1", perl = TRUE, ignore.case=TRUE, test) ## [^$.|\n] matches NOT ^$. OR \n
+## Note: this misses headers with dots inside header
+
+## test dot at end
+testHeaders <- gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", test, perl = TRUE) ### works?
+
+## testHeaders <-
+##     gsub("((?<=\n){1}[^$(.)]*(?=[[:space:]]\n){1}?)", "##\\1", perl = TRUE, ignore.case=TRUE, test) 
+## /(.*)\.[^.]+$/
+## gsub("/(.*).[^\.]+$/", "", "test.pdf", perl = TRUE)
+## gsub("\\.\\s", "", "test. pdf test.pdf") ## works
+## gsub("[^(es)]", "", "test. pdf texst.pdf")
+## gsub("^(?:(?!es).)+$", "", "test. pdf texst.pdf", perl = TRUE)
+## gsub("^(?:(?!\n).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE)
+## gsub("^(?:(?!\\.).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE) ## not dot
+## gsub("^(?:(?!\\.[[:blank:]]).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE)
+## gsub("^(?:(?!\\.[[:blank:]]).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE)
+## gsub("(?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?", "", "\n test.header \n This is text. Here also. \n", perl = TRUE) ### works?
+
+## gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", "\n test.header \n Another header \n This is text. Here also. \n", perl = TRUE) ### works?
 
 ## format
 testHeaders <- gsub("\n", "\n \n", testHeaders) ## double newline
@@ -59,7 +80,9 @@ testHeaders <- gsub("\n ", "\n", testHeaders) ## remove leading blank
 ## multiple pages
 testList <- lapply(testHeaders, function(x) strsplit(x, "\n"))
 for(i in 1:length(testList)){
-    write(testList[[i]][[1]], file = "test.txt", append = TRUE)
+    write(testList[[i]][[1]], file = "test.txt"
+       , append = TRUE
+          )
     
 }
 
