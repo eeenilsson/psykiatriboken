@@ -48,17 +48,22 @@ test <- gsub("(\n[[:space:]]*\n)", "\n ", test) ## repeat but no space after las
 
 
 ## Identify headers - newlines not ending with dot before next newline (add hash to these)
-testHeaders <- gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", test, perl = TRUE) ### works?
+testHeaders <- gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", test, perl = TRUE)
 
 ## remove newlines at start and end of ecah list element if not associated with header
 gsub("^[[:blank:]]\n.(?!#)","", " \n (ICD-10) text." , perl = TRUE)
 gsub("^[[:blank:]]\n.(?!#)","", " \n## Preface \n In the" , perl = TRUE)
 
+## remove newlines at start of chunk if not header
+testHeaders <- lapply(testHeaders, function(x) gsub("^[[:blank:]]\n.(?!#)","", x, perl = TRUE))
 
-    
-testHeaders[1]
+## remove newlines at end of chunk if not part of header
+testHeaders <- lapply(testHeaders, function(x) gsub("(?<!\n##)\n$","", x , perl = TRUE))
 
-
+## notheader <- "\n## Introduction \n They may also be suitable for some types of \n"
+## header <- "They may also be suitable for some types. \n## Introduction \n"
+## gsub("(?<!\n##)\n$","", notheader , perl = TRUE)
+## gsub("(?<!\n##)\n$","", header , perl = TRUE)
 
 ## format
 testHeaders <- gsub("\n", "\n \n", testHeaders) ## double newline
