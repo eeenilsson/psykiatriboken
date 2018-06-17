@@ -16,7 +16,7 @@ library('tidyverse')
 ## ?extract_text
 
 ## read from pdf
-pages <- 14 ## set pages to extract
+pages <- 2:8 ## set pages to extract
 test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = pages, area = NULL, password = NULL,
                      encoding = NULL, copy = FALSE)
 
@@ -39,13 +39,26 @@ test <- gsub("- [0-9]* -", "", test)
 ## remove newlines appearing inside text chunks
 test <- gsub("\n(?=[^ ])", "", test, perl = T, ignore.case=TRUE) ## regexp with lookahead removes only newlines in text
 
+test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more spaces
+
+## here
+
 test <- gsub("(\n[[:space:]]){2,}", "\n ", test) ## reduce ocurrances of two or more \n to one \n
 test <- gsub("(\n[[:space:]]*\n)", "\n ", test) ## repeat but no space after last \n
 
-test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more spaces
 
 ## Identify headers - newlines not ending with dot before next newline (add hash to these)
 testHeaders <- gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", test, perl = TRUE) ### works?
+
+## remove newlines at start and end of ecah list element if not associated with header
+gsub("^[[:blank:]]\n.(?!#)","", " \n (ICD-10) text." , perl = TRUE)
+gsub("^[[:blank:]]\n.(?!#)","", " \n## Preface \n In the" , perl = TRUE)
+
+
+    
+testHeaders[1]
+
+
 
 ## format
 testHeaders <- gsub("\n", "\n \n", testHeaders) ## double newline
