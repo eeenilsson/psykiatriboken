@@ -12,31 +12,29 @@ library('rJava')
 library("tabulizer")
 library('tidyverse')
 
-# functions
-
-
-?extract_tables
-?extract_text
+## ?extract_tables
+## ?extract_text
 
 ## read from pdf
-test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 12, area = NULL, password = NULL,
+test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 14, area = NULL, password = NULL,
                      encoding = NULL, copy = FALSE)
 
-extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1000)
-
-## remove newlines appearing inside text chunks
-test <- gsub("\n(?=[^ ])", "", test, perl = T, ignore.case=TRUE) ## regexp with lookahead removes only newlines in text
+## extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1000)
 
 ## get page number, then remove it
+## Note: If page number is to be used, we neeed to make a loop iterating reading one page at a time.
 ## Note: You have to use \\1 and \\2 to replace the term inside the first and second () with itself.
-pageNumber <- gsub("^.*(- [[:digit:]]{2} -).*$","\\1", test)
-pageNumber <- gsub("- ", "", pageNumber)
-pageNumber <- gsub(" -", "", pageNumber)
-pageNumber <- as.numeric(pageNumber)
-test <- gsub("- [0-9]* -", "", test) ## remove page number
+## pageNumber <- gsub("^.*(- [[:digit:]]{2} -).*$","\\1", test)
+## pageNumber <- gsub("- ", "", pageNumber)
+## pageNumber <- gsub(" -", "", pageNumber)
+## pageNumber <- as.numeric(pageNumber)
+## test <- gsub("- [0-9]* -", "", test) ## remove page number
 
 ## citations (very few exist?)
 ## citations <- gsub("^.*(\\.[[:digit:]]{1}).*$","\\1", test)
+
+## remove newlines appearing inside text chunks
+test <- gsub("\n(?=[^ ])", "", test, perl = T, ignore.case=TRUE) ## regexp with lookahead removes only newlines in text
 
 test <- gsub("(\n[[:space:]]){2,}", "\n ", test) ## reduce ocurrances of two or more \n to one \n
 
