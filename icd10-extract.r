@@ -1,16 +1,5 @@
 ## packages
-library('rJava')
-library("tabulizer")
-library('tidyverse')
-
 pacman::p_load(tidyverse, tabulizer, rJava)
-
-pacman::p_load(rJava)
-
-## packages
-library('rJava')
-library("tabulizer")
-library('tidyverse')
 
 ## ?extract_tables
 ## ?extract_text
@@ -90,35 +79,6 @@ x
 ## Some headlines in uppercase should be marked
 
 
-### DSM-5 (not the updated version)
-
-contents <-
-    extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 5:6) ## contents
-
-classifications <-     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 13:40) ## classifications list start on p13
-
-## make list of codes
-classificationsList <- classifications
-classificationsList[1] <- gsub("(?s).*(?=Ne)", "", classificationsList[1], perl=T)
-
-
-
-
-preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 41:44) ## classifications list start on p13
-
-
-section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
-
-section2 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67:68) ## "Diagnostic criteria and codes".
-
-
-section2a <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69) ## "Neurodevelopmental disorders".
-
-extract_tables("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 72) ## table, cannot be read
-
-
-
-x
 
 
 
