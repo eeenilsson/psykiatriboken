@@ -1,0 +1,167 @@
+## packages
+library('rJava')
+library("tabulizer")
+library('tidyverse')
+
+pacman::p_load(tidyverse, tabulizer, rJava)
+
+pacman::p_load(rJava)
+
+## packages
+library('rJava')
+library("tabulizer")
+library('tidyverse')
+
+# functions
+
+
+?extract_tables
+?extract_text
+
+## read from pdf
+test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 12, area = NULL, password = NULL,
+                     encoding = NULL, copy = FALSE)
+
+## remove newlines appearing inside text chunks
+test <- gsub("\n(?=[^ ])", "", test, perl = T, ignore.case=TRUE) ## regexp with lookahead removes only newlines in text
+
+## get page number, then remove it
+## Note: You have to use \\1 and \\2 to replace the term inside the first and second () with itself.
+pageNumber <- gsub("^.*(- [[:digit:]]{2} -).*$","\\1", test)
+pageNumber <- gsub("- ", "", pageNumber)
+pageNumber <- gsub(" -", "", pageNumber)
+pageNumber <- as.numeric(pageNumber)
+test <- gsub("- [0-9]* -", "", test) ## remove page number
+
+## citations (very few exist?)
+## citations <- gsub("^.*(\\.[[:digit:]]{1}).*$","\\1", test)
+
+test <- gsub("(\n[[:space:]]){2,}", "\n ", test) ## reduce ocurrances of two or more \n to one \n
+
+test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more speces
+
+## newlines not ending with dot before next newline = header
+## eg \n Children and adolescents \n
+testHash <-
+    gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
+
+gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
+
+gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
+
+
+
+    gsub("((!((?<=\n ##)[^$.]*(?=[[:space:]]\n)))((?<=\n){1}[^$.]*(?=[[:space:]]\n){1}))", " ##\\1", perl = TRUE, ignore.case=TRUE, testHash) ## add hash at headlines
+
+
+gsub("
+
+
+
+
+(?<=\n)[^$.]*(?=[[:space:]]\n))", " ###\\2", perl = TRUE, ignore.case=TRUE, testHash) ## add hash at headlines
+
+
+
+gsub("^.*(\n).*$","\\1", test)
+
+gsub("(\n )((?!symptoms).)*(\n )","\\1", perl = TRUE, test)
+
+gsub("(\n )(?!\n)*(?!adolescents)*(\n )","", perl = TRUE, test)
+
+gsub("(\n )(?!\n)*(adolescents)*(\n )","", perl = TRUE, test)
+
+gsub("\n Children and adolescents \n","", perl = TRUE, test)
+
+gsub("\n(?!\n)*(?!\\.) \n","", perl = TRUE, test)
+
+gsub("\n[[:space:]].*","", perl = TRUE, ignore.case=TRUE, test) ## \n
+
+gsub("\n[[:space:]].*adolescents[a-z]*[[:space:]]\n","", perl = TRUE, ignore.case=TRUE, test) ## \n
+
+gsub("\n[[:space:]].*adolescents[a-z]*(?!\\w*\\.\b)[[:space:]]\n","", perl = TRUE, ignore.case=TRUE, test) 
+
+gsub("\n[[:space:]].*[a-z]*(?!\\.[[:space:]])[[:space:]]\n","", perl = TRUE, ignore.case=TRUE, test) 
+
+gsub("(?<=\n){1}[^$.]*(?=[[:space:]]\n){1}","", perl = TRUE, ignore.case=TRUE, test) ## works
+
+gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
+
+
+
+gsub("([ab])", "\\1_n", "abc and ABC")
+
+?gsub
+
+gsub("[^.]", "\\2", "hello.you www", perl=T)
+
+##(?<!a) ## not preceded by a
+
+test
+
+output <- strsplit(test, "\n") ## split by newline
+output <- output[[1]] ## to chr vector
+
+output[[1]][[4]]
+
+str(output)
+
+write_lines(output, "output.txt")
+getwd()
+setwd("../psykiatriboken/")
+test
+?gsub
+
+?regmatches
+ x <- c("A and B", "A, B and C", "A, B, C and D", "foobar")
+     pattern <- "[[:space:]]*(,|and)[[:space:]]"
+     ## Match data from regexpr()
+     m <- regexpr(pattern, x)
+     regmatches(x, m)
+
+
+gsub("\\.[0-9]", "", test)
+
+gsub("[[:space:]]\n", " " , "hnmnm \nmm \n nn")
+
+gsub("\b", "hello" , "hn mnm nmm n oo")
+
+
+
+## list of tables, p 2:8
+tab <- extract_tables("variables_in_evolve_define.pdf", pages = 2:8)
+tab_df <- as.data.frame(do.call("rbind", tab)) # make df
+## names(df) <- df[1,] # set colnames, not meaningful when writing csv
+write_csv(tab_df, "variable_tables.csv") # write csv
+
+## variables
+P <- 9:481
+vars <- extract_tables("variables_in_evolve_define.pdf", pages = P)
+vars_df <- as.data.frame(do.call("rbind", vars)) # make df
+referred <- lapply(
+    extract_text("variables_in_evolve_define.pdf", pages = P),
+       get_referred_vars) # gather text that matches the referred variable
+vars_df <- cbind( ## add column with referred variable
+    vars_df,
+    referred = insert_at(vars_df[,1], "Variable", unlist(referred))
+)
+levels(vars_df[["referred"]]) <- c(levels(vars_df[["referred"]]),"referred")
+vars_df["referred"][1,] <- "referred" # add to first row
+colnames(vars_df) <- as.character(unlist(vars_df[1,]))
+vars_df <- vars_df[-1,] # remove first row (colnames)
+write_csv(vars_df, "variables.csv") # write csv
+
+# NOTE: do the renaming for all sets
+
+## code list, p 482:577 (refers to variables: controlled terms or format)
+P <- 482:577
+codes <- extract_tables("variables_in_evolve_define.pdf", pages = P)
+codes_df <- as.data.frame(do.call("rbind", codes)) # make df
+referred <- lapply(
+    extract_text("variables_in_evolve_define.pdf", pages = P),
+       get_referred) # gather text that matches the referred variable
+codes_df <- cbind( ## add column with referred variable
+    codes_df,
+    referred = insert_at(codes_df[,1], "Code Value", unlist(referred))
+)
+write_csv(codes_df, "codes.csv") # write csv

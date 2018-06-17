@@ -1,0 +1,18 @@
+# Depression
+
+Guidelines on Choice and Selection of Antidepressants for the Management of Depression [@guidelines_antidepressants2016].
+
+Backing into the future: pharmacological approaches to the management of resistant depression [@Cowen2017]: ". For patients who have failed to respond to two antidepressant trials, augmentation with atypical anti-psychotic drugs, speciﬁcally quetiapine and aripiprazole, has the best evidence for efﬁcacy, though older treatments such as lithium and triiodothyronine still have utility."
+
+Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder [@Cipriani2018]: "In head-to-head studies, agomelatine, amitriptyline, escitalopram, mirtazapine, paroxetine, venlafaxine, and vortioxetine were more effective than other antidepressants"
+
+Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder [@Jakobsen2017].
+
+
+# Bipolär sjukdom
+
+Efficacy and Effectiveness of Lithium in the Long-Term Treatment of Bipolar Disorders: An Update 2018 [@Severus2018].
+
+Prediction Model of Serum Lithium Concentrations [@Yoshida2018]
+
+Treatments for Acute Bipolar Depression: Meta-analyses of Placebo-controlled, Monotherapy Trials of Anticonvulsants, Lithium and Antipsychotics [@Selle2014].
