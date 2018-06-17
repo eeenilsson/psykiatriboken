@@ -1,22 +1,22 @@
-Unspecified Tobacco-Related Disorder ̂ 292.9 (F17.209)
+Unspecified Tobacco-Related Disorder 292.9 (F17.209)
 
 This category applies to presentations in which symptoms characteristic of a tobacco- related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any specific tobacco-related disorder or any of the disorders in the substance-related and addictive disorders diagnostic class.
 
-Other (or Unknown) 
+## Other (or Unknown) 
 
-Substance-Related Disorders
+## Substance-Related Disorders
 
-Other (or Unknown) Substance Use Disorder 
+## Other (or Unknown) Substance Use Disorder 
 
-Other (or Unknown) Substance Intoxication 
+## Other (or Unknown) Substance Intoxication 
 
-Other (or Unknown) Substance Withdrawal 
+## Other (or Unknown) Substance Withdrawal 
 
-Other (or Unknown) Substance-Induced Disorders 
+## Other (or Unknown) Substance-Induced Disorders 
 
-Unspecified Other (or Unknown) Substance-Related Disorder
+## Unspecified Other (or Unknown) Substance-Related Disorder
 
-Other (or Unknown) Substance Use Disorder
+## Other (or Unknown) Substance Use Disorder
 
 ## Diagnostic Criteria
 
@@ -38,21 +38,17 @@ A. A problematic pattern of use of an intoxicating substance not able to be clas
 
 8. Recurrent use of the substance in situations in which it is physically hazardous.
 
-9. Use of the substance is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by the substance.
-
-10. Tolerance, as defined by either of the following:a. A need for markedly increased amounts of the substance to achieve intoxication or desired effect.b. A markedly diminished effect with continued use of the same amount of the substance.
-
-11. Withdrawal, as manifested by either of the following:a. The characteristic withdrawal syndrome for other (or unknown) substance (refer to 
+9. Use of the substance is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by the substance.10. Tolerance, as defined by either of the following:a. A need for markedly increased amounts of the substance to achieve intoxication or desired effect.b. A markedly diminished effect with continued use of the same amount of the substance.11. Withdrawal, as manifested by either of the following:a. The characteristic withdrawal syndrome for other (or unknown) substance (refer to 
 
 Criteria A and B of the criteria sets for other [or unknown] substance withdrawal, p. 583).b. The substance (or a closely related substance) is taken to relieve or avoid withdrawal symptoms.
 
-Specify if:
+## Specify if:
 
 In early remission: After full criteria for other (or unknown) substance use disorder were previously met, none of the criteria for other (or unknown) substance use disorder have been met for at least 3 months but for less than 12 months (with the exception that Criterion A4, “Craving, or a strong desire or urge to use the substance,” may be met).
 
 In sustained remission: After full criteria for other (or unknown) substance use disorder were previously met, none of the criteria for other (or unknown) substance use disorder have been met at any time during a period of 12 months or longer (with the exception that Criterion A4, “Craving, or a strong desire or urge to use the substance,” may be met).
 
-Specify if:
+## Specify if:
 
 In a controlled environment: This additional specifier is used if the individual is in an environment where access to the substance is restricted.
 
@@ -60,7 +56,7 @@ Coding based on current severity: Note for ICD-10-CM codes: If an other (or unkn
 
 For example, if there is comotbid other (or unknown) substance-induced depressive disorder and other (or unknown) substance use disorder, only the other (or unknown) substance- induced depressive disorder code is given, with the 4th character indicating whether the comorbid other (or unknown) substance use disorder is mild, moderate, or severe: FI 9.14 for other (or unknown) substance use disorder with other (or unknown) substance-induced depressive disorder or FI 9.24 for a moderate or severe other (or unknown) substance use disorder with other (or unknown) substance-induced depressive disorder.
 
-Specify current severity:
+## Specify current severity:
 
 305.90 (F I 9.10) Mild: Presence of 2 -3  symptoms.
 
@@ -90,7 +86,7 @@ Use of amyl-, butyl-, and isobutyl nitrite gases has been observed among homosex
 
 Substance use disorders generally are associated with elevated risks of suicide, but there is no evidence of unique risk factors for suicide with other (or unknown) substance use disorder.
 
-## Prevaience
+## Prevalence
 
 Based on extremely limited data, the prevalence of other (or unknown) substance use disorder is likely lower than that of use disorders involving the nine substance classes in this chapter.
 
@@ -102,7 +98,7 @@ No single pattern of development or course characterizes the pharmacologically v
 
 Risk and prognostic factors for other (or unknown) substance use disorders are thought to be similar to those for most substance use disorders and include the presence of any other substance use disorders, conduct disorder, or antisocial personality disorder in the individual or the individual's family; early onset of substance problems; easy availability of the substance in the individual's environment; childhood maltreatment or trauma; and evidence of limited early self-control and behavioral disinhibition.
 
-Cuiture-Reiated Diagnostic issues
+## Culture-Related Diagnostic issues
 
 Certain cultures may be associated with other (or unknown) substance use disorders involving specific indigenous substances within the cultural region, such as betel nut.
 
@@ -126,7 +122,7 @@ Other medical conditions. Individuals with substance use disorders, including ot
 
 Substance use disorders, including other (or unknown) substance use disorder, are commonly comorbid with one another, with adolescent conduct disorder and adult antisocial personality disorder, and with suicidal ideation and suicide attempts.
 
-Other (or Unknown) Substance Intoxication 
+## Other (or Unknown) Substance Intoxication 
 
 ## Diagnostic Criteria
 
@@ -156,7 +152,7 @@ Intoxications usually appear and then peak minutes to hours after use of the sub
 
 ## Functional Consequences of 
 
-Other (or Unknown) Substance Intoxication
+## Other (or Unknown) Substance Intoxication
 
 Impairment from intoxication with any substance may have serious consequences, including dysfunction at work, social indiscretions, problems in interpersonal relationships, failure to fulfill role obligations, traffic accidents, fighting, high-risk behaviors (i.e., having unprotected sex), and substance or medication overdose. The pattern of consequences will vary with the particular substance.
 
@@ -176,7 +172,7 @@ Other toxic, metabolic, traumatic, neoplastic, vascular, or infectious disorders
 
 As with all substance-related disorders, adolescent conduct disorder, adult antisocial personality disorder, and other substance use disorders tend to co-occur with other (or unknown) substance intoxication.
 
-Other (or Unknown) Substance Withdrawal
+## Other (or Unknown) Substance Withdrawal
 
 Diagnostic Criteria 292.0 (F19.239)
 
@@ -198,21 +194,21 @@ Note: For information on Risk and Prognostic Factors and Diagnostic Markers, see
 
 Other (or unknown) substance withdrawal is a clinically significant mental disorder that develops during, or within a few hours to days after, reducing or terminating dosing with a substance (Criteria A and B). Although recent dose reduction or termination usually is clear in the history, other diagnostic procedures are very challenging if the drug is unknown. Criterion B requires development of a "substance-specific syndrome" (i.e., the individual's signs and symptoms must correspond with the known withdrawal syndrome for the recently stopped drug)—a requirement that rarely can be met with an unknown substance. Consequently, clinical judgment must guide such decisions when information is this limited. Criterion D requires ruling out other medical conditions, mental disorders, or withdrawals from familiar substances. When the substance is known, it should be reflected in the name of the disorder upon coding (e.g., betel nut withdrawal).
 
-## Prevaience
+## Prevalence
 
 The prevalence of other (or unknown) substance withdrawal is unknown.
 
-## Deveiopment and Course
+## Development and Course
 
 Withdrawal signs commonly appear some hours after use of the substance is terminated, but the onset and course vary greatly, depending on the dose typically used by the person and the rate of elimination of the specific substance from the body. At peak severity, withdrawal symptoms from some substances involve only moderate levels of discomfort, whereas withdrawal from other substances may be fatal. Withdrawal-associated dysphoria often motivates relapse to substance use. Withdrawal symptoms slowly abate over days, weeks, or months, depending on the particular drug and doses to which the individual became tolerant.
 
-Cuiture-Reiated Diagnostic issues
+## Culture-Related Diagnostic issues
 
 Culture-related issues in diagnosis will vary with the particular substance.
 
 ## Functional Consequences of 
 
-Other (or Unknown) Substance Withdrawal
+## Other (or Unknown) Substance Withdrawal
 
 Withdrawal from any substance may have serious consequences, including physical signs and symptoms (e.g., malaise, vital sign changes, abdominal distress, headache), intense drug craving, anxiety, depression, agitation, psychotic symptoms, or cognitive impairments. 
 
@@ -236,9 +232,9 @@ Paradoxically, drug intoxications also must be ruled out, because, for example, 
 
 As with all substance-related disorders, adolescent conduct disorder, adult antisocial personality disorder, and other substance use disorders likely co-occur with other (or unknown) substance withdrawal.
 
-Other (or Unknown) 
+## Other (or Unknown) 
 
-Substance-Induced Disorders
+## Substance-Induced Disorders
 
 Because the category of other or unknown substances is inherently ill-defined, the extent and range of induced disorders are uncertain. Nevertheless, other (or unknown) substance-induced disorders are possible and are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication- induced mental disorders in these chapters): other (or unknown) substance-induced psychotic disorder ("Schizophrenia Spectrum and Other Psychotic Disorders"); other (or unknown substance-induced bipolar disorder ("Bipolar and Related Disorders"); other (or unknown) substance-induced depressive disorder ("Depressive Disorders"); other (or unknown) substance-induced anxiety disorders ("Anxiety Disorders"); other (or unknown) substance-induced obsessive-compulsive disorder ("Obsessive-Compulsive and 
 
