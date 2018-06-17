@@ -52,7 +52,7 @@ testHeaders <- gsub("\n ", "\n", testHeaders) ## remove leading blank
 
 ## export
 testList <- strsplit(testHeaders, "\n") ## split by newline
-writeLines(testList, "test.txt")
+writeLines(testList[[1]], "test.txt")
 
 
 testList <- lapply(testHeaders, function(x) strsplit(x, "\n"))

@@ -1,0 +1,22 @@
+ 
+
+## 
+
+Duration of symptoms required for schizophrenia (F20.-) 
+
+## Prodromal states 
+
+Before the appearance of typical schizophrenic symptoms, there is sometimes a period of weeks or months - particularly in young people - during which a prodrome of nonspecific symptoms appears (such as loss of interest, avoiding the company of others, staying away from work, being irritable and oversensitive). These symptoms are not diagnostic of any particular disorder, but neither are they typical of the healthy state of the individual. They are often just as distressing to the family and as incapacitating to the patient as the more clearly morbid symptoms, such as delusions and hallucinations, which develop later. Viewed retrospectively, such prodromal states seem to be an important part of the development of the disorder, but little systematic information is available as to whether similar prodromes are common in other psychiatric disorders, or whether similar states appear and disappear from time to time in individuals who never develop any diagnosable psychiatric disorder. 
+
+If a prodrome typical of and specific to schizophrenia could be identified, described reliably, and shown to be uncommon in those with other psychiatric disorders and those with no disorders at all, it would be justifiable to include a prodrome among the optional criteria for schizophrenia. For the purposes of ICD-10, it was considered that insufficient information is available on these points at present to justify the inclusion of a prodromal state as a contributor to this diagnosis. An additional, closely related, and still unsolved problem is the extent to which such prodromes can be distinguished from schizoid and paranoid personality disorders. 
+
+## 
+
+Separation of acute and transient psychotic disorders (F23.-) from schizophrenia (F20.-) 
+
+In ICD-10, the diagnosis of schizophrenia depends upon the presence of typical delusions, hallucinations or other symptoms (described on pages 86-89), and a minimum duration of 1 month is specified. 
+
+Strong clinical traditions in several countries, based on descriptive though not epidemiological studies, contribute towards the conclusion that, whatever the nature of the dementia praecox of Kraepelin and the schizophrenias of Bleuler, it, or they, are not the same as very acute psychoses that have an abrupt onset, a short course of a few weeks or even days, and a favourable outcome. Terms such as "bouffée délirante", "psychogenic psychosis", "schizophreniform psychosis", "cycloid psychosis" and "brief reactive psychosis" indicate the widespread but diverse opinion and traditions that have developed. Opinions and evidence also vary as to whether transient but typical schizophrenic symptoms may occur with these disorders, and whether they are usually or always associated with acute psychological stress (bouffée délirante, at least, was originally described as not usually associated with an obvious psychological precipitant). 
+
+## 
+
