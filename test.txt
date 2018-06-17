@@ -1,0 +1,129 @@
+ 
+
+## Preface 
+
+In the early 1960s, the Mental Health Programme of the World Health Organization (WHO) became actively engaged in a programme aiming to improve the diagnosis and classification of mental disorders. At that time, WHO convened a series of meetings to review knowledge, actively involving representatives of different disciplines, various schools of thought in psychiatry, and all parts of the world in the programme. It stimulated and conducted research on criteria for classification and for reliability of diagnosis, and produced and promulgated procedures for joint rating of videotaped interviews and other useful research methods. Numerous proposals to improve the classification of mental disorders resulted from the extensive consultation process, and these were used in drafting the Eighth Revision of the International Classification of Diseases (ICD-8). A glossary defining each category of mental disorder in ICD-8 was also developed. The programme activities also resulted in the establishment of a network of individuals and centres who continued to work on issues related to the improvement of psychiatric classification (1, 2). 
+
+The 1970s saw further growth of interest in improving psychiatric classification worldwide. Expansion of international contacts, the undertaking of several international collaborative studies, and the availability of new treatments all contributed to this trend. Several national psychiatric bodies encouraged the development of specific criteria for classification in order to improve diagnostic reliability. In particular, the American Psychiatric Association developed and promulgated its Third Revision of the Diagnostic and Statistical Manual, which incorporated operational criteria into its classification system. 
+
+In 1978, WHO entered into a long-term collaborative project with the Alcohol, Drug Abuse and Mental Health Administration (ADAMHA) in the USA, aiming to facilitate further improvements in the classification and diagnosis of mental disorders, and alcohol- and drug-related problems (3). A series of workshops brought together scientists from a number of different psychiatric traditions and cultures, reviewed knowledge in specified areas, and developed recommendations for future research. A major international conference on classification and diagnosis was held in Copenhagen, Denmark, in 1982 to review the recommendations that emerged from these workshops and to outline a research agenda and guidelines for future work (4). 
+
+Several major research efforts were undertaken to implement the recommendations of the Copenhagen conference. One of them, involving centres in 17 countries, had as its aim the development of the Composite International Diagnostic Interview, an instrument suitable for conducting epidemiological studies of mental disorders in general population groups in different countries (5). Another major project focused on developing an assessment instrument suitable for use by clinicians (Schedules for Clinical Assessment in Neuropsychiatry) (6). Still another study was initiated to develop an instrument for the assessment of personality disorders in different countries (the International Personality Disorder Examination) (7). 
+
+In addition, several lexicons have been, or are being, prepared to provide clear definitions of terms (8). A mutually beneficial relationship evolved between these projects and the work on definitions of mental and behavioural disorders in the Tenth Revision of the International Classification of Diseases and Related Health Problems (ICD-10) (9). Converting diagnostic criteria into diagnostic algorithms incorporated in the assessment instruments was useful in uncovering inconsistencies, ambiguities and overlap and allowing their removal. The work on refining the ICD-10 also helped to shape the assessment instruments. The final result was a clear set of criteria for ICD-10 and assessment instruments which can produce data necessary for the classification of disorders according to the criteria included in Chapter V(F) of ICD-10. 
+
+The Copenhagen conference also recommended that the viewpoints of the different psychiatric traditions be presented in publications describing the origins of the classification in the ICD-10. This resulted in several major publications, including a volume that contains a series of presentations highlighting the origins of classification in contemporary psychiatry (10). 
+
+The preparation and publication of this work, Clinical descriptions and diagnostic guidelines, are the culmination of the efforts of numerous people who have contributed to it over many years. The work has gone through several major drafts, each prepared after extensive consultation with panels of experts, national and international psychiatric societies, and individual consultants. The draft in use in 1987 was the basis of field trials conducted in some 40 countries, which constituted the largest ever research effort of this type designed to improve psychiatric diagnosis (11, 12). The results of the trials were used in finalizing these guidelines. 
+
+This work is the first of a series of publications developed from Chapter V(F) of ICD-10. Other texts will include diagnostic criteria for researchers, a version for use by general health care workers, a multiaxial presentation, and "crosswalks" - allowing cross-reference between corresponding terms in ICD-10, ICD-9 and ICD-8. 
+
+Use of this publication is described in the Introduction, and a subsequent section of the book provides notes on some of the frequently discussed difficulties of classification. The Acknowledgements section is of particular significance since it bears witness to the vast number of individual experts and institutions, all over the world, who actively participated in the production of the classification and the guidelines. All the major traditions and schools of psychiatry are represented, which gives this work its uniquely international character. The classification and the guidelines were produced and tested in many languages; it is hoped that the arduous process of ensuring equivalence of translations has resulted in improvements in the clarity, simplicity and logical structure of the texts in English and in other languages. 
+
+A classification is a way of seeing the world at a point in time. There is no doubt that scientific progress and experience with the use of these guidelines will ultimately require their revision and updating. I hope that such revisions will be the product of the same cordial and productive worldwide scientific collaboration as that which has produced the current text. 
+
+Norman Sartorius Director, Division of Mental Health World Health Organization 
+
+## References 
+ 
+1.Kramer, M. et al. The ICD-9 classification of mental disorders: a review of its developments and contents. Acta psychiatrica scandinavica, 59:241-262 (1979). 
+
+2.Sartorius, N. Classification: an international perspective. Psychiatric annals, 6: 22-35 (1976). 
+
+3.Jablensky, A. et al. Diagnosis and classification of mental disorders and alcohol- and drug-related problems: a research agenda for the 1980s. Psychological medicine, 13:907-921 (1983). 
+
+4.Mental disorders, alcohol- and drug-related problems: international perspectives on their diagnosis and classification. Amsterdam, Excerpta Medica, 1985 (International Congress Series, No. 669). 
+
+5.Robins, L. et al. The composite international diagnostic interview. Archives of general psychiatry, 45: 1069-1077 (1989). 
+
+6.Wing, J.K. et al. SCAN: schedules for clinical assessment in neuropsychiatry. Archives of general psychiatry, 47: 589-593 (1990). 
+
+7.Loranger, A.W. et al. The WHO/ADAMHA international pilot study of personality disorders: background and purpose. Journal of personality disorders, 5(3): 296-306 (1991). 
+
+8.Lexicon of psychiatric and mental health terms. Vol. 1. Geneva, World Health Organization, 1989. 
+
+9.International Statistical Classification of Diseases and Related Health Problems. Tenth Revision. Vol. 1: Tabular list, 1992. Vol. 2: Instruction Manual, 1993. Vol. 3: Index (in press). Geneva, World Health Organization. 
+
+10.Sartorius, N. et al. (ed.) Sources and traditions in classification in psychiatry. Toronto, Hogrefe and Huber, 1990. 
+
+11.Sartorius, N. et al. (ed.) Psychiatric classification in an international perspective. British journal of psychiatry, 152 (Suppl. 1) (1988). 
+
+12.Sartorius, N. et al. Progress towards achieving a common language in psychiatry: results from the field trials of the clinical guidelines accompanying the WHO Classification of Mental and Behavioural Disorders in ICD-10. Archives of general psychiatry, 1993, 50:115-124. 
+
+ 
+
+## Acknowledgements 
+
+Many individuals and organizations have contributed to the production of the classification of mental and behavioural disorders in ICD-10 and to the development of the texts that accompany it. The field trials of the ICD-10 proposals, for example, involved researchers and clinicians in some 40 countries; it is clearly impossible to present a complete list of all those who participated in this effort. What follows is a mention of individuals and agencies whose contributions were central to the creation of the documents composing the ICD-10 family of classifications and guidelines. 
+
+The individuals who produced the initial drafts of the classification and guidelines are included in the list of principal investigators on pages 312-325: their names are marked by an asterisk. Dr A. Jablensky, then Senior Medical Officer in the Division of Mental Health of WHO, in Geneva, coordinated this part of the programme and thus made a major contribution to the proposals. Once the proposals for the classification were assembled and circulated for comment to WHO expert panels and many other individuals, including those listed below, an amended version of the classification was produced for field tests. These were conducted according to a protocol produced by WHO staff with the help of Dr J. Burke, Dr J.E. Cooper, and Dr J. Mezzich and involved a large number of centres, whose work was coordinated by Field Trial Coordinating Centres (FTCCs). The FTCCs (listed on pages xi-xii) also undertook the task of producing equivalent translations of the ICD in the languages used in their countries. 
+
+Dr N. Sartorius had overall responsibility for the work on the classification of mental and behavioural disorders in ICD-10 and for the production of accompanying documents. 
+
+Throughout the phase of field testing and subsequently, Dr J.E. Cooper acted as chief consultant to the project and provided invaluable guidance and help to the WHO coordinating team. Among the team members were Dr J. van Drimmelen, who has worked with WHO from the beginning of the process of developing ICD-10 proposals, and Mrs J. Wilson, who conscientiously and efficiently handled the innumerable administrative tasks linked to the field tests and other activities related to the projects. Mr A. L'Hours provided generous support, ensuring compliance between the ICD-10 development in general and the production of this classification, and Mr G. Gemert produced the index. 
+
+A number of other consultants, including in particular Dr A. Bertelsen, Dr H. Dilling, Dr J. López-Ibor, Dr C. Pull, Dr D. Regier, Dr M. Rutter and Dr N. Wig, were also closely involved in this work, functioning not only as heads of FTCCs for the field trials but also providing advice and guidance about issues in their area of expertise and relevant to the psychiatric traditions of the groups of countries about which they were particularly knowledgeable. 
+
+Among the agencies whose help was of vital importance were the Alcohol, Drug Abuse and Mental Health Administration in the USA, which provided generous support to the activities preparatory to the drafting of ICD-10, and which ensured effective and productive consultation between groups working on ICD-10 and those working on the fourth revision of the American Psychiatric Association's Diagnostic and Statistical Manual (DSM-IV) classification; the WHO Advisory Committee on ICD-10, chaired by Dr E. Strömgren; and the World Psychiatric Association which, through its President, Dr C. Stefanis, and the special committee on classification, assembled comments of numerous psychiatrists in its member associations and gave most valuable advice during both the field trials and the finalization of the proposals. Other nongovernmental organizations in official and working relations with WHO, including the World Federation for Mental Health, the World Association for Psychosocial Rehabilitation, the World Association of Social Psychiatry, the World Federation of Neurology, and the International Union of Psychological Societies, helped in many ways, as did the WHO Collaborating Centres for Research and Training in Mental Health, located in some 40 countries. 
+
+Governments of WHO Member States, including in particular Belgium, Germany, the Netherlands, Spain and the USA, also provided direct support to the process of developing the classification of mental and behavioural disorders, both through their designated contributions to WHO and through contributions and financial support to the centres that participated in this work. 
+
+The ICD-10 proposals are thus a product of collaboration, in the true sense of the word, between very many individuals and agencies in numerous countries. They were produced in the hope that they will serve as a strong support to the work of the many who are concerned with caring for the mentally ill and their families, worldwide. 
+
+No classification is ever perfect: further improvements and simplifications should become possible with increases in our knowledge and as experience with the classification accumulates. The task of collecting and digesting comments and results of tests of the classification will remain largely on the shoulders of the centres that collaborated with WHO in the development of the classification. Their addresses are listed below because it is hoped that they will continue to be involved in the improvement of the WHO classifications and associated materials in the future and to assist the Organization in this work as generously as they have so far. 
+
+Numerous publications have arisen from Field Trial Centres describing results of their studies in connection with ICD-10. A full list of these publications and reprints of the articles can be obtained from Division of Mental Health, World Health Organization, 1211 Geneva 27, Switzerland. 
+
+## Field Trial Coordinating Centres and Directors 
+
+Dr A. Bertelsen, Institute of Psychiatric Demography, Psychiatric Hospital, University of Aarhus, Risskov, Denmark 
+
+Dr D. Caetano, Department of Psychiatry, State University of Campinas, Campinas, Brazil 
+
+Dr S. Channabasavanna, National Institute of Mental Health and Neurosciences, Bangalore, India 
+
+Dr H. Dilling, Psychiatric Clinic of the Medical School, Lübeck, Germany 
+
+Dr M. Gelder, Department of Psychiatry, Oxford University Hospital, Warneford Hospital, Headington, England Dr D. Kemali, University of Naples, First Faculty of Medicine and Surgery, Institute of Medical Psychology and Psychiatry, Naples, Italy 
+
+Dr J.J. López-Ibor Jr, López-Ibor Clinic, Pierto de Hierro, Madrid, Spain 
+
+Dr G. Mellsop, The Wellington Clinical School, Wellington Hospital, Wellington, New Zealand 
+
+Dr Y. Nakane, Department of Neuropsychiatry, Nagasaki University, School of Medicine, Nagasaki, Japan 
+
+Dr A. Okasha, Department of Psychiatry, Ain-Shams University, Cairo, Egypt 
+
+Dr C. Pull, Department of Neuropsychiatry, Centre Hospitalier de Luxembourg, Luxembourg, Luxembourg 
+
+Dr D. Regier, Director, Division of Clinical Research, National Institute of Mental Health, Rockville, MD, USA 
+
+Dr S. Tzirkin, All Union Research Centre of Mental Health, Institute of Psychiatry, Academy of Medical Sciences, Moscow, Russian Federation 
+
+Dr Xu Tao-Yuan, Department of Psychiatry, Shanghai Psychiatric Hospital, Shanghai, China 
+
+## Former directors of field trial centres 
+
+Dr J.E. Cooper, Department of Psychiatry, Queen's Medical Centre, Nottingham, England 
+
+Dr R. Takahashi, Department of Psychiatry, Tokyo Medical and Dental University, Tokyo, Japan 
+
+Dr N. Wig, Regional Adviser for Mental Health, World Health Organization, Regional Office for the Eastern Mediterranean, Alexandria, Egypt 
+
+Dr Yang De-sen, Hunan Medical College, Changsha, Hunan, China 
+
+ 
+
+## Introduction 
+
+Chapter V, Mental and behavioural disorders, of ICD-10 is to be available in several different versions for different purposes. This version, Clinical descriptions and diagnostic guidelines, is intended for general clinical, educational and service use. Diagnostic criteria for research has been produced for research purposes and is designed to be used in conjunction with this book. The much shorter glossary provided by Chapter V(F) for ICD-10 itself is suitable for use by coders or clerical workers, and also serves as a reference point for compatibility with other classifications; it is not recommended for use by mental health professionals. Shorter and simpler versions of the classifications for use by primary health care workers are now in preparation, as is a multiaxial scheme. Clinical descriptions and diagnostic guidelines has been the starting point for the development of the different versions, and the utmost care has been taken to avoid problems of incompatibility between them. 
+
+## Layout 
+
+It is important that users study this general introduction, and also read carefully the additional introductory and explanatory texts at the beginning of several of the individual categories. This is particularly important for F23.-(Acute and transient psychotic disorders), and for the block F30-F39 (Mood [affective] disorders). Because of the long-standing and notoriously difficult problems associated with the description and classification of these disorders, special care has been taken to explain how the classification has been approached. 
+
+For each disorder, a description is provided of the main clinical features, and also of any important but less specific associated features. "Diagnostic guidelines" are then provided in most cases, indicating the number and balance of symptoms usually required before a confident diagnosis can be made. The guidelines are worded so that a degree of flexibility is retained for diagnostic decisions in clinical work, particularly in the situation where provisional diagnosis may have to be made before the clinical picture is entirely clear or information is complete. To avoid repetition, clinical descriptions and some general diagnostic guidelines are provided for certain groups of disorders, in addition to those that relate only to individual disorders. 
+
+When the requirements laid down in the diagnostic guidelines are clearly fulfilled, the diagnosis can be regarded as "confident". When the requirements are only partially fulfilled, it is nevertheless useful to record a diagnosis for most purposes. It is then for the diagnostician and other users of the diagnostic statements to decide whether to record the lesser degrees of confidence (such as "provisional" if more information is yet to come, or "tentative" if more information is unlikely to become available) that are implied in these circumstances. Statements about the duration of symptoms are also intended as general guidelines rather than strict requirements; clinicians should use their own judgement about the appropriateness of choosing diagnoses when the duration of particular symptoms is slightly longer or shorter than that specified. 
+
+The diagnostic guidelines should also provide a useful stimulus for clinical teaching, since they serve as a reminder about points of clinical practice that can be found in a fuller form in most textbooks of psychiatry. They may also be suitable for some types of 

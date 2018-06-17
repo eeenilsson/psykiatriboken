@@ -41,11 +41,8 @@ test <- gsub("\n(?=[^ ])", "", test, perl = T, ignore.case=TRUE) ## regexp with 
 
 test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more spaces
 
-## here
-
 test <- gsub("(\n[[:space:]]){2,}", "\n ", test) ## reduce ocurrances of two or more \n to one \n
 test <- gsub("(\n[[:space:]]*\n)", "\n ", test) ## repeat but no space after last \n
-
 
 ## Identify headers - newlines not ending with dot before next newline (add hash to these)
 testHeaders <- gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", test, perl = TRUE)
@@ -65,24 +62,36 @@ testHeaders <- lapply(testHeaders, function(x) gsub("(?<!\n##)\n$","", x , perl 
 ## gsub("(?<!\n##)\n$","", notheader , perl = TRUE)
 ## gsub("(?<!\n##)\n$","", header , perl = TRUE)
 
+## collapse to a single sring
+testHeaders <- paste(testHeaders, collapse = "")
+
 ## format
 testHeaders <- gsub("\n", "\n \n", testHeaders) ## double newline
 testHeaders <- gsub("\n ", "\n", testHeaders) ## remove leading blank
 
+## Details
+testHeaders <- gsub("## References ", "## References \n \n", testHeaders)
+testHeaders <- gsub("## Norman Sartorius", "Norman Sartorius", testHeaders)
+testHeaders <- gsub("## Dr", "Dr", testHeaders)
+
 ## export
 
-## one page
-## testList <- strsplit(testHeaders, "\n") ## split by newline
-## writeLines(testList[[1]], "test.txt")
+### one page
+##testList <- strsplit(testHeaders, "\n") ## split by newline
+##writeLines(testList[[1]], "test.txt")
 
-## multiple pages
-testList <- lapply(testHeaders, function(x) strsplit(x, "\n"))
-for(i in 1:length(testList)){
-    write(testList[[i]][[1]], file = "test.txt"
-       , append = TRUE
-          )
+writeLines(testHeaders, "test.txt")
+x
+
+
+### multiple pages from list
+## testList <- lapply(testHeaders, function(x) strsplit(x, "\n"))
+## for(i in 1:length(testList)){
+##     write(testList[[i]][[1]], file = "test.txt"
+##        , append = TRUE
+##           )
     
-}
+## }
 
 
 ## test get quotes (removing duplicates)
