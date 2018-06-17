@@ -22,6 +22,8 @@ library('tidyverse')
 test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 12, area = NULL, password = NULL,
                      encoding = NULL, copy = FALSE)
 
+extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1000)
+
 ## remove newlines appearing inside text chunks
 test <- gsub("\n(?=[^ ])", "", test, perl = T, ignore.case=TRUE) ## regexp with lookahead removes only newlines in text
 
@@ -40,73 +42,25 @@ test <- gsub("(\n[[:space:]]){2,}", "\n ", test) ## reduce ocurrances of two or 
 
 test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more speces
 
-## newlines not ending with dot before next newline = header
-## eg \n Children and adolescents \n
-testHash <-
-    gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
+## Identify headers - newlines not ending with dot before next newline (add hash to these)
+testHeaders <-
+    gsub("((?<=\n){1}[^$.|\n]*(?=[[:space:]]\n){1}?)", "##\\1", perl = TRUE, ignore.case=TRUE, test) ## [^$.|\n] matches NOT ^$. OR \n
 
-gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
+## format
+testHeaders <- gsub("\n", "\n \n", testHeaders) ## double newline
+testHeaders <- gsub("\n ", "\n", testHeaders) ## remove leading blank
 
-gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
+## export
+testList <- strsplit(testHeaders, "\n") ## split by newline
+str(testList)
+names(testList) <- "text"
 
-
-
-    gsub("((!((?<=\n ##)[^$.]*(?=[[:space:]]\n)))((?<=\n){1}[^$.]*(?=[[:space:]]\n){1}))", " ##\\1", perl = TRUE, ignore.case=TRUE, testHash) ## add hash at headlines
-
-
-gsub("
-
-
-
-
-(?<=\n)[^$.]*(?=[[:space:]]\n))", " ###\\2", perl = TRUE, ignore.case=TRUE, testHash) ## add hash at headlines
+## test get quotes (removing duplicates)
+source('../functions/get_quote.r')
+get_quotes(testList$text, "children")[!duplicated(get_quotes(testList$text, "children"))]
 
 
 
-gsub("^.*(\n).*$","\\1", test)
-
-gsub("(\n )((?!symptoms).)*(\n )","\\1", perl = TRUE, test)
-
-gsub("(\n )(?!\n)*(?!adolescents)*(\n )","", perl = TRUE, test)
-
-gsub("(\n )(?!\n)*(adolescents)*(\n )","", perl = TRUE, test)
-
-gsub("\n Children and adolescents \n","", perl = TRUE, test)
-
-gsub("\n(?!\n)*(?!\\.) \n","", perl = TRUE, test)
-
-gsub("\n[[:space:]].*","", perl = TRUE, ignore.case=TRUE, test) ## \n
-
-gsub("\n[[:space:]].*adolescents[a-z]*[[:space:]]\n","", perl = TRUE, ignore.case=TRUE, test) ## \n
-
-gsub("\n[[:space:]].*adolescents[a-z]*(?!\\w*\\.\b)[[:space:]]\n","", perl = TRUE, ignore.case=TRUE, test) 
-
-gsub("\n[[:space:]].*[a-z]*(?!\\.[[:space:]])[[:space:]]\n","", perl = TRUE, ignore.case=TRUE, test) 
-
-gsub("(?<=\n){1}[^$.]*(?=[[:space:]]\n){1}","", perl = TRUE, ignore.case=TRUE, test) ## works
-
-gsub("((?<=\n){1}[^$.]*(?=[[:space:]]\n){1})", " ##\\1", perl = TRUE, ignore.case=TRUE, test) ## add hash at headlines
-
-
-
-gsub("([ab])", "\\1_n", "abc and ABC")
-
-?gsub
-
-gsub("[^.]", "\\2", "hello.you www", perl=T)
-
-##(?<!a) ## not preceded by a
-
-test
-
-output <- strsplit(test, "\n") ## split by newline
-output <- output[[1]] ## to chr vector
-
-output[[1]][[4]]
-
-str(output)
-
-write_lines(output, "output.txt")
 getwd()
 setwd("../psykiatriboken/")
 test
