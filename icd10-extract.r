@@ -45,27 +45,7 @@ test <- gsub("(\n[[:space:]]*\n)", "\n ", test) ## repeat but no space after las
 test <- gsub("[[:blank:]]{2,}", " ", test) ## reduce ocurrances of two or more spaces
 
 ## Identify headers - newlines not ending with dot before next newline (add hash to these)
-## testHeaders <-
-##     gsub("((?<=\n){1}[^$.|\n]*(?=[[:space:]]\n){1}?)", "##\\1", perl = TRUE, ignore.case=TRUE, test) ## [^$.|\n] matches NOT ^$. OR \n
-## Note: this misses headers with dots inside header
-
-## test dot at end
 testHeaders <- gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", test, perl = TRUE) ### works?
-
-## testHeaders <-
-##     gsub("((?<=\n){1}[^$(.)]*(?=[[:space:]]\n){1}?)", "##\\1", perl = TRUE, ignore.case=TRUE, test) 
-## /(.*)\.[^.]+$/
-## gsub("/(.*).[^\.]+$/", "", "test.pdf", perl = TRUE)
-## gsub("\\.\\s", "", "test. pdf test.pdf") ## works
-## gsub("[^(es)]", "", "test. pdf texst.pdf")
-## gsub("^(?:(?!es).)+$", "", "test. pdf texst.pdf", perl = TRUE)
-## gsub("^(?:(?!\n).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE)
-## gsub("^(?:(?!\\.).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE) ## not dot
-## gsub("^(?:(?!\\.[[:blank:]]).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE)
-## gsub("^(?:(?!\\.[[:blank:]]).)+", "", "test.header \n This is text. Here also. \n", perl = TRUE)
-## gsub("(?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?", "", "\n test.header \n This is text. Here also. \n", perl = TRUE) ### works?
-
-## gsub("((?<=\n)(?:(?!\\.[[:blank:]]).)+(?=[[:space:]]\n){1}?)", "##\\1", "\n test.header \n Another header \n This is text. Here also. \n", perl = TRUE) ### works?
 
 ## format
 testHeaders <- gsub("\n", "\n \n", testHeaders) ## double newline
