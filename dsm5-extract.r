@@ -42,13 +42,18 @@ section2preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-man
 
 section2intro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69:71) ## "Neurodevelopmental disorders". ## Note: remove last part
 
-
 section2a <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 71:79) ## "Neurodevelopmental disorders".
 section2a[1] <- gsub("(?s).*(?=\nIntelle)", "", section2a[1], perl=T) ## remove redundant text before section starts
 ## section2a[1] <- gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", section2a[1], perl=T) ## remove \n not followed by parens or CAP.
+section2a <- paste(section2a, collapse = "") ## collapse to one
 
-section2a <- paste(section2a, collapse = "")
-section2a <- gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", section2a, perl=T) ## remove \n not followed by parens or CAP.
+section2a <- gsub("(?s)\n(?!\\(|[A-Z])", "", section2a, perl=T) ## remove \n not followed by parens or CAP
+## test
+substr(gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", section2a, perl=T), 4000, 5000)
+
+section2a
+
+
 
 ## format details
 section2a <- gsub("Note:", "\nNote:", section2a)
