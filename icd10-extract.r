@@ -16,7 +16,7 @@ library('tidyverse')
 ## ?extract_text
 
 ## read from pdf
-test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 14, area = NULL, password = NULL,
+test <- extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1:14, area = NULL, password = NULL,
                      encoding = NULL, copy = FALSE)
 
 ## extract_text("/home/eee/Dropbox/psykiatri/documents/icd10_bluebook.pdf", pages = 1000)
@@ -51,29 +51,18 @@ testHeaders <- gsub("\n", "\n \n", testHeaders) ## double newline
 testHeaders <- gsub("\n ", "\n", testHeaders) ## remove leading blank
 
 ## export
-testList <- strsplit(testHeaders, "\n") ## split by newline
-writeLines(testList[[1]], "test.txt")
 
+## one page
+## testList <- strsplit(testHeaders, "\n") ## split by newline
+## writeLines(testList[[1]], "test.txt")
 
+## multiple pages
 testList <- lapply(testHeaders, function(x) strsplit(x, "\n"))
-
-
-str(testList)
-names(testList) <- "text"
-
-?capture.output
-?sink
-length(testList)
-
-for(i in length(testList)){
-    writeLines(testList[i], con = "test.txt")
+for(i in 1:length(testList)){
+    write(testList[[i]][[1]], file = "test.txt", append = TRUE)
     
 }
 
-?writeLines
-write(as.character(testList[1]), file = "test.txt")
-
-testList[1]
 
 ## test get quotes (removing duplicates)
 source('../functions/get_quote.r')
