@@ -8,19 +8,21 @@ B. Deficits in adaptive functioning that result in failure to meet developmental
 
 C. Onset of intellectual and adaptive deficits during the developmental period.
 
-Note: The diagnostic term intellectual disability is the equivalent term for the ICD-11 diagnosis of intellectual developmental disorders. Although the term intellectual disability is used throughout this manual, both terms are used in the title to clarify relationships with other classification systems. Moreover, a federal statute in the United States (Public Law 111 -256, Rosa’s Law) replaces the term mental retardation with intellectual disability, and research journals use the term intellectual disability. Thus, intellectual disability is the term in common use by medical, educational, and other professions and by the lay public and advocacy groups.
+Note: The diagnostic term intellectual disability is the equivalent term for the ICD-11 diagnosis of intellectual developmental disorders. Although the term intellectual disability is used throughout this manual, both terms are used in the title to clarify relationships with other classification systems. Moreover, a federal statute in the United States (Public Law 
+
+111 -256, Rosa’s Law) replaces the term mental retardation with intellectual disability, and research journals use the term intellectual disability. Thus, intellectual disability is the term in common use by medical, educational, and other professions and by the lay public and advocacy groups.
 
 Coding note: The ICD-9-CM code for intellectual disability (intellectual developmental disorder) is 319, which is assigned regardless of the severity specifier. The ICD-10-CM code depends on the severity specifier (see below).
 
 ## Specify current severity (see Table 1 ):
 
-## (F70) Mild 
+(F70) Mild 
 
-## (F71) lUloderate 
+(F71) Moderate 
 
-## (F72) Severe 
+(F72) Severe 
 
-## (F73) Profound
+(F73) Profound
 
 ## Specifiers
 
@@ -58,13 +60,13 @@ Individuals with a diagnosis of intellectual disability with co-occurring mental
 
 Intellectual disability has an overall general population prevalence of approximately 1%, and prevalence rates vary by age. Prevalence for severe intellectual disability is approximately 6 per 1,000.
 
-## Deveiopment and Course
+## Development and Course
 
 Onset of intellectual disability is in the developmental period. The age and characteristic features at onset depend on the etiology and severity of brain dysfunction. Delayed motor, language, and social milestones may be identifiable within the first 2 years of life among those with more severe intellectual disability, while mild levels may not be identifiable until school age when difficulty with academic learning becomes apparent. All criteria (including Criterion C) must be fulfilled by history or current presentation. Some children under age 5 years whose presentation will eventually meet criteria for intellectual disability have deficits that meet criteria for global developmental delay.
 
-When intellectual disability is associated with a genetic syndrome, there may be a characteristic physical appearance (as in, e.g.. Down syndrome). Some syndromes have a behavioral phenotype, which refers to specific behaviors that are characteristic of particular genetic disorder (e.g., Lesch-Nyhan syndrome). In acquired forms, the onset may be abrupt following an illness such as meningitis or encephalitis or head trauma occurring during the developmental period. When intellectual disability results from a loss of previously acquired cognitive skills, as in severe traumatic brain injury, the diagnoses of intellectual disability and of a neurocognitive disorder may both be assigned.
+When intellectual disability is associated with a genetic syndrome, there may be a characteristic physical appearance (as in, e.g	 Down syndrome). Some syndromes have a behavioral phenotype, which refers to specific behaviors that are characteristic of particular genetic disorder (e.g., Lesch-Nyhan syndrome). In acquired forms, the onset may be abrupt following an illness such as meningitis or encephalitis or head trauma occurring during the developmental period. When intellectual disability results from a loss of previously acquired cognitive skills, as in severe traumatic brain injury, the diagnoses of intellectual disability and of a neurocognitive disorder may both be assigned.
 
-Although intellectual disability is generally nonprogressive, in certain genetic disorders (e.g., Rett syndrome) there are periods of worsening, followed by stabilization, and inothers (e.g., San Phillippo syndrome) progressive worsening of intellectual function. After early childhood  ̂the disorder is generally lifelong, although severity levels may change over time. The course may be influenced by underlying medical or genetic conditions and co-occurring conditions (e.g., hearing or visual impairments, epilepsy). Early and ongoing interventions may improve adaptive functioning throughout childhood and adulthood. In some cases, these result in significant improvement of intellectual functioning, such that the diagnosis of intellectual disability is no longer appropriate. Thus, it is common practice when assessing infants and young children to delay diagnosis of intellectual disability until after an appropriate course of intervention is provided. For older children and adults, the extent of support provided may allow for full participation in all activities of daily living and improved adaptive function. Diagnostic assessments must determine whether improved adaptive skills are the result of a stable, generalized new skill acquisition (in which case the diagnosis of intellectual disability may no longer be appropriate) or whether the improvement is contingent on the presence of supports and ongoing interventions (in which case the diagnosis of intellectual disability may still be appropriate).
+Although intellectual disability is generally nonprogressive, in certain genetic disorders (e.g., Rett syndrome) there are periods of worsening, followed by stabilization, and inothers (e.g., San Phillippo syndrome) progressive worsening of intellectual function. After early childhood the disorder is generally lifelong, although severity levels may change over time. The course may be influenced by underlying medical or genetic conditions and co-occurring conditions (e.g., hearing or visual impairments, epilepsy). Early and ongoing interventions may improve adaptive functioning throughout childhood and adulthood. In some cases, these result in significant improvement of intellectual functioning, such that the diagnosis of intellectual disability is no longer appropriate. Thus, it is common practice when assessing infants and young children to delay diagnosis of intellectual disability until after an appropriate course of intervention is provided. For older children and adults, the extent of support provided may allow for full participation in all activities of daily living and improved adaptive function. Diagnostic assessments must determine whether improved adaptive skills are the result of a stable, generalized new skill acquisition (in which case the diagnosis of intellectual disability may no longer be appropriate) or whether the improvement is contingent on the presence of supports and ongoing interventions (in which case the diagnosis of intellectual disability may still be appropriate).
 
 ## Risk and Prognostic Factors
 
@@ -72,15 +74,15 @@ Genetic and physiological. Prenatal etiologies include genetic syndromes (e.g., 
 
 (e.g., lead, mercury).
 
-## Culture-Reiated Diagnostic issues
+## Culture-Related Diagnostic issues
 
 Intellectual disability occurs in all races and cultures. Cultural sensitivity and knowledge are needed during assessment, and the individual's ethnic, cultural, and linguistic background, available experiences, and adaptive functioning within his or her community and cultural setting must be taken into account.
 
-## Gender-Reiated Diagnostic issues
+## Gender-Related Diagnostic issues
 
 Overall, males are more likely than females to be diagnosed with both mild (average maleifemale ratio 1.6:1) and severe (average male:female ratio 1.2:1) forms of intellectual disability. However, gender ratios vary widely in reported studies. Sex-linked genetic factors and male vulnerability to brain insult may accoimt for some of the gender differences.
 
-## Diagnostic iVlaricers
+## Diagnostic Markers
 
 A comprehensive evaluation includes an assessment of intellectual capacity and adaptive functioning; identification of genetic and nongenetic etiologies; evaluation for associated medical conditions (e.g., cerebral palsy, seizure disorder); and evaluation for co-occurring mental, emotional, and behavioral disorders. Components of the evaluation may include basic pre- and perinatal medical history, three-generational family pedigree, physical examination, genetic evaluation (e.g., karyotype or chromosomal microarray analysis and testing for specific genetic syndromes), and metabolic screening and neuroimaging assessment.
 
@@ -104,7 +106,7 @@ Co-occurring mental, neurodevelopmental, medical, and physical conditions are fr
 
 The most common co-occurring mental and neurodevelopmental disorders are atten- tion-deficit/hyperactivity disorder; depressive and bipolar disorders; anxiety disorders; autism spectrum disorder; stereotypic movement disorder (with or without self-injurious behavior); impulse-control disorders; and major neurocognitive disorder. Major depressive disorder may occur throughout the range of severity of intellectual disability. Self- injurious behavior requires prompt diagnostic attention and may warrant a separate diagnosis of stereotypic movement disorder. Individuals with intellectual disability, particularly those with more severe intellectual disability, may also exhibit aggression and disruptive behaviors, including harm of others or property destruction.
 
-## Reiationship to Other Classifications
+## Relationship to Other Classifications
 
 ICD-11 (in development at the time of this publication) uses the term intellectual developmental disorders to indicate that these are disorders that involve impaired brain functioning early in life. These disorders are described in ICD-11 as a metasyndrome occurring in the developmental period analogous to dementia or neurocognitive disorder in later life. 
 
@@ -114,7 +116,7 @@ The American Association on Intellectual and Developmental Disabilities (AAIDD) 
 
 AAIDD emphasizes a profile of supports based on severity.
 
-## Global Developmental Delay 
+## Global Developmental Delay
 
 315.8 (F88)
 
@@ -122,7 +124,7 @@ This diagnosis is reserved for individuals under the age of 5 years when the cli
 
 ## Unspecified Intellectual Disability 
 
-## (Intellectual Developmental Disorder)319 (F79)
+(Intellectual Developmental Disorder) 319 (F79)
 
 This category is reserved for individuals over the age of 5 years when assessment of the degree of intellectual disability (intellectual developmental disorder) by means of locally available procedures is rendered difficult or impossible because of associated sensory or physical impairments, as in blindness or prelingual deafness; locomotor disability; or presence of severe problem behaviors or co-occurring mental disorder. This category should only be used in exceptional circumstances and requires reassessment after a period of time.
 

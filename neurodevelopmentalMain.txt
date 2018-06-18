@@ -1,0 +1,43 @@
+
+
+Intellectual disability occurs in all races and cultures. Cultural sensitivity and knowledge are needed during assessment, and the individual's ethnic, cultural, and linguistic background, available experiences, and adaptive functioning within his or her community and cultural setting must be taken into account.## Gender-Related Diagnostic issues
+
+Overall, males are more likely than females to be diagnosed with both mild (average maleifemale ratio 1.6:1) and severe (average male:female ratio 1.2:1) forms of intellectual disability. However, gender ratios vary widely in reported studies. Sex-linked genetic factors and male vulnerability to brain insult may accoimt for some of the gender differences.## Diagnostic Markers
+
+A comprehensive evaluation includes an assessment of intellectual capacity and adaptive functioning; identification of genetic and nongenetic etiologies; evaluation for associated medical conditions (e.g., cerebral palsy, seizure disorder); and evaluation for co-occurring mental, emotional, and behavioral disorders. Components of the evaluation may include basic pre- and perinatal medical history, three-generational family pedigree, physical examination, genetic evaluation (e.g., karyotype or chromosomal microarray analysis and testing for specific genetic syndromes), and metabolic screening and neuroimaging assessment.## Differential Diagnosis
+
+The diagnosis of intellectual disability should be made whenever Criteria A, B, and C are met. A diagnosis of intellectual disability should not be assumed because of a particulargenetic or medical condition. A genetic syndrome linked to intellectual disability should be noted as a concurrent diagnosis with the intellectual disability.
+
+Major and mild neurocognitive disorders. Intellectual disability is categorized as a neurodevelopmental disorder and is distinct from the neurocognitive disorders, which are characterized by a loss of cognitive functioning. Major neurocognitive disorder may cooccur with intellectual disability (e.g., an individual with Down syndrome who develops 
+
+Alzheimer's disease, or an individual with intellectual disability who loses further cognitive capacity following a head injury). In such cases, the diagnoses of intellectual disability and neurocognitive disorder may both be given.
+
+Communication disorders and specific learning disorder. These neurodevelopmental disorders are specific to the communication and learning domains and do not show deficits in intellectual and adaptive behavior. They may co-occur with intellectual disability. 
+
+Both diagnoses are made if full criteria are met for intellectual disability and a communication disorder or specific learning disorder.
+
+Autism spectrum disorder. Intellectual disability is common among individuals with autism spectrum disorder. Assessment of intellectual ability may be complicated by so- cial-communication and behavior deficits inherent to autism spectrum disorder, which may interfere with understanding and complying with test procedures. Appropriate assessment of intellectual functioning in autism spectrum disorder is essential, with reassessment across the developmental period, because IQ scores in autism spectrum disorder may be unstable, particularly in early childhood.## Comorbidity
+
+Co-occurring mental, neurodevelopmental, medical, and physical conditions are frequent in intellectual disability, with rates of some conditions (e.g., mental disorders, cerebral palsy, and epilepsy) three to four times higher than in the general population. The prognosis and outcome of co-occurring diagnoses may be influenced by the presence of intellectual disability. Assessment procedures may require modifications because of associated disorders, including communication disorders, autism spectrum disorder, and motor, sensory, or other disorders. Knowledgeable informants are essential for identifying symptoms such as irritability, mood dysregulation, aggression, eating problems, and sleep problems, and for assessing adaptive functioning in various community settings.
+
+The most common co-occurring mental and neurodevelopmental disorders are atten- tion-deficit/hyperactivity disorder; depressive and bipolar disorders; anxiety disorders; autism spectrum disorder; stereotypic movement disorder (with or without self-injurious behavior); impulse-control disorders; and major neurocognitive disorder. Major depressive disorder may occur throughout the range of severity of intellectual disability. Self- injurious behavior requires prompt diagnostic attention and may warrant a separate diagnosis of stereotypic movement disorder. Individuals with intellectual disability, particularly those with more severe intellectual disability, may also exhibit aggression and disruptive behaviors, including harm of others or property destruction.## Relationship to Other Classifications
+
+ICD-11 (in development at the time of this publication) uses the term intellectual developmental disorders to indicate that these are disorders that involve impaired brain functioning early in life. These disorders are described in ICD-11 as a metasyndrome occurring in the developmental period analogous to dementia or neurocognitive disorder in later life. 
+
+There are four subtypes in ICD-11: mild, moderate, severe, and profound.
+
+The American Association on Intellectual and Developmental Disabilities (AAIDD) also uses the term intellectual disability with a similar meaning to the term as used in thismanual. The AAIDD's classification is multidimensional rather than categorical and is based on the disability construct. Rather than listing specifiers as is done in DSM-5, the 
+
+AAIDD emphasizes a profile of supports based on severity.## Global Developmental Delay
+
+315.8 (F88)
+
+This diagnosis is reserved for individuals under the age of 5 years when the clinical severity level cannot be reliably assessed during early childhood. This category is diagnosed when an individual fails to meet expected developmental milestones in several areas of intellectual functioning, and applies to individuals who are unable to undergo systematic assessments of intellectual functioning, including children who are too young to participate in standardized testing. This category requires reassessment after a period of time.## Unspecified Intellectual Disability  (Intellectual Developmental Disorder)
+
+319 (F79)
+
+This category is reserved for individuals over the age of 5 years when assessment of the degree of intellectual disability (intellectual developmental disorder) by means of locally available procedures is rendered difficult or impossible because of associated sensory or physical impairments, as in blindness or prelingual deafness; locomotor disability; or presence of severe problem behaviors or co-occurring mental disorder. This category should only be used in exceptional circumstances and requires reassessment after a period of time.## Communication Disorders
+
+Disorders of communication include deficits in language, speech, and communication. 
+
+Speech is the expressive production of sounds and includes an individual's articulation, fluency, voice, and resonance quality. Language includes the form, function, and use of a conventional system of symbols (i.e., spoken words, sign language, written words, pictures) in a rule-governed manner for communication. Communication includes any verbal or nonverbal behavior (whether intentional or unintentional) that influences the behavior, ideas, or attitudes of another individual. Assessments of speech, language and communication abilities must take into account the individual’s cultural and language context, particularly for individuals growing up in bilingual environments. The standardized measures of language development and of nonverbal intellectual capacity must be relevant for the cultural and linguistic group (i.e., tests developed and standardized for one group may not provide appropriate norms for a different group). The diagnostic category of communication disorders includes the following: language disorder, speech sound disorder, childhood-onset fluency disorder (stuttering), social (pragmatic) communication disorder, and other specified and unspecified communication disorders.

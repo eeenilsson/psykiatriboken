@@ -50,6 +50,9 @@ spellList <- list(
     'Cuiture' = "Culture",
     'Fieid' = "Field",
     'Triais' = "Trials",
+    'commimication' = "communication",
+    'foimdational' = "foundational",
+    's e c tio n' = "section",
     'comotbid' = "comorbid",
     ' ̂' = "",
     '(-){2,}' = "",
@@ -116,7 +119,7 @@ preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", " American Psychi
 preface <- gsub("•", "\n•", preface)
 writeLines(preface, "preface.txt")
 
-## Section 1 (Introduction)
+## Section 1 (Introduction/basics)
 section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
 section1 <- paste(section1, collapse = "")
 section1 <- gsub("ΤΙΊΘ C rG âtion  ", "\n The creation ", section1)
@@ -124,71 +127,69 @@ section1 <- cleanText(section1)
 section1 <- makeHeaders(section1)
 writeLines(section1, "section1.txt")
 
-## TOC
+## Section 2 Diagnostic criteria
+
+### TOC
 section2toc <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67) ## "Diagnostic criteria and codes". [TOC]
-
 section2toc <- paste(section2toc, collapse = "") ## collapse to one
-section2toc <- gsub("\\.{2,}", "\t\t\t\t", section2toc)
+section2toc <- gsub("\\.{2,}", "\t", section2toc)
 section2toc <- gsub("\\.«.*riDiagnostic..", "## Diagnostic criteria and codes", section2toc)
-
 writeLines(section2toc, "section2toc.txt")
 
-
-
-contents <- gsub("Section", "## Section", contents)
-contents <- gsub("Appendix", "## Appendix", contents)
-contents <- gsub("Contents", "## Contents", contents)
-contents <- gsub("[[:blank:]]\n", " ", contents, perl=T, ignore.case=TRUE)
-contents <- gsub("(I{1,})\n", "\\1 ", contents, perl=T)
-contents <- gsub("##", "\n##", contents, perl=T)
-
-
-
-
-
-
+### preface to section II
 section2preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 68) ## [Preface]
+section2preface <- paste(section2preface, collapse = "")
+section2preface <- cleanText(section2preface)
+section2preface <- makeHeaders(section2preface)
+writeLines(section2preface, "section2preface.txt")
 
-section2intro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69:71) ## "Neurodevelopmental disorders". ## Note: remove last part
+### Neurodevelopmental disorders
+neurodevelopmentalIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69:71) ## "Neurodevelopmental disorders". ## Note: remove last part
+neurodevelopmentalIntro <- paste(neurodevelopmentalIntro, collapse = "")
+neurodevelopmentalIntro <- cleanText(neurodevelopmentalIntro)
+neurodevelopmentalIntro <- makeHeaders(neurodevelopmentalIntro)
+neurodevelopmentalIntro <- gsub("ΤΙί Θ Π θυΓΟ όθνθΙορΓΠ Θ Π ΐάΙ", "The neurodevelopmental", neurodevelopmentalIntro)
+neurodevelopmentalIntro <- gsub("## Intellectual Disabilities.*", "", neurodevelopmentalIntro) ## remove redundant part of next chunk
+neurodevelopmentalIntro <- gsub("- ", "", neurodevelopmentalIntro)
+writeLines(neurodevelopmentalIntro, "neurodevelopmentalIntro.txt")
 
-section2a <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 71:79) ## "Neurodevelopmental disorders".
-section2a[1] <- gsub("(?s).*(?=\nIntelle)", "", section2a[1], perl=T) ## remove redundant text before section starts
-## section2a[1] <- gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", section2a[1], perl=T) ## remove \n not followed by parens or CAP.
+### Neurodevelopmental main body
+neurodevelopmentalMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 71:80) ## "Neurodevelopmental disorders".
+neurodevelopmentalMain[1] <- gsub("(?s).*(?=\nIntelle)", "", neurodevelopmentalMain[1], perl=T) ## remove redundant text before section starts
+## neurodevelopmentalMain[1] <- gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", neurodevelopmentalMain[1], perl=T) ## remove \n not followed by parens or CAP.
 
 ## collapse pages
-section2a <- paste(section2a, collapse = "") ## collapse to one
-
-## remove - at end of line
-section2a <- gsub("­\n", "", section2a)
-
-section2a <- gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.)", "", section2a, perl=T) ## remove \n not followed by parens or CAP or number
-
-## identify headers as lines without comma or dot
-section2a <- gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", section2a, perl=T)
-
-## format details
-section2a <-
-    gsub("Specify(.*:\n)", "Specify\\1", section2a)
-section2a <- gsub("\n", "\n\n", section2a) ## double newline
-
-## replace matches in spellList
-## for (i in 1:length(spellList)){
-##     section2a <-
-##         gsub(names(spellList[i]), spellList[i][[1]], section2a)
-## }
-
-section2a <- spellCorrectTEST(spellList, section2a) ## fix spelling
+neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
+neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
+neurodevelopmentalMain <- makeHeaders(neurodevelopmentalMain)
 
 ## chunk specific replacements
-section2a <- gsub("(?s)\\.&.*Æu cru", "", section2a, perl = T) ## remove table
-section2a <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", section2a)
-section2a <-
-    gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", section2a)
-
+neurodevelopmentalMain <- gsub("(?s)\\.&.*Æu cru", "", neurodevelopmentalMain, perl = T) ## remove table
+neurodevelopmentalMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
+neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmentalMain, perl = T)
+neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain)
 ## write
-writeLines(section2a[1], "section2a.txt")
+writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
-## notes
+gsub("^", "Start", neurodevelopmentalMain)
+x
+
+
+## section2a <- gsub("­\n", "", section2a) ## remove - at end of line
+## section2a <- gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.)", "", section2a, perl=T) ## remove \n not followed by parens or CAP or number
+## ## identify headers as lines without comma or dot
+## section2a <- gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", section2a, perl=T)
+## section2a <- gsub("Specify(.*:\n)", "Specify\\1", section2a)
+## section2a <- gsub("\n", "\n\n", section2a) ## double newline
+
+
+
+
+
+
+## notes ============================
 ## pdftools better?
 ## text <- pdftools::pdf_text("path/file.pdf")[10:16]
 
