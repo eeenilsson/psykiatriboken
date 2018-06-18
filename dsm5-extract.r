@@ -18,6 +18,7 @@ makeHeaders <-function(x){
     gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
 }
 
+
 cleanNewlines <- function(CHUNK){
     ## removes newlines not followed by parens, Cap, number. or multiplnumbers
     gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
@@ -160,6 +161,8 @@ neurodevelopmentalMain <- gsub("^", "## Intellectual Disabilities\n", neurodevel
 
 ## collapse pages
 neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
+test <- neurodevelopmentalMain ## extract text object
+makeHeaders(neurodevelopmentalMain) 
 neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
 neurodevelopmentalMain <- makeHeaders(neurodevelopmentalMain)
 
@@ -170,30 +173,61 @@ neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319
 neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
 neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmentalMain, perl = T)
 neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("## With", "With", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic croteria section
+
 ## write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
-## Todo:
-## remove hashes from ## With
-## Remove ## -lists, eg:
-## 315.1 (FBI .2) With impairment in mathematics:
+test <- substr(neurodevelopmentalMain, nchar(neurodevelopmentalMain)-19000, nchar(neurodevelopmentalMain)-16000)
 
-## ## Number sense
+## "\n\nTourette’s Disorder 307.23 (F95.2)\n\nA."
+## gsub("\n\n.*\\)\n\n[A-Z]\\.", "#####hello", test)
+## gsub("\n\n[A-Z].*\\)(?=(\n\n[A-Z]\\.))", "#####hello", test, perl = T)
 
-## ## Memorization of arithmetic facts 
+gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "### \\1", test, perl = T) ## seems to work
 
-## ## Accurate or fluent calculation 
 
-## ## Accurate math reasoning
 
-## Text starts here
+x
+## TODO:
+## ## Specify if: should perhaps be made boldface or just remove ## ?
 
-## Idea: Remove (:\n\n## ) unless line is followed by ..
+## test improve headers
+makeSubHeaders <-function(x){
+    gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
+}
+
+## Notes on headers
+## A [diagnosis] has diagnostic criteria and is followed by text on the subject.
+## A [diagnosis] can be matched in the code list, but note that CASE is different, so needs case-insensitive matching
 
 #### Section headers: (only first occurance)
 ## Communication Disorders
 ## Autism Spectrum Disorder
 ## Intellectual Disabilities
+## Motor Disorders
+
+## # Neurodevelopmental
+## ## Intellectual disabilities [section]
+## ### Intellectual disability (Intellectual Developmental Disorder) [diagnosis]
+## ## Communication Disorders
+## ### Language Disorder
+## ### Speech Sound Disorder
+## ### Childhood-Onset Fluency Disorder (Stuttering)
+## ## Autism Spectrum Disorder [section]
+## ### Autism Spectrum Disorder [Note: In this case subheader identical to header]
+
+## Attention-Deficit/Hyperactivity Disorder
+## Specific Learning Disorder
+## Motor Disorders [section]
+### Tic Disorders [diagnosis]
+#### Tourette’s Disorder 307.23 (F95.2) [sub-diagnosis]
+#### Persistent (Chronic) Motor or Vocal Tic Disorder 307.22 (F95.1 )
+#### Provisional Tic Disorder 307.21 (F95.0)
+## Other Neurodevelopmental Disorders
+
+
 ## 125:128 schizophrenia intro
 ## 128 Scizophrenia start of main body
 
@@ -251,12 +285,6 @@ sectionTEST <-
 ##     gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", sectionTEST, perl=T)
 
 ## headers
-sectionTEST <- makeHeaders(sectionTEST)
-
-sectionTEST <- spellCorrect(spellList, sectionTEST) ## fix spelling
-
-sectionTEST <- gsub("\n", "\n\n", sectionTEST) ## double newline
-
 ## format details
 ## sectionTEST <-
 ##     gsub("Specify(.*:\n)", "Specify\\1", sectionTEST)
