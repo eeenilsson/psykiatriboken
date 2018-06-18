@@ -1,0 +1,1104 @@
+Before each disorder name, ICD-9-CM codes are provided, followed by ICD-IO-CM codes in parentheses. Blank lines indicate that either the ICD-9-CM or the ICD-IO-CM code is not applicable. For some disorders, the code can be indicated only according to the subtype or specifier.
+ICD-9-CM codes are to be used for coding purposes in the United States through Sep­tember 30,2014. ICD-IO-CM codes are to be used starting October 1,2014.
+Following chapter titles and disorder names, page numbers for the corresponding text or criteria are included in parentheses.
+Note for all mental disorders due to another medical condition: Indicate the name of the other medical condition in the name of the mental disorder due to [the medical condi­tion]. The code and name for the other medical condition should be listed first immedi­ately before the mental disorder due to the medical condition.
+## Neurodevelopmental Disorders (31)
+## Intellectual Disabilities (33)
+319 (___.__) Intellectual Disability (Intellectual Developmental Disorder) (33)
+Specify current severity;
+(F70) Mild
+(F71) Moderate
+(F72) Severe
+(F73) Profound
+315.8 (F88) Global Developmental Delay (41)
+319 (F79) Unspecified Intellectual Disability (Intellectual Developmental
+Disorder) (41)
+## Communication Disorders (41)
+315.39 (F80.9) Language Disorder (42)
+315.39 (F80.0) Speech Sound Disorder (44)
+315.35 (F80.81) Childhood-Onset Fluency Disorder (Stuttering) (45)
+Note: Later-onset cases are diagnosed as 307.0 (F98.5) adult-onset fluency disorder.
+315.39 (F80.89) Social (Pragmatic) Communication Disorder (47)
+307.9 (F80.9) Unspecified Communication Disorder (49)
+Autism Spectrum Disorder (50)
+299.00 (F84.0) Autism Spectrum Disorder (50)
+Specify if: Associated with a known medical or genetic condition or envi­ronmental factor; Associated with another neurodevelopmental, men­tal, or behavioral disorder 
+Specify current severity for Criterion A and Criterion B: Requiring very substantial support. Requiring substantial support. Requiring support 
+Specify if: With or without accompanying intellectual impairment. With or without accompanying language impairment. With catatonia (use additional code 293.89 [F06.1])
+Attention-Deficit/Hyperactivity Disorder (59)___.__ (__ .__) Attention-Deficit/Hyperactivity Disorder (59)
+Specify whether:
+314.01 (F90.2) Combined presentation
+314.00 (F90.0) Predominantly inattentive presentation
+314.01 (F90.1) Predominantly hyperactive/impulsive presentation
+Specify if: In partial remission
+Specify current severity: Mild, Moderate, Severe
+314.01 (F90.8) Other Specified Attention-Deficit/Hyperactivity Disorder (65)
+314.01 (F90.9) Unspecified Attention-Deficit/Hyperactivity Disorder (66)
+Specific Learning Disorder (66)___.__ (___.__) Specific Learning Disorder (66)
+Specify if:
+315.00 (F81.0) With impairment in reading {specify if with word readingaccuracy, reading rate or fluency, reading comprehension)
+315.2 (F81.81 ) With impairment in written expression {specify if with spellingaccuracy, grammar and punctuation accuracy, clarity or organization of written expression)
+315.1 (F81.2) With impairment in mathematics {specify if with number sense,memorization of arithmetic facts, accurate or fluent calculation, accurate math reasoning)
+Specify current severity: Mild, Moderate, Severe
+Motor Disorders (74)
+315.4 (F82) Developmental Coordination Disorder (74)
+307.3 (F98.4) Stereotypic Movement Disorder (77)
+Specify if: With self-injurious behavior. Without self-injurious behavior 
+Specify if: Associated with a known medical or genetic condition, neuro­developmental disorder, or environmental factor 
+Specify current severity: Mild, Moderate, Severe
+Tic Disorders
+307.23 (F95.2) Tourette's Disorder (81)
+307.22 (F95.1) Persistent (Chronic) Motor or Vocal Tic Disorder (81)
+Specify if: With motor tics only. With vocal tics only
+307.21 (F95.0) Provisional Tic Disorder (81)
+307.20 (F95.8), Other Specified Tic Disorder (85)
+307.20 (F95.9) Urispecified Tic Disorder (85)
+Other Neurodevelopmental Disorders (86)
+315.8 (FSB) Other Specified Neurodevelopmental Disorder (86)
+315.9 (F89) Unspecified Neurodevelopmental Disorder (86)
+Schizophrenia Spectrum and Other Psychotic Disorders (87)
+The following specifiers apply to Schizophrenia Spectrum and Other Psychotic Disorders where indicated:^Specify if: The following course specifiers are only to be used after a 1-year duration of the dis­order: First episode, currently in acute episode; First episode, currently in partial remission; 
+First episode, currently in full remission; Multiple episodes, currently in acute episode; Mul­tiple episodes, currently in partial remission; Multiple episodes, currently in full remission; 
+Continuous; Unspecified ^Specify if: With catatonia (use additional code 293.89 [F06.1])^Specify current severity of delusions, hallucinations, disorganized speech, abnormal psycho­motor behavior, negative symptoms, impaired cognition, depression, and mania symptoms
+301.22 (F21) 
+297.1 (F22)
+298.8 (F23)
+295.40 (F20.81)
+295.90 (F20.9)
+295.70 (F25.0)
+295.70 (F25.1)
+293.81 (F06.2)
+293.82 (F06.0)
+Schizotypal (Personality) Disorder (90)
+Delusional Disorder^'  ̂ (90)
+Specify whether: Erotomanie type. Grandiose type. Jealous type. Persecu­tory type. Somatic type. Mixed type. Unspecified type 
+Specify if: With bizarre content
+Brief Psychotic Disorder^'  ̂(94)
+Specify if: With marked stressor(s). Without marked stressor(s). With postpartum onset
+Schizophreniform Disorder^'  ̂ (96)
+Specify if: With good prognostic features. Without good prognostic fea­tures
+Schizophrenia^'  ̂(99)
+Schizoaffective Disorder^'  ̂(105)
+Specify whether:
+Bipolar type 
+Depressive type
+Substance/Medication-Induced Psychotic Disorder^ (110)
+Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify if: With onset during intoxication. With onset during withdrawal
+Psychotic Disorder Due to Another Medical Condition^ (115) 
+Specify whether:
+With delusions 
+With hallucinations
+293.89 (F06.1) Catatonia Associated With Another Mental Disorder (Catatonia
+Specifier) (119)
+293.89 (F06.1) Catatonic Disorder Due to Another Medical Condition (120)
+293.89 (F06.1) Unspecified Catatonia (121)
+Note: Code first 781.99 (R29.818) other symptoms involving nervous and musculoskeletal systems.
+298.8 (F28) Other Specified Schizophrenia Spectrum and Other Psychotic
+Disorder (122)
+298.9 (F29) Unspecified Schizophrenia Spectrum and Other Psychotic
+Disorder (122)
+Bipolar and Related Disorders (123)
+The following specifiers apply to Bipolar and Related Disorders where indicated:
+Ŝpecify: With anxious distress (specify current severity: mild, moderate, moderate-severe, severe); 
+With mixed features; With rapid cycling; With melancholic features; With atypical features; 
+With mood-congruent psychotic features; With mood-incongruent psychotic features; With catatonia (use additional code 293.89 [F06.1]); With péripartum onset; With seasonal pattem
+296.41
+296.42
+296.43
+296.44
+296.45
+296.46
+296.40
+296.40
+296.45
+296.46
+296.40
+296.51
+296.52
+296.53
+296.54
+296.55
+296.56 
+296.50 
+296.7
+(F31.11)
+(F31.12)
+(F31.13)
+(F31.2)
+(F31.73)
+(F31.74)
+(F31.9)
+(F31.0)
+(F31.73)
+(F31.74)
+(F31.9)
+(F31.31)
+(F31.32)
+(F31.4)
+(F31.5)
+(F31.75)
+(F31.76)
+(F31.9)
+(F31.9)
+296.89 (F31.81)
+Bipolar I Disorder® (123)
+Current or most recent episode manic 
+Mild
+Moderate
+Severe
+With psychotic features 
+In partial remission 
+In full remission 
+Unspecified 
+Current or most recent episode hypomanie 
+In partial remission 
+In kill remission 
+Unspecified 
+Current or most recent episode depressed 
+Mild
+Moderate
+Severe
+With psychotic features 
+In partial remission 
+In full remission 
+Unspecified 
+Current or most recent episode unspecified 
+Bipolar II Disorder® (132)
+Specify current or most recent episode: Hypomanie, Depressed 
+Specify course if full criteria for a mood episode are not currently met: In partial remission. In full remission 
+Specify severity if full criteria for a mood episode are not currently met: 
+Mild, Moderate, Severe
+301.13 (F34.0)y
+293.83 (__ ._ )
+(F06.33) 
+(F06.33) 
+(F06.34) 
+296.89 (F31.89) 
+296.80 (F31.9)
+Cyclothymic Disorder (139)
+Specify if: With anxious distress
+Substance/Medication-Induced Bipolar and Related Disorder (142) 
+Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify if: With onset during intoxication. With onset during withdrawal
+Bipolar and Related Disorder Due to Another Medical Condition 
+(145)
+Specify if:
+With manic features 
+With manic- or hypomanic-like episode 
+With mixed features 
+Other Specified Bipolar and Related Disorder (148)
+Unspecified Bipolar and Related Disorder (149)
+Depressive Disorders (155)
+The following specifiers apply to Depressive Disorders where indicated:^Specify: With anxious distress (specify current severity: mild, moderate, moderate-severe, severe); With mixed features; With melancholic features; With atypical features; With mood- congruent psychotic features; With mood-incongruent psychotic features; With catatonia 
+(use additional code 293.89 [F06.1]); With péripartum onset; With seasonal pattern
+296.99 (F34.8) Disruptive Mood Dysregulation Disorder (156). (_ ■  ) Major Depressive Disorder® (160). ( _ .  ) Single episode
+296.21 (F32.0) Mild
+296.22 (F32.1) Moderate
+296.23 (F32.2) Severe
+296.24 (F32.3) With psychotic features
+296.25 (F32.4) In partial remission
+296.26 (F32.5) In full remission
+296.20 (F32.9) Unspecified. ( _ ·  ) Recurrent episode
+296.31 (F33.0) Mild
+296.32 (F33.1) Moderate
+296.33 (F33.2) Severe
+296.34 (F33.3) With psychotic features
+296.35 (F33.41) In partial remission
+296.36 (F33.42) In full remission
+296.30 (F33.9) Unspecified
+300.4 (F34.1) Persistent Depressive Disorder (Dysthymia)® (168)
+Specify if: In partial remission. In full remission 
+Specify if: Early onset. Late onset
+Specify if: With pure dysthymic syndrome; With persistent major depres­sive episode; With intermittent major depressive episodes, with current
+625.4 (N94.3) 
+(__■_)
+293.83 (__ ._ )
+(F06.31) 
+(F06.32) 
+(F06.34) 
+311 (F32.8) 
+311 (F32.9)episode; With intermittent major depressive episodes, without current episode
+Specify current severity: Mild, Moderate, Severe 
+Premenstrual Dysphoric Disorder (171)
+Substance/Medication-Induced Depressive Disorder (175)
+Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify if: With onset during intoxication. With onset during withdrawal
+Depressive Disorder Due to Another Medical Condition (180) 
+Specify if:
+With depressive features 
+With major depressive-like episode 
+With mixed features 
+Other Specified Depressive Disorder (183)
+Unspecified Depressive Disorder (184)
+Anxiety Disorders (189)
+309.21 (F93.0)
+312.23 (F94.0) 
+300.29 (__ ._ )
+(F40.218)
+(F40.228)
+( _ · _ )
+(F40.230)
+(F40.231)
+(F40.232)
+(F40.233)
+(F40.248)
+(F40.298)
+300.23 (F40.10)
+300.01 (F41.0)
+300.22 (F40.00)
+300.02 (F41.1)
+Separation Anxiety Disorder (190)
+Selective Mutism (195)
+Specific Phobia (197)
+Specify if:
+Animal
+Natural environment 
+Blood-injection-injury 
+Fear of blood
+Fear of injections and transfusions 
+Fear of other medical care 
+Fear of injury 
+Situational 
+Other
+Social Anxiety Disorder (Social Phobia) (202)
+Specify if: Performance only
+Panic Disorder (208)
+Panic Attack Specifier (214)
+Agoraphobia (217)
+Generalized Anxiety Disorder (222)
+Substance/Medication-Induced Anxiety Disorder (226)
+Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify if: With onset during intoxication. With onset during withdrawal. 
+With onset after medication use
+293.84 (F06.4) Anxiety Disorder Due to Another Medical Condition (230)
+300.09 (F41.8) \ Other Specified Anxiety Disorder (233)
+300.00 (F41.9) Unspecified Anxiety Disorder (233)
+Obsessive-Compulsive and Related Disorders (235)
+The following specifier applies to Obsessive-Compulsive and Related Disorders where indicated: ^Specify if: With good or fair insight. With poor insight. With absent insight/delusional beliefs
+300.3 (F42)
+300.7 (F45.22)
+300.3 (F42)
+312.39 (F63.2)
+698.4 (L98.1)
+(_._J
+294.8 (F06.8)
+300.3 (F42)
+300.3 (F42)
+Obsessive-Compulsive Disorder^ (237)
+Specify if: Tic-related
+Body Dysmorphic Disorder^ (242)
+Specify if: With muscle dysmorphia
+Hoarding Disorder^ (247)
+Specify if: With excessive acquisition
+Trichotillomania (Hair-Pulling Disorder) (251)
+Excoriation (Skin-Picking) Disorder (254)
+Substance/Medication-Induced Obsessive-Compulsive and 
+Related Disorder (257)
+Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify if: With onset during intoxication. With onset during withdrawal. 
+With onset after medication use
+Obsessive-Compulsive and Related Disorder Due to Another 
+Medical Condition (260)
+Specify if: With obsessive-compulsive disorder-like symptoms. With appearance preoccupations. With hoarding symptoms. With hair- pulling symptoms. With skin-picking symptoms
+Other Specified Obsessive-Compulsive and Related Disorder 
+(263)
+Unspecified Obsessive-Compulsive and Related Disorder (264)
+Trauma- and Stressor-Related Disorders (265)
+313.89 (F94.1)
+313.89 (F94.2)
+309.81 (F43.10)
+308.3 (F43.0)
+Reactive Attachment Disorder (265)
+Specify if: Persistent
+Specify current severity: Severe
+Disinhibited Social Engagement Disorder (268)
+Specify if: Persistent
+Specify current severity: Severe
+Posttraumatic Stress Disorder (includes Posttraumatic Stress 
+Disorder for Children 6 Years and Younger) (271) 
+Specify whether: With dissociative symptoms 
+Specify if: With delayed expression
+Acute Stress Disorder (280)
+XX DSM-5 Classification
+( ■_) Adjustment Disorders (286)
+Specify whether:
+309.0 (F43.21) With depressed mood
+309.24 (F43.22) With anxiety
+309.28 (F43.23) With mixed anxiety and depressed mood
+309.3 (F43.24) With disturbance of conduct
+309.4 (F43.25) With mixed disturbance of emotions and conduct
+309.9 (F43.20) Unspecified
+309.89 (F43.8) Other Specified Trauma- and Stressor-Related Disorder (289)
+309.9 (F43.9) Unspecified Trauma- and Stressor-Related Disorder (290)
+Dissociative Disorders (291)
+300.14 (F44.81) Dissociative Identity Disorder (292)
+300.12 (F44.0) Dissociative Amnesia (298)
+Specify if:
+300.13 (F44.1) With dissociative fugue
+300.6 (F48.1) Depersonalization/Derealization Disorder (302)
+300.15 {F44.89) Other Specified Dissociative Disorder (306)
+300.15 (F44.9) Unspecified Dissociative Disorder (307)
+Somatic Symptom and Related Disorders (309)
+300.82 (F45.1) Somatic Symptom Disorder (311)
+Specify if: With predominant pain
+Specify if: Persistent
+Specify current severity: Mild, Moderate, Severe
+300.7 (F45.21) Illness Anxiety Disorder (315)
+Specify whether: Care seeking type. Care avoidant type
+300.11 ( ._ ) Conversion Disorder (Functional Neurological Symptom
+Disorder) (318)
+Specify symptom type:
+(F44.4) With weakness or paralysis
+(F44.4) With abnormal movement
+(F44.4) With swallowing symptoms
+(F44.4) With speech symptom{F44.5) With attacks or seizures
+(F44.6) With anesthesia or sensory loss
+(F44.6) With special sensory symptom
+(F44.7) With mixed symptoms
+Specify if: Acute episode, Persistent
+Specify if: With psychological stressor (specify stressor). Without psycho­logical stressor
+316 (F54) 
+300.19 (F68.10)
+300.89 (F45.8) 
+300.82 (F45.9)
+Psychological Factors Affecting Other Medical Conditions (322) 
+Specify current severity: Mild, Moderate, Severe, Extreme
+Factitious Disorder (includes Factitious Disorder Imposed on Self, 
+Factitious Disorder Imposed on Another) (324)
+Specify Single episode. Recurrent episodes
+Other Specified Somatic Symptom and Related Disorder (327) 
+Unspecified Somatic Symptom and Related Disorder (327)
+Feeding and Eating Disorders (329)
+The following specifiers apply to Feeding and Eating Disorders where indicated:^Specify if: In remission^Specify if: In partial remission, In full remission
+Ŝpecify current severity: Mild, Moderate, Severe, Extreme
+307.52 ( . ) Pica® (329)
+(F98.3) In children
+(F50.8) In adults
+307.53 (F98.21) Rumination Disorder^ (332)
+307.59 {F50.8) Avoidant/Restrictive Food Intake Disorder^ (334)
+307.1 ( . ) Anorexia Nervosa^'  ̂(338) 
+Specify whether:
+(F50.01) Restricting type
+(F50.02) Binge-eating/purging type
+307.51 (F50.2) Bulimia Nervosa^'  ̂(345)
+307.51 (F50.8) Binge-Eating Disorder^'  ̂(350)
+307.59 (F50.8) Other Specified Feeding or Eating Disorder (353)
+307.50 (F50.9) Unspecified Feeding or Eating Disorder (354)
+Elimination Disorders (355)
+307.6 (F98.0) Enuresis (355)
+Specify whether: Nocturnal only. Diurnal only. Nocturnal and diurnal
+307.7 (F98.1) Encopresis (357)
+Specify whether: With constipation and overflow incontinence. Without constipation and overflow incontinence. ( _ .  ) Other Specified Elimination Disorder (359)
+788.39 (N39.498) With urinary symptoms
+787.60 (R15.9) With fecal symptoms. ( . ) Unspecified Elimination Disorder (360)
+788.30 (R32) With urinary symptoms
+787.60 (R15.9) With fecal symptoms
+Sleep-Wake Disorders (361)
+The following specifiers apply to Sleep-Wake Disorders where indicated:^Specify if: Episodic, Persistent, Recurrent ^Specify if: Acute, Subacute, Persistent ^Specify current severity: Mild, Moderate, Severe
+780.52 (G47.00) Insomnia Disorder^ (362)
+Specify if: With non-sleep disorder mental comorbidity. With other medical comorbidity. With other sleep disorder
+Hypersoninolence Disorder^'  ̂(368)
+Specify if: With mental disorder. With medical condition. With another sleep disorder
+Narcolepsy^ (372)
+Specify whether:
+Narcolepsy v^ithout cataplexy but with hypocretin deficiency 
+Narcolepsy with cataplexy but without hypocretin deficiency 
+Autosomal dominant cerebellar ataxia, deafness, and narcolepsy
+Autosomal dominant narcolepsy, obesity, and type 2 diabetes 
+Narcolepsy secondary to another medical condition
+780.54 (G47.10)
+347.00 (G47.419)
+347.01 (G47.411)
+347.00 (G47.419)
+347.00 (G47.419) 
+347.10 (G47.429)
+Breathing-Related Sleep Disorders (378)
+327.23 (G47.33) Obstructive Sleep Apnea Hypopnea^ (378)
+327.21 (G47.31) 
+786.04 (R06.3) 
+780.57 (G47.37)
+327.24 (G47.34)
+327.25 (G47.35)
+327.26 (G47.36)
+307.45 (G47.21)
+307.45 (G47.22)
+307.45 (G47.23)
+307.45 (G47.24)
+Central Sleep Apnea (383)
+Specify whether:
+Idiopathic central sleep apnea 
+Cheyne-Stokes breathing 
+Central sleep apnea comorbid with opioid use 
+Note: First code opioid use disorder, if present.
+Specify current severity
+Sleep-Related Hypoventilation (387)
+Specify whether:
+Idiopathic hypoventilation 
+Congenital central alveolar hypoventilation 
+Comorbid sleep-related hypoventilation 
+Specify current severity
+Circadian Rhythm Sleep-Wake Disorders^ (390)
+Specify whether:
+Delayed sleep phase type (391)
+Specify if: Familial, Overlapping with non-24-hour sleep-wake type 
+Advanced sleep phase type (393)
+Specify if: Familial
+Irregular sleep-wake type (394)
+Non-24-hour sleep-wake type (396)
+307.45 (G47.26)
+307.45 (G47.20)
+Parasomnias (399)
+Shift work type (397) 
+Unspecified type
+307.46 (F51.3)
+307.46 (F51.4)
+307.47 (F51.5)
+327.42 (G47.52) 
+333.94 (025.81)
+( _ . _ )
+780.52 (G47.09)
+780.52 (G47.00)
+780.54 (G47.19)
+780.54 (G47.10)
+780.59 (G47.8)
+780.59 (G47.9)
+Non-Rapid Eye Movement Sleep Arousal Disorders (399)
+Specify whether:
+Sleepwalking type
+Specify if: With sleep-related eating. With sleep-related sexual behavior (sexsomnia)
+Sleep terror type
+Nightmare Disorder^'  ̂(404)
+Specify if: During sleep onset
+Specify if: With associated non-sleep disorder. With associated other medical condition. With associated other sleep disorder
+Rapid Eye Movement Sleep Behavior Disorder (407)
+Restless Legs Syndrome (410)
+Substance/Medication-Induced Sleep Disorder (413)
+Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify whether: Insomnia type. Daytime sleepiness type, Parasomnia type. Mixed type
+Specify if: With onset during intoxication. With onset during discontinua­tion/withdrawal
+Other Specified Insomnia Disorder (420)
+Unspecified Insonmia Disorder (420)
+Other Specified Hypersomnolence Disorder (421)
+Unspecified Hypersomnolence Disorder (421)
+Other Specified Sleep-Wake Disorder (421)
+Unspecified Sleep-Wake Disorder (422)
+Sexual Dysfunctions (423)
+The following specifiers apply to Sexual Dysfunctions where indicated:^Specify whether: Lifelong, Acquired ^Specify whether: Generalized, Situational ^Specify current severity: Mild, Moderate, Severe
+302.74 (F52.32) Delayed Ejaculation®'  ̂(424)
+Erectile Disorder®' (426)
+Female Orgasmic Disorder®' *̂ ' (429)
+Specify if: Never experienced an orgasm under any situation
+Female Sexual Interest/Arousal Disorder®' (433) 
+Genito-Pelvic Pain/Penetration Disorder®'  ̂(437)
+302.72 (F52.21)
+302.73 (F52.31)
+302.72 (F52.22) 
+302.76 (F52.6)
+302.71 (F52.0) 
+302.75 (F52.4)
+302.79 (F52.8) 
+302.70 (F52.9)
+Male Hypoactive Sexual Desire Disorder^'  ̂ (440)
+Premature (Early) Ejaculation^'  ̂(443)
+Substance/Medication-Induced Sexual Dysfunction^ (446)
+Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify if: With onset during intoxication. With onset during withdrawal. 
+With onset after medication use
+Other Specified Sexual Dysfunction (450)
+Unspecified Sexual Dysfunction (450)
+Gender Dysplioria (451). { · ) Gender Dysphoria (452)
+302.6 (F64.2) Gender Dysphoria in Children
+Specify if: With a disorder of sex development
+302.85 (F64.1) Gender Dysphoria in Adolescents and Adults 
+Specify if: With a disorder of sex development 
+Specify if: Posttransition 
+Note: Code the disorder of sex development if present, in addition to gender dysphoria.
+302.6 (F64.8) Other Specified Gender Dysphoria (459)
+302.6 (F64.9) Unspecified Gender Dysphoria (459)
+Disruptive, impuise-Control, and Conduct Disorders (461)
+313.81 (F91.3) Oppositional Defiant Disorder (462)
+Specify current severity: Mild, Moderate, Severe
+312.34 (F63.81) Intermittent Explosive Disorder (466)■ ' Conduct Disorder (469) Specify whether:
+312.81 (F91.1) Childhood-onset type
+312.32 (F91.2) Adolescent-onset type
+312.89 (F91.9) Unspecified onset 
+Specify if: With limited prosocial emotions 
+Specify current severity: Mild, Moderate, Severe
+301.7 (F60.2) Antisocial Personality Disorder (476)
+312.33 {F63.1) Pyromania (476)
+312.32 (F63.3) Kleptomania (478)
+312.89 (F91.8) Other Specified Disruptive, Impulse-Control, and Conduct 
+Disorder (479)
+312.9 (F91.9) Unspecified Disruptive, Impulse-Control, and Conduct Disorder 
+(480)
+Substance-Related and Addictive Disorders (481)
+The following specifiers and note apply to Substance-Related and Addictive Disorders where indicated:^Specify if: In early remission. In sustained remission ^Specify if: In a controlled environment ^Specify if: With perceptual disturbances^The ICD-IO-CM code indicates the comorbid presence of a moderate or severe substance use disorder, which must be present in order to apply the code for substance withdrawal.
+Substance-Related Disorders (483)
+Alcohol-Related Disorders (490). ( . ) Alcohol Use Disorder®' (490)
+Specify current severity:
+305.00 (F10.10) Mild
+303.90 (FI 0.20) Moderate
+303.90 (F10.20) Severe
+303.00 ( . ) Alcohol Intoxication (497)
+(F10.129) With use disorder, mild
+(F10.229) With use disorder, moderate or severe
+(F10.929) Without use disorder
+291.81 ( ._ ) Alcohol Withdrawal^'  ̂ (499)
+(FI0.239) Without perceptual disturbances
+(FI 0.232) With perceptual disturbances. ( ._ ) Other Alcohol-Induced Disorders (502)
+291.9 (FI 0.99) Unspecified Alcohol-Related Disorder (503)
+Caffeine-Related Disorders (503)
+305.90 (F15.929) Caffeine Intoxication (503)
+292.0 (F15.93) Caffeine Withdrawal (506). ( _ ·  ) Other Caffeine-Induced Disorders (508)
+292.9 (FI 5.99) Unspecified Caffeine-Related Disorder (509)
+Cannabis-Related Disorders (509). ( ■ ) Cannabis Use Disorder^' ̂  (509)
+Specify current severity:
+305.20 (F12.10) Mild
+304.30 (F12.20) Moderate
+304.30 (F12.20) Severe
+292.89 (__
+(F12.129) 
+(Fl 2.229) 
+(F12.929)
+(F12.122) 
+(F12.222) 
+(F12.922)
+(F12.288) 
+( _ . _ )
+292.0
+292.9 (F12.99)
+Hallucinogen-Related Disorders (520)
+Cannabis Intoxication‘s (516)
+Without perceptual disturbances 
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder 
+With perceptual disturbances 
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder
+Cannabis Withdrawal*^ (517)
+Other Cannabis-Induced Disorders (519) 
+Unspecified Cannabis-Related Disorder (519)
+305.90 (F16.10)
+304.60 (F16.20)
+304.60 (F16.20)
+( _ ■ _ )
+305.30 (F16.10)
+304.50 (F16.20)
+304.50 (F16.20)
+292.89 (__ ._ )
+(F16.129) 
+(F16.229) 
+(F16.929)
+292.89 (__ ._ )
+Phencyclidine Use Disorder®' (520)
+Specify current severity:
+Mild
+Moderate
+Severe
+Other Hallucinogen Use Disorder®' (523) 
+Specify the particular hallucinogen 
+Specify current severity;
+Mild
+Moderate
+Severe
+Phencyclidine Intoxication (527)
+With use disorder, mild
+With use disorder, moderate or severe
+Without use disorder
+Other Hallucinogen Intoxication (529)
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder 
+Hallucinogen Persisting Perception Disorder (531) 
+Other Phencyclidine-Induced Disorders (532) 
+Other Hallucinogen-Induced Disorders (532) 
+Unspecified Phencyclidine-Related Disorder (533) 
+Unspecified Hallucinogen-Related Disorder (533) 
+Inhalant-Related Disorders (533)___. _  (__ ._ )  Inhalant Use Disorder®' (533)
+Specify the particular inhalant 
+Specify current severity:
+305.90 (F18.10) Mild
+(F16.129) 
+(F16.229) 
+(F16.929) 
+292.89 (F16.983) 
+( _ . _ )
+292.9
+292.9
+(F16.99)
+(F16.99)
+304.60 (F18.20)
+304.60 (F18.20)
+292.89 (__ ._ )
+(F18.129) 
+(F18.229) 
+(F18.929)
+( _ ■ _ )  
+292.9 (F18.99)
+Moderate
+Severe
+Inhalant Intoxication (538)
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder 
+Other Inhalant-Induced Disorders (540) 
+Unspecified Inhalant-Related Disorder (540)
+Opioid-Related Disorders (540)___.__ (___.__) Opioid Use Disorder® (541)
+Specify if: On maintenance therapy, In a controlled environment 
+Specify current severity:
+305.50 (F11.10) Mild
+304.00 (F11.20) Moderate
+304.00 (F11.20) Severe
+292.89 ( . ) Opioid Intoxication‘s (546)
+Without perceptual disturbances
+(F11.129) With use disorder, mild
+(F11.229) With use disorder, moderate or severe
+(F11.929) Without use disorder
+With perceptual disturbances
+(F11.122) With use disorder, mild
+(F11.222) With use disorder, moderate or severe
+(F11.922) Without use disorder
+292.0 (F11.23) Opioid Withdrawal‘s (547). ( ■ ) Other Opioid-Induced Disorders (549)
+292.9 (F11.99) Unspecified Opioid-Related Disorder (550)
+Sedative-, Hypnotic-, or Anxiolytic-Related Disorders (550)■ ( - ) Sedative, Hypnotic, or Anxiolytic Use Disorder^'  ̂ (550)
+Specify current severity:
+305.40 (F13.10) Mild
+304.10 (F13.20) Moderate
+304.10 (F13.20) Severe
+292.89 ( . ) Sedative, Hypnotic, or Anxiolytic Intoxication (556)
+(F13.129) With use disorder, mild
+(F13.229) With use disorder, moderate or severe
+(F13.929) Without use disorder
+292.0 ( . ) Sedative, Hypnotic, or Anxiolytic Withdrawal^'  ̂ (557)
+(FI 3.239) Without perceptual disturbances
+(F13.232) With perceptual disturbances___.__ (__ .__) Other Sedative-, Hypnotic-, or Anxiolytic-Induced Disorders
+(560)
+292.9 (F13.99) Unspecified Sedative-, Hypnotic-, or Anxiolytic-Related Disorder
+(560)
+305.70 
+305.60
+305.70
+Stimulant-Related
+( _ ■ _ )
+(F15.10)
+(F14.10)
+(F15.10)
+( _ ■ _ )
+(F15.20)
+(F14.20)
+(F15.20)
+( _ . _ )
+(F15.20)
+(F14.20)
+(F15.20)
+304.40 
+304.20
+304.40
+304.40 
+304.20
+304.40
+292.89 (__ ._ )
+292.89 (__ ._ )
+(F15.129) 
+(F15.229) 
+(F15.929)
+292.89 (__ ._J
+(F14.129) 
+(F14.229) 
+(F14.929)
+292.89 (__ ._ )
+(F15.122) 
+(F15.222) 
+(F15.922)
+292.89 (__ ._ )
+(F14.122) 
+(F14.222) 
+(F14.922)
+292.0 (__ ._ )
+(F15.23) 
+(FI 4.23)
+( _ . _ )
+Disorders (561)
+Stimulant Use Disorder®'*  ̂ (561)
+Specify current severity:
+Mild
+Amphetamine-t)φe substance 
+Cocaine
+Other or unspecified stimulant 
+Moderate
+Amphetamine-type substance 
+Cocaine
+Other or unspecified stimulant 
+Severe
+Amphetamine-type substance 
+Cocaine
+Other or unspecified stimulant
+Stimulant Intoxication‘s (567)
+Specify the specific intoxicant
+Amphetamine or other stimulant. Without perceptual disturbances 
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder 
+Cocaine, Without perceptual disturbances 
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder 
+Amphetamine or other stimulant. With perceptual disturbances 
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder 
+Cocaine, With perceptual disturbances 
+With use disorder, mild 
+With use disorder, moderate or severe 
+Without use disorder
+Stimulant Withdrawal*^ (569)
+Specify the specific substance causing the withdrawal syndrome 
+Amphetamine or other stimulant 
+Cocaine
+Other Stimulant-Induced Disorders (570)
+292.9 (__ .__) Unspecified Stimulant-Related Disorder (570)
+(FI 5.9̂ 9) Amphetamine or other stimulant
+(FI 4.99) Cocaine
+Tobacco-Related Disorders (571)■ ( ._ ) Tobacco Use Disorder® (571)
+Specify if: On maintenance therapy. In a controlled environment 
+Specify current severity:
+305.1 (Z72.0) Mild
+305.1 (F17.200) Moderate
+305.1 (F17.200) Severe
+292.0 (F17.203) Tobacco Withdrawal*^ (575)■ ( . ) Other Tobacco-Induced Disorders (576)
+292.9 (FI 7.209) Unspecified Tobacco-Related Disorder (577)
+Other (or Unknown) Substance-Related Disorders (577)— ■- (_ _ . ) Other (or Unknown) Substance Use Disorder®' (577) 
+Specify current severity:
+305.90 (F19.10) Mild
+304.90 (F19.20) Moderate
+304.90 (F19.20) Severe
+292.89 ( _ .  ) Other (or Unknown) Substance Intoxication (581)
+(FI 9.129) With use disorder, mild
+(F19.229) With use disorder, moderate or severe
+(F19.929) Without use disorder
+292.0 (F19.239) Other (or Unknown) Substance Withdrawal*^ (583)■ ( ._ ) Other (or Unknown) Substance-Induced Disorders (584)
+292.9 (F19.99) Unspecified Other (or Unknovm) Substance-Related Disorder (585)
+Non-Substance-Related Disorders (585)
+312.31 (F63.0) Gambling Disorder^ (585)
+Specify if: Episodic, Persistent
+Specify current severity: Mild, Moderate, Severe
+Neurocognitive Disorders (591)
+292.81 (__ ._J
+293.0 (F05)
+Delirium (596)^Note: See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding. 
+Specify whether:
+Substance intoxication delirium^
+Substance withdrawal delirium^
+Medication-induced delirium^
+Delirium due to another medical condition
+293.0 (F05) Delirium due to multiple etiologies
+Specify if: Acute, Persistent
+Specify if: Hyperactive, Hypoactive, Mixed level of activity
+780.09 (R41.0) Other Specified Delirium (602)
+780.09 (R41.0) Unspecified Delirium (602)
+Major and Mild Neurocognitive Disorders (602)
+Specify whether due to: Alzheimer's disease, Frontotemporal lobar degeneration, Lewy body disease. Vascular disease. Traumatic brain injury. Substance/medication use, HIV infection. 
+Prion disease, Parkinson's disease, Huntington's disease. Another medical condition. Multi­ple etiologies. Unspecified ^Specify Without behavioral disturbance. With behavioral disturbance. For possible major neuro­cognitive disorder and for mild neurocognitive disorder, behavioral disturbance cannot be coded but should still be indicated in writing.^Specify current severity: Mild, Moderate, Severe. This specifier applies only to major neurocogni­tive disorders (including probable and possible).
+Note: As indicated for each subtype, an additional medical code is needed for probable major neurocognitive disorder or major neurocognitive disorder. An additional medical code should not be used for possible major neurocognitive disorder or mild neurocognitive disorder.
+Major or Mild Neurocognitive Disorder Due to Alzheimer’s Disease (611)___.__ (___.__) Probable Major Neurocognitive Disorder Due to Alzheimer's
+Disease^
+Note: Code first 331.0 (G30.9) Alzheimer's disease.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance
+331.9 (G31.9) Possible Major Neurocognitive Disorder Due to Alzheimer's
+Disease^' ^
+331.83 (G31.84) Mild Neurocognitive Disorder Due to Alzheimer's Disease^ 
+Major or Mild Frontotemporal Neurocognitive Disorder (614)___.__ (__ .__) Probable Major Neurocognitive Disorder Due to Frontotemporal
+Lobar Degeneration^
+Note: Code first 331.19 (G31.09) frontotemporal disease.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance
+331.9 (G31.9) Possible Major Neurocognitive Disorder Due to Frontotemporal
+Lobar Degeneration^' ^
+331.83 (G31,84) Mild Neurocognitive Disorder Due to Frontotemporal Lobar
+Degeneration^
+Major or Mild Neurocognitive Disorder With Lewy Bodies (618)___.__ (__ .__) Probable Major Neurocognitive Disorder With Leŵ y Bodies^
+Note: Code first 331.82 (G31.83) Lewy body disease.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance— ■— ( ·_)
+290.40 (FOI .51)
+290.40 (FOI .50)
+331.9 (G31.9)
+331.83 (G31.84)
+331.9 (G31.9) Possible Major Neurocognitive Disorder With Lewy Bodies^'  ̂
+331 -83 (G31.84) Mild Neurocognitive Disorder With Lewy Bodies^
+Major or Mild Vascular Neurocognitive Disorder (621)
+Probable Major Vascular Neurocognitive Disorder^
+Note: No additional medical code for vascular disease.
+With behavioral disturbance 
+Without behavioral disturbance 
+Possible Major Vascular Neurocognitive Disorder^' ^
+Mild Vascular Neurocognitive Disorder^
+Major or Mild Neurocognitive Disorder Due to Traumatic Brain Injury (624)___.__ (__ .__) Major Neurocognitive Disorder Due to Traumatic Brain Injury^
+Note: For ICD-9-CM, code first 907.0 late effect of intracranial injury without skull fracture. For ICD-IO-CM, code first S06.2X9S diffuse traumatic brain injury with loss of consciousness of unspecified duration, sequela.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance
+331.83 (G31.84) Mild Neurocognitive Disorder Due to Traumatic Brain Injury^
+Substance/Medication-Induced Major or Mild Neurocognitive Disorder  ̂(627)
+Note: No additional medical code. See the criteria set and corresponding recording procedures for substance-specific codes and ICD-9-CM and ICD-IO-CM coding.
+Specify if: Persistent
+Major or Mild Neurocognitive Disorder Due to HIV Infection (632)
+Major Neurocognitive Disorder Due to HIV Infection^
+Note: Code first 042 (B20) HIV infection.
+With behavioral disturbance 
+Without behavioral disturbance 
+Mild Neurocognitive Disorder Due to HIV Infection^
+Major or Mild Neurocognitive Disorder Due to Prion Disease (634)___.__ (___.__) Major Neurocognitive Disorder Due to Prion Disease^
+Note: Code first 046.79 (A81.9) prion disease.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance
+331.83 (G31.84) Mild Neurocognitive Disorder Due to Prion Disease^
+Major or Mild Neurocognitive Disorder Due to Parkinson’s Disease (636)__ .__ (__ .__) Major Neurocognitive Disorder Probably Due to Parkinson's
+Disease^
+Note: Code first 332.0 (G20) Parkinson's disease.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance---- ■— ( ._ )
+294.11 (F02.81)
+294.10 (F02.80)
+331.83 (G31.84)
+331.9 (G31.9) Major Neurocognitive Disorder Possibly Due to Parkir\son's
+Disease®' ^
+331.83 (G31.84) Mild Neurocognitive Disorder Due to Parkinson's Disease®
+Major or Mild Neurocognitive Disorder Due to Huntington’s Disease (638)___.__ (__ .__) Major Neurocognitive Disorder Due to Huntington's Disease*’
+Note: Code first 333.4 (GIO) Huntington's disease.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance
+331 -83 (G31.84) Mild Neurocognitive Disorder Due to Huntington's Disease^
+Major or Mild Neurocognitive Disorder Due to Another Medical Condition (641)___.__ (___.__) Major Neurocognitive Disorder Due to Another Medical
+Condition^
+Note: Code first the other medical condition.
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance
+331.83 (G31.84) Mild Neurocognitive Disorder Due to Another Medical
+Condition^
+Major or Mild Neurocognitive Disorder Due to Multiple Etiologies (642)___.__ (__ .__) Major Neurocognitive Disorder Due to Multiple Etiologies^
+Note: Code first all the etiological medical conditions (with the exception of vascular disease).
+294.11 (F02.81 ) With behavioral disturbance
+294.10 (F02.80) Without behavioral disturbance
+331.83 (G31.84) Mild Neurocognitive Disorder Due to Multiple Etiologies^
+Unspecified Neurocognitive Disorder (643)
+799.59 (R41.9) Unspecified Neurocognitive Disorder^
+Personality Disorders (645)
+Cluster A Personality Disorders
+301.0 (F60.0) Paranoid Personality Disorder (649)
+301.20 (F60.1) Schizoid Personality Disorder (652)
+301.22 (F21) Schizotypal Personality Disorder (655)
+Cluster B Personality Disorders
+301.7 (F60.2) Antisocial Personality Disorder (659)
+301.83 (F60.3) Borderline Personality Disorder (663)
+301.50 (F60.4) Histrionic Personality Disorder (667)
+301.81 (F60.81) Narcissistic Personality Disorder (669)
+Cluster C Personality Disorders
+301.82 (F60.6V Avoidant Personality Disorder (672)
+301.6 (F60.7) Dependent Personality Disorder (675)
+301.4 (F60.5) Obsessive-Compulsive Personality Disorder (678)
+Other Personality Disorders
+310.1 (F07.0) Personality Change Due to Another Medical Condition (682)
+Specify whether: Labile type, Disinhibited type. Aggressive type, Apathetic type. Paranoid type. Other type. Combined type. Unspecified type
+301.89 (F60.89) Other Specified Personality Disorder (684)
+301.9 (F60.9) Unspecified Personality Disorder (684)
+Paraphilic Disorders (685)
+The following specifier applies to Paraphilic Disorders where indicated: ^Specify if: In a controlled environment. In full remission
+302.82 (F65.3) 
+302.4 (F65.2)
+302.89 (F65.81)
+302.83 (F65.51)
+302.84 (F65.52) 
+302.2 (F65.4)
+302.81 (F65.0)
+302.3 (F65.1)
+302.89 (F65.89)
+302.9 (F65.9)
+Voyeuristic Disorder® (686)
+Exhibitionistic Disorder® (689)
+Specify whether: Sexually aroused by exposing genitals to prepubertal children. Sexually aroused by exposing genitals to physically mature individuals. Sexually aroused by exposing genitals to prepubertal chil­dren and to physically mature individuals
+Frotteuristic Disorder® (691)
+Sexual Masochism Disorder® (694)
+Specify if: With asphyxiophilia
+Sexual Sadism Disorder® (695)
+Pedophilic Disorder (697)
+Specify whether: Exclusive type. Nonexclusive type 
+Specify if: Sexually attracted to males. Sexually attracted to females. Sexu­ally attracted to both 
+Specify if: Limited to incest
+Fetishistic Disorder® (700)
+Specify: Body part(s). Nonliving object(s). Other 
+Transvestic Disorder® (702)
+Specify if: With fetishism. With autogynephilia 
+Other Specified Paraphilic Disorder (705)
+Unspecified Paraphilic Disorder (705)
+Other Mental Disorders (707)
+294.8 (F06.8) Other Specified Mental Disorder Due to Another Medical
+Condition (707)
+294.9 (F09) Unspecified Mental Disorder Due to Another Medical Condition
+(708)
+300.9 (F99) Other Specified Mental Disorder (708)
+300.9 (F99) Unspecified Mental Disorder (708)
+Medication-Induced iVlovement Disorders and 
+Other Adverse Effects of iVledication (709)332.1 (G21.11) Neuroleptic-Induced Parkinsonism (709)332.1 (G21.19) Other Medication-Induced Parkinsonism (709)333.92 (G21.0) Neuroleptic Malignant Syndrome (709)333.72 (G24.02) Medication-Induced Acute Dystonia (711)333.99 (G25.71) Medication-Induced Acute Akathisia (711)333.85 (G24.01) Tardive Dyskinesia (712)333.72 (G24.09) Tardive Dystonia (712)333.99 (G25.71) Tardive Akathisia (712)333.1 (G25.1) Medication-Induced Postural Tremor (712)333.99 (G25.79) Other Medication-Induced Movement Disorder (712). ( . ) Antidepressant Discontinuation Syndrome (712)995.29 (T43.205A) Initial encounter995.29 (T43.205D) Subsequent encounter995.29 (T43.205S) Sequelae. ( ■ ) Other Adverse Effect of Medication (714)995.20 (T50.905A) Initial encounter995.20 (T50.905D) Subsequent encounter995.20 (T50.905S) Sequelae
+Other Conditions That iVlay Be a Focus of Ciinicai Attention (715)
+Relational Problems (715)
+Problems Related to Family Upbringing (715)
+V61.20 (Z62.820) Parent-Child Relational Problem (715)
+V61.8 (Z62.891 ) Sibling Relational Problem (716)
+V61.8 (Z62.29) Upbringing Away From Parents (716)
+V61.29 (Z62.898) Child Affected by Parental Relationship Distress (716)
+Other Problems Related to Primary Support Group (716)
+V61.10 (Z63.0) Relationship Distress With Spouse or Intimate Partner (716) 
+V61.03 (Z63.5) Disruption of Family by Separation or Divorce (716)
+V61.8 (Z63.8) High Expressed Emotion Level Within Family (716)
+V62.82 (Z63.4) Uncomplicated Bereavement (716)
+Abuse and Neglect (717)
+Child ΜβΙίΓ63ίφ6ηΙ and Neglect Problems (717)
+Child Physical Abuse (717)
+Child Physical Abuse, Confirmed (717)995.54 (T74.12XA) Initialencounter995.54 {T74.12XD) Subsequent encounter
+Child Physical Abuse, Suspected (717)995.54 (T76.12XA) Initialencounter995.54 (T76.12XD) Subsequent encounter
+Other Circumstances Related to Child Physical Abuse (718)
+V61.21 (Z69.010) Encounter for mental health services for victim of child abuseby parent
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild abuse
+VI 5.41 (Z62.810) Personal history (past history) of physical abuse in childhood 
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild abuse
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child abuse
+Child Sexual Abuse (718)
+Child Sexual Abuse, Confirmed (718)995.53 (T74.22XA) Initial encounter995.53 (T74.22XD) Subsequent encounter
+Child Sexual Abuse, Suspected (718)995.53 (T76.22XA) Initialencounter995.53 (T76.22XD) Subsequent encounter
+Other Circumstances Related to Child Sexual Abuse (718)
+V61.21 (Z69.010) Encounter for mental health services for victim of child sexualabuse by parent
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild sexual abuse
+V15.41 (Z62.810) Personal history (past history) of sexual abuse in childhood 
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild sexual abuse
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child sexual abuse
+Child Neglect (718)
+Child Neglect, Confirmed (718)995.52 (T74.02XA) Initial encounter995.52 (T74.02XD) Subsequent encounter
+Child Neglect, Suspected (719)995.52 (T76.02XA) Initialencounter995.52 (T76.02XD) Subsequent encounter 
+Other Circumstances Related to Child Neglect (719)
+V61.21 (Z69.010) Encounter for mental health services for victim of child neglectby parent
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild neglect
+VI 5.42 (Z62.812) Personal history (past history) of neglect in childhood
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild neglect
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child neglect
+Child Psychological Abuse (719)
+Child Psychological Abuse, Confirmed (719)995.51 (T74.32XA) Initial encounter995.51 (T74.32XD) Subsequent encounter
+Child Psychological Abuse, Suspected (719)995.51 (T76.32XA) Initial encounter995.51 (T76.32XD) Subsequent encounter
+Other Circumstances Related to Child Psychological Abuse (719)
+V61.21 (Z69.010) Encounter for mental health services for victim of childpsychological abuse by parent 
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild psychological abuse 
+VI 5.42 (Z62.811) Personal history (past history) of psychological abuse inchildhood
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild psychological abuse 
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child psychological abuse
+Adult Maltreatment and Neglect Problems (720)
+Spouse or Partner Violence, Physical (720)
+Spouse or Partner Violence, Physical, Confirmed (720)995.81 (T74.11XA) Initial encounter995.81 (T74.11XD) Subsequent encounter
+Spouse or Partner Violence, Physical, Suspected (720)995.81 (T76.11XA) Initialencounter995.81 (T76.11XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Violence, Physical (720)
+V61.11 (Z69.11) Encounter for mental health services for victim of spouse orpartner violence, physical
+V15.41 (Z91.410) Personal history (past history) of spouse or partner violence,physical
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner violence, physical
+Spouse or Partner Violence, Sexual (720)
+Spouse or Partner Violence, Sexual, Confirmed (720)995.83 (T74.21XA) Irûtial encounter995.83 (T74.21XD) Subsequent encounter
+Spouse or Partner Violence, Sexual, Suspected (720)995.83 (T76.21XA) Initialencounter995.83 (T76.21XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Violence, Sexual (720)
+V61.11 (Z69.81 ) Encounter for mental health services for victim of spouse orpartner violence, sexual 
+VI 5.41 (Z91.410) Personal history (past history) of spouse or partner violence,sexual
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner violence, sexual
+Spouse or Partner, Neglect (721)
+Spouse or Partner Neglect, Confirmed (721)995.85 (T74.01XA) Initialencounter995.85 (T74.01XD) Subsequent encounter
+Spouse or Partner Neglect, Suspected (721)995.85 (T76.01XA) Initialencounter995.85 (T76.01XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Neglect (721)
+V61.11 (Z69.11) Encounter for mental health services for victim of spouse orpartner neglect
+VI 5.42 (Z91.412) Personal history (past history) of spouse or partner neglect 
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner neglect
+Spouse or Partner Abuse, Psychological (721)
+Spouse or Partner Abuse, Psychological, Confirmed (721)995.82 (T74.31XA) Initialencounter995.82 (T74.31XD) Subsequent encounter
+Spouse or Partner Abuse, Psychological, Suspected (721)995.82 (T76.31XA) Initialencounter995.82 (T76.31XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Abuse, Psychological (721)
+V61.11 (Z69.11 ) Encounter for mental health services for victim of spouse orpartner psychological abuse
+V15.42 (Z91.411) Personal history (past history) of spouse or partnerpsychological abuse
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner psychological abuse
+Adult Abuse by Nonspouse or Nonpartner (722)
+Adult Physical Abuse by Nonspouse or Nonpartner, Confirmed (722)995.81 (T74.11XA) Initialencounter995.81 (T74.11XD) Subsequent encounter
+Adult Physical Abuse by Nonspouse or Nonpartner, Suspected (722)995.81 (T76.11XA) Initialencounter995.81 (T76.11XD) Subsequent encounter
+Adult Sexual Abuse by Nonspouse or Nonpartner, Confirmed (722)995.83 (T74.21XA) Initialencounter995.83 (T74.21XD) Subsequent encounter
+Adult Sexual Abuse by Nonspouse or Nonpartner, Suspected (722)995.83 (T76.21XA) Irütial encounter995.83 (T76.21XD) Subsequent encounter
+Adult Psychological Abuse by Nonspouse or Nonpartner, Confirmed (722)995.82 (T74.31XA) Initialencounter995.82 (T74.31XD) Subsequent encounter
+Adult Psychological Abuse by Nonspouse or Nonpartner, Suspected (722)995.82 (T76.31XA) Initialencounter995.82 (T76.31XD) Subsequent encounter
+Other Circumstances Related to Adult Abuse by Nonspouse or Nonpartner (722) 
+V65.49 (Z69.81) Encoxmter for mental health services for victim of nonspousaladult abuse
+V62.83 (Z69.82) Encovmter for mental health services for perpetrator ofnonspousal adult abuse
+Educational and Occupational Problems (723)
+Educational Problems (723)
+V62.3 (Z55.9) Academic or Educational Problem (723)
+Occupational Problems (723)
+V62.21 (Z56.82) Problem Related to Current Military Deployment Status (723) 
+V62.29 (Z56.9) Other Problem Related to Employment (723)
+Housing and Economic Problems (723)
+Housing Problems (723)
+V60.0 (Z59.0) Homelessness (723)
+V60.1 (Z59.1) Inadequate Housing (723)
+V60.89 (Z59.2) Discord With Neighbor, Lodger, or Landlord (723)
+V60.6 (Z59.3V Problem Related to Living in a Residential Institution (724)
+Economic Problems (724)
+V60.2 (Z59.4) Lack of Adequate Food or Safe Drinking Water (724)
+V60.2 (Z59.5) Extreme Poverty (724)
+V60.2 (Z59.6) Low Income (724)
+V60.2 (Z59.7) Insufficient Social Insurance or Welfare Support (724)
+V60.9 (Z59.9) Unspecified Housing or Economic Problem (724)
+Other Problems Related to the Social Environment (724)
+V62.89 (Z60.0) Phase of Life Problem (724)
+V60.3 (Z60.2) Problem Related to Living Alone (724)
+V62.4 (Z60.3) Acculturation Difficulty (724)
+V62.4 (Z60.4) Social Exclusion or Rejection (724)
+V62.4 (Z60.5) Target of (Perceived) Adverse Discrimination or Persecution (724)
+V62.9 (Z60.9) Unspecified Problem Related to Social Environment (725)
+Problems Related to Crime or Interaction With the Legal System (725)
+V62.89 (Z65.4) Victim of Crime (725)
+V62.5 (Z65.0) Conviction in Civil or Criminal Proceedings Without 
+Imprisonment (725)
+V62.5 (Z65.1) Imprisonment or Other Incarceration (725)
+V62.5 (Z65.2) Problems Related to Release From Prison (725)
+V62.5 (Z65.3) Problems Related to Other Legal Circumstances (725)
+Other Health Service Encounters for Counseling and Medical Advice (725) 
+V65.49 (Z70.9) Sex Counseling (725)
+V65.40 (271.9) Other Counseling or Consultation (725)
+Problems Related to Other Psychosocial, Personal, and Environmental 
+Circumstances (725)
+V62.89 (Z65.8) Religious or Spiritual Problem (725)
+V61.7 (Z64.0) Problems Related to Unwanted Pregnancy (725)
+V61.5 (Z64.1) Problems Related to Multiparity (725)
+V62.89 (Z64.4) Discord With Social Service Provider, Including Probation
+Officer, Case Manager, or Social Services Worker (725)
+V62.89 (Z65.4) Victim of Terrorism or Torture (725)
+V62.22 (Z65.5) Exposure to Disaster, War, or Other Hostilities (725)
+V62.89 (Z65.8) Other Problem Related to Psychosocial Circumstances (725)
+V62.9 (Z65.9) Unspecified Problem Related to Unspecified Psychosocial
+Circumstances (725)
+V15.49 (Z91.49)
+V15.59 (Z91.5)
+V62.22 (Z91.82)
+V15.89 (Z91.89)
+V69.9 (Z72.9)
+V71.01 (Z72.811)
+V71.02 (Z72.810)
+Other Circumstances of Personal History (726)
+Other Personal History of Psychological Trauma (726)
+Personal History of Self-Harm (726)
+Personal History of Military Deployment (726)
+Other Personal Risk Factors (726)
+Problem Related to Lifestyle (726)
+Adult Antisocial Behavior (726)
+Child or Adolescent Antisocial Behavior (726)
+Problems Related to Access to Medical and Other Health Care (726)
+V63.9 (Z75.3) Unavailability or Inaccessibility of Health Care Facilities (726) 
+V63.8 (Z75.4) Unavailability or Inaccessibility of Other Helping Agencies (726)
+Nonadherence to Medical Treatment (726)
+V15.81 (Z91.19) Nonadherence to Medical Treatment (726)278.00 (E66.9) Overweight or Obesity (726)
+V65.2 (Z76.5) Malingering (726)
+V40.31 (Z91.83) Wandering Associated With a Mental Disorder (727)
+V62.89 (R41.83) Borderline Intellectual Functioning (727)

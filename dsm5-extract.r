@@ -18,6 +18,15 @@ makeHeaders <-function(x){
     gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
 }
 
+cleanNewlines <- function(CHUNK){
+    ## removes newlines not followed by parens, Cap, number. or multiplnumbers
+    gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
+}
+
+cleanNewlinesDot <- function(CHUNK){
+    ## added dot after CAPS and anychar befoe parens
+    gsub("(?s)\n(?!.\\(|[A-Z]\\.|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
+}
 
 ## variables
 
@@ -38,35 +47,62 @@ spellList <- list(
 )
 
 ### DSM-5 (not the updated version)
+
+copyright <-
+    extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 4) 
+
 contents <-
     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 5:6) ## contents
 
+contents <- paste(contents, collapse = "") ## collapse to one
+contents <- gsub("\\.{2,}", "\t", contents)
+contents <- gsub("Section", "## Section", contents)
+contents <- gsub("Appendix", "## Appendix", contents)
+contents <- gsub("Contents", "## Contents", contents)
+contents <- gsub("[[:blank:]]\n", " ", contents, perl=T, ignore.case=TRUE)
+contents <- gsub("(I{1,})\n", "\\1 ", contents, perl=T)
+contents <- gsub("##", "\n##", contents, perl=T)
+writeLines(contents, "contents.txt")
+
+taskforce <-
+    extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 7:12)  
+taskforce <- paste(taskforce, collapse = "") ## collapse to one
+
 ### Classifications
-classifications <-     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 13:40) ## classifications list start on p13
+## Note: import not working, codes in sequence instead of per line
+## classifications <-     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 13:40) ## classifications list start on p13
+## classifications <- paste(classifications, collapse = "") ## collapse to one
+## classifications <- cleanNewlines(classifications) ## not working here so well
+## writeLines(classifications, "classifications.txt")
+## gsub("((?<=\n).*\\)(?=\n))", "## \\1", classifications, perl=T)
 
 ## make list of codes (use existing csv instead?)
-classificationsList <- classifications
-classificationsList[1] <- gsub("(?s).*(?=\nNe)", "", classificationsList[1], perl=T)
-## strsplit(classificationsList[1])
-## strsplit(classificationsList[1], "\n") ## split by newline
+## classificationsList <- classifications
+## classificationsList[1] <- gsub("(?s).*(?=\nNe)", "", classificationsList[1], perl=T)
+## ## strsplit(classificationsList[1])
+## ## strsplit(classificationsList[1], "\n") ## split by newline
 
-## multiple pages from list
-for(i in 1:length(classificationsList)){
-    write(classificationsList[[i]][[1]], file = "test.txt"
-       , append = TRUE
-          )
+## ## multiple pages from list
+## for(i in 1:length(classificationsList)){
+##     write(classificationsList[[i]][[1]], file = "test.txt"
+##        , append = TRUE
+##           )
     
-}
+## }
 ## Note: Superscrips are not read, has to be edited manually
-
-writeLines(classifications[1], "test.txt")
-classifications[1]
-
+## writeLines(classifications[1], "test.txt")
+## classifications[1]
 
 ## ICD9-CM (ICD10-CM)
 
 preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 41:44) ## classifications list start on p13
-
+preface <- gsub("­\n", "", preface) ## remove - at end of line
+preface <- spellCorrect(spellList, preface)
+preface <- cleanNewlinesDot(preface)
+preface <- gsub("\n", "\n\n", preface) ## double newline
+preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", "American Psychiatric", preface)
+preface <- gsub("•", "\n•", preface)
+writeLines(preface, "preface.txt")
 
 section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
 
@@ -161,4 +197,4 @@ sectionTEST <- gsub("\n", "\n\n", sectionTEST) ## double newline
 
 ## local formatting
 ## gsub("(?s)((?<=(\n\n## Other \\(or Unknown\\) \n\n)).*(?=## Diagnostic Criteria))", "", text, perl=T) ## correctly identifies text between bounds but no 
-way to replace ## within region.
+##way to replace ## within region.
