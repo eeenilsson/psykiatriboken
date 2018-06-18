@@ -172,8 +172,6 @@ neurodevelopmentalMain[1] <- gsub("(?s).*(?=\nIntelle)", "", neurodevelopmentalM
 neurodevelopmentalMain[1] <- gsub("^\n", "## Intellectual Disabilities\n", neurodevelopmentalMain[1]) ## add ## to first line
 #### clean
 neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
-test <- neurodevelopmentalMain ## extract text object
-makeHeaders(neurodevelopmentalMain) 
 neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
 neurodevelopmentalMain <- makeHeaders(neurodevelopmentalMain)
 #### chunk specific replacements
@@ -194,6 +192,9 @@ neurodevelopmentalMain <-
 neurodevelopmentalMain <-
     gsub("[[:blank:]]{2,}", " ", neurodevelopmentalMain) ## remove repeated spaces
 
+store <- neurodevelopmentalMain
+## neurodevelopmentalMain <- store ## recover
+
 ## tags
 
 ## List groups
@@ -211,7 +212,9 @@ neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, groupList, tag = "<-
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
 ## assign diagnosis tags
-icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
+##icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
+icd10cmDsm5 <- read_csv("icd10-dsm5.csv") ## try other version
+
 listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5text) ## escape regex characters
 neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE)
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
@@ -219,10 +222,15 @@ writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 #### write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
+## TODO: addTags should ignore headers that already have tags (optionally?)
+
 ## Header ref in bookdown {#background}
 ## <-- @CHAPTER --->
 ## <-- @GROUP ---> ## Diagnosis group
 ## <-- @DIAGNOSIS --->
+## <-- @SECTION (I-III)--->
+
+## add "icd10 to parens containing these diagnoses"
 
 ## test
 test <- substr(neurodevelopmentalMain, 1, 25000)

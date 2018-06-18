@@ -118,13 +118,13 @@ The American Association on Intellectual and Developmental Disabilities (AAIDD) 
 
 AAIDD emphasizes a profile of supports based on severity.
 
-## Global developmental delay <--@DIAGNOSIS@-->
+## Global developmental delay <--@DIAGNOSIS-->
 
 315.8 (F88)
 
 This diagnosis is reserved for individuals under the age of 5 years when the clinical severity level cannot be reliably assessed during early childhood. This category is diagnosed when an individual fails to meet expected developmental milestones in several areas of intellectual functioning, and applies to individuals who are unable to undergo systematic assessments of intellectual functioning, including children who are too young to participate in standardized testing. This category requires reassessment after a period of time.
 
-## Unspecified intellectual disability (intellectual developmental disorder) <--@DIAGNOSIS@-->
+## Unspecified intellectual disability (intellectual developmental disorder) <--@DIAGNOSIS-->
 
 319 (F79)
 
@@ -136,7 +136,7 @@ Disorders of communication include deficits in language, speech, and communicati
 
 Speech is the expressive production of sounds and includes an individual's articulation, fluency, voice, and resonance quality. Language includes the form, function, and use of a conventional system of symbols (i.e., spoken words, sign language, written words, pictures) in a rule-governed manner for communication. Communication includes any verbal or nonverbal behavior (whether intentional or unintentional) that influences the behavior, ideas, or attitudes of another individual. Assessments of speech, language and communication abilities must take into account the individual’s cultural and language context, particularly for individuals growing up in bilingual environments. The standardized measures of language development and of nonverbal intellectual capacity must be relevant for the cultural and linguistic group (i.e., tests developed and standardized for one group may not provide appropriate norms for a different group). The diagnostic category of communication disorders includes the following: language disorder, speech sound disorder, childhood-onset fluency disorder (stuttering), social (pragmatic) communication disorder, and other specified and unspecified communication disorders.
 
-## Language disorder <--@DIAGNOSIS@-->
+## Language disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 315.39 (F80.9)
 
@@ -161,3 +161,1051 @@ The core diagnostic features of language disorder are difficulties in the acquis
 Language disorder usually affects vocabulary and grammar, and these effects then limit the capacity for discourse. The child's first words and phrases are likely to be delayed in onset; vocabulary size is smaller and less varied than expected; and sentences are shorter and less complex with grammatical errors, especially in past tense. Deficits in comprehension of language are frequently underestimated, as children may be good at using context to infer meaning. There may be word-finding problems, impoverished verbal definitions, or poor understanding of synonyms, multiple meanings, or word play appropriate for age and culture. Problems with remembering new words and sentences are manifested by difficulties following instructions of increasing length, difficulties rehearsing strings of verbal information (e.g., remembering a phone number or a shopping list), and difficulties remembering novel sound sequences, a skill that may be important for learning new words. Difficulties with discourse are shown by a reduced ability to provide adequate information about the key events and to narrate a coherent story.
 
 The language difficulty is manifest by abilities substantially and quantifiably below that expected for age and significantly interfering with academic achievement, occupational performance, effective communication, or socialization (Criterion B). A diagnosis of language disorder is made based on the synthesis of the individual's history, direct clinical observation in different contexts (i.e., home, school, or work), and scores from standardized tests of language ability that can be used to guide estimates of severity.
+
+## Associated Features Supporting Diagnosis
+
+A positive family history of language disorders is often present. Individuals, even children, can be adept at accommodating to their limited language. They may appear to be shy or reticent to talk. Affected individuals may prefer to communicate only with family members or other familiar individuals. Although these social indicators are not diagnostic of a language disorder, if they are notable and persistent, they warrant referral for a full language assessment. Language disorder, particularly expressive deficits, may co-occur with speech sound disorder.
+
+## Development and Course
+
+Language acquisition is marked by changes from onset in toddlerhood to the adult level of competency that appears during adolescence. Changes appear across the dimensions of language (sounds, words, grammar, narratives/expository texts, and conversational skills) in age-graded increments and synchronies. Language disorder emerges during the early developmental period; however, there is considerable variation in early vocabulary acquisition and early word combinations, and individual differences are not, as single indicators, highly predictive of later outcomes. By age 4 years, individual differences in language ability are more stable, with better measurement accuracy, and are highly predictive of later outcomes. Language disorder diagnosed from 4 years of age is likely to be stable over time and typically persists into adulthood, although the particular profile of language strengths and deficits is likely to change over the course of development.
+
+## Risk and Prognostic Factors
+
+Children with receptive language impairments have a poorer prognosis than those with predominantly expressive impairments. They are more resistant to treatment, and difficulties with reading comprehension are frequently seen.
+
+Genetic and physiological. Language disorders are highly heritable, and family members are more likely to have a history of language impairment.
+
+## Differentiai Diagnosis
+
+Normal variations in language. Language disorder needs to be distinguished from normal developmental variations, and this distinction may be difficult to make before 4 years of age. Regional, social, or cultural/ethnic variations of language (e.g., dialects) must be considered when an individual is being assessed for language impairment.
+
+Hearing or other sensory impairment. Hearing impairment needs to be excluded as the primary cause of language difficulties. Language deficits may be associated with a hearing impairment, other sensory deficit, or a speech-motor deficit. When language deficits are in excess of those usually associated with these problems, a diagnosis of language disorder may be made.
+
+Intellectual disability (intellectual developmental disorder). Language delay is often the presenting feature of intellectual disability, and the definitive diagnosis may not be made until the child is able to complete standardized assessments. A separate diagnosis is not given unless the language deficits are clearly in excess of the intellectual limitations.
+
+Neurological disorders. Language disorder can be acquired in association with neurological disorders, including epilepsy (e.g., acquired aphasia or Landau-Kleffner syndrome).
+
+Language regression. Loss of speech and language in a child younger than 3 years may be a sign of autism spectrum disorder (with developmental regression) or a specific neurological condition, such as Landau-Kleffner syndrome. Among children older than 3 years, language loss may be a symptom of seizures, and a diagnostic assessment is necessary to exclude the presence of epilepsy (e.g., routine and sleep electroencephalogram).
+
+## Comorbidity
+
+Language disorder is strongly associated with other neurodevelopmental disorders in terms of specific learning disorder (literacy and numeracy), attention-deficit/hyperactivity disorder, autism spectrum disorder, and developmental coordination disorder. It is also associated with social (pragmatic) communication disorder. A positive family history of speech or language disorders is often present.
+
+## Speech sound disorder <--@DIAGNOSIS-->
+
+### Diagnostic Criteria 315.39 (F80.0)
+
+A. Persistent difficulty with speech sound production that interferes with speech intelligibility or prevents verbal communication of messages.
+
+B. The disturbance causes limitations in effective communication that interfere with social participation, academic achievement, or occupational performance, individually or in any combination.
+
+C. Onset of symptoms is in the early developmental period.
+
+D. The difficulties are not attributable to congenital or acquired conditions, such as cerebral palsy, cleft palate, deafness or hearing loss, traumatic brain injury, or other medical or neurological conditions.
+
+## Diagnostic Features
+
+Speech sound production describes the clear articulation of the phonemes (i.e., individual sounds) that in combination make up spoken words. Speech sound production requires both the phonological knowledge of speech sounds and the ability to coordinate the movements of the articulators (i.e., the jaw, tongue, and lips,) with breathing and vocalizing for speech. Children with speech production difficulties may experience difficulty with phonological knowledge of speech sounds or the ability to coordinate movements for speech in varying degrees. 
+
+Speech sound disorder is thus heterogeneous in its underlying mechanisms and includes phonological disorder and articulation disorder. A speech sound disorder is diagnosed when speech sound production is not what would be expected based on the child's age and developmental stage and when the deficits are not the result of a physical, structural, neurological, or hearing impairment. Among typically developing children at age 4 years, overall speech should be intelligible, whereas at age 2 years, only 50% may be understandable.
+
+## Associated Features Supporting Diagnosis
+
+Language disorder, particularly expressive deficits, may be found to co-occur with speech sound disorder. A positive family history of speech or language disorders is often present.
+
+If the ability to rapidly coordinate the articulators is a particular aspect of difficulty, there may be a history of delay or incoordination in acquiring skills that also utilize the articulators and related facial musculature; among others, these skills include chewing, maintaining mouth closure, and blowing the nose. Other areas of motor coordination may be impaired as in developmental coordination disorder. Verbal dyspraxia is a term also used for speech production problems.
+
+Speech may be differentially impaired in certain genetic conditions (e.g Down syndrome, 22q deletion, FoxPZ gene mutation). If present, these should also be coded.
+
+## Development and Course
+
+Learning to produce speech sounds clearly and accurately and learning to produce connected speech fluently are developmental skills. Articulation of speech sounds follows adevelopmental pattern, which is reflected in the age norms of standardized tests. It is not unusual for typically developing children to use developmental processes for shortening words and syllables as they are learning to talk, but their progression in mastering speech sound production should result in mostly inteUigible speech by age 3 years. Children with speech sound disorder continue to use immature phonological simplification processes past the age when most children can produce words clearly.
+
+Most speech sounds should be produced clearly and most words should be pronounced accurately according to age and community norms by age 7 years. The most frequently mis- articulated sounds also tend to be learned later, leading them to be called the ''late eight" (/, r, s, z, th, ch, dzh, and zh). Misarticulation of any of these sounds by itself could be considered within normal limits up to age 8 years. When multiple sounds are involved, it may be appropriate to target some of those sounds as part of a plan to improve intelligibility prior to the age at which almost all children can produce them accurately. Lisping (i.e., misarticulating sibilants) is particularly common and may involve frontal or lateral patterns of airstream direction. It may be associated with an abnormal tongue-thrust swallowing pattern.
+
+Most children with speech sound disorder respond well to treatment, and speech difficulties improve over time, and thus the disorder may not be lifelong. However, when a language disorder is also present, the speech disorder has a poorer prognosis and may be associated with specific learning disorders.
+
+## Differential Diagnosis
+
+Normal variations in speech. Regional, social, or cultural/ethnic variations of speech should be considered before making the diagnosis.
+
+Hearing or other sensory impairment. Hearing impairment or deafness may result in abnormalities of speech. Deficits of speech sound production may be associated with a hearing impairment, other sensory deficit, or a speech-motor deficit. When speech deficits are in excess of those usually associated with these problems, a diagnosis of speech sound disorder may be made.
+
+Structural deficits. Speech impairment may be due to structural deficits (e.g., cleft palate).
+
+Dysarthria. Speech impairment may be attributable to a motor disorder, such as cerebral palsy. Neurological signs, as well as distinctive features of voice, differentiate dysarthria from speech sound disorder, although in young children (under 3 years) differentiation may be difficult, particularly when there is no or minimal general body motor involvement (as in, e.g., Worster-Drought syndrome).
+
+Selective mutism. Limited use of speech may be a sign of selective mutism, an anxiety disorder that is characterized by a lack of speech in one or more contexts or settings. Selective mutism may develop in children with a speech disorder because of embarassment about their impairments, but many children with selective mutism exhibit normal speech in "safe" settings, such as at home or with close friends.
+
+## Childhood-onset fluency disorder (stuttering) <--@DIAGNOSIS-->
+
+### Diagnostic Criteria 315.35 (F80.81)
+
+A. Disturbances in the normal fluency and time patterning of speech that are inappropriate for the individual’s age and language skills, persist over time, and are characterized by frequent and marked occurrences of one (or more) of the following:
+
+1. Sound and syllable repetitions.
+
+2. Sound prolongations of consonants as well as vowels.
+
+3. Broken words (e.g., pauses within a word).
+
+4. Audible or silent blocking (filled or unfilled pauses in speech).
+
+5. Circumlocutions (word substitutions to avoid problematic words).
+
+6. Words produced with an excess of physical tension.
+
+7. Monosyllabic whole-word repetitions (e.g., “I-I-I-I see him”).
+
+B. The disturbance causes anxiety about speaking or limitations in effective communication, social participation, or academic or occupational performance, individually or in any combination.
+
+C. The onset of symptoms is in the early developmental period. (Note: Later-onset cases are diagnosed as 307.0 [F98.5] adult-onset fluency disorder.)
+
+D. The disturbance is not attributable to a speech-motor or sensory deficit, dysfluency associated with neurological insult (e.g., stroke, tumor, trauma), or another medical condition and is not better explained by another mental disorder.
+
+## Diagnostic Features
+
+The essential feature of childhood-onset fluency disorder (stuttering) is a disturbance in the normal fluency and time patterning of speech that is inappropriate for the individual's age. This disturbance is characterized by frequent repetitions or prolongations of sounds or syllables and by other types of speech dysfluencies, including broken words (e.g., pauses within a word), audible or silent blocl^g (i.e., filled or unfilled pauses in speech), circumlocutions (i.e., word substitutions to avoid problematic words), words produced with an excess of physical tension, and monosyllabic whole-word repetitions (e.g., 'T-I-I-I see him"). The disturbance in fluency interferes with academic or occupational achievement or with social communication. The extent of the disturbance varies from situation to situation and often is more severe when there is special pressure to communicate (e.g., giving a report at school, interviewing for a job). Dysfluency is often absent during oral reading, singing, or talking to inanimate objects or to pets.
+
+## Associated Features Supporting Diagnosis
+
+Fearful anticipation of the problem may develop. The speaker may attempt to avoid dysfluencies by linguistic mechanisms (e.g., altering the rate of speech, avoiding certain words or sounds) or by avoiding certain speech situations, such as telephoning or public speaking. In addition to being features of the condition, stress and anxiety have been shown to exacerbate dysfluency.
+
+## Childhood-onset fluency disorder may also be accompanied by motor movements 
+
+(e.g., eye blinks, tics, tremors of the lips or face, jerking of the head, breathing movements, fist clenching). Children with fluency disorder show a range of language abilities, and the relationship between fluency disorder and language abilities is unclear.
+
+## Development and Course
+
+Childhood-onset fluency disorder, or developmental stuttering, occurs by age 6 for 80%- 90% of affected individuals, with age at onset ranging from 2 to 7 years. The onset can be insidious or more sudden. Typically, dysfluencies start gradually, with repetition of initial consonants, first words of a phrase, or long words. The child may not be aware of dysfluencies. As the disorder progresses, the dysfluencies become more frequent and interfering, occurring on the most meaningful words or phrases in the utterance. As the child becomes aware of the speech difficulty, he or she may develop mechanisms for avoiding the dysfluencies and emotional responses, including avoidance of public speaking and use of short and simple utterances. Longitudinal research shows that 65%-85% of children recover from the dysfluency, with severity of fluency disorder at age 8 years predicting recovery or persisjence into adolescence and beyond.
+
+## Risk and Prognostic Factors
+
+Genetic and physiological. The risk of stuttering among first-degree biological relatives of individuals with childhood-onset fluency disorder is more than three times the risk in the general population.
+
+## Functional Consequences of 
+
+## Childhood-Onset Fiuency Disorder (Stuttering)
+
+In addition to being features of the condition, stress and anxiety can exacerbate dysfluency. Impairment of social functioning may result from this anxiety.
+
+## Differential Diagnosis
+
+Sensory deficits. Dysfluencies of speech may be associated with a hearing impairment or other sensory deficit or a speech-motor deficit. When the speech dysfluencies are in excess of those usually associated with these problems, a diagnosis of childhood-onset fluency disorder may be made.
+
+Normal speech dysfluencies. The disorder must be distinguished from normal dysfluencies that occur frequently in young children, which include whole-word or phrase repetitions (e.g., 'T want, I want ice cream"), incomplete phrases, interjections, unfilled pauses, and parenthetical remarks. If these difficulties increase in frequency or complexity as the child grows older, a diagnosis of childhood-onset fluency disorder is appropriate.
+
+Medication side effects. Stuttering may occur as a side effect of medication and may be detected by a temporal relationship with exposure to the medication.
+
+Adult-onset dysfluencies. If onset of dysfluencies is during or after adolescence, it is an "adult-onset dysfluency" rather than a neurodevelopmental disorder. Adult-onset dysfluencies are associated with specific neurological insults and a variety of medical conditions and mental disorders and may be specified with them, but they are not a DSM-5 diagnosis.
+
+Tourette’s disorder. Vocal tics and repetitive vocalizations of Tourette's disorder should be distinguishable from the repetitive sounds of childhood-onset fluency disorder by their nature and timing.
+
+## Social (pragmatic) communication disorder <--@DIAGNOSIS-->
+
+### Diagnostic Criteria 315.39 (F80.89)
+
+A. Persistent difficulties in the social use of verbal and nonverbal communication as manifested by all of the following:
+
+1. Deficits in using communication for social purposes, such as greeting and sharing information, in a manner that is appropriate for the social context.
+
+2. Impairment of the ability to change communication to match context or the needs of the listener, such as speaking differently in a classroom than on a playground, talking differently to a child than to an adult, and avoiding use of overly formal language.
+
+3. Difficulties following rules for conversation and storytelling, such as taking turns in conversation, rephrasing when misunderstood, and knowing how to use verbal and nonverbal signals to regulate interaction.
+
+4. Difficulties understanding wliat is not explicitly stated (e.g., making inferences) and nonliteral or ambiguous meanings of language (e.g., idioms, humor, metaphors, multiple meanings that depend on the context for interpretation).
+
+B. The deficits result in functional limitations in effective communication, social participation, social relationships, academic achievement, or occupational performance, individually or in combination.
+
+C. The onset of the symptoms is in the early developmental period (but deficits may not become fully manifest until social communication demands exceed limited capacities).
+
+D. The symptoms are not attributable to another medical or neurological condition or to low abilities in the domains of word structure and grammar, and are not better explained by autism spectrum disorder, intellectual disability (intellectual developmental disorder), global developmental delay, or another mental disorder.
+
+## Diagnostic Features
+
+Social (pragmatic) communication disorder is characterized by a primary difficulty with pragmatics, or the social use of language and communication, as manifested by deficits in understanding and following social rules of verbal and nonverbal communication in naturalistic contexts, changing language according to the needs of the listener or situation, and following rules for conversations and storytelling. The deficits in social communication result in functional limitations in effective communication, social participation, development of social relationships, academic achievement, or occupational performance. The deficits are not better explained by low abilities in the domains of structural language or cognitive abihty.
+
+## Associated Features Supporting Diagnosis
+
+The most common associated feature of social (pragmatic) communication disorder is language impairment, which is characterized by a history of delay in reaching language milestones, and historical, if not current, structural language problems (see ''Language Disorder" earlier in this chapter). Individuals with social communication deficits may avoid social interactions. Attention-deficit/hyperactivity disorder (ADHD), behavioral problems, and specific learning disorders are also more common among affected individuals.
+
+## Development and Course
+
+Because social (pragmatic) communication depends on adequate developmental progress in speech and language, diagnosis of social (pragmatic) communication disorder is rare among children younger than 4 years. By age 4 or 5 years, most children should possess adequate speech and language abilities to permit identification of specific deficits in social communication. Milder forms of the disorder may not become apparent until early adolescence, when language and social interactions become more complex.
+
+The outcome of social (pragmatic) communication disorder is variable, with some children improving substantially over time and others continuing to have difficulties persisting into adulthood. Even among those who have significant improvements, the early deficits in pragmatics may cause lasting impairments in social relationships and behavior and also in acquisition of other related skills, such as written expression.
+
+## Risk and Prognostic Factors
+
+Genetic and physiological. A family history of autism spectrum disorder, communication disorders, or specific learning disorder appears to increase the risk for social (pragmatic) communication disorder.
+
+## Differential Diagnosis
+
+Autism spectrum disorder. Autism spectrum disorder is the primary diagnostic consideration for individuals presenting with social communication deficits. The two disorders can be differentiated by the presence in autism spectrum disorder of restricted/ repetitive patterns of behavior, interests, or activities and their absence in social (pragmatic) communication disorder. Individuals with autism spectrum disorder may only display the restricted/repetitive patterns of behavior, interests, and activities during the early developmental period, so a comprehensive history should be obtained. Current absence of symptoms would not preclude a diagnosis of autism spectrum disorder, if the restricted interests and repetitive behaviors were present in the past. A diagnosis of social (pragmatic) communication disorder should be considered only if the developmental history fails to reveal any evidence of restricted/repetitive patterns of behavior, interests, or activities.
+
+Attention-deficit/hyperactivity disorder. Primary deficits of ADHD may cause impairments in social communication and functional limitations of effective communication, social participation, or academic achievement.
+
+Social anxiety disorder (social phobia). The symptoms of social communication disorder overlap with those of social anxiety disorder. The differentiating feature is the timing of the onset of symptoms. In social (pragmatic) communication disorder, the individual has never had effective social communication; in social anxiety disorder, the social communication skills developed appropriately but are not utilized because of anxiety, fear, or distress about social interactions.
+
+Intellectual disability (intellectual developmental disorder) and global developmental delay. Social communication skills may be deficient among individuals with global developmental delay or intellectual disability, but a separate diagnosis is not given unless the social communication deficits are clearly in excess of the intellectual limitations.
+
+## Unspecified communication disorder <--@DIAGNOSIS-->
+
+307.9 (F80.9)
+
+This category applies to presentations in which symptoms characteristic of communication disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for communication disorder or for any of the disorders in the neurodevelopmental disorders diagnostic class. The unspecified communication disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for communication disorder or for a specific neurodevelopmental disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis.
+
+## Autism spectrum disorder <--@DIAGNOSIS--> <--@GROUP-->
+
+## Autism Spectrum Disorder
+
+### Diagnostic Criteria 299.00 (F84.0)
+
+A. Persistent deficits in social communication and social interaction across multiple contexts, as manifested by the following, currently or by history (examples are illustrative, not exhaustive; see text):
+
+1. Deficits in social-emotional reciprocity, ranging, for example, from abnormal social approach and failure of normal back-and-forth conversation; to reduced sharing of interests, emotions, or affect; to failure to initiate or respond to social interactions.
+
+2. Deficits in nonverbal communicative behaviors used for social interaction, ranging, for example, from poorly integrated verbal and nonverbal communication; to abnormalities in eye contact and body language or deficits in understanding and use of gestures: to a total lack of facial expressions and nonverbal communication.
+
+3. Deficits in developing, maintaining, and understanding relationships, ranging, for example, from difficulties adjusting behavior to suit various social contexts; to difficulties in sharing imaginative play or in making friends; to absence of interest in peers.
+
+## Specify current severity:
+
+Severity is based on social communication impairments and restricted, repetitive patterns of behavior (seeTable 2).
+
+B. Restricted, repetitive patterns of behavior, interests, or activities, as manifested by at least two of the following, currently or by history (examples are illustrative, not exhaustive; see text):
+
+1. Stereotyped or repetitive motor movements, use of objects, or speech (e.g., simple motor stereotypies, lining up toys or flipping objects, echolalia, idiosyncratic phrases).
+
+2. Insistence on sameness, inflexible adherence to routines, or ritualized patterns of verbal or nonverbal behavior (e.g., extreme distress at small changes, difficulties with transitions, rigid thinking patterns, greeting rituals, need to take same route or eat same food every day).
+
+3. Highly restricted, fixated interests that are abnormal in intensity or focus (e.g., strong attachment to or preoccupation with unusual objects, excessively circumscribed or perseverative interests).
+
+4. Hyper- or hyporeactivity to sensory input or unusual interest in sensory aspects of the environment (e.g., apparent indifference to pain/temperature, adverse response to specific sounds or textures, excessive smelling or touching of objects, visual fascination with lights or movement).
+
+## Specify current severity:
+
+Severity is based on social communication impairments and restricted, repetitive patterns of behavior (see Table 2).
+
+C. Symptoms must be present in the early developmental period (but may not become fully manifest until social demands exceed limited capacities, or may be masked by learned strategies in later life).
+
+D. Symptoms cause clinically significant impairment in social, occupational, or other important areas of current functioning.
+
+E. These disturbances are not better explained by intellectual disability (intellectual developmental disorder) or global developmental delay. Intellectual disability and autism spectrum disorder frequently co-occur; to make comorbid diagnoses of autism spectrum disorder and intellectual disability, social communication should be below that expected for general developmental level.
+
+Note: Individuals with a well-established DSM-IV diagnosis of autistic disorder, Asperger’s disorder, or pervasive developmental disorder not otherwise specified should be given the diagnosis of autism spectrum disorder. Individuals who have marked deficits in social communication, but whose symptoms do not othenwise meet criteria for autism spectrum disorder, should be evaluated for social (pragmatic) communication disorder.
+
+## Specify if;
+
+With or without accompanying inteliectual impairment 
+
+With or without accompanying language impairment
+
+## Associated with a icnown medicai or genetic condition or environmental factor 
+
+(Coding note: Use additional code to identify the associated medical or genetic condition.) 
+
+Associated with another neurodevelopmental, mental, or behavioral disorder 
+
+(Coding note: Use additional code[s] to identify the associated neurodevelopmental, mental, or behavioral disorder[s].)
+
+With catatonia (refer to the criteria for catatonia associated with another mental disorder, pp. 119-120, for definition) (Coding note: Use additional code 293.89 [F06.1] catatonia associated with autism spectrum disorder to indicate the presence of the comorbid catatonia.)
+
+## Recording Procedures
+
+For autism spectrum disorder that is associated with a known medical or genetic condition or environmental factor, or with another neurodevelopmental, mental, or behavioral disorder, record autism spectrum disorder associated with (name of condition, disorder, or factor) (e.g., autism spectrum disorder associated with Rett syndrome). Severity should be recorded as level of support needed for each of the two psychopathological domains in 
+
+Table 2 (e.g., "requiring very substantial support for deficits in social communication and requiring substantial support for restricted, repetitive behaviors"). Specification of "with accompanying intellectual impairment" or "without accompanying intellectual impairment" should be recorded next. Language impairment specification should be recorded thereafter. If there is accompanying language impairment, the current level of verbal functioning should be recorded (e.g., "with accompanying language impairment—no intelligible speech" or "with accompanying language impairment—phrase speech"). If catatonia is present, record separately "catatonia associated with autism spectrum disorder."
+
+## Specifiers
+
+The severity specifiers (see Table 2) may be used to describe succinctly the current symptomatology (which might fall below level 1), with the recognition that severity may vary by context and fluctuate over time. Severity of social communication difficulties and restricted, repetitive behaviors should be separately rated. The descriptive severity categories should not be used to determine eligibility for and provision of services; these can only be developed at an individual level and through discussion of personal priorities and targets.
+
+Regarding the specifier "with or without accompanying intellectual impairment," understanding the (often uneven) intellectual profile of a child or adult with autism spectrum disorder is necessary for interpreting diagnostic features. Separate estimates of verbal and nonverbal skill are necessary (e.g., using untimed nonverbal tests to assess potential strengths in individuals with limited language).
+
+<--TABLE REMOVED-->
+
+To use the specifier "with or without accompanying language impairment," the current level of verbal functioning should be assessed and described. Examples of the specific descriptions for "with accompanying language impairment" might include no intelligible speech (nonverbal), single words only, or phrase speech. Language level in individuals "without accompanying language impairment" might be further described by speaks in full sentences or has fluent speech. Since receptive language may lag behind expressive language development in autism spectrum disorder, receptive and expressive language skills should be considered separately.
+
+The specifier "associated with a known medical or genetic condition or environmental factor" should be used when the individual has a known genetic disorder (e.g., Rett syndrome. 
+
+Fragile X syndrome. Down syndrome), a medical disorder (e.g. epilepsy), or a history of environmental exposure (e.g., valproate, fetal alcohol syndrome, very low birth weight).
+
+Additional neurodevelopmental, mental or behavioral conditions should also be noted 
+
+(e.g., attention-deficit/hyperactivity disorder; developmental coordination disorder; disruptive behavior, impulse-control, or conduct disorders; anxiety, depressive, or bipolar disorders; tics or Tourette's disorder; self-injury; feeding, elimination, or sleep disorders).
+
+## Diagnostic Features
+
+The essential features of autism spectrum disorder are persistent impairment in reciprocal social communication and social interaction (Criterion A), and restricted, repetitive patterns of behavior, interests, or activities (Criterion B). These symptoms are present from early childhood and limit or impair everyday functioning (Criteria C and D). The stage at which functional impairment becomes obvious will vary according to characteristics of the individual and his or her environment. Core diagnostic features are evident in the developmental period, but intervention, compensation, and current supports may mask difficulties in at least some contexts. Manifestations of the disorder also vary greatly depending on the severity of the autistic condition, developmental level, and chronological age; hence, the term spectrum. Autism spectrum disorder encompasses disorders previously referred to as early infantile autism, childhood autism, Kanner's autism, high-functioning autism, atypical autism, pervasive developmental disorder not otherwise specified, childhood disintegrative disorder, and Asperger's disorder.
+
+The impairments in communication and social interaction specified in Criterion A are pervasive and sustained. Diagnoses are most valid and reliable when based on multiple sources of information, including clinician's observations, caregiver history, and, when possible, self-report. Verbal and nonverbal deficits in social communication have varying manifestations, depending on the individual's age, intellectual level, and language ability, as well as other factors such as treatment history and current support. Many individuals have language deficits, ranging from complete lack of speech through language delays, poor comprehension of speech, echoed speech, or stilted and overly literal language. Even when formal language skills (e.g., vocabulary, grammar) are intact, the use of language for reciprocal social communication is impaired in autism spectrum disorder.
+
+Deficits in social-emotional reciprocity (i.e., the ability to engage with others and share thoughts and feelings) are clearly evident in young children with the disorder, who may show little or no initiation of social interaction and no sharing of emotions, along with reduced or absent imitation of others' behavior. What language exists is often one-sided, lacking in social reciprocity, and used to request or label rather than to comment, share feelings, or converse. In adults without intellectual disabilities or language delays, deficits in social-emotional reciprocity may be most apparent in difficulties processing and responding to complex social cues (e.g., when and how to join a conversation, what not to say). Adults who have developed compensation strategies for some social challenges still struggle in novel or unsupported situations and suffer from the effort and anxiety of consciously calculating what is socially intuitive for most individuals.
+
+Deficits in nonverbal communicative behaviors used for social interaction are manifested by absent, reduced, or atypical use of eye contact (relative to cultural norms), gestures, facial expressions, body orientation, or speech intonation. An early feature of autism spectrum disorder is impaired joint attention as manifested by a lack of pointing, showing, or bringing objects to share interest with others, or failure to follow someone's pointing or eye gaze. Individuals may learn a few functional gestures, but their repertoire is smaller than that of others, and they often fail to use expressive gestures spontaneously in communication. Among adults with fluent language, the difficulty in coordinating nonverbal communication with speech may give the impression of odd, wooden, or exaggerated "body language" during interactions. Impairment may be relatively subtle within individual modes (e.g., someone may have relatively good eye contact when speaking) but noticeable in poor integration of eye contact, gesture, body posture, prosody, and facial expression for social communication.
+
+Deficits in developing, maintaining, and understanding relationships should be judged against norms for age, gender, and culture. There may be absent, reduced, or atypical social interest, manifested by rejection of others, passivity, or inappropriate approaches that seem aggressive or disruptive. These difficulties are particularly evident in young children, in whom there is often a lack of shared social play and imagination (e.g., age-appropriate flexible pretend play) and, later, insistence on playing by very fixed rules. 
+
+Older individuals may struggle to understand what behavior is considered appropriate in one situation but not another (e.g., casual behavior during a job interview), or the different ways that language may be used to communicate (e.g., irony, white lies). There may be an apparent preference for solitary activities or for interacting with much younger or older people. Frequently, there is a desire to establish friendships without a complete or realistic idea of what friendship entails (e.g., one-sided friendships or friendships based solely on shared special interests). Relationships with siblings, co-workers, and caregivers are also important to consider (in terms of reciprocity).
+
+Autism spectrum disorder is also defined by restricted, repetitive patterns of behavior, interests, or activities (as specified in Criterion B), which show a range of manifestations according to age and ability, intervention, and current supports. Stereotyped or repetitive behaviors include simple motor stereotypies (e.g., hand flapping, finger flicking), repetitive use of objects (e.g., spinning coins, lining up toys), and repetitive speech (e.g., echola- lia, the delayed or immediate parroting of heard words; use of "you" when referring to self; stereotyped use of words, phrases, or prosodic patterns). Excessive adherence to routines and restricted patterns of behavior may be manifest in resistance to change (e.g., distress at apparently small changes, such as in packaging of a favorite food; insistence on adherence to rules; rigidity of thinking) or ritualized patterns of verbal or nonverbal behavior (e.g., repetitive questioning, pacing a perimeter). Highly restricted, fixated interests in autism spectrum disorder tend to be abnormal in intensity or focus (e.g., a toddler strongly attached to a pan; a child preoccupied with vacuum cleaners; an adult spending hours writing out timetables). Some fascinations and routines may relate to apparent hyper- or hyporeactivity to sensory input, manifested through extreme responses to specific sounds or textures, excessive smelling or touching of objects, fascination with lights or spinning objects, and sometimes apparent indifference to pain, heat, or cold. Extreme reaction to or rituals involving taste, smell, texture, or appearance of food or excessive food restrictions are common and may be a presenting feature of autism spectrum disorder.
+
+Many adults with autism spectrum disorder without intellectual or language disabilities learn to suppress repetitive behavior in public. Special interests may be a source of pleasure and motivation and provide avenues for education and employment later in life. 
+
+Diagnostic criteria may be met when restricted, repetitive patterns of behavior, interests, or activities were clearly present during childhood or at some time in the past, even if symptoms are no longer present.
+
+Criterion D requires that the features must cause clinically significant impairment in social, occupational, or other important areas of current functioning. Criterion E specifies that the social communication deficits, although sometimes accompanied by intellectual disability (intellectual developmental disorder), are not in line with the individual's developmental level; impairments exceed difficulties expected on the basis of developmental level.
+
+Standardized behavioral diagnostic instruments with good psychometric properties, including caregiver interviews, questionnaires and clinician observation measures, are available and can improve reliability of diagnosis over time and across clinicians.
+
+## Associated Features Supporting Diagnosis
+
+Many individuals with autism spectrum disorder also have intellectual impairment and/or language impairment (e.g., slow to talk, language comprehension behind production). Even those with average or high intelligence have an uneven profile of abilities. The gap between intellectual and adaptive functional skills is often large. Motor deficits are often present, including odd gait, clumsiness, and other abnormal motor signs (e.g., walking on tiptoes). Selfinjury (e.g., head banging, biting the wrist) may occur, and disruptive/challenging behaviors are more common in children and adolescents with autism spectrum disorder than other disorders, including intellectual disability. Adolescents and adults with autism spectrum disorder are prone to anxiety and depression. Some individuals develop catatonic-like motor behavior (slowing and "freezing" mid-action), but these are typically not of the magnitude of a catatonic episode. However, it is possible for individuals with autism spectrum disorder to experience a marked deterioration in motor symptoms and display a full catatonic episode with symptoms such as mutism, posturing, grimacing and waxy flexibility. 
+
+The risk period for comorbid catatonia appears to be greatest in the adolescent years.
+
+## Prevalence
+
+In recent years, reported frequencies for autism spectrum disorder across U. S. and non- 
+
+U. S. countries have approached 1% of the population, with similar estimates in child and adult samples. It remains unclear whether higher rates reflect an expansion of the diagnostic criteria of DSM-IV to include subthreshold cases, increased awareness, differences in study methodology, or a true increase in the frequency of autism spectrum disorder.
+
+## Development and Course
+
+The age and pattern of onset also should be noted for autism spectrum disorder. Symptoms are typically recognized during the second year of life (12-24 months of age) but may be seen earlier than 12 months if developmental delays are severe, or noted later than 24 months if symptoms are more subtle. The pattern of onset description might include information about early developmental delays or any losses of social or language skills. In cases where skills have been lost, parents or caregivers may give a history of a gradual or relatively rapid deterioration in social behaviors or language skills. Typically, this would occur between 12 and 24 months of age and is distinguished from the rare instances of developmental regression occurring after at least 2 years of normal development (previously described as childhood disintegrative disorder).
+
+The behavioral features of autism spectrum disorder first become evident in early childhood, with some cases presenting a lack of interest in social interaction in the first year of life. Some children with autism spectrum disorder experience developmental plateaus or regression, with a gradual or relatively rapid deterioration in social behaviors or use of language, often during the first 2 years of life. Such losses are rare in other disorders and may be a useful "red flag" for autism spectrum disorder. Much more unusual and warranting more extensive medical investigation are losses of skills beyond social communication (e.g., loss of self-care, toileting, motor skills) or those occurring after thesecond birthday (see also Rett syndrome in the section "Differential Diagnosis" for this disorder).
+
+First symptoms of autism spectrum disorder frequently involve delayed language development, often accompanied by lack of social interest or unusual social interactions (e.g., pulling individuals by the hand without any attempt to look at them), odd play patterns 
+
+(e.g., carrying toys around but never playing with them), and unusual communication patterns (e.g., knowing the alphabet but not responding to own name). Deafness may be suspected but is typically ruled out. During the second year, odd and repetitive behaviors and the absence of typical play become more apparent. Since many typically developing young children have strong preferences and enjoy repetition (e.g., eating the same foods, watching the same video multiple times), distinguishing restricted and repetitive behaviors that are diagnostic of autism spectrum disorder can be difficult in preschoolers. The clinical distinction is based on the type, frequency, and intensity of the behavior (e.g., a child who daily lines up objects for hours and is very distressed if any item is moved).
+
+Autism spectrum disorder is not a degenerative disorder, and it is typical for learning and compensation to continue throughout life. Symptoms are often most marked in early childhood and early school years, with developmental gains typical in later childhood in at least some areas (e.g., increased interest in social interaction). A small proportion of individuals deteriorate behaviorally during adolescence, whereas most others improve. 
+
+Only a minority of individuals with autism spectrum disorder live and work independently in adulthood; those who do tend to have superior language and intellectual abilities and are able to find a niche that matches their special interests and skills. In general, individuals with lower levels of impairment may be better able to function independently. 
+
+However, even these individuals may remain socially naive and vulnerable, have difficulties organizing practical demands without aid, and are prone to anxiety and depression. 
+
+Many adults report using compensation strategies and coping mechanisms to mask their difficulties in public but suffer from the stress and effort of maintaining a socially acceptable facade. Scarcely anything is known about old age in autism spectrum disorder.
+
+Some individuals come for first diagnosis in adulthood, perhaps prompted by the diagnosis of autism in a child in the family or a breakdown of relations at work or home. Obtaining detailed developmental history in such cases may be difficult, and it is important to consider selfreported difficulties. Where clinical observation suggests criteria are currently met, autism spectrum disorder may be diagnosed, provided there is no evidence of good social and communication skills in childhood. For example, the report (by parents or another relative) that the individual had ordinary and sustained reciprocal friendships and good nonverbal communication skills throughout childhood would rule out a diagnosis of autism spectrum disorder; however, the absence of developmental information in itself should not do so.
+
+Manifestations of the social and communication impairments and restricted/repetitive behaviors that define autism spectrum disorder are clear in the developmental period. 
+
+In later life, intervention or compensation, as well as current supports, may mask these difficulties in at least some contexts. However, symptoms remain sufficient to cause current impairment in social, occupational, or other important areas of functioning.
+
+## Risk and Prognostic Factors
+
+The best established prognostic factors for individual outcome within autism spectrum disorder are presence or absence of associated intellectual disability and language impairment (e.g., functional language by age 5 years is a good prognostic sign) and additional mental health problems. Epilepsy, as a comorbid diagnosis, is associated with greater intellectual disability and lower verbal ability.
+
+Environmental. A variety of nonspecific risk factors, such as advanced parental age, low birth weight, or fetal exposure to valproate, may contribute to risk of aufism spectrum disorder.
+
+Genetic and physiological. Heritability estimates for autism spectrum disorder have ranged from 37°/̂ to higher than 90%, based on twin concordance rates. Currently, as many as 15% of cases of autism spectrum disorder appear to be associated with a known genetic mutation, with different de novo copy number variants or de novo mutations in specific genes associated with the disorder in different families. However, even when an autism spectrum disorder is associated with a known genetic mutation, it does not appear to be fully penetrant. Risk for the remainder of cases appears to be polygenic, with perhaps hundreds of genetic loci making relatively small contributions.
+
+## Culture-Related Diagnostic Issues
+
+Cultural differences will exist in norms for social interaction, nonverbal communication, and relationships, but individuals with autism spectrum disorder are markedly impaired against the norms for their cultural context. Cultural and socioeconomic factors may affect age at recognition or diagnosis; for example, in the United States, late or underdiagnosis of autism spectrum disorder among African American children may occur.
+
+## Gender-Related Diagnostic Issues
+
+Autism spectrum disorder is diagnosed four times more often in males than in females. In clinic samples, females tend to be more likely to show accompanying intellectual disability, suggesting that girls without accompanying intellectual impairments or language delays may go unrecognized, perhaps because of subtler manifestation of social and communication difficulties.
+
+## Functional Consequences of Autism Spectrum Disorder
+
+In young children with autism spectrum disorder, lack of social and communication abilities may hamper learning, especially learning through social interaction or in settings with peers. In the home, insistence on routines and aversion to change, as well as sensory sensitivities, may interfere with eating and sleeping and make routine care (e.g., haircuts, dental work) extremely difficult. Adaptive skills are typically below measured IQ. Extreme difficulties in planning, organization, and coping with change negatively impact academic achievement, even for students with above-average intelligence. During adulthood, these individuals may have difficulties establishing independence because of continued rigidity and difficulty with novelty.
+
+Many individuals with autism spectrum disorder, even without intellectual disability, have poor adult psychosocial functioning as indexed by measures such as independent living and gainful employment. Functional consequences in old age are unknown, but social isolation and communication problems (e.g., reduced help-seeking) are likely to have consequences for health in older adulthood.
+
+## Differential Diagnosis
+
+Rett syndrome. Disruption of social interaction may be observed during the regressive phase of Rett syndrome (typically between 1-4 years of age); thus, a substantial proportion of affected young girls may have a presentation that meets diagnostic criteria for autism spectrum disorder. However, after this period, most individuals with Rett syndrome improve their social communication skills, and autistic features are no longer a major area of concern. Consequently, autism spectrum disorder should be considered only when all diagnostic criteria are met.
+
+Selective mutism. In selective mutism, early development is not typically disturbed. 
+
+The affected child usually exhibits appropriate communication skills in certain contexts and settings. Even in settings where the child is mute, social reciprocity is not impaired, nor are restricted or repetitive patterns of behavior present.
+
+Language disorders and social (pragmatic) communication disorder. In some forms of language disorder, there may be problems of communication and some secondary social difficulties. However, specific language disorder is not usually associated with abnormal nonverbal communication, nor with the presence of restricted, repetitive patterns of behavior, interests, or activities.
+
+When an individual shows impairment in social communication and social interactions but does not show restricted and repetitive behavior or interests, criteria for social (pragmatic) communication disorder, instead of autism spectrum disorder, may be met. The diagnosis of autism spectrum disorder supersedes that of social (pragmatic) communication disorder whenever the criteria for autism spectrum disorder are met, and care should be taken to enquire carefully regarding past or current restricted/repetitive behavior.
+
+Intellectual disability (intellectual developmental disorder) without autism spectrum disorder. Intellectual disability without autism spectrum disorder may be difficult to differentiate from autism spectrum disorder in very young children. Individuals with intellectual disability who have not developed language or symbolic skills also present a challenge for differential diagnosis, since repetitive behavior often occurs in such individuals as well. A diagnosis of autism spectrum disorder in an individual with intellectual disability is appropriate when social communication and interaction are significantly impaired relative to the developmental level of the individual's nonverbal skills (e.g., fine motor skills, nonverbal problem solving). In contrast, intellectual disability is the appropriate diagnosis when there is no apparent discrepancy between the level of social-communicative skills and other intellectual skills.
+
+Stereotypic movement disorder. Motor stereotypies are among the diagnostic characteristics of autism spectrum disorder, so an additional diagnosis of stereotypic movement disorder is not given when such repetitive behaviors are better explained by the presence of autism spectrum disorder. However, when stereotypies cause self-injury and become a focus of treatment, both diagnoses may be appropriate.
+
+Attention-deficit/hyperactivity disorder. Abnormalities of attention (overly focused or easily distracted) are common in individuals with autism spectrum disorder, as is hyperactivity. A diagnosis of attention-deficit/hyperactivity disorder (ADHD) should be considered when attentional difficulties or hyperactivity exceeds that typically seen in individuals of comparable mental age.
+
+Schizophrenia. Schizophrenia with childhood onset usually develops after a period of normal, or near normal, development. A prodromal state has been described in which social impairment and atypical interests and beliefs occur, which could be confused with the social deficits seen in autism spectrum disorder. Hallucinations and delusions, which are defining features of schizophrenia, are not features of autism spectrum disorder. However, clinicians must take into account the potential for individuals with autism spectrum disorder to be concrete in their interpretation of questions regarding the key features of schizophrenia (e.g., "Do you hear voices when no one is there?" "Yes [on the radio]").
+
+## Comorbidity
+
+Autism spectrum disorder is frequently associated with intellectual impairment and structural language disorder (i.e., an inability to comprehend and construct sentences with proper grammar), which should be noted under the relevant specifiers when applicable. Many individuals with autism spectrum disorder have psychiatric symptoms that do not form part of the diagnostic criteria for the disorder (about 70% of individuals with autism spectrum disorder may have one comorbid mental disorder, and 40% may have two or more comorbid mental disorders). When criteria for both ADHD and autism spectrum disorder are met, both diagnoses should be given. This same principle applies to concurrent diagnoses of autism spectrum disorder and developmental coordination disorder, anxiety disorders, depressivedisorders, and other comorbid diagnoses. Among individuals who are nonverbal or have language deficits, observable signs such as changes in sleep or eating and increases in challenging behavior should trigger an evaluation for anxiety or depression. Specific learning difficulties (literacy and numeracy) are common, as is developmental coordination disorder. 
+
+Medical conditions commonly associated with autism spectrum disorder should be noted under the "associated with a known medical/genetic or environmental/acquired condition" specifier. Such medical conditions include epilepsy, sleep problems, and constipation. 
+
+Avoidant-restrictive food intake disorder is a fairly frequent presenting feature of autism spectrum disorder, and extreme and narrow food preferences may persist.
+
+## Attention-deficit/hyperactivity disorder <--@DIAGNOSIS-->
+
+## Attention-Deficit/Hyperactivity Disorder
+
+## Diagnostic Criteria
+
+A. A persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development, as characterized by (1) and/or (2):
+
+1. Inattention: Six (or more) of the following symptoms have persisted for at least 6 months to a degree that is inconsistent with developmental level and that negatively impacts directly on social and academic/occupational activities:
+
+Note: The symptoms are not solely a manifestation of oppositional behavior, defiance, hostility, or failure to understand tasks or instructions. For older adolescents and adults (age 17 and older), at least five symptoms are required.a. Often fails to give close attention to details or makes careless mistakes in schoolwork, at work, or during other activities (e.g., overlooks or misses details, work is inaccurate).b. Often has difficulty sustaining attention in tasks or play activities (e.g., has difficulty remaining focused during lectures, conversations, or lengthy reading).c. Often does not seem to listen when spoken to directly (e.g., mind seems elsewhere, even in the absence of any obvious distraction).d. Often does not follow through on instructions and fails to finish schoolwork, chores, or duties in the workplace (e.g., starts tasks but quickly loses focus and is easily sidetracked).e. Often has difficulty organizing tasks and activities (e.g., difficulty managing sequential tasks; difficulty keeping materials and belongings in order; messy, disorganized work; has poor time management; fails to meet deadlines).f. Often avoids, dislikes, or is reluctant to engage in tasks that require sustained mental effort (e.g., schoolwork or homework; for older adolescents and adults, preparing reports, completing forms, reviewing lengthy papers).g. Often loses things necessary for tasks or activities (e.g., school materials, pencils, books, tools, wallets, keys, papenwork, eyeglasses, mobile telephones).h. Is often easily distracted by extraneous stimuli (for older adolescents and adults, may include unrelated thoughts).i. Is often forgetful in daily activities (e.g., doing chores, running errands; for older adolescents and adults, returning calls, paying bills, keeping appointments).
+
+2. Hyperactivity and impuisivity: Six (or more) of the following symptoms have persisted for at least 6 months to a degree that is inconsistent with developmental level and that negatively impacts directly on social and academic/occupational activities: 
+
+Note: The symptoms are not solely a manifestation of oppositional behavior, defiance, hostility, or a failure to understand tasks or instructions. For older adolescents and adults (age 17 and older), at least five symptoms are required.a. Often fidgets with or taps hands or feet or squirms in seat.b. Often leaves seat in situations when remaining seated is expected (e.g., leaves his or her place in the classroom, in the office or other workplace, or in other situations that require remaining in place).c. Often runs about or climbs in situations where it is inappropriate. (Note: In adolescents or adults, may be limited to feeling restless.)d. Often unable to play or engage in leisure activities quietly.e. Is often “on the go,” acting as if “driven by a motor” (e.g., is unable to be or uncomfortable being still for extended time, as in restaurants, meetings; may be experienced by others as being restless or difficult to keep up with).f. Often talks excessively.g. Often blurts out an answer before a question has been completed (e.g., completes people’s sentences; cannot wait for turn in conversation).h. Often has difficulty waiting his or her turn (e.g., while waiting in line).i. Often interrupts or intrudes on others (e.g., butts into conversations, games, or activities; may start using other people’s things without asking or receiving permission; for adolescents and adults, may intrude into or take over what others are doing).
+
+B. Several inattentive or hyperactive-impulsive symptoms were present prior to age 12 years.
+
+C. Several inattentive or hyperactive-impulsive symptoms are present in two or more settings (e.g., at home, school, or work; with friends or relatives; in other activities).
+
+D. There is clear evidence that the symptoms interfere with, or reduce the quality of, social, academic, or occupational functioning.
+
+E. The symptoms do not occur exclusively during the course of schizophrenia or another psychotic disorder and are not better explained by another mental disorder (e.g., mood disorder, anxiety disorder, dissociative disorder, personality disorder, substance intoxication or withdrawal).
+
+## Specify whether:
+
+314.01 (F90.2) Combined presentation: If both Criterion A1 (inattention) and Criterion A2 (hyperactivity-impulsivity) are met for the past 6 months.
+
+314.00 (F90.0) Predominantly inattentive presentation: If Criterion A1 (inattention) is met but Criterion A2 (hyperactivity-impulsivity) is not met for the past 6 months.
+
+314.01 (F90.1) Predominantly hyperactive/impulsive presentation: If Criterion A2 (hyperactivity-impulsivity) is met and Criterion A1 (inattention) is not met for the past 6 months.
+
+Specify if:in partial remission: When full criteria were previously met, fewer than the full criteria have been met for the past 6 months, and the symptoms still result in impairment in social, academic, or occupational functioning.
+
+Specify current severity:lUlild: Few, if any, symptoms in excess of those required to make the diagnosis are present, and symptoms result in no more than minor impairments in social or occupational functioning.
+
+Moderate: Symptoms or functional impairment between “mild” and “severe” are present.
+
+Severe: Many symptoms in excess of tliose required to mal<e tlie diagnosis, or several symptoms that are particularly severe, are present, or the symptoms result in marked impairment in social or occupational functioning.
+
+## Diagnostic Features
+
+The essential feature of attention-deficit/hyperactivity disorder (ADHD) is a persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development. Inattention manifests behaviorally in ADHD as wandering off task, lacking persistence, having difficulty sustaining focus, and being disorganized and is not due to defiance or lack of comprehension. Hyperactivity refers to excessive motor activity (such as a child running about) when it is not appropriate, or excessive fidgeting, tapping, or talkativeness. In adults, hyperactivity may manifest as extreme restlessness or wearing others out with their activity. Impulsivity refers to hasty actions that occur in the moment without forethought and that have high potential for harm to the individual (e.g., darting into the street without looking). Impulsivity may reflect a desire for immediate rewards or an inability to delay gratification. Impulsive behaviors may manifest as social intrusiveness 
+
+(e.g., interrupting others excessively) and/or as making important decisions without consideration of long-term consequences (e.g., taking a job without adequate information).
+
+ADHD begins in childhood. The requirement that several symptoms be present before age 12 years conveys the importance of a substantial clinical presentation during childhood. At the same time, an earlier age at onset is not specified because of difficulties in establishing precise childhood onset retrospectively. Adult recall of childhood symptoms tends to be unreliable, and it is beneficial to obtain ancillary information.
+
+Manifestations of the disorder must be present in more than one setting (e.g., home and school, work). Confirmation of substantial symptoms across settings typically cannot be done accurately without consulting informants who have seen the individual in those settings. Typically, symptoms vary depending on context within a given setting. Signs of the disorder may be minimal or absent when the individual is receiving frequent rewards for appropriate behavior, is under close supervision, is in a novel setting, is engaged in especially interesting activities, has consistent external stimulation (e.g., via electronic screens), or is interacting in one-on-one situations (e.g., the clinician's office).
+
+## Associated Features Supporting Diagnosis
+
+Mild delays in language, motor, or social development are not specific to ADHD but often cooccur. Associated features may include low frustration tolerance, irritability, or mood lability. 
+
+Even in the absence of a specific learning disorder, academic or work performance is often impaired. Inattentive behavior is associated with various underlying cognitive processes, and individuals with ADHD may exhibit cognitive problems on tests of attention, executive function, or memory, although these tests are not sufficiently sensitive or specific to serve as diagnostic indices. By early adulthood, ADHD is associated with an increased risk of suicide attempt, primarily when comorbid with mood, conduct, or substance use disorders.
+
+No biological marker is diagnostic for ADHD. As a group, compared with peers, children with ADHD display increased slow wave electroencephalograms, reduced total brain volume on magnetic resonance imaging, and possibly a delay in posterior to anterior cortical maturation, but these findings are not diagnostic. In the uncommon cases where there is a known genetic cause (e.g Fragile X syndrome, 22qll deletion syndrome), the 
+
+ADHD presentation should still be diagnosed.
+
+## Prevalence
+
+Population surveys suggest that ADHD occurs in most cultures in about 5% of children and about 2.5% of adults.
+
+## Development and Course
+
+Many parents first observe excessive motor activity when the child is a toddler, but symptoms are difficult to distinguish from highly variable normative behaviors before age 4 years. ADHD is most often identified during elementary school years, and inattention becomes more prominent and impairing. The disorder is relatively stable through early adolescence, but some individuals have a worsened course with development of antisocial behaviors. In most individuals with ADHD, symptoms of motoric hyperactivity become less obvious in adolescence and adulthood, but difficulties with restlessness, inattention, poor planning, and impulsivity persist. A substantial proportion of children with ADHD remain relatively impaired into adulthood.
+
+In preschool, the main manifestation is hyperactivity. Inattention becomes more prominent during elementary school. During adolescence, signs of hyperactivity (e.g., running and climbing) are less common and may be confined to fidgetiness or an inner feeling of jitteriness, restlessness, or impatience. In adulthood, along with inattention and restlessness, impulsivity may remain problematic even when hyperactivity has diminished.
+
+## Risk and Prognostic Factors
+
+Temperamental. ADHD is associated with reduced behavioral inhibition, effortful control, or constraint; negative emotionality; and/or elevated novelty seeking. These traits may predispose some children to ADHD but are not specific to the disorder.
+
+Environmental. Very low birth weight (less than 1,500 grams) conveys a two- to threefold risk for ADHD, but most children with low birth weight do not develop ADHD. Although ADHD is correlated with smoking during pregnancy, some of this association reflects common genetic risk. A minority of cases may be related to reactions to aspects of diet. There may be a history of child abuse, neglect, multiple foster placements, neurotoxin exposure (e.g., lead), infections (e.g., encephalitis), or alcohol exposure in utero. Exposure to environmental toxicants has been correlated with subsequent ADHD, but it is not known whether these associations are causal.
+
+Genetic and physiological. ADHD is elevated in the first-degree biological relatives of individuals with ADHD. The heritability of ADHD is substantial. While specific genes have been correlated with ADHD, they are neither necessary nor sufficient causal factors. 
+
+Visual and hearing impairments, metabolic abnormalities, sleep disorders, nutritional deficiencies, and epilepsy should be considered as possible influences on ADHD symptoms.
+
+ADHD is not associated with specific physical features, although rates of minor physical anomalies (e.g., hypertelorism, highly arched palate, low-set ears) may be relatively elevated. Subtle motor delays and other neurological soft signs may occur. (Note that marked co-occurring clumsiness and motor delays should be coded separately [e.g., developmental coordination disorder].)
+
+Course modifiers. Family interaction patterns in early childhood are unlikely to cause 
+
+ADHD but may influence its course or contribute to secondary development of conduct problems.
+
+## Culture-Related Diagnostic Issues
+
+Differences in ADHD prevalence rates across regions appear attributable mainly to different diagnostic and methodological practices. However, there also may be cultural variation in attitudes toward or interpretations of children's behaviors. Clinical identification rates in the United States for African American and Latino populations tend to be lower than for Caucasian populations. Informant symptom ratings may be influenced by cultural group of the child and the informant, suggeshng that culturally appropriate practices are relevant in assessing ADHD.
+
+## Gender-Related Diagnostic Issues
+
+ADHD is more frequent in males than in females in the general population, with a ratio of approximately 2:1 in children and 1.6:1 in adults. Females are more likely than males to present primarily with inattentive features.
+
+## Functional Consequences of 
+
+## Attention-Deficit/Hyperactivity Disorder
+
+ADHD is associated with reduced school performance and academic attainment, social rejection, and, in adults, poorer occupational performance, attainment, attendance, and higher probability of unemployment as well as elevated interpersonal conflict. Children with ADHD are significantly more likely than their peers without ADHD to develop conduct disorder in adolescence and antisocial personality disorder in adulthood, consequently increasing the likelihood for substance use disorders and incarceration. The risk of subsequent substance use disorders is elevated, especially when conduct disorder or antisocial personality disorder develops. Individuals with ADHD are more likely than peers to be injured. Traffic accidents and violations are more frequent in drivers with ADHD. 
+
+There may be an elevated likelihood of obesity among individuals with ADHD.
+
+Inadequate or variable self-application to tasks that require sustained effort is often interpreted by others as laziness, irresponsibility, or failure to cooperate. Family relationships may be characterized by discord and negative interactions. Peer relationships afe often disrupted by peer rejection, neglect, or teasing of the individual with ADHD. On average, individuals with ADHD obtain less schooling, have poorer vocational achievement, and have reduced intellectual scores than their peers, although there is great variability. In its severe form, the disorder is markedly impairing, affecting social, familial, and scholastic/occupational adjustment.
+
+Academic deficits, school-related problems, and peer neglect tend to be most associated with elevated symptoms of inattention, whereas peer rejection and, to a lesser extent, accidental injury are most salient with marked symptoms of hyperactivity or impulsivity.
+
+## Differential Diagnosis
+
+Oppositional defiant disorder. Individuals with oppositional defiant disorder may resist work or school tasks that require self-application because they resist conforming to others' demands. Their behavior is characterized by negativity, hostility, and defiance. 
+
+These symptoms must be differentiated from aversion to school or mentally demanding tasks due to difficulty in sustaining mental effort, forgetting instructions, and impulsivity in individuals with ADHD. Complicating the differential diagnosis is the fact that some individuals with ADHD may develop secondary oppositional attitudes toward such tasks and devalue their importance.
+
+Intermittent explosive disorder. ADHD and intermittent explosive disorder share high levels of impulsive behavior. However, individuals with intermittent explosive disorder show serious aggression toward others, which is not characteristic of ADHD, and they do not experience problems with sustaining attention as seen in ADHD. In addition, intermittent explosive disorder is rare in childhood. Intermittent explosive disorder may be diagnosed in the presence of ADHD.
+
+Other neurodevelopmental disorders. The increased motoric activity that may occur in 
+
+ADHD must be distinguished from the repetitive motor behavior that characterizes stereotypic movement disorder and some cases of autism spectrum disorder. In stereotypic movement disorder, the motoric behavior is generally fixed and repetitive (e.g., body rocking, self-biting), whereas the fidgetiness and restlessness in ADHD are typically generalized and not characterized by repetitive stereotypic movements. In Tourette's disorder,frequent multiple tics can be mistaken for the generalized fidgetiness of ADHD. Prolonged observation may be needed to differentiate fidgetiness from bouts of multiple tics.
+
+Specific learning disorder. Children with specific learning disorder may appear inattentive because of frustration, lack of interest, or limited ability. However, inattention in individuals with a specific learning disorder who do not have ADHD is not impairing outside of academic work.
+
+Intellectual disability (intellectual developmental disorder). Symptoms of ADHD are common among children placed in academic settings that are inappropriate to their intellectual ability. In such cases, the symptoms are not evident during non-academic tasks. A diagnosis of ADHD in intellectual disability requires that inattention or hyperactivity be excessive for mental age.
+
+Autism spectrum disorder. Individuals with ADHD and those with autism spectrum disorder exhibit inattention, social dysfunction, and difficult-to-manage behavior. The social dysfunction and peer rejection seen in individuals with ADHD must be distinguished from the social disengagement, isolation, and indifference to facial and tonal communication cues seen in individuals with autism spectrum disorder. Children with autism spectrum disorder may display tantrums because of an inability to tolerate a change from their expected course of events. In contrast, children with ADHD may misbehave or have a tantrum during a major transition because of impulsivity or poor self-control.
+
+Reactive attachment disorder. Children with reactive attachment disorder may show social disinhibition, but not the full ADHD symptom cluster, and display other features such as a lack of enduring relationships that are not characteristic of ADHD.
+
+Anxiety disorders. ADHD shares symptoms of inattention with anxiety disorders. Individuals with ADHD are inattentive because of their attraction to external stimuli, new activities, or preoccupation with enjoyable activities. This is distinguished from the inattention due to worry and rumination seen in anxiety disorders. Restlessness might be seen in anxiety disorders. However, in ADHD, the symptom is not associated with worry and rumination.
+
+Depressive disorders. Individuals with depressive disorders may present with inability to concentrate. However, poor concentration in mood disorders becomes prominent only during a depressive episode.
+
+Bipolar disorder. Individuals with bipolar disorder may have increased activity, poor concentration, and increased impulsivity, but these features are episodic, occurring several days at a time. In bipolar disorder, increased impulsivity or inattention is accompanied by elevated mood, grandiosity, and other specific bipolar features. Children with 
+
+ADHD may show significant changes in mood within the same day; such lability is distinct from a manic episode, which must last 4 or more days to be a clinical indicator of bipolar disorder, even in children. Bipolar disorder is rare in preadolescents, even when severe irritability and anger are prominent, whereas ADHD is common among children and adolescents who display excessive anger and irritability.
+
+Disruptive mood dysregulation disorder. Disruptive mood dysregulation disorder is characterized by pervasive irritability, and intolerance of frustration, but impulsiveness and disorganized attenhon are not essential features. However, most children and adolescents with the disorder have symptoms that also meet criteria for ADHD, which is diagnosed separately.
+
+Substance use disorders. Differentiating ADHD from substance use disorders may be problematic if the first presentation of ADHD symptoms follows the onset of abuse or frequent use. Clear evidence of ADHD before substance misuse from informants or previous records may be essential for differential diagnosis.
+
+Personality disorders. In adolescents and adults, it may be difficult to distinguish ADHD from borderline, narcissistic, and other personality disorders. All these disorders tend to share the features of disorganization, social intrusiveness, emotional dysregulation, and cognitive dysregulation. However, ADHD is not characterized by fear of abandonment, self-injury, extreme ambivalence, or other features of personality disorder. It may take extended clinical observation, informant interview, or detailed history to distinguish impulsive, socially intrusive, or inappropriate behavior from narcissistic, aggressive, or domineering behavior to make this differential diagnosis.
+
+Psychotic disorders. ADHD is not diagnosed if the symptoms of inattention and hyperactivity occur exclusively during the course of a psychotic disorder.
+
+Medication-induced symptoms of ADHD. Symptoms of inattention, hyperactivity, or impulsivity attributable to the use of medication (e.g., bronchodilators, isoniazid, neuroleptics [resulting in akathisia], thyroid replacement medication) are diagnosed as other specified or unspecified other (or unknown) substance-related disorders.
+
+Neurocognitive disorders. Early major neurocognitive disorder (dementia) and/or mild neurocognitive disorder are not known to be associated with ADHD but may present with similar clinical features. These conditions are distinguished from ADHD by their late onset.
+
+## Comorbidity
+
+In clinical settings, comorbid disorders are frequent in individuals whose symptoms meet criteria for ADHD. In the general population, oppositional defiant disorder co-occurs with 
+
+ADHD in approximately half of children with the combined presentation and about a quarter with the predominantly inattentive presentation. Conduct disorder co-occurs in about a quarter of children or adolescents with the combined presentation, depending on age and setting. Most children and adolescents with disruptive mood dysregulation disorder have symptoms that also meet criteria for ADHD; a lesser percentage of children with ADHD have symptoms that meet criteria for disruptive mood dysregulation disorder. Specific learning disorder commonly co-occurs with ADHD. Anxiety disorders and major depressive disorder occur in a minority of individuals with ADHD but more often than in the general population. Intermittent explosive disorder occurs in a minority of adults with ADHD, but at rates above population levels. Although substance use disorders are relatively more frequent among adults with ADHD in the general population, the disorders are present in only a minority of adults with ADHD. In adults, antisocial and other personality disorders may co-occur with ADHD. Other disorders that may co-occur with ADHD include obsessive-compulsive disorder, tic disorders, and autism spectrum disorder.
+
+## Other specified attention-deficit/hyperactivity disorder <--@DIAGNOSIS-->
+
+314.01 (F90.8)
+
+This category applies to presentations in which symptoms characteristic of attention- deficit/hyperactivity disorder that cause clinically significant distress or impairment in social, occupational or other important areas of functioning predominate but do not meet the full criteria for attention-deficit/hyperactivity disorder or any of the disorders in the neuro- developmental disorders diagnostic class. The other specified attention-deficit/hyperactiv- ity disorder category is used in situations in which the clinician chooses to communicatethe specific reason that the presentation does not meet the criteria for attention-deficit/ hyperactivity disorder or any specific neurodevelopmental disorder. This is done by recording “other specified attention-deficit/hyperactivity disorder” followed by the specific reason (e.g., “with insufficient inattention symptoms”).
+
+## Unspecified attention-deficit/hyperactivity disorder <--@DIAGNOSIS-->
+
+314.01 (F90.9)
+
+This category applies to presentations in which symptoms characteristic of attention- deficit/hyperactivity disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for attention-deficit/hyperactivity disorder or any of the disorders in the neurodevelopmental disorders diagnostic class. The unspecified attention-deficit/hyperactivity disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for attention-deficit/hyperactivity disorder or for a specific neurodevelopmental disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis.
+
+## Specific learning disorder <--@DIAGNOSIS--> <--@GROUP-->
+
+## Specific Learning Disorder
+
+## Diagnostic Criteria
+
+A. Difficulties learning and using academic skills, as indicated by the presence of at leastone of the following symptoms that have persisted for at least 6 months, despite theprovision of interventions that target those difficulties:
+
+1. Inaccurate or slow and effortful word reading (e.g., reads single words aloud incorrectly or slowly and hesitantly, frequently guesses words, has difficulty sounding out words).
+
+2. Difficulty understanding the meaning of what is read (e.g., may read text accurately but not understand the sequence, relationships, inferences, or deeper meanings of what is read).
+
+3. Difficulties with spelling (e.g., may add, omit, or substitute vowels or consonants).
+
+4. Difficulties with written expression (e.g., makes multiple grammatical or punctuation errors within sentences; employs poor paragraph organization; written expression of ideas lacks clarity).
+
+5. Difficulties mastering number sense, number facts, or calculation (e.g., has poor understanding of numbers, their magnitude, and relationships; counts on fingers to add single-digit numbers instead of recalling the math fact as peers do; gets lost in the midst of arithmetic computation and may switch procedures).
+
+6. Difficulties with mathematical reasoning (e.g., has severe difficulty applying mathematical concepts, facts, or procedures to solve quantitative problems).
+
+B. The affected academic skills are substantially and quantifiably below those expected for the individual’s chronological age, and cause significant interference with academic or occupational performance, or with activities of daily living, as confirmed by individually administered standardized achievement measures and comprehensive clinical assessment. For individuals age 17 years and older, a documented history of impairing learning difficulties may be substituted for the standardized assessment.
+
+C. The learning difficulties begin during school-age years but may not become fully manifest until the demands for those affected academic sl<ills exceed the individual’s limited capacities (e.g., as in timed tests, reading or writing lengthy complex reports for a tight deadline, excessively heavy academic loads).
+
+D. The learning difficulties are not better accounted for by intellectual disabilities, uncorrected visual or auditory acuity, other mental or neurological disorders, psychosocial adversity, lack of proficiency in the language of academic instruction, or inadequate educational instruction.
+
+Note; The four diagnostic criteria are to be met based on a clinical synthesis of the individual’s history (developmental, medical, family, educational), school reports, and psycho- educational assessment.
+
+Coding note: Specify all academic domains and subskills that are impaired. When more than one domain is impaired, each one should be coded individually according to the following specifiers.
+
+## Specify if:
+
+315.00 (F81.0) With impairment in reading:
+
+## Word reading accuracy 
+
+## Reading rate or fluency 
+
+## Reading comprehension
+
+Note: Dyslexia is an alternative term used to refer to a pattern of learning difficulties characterized by problems with accurate or fluent word recognition, poor decoding, and poor spelling abilities. If dyslexia is used to specify this particular pattern of difficulties, it is important also to specify any additional difficulties that are present, such as difficulties with reading comprehension or math reasoning.
+
+315.2 (F81.81) Witli impairment in written expression:
+
+## Spelling accuracy
+
+## Grammar and punctuation accuracy 
+
+## Clarity or organization of written expression
+
+315.1 (FBI .2) With impairment in mathematics:
+
+## Number sense
+
+## Memorization of arithmetic facts 
+
+## Accurate or fluent calculation 
+
+## Accurate math reasoning
+
+Note: Dyscalculia is an altemative term used to refer to a pattern of difficulties characterized by problems processing numerical information, learning arithmetic facts, and performing accurate or fluent calculations. If dyscalculia is used to specify this particular pattern of mathematic difficulties, it is important also to specify any additional difficulties that are present, such as difficulties with math reasoning or word reasoning accuracy.
+
+Specify current severity:lUliid: Some difficulties learning skills in one or two academic domains, but of mild enough severity that the individual may be able to compensate or function well when provided with appropriate accommodations or support services, especially during the school years.
+
+Moderate: Marked difficulties learning skills in one or more academic domains, so that the individual is unlikely to become proficient without some intervals of intensive and specialized teaching during the school years. Some accommodations or supportive services at least part of the day at school, in the workplace, or at home may be needed to complete activities accurately and efficiently.
+
+Severe: Severe difficulties learning skills, affecting several academic domains, so that the individual is unlikely to learn those skills without ongoing intensive individualized and specialized teaching for most of the school years. Even with an array of appropriate accommodations or services at home, at school, or in the workplace, the individual may not be able to complete all activities efficiently.
+
+## Recording Procedures
+
+Each impaired academic domain and subskill of specific learning disorder should be recorded. Because of ICD coding requirements, impairments in reading, impairments in written expression, and impairments in mathematics, with their corresponding impairments in subskills, must be coded separately. For example, impairments in reading and mathematics and impairments in the subskills of reading rate or fluency, reading comprehension, accurate or fluent calculation, and accurate math reasoning would be coded and recorded as 
+
+315.00 (F81.0) specific learning disorder with impairment in reading, with impairment in reading rate or fluency and impairment in reading comprehension; 315.1 (F81.2) specific learning disorder with impairment in mathematics, with impairment in accurate or fluent calculation and impairment in accurate math reasoning.
+
+## Diagnostic Features
+
+Specific learning disorder is a neurodevelopmental disorder with a biological origin that is the basis for abnormalities at a cognitive level that are associated with the behavioral signs of the disorder. The biological origin includes an interaction of genetic, epigenetic, and environmental factors, which affect the brain's ability to perceive or process verbal or nonverbal information efficiently and accurately.
+
+One essential feature of specific learning disorder is persistent difficulties learning keystone academic skills (Criterion A), with onset during the years of formal schooling (i.e., the developmental period). Key academic skills include reading of single words accurately and fluently, reading comprehension, written expression and spelling, arithmetic calculation, and mathematical reasoning (solving mathematical problems). In contrast to talking or walking, which are acquired developmental milestones that emerge with brain maturation, academic skills (e.g., reading, spelling, writing, mathematics) have to be taught and learned explicitly. 
+
+Specific learning disorder disrupts the normal pattern of learning academic skills; it is not simply a consequence of lack of opportunity of learning or inadequate instruction. Difficulties mastering these key academic skills may also impede learning in other academic subjects (e.g., history, science, social studies), but those problems are attributable to difficulties learning the underlying academic skills. Difficulties learning to map letters with the sounds of one's language— t̂o read printed words (often called dyslexia)—is one of the most common manifestations of specific learning disorder. The learning difficulties manifest as a range of observable, descriptive behaviors or symptoms (as listed in Criteria A1-A6). These clinical symptoms may be observed, probed by means of the clinical interview, or ascertained from school reports, rating scales, or descriptions in previous educational or psychological assessments. The learning difficulties are persistent, not transitory. In children and adolescents, persistence is defined as restricted progress in learning (i.e., no evidence that the individual is catching up with classmates) for at least 6 months despite the provision of extra help at home or school. For example, difficulties learning to read single words that do not fully or rapidly remit with the provision of instruction in phonological skills or word identification strategies may indicate a specificlearning disorder. Evidence of persistent learning difficulties may be derived from cumulative school reports, portfolios of the child's evaluated work, curriculum-based measures, or clinical interview. In adults, persistent difficulty refers to ongoing difficulties in literacy or numeracy skills that manifest during childhood or adolescence, as indicated by cumulative evidence from school reports, evaluated portfolios of work, or previous assessments.
+
+A second key feature is that the individual's performance of the affected academic skills is well below average for age (Criterion B). One robust clinical indicator of difficulties learning academic skills is low academic achievement for age or average achievement that is sustainable only by extraordinarily high levels of effort or support. In children, the low academic skills cause significant interference in school performance (as indicated by school reports and teacher's grades or ratings). Another clinical indicator, particularly in adults, is avoidance of activities that require the academic skills. Also in adulthood, low academic skills interfere with occupational performance or everyday activities requiring those skills (as indicated by self-report or report by others). However, this criterion also requires psychometric evidence from an individually administered, psychometrically sound and culturally appropriate test of academic achievement that is norm-referenced or criterion-referenced. Academic skills are distributed along a continuum, so there is no natural cutpoint that can be used to differentiate individuals with and without specific learning disorder. Thus, any threshold used to specify what constitutes significantly low academic achievement (e.g., academic skills weU below age expectation) is to a large extent arbitrary. Low achievement scores on one or more standardized tests or subtests within an academic domain (i.e., at least 1.5 standard deviations [SD] below the population mean for age, which translates to a standard score of 78 or less, which is below the 7th percentile) are needed for the greatest diagnostic certainty. However, precise scores will vary according to the particular standardized tests that are used. On the basis of clinical judgment, a more lenient threshold may be used (e.g., 1.0-2.5 SD below the population mean for age), when learning difficulties are supported by converging evidence from clinical assessment, academic history, school reports, or test scores. Moreover, since standardized tests are not available in all languages, the diagnosis may then be based in part on clinical judgment of scores on available test measures.
+
+A third core feature is that the learning difficulties are readily apparent in the early school years in most individuals (Criterion C). However, in others, the learning difficulties may not manifest fully until later school years, by which time learning demands have increased and exceed the individual's limited capacities.
+
+Another key diagnostic feature is that the learning difficulties are considered "specific," for four reasons. First, they are not attributable to intellectual disabilities (intellectual disability [intellectual developmental disorder]); global developmental delay; hearing or vision disorders, or neurological or motor disorders) (Criterion D). Specific learning disorder affects learning in individuals who otherwise demonstrate normal levels of intellectual functioning (generally estimated by an IQ score of greater than about 70 [±5 points allowing for measurement error]). The phrase "unexpected academic underachievement" is often cited as the defining characteristic of specific learning disorder in that the specific learning disabilities are not part of a more general learning difficulty as manifested in intellectual disability or global developmental delay. Specific learning disorder may also occur in individuals identified as intellectually "gifted." These individuals may be able to sustain apparentiy adequate academic functioning by using compensatory strategies, extraordinarily high effort, or support, until the learning demands or assessment procedures (e.g., timed tests) pose barriers to their demonstrating their learning or accomplishing required tasks. Second, the learning difficulty cannot be attributed to more general external factors, such as economic or environmental disadvantage, chronic absenteeism, or lack of education as typically provided in the individual's community context. 
+
+Third, the learning difficulty cannot be attributed to a neurological (e.g., pediatric stroke) or motor disorders or to vision or hearing disorders, which are often associated with problems learning academic skills but are distinguishable by presence of neurological signs.
+
+Finally, the learning difficulty may be restricted to one academic skill or domain (e.g., reading single words, retrieving or calculating number facts).
+
+Comprehensive assessment is required. Specific learning disorder can only be diagnosed after formal education starts but can be diagnosed at any point afterward in children, adolescents, or adults, providing there is evidence of onset during the years of formal schooling (i.e., the developmental period). No single data source is sufficient for a diagnosis of specific learning disorder. Rather, specific learning disorder is a clinical diagnosis based on a synthesis of the individual's medical, developmental, educational, and family history; the history of the learning difficulty, including its previous and current manifestation; the impact of the difficulty on academic, occupational, or social functioning; previous or current school reports; portfolios of work requiring academic skills; curriculum-based assessments; and previous or current scores from individual standardized tests of academic achievement. If an intellectual, sensory, neurological, or motor disorder is suspected, then the clinical assessment for specific learning disorder should also include methods appropriate for these disorders. Thus, comprehensive assessment will involve professionals with expertise in specific learning disorder and psychological/cognitive assessment. Since specific learning disorder typically persists into adulthood, reassessment is rarely necessary, unless indicated by marked changes in the learning difficulties (amelioration or worsening) or requested for specific purposes.
+
+## Associated Features Supporting Diagnosis
+
+Specific learning disorder is frequently but not invariably preceded, in preschool years, by delays in attention, language, or motor skills that may persist and co-occur with specific learning disorder. An uneven profile of abilities is common, such as above-average abilities in drawing, design, and other visuospatial abilities, but slow, effortful, and inaccurate reading and poor reading comprehension and written expression. Individuals with specific learning disorder typically (but not invariably) exhibit poor performance on psychological tests of cognitive processing. However, it remains unclear whether these cognitive abnormalities are the cause, correlate, or consequence of the learning difficulties. Also, although cognitive deficits associated with difficulties learning to read words are well documented, those associated with other manifestations of specific learning disorder (e.g., reading comprehension, arithmetic computation, written expression) are underspecified or unknown. Moreover, individuals with similar behavioral symptoms or test scores are found to have a variety of cognitive deficits, and many of these processing deficits are also found in other neurodevelopmental disorders (e.g., attention-deficit/hyperactivity disorder [ADHD], autistic spectrum disorder, communication disorders, developmental coordination disorder). Thus, assessment of cognitive processing deficits is not required for diagnostic assessment. Specific learning disorder is associated with increased risk for suicidal ideation and suicide attempts in children, adolescents, and adults.
+
+There are no known biological markers of specific learning disorder. As a group, individuals with the disorder show circumscribed alterations in cognitive processing and brain structure and function. Genetic differences are also evident at the group level. But cognitive testing, neuroimaging, or genetic testing are not useful for diagnosis at this time.
+
+## Prevalence
+
+The prevalence of specific learning disorder across the academic domains of reading, writing, and mathematics is 5%-15% among school-age children across different languages and cultures. Prevalence in adults is unknown but appears to be approximately 4%.
+
+## Development and Course
+
+Onset, recognition, and diagnosis of specific learning disorder usually occurs during the elementary school years when children are required to learn to read, spell, write, and learnmathematics. However, precursors such as language delays or deficits, difficulties in rhyming or counting, or difficulties with fine motor skills required for writing commonly occur in early childhood before the start of formal schooling. Manifestations may be behavioral (e.g., a reluctance to engage in learning; oppositional behavior). Specific learning disorder is lifelong, but the course and clinical expression are variable, in part depending on the interactions among the task demands of the environment, the range and severity of the individual's learning difficulties, the individual's learning abilities, comorbidity, and the available support systems and intervention. Nonetheless, problems with reading fluency and comprehension, spelling, written expression, and numeracy skills in everyday life typically persist into adulthood.
+
+Changes in manifestation of symptoms occur with age, so that an individual may have a persistent or shifting array of learning difficulties across the lifespan.
+
+Examples of symptoms that may be observed among preschool-age children include a lack of interest in playing games with language sounds (e.g., repetition, rhyming), and they may have trouble learning nursery rhymes. Preschool children with specific learning disorder may frequently use baby talk, mispronounce words, and have trouble remembering names of letters, numbers, or days of the week. They may fail to recognize letters in their own names and have trouble learning to count. Kindergarten-age children with specific learning disorder may be unable to recognize and write letters, may be unable to write their own names, or may use invented spelling. They may have trouble breaking down spoken words into syllables (e.g., "cowboy" into "cow" and "boy") and trouble recognizing words that rhyme (e.g., cat, bat, hat). 
+
+Kindergarten-age children also may have trouble cormecting letters with their sounds (e.g., letter b makes the sound /b/) and may be unable to recognize phonemes (e.g., do not know which in a set of words [e.g., dog, man, car] starts with the same sound as "cat").
+
+Specific learning disorder in elementary school-age children typically manifests as marked difficulty learning letter-sound correspondence (particularly in English-speaking children), fluent word decoding, spelling, or math facts; reading aloud is slow, inaccurate, and effortful, and some children struggle to understand the magnitude that a spoken or written number represents. Children in primary grades (grades 1-3) may continue to have problems recognizing and manipulating phonemes, be unable to read common one-syllable words (such as mat or top), and be unable recognize common irregularly spelled words (e.g., said, two). They may commit reading errors that indicate problems in connecting sounds and letters (e.g., "big" for "got") and have difficulty sequencing numbers and letters. Children in grades 1-3 also may have difficulty remembering number facts or arithmetic procedures for adding, subtracting, and so forth, and may complain that reading or arithmetic is hard and avoid doing it. Children with specific learning disorder in the middle grades (grades 4-6) may mispronounce or skip parts of long, multisyllable words 
+
+(e.g., say "conible" for "convertible," "aminal" for "animal") and confuse words that sound alike (e.g., "tornado" for "volcano"). They may have trouble remembering dates, names, and telephone numbers and may have trouble completing homework or tests on time. Children in the middle grades also may have poor comprehension with or without slow, effortful, and inaccurate reading, and they may have trouble reading small function words (e.g., that, the, an, in). They may have very poor spelling and poor written work. 
+
+They may get the first part of a word correctly, then guess wildly (e.g., read "clover" as "clock"), and may express fear of reading aloud or refuse to read aloud.
+
+By contrast, adolescents may have mastered word decoding, but reading remains slow and effortful, and they are likely to show marked problems in reading comprehension and written expression (including poor spelling) and poor mastery of math facts or mathematical problem solving. During adolescence and into adulthood, individuals with specific learning disorder may continue to make numerous spelling mistakes and read single words and connected text slowly and with much effort, with trouble pronouncing multisyllable words. They may frequently need to reread material to understand or get the main point and have trouble making inferences from written text. Adolescents and adults mayavoid activities that demand reading or arithmetic (reading for pleasure, reading instructions). Adults with specific learning disorder have ongoing spelling problems, slow and effortful reading, or problems making important inferences from numerical information in work-related written documents. They may avoid both leisure and work-related activities that demand reading or writing or use alternative approaches to access print (e.g., text-to-speech/speech-to-text software, audiobooks, audiovisual media).
+
+An alternative clinical expression is that of circumscribed learning difficulties that persist across the lifespan, such as an inability to master the basic sense of number (e.g., to know which of a pair of numbers or dots represents the larger magnitude), or lack of proficiency in word identification or spelling. Avoidance of or reluctance to engage in activities requiring academic skills is common in children, adolescents, and adults. Episodes of severe anxiety or anxiety disorders, including somatic complaints or panic attacks, are common across the lifespan and accompany both the circumscribed and the broader expression of learning difficulties.
+
+## Risk and Prognostic Factors
+
+Environmental. Prematurity or very low birth weight increases the risk for specific learning disorder, as does prenatal exposure to nicotine.
+
+Genetic and physiological. Specific learning disorder appears to aggregate in families, particularly when affecting reading, mathematics, and spelling. The relative risk of specific learning disorder in reading or mathematics is substantially higher (e.g., 4-8 times and 5-10 times higher, respectively) in first-degree relatives of individuals with these learning difficulties compared with those without them. Family history of reading difficulties (dyslexia) and parental literacy skills predict literacy problems or specific learning disorder in offspring, indicating the combined role of genetic and environmental factors.
+
+There is high heritability for both reading ability and reading disability in alphabetic and nonalphabetic languages, including high heritability for most manifestations of learning abilities and disabilities (e.g., heritability estimate values greater than 0.6). Covariation between various manifestations of learning difficulties is high, suggesting that genes related to one presentation are highly correlated with genes related to another manifestation.
+
+Course modifiers. Marked problems with inattentive behavior in preschool years is predictive of later difficulties in reading and mathematics (but not necessarily specific learning disorder) and nonresponse to effective academic interventions. Delay or disorders in speech or language, or impaired cognitive processing (e.g., phonological awareness, working memory, rapid serial naming) in preschool years, predicts later specific learning disorder in reading and written expression. Comorbidity with ADHD is predictive of worse mental health outcome than that associated with specific learning disorder without 
+
+ADHD. Systematic, intensive, individualized instruction, using evidence-based interventions, may improve or ameliorate the learning difficulties in some individuals or promote the use of compensatory strategies in others, thereby mitigating the otherwise poor outcomes.
+
+## Culture-Related Diagnostic issues
+
+Specific learning disorder occurs across languages, cultures, races, and socioeconomic conditions but may vary in its manifestation according to the nature of the spoken and written symbol systems and cultural and educational practices. For example, the cognitive processing requirements of reading and of working with numbers vary greatly across orthographies. In the English language, the observable hallmark clinical symptom of difficulties learning to read is inaccurate and slow reading of single words; in other alphabetic languages that have more direct mapping between sounds and letters (e.g., Spanish, German) and in non-alphabetic languages (e.g., Chinese, Japanese), the hallmark feature isslow but accurate reading. In English-language learners, assessment should include consideration of whether the source of reading difficulties is a limited proficiency with English or a specific learning disorder. Risk factors for specific learning disorder in English- language learners include a family history of specific learning disorder or language delay in the native language, as well as learning difficulties in English and failure to catch up with peers. If there is suspicion of cultural or language differences (e.g., as in an English- language learner), the assessment needs to take into account the individual's language proficiency in his or her first or native language as well as in the second language (in this example, English). Also, assessment should consider the linguistic and cultural context in which the individual is living, as well as his or her educational and learning history in the original culture and language.
+
+## Gender-Related Diagnostic issues
+
+Specific learning disorder is more common in males than in females (ratios range from about 2:1 to 3:1) and cannot be attributed to factors such as ascertainment bias, definitional or measurement variation, language, race, or socioeconomic status.
+
+## Functionai Consequences of 
+
+## Specific Learning Disorder
+
+Specific learning disorder can have negative functional consequences across the lifespan, including lower academic attainment, higher rates of high school dropout, lower rates of postsecondary education, high levels of psychological distress and poorer overall mental health, higher rates of unemployment and under-employment, and lower incomes. School dropout and co-occurring depressive symptoms increase the risk for poor mental health outcomes, including suicidality, whereas high levels of social or emotional support predict better mental health outcomes.
+
+## Differential Diagnosis
+
+Normal variations in academic attainment. Specific learning disorder is distinguished from normal variations in academic attainment due to external factors (e.g., lack of educational opportunity, consistently poor instruction, learning in a second language), because the learning difficulties persist in the presence of adequate educational opportunity and exposure to the same instruction as the peer group, and competency in the language of instruction, even when it is different from one's primary spoken language.
+
+Intellectual disability (intellectual developmental disorder). Specific learning disorder differs from general learning difficulties associated with intellectual disability, because the learning difficulties occur in the presence of normal levels of intellectual functioning (i.e., 
+
+IQ score of at least 70 ± 5). If intellectual disability is present, specific learning disorder can be diagnosed only when the learning difficulties are in excess of those usually associated with the intellectual disability.
+
+Learning difficulties due to neurological or sensory disorders. Specific learning disorder is distinguished from learning difficulties due to neurological or sensory disorders 
+
+(e.g., pediatric stroke, traumatic brain injury, hearing impairment, vision impairment), because in these cases there are abnormal findings on neurological examination.
+
+Neurocognitive disorders. Specific learning disorder is distinguished from learning problems associated with neurodegenerative cognitive disorders, because in specific learning disorder the clinical expression of specific learning difficulties occurs during the developmental period, and the difficulties do not manifest as a marked decline from a former state.
+
+Attention-deficit/hyperactivity disorder. Specific learning disorder is distinguished from the poor academic performance associated with ADHD, because in the latter condition the problems may not necessarily reflect specific difficulties in learning academic skills but rather may reflect difficulties in performing those skills. However, the co-occurrence of specific learning disorder and ADHD is more frequent than expected by chance. If criteria for both disorders are met, both diagnoses can be given.
+
+Psychotic disorders. Specific learning disorder is distinguished from the academic and cognitive-processing difficulties associated with schizophrenia or psychosis, because with these disorders there is a decline (often rapid) in these functional domains.
+
+## Comorbidity
+
+Specific learning disorder commonly co-occurs with neurodevelopmental (e.g., ADHD, communication disorders, developmental coordination disorder, autistic spectrum disorder) or other mental disorders (e.g., anxiety disorders, depressive and bipolar disorders). 
+
+These comorbidities do not necessarily exclude the diagnosis specific learning disorder but may make testing and differential diagnosis more difficult, because each of the cooccurring disorders independently interferes with the execution of activities of daily living, including learning. Thus, clinical judgment is required to attribute such impairment to learning difficulties. If there is an indication that another diagnosis could account for the difficulties learning keystone academic skills described in Criterion A, specific learning disorder should not be diagnosed.
+
+## Motor Disorders <--@GROUP-->
+
+## Developmental coordination disorder <--@DIAGNOSIS-->
+
+### Diagnostic Criteria 315.4 (F82)
+
+A. The acquisition and execution of coordinated motor skills is substantially below that expected given the individual’s chronological age and opportunity for skill learning and use. Difficulties are manifested as clumsiness (e.g., dropping or bumping into objects) as well as slowness and inaccuracy of performance of motor skills (e.g., catching an object, using scissors or cutlery, handwriting, riding a bike, or participating in sports).
+
+B. The motor skills deficit in Criterion A significantly and persistently interferes with activities of daily living appropriate to chronological age (e.g., self-care and self-maintenance) and impacts academic/school productivity, prevocational and vocational activities, leisure, and play.
+
+C. Onset of symptoms is in the early developmental period.
+
+D. The motor skills deficits are not better explained by intellectual disability (Intellectual developmental disorder) or visual impairment and are not attributable to a neurological condition affecting movement (e.g., cerebral palsy, muscular dystrophy, degenerative disorder).
+
+## Diagnostic Features
+
+The diagnosis of developmental coordinahon disorder is made by a clinical synthesis of thehistory (developmental and medical), physical examination, school or workplace report, andindividual assessment using psychometrically sound and culturally appropriate standardizedtests. The manifestation of impaired skills requiring motor coordination (Criterion A) varieswith age. Young children may be delayed in achieving motor milestones (i.e., sitting, crawling, walking), although many achieve typical motor milestones. They also may be delayed in developing skills such as negotiating stairs, pedaling, buttoning shirts, completing puzzles, and using zippers. Even when the skill is achieved, movement execution may appear awkward, slow, or less precise than that of peers. Older children and adults may display slow speed or inaccuracy with motor aspects of activities such as assembling puzzles, building models, playing ball games (especially in teams), handwriting, typing, driving, or carrying out self-care sldlls.
+
+Developmental coordination disorder is diagnosed only if the impairment in motor skills significantly interferes with the performance of, or participation in, daily activities in family, social, school, or community life (Criterion B). Examples of such activities include getting dressed, eating meals with age-appropriate utensils and without mess, engaging in physical games with others, using specific tools in class such as rulers and scissors, and participating in team exercise activities at school. Not only is ability to perform these actions impaired, but also marked slowness in execution is common. Handwriting competence is frequently affected, consequently affecting legibility and/or speed of written output and affecting academic achievement (the impact is distinguished from specific learning difficulty by the emphasis on the motoric component of written output skills). In adults, everyday skills in education and work, especially those in which speed and accuracy are required, are affected by coordination problems.
+
+Criterion C states that the onset of symptoms of developmental coordination disorder must be in the early developmental period. However, developmental coordination disorder is typically not diagnosed before age 5 years because there is considerable variation in the age at acquisition of many motor skills or a lack of stability of measurement in early childhood (e.g., some children catch up) or because other causes of motor delay may not have fully manifested.
+
+Criterion D specifies that the diagnosis of developmental coordination disorder is made if the coordination difficulties are not better explained by visual impairment or attributable to a neurological condition. Thus, visual function examination and neurological examination must be included in the diagnostic evaluation. If intellectual disability (intellectual developmental disorder) is present, the motor difficulties are in excess of those expected for the mental age; however, no IQ cut-off or discrepancy criterion is specified.
+
+Developmental coordination disorder does not have discrete subtypes; however, individuals may be impaired predominantly in gross motor skills or in fine motor skills, including handwriting skills.
+
+Other terms used to describe developmental coordination disorder include childhood dyspraxia, specific developmental disorder of motor function, and clumsy child syndrome.
+
+## Associated Features Supporting Diagnosis
+
+Some children with developmental coordination disorder show additional (usually suppressed) motor activity, such as choreiform movements of unsupported limbs or mirror movements. These "overflow" movements are referred to as neurodevelopmental immaturities or neurological soft signs rather than neurological abnormalities. In both current literature and clinical practice, their role in diagnosis is still unclear, requiring further evaluation.
+
+## Prevalence
+
+The prevalence of developmental coordination disorder in children ages 5-11 years is 5%- 6% (in children age 7 years, 1.8% are diagnosed with severe developmental coordination disorder and 3% with probable developmental coordination disorder). Males are more often affected than females, with a maleifemale ratio between 2:1 and 7:1.
+
+## Development and Course
+
+The course of developmental coordination disorder is variable but stable at least to 1 year follow-up. Although there may be improvement in the longer term, problems with coordinated movements continue through adolescence in an estimated 50%-70% of children. 
+
+Onset is in early childhood. Delayed motor milestones may be the first signs, or the disorder is first recognized when the child attempts tasks such as holding a knife and fork, buttoning clothes, or playing ball games. In middle childhood, there are difficulties with motor aspects of assembling puzzles, building models, playing ball, and handwriting, as well as with organizing belongings, when motor sequencing and coordination are required. In early adulthood, there is continuing difficulty in learning new tasks involving complex/automatic motor skills, including driving and using tools. Inability to take notes and handwrite quickly may affect performance in the workplace. Co-occurrence with other disorders (see the section "Comorbidity" for this disorder) has an additional impact on presentation, course, and outcome.
+
+## Risk and Prognostic Factors
+
+Environmental. Developmental coordination disorder is more common following prenatal exposure to alcohol and in preterm and low-birth-weight children.
+
+Genetic and physiological. Impairments in underlying neurodevelopmental processes— particularly in visual-motor skills, both in visual-motor perception and spatial mentalizing— have been found and affect the ability to make rapid motoric adjustments as the complexity of the required movements increases. Cerebellar dysfunction has been proposed, but the neural basis of developmental coordination disorder remains unclear. Because of the co-occurrence of developmental coordination disorder with attention-deficit/hyperactivity disorder (ADHD), specific learning disabilities, and autism spectrum disorder, shared genetic effect has been proposed. However, consistent co-occurrence in twins appears only in severe cases.
+
+Course modifiers. Individuals with ADHD and with developmental coordination disorder demonstrate more impairment than individuals with ADHD without developmental coordination disorder.
+
+## Culture-Related Diagnostic issues
+
+Developmental coordination disorder occurs across cultures, races, and socioeconomic conditions. By definition, "activities of daily living" implies cultural differences necessitating consideration of the context in which the individual child is living as well as whether he or she has had appropriate opportunities to learn and practice such activities.
+
+## Functional Consequences of 
+
+## Developmental Coordination Disorder
+
+Developmental coordination disorder leads to impaired functional performance in activities of daily living (Criterion B), and the impairment is increased with co-occurring conditions. Consequences of developmental coordination disorder include reduced participation in team play and sports; poor self-esteem and sense of self-worth; emotional or behavior problems; impaired academic achievement; poor physical fitness; and reduced physical activity and obesity.
+
+## Differential Diagnosis
+
+Motor impairments due to another medical condition. Problems in coordination may be associated with visual function impairment and specific neurological disorders (e.g., cerebral palsy, progressive lesions of the cerebellum, neuromuscular disorders). In such cases, there are additional findings on neurological examination.
+
+Intellectual disability (intellectual developmental disorder). If intellectual disability is present, motor competences may be impaired in accordance with the intellectual disabil-ity. However, if the motor difficulties are in excess of what could be accounted for by the intellectual disability, and criteria for developmental coordination disorder are met, developmental coordination disorder can be diagnosed as well.
+
+Attention-deficit/hyperactivity disorder. Individuals with ADHD may fall, bump into objects, or knock things over. Careful observation across different contexts is required to ascertain if lack of motor competence is attributable to distractibility and impulsiveness rather than to developmental coordination disorder. If criteria for both ADHD and developmental coordination disorder are met, both diagnoses can be given.
+
+Autism spectrum disorder. Individuals with autism spectrum disorder may be uninterested in participating in tasks requiring complex coordination skills, such as ball sports, which will affect test performance and function but not reflect core motor competence. Cooccurrence of developmental coordination disorder and autism spectrum disorder is common. If criteria for both disorders are met, both diagnoses can be given.
+
+Joint hypermobility syndrome. Individuals with syndromes causing hyperextensible joints (found on physical examination; often with a complaint of pain) may present with symptoms similar to those of developmental coordination disorder.
+
+## Comorbidity
+
+Disorders that commonly co-occur with developmental coordination disorder include speech and language disorder; specific learning disorder (especially reading and writing); problems of inattention, including ADHD (the most frequent coexisting condition, with about 50% co-occurrence); autism spectrum disorder; disruptive and emotional behavior problems; and joint hypermobility syndrome. Different clusters of co-occurrence may be present (e.g., a cluster with severe reading disorders, fine motor problems, and handwriting problems; another cluster with impaired movement control and motor planning). Presence of other disorders does not exclude developmental coordination disorder but may make testing more difficult and may independently interfere with the execution of activities of daily living, thus requiring examiner judgment in ascribing impairment to motor skills.
+
+## Stereotypic movement disorder <--@DIAGNOSIS-->
+
+### Diagnostic Criteria 307.3 (F98.4)
+
+A. Repetitive, seemingly driven, and apparently purposeless motor behavior (e.g., hand shaking or waving, body rocking, head banging, self-biting, hitting own body).
+
+B. The repetitive motor behavior interferes with social, academic, or other activities and may result in self-injury.
+
+C. Onset is in the early developmental period.
+
+D. The repetitive motor behavior is not attributable to the physiological effects of a substance or neurological condition and is not better explained by another neurodevel- opmental or mental disorder (e.g., trichotillomania [hair-pulling disorder], obsessive- compulsive disorder).
+
+## Specify if:
+
+With self-injurious behavior (or behavior that would result in an injury if preventive measures were not used)
+
+Without self-injurious behavior
+
+## Specify if:
+
+Associated with a known medical or genetic condition, neurodevelopmental disorder, or environmental factor (e.g., Lesch-Nyhan syndrome, intellectual disability [intellectual developmental disorder], intrauterine alcohol exposure)
+
+Coding note: Use additional code to identify the associated medical or genetic condition, or neurodevelopmental disorder.
+
+## Specify current severity:
+
+Mild: Symptoms are easily suppressed by sensory stimulus or distraction.
+
+Moderate: Symptoms require explicit protective measures and behavioral modification. 
+
+Severe: Continuous monitoring and protective measures are required to prevent serious injury.
+
+## Recording Procedures
+
+For stereotypic movement disorder that is associated with a known medical or genetic condition, neurodevelopmental disorder, or environmental factor, record stereotypic movement disorder associated with (name of condition, disorder, or factor) (e.g., stereotypic movement disorder associated with Lesch-Nyhan syndrome).
+
+## Specifiers
+
+The severity of non-self-injurious stereotypic movements ranges from mild presentations that are easily suppressed by a sensory stimulus or distraction to continuous movements that markedly interfere with all activities of daily living. Self-injurious behaviors range in severity along various dimensions, including the frequency, impact on adaptive functioning, and severity of bodily injury (from mild bruising or erythema from hitting hand against body, to lacerations or amputation of digits, to retinal detachment from head banging).
+
+## Diagnostic Features
+
+The essential feature of stereotypic movement disorder is repetitive, seemingly driven, and apparently purposeless motor behavior (Criterion A). These behaviors are often rhythmical movements of the head, hands, or body without obvious adaptive function. 
+
+The movements may or may not respond to efforts to stop them. Among typically developing children, the repetitive movements may be stopped when attention is directed to them or when the child is distracted from performing them. Among children with neurodevelopmental disorders, the behaviors are typically less responsive to such efforts. In other cases, the individual demonstrates self-restraining behaviors (e.g., sitting on hands, wrapping arms in clothing, finding a protective device).
+
+The repertoire of behaviors is variable; each individual presents with his or her own individually patterned, "signature" behavior. Examples of non-self-injurious stereotypic movements include, but are not limited to, body rocking, bilateral flapping or rotating hand movements, flicking or fluttering fingers in front of the face, arm waving or flapping, and head nodding. Stereotyped self-injurious behaviors include, but are not limited to, repetitive head banging, face slapping, eye poking, and biting of hands, lips, or other body parts. Eye poking is particularly concerning; it occurs more frequently among children with visual impairment. Multiple movements may be combined (e.g., cocking the head, rocking the torso, waving a small string repetitively in front of the face).
+
+Stereotypic movements may occur many times during a day, lasting a few seconds to several minutes or longer. Frequency can vary from many occurrences in a single day to several weeks elapsing between episodes. The behaviors vary in context, occurring when the individual is engrossed in other activities, when excited, stressed, fatigued, or bored. 
+
+Criterion A requires that the movements be "apparently" purposeless. However, some functions may be served by the movements. For example, stereotypic movements might reduce anxiety in response to external stressors.
+
+Criterion B states that the stereotypic movements interfere with social, academic, or other activities and, in some children, may result in self-injury (or would if protective measures were not used). If self-injury is present, it should be coded using the specifier. Onsetof stereotypic movements is in the early developmental period (Criterion C). Criterion D states that the repetitive, stereotyped behavior in stereotypic movement disorder is not attributable to the^physiological effects of a substance or neurological condition and is not better explained by another neurodevelopmental or mental disorder. The presence of stereotypic movements may indicate an undetected neurodevelopmental problem, especially in children ages 1-3 years.
+
+## Prevalence
+
+Simple stereotypic movements (e.g., rocking) are common in young typically developing children. Complex stereotypic movements are much less common (occurring in approximately 3%-4%). Between 4% and 16°/« of individuals v̂ ith intellectual disability (intellectual developmental disorder) engage in stereotypy and self-injury. The risk is greater in individuals with severe intellectual disability. Among individuals with intellectual disability living in residential facilities, 10%-15% may have stereotypic movement disorder with self-injury.
+
+## Development and Course
+
+Stereotypic movements typically begin within the first 3 years of life. Simple stereotypic movements are common in infancy and may be involved in acquisition of motor mastery. In children who develop complex motor stereotypies, approximately 80% exhibit symptoms before 24 months of age, 12% between 24 and 35 months, and 8% at 36 months or older. In most typically developing children, these movements resolve over time or can be suppressed. Onset of complex motor stereotypies may be in infancy or later in the developmental period. Among individuals with intellectual disability, the stereotyped, self-injurious behaviors may persist for years, even though the typography or pattern of self-injury may change.
+
+## Risk and Prognostic Factors
+
+Environmental. Social isolation is a risk factor for self-stimulation that may progress to stereotypic movements with repetitive self-injury. Environmental stress may also trigger stereotypic behavior. Fear may alter physiological state, resulting in increased frequency of stereotypic behaviors.
+
+Genetic and physiological. Lower cognitive functioning is linked to greater risk for stereotypic behaviors and poorer response to interventions. Stereotypic movements are more frequent among individuals with moderate-to-severe/profound intellectual disability, who by virtue of a particular syndrome (e.g., Rett syndrome) or environmental factor (e.g., an environment with relatively insufficient stimulation) seem to be at higher risk for stereotypies. Repetitive self-injurious behavior may be a behavioral phenotype in neurogenetic syndromes. For example, in Lesch-Nyhan syndrome, there are both stereotypic dystonie movements and selfmutilation of fingers, lip biting, and other forms of self-injury unless the individual is restrained, and in Rett syndrome and Cornelia de Lange syndrome, self-injury may result from the hand-to-mouth stereotypies. Stereotypic behaviors may result from a painful medical condition (e.g., middle ear infection, dental problems, gastroesophageal reflux).
+
+## Culture-Related Diagnostic Issues
+
+Stereotypic movement disorder, with or without self-injury, occurs in all races and cultures. 
+
+Cultural attitudes toward unusual behaviors may result in delayed diagnosis. Overall cultural tolerance and attitudes toward stereotypic movement vary and must be considered.
+
+## Differential Diagnosis
+
+Normal development. Simple stereotypic movements are common in infancy and early childhood. Rocking may occur in the transition from sleep to awake, a behavior that usually resolves with age. Complex stereotypies are less common in typically developing children and can usually be suppressed by distraction or sensory stimulation. The individual's daily routine is rarely affected, and the movements generally do not cause the child distress. The diagnosis would not be appropriate in these circumstances.
+
+Autism spectrum disorder. Stereotypic movements may be a presenting symptom of autism spectrum disorder and should be considered when repetitive movements and behaviors are being evaluated. Deficits of social communication and reciprocity manifesting in autism spectrum disorder are generally absent in stereotypic movement disorder, and thus social interaction, social communication, and rigid repetitive behaviors and interests are distinguishing features. When autism spectrum disorder is present, stereotypic movement disorder is diagnosed only when there is self-injury or when the stereotypic behaviors are sufficiently severe to become a focus of treatment.
+
+Tic disorders. Typically, stereotypies have an earlier age at onset (before 3 years) than do tics, which have a mean age at onset of 5-7 years. They are consistent and fixed in their pattern or topography compared with tics, which are variable in their presentation. Stereotypies may involve arms, hands, or the entire body, while tics commonly involve eyes, face, head, and shoulders. Stereotypies are more fixed, rhythmic, and prolonged in duration than tics, which, generally, are brief, rapid, random, and fluctuating. Tics and stereotypic movements are both reduced by distraction.
+
+Obsessive-compulsive and related disorders. Stereotypic movement disorder is distinguished from obsessive-compulsive disorder (OCD) by the absence of obsessions, as well as by the nature of the repetitive behaviors. In OCD the individual feels driven to perform repetitive behaviors in response to an obsession or according to rules that must be applied rigidly, whereas in stereotypic movement disorder the behaviors are seemingly driven but apparently purposeless. Trichotillomania (hair-pulling disorder) and excoriation (skin-picking) disorder are characterized by body-focused repetitive behaviors (i.e., hair pulling and skin picking) that may be seemingly driven but that are not apparently purposeless, and that may not be patterned or rhythmical. Furthermore, onset in trichotillomania and excoriation disorder is not typically in the early developmental period, but rather around puberty or later.
+
+Other neurological and medical conditions. The diagnosis of stereotypic movements requires the exclusion of habits, mannerisms, paroxysmal dyskinesias, and benign hereditary chorea. A neurological history and examination are required to assess features suggestive of other disorders, such as myoclonus, dystonia, tics, and chorea. Involuntary movements associated with a neurological condition may be distinguished by their signs and symptoms. For example, repetitive, stereotypic movements in tardive dyskinesia can be distinguished by a history of chronic neuroleptic use and characteristic oral or facial dyskinesia or irregular trunk or limb movements. These types of movements do not result in self-injury. A diagnosis of stereotypic movement disorder is not appropriate for repetitive skin picking or scratching associated with amphetamine intoxication or abuse (e.g., patients are diagnosed with substance/medication-induced obsessive-compulsive and related disorder) and repetitive choreoathetoid movements associated with other neurological disorders.
+
+## Comorbidity
+
+Stereotypic movement disorder may occur as a primary diagnosis or secondary to another disorder. For example, stereotypies are a common manifestation of a variety of neuro- genetic disorders, such as Lesch-Nyhan syndrome, Rett syndrome, fragile X syndrome, 
+
+Cornelia de Lange syndrome, and Smith-Magenis syndrome. When stereotypic movement disorder co-occurs with another medical condition, both should be coded.
+
+## Tic Disorders 
+
+## Diagnostic Criteria
+
+Note: A tic is a sudden, rapid, recurrent, nonrhythmic motor movement or vocalization.
+
+### Tourette’s disorder <--@DIAGNOSIS--> 307.23 (F95.2)
+
+A. Both multiple motor and one or more vocal tics have been present at some time during the illness, although not necessarily concurrently.
+
+B. The tics may wax and wane in frequency but have persisted for more than 1 year since first tic onset.
+
+C. Onset is before age 18 years.
+
+D. The disturbance is not attributable to the physiological effects of a substance (e.g., cocaine) or another medical condition (e.g., Huntington’s disease, postviral encephalitis).
+
+### Persistent (chronic) motor or vocal tic disorder <--@DIAGNOSIS--> 307.22 (F95.1 )
+
+A. Single or multiple motor or vocal tics have been present during the illness, but not both motor and vocal.
+
+B. The tics may wax and wane in frequency but have persisted for more than 1 year since first tic onset.
+
+C. Onset is before age 18 years.
+
+D. The disturbance is not attributable to the physiological effects of a substance (e.g., cocaine) or another medical condition (e.g., Huntington’s disease, postviral encephalitis).
+
+E. Criteria have never been met for Tourette’s disorder.
+
+## Specify if:
+
+With motor tics only 
+
+With vocal tics only
+
+### Provisional tic disorder <--@DIAGNOSIS--> 307.21 (F95.0)
+
+A. Single or multiple motor and/or vocal tics.
+
+B. The tics have been present for less than 1 year since first tic onset.
+
+C. Onset is before age 18 years.
+
+D. The disturbance is not attributable to the physiological effects of a substance (e.g., cocaine) or another medical condition (e.g., Huntington’s disease, postviral encephalitis).
+
+E. Criteria have never been met for Tourette’s disorder or persistent (chronic) motor or vocal tic disorder.
+
+## Specifiers
+
+The "motor tics only" or "vocal tics only" specifier is only required for persistent (chronic) motor or vocal tic disorder.
+
+## Diagnostic Features
+
+Tic disorders comprise four diagnostic categories: Tourette's disorder, persistent (chronic) motor or vocal tic disorder, provisional tic disorder, and the other specified and unspecified tic disorders. Diagnosis for any tic disorder is based on the presence of motor and/or vocal tics (Criterion A), duration of tic symptoms (Criterion B), age at onset (Criterion C), and absence of any known cause such as another medical condition or substance use (Criterion D). 
+
+The tic disorders are hierarchical in order (i.e., Tourette's disorder, followed by persistent [chronic] motor or vocal tic disorder, followed by provisional tic disorder, followed by theother specified and unspecified tic disorders), such that once a tic disorder at one level of the hierarchy is diagnosed, a lower hierarchy diagnosis cannot be made (Criterion E).
+
+Tics are sudden, rapid, recurrent, nonrhythmic motor movements or vocalizations. An individual may have various tic symptoms over time, but at any point in time, the tic repertoire recurs in a characteristic fashion. Although tics can include almost any muscle group or vocalization, certain tic symptoms, such as eye blinking or throat clearing, are common across patient populations. Tics are generally experienced as involuntary but can be voluntarily suppressed for varying lengths of time.
+
+Tics can be either simple or complex. Simple motor tics are of short duration (i.e., milliseconds) and can include eye blinking, shoulder shrugging, and extension of the extremities. Simple vocal tics include throat clearing, sniffing, and grunting often caused by contraction of the diaphragm or muscles of the oropharynx. Complex motor tics are of longer duration (i.e., seconds) and often include a combination of simple tics such as simultaneous head turning and shoulder shrugging. Complex tics can appear purposeful, such as a tic-like sexual or obscene gesture (copropraxia) or a tic-like imitation of someone else's movements (echopraxia). Similarly, complex vocal tics include repeating one's own sounds or words {palilalia), repeating the last-heard word or phrase (echolalia), or uttering socially unacceptable words, including obscenities, or ethnic, racial, or religious slurs (coprolalia). 
+
+Importantly, coprolalia is an abrupt, sharp bark or grunt utterance and lacks the prosody of similar inappropriate speech observed in human interactions.
+
+## The presence of motor and/or vocal tics varies across the four tic disorders (Criterion 
+
+A). For Tourette's disorder, both motor and vocal tics must be present, whereas for persistent (chronic) motor or vocal tic disorder, only motor or only vocal tics are present. For provisional tic disorder, motor and/or vocal tics may be present. For other specified or unspecified tic disorders, the movement disorder symptoms are best characterized as tics but are atypical in presentation or age at onset, or have a known etiology.
+
+The 1-year minimum duration criterion (Criterion B) assures that individuals diagnosed with either Tourette's disorder or persistent (chronic) motor or vocal tic disorder have had persistent symptoms. Tics wax and wane in severity, and some individuals may have tic-free periods of weeks to months; however, an individual who has had tic symptoms of greater than 1 year's duration since first tic onset would be considered to have persistent symptoms regardless of duration of tic-free periods. For an individual with motor and/or vocal tics of less than 1 year since first tic onset, a provisional tic disorder diagnosis can be considered. There is no duration specification for other specified and unspecified tic disorders. The onset of tics must occur prior to age 18 years (Criterion C). Tic disorders typically begin in the prepubertal period, with an average age at onset between 4 and 6 years, and with the incidence of new-onset tic disorders decreasing in the teen years. New onset of tic symptoms in adulthood is exceedingly rare and is often associated with exposures to drugs (e.g., excessive cocaine use) or is a result of a central nervous system insult 
+
+(e.g., postviral encephalitis). Although tic onset is uncommon in teenagers and adults, it is not uncommon for adolescents and adults to present for an initial diagnostic assessment and, when carefully evaluated, provide a history of milder symptoms dating back to childhood. New-onset abnormal movements suggestive of tics outside of the usual age range should result in evaluation for other movement disorders or for specific etiologies.
+
+Tic symptoms cannot be attributable to the physiological effects of a substance or another medical condition (Criterion D). When there is strong evidence from the history, physical examination, and/or laboratory results to suggest a plausible, proximal, and probable cause for a tic disorder, a diagnosis of other specified tic disorder should be used.
+
+Having previously met diagnostic criteria for Tourette's disorder negates a possible diagnosis of persistent (chronic) motor or vocal tic disorder (Criterion E). Similarly, a previous diagnosis of persistent (chronic) motor or vocal tic disorder negates a diagnosis of provisional tic disorder or other specified or unspecified tic disorder (Criterion E).
+
+## Prevalence
+
+Tics are common in childhood but transient in most cases. The estimated prevalence of 
+
+Tourette's disorder ranges from 3 to 8 per 1,000 in school-age children. Males are more commonly affected than females, with the ratio varying from 2:1 to 4:1. A national survey in the United States estimated 3 per 1,000 for the prevalence of clinically identified cases. 
+
+## The frequency of identified cases was lower among African Americans and Hispanic 
+
+Americans, which may be related to differences in access to care.
+
+## Development and Course
+
+Onset of tics is typically between ages 4 and 6 years. Peak severity occurs between ages 10 and 12 years, with a decline in severity during adolescence. Many adults with tic disorders experience diminished symptoms. A small percentage of individuals will have persistently severe or worsening symptoms in adulthood.
+
+Tic symptoms manifest similarly in all age groups and across the lifespan. Tics wax and wane in severity and change in affected muscle groups and vocalizations over time. As children get older, they begin to report their tics being associated with a premonitory urge—a somatic sensation that precedes the tic—and a feeling of tension reduction following the expression of the tic. Tics associated with a premonitory urge may be experienced as not completely ''involuntary" in that the urge and the tic can be resisted. An individual may also feel the need to perform a tic in a specific way or repeat it until he or she achieves the feeling that the tic has been done "'just right."
+
+The vulnerability toward developing co-occurring conditions changes as individuals pass through the age of risk for various co-occurring conditions. For example, prepubertal children with tic disorders are more likely to experience attention-deficit/hyperactivity disorder (ADHD), obsessive-compulsive disorder (OCD), and separation anxiety disorder than are teenagers and adults, who are more likely to experience the new onset of major depressive disorder, substance use disorder, or bipolar disorder.
+
+## Risk and Prognostic Factors
+
+Temperamental. Tics are worsened by anxiety, excitement, and exhaustion and are better during calm, focused activities. Individuals may have fewer tics when engaged in schoolwork or tasks at work than when relaxing at home after school or in the evening. Stressful/exciting events (e.g., taking a test, participating in exciting activities) often make tics worse.
+
+Environmental. Observing a gesture or sound in another person may result in an individual with a tic disorder making a similar gesture or sound, which may be incorrectly perceived by others as purposeful. This can be a particular problem when the individual is interacting with authority figures (e.g., teachers, supervisors, police).
+
+Genetic and physiological. Genetic and environmental factors influence tic symptom expression and severity. Important risk alleles for Tourette's disorder and rare genetic variants in families with tic disorders have been identified. Obstetrical complications, older paternal age, lower birth weight, and maternal smoking during pregnancy are associated with worse tic severity.
+
+## Culture-Related Diagnostic Issues
+
+Tic disorders do not appear to vary in clinical characteristics, course, or etiology by race, ethnicity, and culture. However, race, ethnicity, and culture may impact how tic disorders are perceived and managed in the family and community, as well as influencing patterns of help seeking, and choices of treatment.
+
+## Gender-Related Diagnostic Issues
+
+Males are more commonly affected than females, but there are no gender differences in the kinds of tics, age at onset, or course. Women with persistent tic disorders may be more likely to experience anxiety and depression.
+
+## Functional Consequences of Tic Disorders
+
+Many individuals with mild to moderate tic severity experience no distress or impairment in functioning and may even be unaware of their tics. Individuals with more severe symptoms generally have more impairment in daily living, but even individuals with moderate or even severe tic disorders may function well. The presence of a co-occurring condition, such as ADHD or OCD, can have greater impact on functioning. Less commonly, tics disrupt functioning in daily activities and result in social isolation, interpersonal conflict, peer victimization, inability to work or to go to school, and lower quality of life. The individual also may experience substantial psychological distress. Rare complications of Tou- rette's disorder include physical injury, such as eye injury (from hitting oneself in the face), and orthopedic and neurological injury (e.g., disc disease related to forceful head and neck movements).
+
+## Differential Diagnosis
+
+Abnormal movements that may accompany other medical conditions and stereotypic movement disorder. Motor stereotypies are defined as involuntary rhythmic, repetitive, predictable movements that appear purposeful but serve no obvious adaptive function or purpose and stop with distraction. Examples include repetitive hand waving/rotating, arm flapping, and finger wiggling. Motor stereotypies can be differentiated from tics based on the former's earlier age at onset (younger than 3 years), prolonged duration (seconds to minutes), constant repetitive fixed form and location, exacerbation when engrossed in activities, lack of a premonitory urge, and cessation with distraction (e.g., name called or touched). Chorea represents rapid, random, continual, abrupt, irregular, unpredictable, nonstereotyped actions that are usually bilateral and affect all parts of the body (i.e., face, trunk, and limbs). The timing, direction, and distribution of movements vary from moment to moment, and movements usually worsen during attempted voluntary action. Dystonia is the simultaneous sustained contracture of both agonist and antagonist muscles, resulting in a distorted posture or movement of parts of the body. Dystonie postures are often triggered by attempts at voluntary movements and are not seen during sleep.
+
+Substance-induced and paroxysmal dyskinesias. Paroxysmal dyskinesias usually occur as dystonie or choreoathetoid movements that are precipitated by voluntary movement or exertion and less commonly arise from normal background activity.
+
+Myoclonus. Myoclonus is characterized by a sudden unidirectional movement that is often nonrhythmic. It may be worsened by movement and occur during sleep. Myoclonus is differentiated from tics by its rapidity, lack of suppressibility, and absence of a premonitory urge.
+
+Obsessive-compulsive and related disorders. Differentiating obsessive-compulsive behaviors from tics may be difficult. Clues favoring an obsessive-compulsive behavior include a cognitive-based drive (e.g., fear of contamination) and the need to perform the action in a particular fashion a certain number of times, equally on both sides of the body, or until a "just right" feeling is achieved. Impulse-control problems and other repetitive behaviors, including persistent hair pulling, skin picking, and nail biting, appear more goal directed and complex than tics.
+
+## Comorbidity
+
+Many medical and psychiatric conditions have been described as co-occurring with tic disorders, with ADHD and obsessive-compulsive and related disorders being particularly common. The obsessive-compulsive symptoms observed in tic disorder tend to be characterized by more aggressive symmetry and order symptoms and poorer response to pharmacotherapy with selective serotonin reuptake inhibitors. Children with ADHD may demonstrate disruptive behavior, social immaturity, and learning difficulties that may interfere with academic progress and interpersonal relationships and lead to greater impairment than that caused by a tic disorder. Individuals with tic disorders can also have other movement disorders and other mental disorders, such as depressive, bipolar, or substance use disorders.
+
+## Other specified tic disorder <--@DIAGNOSIS-->
+
+307.20 (F95.8)
+
+This category applies to presentations in which symptoms characteristic of a tic disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for a tic disorder or any of the disorders in the neurodevelopmental disorders diagnostic class. The other specified tic disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for a tic disorder or any specific neurodevelopmental disorder. This is done by recording “other specified tic disorder” followed by the specific reason (e.g., “with onset after age 18 years”).
+
+## Unspecified tic disorder <--@DIAGNOSIS-->
+
+307.20 (F95.9)
+
+This category applies to presentations in which symptoms characteristic of a tic disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for a tic disorder or for any of the disorders in the neurodevelopmental disorders diagnostic class. The unspecified tic disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for a tic disorder or for a specific neurodevelopmental disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis.
+
+## Other Neurodevelopmental Disorders <--@GROUP-->
+
+## Other specified neurodevelopmental disorder <--@DIAGNOSIS-->
+
+315.8 (F88)
+
+This category applies to presentations in which symptoms characteristic of a neurodevelopmental disorder that cause impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the neurodevelopmental disorders diagnostic class. The other specified neurodevelopmental disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific neurodevelopmental disorder. This is done by recording “other specified neurodevelopmental disorder” followed by the specific reason (e.g., “neurodevelopmental disorder associated with prenatal alcohol exposure”).
+
+## An example of a presentation that can be specified using the “other specified” designation is the following:
+
+Neurodevelopmental disorder associated with prenatal alcohol exposure: Neurodevelopmental disorder associated with prenatal alcohol exposure is characterized by a range of developmental disabilities following exposure to alcohol in utero.
+
+## Unspecified neurodevelopmental disorder <--@DIAGNOSIS-->
+
+315.9 (F89)
+
+This category applies to presentations in which symptoms characteristic of a neurodevelopmental disorder that cause impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the neurodevelopmental disorders diagnostic class. The unspecified neurodevelopmental disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for a specific neurodevelopmental disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis 
+
+(e.g., in emergency room settings).
