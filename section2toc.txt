@@ -1,0 +1,25 @@
+## Diagnostic criteria and codes
+Neurodevelopmental Disorders	{3} 31
+Schizophrenia Spectrum and Other Psychotic Disorders	{3} 87
+Bipolar and Related Disorders	{3} 123
+Depressive Disorders	{3} 155
+Anxiety Disorders	{3} 189
+Obsessive-Compulsive and Related Disorders	{3} 235
+Trauma- and Stressor-Related Disorders	{3} 265
+Dissociative Disorders	{3} 291
+Somatic Symptom and Related Disorders	{3} 309
+Feeding and Eating Disorders	{3} 329
+Elimination Disorders	{3} 355
+Sleep-Wake Disorders	{3} 361
+Sexual Dysfunctions	{3} 423
+Gender Dysphoria	{3} 451
+Disruptive, Impulse-Control, and Conduct Disorders	{3} 461
+Substance-Related and Addictive Disorders	{3} 481
+Neurocognitive Disorders	{3} 591
+Personality Disorders	{3} 645
+Paraphilic Disorders	{3} 685
+Other Mental Disorders	{3} 707
+Medication-Induced Movement Disorders and 
+Other Adverse Effects of Medication	{3} 709
+Other Conditions That May Be a Focus of Clinical Attention	{3} 715
+

@@ -23,10 +23,19 @@ cleanNewlines <- function(CHUNK){
     gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
 }
 
-cleanNewlinesDot <- function(CHUNK){
-    ## added dot after CAPS and anychar befoe parens
-    gsub("(?s)\n(?!.\\(|[A-Z]\\.|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
+cleanText <- function(CHUNK) {
+    ## gathers some text cleaning functions
+    TEMP <- CHUNK
+    TEMP <- gsub("­\n", "", TEMP) ## remove - at end of line
+    TEMP <- spellCorrect(spellList, TEMP)
+    TEMP <- cleanNewlines(TEMP)
+    TEMP <- gsub("\n", "\n\n", TEMP) ## double newline
+    TEMP <- gsub("•", "\n•", TEMP)
+    TEMP <- gsub("\\.{2,}", "\t", TEMP)
+    TEMP <- gsub("((?<=\\.)[A-Z])", " \\1", TEMP, perl=T)
+    return(TEMP)
 }
+
 
 ## variables
 
@@ -39,6 +48,8 @@ spellList <- list(
     'iVlaricers' = "Markers",
     'lUloderate' = "Moderate",
     'Cuiture' = "Culture",
+    'Fieid' = "Field",
+    'Triais' = "Trials",
     'comotbid' = "comorbid",
     ' ̂' = "",
     '(-){2,}' = "",
@@ -105,34 +116,36 @@ preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", " American Psychi
 preface <- gsub("•", "\n•", preface)
 writeLines(preface, "preface.txt")
 
+## Section 1 (Introduction)
 section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
 section1 <- paste(section1, collapse = "")
-section1 <- gsub("ΤΙΊΘ C rG âtion  ", " The creation ", section1)
+section1 <- gsub("ΤΙΊΘ C rG âtion  ", "\n The creation ", section1)
+section1 <- cleanText(section1)
+section1 <- makeHeaders(section1)
+writeLines(section1, "section1.txt")
 
-cleanText <- function(CHUNK) {
-    TEMP <- CHUNK
-    TEMP <- gsub("­\n", "", TEMP) ## remove - at end of line
-    TEMP <- spellCorrect(spellList, TEMP)
-    TEMP <- cleanNewlinesDot(TEMP)
-    TEMP <- gsub("\n", "\n\n", TEMP) ## double newline
-    TEMP <- gsub("•", "\n•", TEMP)
-    TEMP <- gsub("\\.{2,}", "\t", TEMP)
-    TEMP <- gsub("((?<=\\.)[A-Z])", " \\1", TEMP, perl=T)
-    return(TEMP)
-}
-
-test <- cleanText(section1)
-writeLines(test, "section1.txt")
-
-
-
-makeHeaders(test)
-
-writeLines(makeHeaders(test), "section1.txt")
-
-
-
+## TOC
 section2toc <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67) ## "Diagnostic criteria and codes". [TOC]
+
+section2toc <- paste(section2toc, collapse = "") ## collapse to one
+section2toc <- gsub("\\.{2,}", "\t\t\t\t", section2toc)
+section2toc <- gsub("\\.«.*riDiagnostic..", "## Diagnostic criteria and codes", section2toc)
+
+writeLines(section2toc, "section2toc.txt")
+
+
+
+contents <- gsub("Section", "## Section", contents)
+contents <- gsub("Appendix", "## Appendix", contents)
+contents <- gsub("Contents", "## Contents", contents)
+contents <- gsub("[[:blank:]]\n", " ", contents, perl=T, ignore.case=TRUE)
+contents <- gsub("(I{1,})\n", "\\1 ", contents, perl=T)
+contents <- gsub("##", "\n##", contents, perl=T)
+
+
+
+
+
 
 section2preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 68) ## [Preface]
 
