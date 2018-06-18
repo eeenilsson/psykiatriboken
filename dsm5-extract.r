@@ -154,9 +154,9 @@ neurodevelopmentalIntro <- gsub("- ", "", neurodevelopmentalIntro)
 writeLines(neurodevelopmentalIntro, "neurodevelopmentalIntro.txt")
 
 ### Neurodevelopmental main body
-neurodevelopmentalMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 71:80) ## "Neurodevelopmental disorders".
-neurodevelopmentalMain[1] <- gsub("(?s).*(?=\nIntelle)", "", neurodevelopmentalMain[1], perl=T) ## remove redundant text before section starts
-## neurodevelopmentalMain[1] <- gsub("(?s)\n(?!\\(|[A-Z]\\.)", "", neurodevelopmentalMain[1], perl=T) ## remove \n not followed by parens or CAP.
+neurodevelopmentalMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 71:124) ## "Neurodevelopmental disorders".
+neurodevelopmentalMain[1] <- gsub("(?s).*(?=\nIntelle)", "", neurodevelopmentalMain[1], perl=T) ## remove redundant text before section starts and 
+neurodevelopmentalMain <- gsub("^", "## Intellectual Disabilities\n", neurodevelopmentalMain) ## add ## to first line
 
 ## collapse pages
 neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
@@ -173,7 +173,36 @@ neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain)
 ## write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
-gsub("^", "Start", neurodevelopmentalMain)
+## Todo:
+## remove hashes from ## With
+## Remove ## -lists, eg:
+## 315.1 (FBI .2) With impairment in mathematics:
+
+## ## Number sense
+
+## ## Memorization of arithmetic facts 
+
+## ## Accurate or fluent calculation 
+
+## ## Accurate math reasoning
+
+## Text starts here
+
+## Idea: Remove (:\n\n## ) unless line is followed by ..
+
+#### Section headers: (only first occurance)
+## Communication Disorders
+## Autism Spectrum Disorder
+## Intellectual Disabilities
+## 125:128 schizophrenia intro
+## 128 Scizophrenia start of main body
+
+## 31
+## 87+40
+## 71-31
+## 125
+
+## gsub("^", "Start", neurodevelopmentalMain)
 x
 
 
