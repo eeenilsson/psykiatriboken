@@ -546,9 +546,7 @@ Medical conditions commonly associated with autism spectrum disorder should be n
 
 Avoidant-restrictive food intake disorder is a fairly frequent presenting feature of autism spectrum disorder, and extreme and narrow food preferences may persist.
 
-## Attention-Deficit/Hyperactivity 
-
-## Disorder
+## Attention-Deficit/Hyperactivity  Disorder
 
 ## Attention-Deficit/Hyperactivity Disorder
 
@@ -700,17 +698,13 @@ In clinical settings, comorbid disorders are frequent in individuals whose sympt
 
 ADHD in approximately half of children with the combined presentation and about a quarter with the predominantly inattentive presentation. Conduct disorder co-occurs in about a quarter of children or adolescents with the combined presentation, depending on age and setting. Most children and adolescents with disruptive mood dysregulation disorder have symptoms that also meet criteria for ADHD; a lesser percentage of children with ADHD have symptoms that meet criteria for disruptive mood dysregulation disorder. Specific learning disorder commonly co-occurs with ADHD. Anxiety disorders and major depressive disorder occur in a minority of individuals with ADHD but more often than in the general population. Intermittent explosive disorder occurs in a minority of adults with ADHD, but at rates above population levels. Although substance use disorders are relatively more frequent among adults with ADHD in the general population, the disorders are present in only a minority of adults with ADHD. In adults, antisocial and other personality disorders may co-occur with ADHD. Other disorders that may co-occur with ADHD include obsessive-compulsive disorder, tic disorders, and autism spectrum disorder.
 
-## Other Specified Attention-Deficit/ 
-
-## Hyperactivity Disorder
+## Other Specified Attention-Deficit/Hyperactivity Disorder
 
 314.01 (F90.8)
 
 This category applies to presentations in which symptoms characteristic of attention- deficit/hyperactivity disorder that cause clinically significant distress or impairment in social, occupational or other important areas of functioning predominate but do not meet the full criteria for attention-deficit/hyperactivity disorder or any of the disorders in the neuro- developmental disorders diagnostic class. The other specified attention-deficit/hyperactiv- ity disorder category is used in situations in which the clinician chooses to communicatethe specific reason that the presentation does not meet the criteria for attention-deficit/ hyperactivity disorder or any specific neurodevelopmental disorder. This is done by recording “other specified attention-deficit/hyperactivity disorder” followed by the specific reason (e.g., “with insufficient inattention symptoms”).
 
-## Unspecified Attention-Deficit/ 
-
-## Hyperactivity Disorder
+## Unspecified Attention-Deficit/Hyperactivity Disorder
 
 314.01 (F90.9)
 

@@ -55,6 +55,7 @@ spellList <- list(
     'foimdational' = "foundational",
     's e c tio n' = "section",
     'comotbid' = "comorbid",
+    'Risic' = "Risk",
     ' ̂' = "",
     '(-){2,}' = "",
     '(_){2,}' = "",
@@ -175,8 +176,14 @@ neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmental
 neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("## With", "With", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
+neurodevelopmentalMain <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", neurodevelopmentalMain) ## make ##Disorder not be separate header
+neurodevelopmentalMain <-
+    gsub("\\/.\n\n## ", "\\/", neurodevelopmentalMain) ## remove forwardslash
 #### write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
+
+writeLines(test, "neurodevelopmentalMain.txt")
+x
 
 ## TODO ================================
 ## TODO:
