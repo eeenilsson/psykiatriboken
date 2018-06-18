@@ -95,16 +95,42 @@ taskforce <- paste(taskforce, collapse = "") ## collapse to one
 
 ## ICD9-CM (ICD10-CM)
 
+## Preface
 preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 41:44) ## classifications list start on p13
 preface <- gsub("­\n", "", preface) ## remove - at end of line
 preface <- spellCorrect(spellList, preface)
 preface <- cleanNewlinesDot(preface)
 preface <- gsub("\n", "\n\n", preface) ## double newline
-preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", "American Psychiatric", preface)
+preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", " American Psychiatric", preface)
 preface <- gsub("•", "\n•", preface)
 writeLines(preface, "preface.txt")
 
 section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
+section1 <- paste(section1, collapse = "")
+section1 <- gsub("ΤΙΊΘ C rG âtion  ", " The creation ", section1)
+
+cleanText <- function(CHUNK) {
+    TEMP <- CHUNK
+    TEMP <- gsub("­\n", "", TEMP) ## remove - at end of line
+    TEMP <- spellCorrect(spellList, TEMP)
+    TEMP <- cleanNewlinesDot(TEMP)
+    TEMP <- gsub("\n", "\n\n", TEMP) ## double newline
+    TEMP <- gsub("•", "\n•", TEMP)
+    TEMP <- gsub("\\.{2,}", "\t", TEMP)
+    TEMP <- gsub("((?<=\\.)[A-Z])", " \\1", TEMP, perl=T)
+    return(TEMP)
+}
+
+test <- cleanText(section1)
+writeLines(test, "section1.txt")
+
+
+
+makeHeaders(test)
+
+writeLines(makeHeaders(test), "section1.txt")
+
+
 
 section2toc <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67) ## "Diagnostic criteria and codes". [TOC]
 
