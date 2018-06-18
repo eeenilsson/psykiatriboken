@@ -180,13 +180,11 @@ neurodevelopmentalMain <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", neurodevel
 neurodevelopmentalMain <- gsub("(### )([A-Z]\\.)", "\\2", neurodevelopmentalMain) ## extra cleaning 
 neurodevelopmentalMain <-
     gsub("\\/.\n\n## ", "\\/", neurodevelopmentalMain) ## remove forwardslash
+neurodevelopmentalMain <-
+    gsub("[[:blank:]]{2,}", " ", neurodevelopmentalMain) ## remove repeated spaces
+
 #### write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
-
-89*89
-
-writeLines(test, "neurodevelopmentalMain.txt")
-x
 
 ## Header ref in bookdown {#background}
 ## <-- @CHAPTER --->
@@ -202,29 +200,58 @@ groupList <- c(
     "Other Neurodevelopmental Disorders"
 )
 
-assignTag <- function(CHUNK, LIST, type = "<--@GROUP-->"){
-    ## Assign label 'type' to strings in CHUNK matching LIST
+assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE){
+    ## Assign label 'tag' to strings in CHUNK matching LIST
     TEMP <- CHUNK
     for (i in 1:length(LIST)){
         searchFor <- paste("## ", LIST[i]) 
         TEMP <- sub(paste("## ", LIST[i], sep = ""),
-                     paste("## ", LIST[i], " ", type, sep = ""), TEMP)
+                    paste("## ", LIST[i], " ", tag, sep = ""), TEMP,
+                    ignore.case = ignore.case)
     }
     return(TEMP)
 }
 
-test <- neurodevelopmentalMain
-test <- assignTag(test, groupList)
+## test
+test <- substr(neurodevelopmentalMain, 1, 25000)
+
+## assign group tags
+test <- assignTag(test, groupList, tag = "<--@GROUP-->")
+writeLines(test, "neurodevelopmentalMain.txt")
+
+## assign diagnosis tags
+icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
+listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5text) ## escape regex characters
+test <- assignTag(test, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE)
 writeLines(test, "neurodevelopmentalMain.txt")
 
 
-icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
-listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5text) ## escape regex characters
+### testing below
 
-assignTag(test, icd10cmDsm5$dsm5text, "<--@DIAGNOSIS@-->")
+sub(paste("## ", listDiagnoses[517], sep = ""),
+    paste("## ", listDiagnoses[517], " ", "@hello", sep = ""), "## Unspecified Intellectual Disability  (Intellectual Developmental Disorder)",
+    ignore.case = TRUE)
 
-this <- "[Alzheimer's disease +] Major neurocognitive disorder due to Alzheimer's disease, Probable, Without behavioral disturbance"
 
+a <- "## Unspecified Intellectual Disability  (Intellectual Developmental Disorder)"
+a <- "## Unspecified Intellectual Disability (Intellectual Developmental Disorder)"
+b <- "## Unspecified intellectual disability \\(intellectual developmental disorder\\)"
+
+## b <- "## Unspecified intellectual disability (intellectual developmental disorder)"
+
+a <- "## Unspecified intellectual disability (intellectual developmental disorder)"
+b <- "## Unspecified intellectual disability \\(intellectual developmental disorder\\)"
+
+cat(b)
+
+sub(b, "@hello", a, ignore.case=TRUE) ## should work
+
+sub( "## Unspecified intellectual disability \\(intellectual developmental disorder\\)", "@hello",  "## Unspecified Intellectual Disability (Intellectual Developmental Disorder)", ignore.case=TRUE) ## works
+
+sub("hej", "@hello", "hej", ignore.case=TRUE)
+
+
+listDiagnoses
 
 
 gsub("(/[#-}]/g, '\\$&')")
