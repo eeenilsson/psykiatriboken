@@ -120,7 +120,7 @@ preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", " American Psychi
 preface <- gsub("•", "\n•", preface)
 writeLines(preface, "preface.txt")
 
-## Section 1 (Introduction/basics)
+## Section I (Introduction/basics)
 section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
 section1 <- paste(section1, collapse = "")
 section1 <- gsub("ΤΙΊΘ C rG âtion  ", "\n The creation ", section1)
@@ -128,7 +128,7 @@ section1 <- cleanText(section1)
 section1 <- makeHeaders(section1)
 writeLines(section1, "section1.txt")
 
-## Section 2 Diagnostic criteria
+## Section II Diagnostic criteria
 
 ### TOC
 section2toc <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67) ## "Diagnostic criteria and codes". [TOC]
@@ -144,7 +144,7 @@ section2preface <- cleanText(section2preface)
 section2preface <- makeHeaders(section2preface)
 writeLines(section2preface, "section2preface.txt")
 
-### Neurodevelopmental disorders
+### Neurodevelopmental disorder intro
 neurodevelopmentalIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69:71) ## "Neurodevelopmental disorders". ## Note: remove last part
 neurodevelopmentalIntro <- paste(neurodevelopmentalIntro, collapse = "")
 neurodevelopmentalIntro <- cleanText(neurodevelopmentalIntro)
@@ -157,48 +157,33 @@ writeLines(neurodevelopmentalIntro, "neurodevelopmentalIntro.txt")
 ### Neurodevelopmental main body
 neurodevelopmentalMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 71:124) ## "Neurodevelopmental disorders".
 neurodevelopmentalMain[1] <- gsub("(?s).*(?=\nIntelle)", "", neurodevelopmentalMain[1], perl=T) ## remove redundant text before section starts and 
-neurodevelopmentalMain <- gsub("^", "## Intellectual Disabilities\n", neurodevelopmentalMain) ## add ## to first line
-
-## collapse pages
+neurodevelopmentalMain[1] <- gsub("^\n", "## Intellectual Disabilities\n", neurodevelopmentalMain[1]) ## add ## to first line
+#### clean
 neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
 test <- neurodevelopmentalMain ## extract text object
 makeHeaders(neurodevelopmentalMain) 
 neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
 neurodevelopmentalMain <- makeHeaders(neurodevelopmentalMain)
-
-## chunk specific replacements
-neurodevelopmentalMain <- gsub("(?s)\\.&.*Æu cru", "", neurodevelopmentalMain, perl = T) ## remove table
+#### chunk specific replacements
+neurodevelopmentalMain <- gsub("(?s)\\.&.*Æu cru", "\n\n--TABLE REMOVED--", neurodevelopmentalMain, perl = T) ## remove table
+neurodevelopmentalMain <- gsub("c\\.2.cS.*(I  1 1)", "\n\n--TABLE REMOVED--", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
+#### other replacements
 neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmentalMain, perl = T)
 neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("## With", "With", neurodevelopmentalMain)
-neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic croteria section
-
-## write
+neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
+#### write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
-test <- substr(neurodevelopmentalMain, nchar(neurodevelopmentalMain)-19000, nchar(neurodevelopmentalMain)-16000)
-
-## "\n\nTourette’s Disorder 307.23 (F95.2)\n\nA."
-## gsub("\n\n.*\\)\n\n[A-Z]\\.", "#####hello", test)
-## gsub("\n\n[A-Z].*\\)(?=(\n\n[A-Z]\\.))", "#####hello", test, perl = T)
-
-gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "### \\1", test, perl = T) ## seems to work
-
-
-
-x
+## TODO ================================
 ## TODO:
 ## ## Specify if: should perhaps be made boldface or just remove ## ?
+## Headers
 
-## test improve headers
-makeSubHeaders <-function(x){
-    gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
-}
-
-## Notes on headers
+## Notes on headers =============
 ## A [diagnosis] has diagnostic criteria and is followed by text on the subject.
 ## A [diagnosis] can be matched in the code list, but note that CASE is different, so needs case-insensitive matching
 
@@ -227,6 +212,12 @@ makeSubHeaders <-function(x){
 #### Provisional Tic Disorder 307.21 (F95.0)
 ## Other Neurodevelopmental Disorders
 
+## Notes below ===================
+
+## test substring
+## test <- substr(neurodevelopmentalMain, nchar(neurodevelopmentalMain)-19000, nchar(neurodevelopmentalMain)-16000)
+## gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "### \\1", test, perl = T) ## seems to work
+
 
 ## 125:128 schizophrenia intro
 ## 128 Scizophrenia start of main body
@@ -237,8 +228,6 @@ makeSubHeaders <-function(x){
 ## 125
 
 ## gsub("^", "Start", neurodevelopmentalMain)
-x
-
 
 ## section2a <- gsub("­\n", "", section2a) ## remove - at end of line
 ## section2a <- gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.)", "", section2a, perl=T) ## remove \n not followed by parens or CAP or number
