@@ -159,9 +159,6 @@ sectionTEST <- gsub("\n", "\n\n", sectionTEST) ## double newline
 ## sectionTEST <- gsub("(_){2,}", "", sectionTEST, perl=T)
 ## sectionTEST <- gsub("(_̂){1,}", "", sectionTEST, perl=T)
 
-writeLines(sectionTEST[1], "sectionTEST.txt")
-
-
-
-
-x
+## local formatting
+## gsub("(?s)((?<=(\n\n## Other \\(or Unknown\\) \n\n)).*(?=## Diagnostic Criteria))", "", text, perl=T) ## correctly identifies text between bounds but no 
+way to replace ## within region.
