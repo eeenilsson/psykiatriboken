@@ -30,7 +30,7 @@ The various levels of severity are defined on the basis of adaptive functioning,
 
 Moreover, IQ measures are less valid in the lower end of the IQ range
 
---TABLE--
+<--TABLE REMOVED-->
 
 ## Diagnostic Features
 
@@ -130,7 +130,7 @@ This diagnosis is reserved for individuals under the age of 5 years when the cli
 
 This category is reserved for individuals over the age of 5 years when assessment of the degree of intellectual disability (intellectual developmental disorder) by means of locally available procedures is rendered difficult or impossible because of associated sensory or physical impairments, as in blindness or prelingual deafness; locomotor disability; or presence of severe problem behaviors or co-occurring mental disorder. This category should only be used in exceptional circumstances and requires reassessment after a period of time.
 
-## Communication Disorders
+## Communication Disorders <--@GROUP-->
 
 Disorders of communication include deficits in language, speech, and communication. 
 
@@ -260,7 +260,7 @@ A. Disturbances in the normal fluency and time patterning of speech that are ina
 
 B. The disturbance causes anxiety about speaking or limitations in effective communication, social participation, or academic or occupational performance, individually or in any combination.
 
-### C. The onset of symptoms is in the early developmental period. (Note: Later-onset cases are diagnosed as 307.0 [F98.5] adult-onset fluency disorder.)
+C. The onset of symptoms is in the early developmental period. (Note: Later-onset cases are diagnosed as 307.0 [F98.5] adult-onset fluency disorder.)
 
 D. The disturbance is not attributable to a speech-motor or sensory deficit, dysfluency associated with neurological insult (e.g., stroke, tumor, trauma), or another medical condition and is not better explained by another mental disorder.
 
@@ -356,7 +356,7 @@ Intellectual disability (intellectual developmental disorder) and global develop
 
 This category applies to presentations in which symptoms characteristic of communication disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for communication disorder or for any of the disorders in the neurodevelopmental disorders diagnostic class. The unspecified communication disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for communication disorder or for a specific neurodevelopmental disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis.
 
-## Autism Spectrum Disorder
+## Autism Spectrum Disorder <--@GROUP-->
 
 ## Autism Spectrum Disorder
 
@@ -422,9 +422,42 @@ Table 2 (e.g., "requiring very substantial support for deficits in social commun
 
 The severity specifiers (see Table 2) may be used to describe succinctly the current symptomatology (which might fall below level 1), with the recognition that severity may vary by context and fluctuate over time. Severity of social communication difficulties and restricted, repetitive behaviors should be separately rated. The descriptive severity categories should not be used to determine eligibility for and provision of services; these can only be developed at an individual level and through discussion of personal priorities and targets.
 
-Regarding the specifier "with or without accompanying intellectual impairment," understanding the (often uneven) intellectual profile of a child or adult with autism spectrum disorder is necessary for interpreting diagnostic features. Separate estimates of verbal and nonverbal skill are necessary (e.g., using untimed nonverbal tests to assess potential strengths in individuals with limited language).
+Regarding the specifier "with or without accompanying intellectual impairment," understanding the (often uneven) intellectual profile of a child or adult with autism spectrum disorder is necessary for interpreting diagnostic features. Separate estimates of verbal and nonverbal skill are necessary (e.g., using untimed nonverbal tests to assess potential strengths in individuals with limited language).c.2"cSoΈ3
 
---TABLE--
+## E
+
+## EoÜ7Ö
+
+## Iέ*
+## •c§m-h r ;  «-1-Ι^ 3 1 °  g
+## •y o s a  -2
+
+I  δ i l  id ^ § so> c îrl  ^5  I  3I ëII i t^ oT M ® b -Sal i l l l   . S § 2i I  £ëQhI3cS£
+
+## SÈ'>
+
+## CO -g S" t  0
+
+B.§-CD
+
+## Cm
+
+(ΛI
+
+## D
+
+## Ic Ä ^  δT C Æ OhV o ot i l l  s ê  i<υ u X
+
+## I ifs
+## • s | u
+
+## CD:3 03υ 
+
+O11 ^ υ .5 §^ l |  § 43:= -5 -  SrS  ■È̂ Cδ S 3  a;:i ·Τί C/Îs l^  o&''5 '-' o .i ^ H I l, · | Ι | | |  "Λ "  5   §ω αί c Τ3 Ο°  ΐ  § "  ·2^ > <υ C1|ΐϊ ί ί  S S I
+
+## I3(Λ
+
+## I  1 1
 
 To use the specifier "with or without accompanying language impairment," the current level of verbal functioning should be assessed and described. Examples of the specific descriptions for "with accompanying language impairment" might include no intelligible speech (nonverbal), single words only, or phrase speech. Language level in individuals "without accompanying language impairment" might be further described by speaks in full sentences or has fluent speech. Since receptive language may lag behind expressive language development in autism spectrum disorder, receptive and expressive language skills should be considered separately.
 
@@ -546,7 +579,7 @@ Medical conditions commonly associated with autism spectrum disorder should be n
 
 Avoidant-restrictive food intake disorder is a fairly frequent presenting feature of autism spectrum disorder, and extreme and narrow food preferences may persist.
 
-## Attention-Deficit/Hyperactivity  Disorder
+## Attention-Deficit/Hyperactivity Disorder
 
 ## Attention-Deficit/Hyperactivity Disorder
 
@@ -710,7 +743,7 @@ This category applies to presentations in which symptoms characteristic of atten
 
 This category applies to presentations in which symptoms characteristic of attention- deficit/hyperactivity disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for attention-deficit/hyperactivity disorder or any of the disorders in the neurodevelopmental disorders diagnostic class. The unspecified attention-deficit/hyperactivity disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for attention-deficit/hyperactivity disorder or for a specific neurodevelopmental disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis.
 
-## Specific Learning Disorder
+## Specific Learning Disorder <--@GROUP-->
 
 ## Specific Learning Disorder
 
@@ -884,7 +917,7 @@ Specific learning disorder commonly co-occurs with neurodevelopmental (e.g., ADH
 
 These comorbidities do not necessarily exclude the diagnosis specific learning disorder but may make testing and differential diagnosis more difficult, because each of the cooccurring disorders independently interferes with the execution of activities of daily living, including learning. Thus, clinical judgment is required to attribute such impairment to learning difficulties. If there is an indication that another diagnosis could account for the difficulties learning keystone academic skills described in Criterion A, specific learning disorder should not be diagnosed.
 
-## Motor Disorders
+## Motor Disorders <--@GROUP-->
 
 ## Developmental Coordination Disorder
 
@@ -1190,7 +1223,7 @@ This category applies to presentations in which symptoms characteristic of a tic
 
 This category applies to presentations in which symptoms characteristic of a tic disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for a tic disorder or for any of the disorders in the neurodevelopmental disorders diagnostic class. The unspecified tic disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for a tic disorder or for a specific neurodevelopmental disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis.
 
-## Other Neurodevelopmental Disorders
+## Other Neurodevelopmental Disorders <--@GROUP-->
 
 ## Other Specified Neurodevelopmental Disorder
 

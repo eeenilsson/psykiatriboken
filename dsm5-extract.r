@@ -166,8 +166,8 @@ makeHeaders(neurodevelopmentalMain)
 neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
 neurodevelopmentalMain <- makeHeaders(neurodevelopmentalMain)
 #### chunk specific replacements
-neurodevelopmentalMain <- gsub("(?s)\\.&.*Æu cru", "\n\n--TABLE REMOVED--", neurodevelopmentalMain, perl = T) ## remove table
-neurodevelopmentalMain <- gsub("c\\.2.cS.*(I  1 1)", "\n\n--TABLE REMOVED--", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("(?s)\\.&.*Æu cru", "\n\n<--TABLE REMOVED-->", neurodevelopmentalMain, perl = T) ## remove table
+neurodevelopmentalMain <- gsub("c\\.2.cS.*(I  1 1)", "\n\n<--TABLE REMOVED-->", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
@@ -177,13 +177,62 @@ neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("## With", "With", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
 neurodevelopmentalMain <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", neurodevelopmentalMain) ## make ##Disorder not be separate header
+neurodevelopmentalMain <- gsub("(### )([A-Z]\\.)", "\\2", neurodevelopmentalMain) ## extra cleaning 
 neurodevelopmentalMain <-
     gsub("\\/.\n\n## ", "\\/", neurodevelopmentalMain) ## remove forwardslash
 #### write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
+89*89
+
 writeLines(test, "neurodevelopmentalMain.txt")
 x
+
+## Header ref in bookdown {#background}
+## <-- @CHAPTER --->
+## <-- @GROUP ---> ## Diagnosis group
+## <-- @DIAGNOSIS --->
+
+groupList <- c(
+    "Intellectual Disabilities",
+    "Communication Disorders",
+    "Autism Spectrum Disorder",
+    "Specific Learning Disorder",
+    "Motor Disorders",
+    "Other Neurodevelopmental Disorders"
+)
+
+assignTag <- function(CHUNK, LIST, type = "<--@GROUP-->"){
+    ## Assign label 'type' to strings in CHUNK matching LIST
+    TEMP <- CHUNK
+    for (i in 1:length(LIST)){
+        searchFor <- paste("## ", LIST[i]) 
+        TEMP <- sub(paste("## ", LIST[i], sep = ""),
+                     paste("## ", LIST[i], " ", type, sep = ""), TEMP)
+    }
+    return(TEMP)
+}
+
+test <- neurodevelopmentalMain
+test <- assignTag(test, groupList)
+writeLines(test, "neurodevelopmentalMain.txt")
+
+
+icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
+listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5text) ## escape regex characters
+
+assignTag(test, icd10cmDsm5$dsm5text, "<--@DIAGNOSIS@-->")
+
+this <- "[Alzheimer's disease +] Major neurocognitive disorder due to Alzheimer's disease, Probable, Without behavioral disturbance"
+
+
+
+gsub("(/[#-}]/g, '\\$&')")
+
+gsub("(/[\\.\\+\\*\\?\\^\\$\\[\\]\\(\\)\\{\\}\\/\\'\\#\\:\\!\\=\\|]/ig)", "\\$&", "hello+[]")
+x
+
+
 
 ## TODO ================================
 ## TODO:
@@ -195,24 +244,26 @@ x
 ## A [diagnosis] can be matched in the code list, but note that CASE is different, so needs case-insensitive matching
 
 #### Section headers: (only first occurance)
+## Intellectual Disabilities
 ## Communication Disorders
 ## Autism Spectrum Disorder
-## Intellectual Disabilities
+## Specific Learning Disorder
 ## Motor Disorders
+## Other Neurodevelopmental Disorders
+
 
 ## # Neurodevelopmental
-## ## Intellectual disabilities [section]
+## ## Intellectual disabilities [group]
 ## ### Intellectual disability (Intellectual Developmental Disorder) [diagnosis]
 ## ## Communication Disorders
 ## ### Language Disorder
 ## ### Speech Sound Disorder
 ## ### Childhood-Onset Fluency Disorder (Stuttering)
-## ## Autism Spectrum Disorder [section]
+## ## Autism Spectrum Disorder [group]
 ## ### Autism Spectrum Disorder [Note: In this case subheader identical to header]
-
 ## Attention-Deficit/Hyperactivity Disorder
 ## Specific Learning Disorder
-## Motor Disorders [section]
+## Motor Disorders [group]
 ### Tic Disorders [diagnosis]
 #### Tourette’s Disorder 307.23 (F95.2) [sub-diagnosis]
 #### Persistent (Chronic) Motor or Vocal Tic Disorder 307.22 (F95.1 )
@@ -242,6 +293,7 @@ x
 ## section2a <- gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", section2a, perl=T)
 ## section2a <- gsub("Specify(.*:\n)", "Specify\\1", section2a)
 ## section2a <- gsub("\n", "\n\n", section2a) ## double newline
+
 
 
 
