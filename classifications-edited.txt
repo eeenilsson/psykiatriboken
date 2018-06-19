@@ -1,0 +1,287 @@
+Neurodevelopmental Disorders (31)
+## Intellectual Disabilities (33)
+## Communication Disorders (41)
+## Autism Spectrum Disorder (50)
+## Attention-Deficit/Hyperactivity Disorder (59)
+## Specific Learning Disorder (66)
+## Motor Disorders (74)
+## ## Tic Disorders [Subgroup of Motor Disorders]
+## Other Neurodevelopmental Disorders (86)
+
+Schizophrenia Spectrum and Other Psychotic Disorders (87)
+
+Bipolar and Related Disorders (123)
+
+Depressive Disorders (155)
+
+Anxiety Disorders (189)
+
+Obsessive-Compulsive and Related Disorders (235)
+
+Trauma- and Stressor-Related Disorders (265)
+
+Dissociative Disorders (291)
+
+Somatic Symptom and Related Disorders (309)
+
+Feeding and Eating Disorders (329)
+
+Elimination Disorders (355)
+
+Sleep-Wake Disorders (361)
+## Sleep-Wake Disorders (361)
+## Breathing-Related Sleep Disorders (378)
+## Parasomnias (399)
+
+Sexual Dysfunctions (423)
+
+Gender Dysphoria (451)
+
+Disruptive, impulse-Control, and Conduct Disorders (461)
+
+Substance-Related and Addictive Disorders (481)
+## Substance-Related Disorders (483)
+### Alcohol-Related Disorders (490)
+### Caffeine-Related Disorders (503)
+### Cannabis-Related Disorders
+### Hallucinogen-Related Disorders (520)
+### Inhalant-Related Disorders (533)
+### Opioid-Related Disorders (540)
+### Sedative-, Hypnotic-, or Anxiolytic-Related Disorders (550)
+### Stimulant-Related Disorders (561)
+### Tobacco-Related Disorders (571)
+### Other (or Unknown) Substance Use Disorders (577) 
+## Non-Substance-Related Disorders (585)
+
+Neurocognitive Disorders (591)
+Delirium (596)
+Major and Mild Neurocognitive Disorders (602) [ignore this group level?]
+## Major or Mild Neurocognitive Disorder Due to Alzheimer’s Disease (611)
+## Major or Mild Frontotemporal Neurocognitive Disorder (614)
+## Major or Mild Neurocognitive Disorder With Lewy Bodies (618)
+## Major or Mild Vascular Neurocognitive Disorder (621)
+## Major or Mild Neurocognitive Disorder Due to Traumatic Brain Injury (624)
+## Substance/Medication-Induced Major or Mild Neurocognitive Disorder (627)
+## Major or Mild Neurocognitive Disorder Due to HIV Infection (632)
+## Major or Mild Neurocognitive Disorder Due to Prion Disease (634)
+## Major or Mild Neurocognitive Disorder Due to Parkinson’s Disease (636)
+## Major or Mild Neurocognitive Disorder Due to Huntington’s Disease (638)
+## Major or Mild Neurocognitive Disorder Due to Multiple Etiologies (642)
+## Unspecified Neurocognitive Disorder (643) [ignore this group level?]
+
+Personality Disorders (645)
+Cluster A Personality Disorders
+301.0 (F60.0) Paranoid Personality Disorder (649)
+301.20 (F60.1) Schizoid Personality Disorder (652)
+301.22 (F21) Schizotypal Personality Disorder (655)
+Cluster B Personality Disorders
+301.7 (F60.2) Antisocial Personality Disorder (659)
+301.83 (F60.3) Borderline Personality Disorder (663)
+301.50 (F60.4) Histrionic Personality Disorder (667)
+301.81 (F60.81) Narcissistic Personality Disorder (669)
+Cluster C Personality Disorders
+301.82 (F60.6V Avoidant Personality Disorder (672)
+301.6 (F60.7) Dependent Personality Disorder (675)
+301.4 (F60.5) Obsessive-Compulsive Personality Disorder (678)
+Other Personality Disorders
+310.1 (F07.0) Personality Change Due to Another Medical Condition (682)
+Specify whether: Labile type, Disinhibited type. Aggressive type, Apathetic type. Paranoid type. Other type. Combined type. Unspecified type
+301.89 (F60.89) Other Specified Personality Disorder (684)
+301.9 (F60.9) Unspecified Personality Disorder (684)
+Paraphilic Disorders (685)
+The following specifier applies to Paraphilic Disorders where indicated: ^Specify if: In a controlled environment. In full remission
+302.82 (F65.3) 
+302.4 (F65.2)
+302.89 (F65.81)
+302.83 (F65.51)
+302.84 (F65.52) 
+302.2 (F65.4)
+302.81 (F65.0)
+302.3 (F65.1)
+302.89 (F65.89)
+302.9 (F65.9)
+Voyeuristic Disorder® (686)
+Exhibitionistic Disorder® (689)
+Specify whether: Sexually aroused by exposing genitals to prepubertal children. Sexually aroused by exposing genitals to physically mature individuals. Sexually aroused by exposing genitals to prepubertal chil­dren and to physically mature individuals
+Frotteuristic Disorder® (691)
+Sexual Masochism Disorder® (694)
+Specify if: With asphyxiophilia
+Sexual Sadism Disorder® (695)
+Pedophilic Disorder (697)
+Specify whether: Exclusive type. Nonexclusive type 
+Specify if: Sexually attracted to males. Sexually attracted to females. Sexu­ally attracted to both 
+Specify if: Limited to incest
+Fetishistic Disorder® (700)
+Specify: Body part(s). Nonliving object(s). Other 
+Transvestic Disorder® (702)
+Specify if: With fetishism. With autogynephilia 
+Other Specified Paraphilic Disorder (705)
+Unspecified Paraphilic Disorder (705)
+Other Mental Disorders (707)
+294.8 (F06.8) Other Specified Mental Disorder Due to Another Medical
+Condition (707)
+294.9 (F09) Unspecified Mental Disorder Due to Another Medical Condition
+(708)
+300.9 (F99) Other Specified Mental Disorder (708)
+300.9 (F99) Unspecified Mental Disorder (708)
+Medication-Induced iVlovement Disorders and 
+Other Adverse Effects of iVledication (709)332.1 (G21.11) Neuroleptic-Induced Parkinsonism (709)332.1 (G21.19) Other Medication-Induced Parkinsonism (709)333.92 (G21.0) Neuroleptic Malignant Syndrome (709)333.72 (G24.02) Medication-Induced Acute Dystonia (711)333.99 (G25.71) Medication-Induced Acute Akathisia (711)333.85 (G24.01) Tardive Dyskinesia (712)333.72 (G24.09) Tardive Dystonia (712)333.99 (G25.71) Tardive Akathisia (712)333.1 (G25.1) Medication-Induced Postural Tremor (712)333.99 (G25.79) Other Medication-Induced Movement Disorder (712). ( . ) Antidepressant Discontinuation Syndrome (712)995.29 (T43.205A) Initial encounter995.29 (T43.205D) Subsequent encounter995.29 (T43.205S) Sequelae. ( ■ ) Other Adverse Effect of Medication (714)995.20 (T50.905A) Initial encounter995.20 (T50.905D) Subsequent encounter995.20 (T50.905S) Sequelae
+Other Conditions That iVlay Be a Focus of Ciinicai Attention (715)
+Relational Problems (715)
+Problems Related to Family Upbringing (715)
+V61.20 (Z62.820) Parent-Child Relational Problem (715)
+V61.8 (Z62.891 ) Sibling Relational Problem (716)
+V61.8 (Z62.29) Upbringing Away From Parents (716)
+V61.29 (Z62.898) Child Affected by Parental Relationship Distress (716)
+Other Problems Related to Primary Support Group (716)
+V61.10 (Z63.0) Relationship Distress With Spouse or Intimate Partner (716) 
+V61.03 (Z63.5) Disruption of Family by Separation or Divorce (716)
+V61.8 (Z63.8) High Expressed Emotion Level Within Family (716)
+V62.82 (Z63.4) Uncomplicated Bereavement (716)
+Abuse and Neglect (717)
+Child ΜβΙίΓ63ίφ6ηΙ and Neglect Problems (717)
+Child Physical Abuse (717)
+Child Physical Abuse, Confirmed (717)995.54 (T74.12XA) Initialencounter995.54 {T74.12XD) Subsequent encounter
+Child Physical Abuse, Suspected (717)995.54 (T76.12XA) Initialencounter995.54 (T76.12XD) Subsequent encounter
+Other Circumstances Related to Child Physical Abuse (718)
+V61.21 (Z69.010) Encounter for mental health services for victim of child abuseby parent
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild abuse
+VI 5.41 (Z62.810) Personal history (past history) of physical abuse in childhood 
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild abuse
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child abuse
+Child Sexual Abuse (718)
+Child Sexual Abuse, Confirmed (718)995.53 (T74.22XA) Initial encounter995.53 (T74.22XD) Subsequent encounter
+Child Sexual Abuse, Suspected (718)995.53 (T76.22XA) Initialencounter995.53 (T76.22XD) Subsequent encounter
+Other Circumstances Related to Child Sexual Abuse (718)
+V61.21 (Z69.010) Encounter for mental health services for victim of child sexualabuse by parent
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild sexual abuse
+V15.41 (Z62.810) Personal history (past history) of sexual abuse in childhood 
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild sexual abuse
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child sexual abuse
+Child Neglect (718)
+Child Neglect, Confirmed (718)995.52 (T74.02XA) Initial encounter995.52 (T74.02XD) Subsequent encounter
+Child Neglect, Suspected (719)995.52 (T76.02XA) Initialencounter995.52 (T76.02XD) Subsequent encounter 
+Other Circumstances Related to Child Neglect (719)
+V61.21 (Z69.010) Encounter for mental health services for victim of child neglectby parent
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild neglect
+VI 5.42 (Z62.812) Personal history (past history) of neglect in childhood
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild neglect
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child neglect
+Child Psychological Abuse (719)
+Child Psychological Abuse, Confirmed (719)995.51 (T74.32XA) Initial encounter995.51 (T74.32XD) Subsequent encounter
+Child Psychological Abuse, Suspected (719)995.51 (T76.32XA) Initial encounter995.51 (T76.32XD) Subsequent encounter
+Other Circumstances Related to Child Psychological Abuse (719)
+V61.21 (Z69.010) Encounter for mental health services for victim of childpsychological abuse by parent 
+V61.21 (Z69.020) Encounter for mental health services for victim of nonparentalchild psychological abuse 
+VI 5.42 (Z62.811) Personal history (past history) of psychological abuse inchildhood
+V61.22 (Z69.011 ) Encounter for mental health services for perpetrator of parentalchild psychological abuse 
+V62.83 (Z69.021) Encounter for mental health services for perpetrator ofnonparental child psychological abuse
+Adult Maltreatment and Neglect Problems (720)
+Spouse or Partner Violence, Physical (720)
+Spouse or Partner Violence, Physical, Confirmed (720)995.81 (T74.11XA) Initial encounter995.81 (T74.11XD) Subsequent encounter
+Spouse or Partner Violence, Physical, Suspected (720)995.81 (T76.11XA) Initialencounter995.81 (T76.11XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Violence, Physical (720)
+V61.11 (Z69.11) Encounter for mental health services for victim of spouse orpartner violence, physical
+V15.41 (Z91.410) Personal history (past history) of spouse or partner violence,physical
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner violence, physical
+Spouse or Partner Violence, Sexual (720)
+Spouse or Partner Violence, Sexual, Confirmed (720)995.83 (T74.21XA) Irûtial encounter995.83 (T74.21XD) Subsequent encounter
+Spouse or Partner Violence, Sexual, Suspected (720)995.83 (T76.21XA) Initialencounter995.83 (T76.21XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Violence, Sexual (720)
+V61.11 (Z69.81 ) Encounter for mental health services for victim of spouse orpartner violence, sexual 
+VI 5.41 (Z91.410) Personal history (past history) of spouse or partner violence,sexual
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner violence, sexual
+Spouse or Partner, Neglect (721)
+Spouse or Partner Neglect, Confirmed (721)995.85 (T74.01XA) Initialencounter995.85 (T74.01XD) Subsequent encounter
+Spouse or Partner Neglect, Suspected (721)995.85 (T76.01XA) Initialencounter995.85 (T76.01XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Neglect (721)
+V61.11 (Z69.11) Encounter for mental health services for victim of spouse orpartner neglect
+VI 5.42 (Z91.412) Personal history (past history) of spouse or partner neglect 
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner neglect
+Spouse or Partner Abuse, Psychological (721)
+Spouse or Partner Abuse, Psychological, Confirmed (721)995.82 (T74.31XA) Initialencounter995.82 (T74.31XD) Subsequent encounter
+Spouse or Partner Abuse, Psychological, Suspected (721)995.82 (T76.31XA) Initialencounter995.82 (T76.31XD) Subsequent encounter
+Other Circumstances Related to Spouse or Partner Abuse, Psychological (721)
+V61.11 (Z69.11 ) Encounter for mental health services for victim of spouse orpartner psychological abuse
+V15.42 (Z91.411) Personal history (past history) of spouse or partnerpsychological abuse
+V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouseor partner psychological abuse
+Adult Abuse by Nonspouse or Nonpartner (722)
+Adult Physical Abuse by Nonspouse or Nonpartner, Confirmed (722)995.81 (T74.11XA) Initialencounter995.81 (T74.11XD) Subsequent encounter
+Adult Physical Abuse by Nonspouse or Nonpartner, Suspected (722)995.81 (T76.11XA) Initialencounter995.81 (T76.11XD) Subsequent encounter
+Adult Sexual Abuse by Nonspouse or Nonpartner, Confirmed (722)995.83 (T74.21XA) Initialencounter995.83 (T74.21XD) Subsequent encounter
+Adult Sexual Abuse by Nonspouse or Nonpartner, Suspected (722)995.83 (T76.21XA) Irütial encounter995.83 (T76.21XD) Subsequent encounter
+Adult Psychological Abuse by Nonspouse or Nonpartner, Confirmed (722)995.82 (T74.31XA) Initialencounter995.82 (T74.31XD) Subsequent encounter
+Adult Psychological Abuse by Nonspouse or Nonpartner, Suspected (722)995.82 (T76.31XA) Initialencounter995.82 (T76.31XD) Subsequent encounter
+Other Circumstances Related to Adult Abuse by Nonspouse or Nonpartner (722) 
+V65.49 (Z69.81) Encoxmter for mental health services for victim of nonspousaladult abuse
+V62.83 (Z69.82) Encovmter for mental health services for perpetrator ofnonspousal adult abuse
+Educational and Occupational Problems (723)
+Educational Problems (723)
+V62.3 (Z55.9) Academic or Educational Problem (723)
+Occupational Problems (723)
+V62.21 (Z56.82) Problem Related to Current Military Deployment Status (723) 
+V62.29 (Z56.9) Other Problem Related to Employment (723)
+Housing and Economic Problems (723)
+Housing Problems (723)
+V60.0 (Z59.0) Homelessness (723)
+V60.1 (Z59.1) Inadequate Housing (723)
+V60.89 (Z59.2) Discord With Neighbor, Lodger, or Landlord (723)
+V60.6 (Z59.3V Problem Related to Living in a Residential Institution (724)
+Economic Problems (724)
+V60.2 (Z59.4) Lack of Adequate Food or Safe Drinking Water (724)
+V60.2 (Z59.5) Extreme Poverty (724)
+V60.2 (Z59.6) Low Income (724)
+V60.2 (Z59.7) Insufficient Social Insurance or Welfare Support (724)
+V60.9 (Z59.9) Unspecified Housing or Economic Problem (724)
+Other Problems Related to the Social Environment (724)
+V62.89 (Z60.0) Phase of Life Problem (724)
+V60.3 (Z60.2) Problem Related to Living Alone (724)
+V62.4 (Z60.3) Acculturation Difficulty (724)
+V62.4 (Z60.4) Social Exclusion or Rejection (724)
+V62.4 (Z60.5) Target of (Perceived) Adverse Discrimination or Persecution (724)
+V62.9 (Z60.9) Unspecified Problem Related to Social Environment (725)
+Problems Related to Crime or Interaction With the Legal System (725)
+V62.89 (Z65.4) Victim of Crime (725)
+V62.5 (Z65.0) Conviction in Civil or Criminal Proceedings Without 
+Imprisonment (725)
+V62.5 (Z65.1) Imprisonment or Other Incarceration (725)
+V62.5 (Z65.2) Problems Related to Release From Prison (725)
+V62.5 (Z65.3) Problems Related to Other Legal Circumstances (725)
+Other Health Service Encounters for Counseling and Medical Advice (725) 
+V65.49 (Z70.9) Sex Counseling (725)
+V65.40 (271.9) Other Counseling or Consultation (725)
+Problems Related to Other Psychosocial, Personal, and Environmental 
+Circumstances (725)
+V62.89 (Z65.8) Religious or Spiritual Problem (725)
+V61.7 (Z64.0) Problems Related to Unwanted Pregnancy (725)
+V61.5 (Z64.1) Problems Related to Multiparity (725)
+V62.89 (Z64.4) Discord With Social Service Provider, Including Probation
+Officer, Case Manager, or Social Services Worker (725)
+V62.89 (Z65.4) Victim of Terrorism or Torture (725)
+V62.22 (Z65.5) Exposure to Disaster, War, or Other Hostilities (725)
+V62.89 (Z65.8) Other Problem Related to Psychosocial Circumstances (725)
+V62.9 (Z65.9) Unspecified Problem Related to Unspecified Psychosocial
+Circumstances (725)
+V15.49 (Z91.49)
+V15.59 (Z91.5)
+V62.22 (Z91.82)
+V15.89 (Z91.89)
+V69.9 (Z72.9)
+V71.01 (Z72.811)
+V71.02 (Z72.810)
+Other Circumstances of Personal History (726)
+Other Personal History of Psychological Trauma (726)
+Personal History of Self-Harm (726)
+Personal History of Military Deployment (726)
+Other Personal Risk Factors (726)
+Problem Related to Lifestyle (726)
+Adult Antisocial Behavior (726)
+Child or Adolescent Antisocial Behavior (726)
+Problems Related to Access to Medical and Other Health Care (726)
+V63.9 (Z75.3) Unavailability or Inaccessibility of Health Care Facilities (726) 
+V63.8 (Z75.4) Unavailability or Inaccessibility of Other Helping Agencies (726)
+Nonadherence to Medical Treatment (726)
+V15.81 (Z91.19) Nonadherence to Medical Treatment (726)278.00 (E66.9) Overweight or Obesity (726)
+V65.2 (Z76.5) Malingering (726)
+V40.31 (Z91.83) Wandering Associated With a Mental Disorder (727)
+V62.89 (R41.83) Borderline Intellectual Functioning (727)
