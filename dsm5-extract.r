@@ -18,7 +18,6 @@ makeHeaders <-function(x){
     gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
 }
 
-
 cleanNewlines <- function(CHUNK){
     ## removes newlines not followed by parens, Cap, number. or multiplnumbers
     gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
@@ -37,41 +36,33 @@ cleanText <- function(CHUNK) {
     return(TEMP)
 }
 
-assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE){
+## OLD
+## assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE){
+##     ## Assign label 'tag' to strings in CHUNK matching LIST
+##     TEMP <- CHUNK
+##     for (i in 1:length(LIST)){
+##         searchFor <- paste("## ", LIST[i]) 
+##         TEMP <- sub(paste("## ", LIST[i], sep = ""),
+##                     paste("## ", LIST[i], " ", tag, sep = ""), TEMP,
+##                     ignore.case = ignore.case)
+##     }
+##     return(TEMP)
+## }
+
+assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash.replace = "##"){
     ## Assign label 'tag' to strings in CHUNK matching LIST
     TEMP <- CHUNK
     for (i in 1:length(LIST)){
-        searchFor <- paste("## ", LIST[i]) 
         TEMP <- sub(paste("## ", LIST[i], sep = ""),
-                    paste("## ", LIST[i], " ", tag, sep = ""), TEMP,
+                    paste(hash.replace, " ", LIST[i], " ", tag, sep = ""), TEMP,
                     ignore.case = ignore.case)
     }
     return(TEMP)
 }
 
-## variables
 
-### make a listr of value-replacement pairs
-spellList <- list(
-    'Reiationship'= "Relationship",
-    'Prevaience'= "Prevalence",
-    'Deveiopment' = "Development",
-    'Reiated' = "Related",
-    'iVlaricers' = "Markers",
-    'lUloderate' = "Moderate",
-    'Cuiture' = "Culture",
-    'Fieid' = "Field",
-    'Triais' = "Trials",
-    'commimication' = "communication",
-    'foimdational' = "foundational",
-    's e c tio n' = "section",
-    'comotbid' = "comorbid",
-    'Risic' = "Risk",
-    ' ̂' = "",
-    '(-){2,}' = "",
-    '(_){2,}' = "",
-    '(_̂){1,}' = ""
-)
+## variables
+source('replacement-list.r')
 
 ### DSM-5 (not the updated version)
 
@@ -193,8 +184,9 @@ writeLines(neurodevelopmentalIntro, "neurodevelopmentalIntro.txt")
 
 ### Neurodevelopmental main body
 neurodevelopmentalMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 71:124) ## "Neurodevelopmental disorders".
-neurodevelopmentalMain[1] <- gsub("(?s).*(?=\nIntelle)", "", neurodevelopmentalMain[1], perl=T) ## remove redundant text before section starts and 
-neurodevelopmentalMain[1] <- gsub("^\n", "## Intellectual Disabilities\n", neurodevelopmentalMain[1]) ## add ## to first line
+neurodevelopmentalMain[1] <-
+    gsub("(?s).*(?=\nIntellectual Disabilities\n)", "", neurodevelopmentalMain[1], perl=T) ## remove redundant text before section starts and 
+neurodevelopmentalMain[1] <- gsub("^\n", "## ", neurodevelopmentalMain[1]) ## add ## to first line
 #### clean
 neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
 neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
@@ -207,18 +199,22 @@ neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319
 neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
 #### other replacements
 neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmentalMain, perl = T)
-neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain) ## removes hashes before severity diagnoses
 neurodevelopmentalMain <- gsub("## With", "With", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
 neurodevelopmentalMain <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", neurodevelopmentalMain) ## make ##Disorder not be separate header
-neurodevelopmentalMain <- gsub("(### )([A-Z]\\.)", "\\2", neurodevelopmentalMain) ## extra cleaning 
+neurodevelopmentalMain <- gsub("(### )([A-Z]\\.)", "\\2", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("## Specify", "_Specify_", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("(\\.)([a-z]\\.[[:blank:]][A-Z])", "\\1\n\\2", neurodevelopmentalMain) ## lowercase lists
+## Specify is not a header
+## extra cleaning 
 neurodevelopmentalMain <-
     gsub("\\/.\n\n## ", "\\/", neurodevelopmentalMain) ## remove forwardslash
 neurodevelopmentalMain <-
     gsub("[[:blank:]]{2,}", " ", neurodevelopmentalMain) ## remove repeated spaces
 
 store <- neurodevelopmentalMain
-## neurodevelopmentalMain <- store ## recover
+##neurodevelopmentalMain <- store ## recover
 
 ## tags
 
@@ -227,22 +223,61 @@ groupList <- c(
     "Intellectual Disabilities",
     "Communication Disorders",
     "Autism Spectrum Disorder",
+    "Attention-Deficit/Hyperactivity Disorder",
     "Specific Learning Disorder",
     "Motor Disorders",
     "Other Neurodevelopmental Disorders"
 )
 
 ## assign group tags
-neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, groupList, tag = "<--@GROUP-->")
+neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, groupList, tag = "<--@GROUP-->", hash.replace = "#")
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 
 ## assign diagnosis tags
 ##icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
 icd10cmDsm5 <- read_csv("icd10-dsm5.csv") ## try other version
-
 listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5text) ## escape regex characters
+
+listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cm)
+
 neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE)
-writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
+writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt") ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+
+## Tag severity diagnoses
+assignTagSub <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, replace = "TEST"){
+    ## Assign label 'tag' to strings in CHUNK matching LIST
+    TEMP <- CHUNK
+    for (i in 1:length(LIST)){
+        TEMP <- sub(paste("(?<=\\()", LIST[i], "\\.?[0-9]{0,3}", "(?=\\))", sep = ""),
+                    paste("\\2", replace, " ", LIST[i], " ", tag, sep = ""), TEMP,
+                    ignore.case = ignore.case,
+                    perl = T)
+    }
+    return(TEMP)
+}
+
+tag <- "<--@TAG-->"
+
+paste("(?<=\\() ([A-Z][0-9]{2}.*) (?=\\))", listCodes[1], sep = "")
+paste("\\2", replace, " ", listCodes[1], " ", tag, sep = "")
+
+sub("(?<=\\()([A-Z][0-9]{2}.*)(?=\\))", "hello", text, perl = T)
+gsub("F72", "hello", text, perl = T)
+
+assignTagSub(text, listCodes)
+listDiagnoses
+
+View(icd10cmDsm5)
+
+text <- "
+(F17.209) Mild 
+
+(F71) Moderate 
+
+(F72) Severe 
+
+(F73) Profound
+"
 
 #### write
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
@@ -269,8 +304,6 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## Notes on headers =============
 ## A [diagnosis] has diagnostic criteria and is followed by text on the subject.
 ## A [diagnosis] can be matched in the code list, but note that CASE is different, so needs case-insensitive matching
-
-
 
 ## # Neurodevelopmental
 ## ## Intellectual disabilities [group]
@@ -344,8 +377,6 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## Medication-Induced Movement Disorders and Other Adverse Effects of Medication	 709
 ## Other Conditions That May Be a Focus of Clinical Attention 	 715
 
-
-
 ## gsub("^", "Start", neurodevelopmentalMain)
 
 ## section2a <- gsub("­\n", "", section2a) ## remove - at end of line
@@ -354,12 +385,6 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## section2a <- gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", section2a, perl=T)
 ## section2a <- gsub("Specify(.*:\n)", "Specify\\1", section2a)
 ## section2a <- gsub("\n", "\n\n", section2a) ## double newline
-
-
-
-
-
-
 
 ## notes ============================
 ## pdftools better?
@@ -372,20 +397,12 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## merge_pdfs(splitDSM[10:16], 'dsm-5-manual-2013-sid10-16.pdf')
 ## extract_tables("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 72) ## table, cannot be read
 
-sectionTEST <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 611:618) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
-
-## collapse pages
-sectionTEST <- paste(sectionTEST, collapse = "") ## collapse to one
-
-## remove - at end of line
-sectionTEST <- gsub("­\n", "", sectionTEST)
-
-## remove surplus newlines
-sectionTEST <-
-    gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", sectionTEST, perl=T) 
+## sectionTEST <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 611:618) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
+## sectionTEST <- paste(sectionTEST, collapse = "") ## collapse to one
+## sectionTEST <- gsub("­\n", "", sectionTEST) ## remove - end of line
+## sectionTEST <-
+##     gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", sectionTEST, perl=T) ## remove surplus newlines
 ## removes \n not followed by parens or CAP or number followed by dot
-
-## test
 ## sectionTEST <-
     ## gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", "Unknown) \nSubstance-Induced Disorders\nBecause \nanew.", perl=T) 
 

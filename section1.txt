@@ -289,7 +289,7 @@ A DSM-5 diagnosis is usually applied to the individual's current presentation; p
 
 Specifiers indicating course (e.g., in partial remission, in full remission) may be listed after the diagnosis and are indicated in a number of criteria sets. Where available, severity specifiers are provided to guide clinicians in rating the intensity, frequency, duration, symptom count, or other severity indicator of a disorder. Severity specifiers are indicated by the instruction "Specify current severity" in the criteria set and include disorder-specific definitions. Descriptive features specifiers have also been provided in the criteria set and convey additional information that can inform treatment planning (e.g., obsessive-compulsive disorder, with poor insight). Not all disorders include course, severity, and/or descriptive features specifiers.
 
-## Medication-Induced iVlovement Disorders and Other 
+## Medication-Induced Movement Disorders and Other 
 
 ## Conditions That iViay Be a Focus of Ciinicai Attention
 

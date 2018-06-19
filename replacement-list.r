@@ -1,0 +1,25 @@
+### make a listr of value-replacement pairs
+spellList <- list(
+    'Reiationship'= "Relationship",
+    'Prevaience'= "Prevalence",
+    'Deveiopment' = "Development",
+    'Reiated' = "Related",
+    'iVlaricers' = "Markers",
+    'lUloderate' = "Moderate",
+    'Cuiture' = "Culture",
+    'Fieid' = "Field",
+    'Triais' = "Trials",
+    'Fiuency' = "Fluency",
+    'commimication' = "communication",
+    'foimdational' = "foundational",
+    's e c tio n' = "section",
+    'comotbid' = "comorbid",
+    'Risic' = "Risk",
+    'iVl' = "M",
+    ' ̂' = "",
+    '(-){2,}' = "",
+    '(_){2,}' = "",
+    '(_̂){1,}' = "",
+    'medicai' = "medical",
+    'icnown' = "known"
+)

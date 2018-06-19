@@ -1,18 +1,27 @@
 ## Note on hierarchy: Lits are until the header that is foolowed by diagnosis. Headers above these could perhaps be ignored?
 
-Neurodevelopmental Disorders (31)
-## Intellectual Disabilities (33)
+Neurodevelopmental Disorders (31) @CHAPTER
+## Intellectual Disabilities (33) @GROUP
 ## Communication Disorders (41)
 ## Autism Spectrum Disorder (50)
 ## Attention-Deficit/Hyperactivity Disorder (59)
 ## Specific Learning Disorder (66)
 ## Motor Disorders (74)
-## ## Tic Disorders [Subgroup of Motor Disorders]
+## ## Tic Disorders [not related to coding]
 ## Other Neurodevelopmental Disorders (86)
 
 Schizophrenia Spectrum and Other Psychotic Disorders (87)
+## Schizoaffective Disorder
+## ## Bipolar type
+## ## Depressive type
 
 Bipolar and Related Disorders (123)
+## Bipolar I Disorder
+## ## Current or most recent episode manic
+## ## Current or most recent episode hypomanic
+## ## Current or most recent episode depressed
+## ## Current or most recent episode unspecified
+## Bipolar and Related Disorder Due to Another Medical Condition
 
 Depressive Disorders (155)
 
