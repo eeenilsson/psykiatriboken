@@ -236,12 +236,24 @@ writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 ## assign diagnosis tags
 ##icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
 icd10cmDsm5 <- read_csv("icd10-dsm5.csv") ## try other version
-listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5text) ## escape regex characters
 
-listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cm)
+## clean
+icd10cmDsm5$dsm5textClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$dsm5text) ## remove stuff in brackets
+icd10cmDsm5$icd10cmClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$icd10cm) ## remove stuff in brackets
+
+## listBrackets <- grep("\\[.*\\+\\][[:blank:]]", icd10cmDsm5$dsm5text, value=T) ## get list of stuff in brackets ## NOT working properly
+
+listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5textClean) ## escape regex characters
+listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmClean)
+
+
 
 neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE)
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt") ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+
+
+text <- "[Frontotemporal disease +] Major frontotemporal neurocognitive disorder, Probable"
+
 
 ## Tag severity diagnoses
 assignTagSub <- function(CHUNK, LIST, LIST2, tag = "<--@TAG-->", ignore.case = FALSE, replace = "TEST"){
