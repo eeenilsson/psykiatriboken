@@ -47,8 +47,9 @@ cleanMore <- function(CHUNK){
     TEMP <- gsub("## Specify", "_Specify_", TEMP)
     TEMP <- gsub("(\\.)([a-z]\\.[[:blank:]][A-Z])", "\\1\n\\2", TEMP) ## lowercase lists
     TEMP <- gsub("\\/.\n\n## ", "\\/", TEMP) ## remove forwardslash
+    TEMP <- gsub("(?<=(##))( .*)\n\n\\(", "\\2 (", TEMP, perl=T)
     TEMP <- gsub("[[:blank:]]{2,}", " ", TEMP) ## remove repeated spaces
-
+return(TEMP)
 }
 
 ## OLD
@@ -205,15 +206,25 @@ neurodevelopmentalMain[1] <- gsub("^\n", "## ", neurodevelopmentalMain[1]) ## ad
 neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
 neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
 neurodevelopmentalMain <- makeHeaders(neurodevelopmentalMain)
+neurodevelopmentalMain <- cleanMore(neurodevelopmentalMain)
+writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
+
 #### chunk specific replacements
-neurodevelopmentalMain <- gsub("(?s)\\.&.*Æu cru", "\n\n<--TABLE REMOVED-->", neurodevelopmentalMain, perl = T) ## remove table
+neurodevelopmentalMain <- gsub("(?s)\\.&.*Æu cru", "\n\n<--TABLE REMOVED-->", neurodevelopmentalMain, perl = T)
 neurodevelopmentalMain <- gsub("c\\.2.cS.*(I  1 1)", "\n\n<--TABLE REMOVED-->", neurodevelopmentalMain)
+
+store <- neurodevelopmentalMain
+## neurodevelopmentalMain <- store
+
+
+
 neurodevelopmentalMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
 
-neurodevelopmentalMain <- cleanMore(neurodevelopmentalMain)
 
+
+x
 ## Corresponds function cleanMore
 ## neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmentalMain, perl = T)
 ## neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain) ## removes hashes before severity diagnoses
@@ -263,7 +274,7 @@ listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmCle
 neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE)
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt") ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
 
-
+#######
 text <- "[Frontotemporal disease +] Major frontotemporal neurocognitive disorder, Probable"
 
 
