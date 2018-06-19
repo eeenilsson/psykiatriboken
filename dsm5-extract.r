@@ -244,17 +244,24 @@ neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt") ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
 
 ## Tag severity diagnoses
-assignTagSub <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, replace = "TEST"){
+assignTagSub <- function(CHUNK, LIST, LIST2, tag = "<--@TAG-->", ignore.case = FALSE, replace = "TEST"){
     ## Assign label 'tag' to strings in CHUNK matching LIST
     TEMP <- CHUNK
     for (i in 1:length(LIST)){
-        TEMP <- sub(paste("(?<=\\()", LIST[i], "\\.?[0-9]{0,3}", "(?=\\))", sep = ""),
-                    paste("\\2", replace, " ", LIST[i], " ", tag, sep = ""), TEMP,
+        TEMP <- sub(paste("((?<=\\()", LIST[i], "\\.?[0-9]{0,3}", "(?=\\)))", sep = ""),
+                    paste("\\1", replace, " ", LIST2[i], " ", tag, sep = ""), TEMP,
                     ignore.case = ignore.case,
                     perl = T)
     }
     return(TEMP)
 }
+
+i <- 1
+LIST <-listCodes
+assignTagSub(text, listCodes, listDiagnoses)
+
+
+"(?<=\\()Z55\\.9\\.?[0-9]{0,3}(?=\\))\n"
 
 tag <- "<--@TAG-->"
 
@@ -264,7 +271,7 @@ paste("\\2", replace, " ", listCodes[1], " ", tag, sep = "")
 sub("(?<=\\()([A-Z][0-9]{2}.*)(?=\\))", "hello", text, perl = T)
 gsub("F72", "hello", text, perl = T)
 
-assignTagSub(text, listCodes)
+
 listDiagnoses
 
 View(icd10cmDsm5)
