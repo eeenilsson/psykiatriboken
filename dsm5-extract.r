@@ -36,6 +36,21 @@ cleanText <- function(CHUNK) {
     return(TEMP)
 }
 
+cleanMore <- function(CHUNK){
+    TEMP <- CHUNK
+    TEMP <- gsub("(\n\n## )([0-9])", "\n\n\\2", TEMP, perl = T)
+    TEMP <- gsub("## \\(", "\\(", TEMP) ## removes hashes before severity diagnoses
+    TEMP <- gsub("## With", "With", TEMP)
+    TEMP <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", TEMP, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
+    TEMP <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", TEMP) ## make ##Disorder not be separate header
+    TEMP <- gsub("(### )([A-Z]\\.)", "\\2", TEMP)
+    TEMP <- gsub("## Specify", "_Specify_", TEMP)
+    TEMP <- gsub("(\\.)([a-z]\\.[[:blank:]][A-Z])", "\\1\n\\2", TEMP) ## lowercase lists
+    TEMP <- gsub("\\/.\n\n## ", "\\/", TEMP) ## remove forwardslash
+    TEMP <- gsub("[[:blank:]]{2,}", " ", TEMP) ## remove repeated spaces
+
+}
+
 ## OLD
 ## assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE){
 ##     ## Assign label 'tag' to strings in CHUNK matching LIST
@@ -187,7 +202,6 @@ neurodevelopmentalMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/ds
 neurodevelopmentalMain[1] <-
     gsub("(?s).*(?=\nIntellectual Disabilities\n)", "", neurodevelopmentalMain[1], perl=T) ## remove redundant text before section starts and 
 neurodevelopmentalMain[1] <- gsub("^\n", "## ", neurodevelopmentalMain[1]) ## add ## to first line
-#### clean
 neurodevelopmentalMain <- paste(neurodevelopmentalMain, collapse = "") ## collapse to one
 neurodevelopmentalMain <- cleanText(neurodevelopmentalMain)
 neurodevelopmentalMain <- makeHeaders(neurodevelopmentalMain)
@@ -197,28 +211,28 @@ neurodevelopmentalMain <- gsub("c\\.2.cS.*(I  1 1)", "\n\n<--TABLE REMOVED-->", 
 neurodevelopmentalMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
-#### other replacements
-neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmentalMain, perl = T)
-neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain) ## removes hashes before severity diagnoses
-neurodevelopmentalMain <- gsub("## With", "With", neurodevelopmentalMain)
-neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
-neurodevelopmentalMain <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", neurodevelopmentalMain) ## make ##Disorder not be separate header
-neurodevelopmentalMain <- gsub("(### )([A-Z]\\.)", "\\2", neurodevelopmentalMain)
-neurodevelopmentalMain <- gsub("## Specify", "_Specify_", neurodevelopmentalMain)
-neurodevelopmentalMain <- gsub("(\\.)([a-z]\\.[[:blank:]][A-Z])", "\\1\n\\2", neurodevelopmentalMain) ## lowercase lists
-## Specify is not a header
-## extra cleaning 
-neurodevelopmentalMain <-
-    gsub("\\/.\n\n## ", "\\/", neurodevelopmentalMain) ## remove forwardslash
-neurodevelopmentalMain <-
-    gsub("[[:blank:]]{2,}", " ", neurodevelopmentalMain) ## remove repeated spaces
 
+neurodevelopmentalMain <- cleanMore(neurodevelopmentalMain)
+
+## Corresponds function cleanMore
+## neurodevelopmentalMain <- gsub("(\n\n## )([0-9])", "\n\n\\2", neurodevelopmentalMain, perl = T)
+## neurodevelopmentalMain <- gsub("## \\(", "\\(", neurodevelopmentalMain) ## removes hashes before severity diagnoses
+## neurodevelopmentalMain <- gsub("## With", "With", neurodevelopmentalMain)
+## neurodevelopmentalMain <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", neurodevelopmentalMain, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
+## neurodevelopmentalMain <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", neurodevelopmentalMain) ## make ##Disorder not be separate header
+## neurodevelopmentalMain <- gsub("(### )([A-Z]\\.)", "\\2", neurodevelopmentalMain)
+## neurodevelopmentalMain <- gsub("## Specify", "_Specify_", neurodevelopmentalMain)
+## neurodevelopmentalMain <- gsub("(\\.)([a-z]\\.[[:blank:]][A-Z])", "\\1\n\\2", neurodevelopmentalMain) ## lowercase lists
+## neurodevelopmentalMain <- gsub("\\/.\n\n## ", "\\/", neurodevelopmentalMain) ## remove forwardslash
+## neurodevelopmentalMain <- gsub("[[:blank:]]{2,}", " ", neurodevelopmentalMain) ## remove repeated spaces
+
+## store copy
 store <- neurodevelopmentalMain
 ##neurodevelopmentalMain <- store ## recover
 
-## tags
+## Add tags
 
-## List groups
+### List groups
 groupList <- c(
     "Intellectual Disabilities",
     "Communication Disorders",
@@ -237,7 +251,7 @@ writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 ##icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
 icd10cmDsm5 <- read_csv("icd10-dsm5.csv") ## try other version
 
-## clean
+## clean tags list
 icd10cmDsm5$dsm5textClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$dsm5text) ## remove stuff in brackets
 icd10cmDsm5$icd10cmClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$icd10cm) ## remove stuff in brackets
 
@@ -245,8 +259,6 @@ icd10cmDsm5$icd10cmClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$icd10
 
 listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5textClean) ## escape regex characters
 listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmClean)
-
-
 
 neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE)
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt") ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)

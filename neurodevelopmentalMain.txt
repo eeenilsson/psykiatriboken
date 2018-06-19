@@ -1,6 +1,6 @@
 # Intellectual Disabilities <--@GROUP-->
 
-## Intellectual disability (intellectual developmental disorder) <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Intellectual disability (intellectual developmental disorder) <--@DIAGNOSIS-->
 
 ## Diagnostic Criteria
 
@@ -122,13 +122,13 @@ The American Association on Intellectual and Developmental Disabilities (AAIDD) 
 
 AAIDD emphasizes a profile of supports based on severity.
 
-## Global developmental delay <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Global developmental delay <--@DIAGNOSIS-->
 
 315.8 (F88)
 
 This diagnosis is reserved for individuals under the age of 5 years when the clinical severity level cannot be reliably assessed during early childhood. This category is diagnosed when an individual fails to meet expected developmental milestones in several areas of intellectual functioning, and applies to individuals who are unable to undergo systematic assessments of intellectual functioning, including children who are too young to participate in standardized testing. This category requires reassessment after a period of time.
 
-## Unspecified intellectual disability (intellectual developmental disorder) <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Unspecified intellectual disability (intellectual developmental disorder) <--@DIAGNOSIS-->
 
 319 (F79)
 
@@ -140,7 +140,7 @@ Disorders of communication include deficits in language, speech, and communicati
 
 Speech is the expressive production of sounds and includes an individual's articulation, fluency, voice, and resonance quality. Language includes the form, function, and use of a conventional system of symbols (i.e., spoken words, sign language, written words, pictures) in a rule-governed manner for communication. Communication includes any verbal or nonverbal behavior (whether intentional or unintentional) that influences the behavior, ideas, or attitudes of another individual. Assessments of speech, language and communication abilities must take into account the individual’s cultural and language context, particularly for individuals growing up in bilingual environments. The standardized measures of language development and of nonverbal intellectual capacity must be relevant for the cultural and linguistic group (i.e., tests developed and standardized for one group may not provide appropriate norms for a different group). The diagnostic category of communication disorders includes the following: language disorder, speech sound disorder, childhood-onset fluency disorder (stuttering), social (pragmatic) communication disorder, and other specified and unspecified communication disorders.
 
-## Language disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Language disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 315.39 (F80.9)
 
@@ -196,7 +196,7 @@ Language regression. Loss of speech and language in a child younger than 3 years
 
 Language disorder is strongly associated with other neurodevelopmental disorders in terms of specific learning disorder (literacy and numeracy), attention-deficit/hyperactivity disorder, autism spectrum disorder, and developmental coordination disorder. It is also associated with social (pragmatic) communication disorder. A positive family history of speech or language disorders is often present.
 
-## Speech sound disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Speech sound disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 315.39 (F80.0)
 
@@ -242,7 +242,7 @@ Dysarthria. Speech impairment may be attributable to a motor disorder, such as c
 
 Selective mutism. Limited use of speech may be a sign of selective mutism, an anxiety disorder that is characterized by a lack of speech in one or more contexts or settings. Selective mutism may develop in children with a speech disorder because of embarassment about their impairments, but many children with selective mutism exhibit normal speech in "safe" settings, such as at home or with close friends.
 
-## Childhood-onset fluency disorder (stuttering) <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Childhood-onset fluency disorder (stuttering) <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 315.35 (F80.81)
 
@@ -306,7 +306,7 @@ Adult-onset dysfluencies. If onset of dysfluencies is during or after adolescenc
 
 Tourette’s disorder. Vocal tics and repetitive vocalizations of Tourette's disorder should be distinguishable from the repetitive sounds of childhood-onset fluency disorder by their nature and timing.
 
-## Social (pragmatic) communication disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Social (pragmatic) communication disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 315.39 (F80.89)
 
@@ -354,7 +354,7 @@ Social anxiety disorder (social phobia). The symptoms of social communication di
 
 Intellectual disability (intellectual developmental disorder) and global developmental delay. Social communication skills may be deficient among individuals with global developmental delay or intellectual disability, but a separate diagnosis is not given unless the social communication deficits are clearly in excess of the intellectual limitations.
 
-## Unspecified communication disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Unspecified communication disorder <--@DIAGNOSIS-->
 
 307.9 (F80.9)
 
@@ -362,7 +362,7 @@ This category applies to presentations in which symptoms characteristic of commu
 
 # Autism Spectrum Disorder <--@GROUP-->
 
-## Autism spectrum disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Autism spectrum disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 299.00 (F84.0)
 
@@ -552,7 +552,7 @@ Avoidant-restrictive food intake disorder is a fairly frequent presenting featur
 
 # Attention-Deficit/Hyperactivity Disorder <--@GROUP-->
 
-## Attention-deficit/hyperactivity disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Attention-deficit/hyperactivity disorder <--@DIAGNOSIS-->
 
 ## Diagnostic Criteria
 
@@ -719,13 +719,13 @@ In clinical settings, comorbid disorders are frequent in individuals whose sympt
 
 ADHD in approximately half of children with the combined presentation and about a quarter with the predominantly inattentive presentation. Conduct disorder co-occurs in about a quarter of children or adolescents with the combined presentation, depending on age and setting. Most children and adolescents with disruptive mood dysregulation disorder have symptoms that also meet criteria for ADHD; a lesser percentage of children with ADHD have symptoms that meet criteria for disruptive mood dysregulation disorder. Specific learning disorder commonly co-occurs with ADHD. Anxiety disorders and major depressive disorder occur in a minority of individuals with ADHD but more often than in the general population. Intermittent explosive disorder occurs in a minority of adults with ADHD, but at rates above population levels. Although substance use disorders are relatively more frequent among adults with ADHD in the general population, the disorders are present in only a minority of adults with ADHD. In adults, antisocial and other personality disorders may co-occur with ADHD. Other disorders that may co-occur with ADHD include obsessive-compulsive disorder, tic disorders, and autism spectrum disorder.
 
-## Other specified attention-deficit/hyperactivity disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Other specified attention-deficit/hyperactivity disorder <--@DIAGNOSIS-->
 
 314.01 (F90.8)
 
 This category applies to presentations in which symptoms characteristic of attention- deficit/hyperactivity disorder that cause clinically significant distress or impairment in social, occupational or other important areas of functioning predominate but do not meet the full criteria for attention-deficit/hyperactivity disorder or any of the disorders in the neuro- developmental disorders diagnostic class. The other specified attention-deficit/hyperactiv- ity disorder category is used in situations in which the clinician chooses to communicatethe specific reason that the presentation does not meet the criteria for attention-deficit/ hyperactivity disorder or any specific neurodevelopmental disorder. This is done by recording “other specified attention-deficit/hyperactivity disorder” followed by the specific reason (e.g., “with insufficient inattention symptoms”).
 
-## Unspecified attention-deficit/hyperactivity disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Unspecified attention-deficit/hyperactivity disorder <--@DIAGNOSIS-->
 
 314.01 (F90.9)
 
@@ -733,7 +733,7 @@ This category applies to presentations in which symptoms characteristic of atten
 
 # Specific Learning Disorder <--@GROUP-->
 
-## Specific learning disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Specific learning disorder <--@DIAGNOSIS-->
 
 ## Diagnostic Criteria
 
@@ -907,7 +907,7 @@ These comorbidities do not necessarily exclude the diagnosis specific learning d
 
 # Motor Disorders <--@GROUP-->
 
-## Developmental coordination disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Developmental coordination disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 315.4 (F82)
 
@@ -981,7 +981,7 @@ Joint hypermobility syndrome. Individuals with syndromes causing hyperextensible
 
 Disorders that commonly co-occur with developmental coordination disorder include speech and language disorder; specific learning disorder (especially reading and writing); problems of inattention, including ADHD (the most frequent coexisting condition, with about 50% co-occurrence); autism spectrum disorder; disruptive and emotional behavior problems; and joint hypermobility syndrome. Different clusters of co-occurrence may be present (e.g., a cluster with severe reading disorders, fine motor problems, and handwriting problems; another cluster with impaired movement control and motor planning). Presence of other disorders does not exclude developmental coordination disorder but may make testing more difficult and may independently interfere with the execution of activities of daily living, thus requiring examiner judgment in ascribing impairment to motor skills.
 
-## Stereotypic movement disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Stereotypic movement disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 307.3 (F98.4)
 
@@ -1079,7 +1079,7 @@ Cornelia de Lange syndrome, and Smith-Magenis syndrome. When stereotypic movemen
 
 Note: A tic is a sudden, rapid, recurrent, nonrhythmic motor movement or vocalization.
 
-### Tourette’s disorder <--@DIAGNOSIS--> <--@DIAGNOSIS--> 307.23 (F95.2)
+### Tourette’s disorder <--@DIAGNOSIS--> 307.23 (F95.2)
 
 A. Both multiple motor and one or more vocal tics have been present at some time during the illness, although not necessarily concurrently.
 
@@ -1089,7 +1089,7 @@ C. Onset is before age 18 years.
 
 D. The disturbance is not attributable to the physiological effects of a substance (e.g., cocaine) or another medical condition (e.g., Huntington’s disease, postviral encephalitis).
 
-### Persistent (chronic) motor or vocal tic disorder <--@DIAGNOSIS--> <--@DIAGNOSIS--> 307.22 (F95.1 )
+### Persistent (chronic) motor or vocal tic disorder <--@DIAGNOSIS--> 307.22 (F95.1 )
 
 A. Single or multiple motor or vocal tics have been present during the illness, but not both motor and vocal.
 
@@ -1107,7 +1107,7 @@ With motor tics only
 
 With vocal tics only
 
-### Provisional tic disorder <--@DIAGNOSIS--> <--@DIAGNOSIS--> 307.21 (F95.0)
+### Provisional tic disorder <--@DIAGNOSIS--> 307.21 (F95.0)
 
 A. Single or multiple motor and/or vocal tics.
 
@@ -1199,13 +1199,13 @@ Obsessive-compulsive and related disorders. Differentiating obsessive-compulsive
 
 Many medical and psychiatric conditions have been described as co-occurring with tic disorders, with ADHD and obsessive-compulsive and related disorders being particularly common. The obsessive-compulsive symptoms observed in tic disorder tend to be characterized by more aggressive symmetry and order symptoms and poorer response to pharmacotherapy with selective serotonin reuptake inhibitors. Children with ADHD may demonstrate disruptive behavior, social immaturity, and learning difficulties that may interfere with academic progress and interpersonal relationships and lead to greater impairment than that caused by a tic disorder. Individuals with tic disorders can also have other movement disorders and other mental disorders, such as depressive, bipolar, or substance use disorders.
 
-## Other specified tic disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Other specified tic disorder <--@DIAGNOSIS-->
 
 307.20 (F95.8)
 
 This category applies to presentations in which symptoms characteristic of a tic disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for a tic disorder or any of the disorders in the neurodevelopmental disorders diagnostic class. The other specified tic disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for a tic disorder or any specific neurodevelopmental disorder. This is done by recording “other specified tic disorder” followed by the specific reason (e.g., “with onset after age 18 years”).
 
-## Unspecified tic disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Unspecified tic disorder <--@DIAGNOSIS-->
 
 307.20 (F95.9)
 
@@ -1213,7 +1213,7 @@ This category applies to presentations in which symptoms characteristic of a tic
 
 # Other Neurodevelopmental Disorders <--@GROUP-->
 
-## Other specified neurodevelopmental disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Other specified neurodevelopmental disorder <--@DIAGNOSIS-->
 
 315.8 (F88)
 
@@ -1223,7 +1223,7 @@ This category applies to presentations in which symptoms characteristic of a neu
 
 Neurodevelopmental disorder associated with prenatal alcohol exposure: Neurodevelopmental disorder associated with prenatal alcohol exposure is characterized by a range of developmental disabilities following exposure to alcohol in utero.
 
-## Unspecified neurodevelopmental disorder <--@DIAGNOSIS--> <--@DIAGNOSIS-->
+## Unspecified neurodevelopmental disorder <--@DIAGNOSIS-->
 
 315.9 (F89)
 
