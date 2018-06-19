@@ -75,12 +75,29 @@ spellList <- list(
 
 ### DSM-5 (not the updated version)
 
+## Title, copyright page etc ================
+## Page 1: Cover
+## Page 2: American Psychiatric Association (LIST OF NAMES OF OFFICERS)
+
+## ## Page 3, Title page
+## DIAGNOSTIC AND STATISTICAL
+## MANUAL OF 
+## MENTAL DISORDERS
+## FIFTH EDITION
+## DSM-5^TM
+## LOGO: American Psychiatric Publishing
+## -----
+## Washington, DC
+## London, England
+
+## Copyright page
+## ISBN 978-0-89042-554-1
 copyright <-
     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 4) 
 
+## Contents
 contents <-
     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 5:6) ## contents
-
 contents <- paste(contents, collapse = "") ## collapse to one
 contents <- gsub("\\.{2,}", "\t", contents)
 contents <- gsub("Section", "## Section", contents)
@@ -91,11 +108,12 @@ contents <- gsub("(I{1,})\n", "\\1 ", contents, perl=T)
 contents <- gsub("##", "\n##", contents, perl=T)
 writeLines(contents, "contents.txt")
 
+## Taskforce (List of members)
 taskforce <-
     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 7:12)  
 taskforce <- paste(taskforce, collapse = "") ## collapse to one
 
-### Classifications
+## ## Classifications (List of diagnoses and sub-diagnoses, import not working)
 ## Note: import not working, codes in sequence instead of per line
 ## classifications <-     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 13:40) ## classifications list start on p13
 ## classifications <- paste(classifications, collapse = "") ## collapse to one
@@ -119,10 +137,10 @@ taskforce <- paste(taskforce, collapse = "") ## collapse to one
 ## Note: Superscrips are not read, has to be edited manually
 ## writeLines(classifications[1], "test.txt")
 ## classifications[1]
-
 ## ICD9-CM (ICD10-CM)
 
-## Preface
+
+## Preface ==============================
 preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 41:44) ## classifications list start on p13
 preface <- gsub("­\n", "", preface) ## remove - at end of line
 preface <- spellCorrect(spellList, preface)
@@ -130,9 +148,27 @@ preface <- cleanNewlinesDot(preface)
 preface <- gsub("\n", "\n\n", preface) ## double newline
 preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", " American Psychiatric", preface)
 preface <- gsub("•", "\n•", preface)
-writeLines(preface, "preface.txt")
+writeLines(preface, "preface.txt") ## Foreword
 
-## Section I (Introduction/basics)
+## Book elements =============
+
+## Part section chapter
+## LaTex
+## -1 	\part{part}
+## 0 	\chapter{chapter}
+## 1 	\section{section}
+## 2 	\subsection{subsection}
+## 3 	\subsubsection{subsubsection}
+## 4 	\paragraph{paragraph}
+## 5 	\subparagraph{subparagraph}
+
+## Foreword
+## The foreword contains a statement about the book and is usually written by someone other than the author who is an expert or is widely known in the field of the book's topic. A foreword lends authority to your book and may increase its potential for sales. If you plan to include a foreword, please arrange to have it written and included in your submitted manuscript. A foreword is most commonly found in nonfiction works.
+
+## Preface
+## The preface usually describes why you wrote the book, your research methods and perhaps some acknowledgments if they have not been included in a separate section. It may also establish your qualifications and expertise as an authority in the field in which you're writing. Again, a preface is far more common in nonfiction titles and should be used only if necessary in fiction works.
+
+## Section I (Introduction/basics) ================================
 section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
 section1 <- paste(section1, collapse = "")
 section1 <- gsub("ΤΙΊΘ C rG âtion  ", "\n The creation ", section1)
@@ -140,7 +176,7 @@ section1 <- cleanText(section1)
 section1 <- makeHeaders(section1)
 writeLines(section1, "section1.txt")
 
-## Section II Diagnostic criteria
+## Section II Diagnostic criteria ==========================
 
 ### TOC
 section2toc <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67) ## "Diagnostic criteria and codes". [TOC]
@@ -245,13 +281,6 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## A [diagnosis] has diagnostic criteria and is followed by text on the subject.
 ## A [diagnosis] can be matched in the code list, but note that CASE is different, so needs case-insensitive matching
 
-#### Section headers: (only first occurance)
-## Intellectual Disabilities
-## Communication Disorders
-## Autism Spectrum Disorder
-## Specific Learning Disorder
-## Motor Disorders
-## Other Neurodevelopmental Disorders
 
 
 ## # Neurodevelopmental
@@ -278,14 +307,55 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## test <- substr(neurodevelopmentalMain, nchar(neurodevelopmentalMain)-19000, nchar(neurodevelopmentalMain)-16000)
 ## gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "### \\1", test, perl = T) ## seems to work
 
-
+## Pages
 ## 125:128 schizophrenia intro
 ## 128 Scizophrenia start of main body
+## 746:758 Other Conditions That May Be a Focus of Clinical Attention
 
-## 31
-## 87+40
-## 71-31
-## 125
+## 759 Section III Emerging Measures and Models (TOC)
+## 760 Section III Introduction [@CHAPTER]
+## 761:776 Assessment measures [@CHAPTER]
+## 777:787 Cultural Formulation [@CHAPTER]
+## 788:808 Alternative DSM-5 Model for Personality Disorders [@CHAPTER]
+## 809:832 Conditions for Further Study [@CHAPTER]
+
+## 833 Appendix (TOC) [@SECTION]
+## 834:841 Highlights of Changes From DSM-IV ti DSM-5 [@CHAPTER]
+## 842:856 Glossary of Technical Terms 
+## 857:861 Glossary of Cultural Concepts of Distress
+## 862 Alphabetical Listing of DSIM-5 Diagnoses and Codes (iCD-9-CM and ICD-10-CM)
+## 886 Numerical Listing of DSM-5 Diagnoses and Codes (ICD-9-CM)
+## 900:919 Numerical Listing of DSM-5 Diagnoses and Codes (ICD-10-CM)
+## 920:939 DSM-5 Advisors and other contributors
+
+## 940:970 Index [@SECTION]
+## ======================================================
+
+## List of Section II chapters:
+## Neurodevelopmental Disorders	 31
+## Schizophrenia Spectrum and Other Psychotic Disorders	87
+## Bipolar and Related Disorders	 123
+## Depressive Disorders	155
+## Anxiety Disorders	189
+## Obsessive-Compulsive and Related Disorders	 235
+## Trauma- and Stressor-Related Disorders	265
+## Dissociative Disorders	291
+## Somatic Symptom and Related Disorders	 309
+## Feeding and Eating Disorders	 329
+## Elimination Disorders	355
+## Sleep-Wake Disorders	361
+## Sexual Dysfunctions	423
+## Gender Dysphoria	451
+## Disruptive, Impulse-Control, and Conduct Disorders	461
+## Substance-Related and Addictive Disorders	 481
+## Neurocognitive Disorders	 591
+## Personality Disorders	645
+## Paraphilic Disorders	685
+## Other Mental Disorders	 707
+## Medication-Induced Movement Disorders and Other Adverse Effects of Medication	 709
+## Other Conditions That May Be a Focus of Clinical Attention 	 715
+
+
 
 ## gsub("^", "Start", neurodevelopmentalMain)
 
