@@ -15,9 +15,9 @@
     (interactive)       ;; "r"
     ;; (set-mark (point-min))
     (goto-char (re-search-forward getStart))
-    (goto-char (re-search-backward "[a-z]:"))
-    (push-mark)
-    (set-mark (re-search-forward getStart))
+    (set-mark (goto-char (re-search-backward "[a-z]:")))
+    ;; (push-mark)
+    ;; (set-mark (re-search-forward getStart))
     ;;(set-mark (re-search-backward ":"))
     (goto-char (re-search-forward getStop))
     ;;(goto-char (point-max))
