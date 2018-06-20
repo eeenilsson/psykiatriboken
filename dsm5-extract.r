@@ -238,18 +238,114 @@ neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, groupList, tag = "<-
 
 neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE) ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
 
-## TODO
-## : \n\n bounded by note:
-"## Word reading"
-
 #### write
 ## store copy
 store <- neurodevelopmentalMain
 ##neurodevelopmentalMain <- store ## recover
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
+x
 
-#######
+#### develop
 
+## TODO
+## : \n\n bounded by note:
+"## Word reading"
+
+text <- "mark:\n\n## Headera\n\n## Headerb\n\nNote"
+
+(while (re-search-forward "hello" nil t)
+    (replace-match "world"))
+
+(defun my-select-current-line ()
+  (interactive)
+  (move-beginning-of-line nil)
+  (set-mark-command nil)
+  (move-end-of-line nil)
+    (setq deactivate-mark nil))
+
+goto-char position
+
+;; return the beginning position of buffer
+(point-min)
+
+;; returns the position for the end of buffer, respect narrow-to-region
+(point-max)
+
+http://ergoemacs.org/emacs/elisp_cursor_position.html
+
+## re-search-forward → move cursor forward by searching for regex pattern. Cursor stops at end of matched pattern.
+
+;; move cursor to the location matched by regex
+;; returns the new position
+
+(setq getStart ":\n\n##")
+(setq getStop "\n\n[^##]")
+(re-search-forward getStart)
+(push-mark)
+(re-search-forward getStop)
+(push mark)
+(re-search-backward myRegex)
+;;    (replace-regexp "##" "hello" (region-beginning) (region-end))
+
+##
+(defun collapse-list ()
+    (interactive)
+    ;; Remove ## from lists preceded by :
+    (point-min) ;; go to start of buffer
+    (setq getStart ":\n\n##") ;; ## after :
+    (setq getStop "\n\n[^##]") ;; ## not followed by ##
+    (re-search-forward getStart)
+;;    (set-mark)
+    (push-mark)
+    (re-search-forward getStop)
+    (activate-mark)
+    ;;   (push-mark)
+;;    (setq startPos (make-marker))
+;;    (setq stopPos (make-marker))
+    ;; (setq startPos (region-beginning))
+    ;; (setq stopPos (region-end))
+;;    (setq startPos (14548))
+;;    (setq stopPos (14628))
+    ;;    (replace-string "##" "hello")
+    ;;   (replace-regexp "##" "hello" startPos stopPos)
+    ;; (replace-regexp "##" "hello" "14548" "14628")
+  ;;   (replace-regexp "##" "hello") ;; whole buffer
+;;(print stopPos)
+)
+
+
+(Replace-regexp "##" "hello" 14548 14628)
+14548
+14628
+(Region-beginning)
+
+(region-end)
+
+(region-beginning)
+
+(Print getStart)
+
+Coding note: Specify all academic domains and subskills that are impaired. When more than one domain is impaired, each one should be coded individually according to the following specifiers.
+
+## Header here
+
+_Specify_ if:
+
+315.00 (F81.0) With impairment in reading:
+
+## Word reading accuracy 
+
+## Reading rate or fluency 
+
+## Reading comprehension
+
+    Note: Dyslexia is an alternative term used to refer to a pattern of learning difficulties characterized by problems with accurate or fluent word recognition, poor decoding, and poor spelling abilities. If dyslexia is used to specify this particular pattern of difficulties, it is important also to specify any additional
+
+## Header True
+
+Some text.
+
+x
 ## Tag severity diagnoses
 ## Note: Working but should perhaps not be used?
 ## i <- 1

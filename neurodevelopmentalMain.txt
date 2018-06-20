@@ -757,7 +757,7 @@ _Specify_ if:
 
 Note: Dyslexia is an alternative term used to refer to a pattern of learning difficulties characterized by problems with accurate or fluent word recognition, poor decoding, and poor spelling abilities. If dyslexia is used to specify this particular pattern of difficulties, it is important also to specify any additional difficulties that are present, such as difficulties with reading comprehension or math reasoning.
 
-315.2 (F81.81) Witli impairment in written expression:
+315.2 (F81.81) With impairment in written expression:
 
 ## Spelling accuracy
 
