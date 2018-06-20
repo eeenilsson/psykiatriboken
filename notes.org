@@ -1,0 +1,65 @@
+## Notes on dsm5 import
+
+## gsub("^", "Start", neurodevelopmentalMain)
+
+## section2a <- gsub("­\n", "", section2a) ## remove - at end of line
+## section2a <- gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.)", "", section2a, perl=T) ## remove \n not followed by parens or CAP or number
+## ## identify headers as lines without comma or dot
+## section2a <- gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", section2a, qperl=T)
+## section2a <- gsub("Specify(.*:\n)", "Specify\\1", section2a)
+## section2a <- gsub("\n", "\n\n", section2a) ## double newline
+
+
+## # Neurodevelopmental
+## ## Intellectual disabilities [group]
+## ### Intellectual disability (Intellectual Developmental Disorder) [diagnosis]
+## ## Communication Disorders
+## ### Language Disorder
+## ### Speech Sound Disorder
+## ### Childhood-Onset Fluency Disorder (Stuttering)
+## ## Autism Spectrum Disorder [group]
+## ### Autism Spectrum Disorder [Note: In this case subheader identical to header]
+## Attention-Deficit/Hyperactivity Disorder
+## Specific Learning Disorder
+## Motor Disorders [group]
+### Tic Disorders [diagnosis]
+#### Tourette’s Disorder 307.23 (F95.2) [sub-diagnosis]
+#### Persistent (Chronic) Motor or Vocal Tic Disorder 307.22 (F95.1 )
+#### Provisional Tic Disorder 307.21 (F95.0)
+## Other Neurodevelopmental Disorders
+
+
+## pdftools better?
+## text <- pdftools::pdf_text("path/file.pdf")[10:16]
+
+## install pdftk on arch?
+## system("pdftk myfile.pdf cat 10-16 output myfile_10to16.pdf")
+
+## splitDSM <- split_pdf("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf")
+## merge_pdfs(splitDSM[10:16], 'dsm-5-manual-2013-sid10-16.pdf')
+## extract_tables("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 72) ## table, cannot be read
+
+## sectionTEST <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 611:618) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
+## sectionTEST <- paste(sectionTEST, collapse = "") ## collapse to one
+## sectionTEST <- gsub("­\n", "", sectionTEST) ## remove - end of line
+## sectionTEST <-
+##     gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", sectionTEST, perl=T) ## remove surplus newlines
+## removes \n not followed by parens or CAP or number followed by dot
+## sectionTEST <-
+    ## gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", "Unknown) \nSubstance-Induced Disorders\nBecause \nanew.", perl=T) 
+
+## identify headers as lines without dot or comma characters or a special expression for some lists of diagnosis codes
+## sectionTEST <-
+##     gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", sectionTEST, perl=T)
+
+## headers
+## format details
+## sectionTEST <-
+##     gsub("Specify(.*:\n)", "Specify\\1", sectionTEST)
+## sectionTEST <- gsub("(-){2,}", "", sectionTEST, perl=T)
+## sectionTEST <- gsub("(_){2,}", "", sectionTEST, perl=T)
+## sectionTEST <- gsub("(_̂){1,}", "", sectionTEST, perl=T)
+
+## local formatting
+## gsub("(?s)((?<=(\n\n## Other \\(or Unknown\\) \n\n)).*(?=## Diagnostic Criteria))", "", text, perl=T) ## correctly identifies text between bounds but no 
+##way to replace ## within region.

@@ -21,5 +21,7 @@ spellList <- list(
     '(_){2,}' = "",
     '(_̂){1,}' = "",
     'medicai' = "medical",
-    'icnown' = "known"
+    'icnown' = "known",
+    'abihty' = "ability",
+    'Witli' = "With"
 )
