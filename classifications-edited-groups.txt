@@ -11,7 +11,7 @@ Neurodevelopmental Disorders (31) @CHAPTER
 ## Other Neurodevelopmental Disorders (86)
 
 Schizophrenia Spectrum and Other Psychotic Disorders (87)
-## Schizoaffective Disorder
+## Schizoaffective Disorder [Layout not in subgoups, no need to group?]
 ## ## Bipolar type
 ## ## Depressive type
 

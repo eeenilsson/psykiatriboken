@@ -287,6 +287,7 @@ schizophreniaMain <- gsub("Disorder \n\n## Due to Another Medical Condition", "D
 schizophreniaMain <- gsub("Another \n\n## Mental", "Another Mental", schizophreniaMain)
 schizophreniaMain <- gsub("Due to \n\n## Another", "Due to Another", schizophreniaMain)
 schizophreniaMain <- gsub("Spectrum and \n\n## Other", "Spectrum and Other", schizophreniaMain)
+schizophreniaMain <- gsub("Disorder \n\n## Due", "Disorder Due", schizophreniaMain)
 
 #### table replacement
 startTag <- "(?s)(?<=substance-induced psychotic disorder\\.\n\n)##"
@@ -319,30 +320,14 @@ store <- schizophreniaMain
 ##schizophreniaMain <- store
 writeLines(schizophreniaMain, "schizophreniaMain.txt")
 
-
-## 
-
-schizophreniaMain <- gsub("(?s)\\.&.*Æu cru", "\n\n<--TABLE REMOVED-->", schizophreniaMain, perl = T)
-## schizophreniaMain <- gsub("c\\.2.cS.*(I  1 1)", "\n\n<--TABLE REMOVED-->", schizophreniaMain)
-schizophreniaMain <- gsub("c\\.2.cS.*I 1 1", "\n\n<--TABLE REMOVED-->", schizophreniaMain)
-schizophreniaMain <- gsub("Public Law \n\n111 ", "Public Law 111", schizophreniaMain)
-schizophreniaMain <- gsub("intoxications \n\n\\(e", "intoxications \\(e", schizophreniaMain)
-schizophreniaMain <- gsub("\n\nFragile X", "Fragile X", schizophreniaMain)
-schizophreniaMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", schizophreniaMain)
-schizophreniaMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", schizophreniaMain)
-schizophreniaMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", schizophreniaMain, perl = T)
-
 ### Add tags
 
+## Note bipolar sub-classification : 295.70 (F25.0) Bipolar type, should perhaps be marked as diagnosis, if so also Psychotic Disorder Due to Another Medical Condition
+
 #### List groups
+## No groups in this section
 groupList <- c(
-    "Intellectual Disabilities",
-    "Communication Disorders",
-    "Autism Spectrum Disorder",
-    "Attention-Deficit/Hyperactivity Disorder",
-    "Specific Learning Disorder",
-    "Motor Disorders",
-    "Other Schizophrenia Disorders"
+    "No groups" ## if empty, theere will be matches
 )
 
 ## assign group tags

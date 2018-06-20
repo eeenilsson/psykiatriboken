@@ -1,4 +1,4 @@
-## Delusional Disorder
+## Delusional disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 297.1 (F22)
 
@@ -102,7 +102,7 @@ Schizophrenia and schizophreniform disorder. Delusional disorder can be distingu
 
 Depressive and bipolar disorders and schizoaffective disorder. These disorders may be distinguished from delusional disorder by the temporal relationship between the mood disturbance and the delusions and by the severity of the mood symptoms. If delusions occur exclusively during mood episodes, the diagnosis is depressive or bipolar disorder with psychotic features. Mood symptoms that meet full criteria for a mood episode can be superimposed on delusional disorder. Delusional disorder can be diagnosed only if the total duration of all mood episodes remains brief relative to the total duration of the delusional disturbance. If not, then a diagnosis of other specified or unspecified schizophrenia spectrum and other psychotic disorder accompanied by other specified depressive disorder, unspecified depressive disorder, other specified bipolar and related disorder, or unspecified bipolar and related disorder is appropriate.
 
-## Brief Psychotic Disorder
+## Brief psychotic disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 298.8 (F23)
 
@@ -172,7 +172,7 @@ Temperamental. Preexisting personality disorders and traits (e.g., schizotypal p
 
 It is important to distinguish symptoms of brief psychotic disorder from culturally sanctioned response patterns. For example, in some religious ceremonies, an individual may report hearing voices, but these do not generally persist and are not perceived as abnormal by most members of the individual's community. In addition, cultural and religious background must be taken into account when considering whether beliefs are delusional.
 
-## Functional Consequences of Brief Psycliotic Disorder
+## Functional Consequences of Brief Psychotic Disorder
 
 Despite high rates of relapse, for most individuals, outcome is excellent in terms of social functioning and symptomatology.
 
@@ -194,7 +194,7 @@ When malingering involves apparently psychotic symptoms, there is usually eviden
 
 Personality disorders. In certain individuals with personality disorders, psychosocial stressors may precipitate brief periods of psychotic symptoms. These symptoms are usually transient and do not warrant a separate diagnosis. If psychotic symptoms persist for at least 1 day, an additional diagnosis of brief psychotic disorder may be appropriate.
 
-## Schizophreniform Disorder
+## Schizophreniform disorder <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 295.40 (F20.81)
 
@@ -276,7 +276,7 @@ Since the diagnostic criteria for schizophreniform disorder and schizophrenia di
 
 Brief psychotic disorder. Schizophreniform disorder differs in duration from brief psychotic disorder, which has a duration of less than 1 month.
 
-## Schizophrenia
+## Schizophrenia <--@DIAGNOSIS-->
 
 ### Diagnostic Criteria 295.90 (F20.9)
 
@@ -444,7 +444,7 @@ Life expectancy is reduced in individuals with schizophrenia because of associat
 
 Poor engagement in health maintenance behaviors (e.g., cancer screening, exercise) increases the risk of chronic disease, but other disorder factors, including medications, lifestyle, cigarette smoking, and diet, may also play a role. A shared vulnerability for psychosis and medical disorders may explain some of the medical comorbidity of schizophrenia.
 
-## Schizoaffective Disorder
+## Schizoaffective disorder <--@DIAGNOSIS-->
 
 ## Diagnostic Criteria
 
@@ -566,7 +566,7 @@ Schizophrenia, bipolar, and depressive disorders. Distinguishing schizoaffective
 
 Many individuals diagnosed with schizoaffective disorder are also diagnosed with other mental disorders, especially substance use disorders and anxiety disorders. Similarly, the incidence of medical conditions is increased above base rate for the general population and leads to decreased life expectancy.
 
-## Substance/Medication-Induced Psychotic Disorder
+## Substance/medication-induced psychotic disorder <--@DIAGNOSIS-->
 
 ## Diagnostic Criteria
 
@@ -598,39 +598,23 @@ Coding note: The ICD-9-CM and ICD-10-CIVI codes for the [specific substance/medi
 
 CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced psychotic disorder (e.g., “mild cocaine use disorder with cocaine-induced psychotic disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced psychotic disorder.
 
-## ICD-10-CM
+Alcohol: ICD-9-CM code 291.9; ICD-10-CM code if use disorder is mild (F10.159), -moderate or severe (F10.259) or without use disorder (F10.259)
 
-## ICD-9-CM
+Cannabis: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F12.159), -moderate or severe (F12.259) or without use disorder (F12.259)
 
-With use disorder, mild
+Phencyclidine: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F16.159), -moderate or severe (F16.259) or without use disorder (F16.259)
 
-With use disorder, moderate or severe
+Other hallucinogen: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F16.159), -moderate or severe (F16.259) or without use disorder (F16.259)
 
-Withoutusedisorder
+Inhalant: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F18.159), -moderate or severe (F18.259) or without use disorder (F18.259)
 
-Alcohol 291.9 F10.159 FI 0.259 FI 0.959
+Sedative, hypnotic, or anxiolytic: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F13.159), -moderate or severe (F13.259) or without use disorder (F13.259)
 
-Cannabis 292.9 F12.159 FI 2.259 FI 2.959
+Amphetamine (or other stimulant): ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F15.159), -moderate or severe (F15.259) or without use disorder (F15.259)
 
-Phencyclidine 292.9 F16.159 FI 6.259 FI 6.959
+Cocaine: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F14.159), -moderate or severe (F14.259) or without use disorder (F14.259)
 
-Other hallucinogen 292.9 FI 6.159 FI 6.259 FI 6.959
-
-Inhalant 292.9 F18.159 FI 8.259 FI 8.959
-
-Sedative, hypnotic, or anxiolytic
-
-292.9 FI 3.159 FI 3.259 FI 3.959
-
-## Amphetamine (or other stimulant)
-
-292.9 FI 5.159 FI 5.259 FI 5.959
-
-Cocaine 292.9 F14.159 FI 4.259 FI 4.959
-
-Other (or unknown) substance 292.9 FI 9.159 FI 9.259 FI 9.959
-
-_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+Other (or unknown) substance: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F19.159), -moderate or severe (F19.259) or without use disorder (F19.259)_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: If the criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
@@ -684,7 +668,7 @@ Substance/medication-induced psychotic disorder may at times persist when the of
 
 With substances for which relevant blood levels are available (e.g., blood alcohol level, other quantifiable blood levels such as digoxin), the presence of a level consistent with toxicity may increase diagnostic certainty.
 
-## Functional Consequences of Substance/Medication-induced Psycliotic Disorder
+## Functional Consequences of Substance/Medication-induced Psychotic Disorder
 
 Substance/medication-induced psychotic disorder is typically severely disabling and consequently is observed most frequently in emergency rooms, as individuals are often brought to the acute-care setting when it occurs. However, the disability is typically selflimited and resolves upon removal of the offending agent.
 
@@ -696,7 +680,7 @@ Primary psychotic disorder. A substance/medication-induced psychotic disorder is
 
 Psychotic disorder due to another medical condition. A substance/medication-induced psychotic disorder due to a prescribed treatment for a mental or medical condition must have its onset while the individual is receiving the medication (or during withdrawal, if there is a withdrawal syndrome associated with the medication). Because individuals with medical conditions often take medications for those conditions, the clinician must consider the possibility that the psychotic symptoms are caused by the physiological consequences of the medical condition rather than the medication, in which case psychotic disorder due to another medical condition is diagnosed. The history often provides the primary basis for such a judgment. At times, a change in the treatment for the medical condition (e.g., medication substitution or discontinuation) may be needed to determine empirically for that individual whether the medication is the causative agent. If the clinician has ascertained that the disturbance is attributable to both a medical condition and substance/medication use, both diagnoses (i.e., psychotic disorder due to another medical condition and substance/medication-induced psychotic disorder) may be given.
 
-## Psychotic Disorder Due to Another Medical Condition
+## Psychotic disorder due to another medical condition <--@DIAGNOSIS-->
 
 ## Diagnostic Criteria
 
@@ -768,9 +752,7 @@ The diagnosis of psychotic disorder due to another medical condition depends on 
 
 Suicide risk in the context of psychotic disorder due to another medical condition is not clearly delineated, although certain conditions such as epilepsy and multiple sclerosis are associated with increased rates of suicide, which may be further increased in the presence of psychosis.
 
-## Functional Consequences of Psycliotic Disorder 
-
-## Due to Another IVIedical Condition
+## Functional Consequences of Psychotic Disorder Due to Another IVIedical Condition
 
 Functional disability is typically severe in the context of psychotic disorder due to another medical condition but will vary considerably by the type of condition and likely improve with successful resolution of the condition.
 
@@ -792,7 +774,7 @@ Catatonia can occur in the context of several disorders, including neurodevelopm
 
 Catatonia is defined by the presence of three or more of 12 psychomotor features in the diagnostic criteria for catatonia associated with another mental disorder and catatonic disorder due to another medical condition. The essential feature of catatonia is a marked psychomotor disturbance that may involve decreased motor activity, decreased engagement during interview or physical examination, or excessive and peculiar motor activity. The clinical presentation of catatonia can be puzzling, as the psychomotor disturbance may range from marked unresponsiveness to marked agitation. Motoric immobility may be severe (stupor) or moderate (catalepsy and waxy flexibility). Similarly, decreased engagement may be severe (mutism) or moderate (negativism). Excessive and peculiar motor behaviors can be complex (e.g., stereotypy) or simple (agitation) and may include echola- lia and echopraxia. In extreme cases, the same individual may wax and wane between decreased and excessive motor activity. The seemingly opposing clinical features and variable manifestations of the diagnosis contribute to a lack of awareness and decreased recognition of catatonia. During severe stages of catatonia, the individual may need careful supervision to avoid self-harm or harming others. There are potential risks from malnutrition, exhaustion, hyperpyrexia and self-inflicted injury.
 
-## Catatonia Associated With Another Mental Disorder (Catatonia Specifier)
+## Catatonia associated with another mental disorder (catatonia specifier) <--@DIAGNOSIS-->
 
 293.89 (F06.1)
 
@@ -872,13 +854,13 @@ A variety of medical conditions may cause catatonia, especially neurological con
 
 A separate diagnosis of catatonic disorder due to another medical condition is not given if the catatonia occurs exclusively during the course of a delirium or neuroleptic malignant syndrome. If the individual is currently taking neuroleptic medication, consideration should be given to medication-induced movement disorders (e.g., abnormal positioning may be due to neuroleptic-induced acute dystonia) or neuroleptic malignant syndrome (e.g., catatonic-like features may be present, along with associated vital sign and/or laboratory abnormalities). Catatonic symptoms may be present in any of the following five psychotic disorders: brief psychotic disorder, schizophreniform disorder, schizophrenia, schizoaffective disorder, and substance/medication-induced psychotic disorder. It may also be present in some of the neurodevelopmental disorders, in all of the bipolar and depressive disorders, and in other mental disorders.
 
-## Unspecified Catatonia
+## Unspecified catatonia <--@DIAGNOSIS-->
 
 This category applies to presentations in which symptoms characteristic of catatonia cause clinically significant distress or impairment in social, occupational, or other important areas of functioning but either the nature of the underlying mental disorder or other medical condition is unclear, full criteria for catatonia are not met, or there is insufficient information to make a more specific diagnosis (e.g., in emergency room settings).
 
 Coding note: Code first 781.99 (R29.818) other symptoms involving nervous and musculoskeletal systems, followed by 293.89 (F06.1) unspecified catatonia.
 
-## Other Specified Schizophrenia Spectrum and Other Psychotic Disorder
+## Other specified schizophrenia spectrum and other psychotic disorder <--@DIAGNOSIS-->
 
 298.8 (F28)
 
@@ -886,7 +868,7 @@ This category applies to presentations in which symptoms characteristic of a sch
 
 ## Examples of presentations that can be specified using the “other specified” designation include the following:
 
-1. Persistent auditory liallucinations occurring in the absence of any other features.
+1. Persistent auditory hallucinations occurring in the absence of any other features.
 
 2. Deiusions with significant overlapping mood episodes: This includes persistent delusions with periods of overlapping mood episodes that are present for a substantial portion of the delusional disturbance (such that the criterion stipulating only brief mood disturbance in delusional disorder is not met).
 
@@ -894,7 +876,7 @@ This category applies to presentations in which symptoms characteristic of a sch
 
 4. Deiusionai symptoms in partner of individuai witii deiusionai disorder: In the context of a relationship, the delusional material from the dominant partner provides content for delusional belief by the individual who may not othenwise entirely meet criteria for delusional disorder.
 
-## Unspecified Schizophrenia Spectrum and Other Psychotic Disorder
+## Unspecified schizophrenia spectrum and other psychotic disorder <--@DIAGNOSIS-->
 
 298.9 (F29)
 
