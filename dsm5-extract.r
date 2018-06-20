@@ -286,16 +286,31 @@ schizophreniaMain <- gsub("Induced \n\n##", "Induced", schizophreniaMain)
 startTag <- "(?s)(?<=substance-induced psychotic disorder\\.\n\n)##"
 stopTag <- "(?=_Specify..if \\(see Table 1)"
 paste(startTag, ".*", stopTag, sep= "")
-schizophreniaMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P111-->", schizophreniaMain, perl=T) ## table
+schizophreniaMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P111-->\n\n", schizophreniaMain, perl=T) ## table
 ## Note: See csv file, to get a markdown table:
 tab <- read_csv("table-p111.csv")
 kable(tab[1:9, 1:5],
       caption = tab[10,]$text,
       align=c('lcccc')
       )
+allRows <- list() 
+for(i in 2:nrow(tab)-1){
+   newRow <- 
+        paste(tab[[1]][i],
+              ": ICD-9-CM code ", tab[[2]][i],
+              "; ICD-10-CM code if use disorder is mild (", tab[[3]][i],
+              "), -moderate or severe (", tab[[4]][i],
+              ") or without use disorder (", tab[[4]][i],
+              ")",
+              sep = "")
+   allRows[i] <- newRow
+}
+replaceTable <- paste(allRows, collapse = "\n\n")
+schizophreniaMain <- gsub("<--TABLE-P111-->\n\n", replaceTable, schizophreniaMain, perl=T) ## table
+
 
 store <- schizophreniaMain
-schizophreniaMain <- store
+##schizophreniaMain <- store
 
 writeLines(schizophreniaMain, "schizophreniaMain.txt")
 

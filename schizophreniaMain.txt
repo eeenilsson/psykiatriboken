@@ -598,7 +598,23 @@ Coding note: The ICD-9-CM and ICD-10-CIVI codes for the [specific substance/medi
 
 CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced psychotic disorder (e.g., “mild cocaine use disorder with cocaine-induced psychotic disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced psychotic disorder.
 
-TABLE_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+Alcohol: ICD-9-CM code 291.9; ICD-10-CM code if use disorder is mild (F10.159), -moderate or severe (F10.259) or without use disorder (F10.259)
+
+Cannabis: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F12.159), -moderate or severe (F12.259) or without use disorder (F12.259)
+
+Phencyclidine: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F16.159), -moderate or severe (F16.259) or without use disorder (F16.259)
+
+Other hallucinogen: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F16.159), -moderate or severe (F16.259) or without use disorder (F16.259)
+
+Inhalant: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F18.159), -moderate or severe (F18.259) or without use disorder (F18.259)
+
+Sedative, hypnotic, or anxiolytic: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F13.159), -moderate or severe (F13.259) or without use disorder (F13.259)
+
+Amphetamine (or other stimulant): ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F15.159), -moderate or severe (F15.259) or without use disorder (F15.259)
+
+Cocaine: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F14.159), -moderate or severe (F14.259) or without use disorder (F14.259)
+
+Other (or unknown) substance: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F19.159), -moderate or severe (F19.259) or without use disorder (F19.259)_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: If the criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
