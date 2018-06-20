@@ -28,9 +28,9 @@ Disorganized thinking (formal thought disorder) is typically inferred from the i
 
 Because mildly disorganized speech is common and nonspecific, the symptom must be severe enough to substantially impair effective communication. The severity of the impairment may be difficult to evaluate if the person making the diagnosis comes from a different linguistic background than that of the person being examined. Less severe disorganized thinking or speech may occur during the prodromal and residual periods of schizophrenia.
 
-## Grossly Disorganized or Abnormai iViotor Behavior 
+## Grossly Disorganized or Abnormai Motor Behavior 
 
-## (inciuding Catatonia)
+## (including Catatonia)
 
 Grossly disorganized or abnormal motor behavior may manifest itself in a variety of ways, ranging from childlike "silliness" to unpredictable agitation. Problems may be noted in any form of goal-directed behavior, leading to difficulties in performing activities of daily living.
 
@@ -42,7 +42,7 @@ Catatonic behavior is a marked decrease in reactivity to the environment. This r
 
 Negative symptoms account for a substantial portion of the morbidity associated with schizophrenia but are less prominent in other psychotic disorders. Two negative symptoms are particularly prominent in schizophrenia: diminished emotional expression and avolition. Diminished emotional expression includes reductions in the expression of emotions in the face, eye contact, intonation of speech (prosody), and movements of the hand, head, and face that normally give an emotional emphasis to speech. Avolition is a decrease in motivated self-initiated purposeful activities. The individual may sit for long periods of time and show little interest in participating in work or social activities. Other negative symptoms include alogia, anhedonia, and asociality. Alogia is manifested by diminished speech output. Anhedonia is the decreased ability to experience pleasure from positive stimuli or a degradation in the recollection of pleasure previously experienced. Asociality refers to the apparent lack of interest in social interactions and may be associated with avolition, but it can also be a manifestation of limited opportunities for social interactions.
 
-## Disorders in Tliis CInapter
+## Disorders in This Chapter
 
 This chapter is organized along a gradient of psychopathology. Clinicians should first consider conditions that do not reach full criteria for a psychotic disorder or are limited to onedomain of psychopathology. Then they should consider time-limited conditions. Finally, the diagnosis of a schizophrenia spectrum disorder requires the exclusion of another condition that may give rise to psychosis.
 
@@ -92,11 +92,11 @@ E. The disturbance is not attributable to the physiological effects of a substan
 
 ## Specify whether:
 
-Erotomanie type: This subtype applies when the central theme of the delusion is that another person is in love with the individual.
+Erotomanic type: This subtype applies when the central theme of the delusion is that another person is in love with the individual.
 
 Grandiose type: This subtype applies when the central theme of the delusion is the conviction of having some great (but unrecognized) talent or insight or having made some important discovery.
 
-Jeaious type: This subtype applies when the central theme of the individual’s delusion is that his or her spouse or lover is unfaithful.
+Jealous type: This subtype applies when the central theme of the individual’s delusion is that his or her spouse or lover is unfaithful.
 
 Persecutory type: This subtype applies when the central theme of the delusion involves the individual’s belief that he or she is being conspired against, cheated, spied on, followed, poisoned or drugged, maliciously maligned, harassed, or obstructed in the pursuit of long-term goals.
 

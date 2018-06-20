@@ -598,23 +598,39 @@ Coding note: The ICD-9-CM and ICD-10-CIVI codes for the [specific substance/medi
 
 CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced psychotic disorder (e.g., “mild cocaine use disorder with cocaine-induced psychotic disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced psychotic disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced psychotic disorder.
 
-Alcohol: ICD-9-CM code 291.9; ICD-10-CM code if use disorder is mild (F10.159), -moderate or severe (F10.259) or without use disorder (F10.259)
+## ICD-10-CM
 
-Cannabis: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F12.159), -moderate or severe (F12.259) or without use disorder (F12.259)
+## ICD-9-CM
 
-Phencyclidine: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F16.159), -moderate or severe (F16.259) or without use disorder (F16.259)
+With use disorder, mild
 
-Other hallucinogen: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F16.159), -moderate or severe (F16.259) or without use disorder (F16.259)
+With use disorder, moderate or severe
 
-Inhalant: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F18.159), -moderate or severe (F18.259) or without use disorder (F18.259)
+Withoutusedisorder
 
-Sedative, hypnotic, or anxiolytic: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F13.159), -moderate or severe (F13.259) or without use disorder (F13.259)
+Alcohol 291.9 F10.159 FI 0.259 FI 0.959
 
-Amphetamine (or other stimulant): ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F15.159), -moderate or severe (F15.259) or without use disorder (F15.259)
+Cannabis 292.9 F12.159 FI 2.259 FI 2.959
 
-Cocaine: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F14.159), -moderate or severe (F14.259) or without use disorder (F14.259)
+Phencyclidine 292.9 F16.159 FI 6.259 FI 6.959
 
-Other (or unknown) substance: ICD-9-CM code 292.9; ICD-10-CM code if use disorder is mild (F19.159), -moderate or severe (F19.259) or without use disorder (F19.259)_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+Other hallucinogen 292.9 FI 6.159 FI 6.259 FI 6.959
+
+Inhalant 292.9 F18.159 FI 8.259 FI 8.959
+
+Sedative, hypnotic, or anxiolytic
+
+292.9 FI 3.159 FI 3.259 FI 3.959
+
+## Amphetamine (or other stimulant)
+
+292.9 FI 5.159 FI 5.259 FI 5.959
+
+Cocaine 292.9 F14.159 FI 4.259 FI 4.959
+
+Other (or unknown) substance 292.9 FI 9.159 FI 9.259 FI 9.959
+
+_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: If the criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
@@ -638,9 +654,7 @@ When recording the name of the disorder, the comorbid substance use disorder (if
 
 ## Diagnostic Features
 
-The essential features of substance/medication-induced psychotic disorder are prominent delusions and/or hallucinations (Criterion A) that are judged to be due to the physiological effects of a substance/medication (i.e., a drug of abuse, a medication, or a toxin exposure) (Criterion B). Hallucinations that the individual realizes are substance/medication- induced are not included here and instead would be diagnosed as substance intoxicationor substance withdrawal with the accompanying specifier "with perceptual disturbances" 
-
-(applies to alcohpl withdrawal; cannabis intoxication; sedative, hypnotic, or anxiolytic withdrawal; and stimulant intoxication).
+The essential features of substance/medication-induced psychotic disorder are prominent delusions and/or hallucinations (Criterion A) that are judged to be due to the physiological effects of a substance/medication (i.e., a drug of abuse, a medication, or a toxin exposure) (Criterion B). Hallucinations that the individual realizes are substance/medication- induced are not included here and instead would be diagnosed as substance intoxicationor substance withdrawal with the accompanying specifier "with perceptual disturbances" (applies to alcohpl withdrawal; cannabis intoxication; sedative, hypnotic, or anxiolytic withdrawal; and stimulant intoxication).
 
 A substance/medication-induced psychotic disorder is distinguished from a primary psychotic disorder by considering the onset, course, and other factors. For drugs of abuse, there must be evidence from the history, physical examination, or laboratory findings of substance use, intoxication, or withdrawal. Substance/medication-induced psychotic disorders arise during or soon after exposure to a medication or after substance intoxication or withdrawal but can persist for weeks, whereas primary psychotic disorders may precede the onset of substance/medication use or may occur during times of sustained abstinence. Once initiated, the psychotic symptoms may continue as long as the substance/ medication use continues. Another consideration is the presence of features that are atypical of a primary psychotic disorder (e.g., atypical age at onset or course). For example, the appearance of delusions de novo in a person older than 35 years without a known history of a primary psychotic disorder should suggest the possibility of a substance/medication- induced psychotic disorder. Even a prior history of a primary psychotic disorder does not rule out the possibility of a substance/medication-induced psychotic disorder. In contrast, factors that suggest that the psychotic symptoms are better accounted for by a primary psychotic disorder include persistence of psychotic symptoms for a substantial period of time (i.e., a month or more) after the end of substance intoxication or acute substance withdrawal or after cessation of medication use; or a history of prior recurrent primary psychotic disorders. Other causes of psychotic symptoms must be considered even in an individual with substance intoxication or withdrawal, because substance use problems are not uncommon among individuals with non-substance/medication-induced psychotic disorders.
 
@@ -682,9 +696,7 @@ Primary psychotic disorder. A substance/medication-induced psychotic disorder is
 
 Psychotic disorder due to another medical condition. A substance/medication-induced psychotic disorder due to a prescribed treatment for a mental or medical condition must have its onset while the individual is receiving the medication (or during withdrawal, if there is a withdrawal syndrome associated with the medication). Because individuals with medical conditions often take medications for those conditions, the clinician must consider the possibility that the psychotic symptoms are caused by the physiological consequences of the medical condition rather than the medication, in which case psychotic disorder due to another medical condition is diagnosed. The history often provides the primary basis for such a judgment. At times, a change in the treatment for the medical condition (e.g., medication substitution or discontinuation) may be needed to determine empirically for that individual whether the medication is the causative agent. If the clinician has ascertained that the disturbance is attributable to both a medical condition and substance/medication use, both diagnoses (i.e., psychotic disorder due to another medical condition and substance/medication-induced psychotic disorder) may be given.
 
-## Psychotic Disorder 
-
-## Due to Another Medical Condition
+## Psychotic Disorder Due to Another Medical Condition
 
 ## Diagnostic Criteria
 
@@ -752,7 +764,7 @@ Course modifiers. Identification and treatment of the underlying medical conditi
 
 The diagnosis of psychotic disorder due to another medical condition depends on the clinical condition of each individual, and the diagnostic tests will vary according to that condition. A variety of medical conditions may cause psychotic symptoms. These include neurological conditions (e.g., neoplasms, cerebrovascular disease, Huntington's disease, multiple sclerosis, epilepsy, auditory or visual nerve injury or impairment, deafness, migraine, central nervous system infections), endocrine conditions (e.g., hyper- and hypothyroidism, hyper- and hypoparathyroidism, hyper- and hypoadrenocorticism), metabolic conditions (e.g., hypoxia, hypercarbia, hypoglycemia), fluid or electrolyte imbalances, hepatic or renal diseases, and autoimmune disorders with central nervous system involvement (e.g., systemic lupus erythematosus). The associated physical examination findings, laboratory findings, and patterns of prevalence or onset reflect the etiological medical condition.
 
-## Suicide Risl(
+## Suicide Risk
 
 Suicide risk in the context of psychotic disorder due to another medical condition is not clearly delineated, although certain conditions such as epilepsy and multiple sclerosis are associated with increased rates of suicide, which may be further increased in the presence of psychosis.
 
@@ -780,9 +792,7 @@ Catatonia can occur in the context of several disorders, including neurodevelopm
 
 Catatonia is defined by the presence of three or more of 12 psychomotor features in the diagnostic criteria for catatonia associated with another mental disorder and catatonic disorder due to another medical condition. The essential feature of catatonia is a marked psychomotor disturbance that may involve decreased motor activity, decreased engagement during interview or physical examination, or excessive and peculiar motor activity. The clinical presentation of catatonia can be puzzling, as the psychomotor disturbance may range from marked unresponsiveness to marked agitation. Motoric immobility may be severe (stupor) or moderate (catalepsy and waxy flexibility). Similarly, decreased engagement may be severe (mutism) or moderate (negativism). Excessive and peculiar motor behaviors can be complex (e.g., stereotypy) or simple (agitation) and may include echola- lia and echopraxia. In extreme cases, the same individual may wax and wane between decreased and excessive motor activity. The seemingly opposing clinical features and variable manifestations of the diagnosis contribute to a lack of awareness and decreased recognition of catatonia. During severe stages of catatonia, the individual may need careful supervision to avoid self-harm or harming others. There are potential risks from malnutrition, exhaustion, hyperpyrexia and self-inflicted injury.
 
-## Catatonia Associated With Another 
-
-## Mental Disorder (Catatonia Specifier)
+## Catatonia Associated With Another Mental Disorder (Catatonia Specifier)
 
 293.89 (F06.1)
 
@@ -814,9 +824,7 @@ Catatonia associated with another mental disorder (catatonia specifier) may be u
 
 Induced Movement Disorders and Other Adverse Effects of Medication"). Because of the seriousness of the complications, particular attention should be paid to the possibility that the catatonia is attributable to 333.92 (G21.0) neuroleptic malignant syndrome.
 
-## Catatonic Disorder Due to 
-
-## Another IVIedical Condition
+## Catatonic Disorder Due to Another IVIedical Condition
 
 ### Diagnostic Criteria 293.89 (F06.1)
 
@@ -870,9 +878,7 @@ This category applies to presentations in which symptoms characteristic of catat
 
 Coding note: Code first 781.99 (R29.818) other symptoms involving nervous and musculoskeletal systems, followed by 293.89 (F06.1) unspecified catatonia.
 
-## Other Specified Schizophrenia Spectrum and 
-
-## Other Psychotic Disorder
+## Other Specified Schizophrenia Spectrum and Other Psychotic Disorder
 
 298.8 (F28)
 
@@ -888,9 +894,7 @@ This category applies to presentations in which symptoms characteristic of a sch
 
 4. Deiusionai symptoms in partner of individuai witii deiusionai disorder: In the context of a relationship, the delusional material from the dominant partner provides content for delusional belief by the individual who may not othenwise entirely meet criteria for delusional disorder.
 
-## Unspecified Schizophrenia Spectrum and 
-
-## Other Psychotic Disorder
+## Unspecified Schizophrenia Spectrum and Other Psychotic Disorder
 
 298.9 (F29)
 

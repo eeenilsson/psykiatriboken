@@ -282,7 +282,13 @@ schizophreniaMain <- gsub("impairment \n\n\\(see", "impairment \\(see", schizoph
 schizophreniaMain <- gsub("presentations \n\n\\(associated", "presentations \\(associated", schizophreniaMain)
 schizophreniaMain <- gsub("hearing \n\nGod", "hearing God", schizophreniaMain)
 schizophreniaMain <- gsub("Induced \n\n##", "Induced", schizophreniaMain)
-#### table
+schizophreniaMain <- gsub("(with perceptual disturbances..)(\n\n)(\\(applies)", "\\1\\3", schizophreniaMain)
+schizophreniaMain <- gsub("Disorder \n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", schizophreniaMain)
+schizophreniaMain <- gsub("Another \n\n## Mental", "Another Mental", schizophreniaMain)
+schizophreniaMain <- gsub("Due to \n\n## Another", "Due to Another", schizophreniaMain)
+schizophreniaMain <- gsub("Spectrum and \n\n## Other", "Spectrum and Other", schizophreniaMain)
+
+#### table replacement
 startTag <- "(?s)(?<=substance-induced psychotic disorder\\.\n\n)##"
 stopTag <- "(?=_Specify..if \\(see Table 1)"
 paste(startTag, ".*", stopTag, sep= "")
@@ -311,8 +317,8 @@ schizophreniaMain <- gsub("<--TABLE-P111-->\n\n", replaceTable, schizophreniaMai
 
 store <- schizophreniaMain
 ##schizophreniaMain <- store
-
 writeLines(schizophreniaMain, "schizophreniaMain.txt")
+
 
 ## 
 
