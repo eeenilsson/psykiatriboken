@@ -251,6 +251,8 @@ x
 ## : \n\n bounded by note:
 "## Word reading"
 
+SE: https://emacs.stackexchange.com/questions/32530/incorrect-value-of-region-end-in-function-that-calls-replace-string
+
 text <- "mark:\n\n## Headera\n\n## Headerb\n\nNote"
 
 (while (re-search-forward "hello" nil t)
@@ -294,30 +296,126 @@ http://ergoemacs.org/emacs/elisp_cursor_position.html
     (point-min) ;; go to start of buffer
     (setq getStart ":\n\n##") ;; ## after :
     (setq getStop "\n\n[^##]") ;; ## not followed by ##
-    (re-search-forward getStart)
-;;    (set-mark)
-    (push-mark)
-    (re-search-forward getStop)
-    (activate-mark)
+   ;; (re-search-forward getStart)
+    (set-mark (re-search-forward getStart))
+    (goto-char (re-search-forward getStop))
+    
+;;    (push-mark)
+;;    (activate-mark)
+    (setq mark-active t)
+    ;;  (set-mark (re-search-forward getStart))
+;;    (set-mark (re-search-forward getStop))
+;;    (push-mark)
+;;    (re-search-forward getStop)
+
     ;;   (push-mark)
 ;;    (setq startPos (make-marker))
 ;;    (setq stopPos (make-marker))
-    ;; (setq startPos (region-beginning))
-    ;; (setq stopPos (region-end))
 ;;    (setq startPos (14548))
 ;;    (setq stopPos (14628))
-    ;;    (replace-string "##" "hello")
-    ;;   (replace-regexp "##" "hello" startPos stopPos)
+ ;;       (replace-string "##" "hello")
     ;; (replace-regexp "##" "hello" "14548" "14628")
-  ;;   (replace-regexp "##" "hello") ;; whole buffer
-;;(print stopPos)
+   ;;(replace-regexp "##" "hello") ;; whole buffer
+
+    (let(
+    (startPos (region-beginning))
+    (stopPos (region-end))    
+    )
+        (replace-regexp "##" "hello" startPos stopPos)
+    )
+
+    ;;     
+    ;;(print stopPos)
 )
+
+(defun replace-in-region (beg end)
+    ;; replace ## in region
+  (interactive "r")
+  (save-restriction
+    (narrow-to-region beg end)
+    (goto-char (point-min))
+    (while (re-search-forward "##" nil t)
+      (replace-match (if (eq (char-after (1- (point))) ?\ ) " " "")))))
+
+
+
+
+(defun collapse-list ()
+    (interactive)
+    ;; Remove ## from lists preceded by :
+    (progn
+    (point-min) ;; go to start of buffer
+    (setq getStart ":\n\n##") ;; ## after :
+    (setq getStop "\n\n[^##]") ;; ## not followed by ##
+    (re-search-forward getStart)
+    (push-mark)
+    ;;(set-mark (re-search-forward getStart))
+        (goto-char (re-search-forward getStop))
+        (setq mark-active t)
+    (replace-in-region (beg end))
+
+    ))
+
+
+(defun collapse-list ()
+    (interactive)
+(set-mark (point-min))
+    (goto-char (point-max))
+    (activate-mark)
+)
+
+
+(defun replace-in-region (beg end)
+    ;; replace ## in region
+    (interactive "r")       
+(set-mark (point-min))
+    (goto-char (point-max))
+    (activate-mark)
+  (save-restriction
+    (narrow-to-region beg end)
+    (goto-char (point-min))
+    (while (re-search-forward "##" nil t)
+      (replace-match (if (eq (char-after (1- (point))) ?\ ) " " "")))))
+
+## here
+
+(defun replace-in-region (beg end)
+    ;; replace ## in region
+    (interactive "r")       
+    ;; (set-mark (point-min))
+    (set-mark (re-search-forward getStart))
+    (goto-char (re-search-forward getStop))
+    ;;(goto-char (point-max))
+    (activate-mark)
+  (save-restriction
+    (narrow-to-region beg end)
+    (goto-char (point-min))
+    (while (re-search-forward "##" nil t)
+      (replace-match (if (eq (char-after (1- (point))) ?\ ) " " "")))))
+
+
+    (setq getStart ":\n\n##") ;; ## after :
+    (setq getStop "\n\n[^##]") ;; ## not followed by ##
+
+(goto-char (re-search-forward getStart))
+(set-mark (re-search-forward getStart))
+(goto-char (re-search-forward getStop))
+
+
+
 
 
 (Replace-regexp "##" "hello" 14548 14628)
 14548
 14628
 (Region-beginning)
+
+###
+
+
+hkhlk
+
+                                        #
 
 (region-end)
 
