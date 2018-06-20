@@ -25,14 +25,29 @@
    ;; (activate-mark)
  (save-restriction
     (narrow-to-region (region-beginning) (region-end))
-    ;;(replace-string "##" "hello")
-    ;;)
     (goto-char (point-min))
     (while (re-search-forward "##" nil t)
-       (replace-match (if (eq (char-after (1- (point))) ?\ ) " " ""))
-    ) ;; While
+       (replace-match (if (eq (char-after (1- (point))) ?\ ) " " "-"))
+       )
+    )
+ )
+
+
+
+(re-search-forward getStart)
+
+(defun erik-test-all ()
+  (interactive)
+  (while (< (point) (point-max))
+      ;;(re-search-forward getStart nil t)
+    (replace-in-region)
+    )
   )
-)
+
+
+(while (< (point) (point-min))
+  )
+
 
 ## here
 
