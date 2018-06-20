@@ -1,71 +1,13 @@
 #### extract dsm-5 to txt (note this is the old non-revised dsm-5 version)
+## Main script for DSM5 extraction
 
 ## packages
-pacman::p_load(tidyverse, tabulizer, rJava)
+pacman::p_load(tidyverse, tabulizer, rJava, knitr)
 
 ## Functions
-spellCorrect <- function(SPELL, CHUNK){
-    ## Replaces matches in CHUNK from SPELL list. SPELL is a list of named elements with name = match and value = replacement 
-    TEMP <- CHUNK
-    for (i in 1:length(SPELL)){
-    TEMP <-
-        gsub(names(SPELL[i]), SPELL[i][[1]], TEMP, perl=T)
-    }
-    return(TEMP)    
-}
-
-makeHeaders <-function(x){
-    gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
-}
-
-cleanNewlines <- function(CHUNK){
-    ## removes newlines not followed by parens, Cap, number. or multiplnumbers
-    gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
-}
-
-cleanText <- function(CHUNK) {
-    ## gathers some text cleaning functions
-    TEMP <- CHUNK
-    TEMP <- gsub("­\n", "", TEMP) ## remove - at end of line
-    TEMP <- spellCorrect(spellList, TEMP)
-    TEMP <- cleanNewlines(TEMP)
-    TEMP <- gsub("\n", "\n\n", TEMP) ## double newline
-    TEMP <- gsub("•", "\n•", TEMP)
-    TEMP <- gsub("\\.{2,}", "\t", TEMP)
-    TEMP <- gsub("((?<=\\.)[A-Z])", " \\1", TEMP, perl=T)
-    return(TEMP)
-}
-
-cleanMore <- function(CHUNK){
-    TEMP <- CHUNK
-    TEMP <- gsub("(\n\n## )([0-9])", "\n\n\\2", TEMP, perl = T)
-    TEMP <- gsub("## \\(", "\\(", TEMP) ## removes hashes before severity diagnoses
-    TEMP <- gsub("## With", "With", TEMP)
-    TEMP <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", TEMP, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
-    TEMP <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", TEMP) ## make ##Disorder not be separate header
-    TEMP <- gsub("(### )([A-Z]\\.)", "\\2", TEMP)
-    TEMP <- gsub("## Specify", "_Specify_", TEMP)
-    TEMP <- gsub("(\\.)([a-z]\\.[[:blank:]][A-Z])", "\\1\n\\2", TEMP) ## lowercase lists
-    TEMP <- gsub("\\/.\n\n## ", "\\/", TEMP) ## remove forwardslash
-    TEMP <- gsub("(?<=(##))( .*)\n\n\\(", "\\2 (", TEMP, perl=T)
-    TEMP <- gsub("([a-z])( \n\n)(\\(e\\.g\\.)", "\\1 \\3", TEMP) ## e.g
-    TEMP <- gsub("[[:blank:]]{2,}", " ", TEMP) ## remove repeated spaces
-return(TEMP)
-}
-
-assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash.replace = "##"){
-    ## Assign label 'tag' to strings in CHUNK matching LIST
-    TEMP <- CHUNK
-    for (i in 1:length(LIST)){
-        TEMP <- sub(paste("## ", LIST[i], sep = ""),
-                    paste(hash.replace, " ", LIST[i], " ", tag, sep = ""), TEMP,
-                    ignore.case = ignore.case)
-    }
-    return(TEMP)
-}
+source('dsm5-functions.r')
 
 ## variables
-
 source('replacement-list.r')
 
 ### read tags
@@ -79,69 +21,25 @@ listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmCle
 
 ### DSM-5 (not the updated version)
 
-## Title, copyright page etc ================
-## Page 1: Cover
-## Page 2: American Psychiatric Association (LIST OF NAMES OF OFFICERS)
+## Title, preface and more ================
+source('dsm5-title.r')
 
-## ## Page 3, Title page
-## DIAGNOSTIC AND STATISTICAL
-## MANUAL OF 
-## MENTAL DISORDERS
-## FIFTH EDITION
-## DSM-5^TM
-## LOGO: American Psychiatric Publishing
-## -----
-## Washington, DC
-## London, England
+## Section I ===================
+source('dsm5-section1.r')
 
-## Copyright page
-## ISBN 978-0-89042-554-1
-copyright <-
-    extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 4) 
+## Section II Diagnostic criteria ==========================
+source('dsm5-section2.r')
+## TOC
+## Preface
 
-## Contents
-contents <-
-    extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 5:6) ## contents
-contents <- paste(contents, collapse = "") ## collapse to one
-contents <- gsub("\\.{2,}", "\t", contents)
-contents <- gsub("Section", "## Section", contents)
-contents <- gsub("Appendix", "## Appendix", contents)
-contents <- gsub("Contents", "## Contents", contents)
-contents <- gsub("[[:blank:]]\n", " ", contents, perl=T, ignore.case=TRUE)
-contents <- gsub("(I{1,})\n", "\\1 ", contents, perl=T)
-contents <- gsub("##", "\n##", contents, perl=T)
-writeLines(contents, "contents.txt")
+## Section III ==============================
+## Diagnostic classifications
+source("dsm5-neurodevelopmental.r")
+source("dsm5-schizophrenia.r")
 
-## Taskforce (List of members)
-taskforce <-
-    extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 7:12)  
-taskforce <- paste(taskforce, collapse = "") ## collapse to one
 
-## ## Classifications (List of diagnoses and sub-diagnoses, import not working)
-## Note: import not working, codes in sequence instead of per line
-classifications <-     extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 13:40) ## classifications list start on p13
-classifications <- paste(classifications, collapse = "") ## collapse to one
-classifications <- cleanNewlines(classifications) ## not working here so well
-writeLines(classifications, "classifications.txt")
 
-## ICD9-CM (ICD10-CM)
-## TODO: Extract chapter names [A-Z].* ([0-9]{1,})\n
-
-## writeLines(
-##     grep("(?<=\n)[A-Z].*\\([0-9]{1,}(?=\\)\n)", text, value = T, perl = T)
-##   , "chapters.txt")
-## text <- "\nV62.9 (Z65.9) Unspecified Problem Related to Unspecified Psychosocial\nCircumstances (725)\nV15.49 Z91.49 TEST\nV15.59 (Z91.5)\nV62.22 (Z91.82)\nV15.89 (Z91.89)\nV69.9 (Z72.9)\nV71.01 (Z72.811)\nV71.02 (Z72.810)\nOther Circumstances of Personal History (726)\nOther Personal History of Psychological Trauma (726)\nPersonal History of Self-Harm (726)\nPersonal History of Military Deployment (726)\nOther Personal Risk Factors (726)\nProblem Related to Lifestyle (726)\nAdult Antisocial Behavior (726)\nChild or Adolescent Antisocial Behavior (726)\nProblems Related to Access to Medical and Other Health Care (726)\nV63.9 (Z75.3) Unavailability or Inaccessibility of Health Care Facilities (726) \nV63.8 (Z75.4) Unavailability or Inaccessibility of Other Helping Agencies (726)\nNonadherence to Medical Treatment (726)\n"
-## gsub("((?<=\n).*\\)(?=\n))", "## \\1", classifications, perl=T)
-
-## Preface ==============================
-preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 41:44) ## classifications list start on p13
-preface <- gsub("­\n", "", preface) ## remove - at end of line
-preface <- spellCorrect(spellList, preface)
-preface <- cleanNewlinesDot(preface)
-preface <- gsub("\n", "\n\n", preface) ## double newline
-preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", " American Psychiatric", preface)
-preface <- gsub("•", "\n•", preface)
-writeLines(preface, "preface.txt") ## Foreword
+## Notes
 
 ## Book elements =============
 
@@ -161,53 +59,7 @@ writeLines(preface, "preface.txt") ## Foreword
 ## Preface
 ## The preface usually describes why you wrote the book, your research methods and perhaps some acknowledgments if they have not been included in a separate section. It may also establish your qualifications and expertise as an authority in the field in which you're writing. Again, a preface is far more common in nonfiction titles and should be used only if necessary in fiction works.
 
-## Section I (Introduction/basics) ================================
-section1 <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 45:66) ## "DSM-5 basics". Note that chapter title is a graphic and will not be extracted
-section1 <- paste(section1, collapse = "")
-section1 <- gsub("ΤΙΊΘ C rG âtion  ", "\n The creation ", section1)
-section1 <- cleanText(section1)
-section1 <- makeHeaders(section1)
-writeLines(section1, "section1.txt")
 
-## Section II Diagnostic criteria ==========================
-
-### TOC
-section2toc <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 67) ## "Diagnostic criteria and codes". [TOC]
-section2toc <- paste(section2toc, collapse = "") ## collapse to one
-section2toc <- gsub("\\.{2,}", "\t", section2toc)
-section2toc <- gsub("\\.«.*riDiagnostic..", "## Diagnostic criteria and codes", section2toc)
-writeLines(section2toc, "section2toc.txt")
-
-### preface to section II
-section2preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 68) ## [Preface]
-section2preface <- paste(section2preface, collapse = "")
-section2preface <- cleanText(section2preface)
-section2preface <- makeHeaders(section2preface)
-writeLines(section2preface, "section2preface.txt")
-
-## Section III ==============================
-source("dsm5-neurodevelopmental.r")
-source("dsm5-schizophrenia.r")
-
-
-
-
-
-
-
-
-
-
-
-x
-
-#### develop
-
-## TODO
-## : \n\n bounded by note:
-"## Word reading"
-
-x
 ## Tag severity diagnoses
 ## Note: Working but should perhaps not be used?
 ## i <- 1
