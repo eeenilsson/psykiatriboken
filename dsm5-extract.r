@@ -377,51 +377,13 @@ http://ergoemacs.org/emacs/elisp_cursor_position.html
     (while (re-search-forward "##" nil t)
       (replace-match (if (eq (char-after (1- (point))) ?\ ) " " "")))))
 
-## here
 
-(defun replace-in-region (beg end)
-    ;; replace ## in region
-    (interactive "r")       
-    ;; (set-mark (point-min))
-    (set-mark (re-search-forward getStart))
-    (goto-char (re-search-forward getStop))
-    ;;(goto-char (point-max))
-    (activate-mark)
-  (save-restriction
-    (narrow-to-region beg end)
-    (goto-char (point-min))
-    (while (re-search-forward "##" nil t)
-      (replace-match (if (eq (char-after (1- (point))) ?\ ) " " "")))))
-
-
-    (setq getStart ":\n\n##") ;; ## after :
-    (setq getStop "\n\n[^##]") ;; ## not followed by ##
 
 (goto-char (re-search-forward getStart))
 (set-mark (re-search-forward getStart))
 (goto-char (re-search-forward getStop))
 
-
-
-
-
 (Replace-regexp "##" "hello" 14548 14628)
-14548
-14628
-(Region-beginning)
-
-###
-
-
-hkhlk
-
-                                        #
-
-(region-end)
-
-(region-beginning)
-
-(Print getStart)
 
 Coding note: Specify all academic domains and subskills that are impaired. When more than one domain is impaired, each one should be coded individually according to the following specifiers.
 
