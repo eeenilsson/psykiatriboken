@@ -6,23 +6,17 @@
 
 ;; ## here
 
-    (setq getStart ":\n\n##") ;; ## after :
-    (setq getStop "\n\n[^##]") ;; ## not followed by ##
 
-(defun replace-in-region ()
-  ;;beg end
-    ;; replace ## in region
-    (interactive)       ;; "r"
-    ;; (set-mark (point-min))
+(defun replace-bounded-hash ()
+    ;; replace ## in region bounded by START STOP
+;;  (interactive)
+  (let (
+	    (getStart ":\n\n##") ;; ## after :
+    (getStop "\n\n[^##]") ;; ## not followed by ##
+	)
     (goto-char (re-search-forward getStart))
     (set-mark (goto-char (re-search-backward "[a-z]:")))
-    ;; (push-mark)
-    ;; (set-mark (re-search-forward getStart))
-    ;;(set-mark (re-search-backward ":"))
     (goto-char (re-search-forward getStop))
-    ;;(goto-char (point-max))
-    ;;(setq mark-active t)
-   ;; (activate-mark)
  (save-restriction
     (narrow-to-region (region-beginning) (region-end))
     (goto-char (point-min))
@@ -31,22 +25,23 @@
        )
     )
  )
-
-
-
-(re-search-forward getStart)
+ )
 
 (defun erik-test-all ()
   (interactive)
   (while (< (point) (point-max))
-      ;;(re-search-forward getStart nil t)
-    (replace-in-region)
+    (replace-bounded-hash)
+    (deactivate-mark)
     )
   )
 
+###
 
-(while (< (point) (point-min))
-  )
+
+
+
+
+
 
 
 ## here
