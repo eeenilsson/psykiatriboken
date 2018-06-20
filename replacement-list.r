@@ -43,6 +43,7 @@ spellList <- list(
         'hypomanie' = "hypomanic",
     'atypicai' = "atypical",
     'meianchoiic' = "melancholic",
+    'hypomanic\\-iii<e' = "hypomanic-like",
     'péripartum' = "péripartum",
     ## Note: One-letter replacements should come at the end so that the above work
     ' ̂' = "",

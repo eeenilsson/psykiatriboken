@@ -52,6 +52,9 @@ bipolarMain <- gsub("Depressive \n\nEpisode", "Depressive Episode", bipolarMain)
 bipolarMain <- gsub("II disorder \n\n\\(Criterion B", "II disorder \\(Criterion B", bipolarMain)
 bipolarMain <- gsub("symptoms is \n\n6.5", "symptoms is 6.5", bipolarMain)
 bipolarMain <- gsub("cycling.\n\nBoth", "cycling. Both", bipolarMain)
+bipolarMain <- gsub("e.g.. \n\n292.84 methylphenidate", "e.g. 292.84 methylphenidate", bipolarMain)
+bipolarMain <- gsub("diagnosis is \n\nF14.24", "diagnosis is F14.24", bipolarMain)
+
 
 #### table replacement
 startTag <- "(?s)(?<=Codes are as follows.\n\n)"
