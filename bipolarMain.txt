@@ -106,27 +106,25 @@ B. The occurrence of the manic and major depressive episode(s) is not better exp
 
 The diagnostic code for bipolar I disorder is based on type of current or most recent episode and its status with respect to current severity, presence of psychotic features, and remission status. Current severity and psychotic features are only indicated if full criteria are currently met for a manic or major depressive episode. Remission specifiers are only indicated if the full criteria are not currently met for a manic, hypomanie, or major depressive episode. Codes are as follows:
 
-## Bipolar 1 disorder
+<--TABLE-P164 REPLACEMENT-->
 
-## Current or most recent episode manic
+- If Current or most recent episode manic: Mild 296.41 (F31.11), Moderate 296.42 (F31.12), Severe 296.43 (F31.13), With psychotic features 296.44 (F31.2), In partial remission 296.45 (F31.73), In full remission 296.46 (F31.74), Unspecified 296.40 (F31.9)
 
-## Current or most recent episode hypomanie*
+- If Current or most recent episode hypomanic: Mild ΝΑ, Moderate ΝΑ, Severe ΝΑ, With psychotic features ΝΑ, In partial remission 296.45 (F31.73), In full remission 296.46 (F31.74), Unspecified 296.40 (F31.9)
 
-## Current or most recent episode depressed
+- If Current or most recent episode depressed: Mild 296.51 (F31.31), Moderate 296.52 (F31.32), Severe 296.53 (F31.4), With psychotic features 296.54 (F31.5), In partial remission 296.55 (F31.75), In full remission 296.56 (F31.76), Unspecified 296.50 (F31.9)
 
-## Current or most recent episode unspecified**
+Codes in table are noted as ICD-9-CM (ICD-10-CM).
 
-Mild (p. 154) 296.41 ΝΑ 296.51 NA
+Current or most recent episode hypomanic: Severity and psychotic specifiers do not apply; code 296.40 (F31.0) for cases not in remission. 
 
-(F31.11) (F31.31)
+Current or most recent episode unspecified: Severity, psychotic, and remission specifiers do not apply. Code 296.7 (F31.9).
 
-Moderate (p. 154) 296.42 ΝΑ 296.52 NA
+With psychotic features: If psychotic features are present, code the "with psychotic features" specifier irrespective of episode severity.
 
-(F31.12) (F31.32)
+In recording the name of a diagnosis, terms should be listed in the following order: bipolar 
 
-Severe (p. 154) 296.43 ΝΑ 296.53 NA
-
-(F31.13) (F31.4)
+I disorder, type of current or most recent episode, severity/psychotic/remission specifiers, followed by as many specifiers without codes as apply to the current or most recent episode.
 
 In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to Wfeeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of a MDE is more persistent and not tied to specific thoughts or preoccupations. 
 
@@ -134,39 +132,8 @@ The pain of grief may be accompanied by positive emotions and humor that are unc
 
 In grief, self-esteem is generally preserved, whereas in a MDE, feelings of worthlessness and selfloathing are common. If self-derogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about "joining" the deceased, whereas in a major depressive episode such thoughts are focused on ending one's own life because of feeling worthless, undeserving of life, or unable to cope with the pain of depression.
 
-## Bipolar 1 disorder
 
-## Current or most recent episode manic
-
-## Current or most recent episode hypomanie*
-
-## Current or most recent episode depressed
-
-## Current or most recent episode unspecified**
-
-With psychotic 296.44 ΝΑ 296.54 NAfeatures*** (F31.2) (F31.5)
-
-(p. 152)
-
-In partial 296.45 296.45 296.55 NAremission (p. 154) (F31.73) (F31.73) (F31.75)
-
-In full remission 296.46 296.46 296.56 NA
-
-(p. 154) (F31.74) (F31.74) (F31.76)
-
-Unspecified 296.40 296.40 296.50 NA
-
-(F31.9) (F31.9) (F31.9)
-
-Severity and psychotic specifiers do not apply; code 296.40 (F31.0) for cases not in remission. 
-
-Severity, psychotic, and remission specifiers do not apply. Code 296.7 (F31.9).***If psychotic features are present, code the "with psychotic features" specifier irrespective of episode severity.
-
-In recording the name of a diagnosis, terms should be listed in the following order: bipolar 
-
-I disorder, type of current or most recent episode, severity/psychotic/remission specifiers, followed by as many specifiers without codes as apply to the current or most recent episode.
-
-Specify.
+Specify:
 
 With anxious distress (p. 149)
 
@@ -202,9 +169,7 @@ Inflated self-esteem is typically present, ranging from uncritical self-confiden
 
 One of the most common features is a decreased need for sleep (Criterion B2) and is distinct from insomnia in which the individual wants to sleep or feels the need to sleep but is unable. The individual may sleep httle, if at all, or may awaken several hours earlier than usual, feeling rested and full of energy. When the sleep disturbance is severe, the individual may go for days without sleep, yet not feel tired. Often a decreased need for sleep heralds the onset of a manic episode.
 
-Speech can be rapid, pressured, loud, and difficult to interrupt (Criterion B3). Individuals may talk continuously and without regard for others' wishes to communicate, often in an intrusive manner or without concern for the relevance of what is said. Speech is sometimes characterized by jokes, puns, amusing irrelevancies, and theatricality, with dramatic mannerisms, singing, and excessive gesturing. Loudness and forcefulness of speech often become more important than what is conveyed. If the individual's mood is more irritable than expansive, speech may be marked by complaints, hostile comments, or angry tirades, particularly if attempts are made to interrupt the individual. Both Criterion 
-
-A and Criterion B symptoms may be accompanied by symptoms of the opposite (i.e., depressive) pole (see "with mixed features" specifier, pp. 149-150).
+Speech can be rapid, pressured, loud, and difficult to interrupt (Criterion B3). Individuals may talk continuously and without regard for others' wishes to communicate, often in an intrusive manner or without concern for the relevance of what is said. Speech is sometimes characterized by jokes, puns, amusing irrelevancies, and theatricality, with dramatic mannerisms, singing, and excessive gesturing. Loudness and forcefulness of speech often become more important than what is conveyed. If the individual's mood is more irritable than expansive, speech may be marked by complaints, hostile comments, or angry tirades, particularly if attempts are made to interrupt the individual. Both Criterion A and Criterion B symptoms may be accompanied by symptoms of the opposite (i.e., depressive) pole (see "with mixed features" specifier, pp. 149-150).
 
 Often the individual's thoughts race at a rate faster than they can be expressed through speech (Criterion B4). Frequently there is flight of ideas evidenced by a nearly continuous flow of accelerated speech, with abrupt shifts from one topic to another. When flight of ideas is severe, speech may become disorganized, incoherent, and particularly distressful to the individual. Sometimes thoughts are experienced as so crowded that it is very difficult to speak.
 
@@ -356,9 +321,7 @@ C. The episode is not attributable to the physiological effects of a substance o
 
 Note: Criteria A-C above constitute a major depressive episode.
 
-Note: Responses to a significant loss (e.g., bereavement, financial ruin, losses from a natural disaster, a serious medical illness or disability) may include the feelings of intense sadness, rumination about the loss, insomnia, poor appetite, and weight loss noted in Criterion 
-
-A, which may resemble a depressive episode. Although such symptoms may be understandable or considered appropriate to the loss, the presence of a major depressive episode in addition to the normal response to a significant loss should be carefully considered. This decision inevitably requires the exercise of clinical judgment based on the individual’s history and the cultural norms for the expression of distress in the context of loss.̂
+Note: Responses to a significant loss (e.g., bereavement, financial ruin, losses from a natural disaster, a serious medical illness or disability) may include the feelings of intense sadness, rumination about the loss, insomnia, poor appetite, and weight loss noted in Criterion A, which may resemble a depressive episode. Although such symptoms may be understandable or considered appropriate to the loss, the presence of a major depressive episode in addition to the normal response to a significant loss should be carefully considered. This decision inevitably requires the exercise of clinical judgment based on the individual’s history and the cultural norms for the expression of distress in the context of loss.̂
 
 ## Bipolar II Disorder
 
@@ -403,8 +366,7 @@ With catatonia (p. 152). Coding note: Use additional code 293.89 (F06.1).
 With péripartum onset (pp. 152-153)
 
 With seasonal pattern (pp. 153-154): Applies only to the pattern of major depressive episodes.
-
-Specify course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
+Specify:course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
 
 In full remission (p. 154)
 
@@ -420,9 +382,7 @@ Severe (p. 154)
 
 ## Bipolar II disorder is characterized by a clinical course of recurring mood episodes consisting of one or more major depressive episodes (Criteria A-C under "Major Depressive 
 
-Episode") and at least one hypomanie episode (Criteria A-F under "Hypomanie Episode"). The major depressive episode must last at least 2 weeks, and the hypomarüc episode must last at least 4 days, to meet the diagnostic criteria. During the mood episode(s), the requisite number of symptoms must be present most of the day, nearly every day, and represent a noticeable change from usual behavior and functioning. The presence of a manic episode during the course of illness precludes the diagnosis of bipolar II disorder 
-
-(Criterion B under "Bipolar II Disorder"). Episodes of substance/medication-induced depressive disorder or substance/medication-induced bipolar and related disorder (representing the physiological effects of a medication, other somatic treatments for depression, drugs of abuse, or toxin exposure) or of depressive and related disorder due to another medical condition or bipolar and related disorder due to another medical condition do not count toward a diagnosis of bipolar II disorder unless they persist beyond the physiological effects of the treatment or substance and then meet duration criteria for an episode. In addition, the episodes must not be better accounted for by schizoaffective disorder and are not superimposed on schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum or other psychotic disorders (Criterion C under "Bipolar II Disorder"). The depressive episodes or hypomanie fluctuations must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion D under "Bipolar II Disorder"); however, for hypomanie episodes, this requirement does not have to be met. A hypomanie episode that causes significant impairment would likely qualify for the diagnosis of manic episode and, therefore, for a lifetime diagnosis of bipolar I disorder. The recurrent major depressive episodes are often more frequent and lengthier than those occurring in bipolar I disorder.
+Episode") and at least one hypomanie episode (Criteria A-F under "Hypomanie Episode"). The major depressive episode must last at least 2 weeks, and the hypomarüc episode must last at least 4 days, to meet the diagnostic criteria. During the mood episode(s), the requisite number of symptoms must be present most of the day, nearly every day, and represent a noticeable change from usual behavior and functioning. The presence of a manic episode during the course of illness precludes the diagnosis of bipolar II disorder (Criterion B under "Bipolar II Disorder"). Episodes of substance/medication-induced depressive disorder or substance/medication-induced bipolar and related disorder (representing the physiological effects of a medication, other somatic treatments for depression, drugs of abuse, or toxin exposure) or of depressive and related disorder due to another medical condition or bipolar and related disorder due to another medical condition do not count toward a diagnosis of bipolar II disorder unless they persist beyond the physiological effects of the treatment or substance and then meet duration criteria for an episode. In addition, the episodes must not be better accounted for by schizoaffective disorder and are not superimposed on schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum or other psychotic disorders (Criterion C under "Bipolar II Disorder"). The depressive episodes or hypomanie fluctuations must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion D under "Bipolar II Disorder"); however, for hypomanie episodes, this requirement does not have to be met. A hypomanie episode that causes significant impairment would likely qualify for the diagnosis of manic episode and, therefore, for a lifetime diagnosis of bipolar I disorder. The recurrent major depressive episodes are often more frequent and lengthier than those occurring in bipolar I disorder.
 
 Individuals with bipolar II disorder typically present to a clinician during a major depressive episode and are unlikely to complain initially of hypomania. Typically, the hypomanie episodes themselves do not cause impairment. Instead, the impairment results from the major depressive episodes or from a persistent pattern of unpredictable mood changes and fluctuating, unreliable interpersonal or occupational functioning. Individuals with bipolar II disorder may not view the hypomanie episodes as pathological or disadvantageous, although others may be troubled by the individual's erratic behavior. 
 
@@ -538,9 +498,7 @@ The lifetime prevalence of cyclothymic disorder is approximately 0.4%-l%. Preval
 
 Cyclothymic disorder usually begins in adolescence or early adult life and is sometimes considered to reflect a temperamental predisposition to other disorders in this chapter. 
 
-Cyclothymic disorder usually has an insidious onset and a persistent course. There is a 15%-50% risk that an individual with cyclothymic disorder will subsequently develop bipolar I disorder or bipolar II disorder. Onset of persistent, fluctuating hypomanie and depressive symptoms late in adult life needs to be clearly differentiated from bipolar andrelated disorder due to another medical condition and depressive disorder due to another medical condition (e.g., multiple sclerosis) before the cyclothymic disorder diagnosis is assigned. Among children with cyclothymic disorder, the mean age at onset of symptoms is 
-
-6.5 years of age.
+Cyclothymic disorder usually has an insidious onset and a persistent course. There is a 15%-50% risk that an individual with cyclothymic disorder will subsequently develop bipolar I disorder or bipolar II disorder. Onset of persistent, fluctuating hypomanie and depressive symptoms late in adult life needs to be clearly differentiated from bipolar andrelated disorder due to another medical condition and depressive disorder due to another medical condition (e.g., multiple sclerosis) before the cyclothymic disorder diagnosis is assigned. Among children with cyclothymic disorder, the mean age at onset of symptoms is 6.5 years of age.
 
 ## Risk and Prognostic Factors
 
@@ -552,9 +510,7 @@ Bipolar and related disorder due to another medical condition and depressive dis
 
 Substance/medication-induced bipolar and related disorder and substance/medication-induced depressive disorder. Substance/medication-induced bipolar and related disorder and substance/medication-induced depressive disorder are distinguished from cyclothymic disorder by the judgment that a substance/medication (especially stimulants) is etiologically related to the mood disturbance. The frequent mood swings in these disorders that are suggestive of cyclothymic disorder usually resolve following cessation of substance/medication use.
 
-Bipolar I disorder, with rapid cycling, and bipolar II disorder, with rapid cycling.
-
-Both disorders may resemble cyclothymic disorder by virtue of the frequent marked shifts in mood. By definition, in cyclothymic disorder the criteria for a major depressive, manic, or hypomanie episode has never been met, whereas the bipolar I disorder and bipolar II disorder specifier "with rapid cycling" requires that full mood episodes be present.
+Bipolar I disorder, with rapid cycling, and bipolar II disorder, with rapid cycling. Both disorders may resemble cyclothymic disorder by virtue of the frequent marked shifts in mood. By definition, in cyclothymic disorder the criteria for a major depressive, manic, or hypomanie episode has never been met, whereas the bipolar I disorder and bipolar II disorder specifier "with rapid cycling" requires that full mood episodes be present.
 
 Borderline personality disorder. Borderline personality disorder is associated with marked shifts in mood that may suggest cyclothymic disorder. If the criteria are met for both disorders, both borderline personality disorder and cyclothymic disorder may be diagnosed.
 
@@ -562,9 +518,7 @@ Borderline personality disorder. Borderline personality disorder is associated w
 
 Substance-related disorders and sleep disorders (i.e., difficulties in initiating and maintaining sleep) may be present in individuals with cyclothymic disorder. Most children with cyclothymic disorder treated in outpatient psychiatric settings have comorbid mental conditions; they are more likely than other pediatric patients with mental disorders to have comorbid attention-deficit/hyperactivity disorder.
 
-## Substance/Medication-Induced 
-
-## Bipolar and Related Disorder
+## Substance/Medication-Induced Bipolar and Related Disorder
 
 ## Diagnostic Criteria
 
@@ -590,65 +544,19 @@ Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica
 
 CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance- induced bipolar and related disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder'’ before the substance-induced bipolar and related disorder (e.g., “mild cocaine use disorder with cocaine-induced bipolar and related disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced bipolar and related disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder'’ or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced bipolar and related disorder.
 
-## ICD-10-CM
+<--TABLE-P180 REPLACEMENT-->
 
-With use disorder, 
+Alcohol: ICD-9-CM code 291.89; ICD-10-CM code if use disorder is mild (F10.14), -moderate or severe (F10.24) or without use disorder (F10.24)
 
-## ICD-9-CIVI mild
+Phencyclidine: ICD-9-CM code 292.84; ICD-10-CM code if use disorder is mild (F16.14), -moderate or severe (F16.24) or without use disorder (F16.24)
 
-With use disorder, moderate or severe
+Other hallucinogen: ICD-9-CM code 292.84; ICD-10-CM code if use disorder is mild (F16.14), -moderate or severe (F16.24) or without use disorder (F16.24)
 
-Withoutusedisorder
+Sedative, hypnotic or anxiolytic: ICD-9-CM code 292.84; ICD-10-CM code if use disorder is mild (F13.14), -moderate or severe (F13.24) or without use disorder (F13.24)
 
-## Alcohol 
+Amphetamine (or other stimulant): ICD-9-CM code 292.84; ICD-10-CM code if use disorder is mild (F15.14), -moderate or severe (F15.24) or without use disorder (F15.24)
 
-## Phencyclidine 
-
-## Other hallucinogen
-
-291.89
-
-292.84
-
-292.84
-
-F10.14
-
-F16.14
-
-F16.14
-
-F10.24 
-
-FI 6.24 
-
-FI 6.24
-
-FI 0.94 
-
-F16.94 
-
-F16.94
-
-## ICD-10-CM
-
-## ICD-9-CM
-
-With use disorder, mild
-
-With use disorder, moderate or severe
-
-Withoutusedisorder
-
-Sedative, hypnotic, or anxiolytic 292.84 F13.14 F13.24 F13.94
-
-## Amphetamine (or other stimulant)
-
-292.84 F15.14 F15.24 FI 5.94
-
-Cocaine 292.84 F14.14 F14.24 F14.94
-
-Other (or unknown) substance 292.84 F19.14 F19.24 FI 9.94
+Cocaine: ICD-9-CM code 292.84; ICD-10-CM code if use disorder is mild (F14.14), -moderate or severe (F14.24) or without use disorder (F14.24)
 
 _Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
@@ -704,9 +612,7 @@ Substance/medication-induced bipolar and related disorder should be differentiat
 
 Comorbidities are those associated with the use of illicit substances (in the case of illegal stimulants or phencyclidine) or diversion of prescribed stimulants. Comorbidities related to steroid or immunosuppressant medications are those medical indications for these preparations. Delirium can occur before or along with manic symptoms in individuals ingesting phencyclidine or those who are prescribed steroid medications or other immunosuppressant medications.
 
-## Bipolar and Related Disorder 
-
-## Due to Another Medical Condition
+## Bipolar and Related Disorder Due to Another Medical Condition
 
 ## Diagnostic Criteria
 

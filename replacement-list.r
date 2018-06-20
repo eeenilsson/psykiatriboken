@@ -40,8 +40,10 @@ spellList <- list(
     'Psycliotic' = "Psychotic",
     'liallucinations' = "hallucinations",
     'Hypomanie' = "Hypomanie",
+        'hypomanie' = "hypomanic",
     'atypicai' = "atypical",
     'meianchoiic' = "melancholic",
+    'péripartum' = "péripartum",
     ## Note: One-letter replacements should come at the end so that the above work
     ' ̂' = "",
     '(-){2,}' = "",

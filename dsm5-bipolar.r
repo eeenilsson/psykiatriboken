@@ -2,6 +2,8 @@
 ## 161 bipolar intro
 ## 161:191 Bipolar main body
 
+source('replacement-list.r')
+
 ### Bipolar disorders intro
 bipolarIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 161) ## "Bipolar disorders". ## Note: remove last part
 bipolarIntro <- paste(bipolarIntro, collapse = "")
@@ -44,6 +46,12 @@ bipolarMain <- gsub("Another \n\n## Mental", "Another Mental", bipolarMain)
 bipolarMain <- gsub("Due to \n\n## Another", "Due to Another", bipolarMain)
 bipolarMain <- gsub("Spectrum and \n\n## Other", "Spectrum and Other", bipolarMain)
 bipolarMain <- gsub("Disorder \n\n## Due", "Disorder Due", bipolarMain)
+bipolarMain <- gsub("bipolar \n\nI", "bipolar \n\nI", bipolarMain)
+bipolarMain <- gsub("\nSpecify.", "Specify:", bipolarMain)
+bipolarMain <- gsub("Depressive \n\nEpisode", "Depressive Episode", bipolarMain)
+bipolarMain <- gsub("II disorder \n\n\\(Criterion B", "II disorder \\(Criterion B", bipolarMain)
+bipolarMain <- gsub("symptoms is \n\n6.5", "symptoms is 6.5", bipolarMain)
+bipolarMain <- gsub("cycling.\n\nBoth", "cycling. Both", bipolarMain)
 
 #### table replacement
 startTag <- "(?s)(?<=Codes are as follows.\n\n)"
@@ -65,15 +73,30 @@ tableNote <- gsub("\\*\\*\\*If psychotic", "NoteCIf psychotic", tableNote)
 tableNote <- gsub("NoteA", "Current or most recent episode hypomanic: ", tableNote)
 tableNote <- gsub("NoteB", "Current or most recent episode unspecified: ", tableNote)
 tableNote <- gsub("NoteC", "\n\nWith psychotic features: ", tableNote)
-
-
+tableNote <- paste("Codes in table are noted as ICD-9-CM (ICD-10-CM).\n\n", tableNote, sep="")
 ## Note: See csv file, to get a markdown table:
-tab <- read_csv("table-p111.csv")
-kable(tab[1:9, 1:5],
-      caption = tab[10,]$text,
-      align=c('lcccc')
-      )
+tab <- read_csv("dsm5-table-p164.csv")
+## kable(tab,
+##       caption = "Coding for Bipolar I disorder",
+##       align=c('lcccc')
+##       )
 allRows <- list() 
+for(i in 2:ncol(tab)-1){
+   newRow <- 
+paste("- If ", names(tab)[i], ": ", paste(tab[[1]], tab[[i]], collapse = ", "), sep = "")
+   allRows[i-1] <- newRow
+}
+replaceTable <- paste(allRows, collapse = "\n\n")
+replaceTable <- paste("<--TABLE-P164 REPLACEMENT-->\n\n", replaceTable, "\n\n", tableNote, "\n", sep="")
+bipolarMain <- gsub("<--TABLE-P164-->\n\n", replaceTable, bipolarMain, perl=T) ## table
+
+#### table substance induced bipolar
+startTag <- "(?s)(?<=the clinician should record only the substance.induced bipolar and related disorder.)\n\n"
+stopTag <- "FI 9.94\n\n(?=_Specify_ if)"
+paste(startTag, ".*", stopTag, sep= "")
+bipolarMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "\n\n<--TABLE-P180-->\n\n", bipolarMain, perl=T) ## table
+tab <- read_csv('dsm5-table-p180.csv') ## Coding for Substance-Induced Bipolar disorder
+i <- 1
 for(i in 2:nrow(tab)-1){
    newRow <- 
         paste(tab[[1]][i],
@@ -86,10 +109,8 @@ for(i in 2:nrow(tab)-1){
    allRows[i] <- newRow
 }
 replaceTable <- paste(allRows, collapse = "\n\n")
-bipolarMain <- gsub("<--TABLE-P111-->\n\n", replaceTable, bipolarMain, perl=T) ## table
-
-
-
+replaceTable <- paste("<--TABLE-P180 REPLACEMENT-->\n\n", replaceTable, "\n\n", sep="")
+bipolarMain <- gsub("<--TABLE-P180-->\n\n", replaceTable, bipolarMain, perl=T) ## table
 
 store <- bipolarMain
 ##bipolarMain <- store
