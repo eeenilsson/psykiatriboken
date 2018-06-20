@@ -35,7 +35,7 @@ spellList <- list(
     'Functionai' = "Functional",
     'Tsychotic' = "Psychotic",
     'Sciiizophreniform' = "Schizophreniform",
-    'Deiusions' = "Deiusions",
+    'Deiusions' = "Delusions",
     'alcohpl' = "alcohol",
     'Psycliotic' = "Psychotic",
     'liallucinations' = "hallucinations",
@@ -44,7 +44,8 @@ spellList <- list(
     'atypicai' = "atypical",
     'meianchoiic' = "melancholic",
     'hypomanic\\-iii<e' = "hypomanic-like",
-    'péripartum' = "péripartum",
+    'péripartum' = "peripartum",
+    'IManic' = "Manic",
     ## Note: One-letter replacements should come at the end so that the above work
     ' ̂' = "",
     '(-){2,}' = "",

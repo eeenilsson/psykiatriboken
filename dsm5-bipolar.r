@@ -17,7 +17,7 @@ bipolarIntro <- gsub("years \n\n", " years", bipolarIntro)
 writeLines(bipolarIntro, "bipolarIntro.txt")
 
 ### Bipolar main body
-bipolarMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 161:191) ## "Bipolar disorders".
+bipolarMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 161:192) ## "Bipolar disorders".
 bipolarMain[1] <-
     gsub("(?s).*(?=\nBipolar I Disorder)", "", bipolarMain[1], perl=T) ## remove redundant text before section starts and 
 bipolarMain[1] <- gsub("^\n", "## ", bipolarMain[1]) ## add ## to first line
@@ -54,7 +54,9 @@ bipolarMain <- gsub("symptoms is \n\n6.5", "symptoms is 6.5", bipolarMain)
 bipolarMain <- gsub("cycling.\n\nBoth", "cycling. Both", bipolarMain)
 bipolarMain <- gsub("e.g.. \n\n292.84 methylphenidate", "e.g. 292.84 methylphenidate", bipolarMain)
 bipolarMain <- gsub("diagnosis is \n\nF14.24", "diagnosis is F14.24", bipolarMain)
-
+bipolarMain <- gsub("Disorder V", "Disorder", bipolarMain)
+bipolarMain <- gsub("Other \n\nPsychotic", "Other Psychotic", bipolarMain)
+bipolarMain <- gsub("day \n\n\\(or", "day \\(or", bipolarMain)
 
 #### table replacement
 startTag <- "(?s)(?<=Codes are as follows.\n\n)"
@@ -120,21 +122,14 @@ store <- bipolarMain
 writeLines(bipolarMain, "bipolarMain.txt")
 
 ### Add tags
-
-## Note bipolar sub-classification : 295.70 (F25.0) Bipolar type, should perhaps be marked as diagnosis, if so also Psychotic Disorder Due to Another Medical Condition
-
-#### List groups
 ## No groups in this section
 groupList <- c(
     "No groups" ## if empty, theere will be matches
 )
-
 ## assign group tags
 bipolarMain <- assignTag(bipolarMain, groupList, tag = "<--@GROUP-->", hash.replace = "#")
 
 ## assign diagnosis tags
-##icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
-
 bipolarMain <- assignTag(bipolarMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE) ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
 
 #### write
@@ -143,3 +138,10 @@ store <- bipolarMain
 ##bipolarMain <- store ## recover
 writeLines(bipolarMain, "bipolarMain.txt")
 ## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
+
+## TODO: Check that all major diagnoses are tagged (For example "Bipolar I" is not (it has only sub-codes and thus is not in list))
+## Make an extra list to append to code list? Add to .csv?
+
+list(
+    "Bipolar I Disorder", "specify"
+)
