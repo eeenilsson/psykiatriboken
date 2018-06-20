@@ -749,31 +749,31 @@ _Specify_ if:
 
 315.00 (F81.0) With impairment in reading:
 
-## Word reading accuracy 
+- Word reading accuracy 
 
-## Reading rate or fluency 
+- Reading rate or fluency 
 
-## Reading comprehension
+- Reading comprehension
 
 Note: Dyslexia is an alternative term used to refer to a pattern of learning difficulties characterized by problems with accurate or fluent word recognition, poor decoding, and poor spelling abilities. If dyslexia is used to specify this particular pattern of difficulties, it is important also to specify any additional difficulties that are present, such as difficulties with reading comprehension or math reasoning.
 
 315.2 (F81.81) With impairment in written expression:
 
-## Spelling accuracy
+- Spelling accuracy
 
-## Grammar and punctuation accuracy 
+- Grammar and punctuation accuracy 
 
-## Clarity or organization of written expression
+- Clarity or organization of written expression
 
 315.1 (FBI .2) With impairment in mathematics:
 
-## Number sense
+- Number sense
 
-## Memorization of arithmetic facts 
+- Memorization of arithmetic facts 
 
-## Accurate or fluent calculation 
+- Accurate or fluent calculation 
 
-## Accurate math reasoning
+- Accurate math reasoning
 
 Note: Dyscalculia is an altemative term used to refer to a pattern of difficulties characterized by problems processing numerical information, learning arithmetic facts, and performing accurate or fluent calculations. If dyscalculia is used to specify this particular pattern of mathematic difficulties, it is important also to specify any additional difficulties that are present, such as difficulties with math reasoning or word reasoning accuracy.
 

@@ -1,0 +1,11 @@
+Substance,ICD-9-CM,"With use disorder, mild","With use disorder, moderate or severe ",Without use disorder,text
+Alcohol,291.9,F10.159,F10.259,F10.959,
+Cannabis,292.9,F12.159,F12.259,F12.959,
+Phencyclidine,292.9,F16.159,F16.259,F16.959,
+Other hallucinogen,292.9,F16.159,F16.259,F16.959,
+Inhalant,292.9,F18.159,F18.259,F18.959,
+"Sedative, hypnotic, or anxiolytic",292.9,F13.159,F13.259,F13.959,
+Amphetamine (or other stimulant),292.9,F15.159,F15.259,F15.959,
+Cocaine,292.9,F14.159,F14.259,F14.959,
+Other (or unknown) substance,292.9,F19.159,F19.259,F19.959,
+caption,,,,,ICD-10-CM codes for Substance-Induced Psychotic Disorder

@@ -77,7 +77,6 @@ icd10cmDsm5$icd10cmClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$icd10
 listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5textClean) ## escape regex characters
 listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmClean)
 
-
 ### DSM-5 (not the updated version)
 
 ## Title, copyright page etc ================
@@ -186,7 +185,9 @@ section2preface <- cleanText(section2preface)
 section2preface <- makeHeaders(section2preface)
 writeLines(section2preface, "section2preface.txt")
 
-### Neurodevelopmental disorder intro
+### Neurodevelopmantal disorders =====================================
+
+### Neurodevelopmental disorders intro
 neurodevelopmentalIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69:71) ## "Neurodevelopmental disorders". ## Note: remove last part
 neurodevelopmentalIntro <- paste(neurodevelopmentalIntro, collapse = "")
 neurodevelopmentalIntro <- cleanText(neurodevelopmentalIntro)
@@ -243,6 +244,111 @@ neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@
 store <- neurodevelopmentalMain
 ##neurodevelopmentalMain <- store ## recover
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
+## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
+
+### Schizophrenia Spectrum and Other Psychotic Disorders ==============
+## 125:128 schizophrenia intro
+## 128 Schizophrenia start of main body
+
+### Schizophrenia disorders intro
+schizophreniaIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 125:128) ## "Schizophrenia disorders". ## Note: remove last part
+schizophreniaIntro <- paste(schizophreniaIntro, collapse = "")
+schizophreniaIntro <- cleanText(schizophreniaIntro)
+schizophreniaIntro <- makeHeaders(schizophreniaIntro)
+matchThis <- "S^izophrenïa Spectrum and \n\n## Other Psychotic Disorder·"
+matchThis <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", matchThis)
+schizophreniaIntro <-
+    gsub(paste("(?s)", "(", matchThis, ")", sep=""), "## Schizophrenia Spectrum and Other Psychotic Disorders", schizophreniaIntro, perl=T)
+schizophreniaIntro <- gsub("- ", "", schizophreniaIntro)
+writeLines(schizophreniaIntro, "schizophreniaIntro.txt")
+## Note: Needs some manual cleaning
+
+### Schizophrenia main body
+schizophreniaMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 128:160) ## "Schizophrenia disorders".
+schizophreniaMain[1] <-
+    gsub("(?s).*(?=\nDelusional Disorder)", "", schizophreniaMain[1], perl=T) ## remove redundant text before section starts and 
+schizophreniaMain[1] <- gsub("^\n", "## ", schizophreniaMain[1]) ## add ## to first line
+schizophreniaMain <- paste(schizophreniaMain, collapse = "") ## collapse to one
+schizophreniaMain <- cleanText(schizophreniaMain)
+schizophreniaMain <- makeHeaders(schizophreniaMain)
+schizophreniaMain <- cleanMore(schizophreniaMain)
+
+#### chunk specific replacements
+schizophreniaMain <- gsub("Symptom \n\nSeverity", "Symptom Severity", schizophreniaMain)
+schizophreniaMain <- gsub("otic \n\nDisorder", "otic Disorder", schizophreniaMain)
+schizophreniaMain <- gsub("Consequences of \n\n##", "Consequences of", schizophreniaMain)
+schizophreniaMain <- gsub("Criterion \n\nA", "Criterion A", schizophreniaMain)
+schizophreniaMain <- gsub("impairment \n\n\\(see", "impairment \\(see", schizophreniaMain)
+schizophreniaMain <- gsub("presentations \n\n\\(associated", "presentations \\(associated", schizophreniaMain)
+schizophreniaMain <- gsub("hearing \n\nGod", "hearing God", schizophreniaMain)
+schizophreniaMain <- gsub("Induced \n\n##", "Induced", schizophreniaMain)
+#### table
+startTag <- "(?s)(?<=substance-induced psychotic disorder\\.\n\n)##"
+stopTag <- "(?=_Specify..if \\(see Table 1)"
+paste(startTag, ".*", stopTag, sep= "")
+schizophreniaMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P111-->", schizophreniaMain, perl=T) ## table
+## Note: See csv file, to get a markdown table:
+tab <- read_csv("table-p111.csv")
+kable(tab[1:9, 1:5],
+      caption = tab[10,]$text,
+      align=c('lcccc')
+      )
+
+store <- schizophreniaMain
+schizophreniaMain <- store
+
+writeLines(schizophreniaMain, "schizophreniaMain.txt")
+
+## 
+
+schizophreniaMain <- gsub("(?s)\\.&.*Æu cru", "\n\n<--TABLE REMOVED-->", schizophreniaMain, perl = T)
+## schizophreniaMain <- gsub("c\\.2.cS.*(I  1 1)", "\n\n<--TABLE REMOVED-->", schizophreniaMain)
+schizophreniaMain <- gsub("c\\.2.cS.*I 1 1", "\n\n<--TABLE REMOVED-->", schizophreniaMain)
+schizophreniaMain <- gsub("Public Law \n\n111 ", "Public Law 111", schizophreniaMain)
+schizophreniaMain <- gsub("intoxications \n\n\\(e", "intoxications \\(e", schizophreniaMain)
+schizophreniaMain <- gsub("\n\nFragile X", "Fragile X", schizophreniaMain)
+schizophreniaMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", schizophreniaMain)
+schizophreniaMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", schizophreniaMain)
+schizophreniaMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", schizophreniaMain, perl = T)
+
+### Add tags
+
+#### List groups
+groupList <- c(
+    "Intellectual Disabilities",
+    "Communication Disorders",
+    "Autism Spectrum Disorder",
+    "Attention-Deficit/Hyperactivity Disorder",
+    "Specific Learning Disorder",
+    "Motor Disorders",
+    "Other Schizophrenia Disorders"
+)
+
+## assign group tags
+schizophreniaMain <- assignTag(schizophreniaMain, groupList, tag = "<--@GROUP-->", hash.replace = "#")
+
+## assign diagnosis tags
+##icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
+
+schizophreniaMain <- assignTag(schizophreniaMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE) ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+
+#### write
+## store copy
+store <- schizophreniaMain
+##schizophreniaMain <- store ## recover
+writeLines(schizophreniaMain, "schizophreniaMain.txt")
+## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
+
+
+
+
+
+
+
+
+
+
+
 x
 
 #### develop
@@ -302,7 +408,7 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 
 ## Pages
 ## 125:128 schizophrenia intro
-## 128 Scizophrenia start of main body
+## 128 Schizophrenia start of main body
 ## 746:758 Other Conditions That May Be a Focus of Clinical Attention
 
 ## 759 Section III Emerging Measures and Models (TOC)

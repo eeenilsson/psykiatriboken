@@ -1,0 +1,31 @@
+## ICD-10-CM
+
+## ICD-9-CM
+
+With use disorder, mild
+
+With use disorder, moderate or severe
+
+Withoutusedisorder
+
+Alcohol 291.9 F10.159 FI 0.259 FI 0.959
+
+Cannabis 292.9 F12.159 FI 2.259 FI 2.959
+
+Phencyclidine 292.9 F16.159 FI 6.259 FI 6.959
+
+Other hallucinogen 292.9 FI 6.159 FI 6.259 FI 6.959
+
+Inhalant 292.9 F18.159 FI 8.259 FI 8.959
+
+Sedative, hypnotic, or anxiolytic
+
+292.9 FI 3.159 FI 3.259 FI 3.959
+
+## Amphetamine (or other stimulant)
+
+292.9 FI 5.159 FI 5.259 FI 5.959
+
+Cocaine 292.9 F14.159 FI 4.259 FI 4.959
+
+Other (or unknown) substance 292.9 FI 9.159 FI 9.259 FI 9.959
