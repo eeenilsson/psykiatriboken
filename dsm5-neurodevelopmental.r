@@ -1,10 +1,8 @@
 ## import and cleaning
 
 ### Neurodevelopmantal disorders =====================================
-## chapterTitle <- "Bipolar and Related Disorders"
-## pageIndex[chapterTitle] ## Chapter page index from TOC
-
-
+chapterTitle <- "Neurodevelopmental Disorders"
+pageIndex[chapterTitle] ## Chapter page index from TOC
 
 ### Neurodevelopmental disorders intro
 neurodevelopmentalIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 69:71) ## "Neurodevelopmental disorders". ## Note: remove last part
@@ -36,11 +34,17 @@ neurodevelopmentalMain <- gsub("\n\nFragile X", "Fragile X", neurodevelopmentalM
 neurodevelopmentalMain <- gsub("Global Developmental Delay315.8 \\(F88\\)", "## Global Developmental Delay \n\n315.8 (F88)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("\n\n\\(Intellectual Developmental Disorder\\)319 \\(F79\\)", "(Intellectual Developmental Disorder) \n\n319 (F79)", neurodevelopmentalMain)
 neurodevelopmentalMain <- gsub("(\n\n## )(\\(Intellectual)", " \\2", neurodevelopmentalMain, perl = T)
+neurodevelopmentalMain <- gsub("\n\n## Childhood-onset fluency disorder may also be", "\n\nChildhood-onset fluency disorder may also be", neurodevelopmentalMain) ## false header
+neurodevelopmentalMain <- gsub("Consequences of \n\n## Childhood-Onset", "Consequences of Childhood-Onset", neurodevelopmentalMain)
+neurodevelopmentalMain <- gsub("## Associated with a known", "Associated with a known", neurodevelopmentalMain)
 
 ### Add tags
-neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, groupList, tag = "<--@GROUP-->", hash.replace = "#")
+## group tags
+neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, groupList, tag = "<--@GROUP-->", hash.replace = "##g")
 ## assign diagnosis tags
-neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE) ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+neurodevelopmentalMain <- assignTag(neurodevelopmentalMain, listDiagnoses, "<--@DIAGNOSIS-->", hash.replace = "##d", ignore.case = TRUE) ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+## header tags
+neurodevelopmentalMain <- assignTagHeader(neurodevelopmentalMain)
 
 #### write
 ## store copy

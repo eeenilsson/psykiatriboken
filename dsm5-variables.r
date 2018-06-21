@@ -10,7 +10,10 @@ listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmCle
 ## list of headers, to identify these
 ## Note: Ok to use jst the start of header (the end may be chapter-specific)
 listHeaders <- c(
-"Diagnostic Criteria",
+    "Diagnostic Criteria",
+    "Recording Procedures",
+    "Specifiers",
+    "Subtypes",
 "Coding and Recording Procedures",
 "Diagnostic Features",
 "Associated Features Supporting Diagnosis",
@@ -24,7 +27,8 @@ listHeaders <- c(
 "Differential Diagnosis",
 "Diagnostic Markers",
 "Comorbidity",
-"Specifiers for"
+"Specifiers for",
+"Relationship to Other Classifications"
 )
 
 #### List groups
@@ -36,8 +40,9 @@ groupList <- c(
     "Attention-Deficit/Hyperactivity Disorder",
     "Specific Learning Disorder",
     "Motor Disorders",
-    "Other Neurodevelopmental Disorders"
-    ## Schizophrenia: None
+    "Other Neurodevelopmental Disorders",
+     ## Schizophrenia
+    "Catatonia"
     ## Bipolar: None
 )
 

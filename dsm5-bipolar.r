@@ -144,10 +144,10 @@ bipolarMain <- gsub("(distress in the context of loss..)(?=\n\n## Bipolar II Dis
 
 ### Add tags
 ## assign group tags (none in bipolar)
-bipolarMain <- assignTag(bipolarMain, groupList, tag = "<--@GROUP-->", hash.replace = "#")
+bipolarMain <- assignTag(bipolarMain, groupList, tag = "<--@GROUP-->", hash.replace = "##g")
 
 ## assign diagnosis tags
-bipolarMain <- assignTag(bipolarMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE , hash.replace = "##h") ## Note that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+bipolarMain <- assignTag(bipolarMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE , hash.replace = "##d") ## Note that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
 
 ## mark headers
 bipolarMain <- assignTagHeader(bipolarMain)

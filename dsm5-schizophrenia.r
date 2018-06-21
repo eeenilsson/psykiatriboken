@@ -1,6 +1,8 @@
 ### Schizophrenia Spectrum and Other Psychotic Disorders ==============
 ## 125:128 schizophrenia intro
 ## 128 Schizophrenia start of main body
+chapterTitle <- "Schizophrenia Spectrum and Other Psychotic Disorders"
+pageIndex[chapterTitle] ## Chapter page index from TOC
 
 ### Schizophrenia disorders intro
 schizophreniaIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 125:128) ## "Schizophrenia disorders". ## Note: remove last part
@@ -40,6 +42,11 @@ schizophreniaMain <- gsub("Another \n\n## Mental", "Another Mental", schizophren
 schizophreniaMain <- gsub("Due to \n\n## Another", "Due to Another", schizophreniaMain)
 schizophreniaMain <- gsub("Spectrum and \n\n## Other", "Spectrum and Other", schizophreniaMain)
 schizophreniaMain <- gsub("Disorder \n\n## Due", "Disorder Due", schizophreniaMain)
+schizophreniaMain <- gsub("## Some signs of the disturbance", "Some signs of the disturbance", schizophreniaMain) ## false header
+schizophreniaMain <- gsub("■Multiple", " Multiple", schizophreniaMain)
+schizophreniaMain <- gsub("\n## Unspecified", "\nUnspecified", schizophreniaMain)
+schizophreniaMain <- gsub("\n## The essential features of psychotic", "\nThe essential features of psychotic", schizophreniaMain)
+schizophreniaMain <- gsub("## Examples of presentations that", "Examples of presentations that", schizophreniaMain)
 
 #### table replacement
 startTag <- "(?s)(?<=substance-induced psychotic disorder\\.\n\n)##"
@@ -76,19 +83,14 @@ writeLines(schizophreniaMain, "schizophreniaMain.txt")
 
 ## Note bipolar sub-classification : 295.70 (F25.0) Bipolar type, should perhaps be marked as diagnosis, if so also Psychotic Disorder Due to Another Medical Condition
 
-#### List groups
-## No groups in this section
-groupList <- c(
-    "No groups" ## if empty, theere will be matches
-)
-
 ## assign group tags
-schizophreniaMain <- assignTag(schizophreniaMain, groupList, tag = "<--@GROUP-->", hash.replace = "#")
+schizophreniaMain <- assignTag(schizophreniaMain, groupList, tag = "<--@GROUP-->", hash.replace = "##g")
 
 ## assign diagnosis tags
 ##icd10cmDsm5 <- read_csv("icd10cm-to-dsm5.csv")
 
-schizophreniaMain <- assignTag(schizophreniaMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE) ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+schizophreniaMain <- assignTag(schizophreniaMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE, hash.replace = "##d") ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+schizophreniaMain <- assignTagHeader(schizophreniaMain)
 
 #### write
 ## store copy
