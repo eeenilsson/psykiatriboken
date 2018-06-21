@@ -145,3 +145,23 @@ writeLines(bipolarMain, "bipolarMain.txt")
 list(
     "Bipolar I Disorder", "specify"
 )
+
+## Split string by diagnosis
+## make list/table, add page intervals and chapter name
+
+text <- readr::read_file('bipolarMain.txt')
+
+## csplit --digits=2  --quiet --prefix=outfile infile "/-|/+1" "{*}"
+## https://stackoverflow.com/questions/11313852/split-one-file-into-multiple-files-based-on-delimiter
+
+gsub("(##)(.*?)(<--@)+?(?=DIAGNOSIS-->)", "",
+     "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
+
+gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "",
+     "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
+
+
+## Add @SPLIT tag
+gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
+     "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
+
