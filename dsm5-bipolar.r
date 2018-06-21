@@ -1,6 +1,7 @@
 ### Bipolar and Related Disorders  ==============
 ## 161 bipolar intro
 ## 161:191 Bipolar main body
+pageIndex$`Bipolar and Related Disorders` ## Chapter page index from TOC
 
 source('replacement-list.r')
 
@@ -142,6 +143,8 @@ writeLines(bipolarMain, "bipolarMain.txt")
 ## TODO: Check that all major diagnoses are tagged (For example "Bipolar I" is not (it has only sub-codes and thus is not in list))
 ## Make an extra list to append to code list? Add to .csv?
 
+### Make bib entries based on diagnoses and more
+
 list(
     "Bipolar I Disorder", "specify"
 )
@@ -155,21 +158,30 @@ text <- readr::read_file('bipolarMain.txt')
 ## gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
 ##      "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
 
-
+## Assign @SPLIT tag at @DIAGNOSIS and split
 bipolarMainSplit <- gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
      bipolarMain, perl=T)
 writeLines(bipolarMainSplit, "bipolarTAGTEST.txt")
 bipolarMainSplit <- strsplit(bipolarMainSplit, "@SPLIT")
+
+## test
 writeLines(bipolarMainSplit[[1]][1], "bipolarTEST.txt")
 writeLines(bipolarMainSplit[[1]][2], "bipolarTEST.txt")
+text <- bipolarMainSplit[[1]][2]
 
-source('makeDsmEntry.r')
+## extract entry element data
+sectionTitle <- substr(text, regexpr("(?<=## )", text, perl=T), regexpr("(?= <--@DIAGNOSIS)", text, perl=T)-1)
+sectionTag <- gsub(" ", "", tolower(sectionTitle))
 
+## write bib
 writeLines(
-    makeDsmEntry(insertChapter = "Bipolar and Related Disorders", insertPages = "", insertAbstract = "")
-  , "test.bib")
+    makeDsmEntry(
+        chapter = paste("Bipolar and Related Disorders", ", section ", sectionTitle, sep=""),
+        pages = paste(pageIndex$`Bipolar and Related Disorders`, "ff", sep=""),
+        abstract = text,
+        tag="bipolari"), "test.bib")
 
-writeLines(makeDsmEntry(), "test.bib")
+##writeLines(makeDsmEntry(), "test.bib")
     
 
 ## inbook bib entry	
@@ -178,16 +190,6 @@ writeLines(makeDsmEntry(), "test.bib")
 ## Optional fields: volume or number, series, type, address, edition, month, note.
 ## http://blog.apastyle.org/apastyle/2013/08/how-to-cite-the-dsm5-in-apa-style.html
 ## The correct citation for this book is American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
-q
-text <- "Metabolic s)nidrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
-
-@SPLIT## Bipolar II disorder <--@DIAGNOSIS-->
-
-Diagnostic Criteria 296.89 (F31.81)
-
-For a diagnosis of bipolar II disorder, it is necessary to meet the following"
-
-strsplit(text, "@SPLIT")[[1]][1]
 
 
 ## Notes below

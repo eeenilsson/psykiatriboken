@@ -1,6 +1,8 @@
 ## Functions to clean DSM5 text
 
 ## Functions
+source('makeDsmEntry.r')
+
 spellCorrect <- function(SPELL, CHUNK){
     ## Replaces matches in CHUNK from SPELL list. SPELL is a list of named elements with name = match and value = replacement 
     TEMP <- CHUNK
