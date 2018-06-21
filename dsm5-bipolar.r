@@ -61,7 +61,7 @@ bipolarMain <- gsub("Other \n\nPsychotic", "Other Psychotic", bipolarMain)
 bipolarMain <- gsub("day \n\n\\(or", "day \\(or", bipolarMain)
 bipolarMain <- gsub("bipolar\n\nI and II", "bipolar I and II", bipolarMain)
 bipolarMain <- gsub("Related \n\n## Disorder", "Related Disorder", bipolarMain)
-bipolarMain <- gsub("(\n\n## Diagnostic Criteria)((.{2,})?)(?=\n\n)", "\n\n\\2\\1", bipolarMain, perl=T)
+## bipolarMain <- gsub("(\n\n## Diagnostic Criteria )((.{2,})?)(?=\n\n)", "\n\n\\2\\1", bipolarMain, perl=T)
 
 #### table replacement
 startTag <- "(?s)(?<=Codes are as follows.\n\n)"
@@ -163,5 +163,36 @@ writeLines(bipolarMain, "bipolarMain.txt")
 
 ## source('makeBib.r') ## make a bib entry
 
+## headers
+
+listHeaders <- c(
+"Diagnostic Criteria",
+"Coding and Recording Procedures",
+"Diagnostic Features",
+"Associated Features Supporting Diagnosis",
+"Prevalence",
+"Development and Course",
+"Risk and Prognostic Factors",
+"Culture-Related Diagnostic Issues",
+"Gender-Related Diagnostic Issues",
+"Suicide Risk",
+"Functional Consequences of",
+"Differential Diagnosis",
+"Comorbidity"
+)
+
+bipolarMain <- assignTag(bipolarMain,
+                         listHeaders,
+                         tag = "<--@HEADER-->",
+                         ignore.case=TRUE,
+                         first.only=FALSE)
+writeLines(bipolarMain, "bipolarMain.txt")
+
+
+
+
+
 ## Notes below
 
+paste("## (", listHeaders[1], ")?(.*)(?=\n\n)", sep = "")
+paste("##", " ", listHeaders[1], "\\2 ", "<-----DIag---->", sep = "")

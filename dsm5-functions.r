@@ -49,19 +49,46 @@ cleanMore <- function(CHUNK){
     TEMP <- gsub("(?<=(##))( .*)\n\n\\(", "\\2 (", TEMP, perl=T)
     TEMP <- gsub("([a-z])( \n\n)(\\(e\\.g\\.)", "\\1 \\3", TEMP) ## e.g
     TEMP <- gsub("[[:blank:]]{2,}", " ", TEMP) ## remove repeated spaces
-    TEMP <- gsub("### Diagnostic Criteria", "## Diagnostic Criteria", TEMP) ## fix diagnostic criteria
-    TEMP <- gsub("\n\nDiagnostic Criteria\n\n", "## Diagnostic Criteria\n\n", TEMP) ## fix 
-    
+     ## fix diagnostic criteria
+    TEMP <- gsub("### Diagnostic Criteria", "## Diagnostic Criteria", TEMP)
+    TEMP <- gsub("\n\nDiagnostic Criteria\n\n", "## Diagnostic Criteria\n\n", TEMP)
+    TEMP <- gsub("\n\nDiagnostic Criteria[[:blank:]](?=[0-9])", "\n\n## Diagnostic Criteria ", TEMP, perl=T)
+    TEMP <- gsub("\n\nDiagnostic Criteria[[:blank:]](?=\\()", "\n\n## Diagnostic Criteria ", TEMP, perl=T)
+    TEMP <- gsub("(\n\n## Diagnostic Criteria )((.{2,})?)(?=\n\n)", "\n\n\\2\\1", TEMP, perl=T)  ## put diagnosis codes before header if they exist
+
 return(TEMP)
 }
 
-assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash.replace = "##"){
+## assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash.replace = "##"){
+##     ## Assign label 'tag' to strings in CHUNK matching LIST
+##     TEMP <- CHUNK
+##     for (i in 1:length(LIST)){
+##         TEMP <- sub(paste("## ", LIST[i], sep = ""),
+##                     paste(hash.replace, " ", LIST[i], " ", tag, sep = ""), TEMP,
+##                     ignore.case = ignore.case)
+##     }
+##     return(TEMP)
+## }
+
+assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash.replace = "##", first.only = TRUE){
     ## Assign label 'tag' to strings in CHUNK matching LIST
+    ## If first.only = TRUE only the first match in string will be tagged, else all maches will be tagged.
+    ## hash.replace is a string with wich to replace hashes
     TEMP <- CHUNK
+    if(isTRUE(first.only)){
     for (i in 1:length(LIST)){
-        TEMP <- sub(paste("## ", LIST[i], sep = ""),
-                    paste(hash.replace, " ", LIST[i], " ", tag, sep = ""), TEMP,
-                    ignore.case = ignore.case)
+        TEMP <- sub(paste("## (", LIST[i], ")(.*)?(?=\n\n)", sep = ""),
+                    paste(hash.replace, " ", LIST[i], "\\2 ", tag, sep = ""), TEMP,
+                    ignore.case = ignore.case,
+                    perl=T)
+    }
+    }else{
+            for (i in 1:length(LIST)){
+        TEMP <- gsub(paste("## (", LIST[i], ")(.*)?(?=\n\n)", sep = ""),
+                    paste(hash.replace, " ", LIST[i], "\\2 ", tag, sep = ""), TEMP,
+                    ignore.case = ignore.case,
+                    perl=T)
+    }
     }
     return(TEMP)
 }

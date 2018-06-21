@@ -1,5 +1,6 @@
 ### make a listr of value-replacement pairs
 spellList <- list(
+    'Bipoiar' = "Bipolar",
     'Reiationship'= "Relationship",
     'Prevaience'= "Prevalence",
     'Deveiopment' = "Development",
@@ -39,8 +40,8 @@ spellList <- list(
     'alcohpl' = "alcohol",
     'Psycliotic' = "Psychotic",
     'liallucinations' = "hallucinations",
-    'Hypomanie' = "Hypomanie",
-        'hypomanie' = "hypomanic",
+    'Hypomanie' = "Hypomanic",
+    'hypomanie' = "hypomanic",
     'atypicai' = "atypical",
     'meianchoiic' = "melancholic",
     'hypomanic\\-iii<e' = "hypomanic-like",
