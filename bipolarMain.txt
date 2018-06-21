@@ -122,9 +122,7 @@ Current or most recent episode unspecified: Severity, psychotic, and remission s
 
 With psychotic features: If psychotic features are present, code the "with psychotic features" specifier irrespective of episode severity.
 
-In recording the name of a diagnosis, terms should be listed in the following order: bipolar 
-
-I disorder, type of current or most recent episode, severity/psychotic/remission specifiers, followed by as many specifiers without codes as apply to the current or most recent episode.
+In recording the name of a diagnosis, terms should be listed in the following order: bipolar  disorder, type of current or most recent episode, severity/psychotic/remission specifiers, followed by as many specifiers without codes as apply to the current or most recent episode.
 
 In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to Wfeeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of a MDE is more persistent and not tied to specific thoughts or preoccupations. 
 
@@ -234,7 +232,7 @@ Major depressive disorder. Major depressive disorder may also be accompanied by 
 
 Other bipolar disorders. Diagnosis of bipolar I disorder is differentiated from bipolar II disorder by determining whether there have been any past episodes of mania. Other specified and unspecified bipolar and related disorders should be differentiated from bipolar I and II disorders by considering whether either the episodes involving manic or hypo- manic symptoms or the episodes of depressive symptoms fail to meet the full criteria for those conditions.
 
-## Bipolar disorder due to another medical condition may be distinguished from bipolar I and II disorders by identifying, based on best clinical evidence, a causally related medical condition.
+Bipolar disorder due to another medical condition may be distinguished from bipolar I and II disorders by identifying, based on best clinical evidence, a causally related medical condition.
 
 Generalized anxiety disorder, panic disorder, posttraumatic stress disorder, or other anxiety disorders. These disorders need to be considered in the differential diagnosis as either the primary disorder or, in some cases, a comorbid disorder. A careful history of symptoms is needed to differentiate generalized anxiety disorder from bipolar disorder, as anxious ruminations may be mistaken for racing thoughts, and efforts to minimize anxious feelings may be taken as impulsive behavior. Similarly, symptoms of posttraumatic stress disorder need to be differentiated from bipolar disorder. It is helpful to assess the episodic nature of the symptoms described, as well as to consider symptom triggers, in making this differential diagnosis.
 
@@ -384,7 +382,7 @@ Severe (p. 154)
 
 ## Diagnostic Features <--@HEADER-->
 
-## Bipolar II disorder is characterized by a clinical course of recurring mood episodes consisting of one or more major depressive episodes (Criteria A-C under "Major Depressive Episode") and at least one hypomanic episode (Criteria A-F under "Hypomanic Episode"). The major depressive episode must last at least 2 weeks, and the hypomarüc episode must last at least 4 days, to meet the diagnostic criteria. During the mood episode(s), the requisite number of symptoms must be present most of the day, nearly every day, and represent a noticeable change from usual behavior and functioning. The presence of a manic episode during the course of illness precludes the diagnosis of bipolar II disorder (Criterion B under "Bipolar II Disorder"). Episodes of substance/medication-induced depressive disorder or substance/medication-induced bipolar and related disorder (representing the physiological effects of a medication, other somatic treatments for depression, drugs of abuse, or toxin exposure) or of depressive and related disorder due to another medical condition or bipolar and related disorder due to another medical condition do not count toward a diagnosis of bipolar II disorder unless they persist beyond the physiological effects of the treatment or substance and then meet duration criteria for an episode. In addition, the episodes must not be better accounted for by schizoaffective disorder and are not superimposed on schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum or other psychotic disorders (Criterion C under "Bipolar II Disorder"). The depressive episodes or hypomanic fluctuations must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion D under "Bipolar II Disorder"); however, for hypomanic episodes, this requirement does not have to be met. A hypomanic episode that causes significant impairment would likely qualify for the diagnosis of manic episode and, therefore, for a lifetime diagnosis of bipolar I disorder. The recurrent major depressive episodes are often more frequent and lengthier than those occurring in bipolar I disorder.
+Bipolar II disorder is characterized by a clinical course of recurring mood episodes consisting of one or more major depressive episodes (Criteria A-C under "Major Depressive Episode") and at least one hypomanic episode (Criteria A-F under "Hypomanic Episode"). The major depressive episode must last at least 2 weeks, and the hypomarüc episode must last at least 4 days, to meet the diagnostic criteria. During the mood episode(s), the requisite number of symptoms must be present most of the day, nearly every day, and represent a noticeable change from usual behavior and functioning. The presence of a manic episode during the course of illness precludes the diagnosis of bipolar II disorder (Criterion B under "Bipolar II Disorder"). Episodes of substance/medication-induced depressive disorder or substance/medication-induced bipolar and related disorder (representing the physiological effects of a medication, other somatic treatments for depression, drugs of abuse, or toxin exposure) or of depressive and related disorder due to another medical condition or bipolar and related disorder due to another medical condition do not count toward a diagnosis of bipolar II disorder unless they persist beyond the physiological effects of the treatment or substance and then meet duration criteria for an episode. In addition, the episodes must not be better accounted for by schizoaffective disorder and are not superimposed on schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum or other psychotic disorders (Criterion C under "Bipolar II Disorder"). The depressive episodes or hypomanic fluctuations must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion D under "Bipolar II Disorder"); however, for hypomanic episodes, this requirement does not have to be met. A hypomanic episode that causes significant impairment would likely qualify for the diagnosis of manic episode and, therefore, for a lifetime diagnosis of bipolar I disorder. The recurrent major depressive episodes are often more frequent and lengthier than those occurring in bipolar I disorder.
 
 Individuals with bipolar II disorder typically present to a clinician during a major depressive episode and are unlikely to complain initially of hypomania. Typically, the hypomanic episodes themselves do not cause impairment. Instead, the impairment results from the major depressive episodes or from a persistent pattern of unpredictable mood changes and fluctuating, unreliable interpersonal or occupational functioning. Individuals with bipolar II disorder may not view the hypomanic episodes as pathological or disadvantageous, although others may be troubled by the individual's erratic behavior. 
 
@@ -508,7 +506,7 @@ Cyclothymic disorder usually has an insidious onset and a persistent course. The
 
 Genetic and physiological. Major depressive disorder, bipolar I disorder, and bipolar II disorder are more common among first-degree biological relatives of individuals with cyclothymic disorder than in the general population. There may also be an increased familial risk of substance-related disorders. Cyclotiiymic disorder may be more common in the first-degree biological relatives of individuals witiK bipolar I disorder than in the general population.
 
-## Differentiai Diagnosis
+## Differential Diagnosis <--@HEADER-->
 
 Bipolar and related disorder due to another medical condition and depressive disorder due to another medical condition. The diagnosis of bipolar and related disorder due to another medical condition or depressive disorder due to another medical condition is made when the mood disturbance is judged to be attributable to the physiological effect of a specific, usually chronic medical condition (e.g., hyperthyroidism). This determination is based on the history, physical examination, or laboratory findings. If it is judged that the hypomanic and depressive symptoms are not the physiological consequence of the medical condition, then the primary mental disorder (i.e., cyclothymic disorder) and the medical condition are coded. For example, this would be the case if the mood symptoms are considered to be the psychological (not the physiological) consequence of having a chronic medical condition, or if there is no etiological relationship between the hypomanic and depressive symptoms and the medical condition.
 
@@ -604,7 +602,7 @@ This condition follows the ingestion or inhalation quickly, usually within hours
 
 Determination of the substance of use can be made through markers in the blood or urine to corroborate diagnosis.
 
-## Differentiai Diagnosis
+## Differential Diagnosis <--@HEADER-->
 
 Substance/medication-induced bipolar and related disorder should be differentiated from other bipolar disorders, substance intoxication or substance-induced delirium, and medication side effects (as noted earlier). A full manic episode that emerges during antidepressant treatment (e.g., medication, electroconvulsive therapy) but persists at a fully syndromal level beyond the physiological effect of that treatment is sufficient evidence for a bipolar I diagnosis. A full hypomanic episode that emerges during antidepressant treatment (e.g., medication, electroconvulsive therapy) but persists at a fully syndromal level beyond the physiological effect of that treatment is sufficient evidence for a bipolar II diagnosis only if preceded by a major depressive episode.
 
@@ -660,7 +658,7 @@ Culture-related differences, to the extent that there is any evidence, pertain t
 
 Gender differences pertain to those associated with the medical condition (e.g., systemic lupus erythematosus is more common in females; stroke is somewhat more common in middle-age males compared with females).
 
-## Diagnostic Markers
+## Diagnostic Markers <--@HEADER-->
 
 Diagnostic markers pertain to those associated with the medical condition (e.g., steroid levels in blood or urine to help corroborate the diagnosis of Cushing's disease, which can be associated with manic or depressive syndromes; laboratory tests confirming the diagnosis of multiple sclerosis).
 
@@ -686,7 +684,7 @@ Conditions comorbid with bipolar and related disorder due to another medical con
 
 This category applies to presentations in which symptoms characteristic of a bipolar and related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the bipolar and related disorders diagnostic class. The other specified bipolar and related disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific bipolar and related disorder. This is done by recording “other specified bipolar and related disorder” followed by the specific reason (e.g., “short-duration cyclothymia”).
 
-## Examples of presentations that can be specified using the “other specified” designation include the following:
+Examples of presentations that can be specified using the “other specified” designation include the following:
 
 1. Short-duration hypomanic episodes (2-3 days) and major depressive episodes: Alifetime history of one or more major depressive episodes in individuals whose presentation has never met full criteria for a manic or hypomanic episode but who have experienced two or more episodes of short-duration hypomania that meet the full symptomatic criteria for a hypomanic episode but that only last for 2-3 days. The episodes of hypomanic symptoms do not overlap in time with the major depressive episodes, so the disturbance does not meet criteria for major depressive episode, with mixed features.
 
@@ -702,7 +700,7 @@ This category applies to presentations in which symptoms characteristic of a bip
 
 This category applies to presentations in which symptoms characteristic of a bipolar and related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the bipolar and related disorders diagnostic class. The unspecified bipolar and related disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for a specific bipolar and related disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis (e.g., in emergency room settings).
 
-## Specifiers for Bipolar and Related Disorders
+## Specifiers for Bipolar and Related Disorders <--@HEADER-->
 
 _Specify_ if:
 

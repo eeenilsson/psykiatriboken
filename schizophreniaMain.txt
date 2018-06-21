@@ -1,6 +1,8 @@
 ## Delusional disorder <--@DIAGNOSIS-->
 
-### Diagnostic Criteria 297.1 (F22)
+297.1 (F22)
+
+## Diagnostic Criteria 
 
 A. The presence of one (or more) delusions with a duration of 1 month or longer.
 
@@ -104,7 +106,9 @@ Depressive and bipolar disorders and schizoaffective disorder. These disorders m
 
 ## Brief psychotic disorder <--@DIAGNOSIS-->
 
-### Diagnostic Criteria 298.8 (F23)
+298.8 (F23)
+
+## Diagnostic Criteria 
 
 A. Presence of one (or more) of the following symptoms. At least one of these must be 
 
@@ -196,7 +200,9 @@ Personality disorders. In certain individuals with personality disorders, psycho
 
 ## Schizophreniform disorder <--@DIAGNOSIS-->
 
-### Diagnostic Criteria 295.40 (F20.81)
+295.40 (F20.81)
+
+## Diagnostic Criteria 
 
 A. Two (or more) of the following, each present for a significant portion of time during a 1-month period (or less if successfully treated). At least one of these must be (1), (2), or (3):
 
@@ -278,7 +284,9 @@ Brief psychotic disorder. Schizophreniform disorder differs in duration from bri
 
 ## Schizophrenia <--@DIAGNOSIS-->
 
-### Diagnostic Criteria 295.90 (F20.9)
+295.90 (F20.9)
+
+## Diagnostic Criteria 
 
 A. Two (or more) of the following, each present for a significant portion of time during a 1 -month period (or less if successfully treated). At least one of these must be (1 ), (2), or (3):
 
@@ -808,7 +816,9 @@ Induced Movement Disorders and Other Adverse Effects of Medication"). Because of
 
 ## Catatonic Disorder Due to Another IVIedical Condition
 
-### Diagnostic Criteria 293.89 (F06.1)
+293.89 (F06.1)
+
+## Diagnostic Criteria 
 
 A. The clinical picture is dominated by three (or more) of the following symptoms:
 

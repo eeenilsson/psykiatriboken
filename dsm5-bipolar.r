@@ -25,11 +25,12 @@ bipolarMain[1] <-
 bipolarMain[1] <- gsub("^\n", "## ", bipolarMain[1]) ## add ## to first line
 bipolarMain <- paste(bipolarMain, collapse = "") ## collapse to one
 bipolarMain <- cleanText(bipolarMain)
+bipolarMain <- gsub("bipolar\n\nI and II", "bipolar I and II", bipolarMain) ## otherwise made header
 bipolarMain <- makeHeaders(bipolarMain)
 bipolarMain <- cleanMore(bipolarMain)
-store <- bipolarMain
+##store <- bipolarMain
 ##bipolarMain <- store
-writeLines(bipolarMain, "bipolarMain.txt")
+##writeLines(bipolarMain, "bipolarMain.txt")
 
 ## bipolarMain <- gsub("\n\nWith rapid cycling", " Specify:\n\nWith anxious distress \\(p\\. 149\\)\n\nWith mixed features \\(pp\\. 149\\-150\\)\n\nWith rapid cycling", bipolarMain)
 
@@ -48,7 +49,7 @@ bipolarMain <- gsub("Another \n\n## Mental", "Another Mental", bipolarMain)
 bipolarMain <- gsub("Due to \n\n## Another", "Due to Another", bipolarMain)
 bipolarMain <- gsub("Spectrum and \n\n## Other", "Spectrum and Other", bipolarMain)
 bipolarMain <- gsub("Disorder \n\n## Due", "Disorder Due", bipolarMain)
-bipolarMain <- gsub("bipolar \n\nI", "bipolar \n\nI", bipolarMain)
+bipolarMain <- gsub("bipolar \n\nI", "bipolar ", bipolarMain)
 bipolarMain <- gsub("\nSpecify.", "\n_Specify_ ", bipolarMain)
 bipolarMain <- gsub("Depressive \n\nEpisode", "Depressive Episode", bipolarMain)
 bipolarMain <- gsub("II disorder \n\n\\(Criterion B", "II disorder \\(Criterion B", bipolarMain)
@@ -59,9 +60,10 @@ bipolarMain <- gsub("diagnosis is \n\nF14.24", "diagnosis is F14.24", bipolarMai
 bipolarMain <- gsub("Disorder V", "Disorder", bipolarMain)
 bipolarMain <- gsub("Other \n\nPsychotic", "Other Psychotic", bipolarMain)
 bipolarMain <- gsub("day \n\n\\(or", "day \\(or", bipolarMain)
-bipolarMain <- gsub("bipolar\n\nI and II", "bipolar I and II", bipolarMain)
 bipolarMain <- gsub("Related \n\n## Disorder", "Related Disorder", bipolarMain)
 ## bipolarMain <- gsub("(\n\n## Diagnostic Criteria )((.{2,})?)(?=\n\n)", "\n\n\\2\\1", bipolarMain, perl=T)
+bipolarMain <- gsub("## Bipolar II disorder is characterized by", "Bipolar II disorder is characterized by", bipolarMain) ## not true header
+bipolarMain <- gsub("## Examples of presentations", "Examples of presentations", bipolarMain) ## false header
 
 #### table replacement
 startTag <- "(?s)(?<=Codes are as follows.\n\n)"
@@ -178,7 +180,9 @@ listHeaders <- c(
 "Suicide Risk",
 "Functional Consequences of",
 "Differential Diagnosis",
-"Comorbidity"
+"Diagnostic Markers",
+"Comorbidity",
+"Specifiers for"
 )
 
 bipolarMain <- assignTag(bipolarMain,
@@ -188,11 +192,7 @@ bipolarMain <- assignTag(bipolarMain,
                          first.only=FALSE)
 writeLines(bipolarMain, "bipolarMain.txt")
 
-
-
+## Now, after flattening lists with replace-bounded-hash, all non-tagged starting with ## are-sub headers
 
 
 ## Notes below
-
-paste("## (", listHeaders[1], ")?(.*)(?=\n\n)", sep = "")
-paste("##", " ", listHeaders[1], "\\2 ", "<-----DIag---->", sep = "")
