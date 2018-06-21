@@ -1,7 +1,8 @@
 ### Bipolar and Related Disorders  ==============
 ## 161 bipolar intro
 ## 161:191 Bipolar main body
-pageIndex$`Bipolar and Related Disorders` ## Chapter page index from TOC
+chapterTitle <- "Bipolar and Related Disorders"
+pageIndex[chapterTitle] ## Chapter page index from TOC
 
 source('replacement-list.r')
 
@@ -172,17 +173,17 @@ text <- bipolarMainSplit[[1]][2]
 ## extract entry element data
 sectionTitle <- substr(text, regexpr("(?<=## )", text, perl=T), regexpr("(?= <--@DIAGNOSIS)", text, perl=T)-1)
 sectionTag <- gsub(" ", "", tolower(sectionTitle))
+## TODO: Match each diagnosis/section to its chapter?
 
 ## write bib
 writeLines(
     makeDsmEntry(
-        chapter = paste("Bipolar and Related Disorders", ", section ", sectionTitle, sep=""),
-        pages = paste(pageIndex$`Bipolar and Related Disorders`, "ff", sep=""),
+        chapter = paste(sectionTitle, " in ", chapterTitle, sep=""),
+        pages = paste(pageIndex[chapterTitle], "ff", sep=""),
         abstract = text,
-        tag="bipolari"), "test.bib")
+        tag=sectionTag), "test.bib")
 
 ##writeLines(makeDsmEntry(), "test.bib")
-    
 
 ## inbook bib entry	
 ## A part of a book, e.g., a chpater, section, or whatever and/or a range of pages.
