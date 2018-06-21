@@ -9,7 +9,7 @@ source('dsm5-functions.r')
 
 ## variables
 source('replacement-list.r')
-
+source('page-index.r')
 ### read tags
 icd10cmDsm5 <- read_csv("icd10-dsm5.csv") ## try other version
 #### clean tags list
@@ -36,7 +36,7 @@ source('dsm5-section2.r')
 ## Diagnostic classifications
 source("dsm5-neurodevelopmental.r")
 source("dsm5-schizophrenia.r")
-
+source("dsm5-bipolar.r") ## also makes a bib entry
 
 
 ## Notes

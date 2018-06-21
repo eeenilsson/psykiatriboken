@@ -10,7 +10,7 @@ makeDsmEntry <- function(chapter = "", pages = "", abstract = "", tag = ""){
     bibAddress <- "    address = {Arlington, {VA}},"
     bibYear <- "    year = {2013},"
     bibEdition <- "    edition = {Fifth Edition},"
-    bibAbstract <- paste("    abstract = {", abstract,"},", sep ="")
+    bibAbstract <- paste("    abstract = {\n\n", abstract,"},", sep ="")
     bibEnding <- "}\n\n"
     bibEntry <- paste(bibStart, bibAuthor, bibTitle, bibChapter, bibPages, bibPublisher, bibAddress, bibYear, bibEdition, bibAbstract, bibEnding, sep="\n")
     return(bibEntry)

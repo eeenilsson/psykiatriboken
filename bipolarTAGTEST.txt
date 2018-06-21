@@ -133,7 +133,8 @@ The pain of grief may be accompanied by positive emotions and humor that are unc
 In grief, self-esteem is generally preserved, whereas in a MDE, feelings of worthlessness and selfloathing are common. If self-derogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about "joining" the deceased, whereas in a major depressive episode such thoughts are focused on ending one's own life because of feeling worthless, undeserving of life, or unable to cope with the pain of depression.
 
 
-Specify:
+
+_Specify_ 
 
 With anxious distress (p. 149)
 
@@ -253,7 +254,7 @@ When a child's irritability is persistent and particularly severe, the diagnosis
 
 Co-occurring mental disorders are common, with the most frequent disorders being any anxiety disorder (e.g., panic attacks, social anxiety disorder [social phobia], specific phobia), occurring in approximately three-fourths of individuals; ADHD, any disruptive, im- pulse-control, or conduct disorder (e.g., intermittent explosive disorder, oppositional defiant disorder, conduct disorder), and any substance use disorder (e.g., alcohol use disorder) occur in over half of individuals with bipolar I disorder. Adults with bipolar I disorder have high rates of serious and/or untreated co-occurring medical conditions. 
 
-Metabolic s)nidrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
+Metabolic syndrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
 
 @SPLIT## Bipolar II disorder <--@DIAGNOSIS-->
 
@@ -357,7 +358,7 @@ MDE feelings of worthlessness and self-loathing are common. If self-derogatory i
 
 With rapid cycling (pp. 150-151)
 
-Withi mood-congruent psychotic features (p. 152)
+With mood-congruent psychotic features (p. 152)
 
 With mood-incongruent psychotic features (p. 152)
 
@@ -366,7 +367,8 @@ With catatonia (p. 152). Coding note: Use additional code 293.89 (F06.1).
 With peripartum onset (pp. 152-153)
 
 With seasonal pattern (pp. 153-154): Applies only to the pattern of major depressive episodes.
-Specify:course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
+
+_Specify_ course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
 
 In full remission (p. 154)
 

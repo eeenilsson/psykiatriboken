@@ -587,7 +587,9 @@ _Specify_ whether:
 
 Specify if:in partial remission: When full criteria were previously met, fewer than the full criteria have been met for the past 6 months, and the symptoms still result in impairment in social, academic, or occupational functioning.
 
-Specify current severity:lUlild: Few, if any, symptoms in excess of those required to make the diagnosis are present, and symptoms result in no more than minor impairments in social or occupational functioning.
+_Specify_ current severity:
+
+Mild: Few, if any, symptoms in excess of those required to make the diagnosis are present, and symptoms result in no more than minor impairments in social or occupational functioning.
 
 Moderate: Symptoms or functional impairment between “mild” and “severe” are present.
 
@@ -749,35 +751,37 @@ _Specify_ if:
 
 315.00 (F81.0) With impairment in reading:
 
-- Word reading accuracy 
+## Word reading accuracy 
 
-- Reading rate or fluency 
+## Reading rate or fluency 
 
-- Reading comprehension
+## Reading comprehension
 
 Note: Dyslexia is an alternative term used to refer to a pattern of learning difficulties characterized by problems with accurate or fluent word recognition, poor decoding, and poor spelling abilities. If dyslexia is used to specify this particular pattern of difficulties, it is important also to specify any additional difficulties that are present, such as difficulties with reading comprehension or math reasoning.
 
 315.2 (F81.81) With impairment in written expression:
 
-- Spelling accuracy
+## Spelling accuracy
 
-- Grammar and punctuation accuracy 
+## Grammar and punctuation accuracy 
 
-- Clarity or organization of written expression
+## Clarity or organization of written expression
 
 315.1 (FBI .2) With impairment in mathematics:
 
-- Number sense
+## Number sense
 
-- Memorization of arithmetic facts 
+## Memorization of arithmetic facts 
 
-- Accurate or fluent calculation 
+## Accurate or fluent calculation 
 
-- Accurate math reasoning
+## Accurate math reasoning
 
 Note: Dyscalculia is an altemative term used to refer to a pattern of difficulties characterized by problems processing numerical information, learning arithmetic facts, and performing accurate or fluent calculations. If dyscalculia is used to specify this particular pattern of mathematic difficulties, it is important also to specify any additional difficulties that are present, such as difficulties with math reasoning or word reasoning accuracy.
 
-Specify current severity:lUliid: Some difficulties learning skills in one or two academic domains, but of mild enough severity that the individual may be able to compensate or function well when provided with appropriate accommodations or support services, especially during the school years.
+_Specify_ current severity:
+
+Mild: Some difficulties learning skills in one or two academic domains, but of mild enough severity that the individual may be able to compensate or function well when provided with appropriate accommodations or support services, especially during the school years.
 
 Moderate: Marked difficulties learning skills in one or more academic domains, so that the individual is unlikely to become proficient without some intervals of intensive and specialized teaching during the school years. Some accommodations or supportive services at least part of the day at school, in the workplace, or at home may be needed to complete activities accurately and efficiently.
 
@@ -857,7 +861,7 @@ Specific learning disorder occurs across languages, cultures, races, and socioec
 
 Specific learning disorder is more common in males than in females (ratios range from about 2:1 to 3:1) and cannot be attributed to factors such as ascertainment bias, definitional or measurement variation, language, race, or socioeconomic status.
 
-## Functionai Consequences of 
+## Functional Consequences of 
 
 ## Specific Learning Disorder
 

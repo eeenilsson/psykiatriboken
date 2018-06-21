@@ -133,7 +133,8 @@ The pain of grief may be accompanied by positive emotions and humor that are unc
 In grief, self-esteem is generally preserved, whereas in a MDE, feelings of worthlessness and selfloathing are common. If self-derogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about "joining" the deceased, whereas in a major depressive episode such thoughts are focused on ending one's own life because of feeling worthless, undeserving of life, or unable to cope with the pain of depression.
 
 
-Specify:
+
+_Specify_ 
 
 With anxious distress (p. 149)
 
@@ -253,7 +254,7 @@ When a child's irritability is persistent and particularly severe, the diagnosis
 
 Co-occurring mental disorders are common, with the most frequent disorders being any anxiety disorder (e.g., panic attacks, social anxiety disorder [social phobia], specific phobia), occurring in approximately three-fourths of individuals; ADHD, any disruptive, im- pulse-control, or conduct disorder (e.g., intermittent explosive disorder, oppositional defiant disorder, conduct disorder), and any substance use disorder (e.g., alcohol use disorder) occur in over half of individuals with bipolar I disorder. Adults with bipolar I disorder have high rates of serious and/or untreated co-occurring medical conditions. 
 
-Metabolic s)nidrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
+Metabolic syndrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
 
 ## Bipolar II disorder <--@DIAGNOSIS-->
 
@@ -321,7 +322,15 @@ C. The episode is not attributable to the physiological effects of a substance o
 
 Note: Criteria A-C above constitute a major depressive episode.
 
-Note: Responses to a significant loss (e.g., bereavement, financial ruin, losses from a natural disaster, a serious medical illness or disability) may include the feelings of intense sadness, rumination about the loss, insomnia, poor appetite, and weight loss noted in Criterion A, which may resemble a depressive episode. Although such symptoms may be understandable or considered appropriate to the loss, the presence of a major depressive episode in addition to the normal response to a significant loss should be carefully considered. This decision inevitably requires the exercise of clinical judgment based on the individual’s history and the cultural norms for the expression of distress in the context of loss.̂
+Note: Responses to a significant loss (e.g., bereavement, financial ruin, losses from a natural disaster, a serious medical illness or disability) may include the feelings of intense sadness, rumination about the loss, insomnia, poor appetite, and weight loss noted in Criterion A, which may resemble a depressive episode. Although such symptoms may be understandable or considered appropriate to the loss, the presence of a major depressive episode in addition to the normal response to a significant loss should be carefully considered. This decision inevitably requires the exercise of clinical judgment based on the individual’s history and the cultural norms for the expression of distress in the context of loss.
+
+In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in a MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to weeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of a 
+
+MDE is more persistent and not tied to specific thoughts or preoccupations. The pain of grief may be accompanied by positive emotions and humor that are uncharacteristic of the pervasive unhappiness and misery characteristic of a MDE. The thought content associated with grief generally features a preoccupation with thoughts and memories of the deceased, rather than the self-critical or pessinüstic ruminations seen in a MDE. In grief, self-esteem is generally preserved, whereas in a 
+
+MDE feelings of worthlessness and self-loathing are common. If self-derogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about "’joining" the deceased, whereas in a MDE such thoughts are focused on ending one's own life because of feeling worthless, undeserving of life, or unable to cope with the pain of depression.
+
+
 
 ## Bipolar II Disorder
 
@@ -349,15 +358,9 @@ With anxious distress (p. 149)
 
 With mixed features (pp. 149-150)
 
-In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in a MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to weeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of a 
-
-MDE is more persistent and not tied to specific thoughts or preoccupations. The pain of grief may be accompanied by positive emotions and humor that are uncharacteristic of the pervasive unhappiness and misery characteristic of a MDE. The thought content associated with grief generally features a preoccupation with thoughts and memories of the deceased, rather than the self-critical or pessinüstic ruminations seen in a MDE. In grief, self-esteem is generally preserved, whereas in a 
-
-MDE feelings of worthlessness and self-loathing are common. If self-derogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about "’joining" the deceased, whereas in a MDE such thoughts are focused on ending one's own life because of feeling worthless, undeserving of üfe, or unable to cope with the pain of depression.
-
 With rapid cycling (pp. 150-151)
 
-Withi mood-congruent psychotic features (p. 152)
+With mood-congruent psychotic features (p. 152)
 
 With mood-incongruent psychotic features (p. 152)
 
@@ -366,7 +369,8 @@ With catatonia (p. 152). Coding note: Use additional code 293.89 (F06.1).
 With peripartum onset (pp. 152-153)
 
 With seasonal pattern (pp. 153-154): Applies only to the pattern of major depressive episodes.
-Specify:course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
+
+_Specify_ course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
 
 In full remission (p. 154)
 
@@ -828,9 +832,7 @@ C. Criteria are not met for “with melancholic features” or “with catatonia
 
 Note: “Atypical depression” has historical significance (i.e., atypical in contradistinction to the more classical agitated, “endogenous” presentations of depression that were the norm when depression was rarely diagnosed in outpatients and almost never in adolescents or younger adults) and today does not connote an uncommon or unusual clinical presentation as the term might imply.
 
-Mood reactivity is the capacity to be cheered up when presented with positive events (e.g., a visit from children, compliments from others). Mood may become euthymie (not sad) even for extended periods of time if the external circumstances remain favorable. Increased appetite may be manifested by an obvious increase in food intake or by weight gain. Hypersomnia may include either an extended period of nighttime sleep or daytime napping that totals at least 10 hours of sleep per day 
-
-(or at least 2 hours more than when not depressed). Leaden paralysis is defined as feeling heavy, leaden, or weighted down, usually in the arms or legs. This sensation is generally present for at least an hour a day but often lasts for many hours at a time. Unlike the other atypical features, pathological sensitivity to perceived interpersonal rejection is a trait that has an early onset and persists throughout most of adult life. Rejection sensitivity occurs both when the person is and is not depressed, though it may be exacerbated during depressive periods.
+Mood reactivity is the capacity to be cheered up when presented with positive events (e.g., a visit from children, compliments from others). Mood may become euthymie (not sad) even for extended periods of time if the external circumstances remain favorable. Increased appetite may be manifested by an obvious increase in food intake or by weight gain. Hypersomnia may include either an extended period of nighttime sleep or daytime napping that totals at least 10 hours of sleep per day (or at least 2 hours more than when not depressed). Leaden paralysis is defined as feeling heavy, leaden, or weighted down, usually in the arms or legs. This sensation is generally present for at least an hour a day but often lasts for many hours at a time. Unlike the other atypical features, pathological sensitivity to perceived interpersonal rejection is a trait that has an early onset and persists throughout most of adult life. Rejection sensitivity occurs both when the person is and is not depressed, though it may be exacerbated during depressive periods.
 
 With psychotic features: Delusions or hallucinations are present at any time in the episode. If psychotic features are present, specify if mood-congruent or mood-incon- gruent:
 

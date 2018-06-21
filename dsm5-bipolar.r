@@ -49,7 +49,7 @@ bipolarMain <- gsub("Due to \n\n## Another", "Due to Another", bipolarMain)
 bipolarMain <- gsub("Spectrum and \n\n## Other", "Spectrum and Other", bipolarMain)
 bipolarMain <- gsub("Disorder \n\n## Due", "Disorder Due", bipolarMain)
 bipolarMain <- gsub("bipolar \n\nI", "bipolar \n\nI", bipolarMain)
-bipolarMain <- gsub("\nSpecify.", "Specify:", bipolarMain)
+bipolarMain <- gsub("\nSpecify.", "\n_Specify_ ", bipolarMain)
 bipolarMain <- gsub("Depressive \n\nEpisode", "Depressive Episode", bipolarMain)
 bipolarMain <- gsub("II disorder \n\n\\(Criterion B", "II disorder \\(Criterion B", bipolarMain)
 bipolarMain <- gsub("symptoms is \n\n6.5", "symptoms is 6.5", bipolarMain)
@@ -59,6 +59,8 @@ bipolarMain <- gsub("diagnosis is \n\nF14.24", "diagnosis is F14.24", bipolarMai
 bipolarMain <- gsub("Disorder V", "Disorder", bipolarMain)
 bipolarMain <- gsub("Other \n\nPsychotic", "Other Psychotic", bipolarMain)
 bipolarMain <- gsub("day \n\n\\(or", "day \\(or", bipolarMain)
+bipolarMain <- gsub("bipolar\n\nI and II", "bipolar I and II", bipolarMain)
+bipolarMain <- gsub("Related \n\n## Disorder", "Related Disorder", bipolarMain)
 
 #### table replacement
 startTag <- "(?s)(?<=Codes are as follows.\n\n)"
@@ -119,9 +121,23 @@ replaceTable <- paste(allRows, collapse = "\n\n")
 replaceTable <- paste("<--TABLE-P180 REPLACEMENT-->\n\n", replaceTable, "\n\n", sep="")
 bipolarMain <- gsub("<--TABLE-P180-->\n\n", replaceTable, bipolarMain, perl=T) ## table
 
-store <- bipolarMain
-##bipolarMain <- store
-writeLines(bipolarMain, "bipolarMain.txt")
+## move section
+startTag <- "(?<=With mixed features .pp. 149.150.\n\n)(In distinguishing grief)"
+stopTag <- "(pain of depression.\n\n)(?=With rapid cycling)"
+grep(startTag, bipolarMain, perl=T) ## test
+grep(stopTag, bipolarMain, perl=T) ## test
+### get section
+mySection <-
+    substr(bipolarMain,
+           regexpr(startTag, bipolarMain, perl=T)[1],
+           regexpr(stopTag, bipolarMain, perl=T)[1]+
+           attr(regexpr(stopTag, bipolarMain, perl=T), "match.length")-1)
+## delete section
+bipolarMain <-
+    gsub(paste("(?s)", startTag, ".*", stopTag, sep= ""), "", bipolarMain, perl=T) ## table
+## insert section
+bipolarMain <- gsub("(distress in the context of loss..)(?=\n\n## Bipolar II Disorder)",
+                    paste("distress in the context of loss.\n\n", mySection, sep=""), bipolarMain, perl=T)
 
 ### Add tags
 ## No groups in this section
@@ -144,54 +160,7 @@ writeLines(bipolarMain, "bipolarMain.txt")
 ## TODO: Check that all major diagnoses are tagged (For example "Bipolar I" is not (it has only sub-codes and thus is not in list))
 ## Make an extra list to append to code list? Add to .csv?
 
-### Make bib entries based on diagnoses and more
-
-list(
-    "Bipolar I Disorder", "specify"
-)
-
-## Split string by diagnosis
-## make list/table, add page intervals and chapter name
-text <- readr::read_file('bipolarMain.txt')
-
-## Add @SPLIT tag
-### test:
-## gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
-##      "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
-
-## Assign @SPLIT tag at @DIAGNOSIS and split
-bipolarMainSplit <- gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
-     bipolarMain, perl=T)
-writeLines(bipolarMainSplit, "bipolarTAGTEST.txt")
-bipolarMainSplit <- strsplit(bipolarMainSplit, "@SPLIT")
-
-## test
-writeLines(bipolarMainSplit[[1]][1], "bipolarTEST.txt")
-writeLines(bipolarMainSplit[[1]][2], "bipolarTEST.txt")
-text <- bipolarMainSplit[[1]][2]
-
-## extract entry element data
-sectionTitle <- substr(text, regexpr("(?<=## )", text, perl=T), regexpr("(?= <--@DIAGNOSIS)", text, perl=T)-1)
-sectionTag <- gsub(" ", "", tolower(sectionTitle))
-## TODO: Match each diagnosis/section to its chapter?
-
-## write bib
-writeLines(
-    makeDsmEntry(
-        chapter = paste(sectionTitle, " in ", chapterTitle, sep=""),
-        pages = paste(pageIndex[chapterTitle], "ff", sep=""),
-        abstract = text,
-        tag=sectionTag), "test.bib")
-
-##writeLines(makeDsmEntry(), "test.bib")
-
-## inbook bib entry	
-## A part of a book, e.g., a chpater, section, or whatever and/or a range of pages.
-## Required fields: author or editor, title, chapter and/or pages, publisher, year.
-## Optional fields: volume or number, series, type, address, edition, month, note.
-## http://blog.apastyle.org/apastyle/2013/08/how-to-cite-the-dsm5-in-apa-style.html
-## The correct citation for this book is American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
-
+## source('makeBib.r') ## make a bib entry
 
 ## Notes below
 

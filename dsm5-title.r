@@ -57,7 +57,8 @@ writeLines(classifications, "classifications.txt")
 preface <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 41:44) ## classifications list start on p13
 preface <- gsub("­\n", "", preface) ## remove - at end of line
 preface <- spellCorrect(spellList, preface)
-preface <- cleanNewlinesDot(preface)
+##preface <- cleanNewlinesDot(preface)
+preface <- cleanNewlines(preface)
 preface <- gsub("\n", "\n\n", preface) ## double newline
 preface <- gsub("ΤΙΊΘ A m G riC Sn  P s y c h iâ t r ic", " American Psychiatric", preface)
 preface <- gsub("•", "\n•", preface)

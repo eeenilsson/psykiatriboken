@@ -291,7 +291,7 @@ Specifiers indicating course (e.g., in partial remission, in full remission) may
 
 ## Medication-Induced Movement Disorders and Other 
 
-## Conditions That iViay Be a Focus of Ciinicai Attention
+## Conditions That May Be a Focus of Ciinicai Attention
 
 In addition to important psychosocial and environmental factors (see "The Multiaxial System" in the "Introduction" elsewhere in this manual), these chapters in Section II also contain other conditions that are not mental disorders but may be encountered by mental health clinicians. These conditions may be listed as a reason for clinical visit in addition to, or in place of, the mental disorders listed in Section II. A separate chapter is devoted to medication-induced disorders and other adverse effects of medication that may be assessed and treated by clinicians in mental health practice such as akathisia, tardive dyskinesia, and dystonia. The description of neuroleptic malignant syndrome is expanded from that provided in DSM-IV-TR to highlight the emergent and potentially life-threatening nature of this condition, and a new entry on antidepressant discontinuation syndrome is provided. An additional chapter discusses other conditions that may be a focus of clinical attention. These include relational problems, problems related to abuse and neglect, problems with adherence to treatment regimens, obesity, antisocial behavior, and malingering.
 
@@ -325,7 +325,7 @@ The use of such measures will undoubtedly be facilitated by digital apphcations,
 
 ## Cautionary Statement for 
 
-## Forensic Use of DSiVi-5
+## Forensic Use of DSM-5
 
 A lth o u g h  th e  D S M -5  diagnostic criteria and text are primarily designed to assist clinicians in conducting clinical assessment, case formulation, and treatment planning, 
 

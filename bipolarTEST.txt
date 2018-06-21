@@ -100,7 +100,7 @@ MDE feelings of worthlessness and self-loathing are common. If self-derogatory i
 
 With rapid cycling (pp. 150-151)
 
-Withi mood-congruent psychotic features (p. 152)
+With mood-congruent psychotic features (p. 152)
 
 With mood-incongruent psychotic features (p. 152)
 
@@ -109,7 +109,8 @@ With catatonia (p. 152). Coding note: Use additional code 293.89 (F06.1).
 With peripartum onset (pp. 152-153)
 
 With seasonal pattern (pp. 153-154): Applies only to the pattern of major depressive episodes.
-Specify:course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
+
+_Specify_ course if full criteria for a mood episode are not currently met: in partial remission (p. 154)
 
 In full remission (p. 154)
 
