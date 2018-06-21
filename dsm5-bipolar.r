@@ -143,15 +143,14 @@ bipolarMain <- gsub("(distress in the context of loss..)(?=\n\n## Bipolar II Dis
                     paste("distress in the context of loss.\n\n", mySection, sep=""), bipolarMain, perl=T)
 
 ### Add tags
-## No groups in this section
-groupList <- c(
-    "No groups" ## if empty, theere will be matches
-)
-## assign group tags
+## assign group tags (none in bipolar)
 bipolarMain <- assignTag(bipolarMain, groupList, tag = "<--@GROUP-->", hash.replace = "#")
 
 ## assign diagnosis tags
-bipolarMain <- assignTag(bipolarMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE) ## Noe that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+bipolarMain <- assignTag(bipolarMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE , hash.replace = "##h") ## Note that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+
+## mark headers
+bipolarMain <- assignTagHeader(bipolarMain)
 
 #### write
 ## store copy
@@ -163,36 +162,19 @@ writeLines(bipolarMain, "bipolarMain.txt")
 ## TODO: Check that all major diagnoses are tagged (For example "Bipolar I" is not (it has only sub-codes and thus is not in list))
 ## Make an extra list to append to code list? Add to .csv?
 
-## source('makeBib.r') ## make a bib entry
-
-## headers
-
-listHeaders <- c(
-"Diagnostic Criteria",
-"Coding and Recording Procedures",
-"Diagnostic Features",
-"Associated Features Supporting Diagnosis",
-"Prevalence",
-"Development and Course",
-"Risk and Prognostic Factors",
-"Culture-Related Diagnostic Issues",
-"Gender-Related Diagnostic Issues",
-"Suicide Risk",
-"Functional Consequences of",
-"Differential Diagnosis",
-"Diagnostic Markers",
-"Comorbidity",
-"Specifiers for"
-)
-
-bipolarMain <- assignTag(bipolarMain,
-                         listHeaders,
-                         tag = "<--@HEADER-->",
-                         ignore.case=TRUE,
-                         first.only=FALSE)
-writeLines(bipolarMain, "bipolarMain.txt")
+## headers - redundant
+## bipolarMain <- assignTag(bipolarMain,
+##                          listHeaders,
+##                          tag = "<--@HEADER-->",
+##                          hash.replace = "##h", ## so that non-headers can be replaced
+##                          ignore.case=TRUE,
+##                          first.only=FALSE)
 
 ## Now, after flattening lists with replace-bounded-hash, all non-tagged starting with ## are-sub headers
+
+## make subheaders of all headers not starting with "##h"
+## Note: Do this after cleaning hashlists
+## bipolarMain <- gsub("(?<=\n)##[[:blank:]]", "### ", bipolarMain, perl=T)
 
 
 ## Notes below

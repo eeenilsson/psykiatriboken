@@ -92,3 +92,15 @@ assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash
     }
     return(TEMP)
 }
+
+assignTagHeader <- function(x){
+    ## Wrapper for assignTag for marking headers
+    TEMP <- x
+    TEMP <- assignTag(TEMP,
+                         listHeaders,
+                         tag = "<--@HEADER-->",
+                         hash.replace = "##h",
+                         ignore.case=TRUE,
+                      first.only=FALSE)
+    return(TEMP)
+}

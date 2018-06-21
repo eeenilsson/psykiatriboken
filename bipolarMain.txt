@@ -1,6 +1,6 @@
-## Bipolar I disorder <--@DIAGNOSIS-->
+##h Bipolar I disorder <--@DIAGNOSIS-->
 
-## Diagnostic Criteria <--@HEADER-->
+##h Diagnostic Criteria <--@HEADER-->
 
 For a diagnosis of bipolar I disorder, it is necessary to meet tlie following criteria for a manic episode. The manic episode may have been preceded by and may be followed by hypo- manic or major depressive episodes.
 
@@ -102,7 +102,7 @@ A. Criteria have been met for at least one manic episode (Criteria A-D under “
 
 B. The occurrence of the manic and major depressive episode(s) is not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum and other psychotic disorder.
 
-## Coding and Recording Procedures <--@HEADER-->
+##h Coding and Recording Procedures <--@HEADER-->
 
 The diagnostic code for bipolar I disorder is based on type of current or most recent episode and its status with respect to current severity, presence of psychotic features, and remission status. Current severity and psychotic features are only indicated if full criteria are currently met for a manic or major depressive episode. Remission specifiers are only indicated if the full criteria are not currently met for a manic, hypomanic, or major depressive episode. Codes are as follows:
 
@@ -154,7 +154,7 @@ With peripartum onset (pp. 152-153)
 
 With seasonal pattern (pp. 153-154)
 
-## Diagnostic Features <--@HEADER-->
+##h Diagnostic Features <--@HEADER-->
 
 The essential feature of a manic episode is a distinct period during which there is an abnormally, persistently elevated, expansive, or irritable mood and persistently increased activity or energy that is present for most of the day, nearly every day, for a period of at least 1 week (or any duration if hospitalization is necessary), accompanied by at least three additional symptoms from Criterion B. If the mood is irritable rather than elevated or expansive, at least four Criterion B symptoms must be present.
 
@@ -186,23 +186,23 @@ The manic episode must result in marked impairment in social or occupational fun
 
 Manic symptoms or syndromes that are attributable to the physiological effects of a drug of abuse (e.g., in the context of cocaine or amphetamine intoxication), the side effects of medications or treatments (e.g., steroids, L-dopa, antidepressants, stimulants), or another medical condition do not count toward the diagnosis of bipolar I disorder. However, a fully syndromal manic episode that arises during treatment (e.g., with medications, elec- troconvulsive therapy, light therapy) or drug use and persists beyond the physiological effect of the inducing agent (i.e., after a medication is fully out of the individual's system or the effects of electroconvulsive therapy would be expected to have dissipated completely) is sufficient evidence for a manic episode diagnosis (Criterion D). Caution is indicated so that one or two symptoms (particularly increased irritability, edginess, or agitation following antidepressant use) are not taken as sufficient for diagnosis of a manic or hypomanic episode, nor necessarily an indication of a bipolar disorder diathesis. It is necessary to meet criteria for a manic episode to make a diagnosis of bipolar I disorder, but it is not required to have hypomanic or major depressive episodes. However, they may precede or follow a manic episode. Full descriptions of the diagnostic features of a hypomanic episode may be found within the text for bipolar II disorder, and the features of a major depressive episode are described within the text for major depressive disorder.
 
-## Associated Features Supporting Diagnosis <--@HEADER-->
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 E>uring a manic episode, individuals often do not perceive that they are ill or in need of treatment and vehemently resist efforts to be treated. Individuals may change their dress, makeup, or personal appearance to a more sexually suggestive or flamboyant style. Some perceive a sharper sense of smell, hearing, or vision. Gambling and antisocial behaviors may accompany the manic episode. Some individuals may become hostile and physically threatening to others and, when delusional, may become physically assaultive or suicidal. Catastrophic consequences of a manic episode (e.g., involuntary hospitalization, difficulties with the law, serious financial difficulties) often result from poor judgment, loss of insight, and hyperactivity.
 
 Mood may shift very rapidly to anger or depression. Depressive symptoms may occur during a manic episode and, if present, may last moments, hours, or, more rarely, days (see "with mixed features" specifier, pp. 149-150).
 
-## Prevalence <--@HEADER-->
+##h Prevalence <--@HEADER-->
 
 The 12-month prevalence estimate in the continental United States was 0.6% for bipolar I disorder as defined in DSM-IV. Twelve-month prevalence of bipolar I disorder across 11 countries ranged from 0.0% to 0.6%. The lifetime male-to-female prevalence ratio is approximately 1.1:1.
 
-## Development and Course <--@HEADER-->
+##h Development and Course <--@HEADER-->
 
 Mean age at onset of the first manic, hypomanic, or major depressive episode is approximately 18 years for bipolar I disorder. Special considerations are necessary to detect the diagnosis in children. Since children of the same chronological age may be at different developmental stages, it is difficult to define with precision what is ''normal" or "expected" at any given point. Therefore, each child should be judged according to his or her own baseline. Onset occurs throughout the life cycle, including first onsets in the 60s or 70s. Onset of manic symptoms (e.g., sexual or social disinhibition) in late mid-life or late- life should prompt consideration of medical conditions (e.g., frontotemporal neurocogni- tive disorder) and of substance ingestion or withdrawal.
 
 More than 90% of individuals who have a single manic episode go on to have recurrent mood episodes. Approximately 60% of manic episodes occur immediately before a major depressive episode. Individuals with bipolar I disorder who have multiple (four or more) mood episodes (major depressive, manic, or hypomanic) within 1 year receive the specifier "with rapid cycling."
 
-## Risk and Prognostic Factors <--@HEADER-->
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Environmental. Bipolar disorder is more common in high-income than in low-income countries (1.4 vs. 0.7%). Separated, divorced, or widowed individuals have higher rates of bipolar I disorder than do individuals who are married or have never been married, but the direction of the association is unclear.
 
@@ -210,23 +210,23 @@ Genetic and physiological. A family history of bipolar disorder is one of the st
 
 Course modifiers. After an individual has a manic episode with psychotic features, subsequent manic episodes are more likely to include psychotic features. Incomplete interepisode recovery is more common when the current episode is accompanied by mood- incongruent psychotic features.
 
-## Culture-Related Diagnostic Issues <--@HEADER-->
+##h Culture-Related Diagnostic Issues <--@HEADER-->
 
 Little information exists on specific cultural differences in the expression of bipolar I disorder. One possible explanation for this may be that diagnostic instruments are often translated and applied in different cultures with no transcultural validation. In one U. S. study, 12-month prevalence of bipolar I disorder was significantly lower for Afro-Carib- beans than for African Americans or whites.
 
-## Gender-Related Diagnostic Issues <--@HEADER-->
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Females are more likely to experience rapid cycling and mixed states, and to have patterns of comorbidity that differ from those of males, including higher rates of lifetime eating disorders. Females with bipolar I or II disorder are more likely to experience depressive symptoms than males. They also have a higher lifetime risk of alcohol use disorder than are males and a much greater likelihood of alcohol use disorder than do females in the general population.
 
-## Suicide Risk <--@HEADER-->
+##h Suicide Risk <--@HEADER-->
 
 The lifetime risk of suicide in individuals with bipolar disorder is estimated to be at least 15 times that of the general population. In fact, bipolar disorder may account for one-quarter of all completed suicides. A past history of suicide attempt and percent days spent depressed in the past year are associated with greater risk of suicide attempts or completions.
 
-## Functional Consequences of Bipolar I Disorder <--@HEADER-->
+##h Functional Consequences of Bipolar I Disorder <--@HEADER-->
 
 Although many individuals with bipolar disorder return to a fully functional level between episodes, approximately 30% show severe impairment in work role function. Functional recovery lags substantially behind recovery from symptoms, especially with respect to occupational recovery, resulting in lower socioeconomic status despite equivalent levels of education when compared with the general population. Individuals with bipolar I disorder perform more poorly than healthy individuals on cognitive tests. Cognitive impairments may contribute to vocational and interpersonal difficulties and persist through the lifespan, evex̂ during euthymie periods.
 
-## Differential Diagnosis <--@HEADER-->
+##h Differential Diagnosis <--@HEADER-->
 
 Major depressive disorder. Major depressive disorder may also be accompanied by hypomanic or manic symptoms (i.e., fewer symptoms or for a shorter duration than required for mania or hypomania). When the individual presents in an episode of major depression, one must depend on corroborating history regarding past episodes of mania or hypomania. Symptoms of irritability may be associated with either major depressive disorder or bipolar disorder, adding to diagnostic complexity.
 
@@ -246,17 +246,17 @@ Disorders with prominent irritability. In individuals with severe irritability, 
 
 When a child's irritability is persistent and particularly severe, the diagnosis of disruptive mood dysregulation disorder would be more appropriate. Indeed, when any child is being assessed for mania, it is essential that the symptoms represent a clear change from the child's typical behavior.
 
-## Comorbidity <--@HEADER-->
+##h Comorbidity <--@HEADER-->
 
 Co-occurring mental disorders are common, with the most frequent disorders being any anxiety disorder (e.g., panic attacks, social anxiety disorder [social phobia], specific phobia), occurring in approximately three-fourths of individuals; ADHD, any disruptive, im- pulse-control, or conduct disorder (e.g., intermittent explosive disorder, oppositional defiant disorder, conduct disorder), and any substance use disorder (e.g., alcohol use disorder) occur in over half of individuals with bipolar I disorder. Adults with bipolar I disorder have high rates of serious and/or untreated co-occurring medical conditions. 
 
 Metabolic syndrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
 
-## Bipolar II disorder <--@DIAGNOSIS-->
+##h Bipolar II disorder <--@DIAGNOSIS-->
 
 296.89 (F31.81)
 
-## Diagnostic Criteria  <--@HEADER-->
+##h Diagnostic Criteria  <--@HEADER-->
 
 For a diagnosis of bipolar II disorder, it is necessary to meet the following criteria for a current or past hypomanic episode and the following criteria for a current or past major depressive episode:
 
@@ -340,7 +340,7 @@ C. The occurrence of the hypomanic episode(s) and major depressive episode(s) is
 
 D. The symptoms of depression or the unpredictability caused by frequent alternation between periods of depression and hypomania causes clinically significant distress or impairment in social, occupational, or other important areas of functioning.
 
-## Coding and Recording Procedures <--@HEADER-->
+##h Coding and Recording Procedures <--@HEADER-->
 
 Bipolar II disorder has one diagnostic code: 296.89 (F31.81 ). Its status with respect to current severity, presence of psychotic features, course, and other specifiers cannot be coded but should be indicated in writing (e.g., 296.89 [F31.81] bipolar II disorder, current episode depressed, moderate severity, with mixed features; 296.89 [F31.81] bipolar II disorder, most recent episode depressed, in partial remission).
 
@@ -380,7 +380,7 @@ Moderate (p. 154)
 
 Severe (p. 154)
 
-## Diagnostic Features <--@HEADER-->
+##h Diagnostic Features <--@HEADER-->
 
 Bipolar II disorder is characterized by a clinical course of recurring mood episodes consisting of one or more major depressive episodes (Criteria A-C under "Major Depressive Episode") and at least one hypomanic episode (Criteria A-F under "Hypomanic Episode"). The major depressive episode must last at least 2 weeks, and the hypomarüc episode must last at least 4 days, to meet the diagnostic criteria. During the mood episode(s), the requisite number of symptoms must be present most of the day, nearly every day, and represent a noticeable change from usual behavior and functioning. The presence of a manic episode during the course of illness precludes the diagnosis of bipolar II disorder (Criterion B under "Bipolar II Disorder"). Episodes of substance/medication-induced depressive disorder or substance/medication-induced bipolar and related disorder (representing the physiological effects of a medication, other somatic treatments for depression, drugs of abuse, or toxin exposure) or of depressive and related disorder due to another medical condition or bipolar and related disorder due to another medical condition do not count toward a diagnosis of bipolar II disorder unless they persist beyond the physiological effects of the treatment or substance and then meet duration criteria for an episode. In addition, the episodes must not be better accounted for by schizoaffective disorder and are not superimposed on schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum or other psychotic disorders (Criterion C under "Bipolar II Disorder"). The depressive episodes or hypomanic fluctuations must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion D under "Bipolar II Disorder"); however, for hypomanic episodes, this requirement does not have to be met. A hypomanic episode that causes significant impairment would likely qualify for the diagnosis of manic episode and, therefore, for a lifetime diagnosis of bipolar I disorder. The recurrent major depressive episodes are often more frequent and lengthier than those occurring in bipolar I disorder.
 
@@ -390,17 +390,17 @@ Clinical information from other informants, such as close friends or relatives, 
 
 A hypomanic episode should not be confused with the several days of euthymia and restored energy or activity that may follow remission of a major depressive episode. Despite the substantial differences in duration and severity between a manic and hypomanic episode, bipolar II disorder is not a "milder form" of bipolar I disorder. Compared with individuals with bipolar I disorder, individuals with bipolar II disorder have greater chronicity of illness and spend, on average, more time in the depressive phase of their illness, which can be severe and/ or disabling. Depressive symptoms co-occurring with a hypomanic episode or hypomanic symptoms co-occurring with a depressive episode are common in individuals with bipolar Π disorder and are overrepresented in females, particularly hypomania with mixed features. Individuals experiencing hypomania with mixed features may not label their symptoms as hypomania, but instead experience them as depression with increased energy or irritability.
 
-## Associated Features Supporting Diagnosis <--@HEADER-->
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 A common feature of bipolar II disorder is impulsivity, which can contribute to suicide attempts and substance use disorders. Impulsivity may also stem from a concurrent personality disorder, substance use disorder, anxiety disorder, another mental disorder, or a medical condition. There may be heightened levels of creativity in some individuals with a bipolar disorder. However, that relationship may be nonlinear; that is, greater lifetime creative accomplishments have been associated with milder forms of bipolar disorder, and higher creativity has been found in unaffected family members. The individual's attachment to heightened creativity during hypomanic episodes may contribute to ambivalence about seeking treatment or undermine adherence to treatment.
 
-## Prevalence <--@HEADER-->
+##h Prevalence <--@HEADER-->
 
 The 12-month prevalence of bipolar II disorder, internationally, is 0.3%. In the United 
 
 States, 12-month prevalence is 0.8%. The prevalence rate of pediatric bipolar II disorder is difficult to establish. DSM-IV bipolar I, bipolar II, and bipolar disorder not otherwise specified yield a combined prevalence rate of 1.8% in U. S. and non-U. S. community samples, with higher rates (2.7% inclusive) in youths age 12 years or older.
 
-## Development and Course <--@HEADER-->
+##h Development and Course <--@HEADER-->
 
 Although bipolar II disorder can begin in late adolescence and throughout adulthood, average age at onset is the mid-20s, which is slightly later than for bipolar I disorder but earlier than for major depressive disorder. The illness most often begins with a depressive episode and is not recognized as bipolar II disorder until a hypomanic episode occurs; this happens in about 12% of individuals with the initial diagnosis of major depressive disorder. Anxiety, substance use, or eating disorders may also precede the diagnosis, complicating its detection. Many individuals experience several episodes of major depression prior to the first recognized hypomanic episode.
 
@@ -414,29 +414,29 @@ About 5%-15% of individuals with bipolar II disorder will ultimately develop a m
 
 Making the diagnosis in children is often a challenge, especially in those with irritability and hyperarousal that is nonepisodic (i.e., lacks the well-demarcated periods of altered mood). Nonepisodic irritability in youth is associated with an elevated risk for anxiety disorders and major depressive disorder, but not bipolar disorder, in adulthood. Persistently irritable youths have lower familial rates of bipolar disorder than do youths who have bipolar disorder. For a hypomanic episode to be diagnosed, the child's symptoms must exceed what is expected in a given environment and culture for the child's developmental stage. Compared with adult onset of bipolar II disorder, childhood or adolescent onset of the disorder may be associated with a more severe lifetime course. The 3-year incidence rate of first-onset bipolar II disorder in adults older than 60 years is 0.34%. However, distinguishing individuals older than 60 years with bipolar II disorder by late versus early age at onset does not appear to have any clinical utility.
 
-## Risk and Prognostic Factors <--@HEADER-->
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Genetic and physiological. The risk of bipolar II disorder tends to be highest among relatives of individuals with bipolar II disorder, as opposed to individuals with bipolar I disorder or major depressive disorder. There may be genetic factors influencing the age at onset for bipolar disorders.
 
 Course modifiers. A rapid-cycling pattern is associated with a poorer prognosis. Return to previous level of social function for individuals with bipolar II disorder is more likely for individuals of younger age and with less severe depression, suggesting adverse effects of prolonged illness on recovery. More education, fewer years of illness, and being married are independently associated with functional recovery in individuals with bipolar disorder, even after diagnostic type (I vs. II), current depressive symptoms, and presence of psychiatric comorbidity are taken into account.
 
-## Gender-Related Diagnostic Issues <--@HEADER-->
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Whereas the gender ratio for bipolar I disorder is equal, findings on gender differences in bipolar II disorder are mixed, differing by type of sample (i.e., registry, community, or clinical) and country of origin. There is little to no evidence of bipolar gender differences, whereas some, but not all, clinical samples suggest that bipolar II disorder is more common in females than in males, which may reflect gender differences in treatment seeking or other factors.
 
 Patterns of illness and comorbidity, however, seem to differ by gender, with females being more likely than males to report hypomania with mixed depressive features and a rapid-cycling course. Childbirth may be a specific trigger for a hypomanic episode, which can occur in 10%-20% of females in nonelinieal populations and most typically in the early postpartum period. Distinguishing hypomania from the elated mood and reduced sleep that normally accompany the birth of a child may be challenging. Postpartum hypomania may foreshadow the onset of a depression that occurs in about half of females who experience postpartum "highs." Accurate detection of bipolar II disorder may help in establishing appropriate treatment of the depression, which may reduce the risk of suicide and infanticide.
 
-## Suicide Risk <--@HEADER-->
+##h Suicide Risk <--@HEADER-->
 
 Suicide risk is high in bipolar II disorder. Approximately one-third of individuals with bipolar II disorder report a lifetime history of suicide attempt. The prevalence rates of lifetime attempted suicide in bipolar II and bipolar I disorder appear to be similar (32.4% and 36.3%, respectively). However, the lethality of attempts, as defined by a lower ratio of attempts to completed suicides, may be higher in individuals with bipolar II disorder compared with individuals with bipolar I disorder. There may be an association between genetic markers and increased risk for suicidal behavior in individuals with bipolar disorder, including a 6.5-fold higher risk of suicide among first-degree relatives of bipolar II probands compared with those with bipolar I disorder.
 
-## Functional Consequences of Bipolar II Disorder <--@HEADER-->
+##h Functional Consequences of Bipolar II Disorder <--@HEADER-->
 
 Although many individuals with bipolar II disorder return to a fully functional level between mood episodes, at least 15% continue to have some inter-episode dysfunction, and 20% transition directly into another mood episode without inter-episode recovery. Functional recovery lags substantially behind recovery from symptoms of bipolar II disorder, especially in regard to occupational recovery, resulting in lower socioeconomic status despite equivalent levels of education with the general population. Individuals with bipolar
 
 II disorder perform more poorly than healthy individuals on cognitive tests and, with the exception of memory and semantic fluency, have similar cognitive impairment as do individuals with bipolar I disorder. Cognitive impairments associated with bipolar II disorder may contribute to vocational difficulties. Prolonged unemployment in individuals with bipolar disorder is associated with more episodes of depression, older age, increased rates of current panic disorder, and lifetime history of alcohol use disorder.
 
-## Differential Diagnosis <--@HEADER-->
+##h Differential Diagnosis <--@HEADER-->
 
 Major depressive disorder. Perhaps the most challenging differential diagnosis to consider is major depressive disorder, which may be accompanied by hypomanic or manic symptoms that do not meet full criteria (i.e., either fewer symptoms or a shorter duration than required for a hypomanic episode). This is especially true in evaluating individuals with symptoms of irritability, which may be associated with either major depressive disorder or bipolar II disorder.
 
@@ -454,17 +454,17 @@ Personality disorders. The same convention as applies for ADHD also applies when
 
 Other bipolar disorders. Diagnosis of bipolar II disorder should be differentiated from bipolar I disorder by carefully considering whether there have been any past episodes of mania and from other specified and unspecified bipolar and related disorders by confirming the presence of fully syndromal hypomania and depression.
 
-## Comorbidity <--@HEADER-->
+##h Comorbidity <--@HEADER-->
 
 Bipolar II disorder is more often than not associated with one or more co-occurring mental disorders, with anxiety disorders being the most common. Approximately 60% of individuals with bipolar II disorder have three or more co-occurring mental disorders; 75% have an anxiety disorder; and 37% have a substance use disorder. Children and adolescents with bipolar II disorder have a higher rate of co-occurring anxiety disorders compared with those with bipolar I disorder, and the anxiety disorder most often predates the bipolar disorder. Anxiety and substance use disorders occur in individuals with bipolar II disorder at a higher rate than in the general population. Approximately 14% of individuals with bipolar II disorder have at least one lifetime eating disorder, with binge-eating disorder being more common than bulimia nervosa and anorexia nervosa.
 
 These commonly co-occurring disorders do not seem to follow a course of illness that is truly independent from that of the bipolar disorder, but rather have strong associations with mood states. For example, anxiety and eating disorders tend to associate most with depressive symptoms, and substance use disorders are moderately associated with manic symptoms.
 
-## Cyclothymic disorder <--@DIAGNOSIS-->
+##h Cyclothymic disorder <--@DIAGNOSIS-->
 
 301.13 (F34.0)
 
-## Diagnostic Criteria  <--@HEADER-->
+##h Diagnostic Criteria  <--@HEADER-->
 
 A. For at least 2 years (at least 1 year in children and adolescents) there have been numerous periods with hypomanic symptoms that do not meet criteria for a hypomanic episode and numerous periods with depressive symptoms that do not meet criteria for a major depressive episode.
 
@@ -482,7 +482,7 @@ _Specify_ if:
 
 With anxious distress (see p. 149)
 
-## Diagnostic Features <--@HEADER-->
+##h Diagnostic Features <--@HEADER-->
 
 The essential feature of cyclothymic disorder is a chronic, fluctuating mood disturbance involving numerous periods of hypomanic symptoms and periods of depressive symptoms that are distinct from each other (Criterion A). The hypomanic symptoms are of insufficient number, severity, pervasiveness, or duration to meet full criteria for a hypo- manic episode, and the depressive symptoms are of insufficient number, severity, pervasiveness, or duration to meet full criteria for a major depressive episode. During the initial 2-year period (1 year for children or adolescents), the symptoms must be persistent (present more days than not), and any symptom-free intervals last no longer than 2 months 
 
@@ -492,21 +492,21 @@ If an individual with cyclothymic disorder subsequently (i.e., after the initial
 
 The cyclothymic disorder diagnosis is not made if the pattern of mood swings is better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified and unspecified schizophrenia spectrum and other psychotic disorders (Criterion D), in which ease the mood symptoms are considered associated features of the psychotic disorder. The mood disturbance must also not be attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication) or another medical condition (e.g., hyperthyroidism) (Criterion E). Although some individuals may function particularly well during some of the periods of hypomania, over the prolonged course of the disorder, there must be clinically significant distress or impairment in social, occupational, or other important areas of functioning as a result of the mood disturbance (Criterion F). The impairment may develop as a result of prolonged periods of cyclical, often unpredictable mood changes (e.g., the individual may be regarded as temperamental, moody, unpredictable, inconsistent, or unreliable).
 
-## Prevalence <--@HEADER-->
+##h Prevalence <--@HEADER-->
 
 The lifetime prevalence of cyclothymic disorder is approximately 0.4%-l%. Prevalence in mood disorders clinics may range from 3% to 5%. In the general population, cyclothymic disorder is apparently equally common in males and females. In clinical settings, females with cyclothymic disorder may be more likely to present for treatment than males.
 
-## Development and Course <--@HEADER-->
+##h Development and Course <--@HEADER-->
 
 Cyclothymic disorder usually begins in adolescence or early adult life and is sometimes considered to reflect a temperamental predisposition to other disorders in this chapter. 
 
 Cyclothymic disorder usually has an insidious onset and a persistent course. There is a 15%-50% risk that an individual with cyclothymic disorder will subsequently develop bipolar I disorder or bipolar II disorder. Onset of persistent, fluctuating hypomanic and depressive symptoms late in adult life needs to be clearly differentiated from bipolar andrelated disorder due to another medical condition and depressive disorder due to another medical condition (e.g., multiple sclerosis) before the cyclothymic disorder diagnosis is assigned. Among children with cyclothymic disorder, the mean age at onset of symptoms is 6.5 years of age.
 
-## Risk and Prognostic Factors <--@HEADER-->
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Genetic and physiological. Major depressive disorder, bipolar I disorder, and bipolar II disorder are more common among first-degree biological relatives of individuals with cyclothymic disorder than in the general population. There may also be an increased familial risk of substance-related disorders. Cyclotiiymic disorder may be more common in the first-degree biological relatives of individuals witiK bipolar I disorder than in the general population.
 
-## Differential Diagnosis <--@HEADER-->
+##h Differential Diagnosis <--@HEADER-->
 
 Bipolar and related disorder due to another medical condition and depressive disorder due to another medical condition. The diagnosis of bipolar and related disorder due to another medical condition or depressive disorder due to another medical condition is made when the mood disturbance is judged to be attributable to the physiological effect of a specific, usually chronic medical condition (e.g., hyperthyroidism). This determination is based on the history, physical examination, or laboratory findings. If it is judged that the hypomanic and depressive symptoms are not the physiological consequence of the medical condition, then the primary mental disorder (i.e., cyclothymic disorder) and the medical condition are coded. For example, this would be the case if the mood symptoms are considered to be the psychological (not the physiological) consequence of having a chronic medical condition, or if there is no etiological relationship between the hypomanic and depressive symptoms and the medical condition.
 
@@ -516,13 +516,13 @@ Bipolar I disorder, with rapid cycling, and bipolar II disorder, with rapid cycl
 
 Borderline personality disorder. Borderline personality disorder is associated with marked shifts in mood that may suggest cyclothymic disorder. If the criteria are met for both disorders, both borderline personality disorder and cyclothymic disorder may be diagnosed.
 
-## Comorbidity <--@HEADER-->
+##h Comorbidity <--@HEADER-->
 
 Substance-related disorders and sleep disorders (i.e., difficulties in initiating and maintaining sleep) may be present in individuals with cyclothymic disorder. Most children with cyclothymic disorder treated in outpatient psychiatric settings have comorbid mental conditions; they are more likely than other pediatric patients with mental disorders to have comorbid attention-deficit/hyperactivity disorder.
 
-## Substance/medication-induced bipolar and related disorder <--@DIAGNOSIS-->
+##h Substance/medication-induced bipolar and related disorder <--@DIAGNOSIS-->
 
-## Diagnostic Criteria <--@HEADER-->
+##h Diagnostic Criteria <--@HEADER-->
 
 A. A prominent and persistent disturbance in mood that predominates in the clinical picture and is characterized by elevated, expansive, or irritable mood, with or without depressed mood, or markedly diminished interest or pleasure in all, or almost all, activities.
 
@@ -576,23 +576,23 @@ ICD-10-CM. The name of the substance/medication-induced bipolar and related diso
 
 When recording the name of the disorder, the comorbid substance use disorder (if any) is listed first, followed by the word "with," followed by the name of the substance-inducedbipolar and related disorder, followed by the specification of onset (i.e., onset during intoxication, onset during withdrawal). For example, in the case of irritable symptoms occurring during intoxication in a man with a severe cocaine use disorder, the diagnosis is F14.24 severe cocaine use disorder with cocaine-induced bipolar and related disorder, with onset during intoxication. A separate diagnosis of the comorbid severe cocaine use disorder is not given. If the substance-induced bipolar and related disorder occurs without a comorbid substance use disorder (e.g., after a one-time heavy use of the substance), no accompanying substance use disorder is noted (e.g., F15.94 amphetamine-induced bipolar and related disorder, with onset during intoxication). When more than one substance is judged to play a significant role in the development of bipolar mood symptoms, each should be listed separately (e.g., F15.24 severe methylphenidate use disorder with meth- ylphenidate-induced bipolar and related disorder, with onset during intoxication; F19.94 dexamethasone-induced bipolar and related disorder, with onset during intoxication).
 
-## Diagnostic Features <--@HEADER-->
+##h Diagnostic Features <--@HEADER-->
 
 The diagnostic features of substance/medication-induced bipolar and related disorder are essentially the same as those for mania, hypomania, or depression. A key exception to the diagnosis of substance/medication-induced bipolar and related disorder is the case of hypomania or mania that occurs after antidepressant medication use or other treatments and persists beyond the physiological effects of the medication. This condition is considered an indicator of true bipolar disorder, not substance/medication-induced bipolar and related disorder. Similarly, individuals with apparent electroconvulsive therapy-induced manic or hypomanic episodes that persist beyond the physiological effects of the treatment are diagnosed with bipolar disorder, not substance/medication-induced bipolar ^ d related disorder.
 
 Side effects of some antidepressants and other psychotropic drugs (e.g., edginess, agitation) may resemble the primary symptoms of a manic syndrome, but they are fundamentally distinct from bipolar symptoms and are insufficient for the diagnosis. That is, the criterion symptoms of mania/hypomania have specificity (simple agitation is not the same as excess involvement in purposeful activities), and a sufficient number of symptoms must be present (not just one or two symptoms) to make these diagnoses. In particular, the appearance of one or two nonspecific sjonptoms—irritability, edginess, or agitation during antidepressant treatment—in the absence of a full manic or hypomanic syndrome should not be taken to support a diagnosis of a bipolar disorder.
 
-## Associated Features Supporting Diagnosis <--@HEADER-->
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Etiology (causally related to the use of psychotropic medications or substances of abuse based on best clinical evidence) is the key variable in this etiologically specified form of bipolar disorder. Substances/medications that are typically considered to be associated with substance/medication-induced bipolar and related disorder include the stimulant class of drugs, as well as phencyclidine and steroids; however, a number of potential substances continue to emerge as new compounds are synthesized (e.g., so-called bath salts). 
 
 A history of such substance use may help increase diagnostic certainty.
 
-## Prevalence <--@HEADER-->
+##h Prevalence <--@HEADER-->
 
 There are no epidemiological studies of substance/medication-induced mania or bipolar disorder. Each etiological substance may have its own individual risk of inducing a bipolar (manic/hypomanic) disorder.
 
-## Development and Course <--@HEADER-->
+##h Development and Course <--@HEADER-->
 
 In phencyclidine-induced mania, the initial presentation may be one of a delirium with affective features, which then becomes an atypically appearing manic or mixed manic state.
 
@@ -602,17 +602,17 @@ This condition follows the ingestion or inhalation quickly, usually within hours
 
 Determination of the substance of use can be made through markers in the blood or urine to corroborate diagnosis.
 
-## Differential Diagnosis <--@HEADER-->
+##h Differential Diagnosis <--@HEADER-->
 
 Substance/medication-induced bipolar and related disorder should be differentiated from other bipolar disorders, substance intoxication or substance-induced delirium, and medication side effects (as noted earlier). A full manic episode that emerges during antidepressant treatment (e.g., medication, electroconvulsive therapy) but persists at a fully syndromal level beyond the physiological effect of that treatment is sufficient evidence for a bipolar I diagnosis. A full hypomanic episode that emerges during antidepressant treatment (e.g., medication, electroconvulsive therapy) but persists at a fully syndromal level beyond the physiological effect of that treatment is sufficient evidence for a bipolar II diagnosis only if preceded by a major depressive episode.
 
-## Comorbidity <--@HEADER-->
+##h Comorbidity <--@HEADER-->
 
 Comorbidities are those associated with the use of illicit substances (in the case of illegal stimulants or phencyclidine) or diversion of prescribed stimulants. Comorbidities related to steroid or immunosuppressant medications are those medical indications for these preparations. Delirium can occur before or along with manic symptoms in individuals ingesting phencyclidine or those who are prescribed steroid medications or other immunosuppressant medications.
 
-## Bipolar and related disorder due to another medical condition <--@DIAGNOSIS-->
+##h Bipolar and related disorder due to another medical condition <--@DIAGNOSIS-->
 
-## Diagnostic Criteria <--@HEADER-->
+##h Diagnostic Criteria <--@HEADER-->
 
 A. A prominent and persistent period of abnormally elevated, expansive, or irritable mood and abnormally increased activity or energy that predominates in the clinical picture.
 
@@ -636,49 +636,49 @@ _Specify_ if:
 
 Coding note: Include the name of the other medical condition in the name of the mental disorder (e.g., 293.83 [F06.33] bipolar disorder due to hyperthyroidism, with manic features). The other medical condition should also be coded and listed separately immediately before the bipolar and related disorder due to the medical condition (e.g., 242.90 [E05.90] hyperthyroidism; 293.83 [F06.33] bipolar disorder due to hyperthyroidism, with manic features).
 
-## Diagnostic Features <--@HEADER-->
+##h Diagnostic Features <--@HEADER-->
 
 The essential features of bipolar and related disorder due to another medical condition are presence of a prominent and persistent period of abnormally elevated, expansive, or irritable mood and abnormally increased activity or energy predominating in the clinical picture that is attributable to another medical condition (Criterion B). In most cases the manic or hypomanic picture may appear during the initial presentation of the medical condition 
 
 (i.e., within 1 month); however, there are exceptions, especially in chronic medical conditions that might worsen or relapse and herald the appearance of the manic or hypomanic picture. Bipolar and related disorder due to another medical condition would not be diagnosed when the manic or hypomanic episodes definitely preceded the medical condition, since the proper diagnosis would be bipolar disorder (except in the unusual circumstance in which all preceding manic or hypomanic episodes—or, when only one such episode has occurred, the preceding manic or hypomanic episode—were associated with ingestion of a substance/medication). The diagnosis of bipolar and related disorder due to another medical condition should not be made during the course of a delirium (Criterion D). The manic or hypomanic episode in bipolar and related disorder due to another medical condition must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning to qualify for this diagnosis (Criterion E).
 
-## Associated Features Supporting Diagnosis <--@HEADER-->
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Etiology (i.e., a causal relationship to another medical condition based on best clinical evidence) is the key variable in this etiologically specified form of bipolar disorder. The listing of medical conditions that are said to be able to induce mania is never complete, and the clinician's best judgment is the essence of this diagnosis. Among the best known of the medical conditions that can cause a bipolar manic or hypomanic condition are Cushing's disease and multiple sclerosis, as well as stroke and traumatic brain injuries.
 
-## Development and Course <--@HEADER-->
+##h Development and Course <--@HEADER-->
 
 Bipolar and related disorder due to another medical condition usually has its onset acutely or subacutely within the first weeks or month of the onset of the associated medical condition. However, this is not always the case, as a worsening or later relapse of the associated medical condition may precede the onset of the manic or hypomanic syndrome. The clinician must make a clinical judgment in these situations about whether the medical condition is causative, based on temporal sequence as well as plausibility of a causal relationship. Finally, the condition may remit before or just after the medical condition remits, particularly wh^n treatment of the manic/hypomanic symptoms is effective.
 
-## Culture-Related Diagnostic Issues <--@HEADER-->
+##h Culture-Related Diagnostic Issues <--@HEADER-->
 
 Culture-related differences, to the extent that there is any evidence, pertain to those associated with the medical condition (e.g., rates of multiple sclerosis and stroke vary around the world based on dietary, genetic factors, and other environmental factors).
 
-## Gender-Related Diagnostic Issues <--@HEADER-->
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Gender differences pertain to those associated with the medical condition (e.g., systemic lupus erythematosus is more common in females; stroke is somewhat more common in middle-age males compared with females).
 
-## Diagnostic Markers <--@HEADER-->
+##h Diagnostic Markers <--@HEADER-->
 
 Diagnostic markers pertain to those associated with the medical condition (e.g., steroid levels in blood or urine to help corroborate the diagnosis of Cushing's disease, which can be associated with manic or depressive syndromes; laboratory tests confirming the diagnosis of multiple sclerosis).
 
-## Functional Consequences of Bipolar and Related Disorder Due to Another Medical Condition <--@HEADER-->
+##h Functional Consequences of Bipolar and Related Disorder Due to Another Medical Condition <--@HEADER-->
 
 Functional consequences of the bipolar symptoms may exacerbate impairments associated with the medical condition and may incur worse outcomes due to interference with medical treatment. In general, it is believed, but not established, that the illness, when induced by Cushing's disease, will not recur if the Cushing's disease is cured or arrested. 
 
 However, it is also suggested, but not established, that mood syndromes, including depressive and manic/hypomanic ones, may be episodic (i.e., recurring) with static brain injuries and other central nervous system diseases.
 
-## Differential Diagnosis <--@HEADER-->
+##h Differential Diagnosis <--@HEADER-->
 
 Symptoms of delirium, catatonia, and acute anxiety. It is important to differentiate symptoms of mania from excited or hypervigilant delirious symptoms; from excited catatonic symptoms; and from agitation related to acute anxiety states.
 
 Medication-induced depressive or manic symptoms. An important differential diagnostic observation is that the other medical condition may be treated with medications (e.g., steroids or alpha-interferon) that can induce depressive or manic symptoms. In these cases, clinical judgment using all of the evidence in hand is the best way to try to separate the most likely and/or the most important of two etiological factors (i.e., association with the medical condition vs. a substance/medication-induced syndrome). The differential diagnosis of the associated medical conditions is relevant but largely beyond the scope of the present manual.
 
-## Comorbidity <--@HEADER-->
+##h Comorbidity <--@HEADER-->
 
 Conditions comorbid with bipolar and related disorder due to another medical condition are those associated with the medical conditions of etiological relevance. Delirium can occur before or along with manic symptoms in individuals with Cushing's disease.
 
-## Other specified bipolar and related disorder <--@DIAGNOSIS-->
+##h Other specified bipolar and related disorder <--@DIAGNOSIS-->
 
 296.89 (F31.89)
 
@@ -694,13 +694,13 @@ Examples of presentations that can be specified using the “other specified” 
 
 4. Short-duration eyelothymia (less than 24 months): Multiple episodes of hypomanic symptoms that do not meet criteria for a hypomanic episode and multiple episodes of depressive symptoms that do not meet criteria for a major depressive episode that persist over a period of less than 24 months (less than 12 months for children or adolescents) in an individual whose presentation has never met full criteria for a major depressive, manic, or hypomanic episode and does not meet criteria for any psychotic disorder. During the course of the disorder, the hypomanic or depressive symptoms are present for more days than not, the individual has not been without symptoms for more than 2 months at a time, and the symptoms cause clinically significant distress or impairment.
 
-## Unspecified bipolar and related disorder <--@DIAGNOSIS-->
+##h Unspecified bipolar and related disorder <--@DIAGNOSIS-->
 
 296.80 (F31.9)
 
 This category applies to presentations in which symptoms characteristic of a bipolar and related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the bipolar and related disorders diagnostic class. The unspecified bipolar and related disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for a specific bipolar and related disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis (e.g., in emergency room settings).
 
-## Specifiers for Bipolar and Related Disorders <--@HEADER-->
+##h Specifiers for Bipolar and Related Disorders <--@HEADER-->
 
 _Specify_ if:
 

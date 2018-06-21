@@ -1,5 +1,6 @@
 #### extract dsm-5 to txt (note this is the old non-revised dsm-5 version)
 ## Main script for DSM5 extraction
+### DSM-5 (not the updated version)
 
 ## packages
 pacman::p_load(tidyverse, tabulizer, rJava, knitr)
@@ -10,16 +11,7 @@ source('dsm5-functions.r')
 ## variables
 source('replacement-list.r')
 source('page-index.r')
-### read tags
-icd10cmDsm5 <- read_csv("icd10-dsm5.csv") ## try other version
-#### clean tags list
-icd10cmDsm5$dsm5textClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$dsm5text) ## remove stuff in brackets
-icd10cmDsm5$icd10cmClean <- gsub("\\[.*\\+\\][[:blank:]]", "", icd10cmDsm5$icd10cm) ## remove stuff in brackets
-## listBrackets <- grep("\\[.*\\+\\][[:blank:]]", icd10cmDsm5$dsm5text, value=T) ## get list of stuff in brackets ## NOT working properly
-listDiagnoses <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$dsm5textClean) ## escape regex characters
-listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmClean)
-
-### DSM-5 (not the updated version)
+source('dsm5-variables.r')
 
 ## Title, preface and more ================
 source('dsm5-title.r')
@@ -37,7 +29,6 @@ source('dsm5-section2.r')
 source("dsm5-neurodevelopmental.r")
 source("dsm5-schizophrenia.r")
 source("dsm5-bipolar.r") ## also makes a bib entry
-
 
 ## Notes
 
