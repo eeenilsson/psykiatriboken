@@ -49,6 +49,9 @@ cleanMore <- function(CHUNK){
     TEMP <- gsub("(?<=(##))( .*)\n\n\\(", "\\2 (", TEMP, perl=T)
     TEMP <- gsub("([a-z])( \n\n)(\\(e\\.g\\.)", "\\1 \\3", TEMP) ## e.g
     TEMP <- gsub("[[:blank:]]{2,}", " ", TEMP) ## remove repeated spaces
+    TEMP <- gsub("### Diagnostic Criteria", "## Diagnostic Criteria", TEMP) ## fix diagnostic criteria
+    TEMP <- gsub("\n\nDiagnostic Criteria\n\n", "## Diagnostic Criteria\n\n", TEMP) ## fix 
+    
 return(TEMP)
 }
 

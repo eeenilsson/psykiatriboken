@@ -61,6 +61,7 @@ bipolarMain <- gsub("Other \n\nPsychotic", "Other Psychotic", bipolarMain)
 bipolarMain <- gsub("day \n\n\\(or", "day \\(or", bipolarMain)
 bipolarMain <- gsub("bipolar\n\nI and II", "bipolar I and II", bipolarMain)
 bipolarMain <- gsub("Related \n\n## Disorder", "Related Disorder", bipolarMain)
+bipolarMain <- gsub("(\n\n## Diagnostic Criteria)((.{2,})?)(?=\n\n)", "\n\n\\2\\1", bipolarMain, perl=T)
 
 #### table replacement
 startTag <- "(?s)(?<=Codes are as follows.\n\n)"

@@ -1,4 +1,5 @@
-## Bipolar I Disorder
+## Bipolar I disorder <--@DIAGNOSIS-->
++n
 
 ## Diagnostic Criteria
 
@@ -234,9 +235,7 @@ Major depressive disorder. Major depressive disorder may also be accompanied by 
 
 Other bipolar disorders. Diagnosis of bipolar I disorder is differentiated from bipolar II disorder by determining whether there have been any past episodes of mania. Other specified and unspecified bipolar and related disorders should be differentiated from bipolar I and II disorders by considering whether either the episodes involving manic or hypo- manic symptoms or the episodes of depressive symptoms fail to meet the full criteria for those conditions.
 
-## Bipolar disorder due to another medical condition may be distinguished from bipolar
-
-I and II disorders by identifying, based on best clinical evidence, a causally related medical condition.
+## Bipolar disorder due to another medical condition may be distinguished from bipolar I and II disorders by identifying, based on best clinical evidence, a causally related medical condition.
 
 Generalized anxiety disorder, panic disorder, posttraumatic stress disorder, or other anxiety disorders. These disorders need to be considered in the differential diagnosis as either the primary disorder or, in some cases, a comorbid disorder. A careful history of symptoms is needed to differentiate generalized anxiety disorder from bipolar disorder, as anxious ruminations may be mistaken for racing thoughts, and efforts to minimize anxious feelings may be taken as impulsive behavior. Similarly, symptoms of posttraumatic stress disorder need to be differentiated from bipolar disorder. It is helpful to assess the episodic nature of the symptoms described, as well as to consider symptom triggers, in making this differential diagnosis.
 
@@ -463,8 +462,9 @@ Bipolar II disorder is more often than not associated with one or more co-occurr
 These commonly co-occurring disorders do not seem to follow a course of illness that is truly independent from that of the bipolar disorder, but rather have strong associations with mood states. For example, anxiety and eating disorders tend to associate most with depressive symptoms, and substance use disorders are moderately associated with manic symptoms.
 
 ## Cyclothymic disorder <--@DIAGNOSIS-->
++n 301.13 (F34.0)
 
-### Diagnostic Criteria 301.13 (F34.0)
+## Diagnostic Criteria
 
 A. For at least 2 years (at least 1 year in children and adolescents) there have been numerous periods with hypomanic symptoms that do not meet criteria for a hypomanic episode and numerous periods with depressive symptoms that do not meet criteria for a major depressive episode.
 
@@ -521,6 +521,7 @@ Borderline personality disorder. Borderline personality disorder is associated w
 Substance-related disorders and sleep disorders (i.e., difficulties in initiating and maintaining sleep) may be present in individuals with cyclothymic disorder. Most children with cyclothymic disorder treated in outpatient psychiatric settings have comorbid mental conditions; they are more likely than other pediatric patients with mental disorders to have comorbid attention-deficit/hyperactivity disorder.
 
 ## Substance/medication-induced bipolar and related disorder <--@DIAGNOSIS-->
++n
 
 ## Diagnostic Criteria
 
@@ -611,6 +612,7 @@ Substance/medication-induced bipolar and related disorder should be differentiat
 Comorbidities are those associated with the use of illicit substances (in the case of illegal stimulants or phencyclidine) or diversion of prescribed stimulants. Comorbidities related to steroid or immunosuppressant medications are those medical indications for these preparations. Delirium can occur before or along with manic symptoms in individuals ingesting phencyclidine or those who are prescribed steroid medications or other immunosuppressant medications.
 
 ## Bipolar and related disorder due to another medical condition <--@DIAGNOSIS-->
++n
 
 ## Diagnostic Criteria
 
@@ -662,9 +664,7 @@ Gender differences pertain to those associated with the medical condition (e.g.,
 
 Diagnostic markers pertain to those associated with the medical condition (e.g., steroid levels in blood or urine to help corroborate the diagnosis of Cushing's disease, which can be associated with manic or depressive syndromes; laboratory tests confirming the diagnosis of multiple sclerosis).
 
-## Functional Consequences of Bipolar and Related 
-
-## Disorder Due to Another Medical Condition
+## Functional Consequences of Bipolar and Related Disorder Due to Another Medical Condition
 
 Functional consequences of the bipolar symptoms may exacerbate impairments associated with the medical condition and may incur worse outcomes due to interference with medical treatment. In general, it is believed, but not established, that the illness, when induced by Cushing's disease, will not recur if the Cushing's disease is cured or arrested. 
 
