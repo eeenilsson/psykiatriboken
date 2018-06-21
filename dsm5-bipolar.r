@@ -1,4 +1,4 @@
-### Bipolar Spectrum and Other Psychotic Disorders ==============
+### Bipolar and Related Disorders  ==============
 ## 161 bipolar intro
 ## 161:191 Bipolar main body
 
@@ -148,20 +148,47 @@ list(
 
 ## Split string by diagnosis
 ## make list/table, add page intervals and chapter name
-
 text <- readr::read_file('bipolarMain.txt')
 
-## csplit --digits=2  --quiet --prefix=outfile infile "/-|/+1" "{*}"
-## https://stackoverflow.com/questions/11313852/split-one-file-into-multiple-files-based-on-delimiter
-
-gsub("(##)(.*?)(<--@)+?(?=DIAGNOSIS-->)", "",
-     "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
-
-gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "",
-     "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
-
-
 ## Add @SPLIT tag
-gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
-     "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
+### test:
+## gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
+##      "## Bipolar II disorder <--@DIAGNOSIS--> keep some text <--@DIAGNOSIS-->", perl=T)
+
+
+bipolarMainSplit <- gsub("(##)(.*?)(?=<--@DIAGNOSIS-->)", "@SPLIT\\1\\2",
+     bipolarMain, perl=T)
+writeLines(bipolarMainSplit, "bipolarTAGTEST.txt")
+bipolarMainSplit <- strsplit(bipolarMainSplit, "@SPLIT")
+writeLines(bipolarMainSplit[[1]][1], "bipolarTEST.txt")
+writeLines(bipolarMainSplit[[1]][2], "bipolarTEST.txt")
+
+source('makeDsmEntry.r')
+
+writeLines(
+    makeDsmEntry(insertChapter = "Bipolar and Related Disorders", insertPages = "", insertAbstract = "")
+  , "test.bib")
+
+writeLines(makeDsmEntry(), "test.bib")
+    
+
+## inbook bib entry	
+## A part of a book, e.g., a chpater, section, or whatever and/or a range of pages.
+## Required fields: author or editor, title, chapter and/or pages, publisher, year.
+## Optional fields: volume or number, series, type, address, edition, month, note.
+## http://blog.apastyle.org/apastyle/2013/08/how-to-cite-the-dsm5-in-apa-style.html
+## The correct citation for this book is American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
+q
+text <- "Metabolic s)nidrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
+
+@SPLIT## Bipolar II disorder <--@DIAGNOSIS-->
+
+Diagnostic Criteria 296.89 (F31.81)
+
+For a diagnosis of bipolar II disorder, it is necessary to meet the following"
+
+strsplit(text, "@SPLIT")[[1]][1]
+
+
+## Notes below
 

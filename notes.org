@@ -1,3 +1,5 @@
+* Copied regions
+** Misc notes on DSM 5 import
 ## Notes on dsm5 import
 
 ## gsub("^", "Start", neurodevelopmentalMain)
@@ -63,3 +65,24 @@
 ## local formatting
 ## gsub("(?s)((?<=(\n\n## Other \\(or Unknown\\) \n\n)).*(?=## Diagnostic Criteria))", "", text, perl=T) ## correctly identifies text between bounds but no 
 ##way to replace ## within region.
+** Csplit string split [2018-06-21 tor 09:42] 
+  ## csplit --digits=2  --quiet --prefix=outfile infile "/-|/+1" "{*}"
+  ## https://stackoverflow.com/questions/11313852/split-one-file-into-multiple-files-based-on-delimiter
+** DSM 5 bib entry [2018-06-21 tor 10:19] 
+  @Inbook{apa2013,
+      author = {American Psychiatric Association},
+      title = {Diagnostic and Statistical Manual of Mental Disorders},
+      chapter = {},
+      pages = {},
+      publisher = {American Psychiatric Association},
+      address = {Arlington, VA},
+      year = {2013},
+      edition = {Fifth Edition}
+  }
+
+  ## inbook bib entry    
+  ## A part of a book, e.g., a chpater, section, or whatever and/or a range of pages.
+  ## Required fields: author or editor, title, chapter and/or pages, publisher, year.
+  ## Optional fields: volume or number, series, type, address, edition, month, note.
+  ## http://blog.apastyle.org/apastyle/2013/08/how-to-cite-the-dsm5-in-apa-style.html
+  ## The correct citation for this book is American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
