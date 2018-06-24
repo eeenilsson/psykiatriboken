@@ -86,3 +86,17 @@
   ## Optional fields: volume or number, series, type, address, edition, month, note.
   ## http://blog.apastyle.org/apastyle/2013/08/how-to-cite-the-dsm5-in-apa-style.html
   ## The correct citation for this book is American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
+** dsm5 import get Section [2018-06-24 sön 23:28] 
+  ## grep(startTag, depressiveMain, perl=T) ## test
+  ## grep(stopTag, depressiveMain, perl=T) ## test
+  ## paste(startTag, ".*", stopTag, sep= "")
+
+  ### get section
+  mySection <-
+      substr(depressiveMain,
+             regexpr(startTag, depressiveMain, perl=T)[1],
+             regexpr(stopTag, depressiveMain, perl=T)[1]+
+             attr(regexpr(stopTag, depressiveMain, perl=T), "match.length")-1)
+
+
+  writeLines(testSection, "testSection.txt")

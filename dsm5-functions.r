@@ -104,3 +104,32 @@ assignTagHeader <- function(x){
                       first.only=FALSE)
     return(TEMP)
 }
+
+getSection <- function(startTag, stopTag, x){
+    ## Exract text betwen startTag and stopTag
+    ## x is a string (contents of long text file)
+    substr(x,
+           regexpr(startTag, x, perl=T)[1],
+           regexpr(stopTag, x, perl=T)[1]+
+           attr(regexpr(stopTag, x, perl=T), "match.length")-1)
+}
+
+parseTableUseDisorder <- function (x)){ 
+    ## Read a string yanked from txt file
+    ## Works on substance use ICD code tables
+    mySection <- x
+    mySection <- gsub("##", "", mySection)
+    mySection <- gsub("FI ", "F1", mySection)
+    mySection <- gsub("ICD.*disorder", "", mySection)
+    mySection <- gsub("\n\n", " ", mySection)
+    mySection <- gsub("[[:blank:]]+", " ", mySection)
+    mySection <- gsub("([[:blank:]][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{2}", "\n\\1;", mySection, perl=T, ignore.case=T) ## Row names identified
+    mySection <- gsub("(F[0-9]{2}\\.[0-9]{2})", "\\1;", mySection, perl=T, ignore.case=T)
+    TEMP <- read_delim(mySection, delim=";", trim_ws = TRUE, col_names = FALSE)
+    return(TEMP[1:ncol(TEMP)-1]) ## last col empty
+    }           
+
+formatTable <- function(TABLE){
+    ## Add newlines after and start/stop tags before/after.
+    paste("<--@TABLESTART-->", paste(as.character(kable(TABLE, align = paste("l", paste(rep("c", ncol(test)), collapse=""), sep=""))), collapse="\n"), "\n\n<--@TABLESTOP-->", sep="") ## add newlines after    
+}

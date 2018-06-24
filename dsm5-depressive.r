@@ -44,52 +44,28 @@ writeLines(depressiveMain, "depressiveMain.txt")
 #### table replacement
 startTag <- "(?s)(?<=the clinician should record only the substance.induced depressive disorder.\n\n)"
 stopTag <- "9.94 (?=_Specify_)"
-grep(startTag, depressiveMain, perl=T) ## test
-grep(stopTag, depressiveMain, perl=T) ## test
-paste(startTag, ".*", stopTag, sep= "")
+myTable <- getSection(startTag, stopTag, depressiveMain)
+myTable <- parseTableUseDisorder(myTable)
+colnames(myTable) <- c("Substance", "Mild",  "Moderate or severe", "Without use disorder")
 
-### get section
-mySection <-
-    substr(depressiveMain,
-           regexpr(startTag, depressiveMain, perl=T)[1],
-           regexpr(stopTag, depressiveMain, perl=T)[1]+
-           attr(regexpr(stopTag, depressiveMain, perl=T), "match.length")-1)
+depressiveMain <- gsub(
+    paste(startTag, ".*", stopTag, sep= ""),
+    paste("<--@TABLESTART-->", paste(as.character(kable(myTable, align = paste("l", paste(rep("c", ncol(test)), collapse=""), sep=""))), collapse="\n"), "\n\n<--@TABLESTOP-->", sep="") ## add newlines after
+                     , depressiveMain, perl=T) ## table
 
-getSection <- function(startTag, stopTag, x){
-    ## Exract text betwen startTag and stopTag
-    ## x is a string (contents of long text file)
-    substr(x,
-           regexpr(startTag, x, perl=T)[1],
-           regexpr(stopTag, x, perl=T)[1]+
-           attr(regexpr(stopTag, x, perl=T), "match.length")-1)
-}
+formatTable(myTable)
 
-parseTableUseDisorder <- function (x){ 
-    ## Read a string yanked from txt file
-    ## Works on substance use ICD code tables
-    mySection <- x
-    mySection <- gsub("##", "", mySection)
-    mySection <- gsub("FI ", "F1", mySection)
-    mySection <- gsub("ICD.*disorder", "", mySection)
-    mySection <- gsub("\n\n", " ", mySection)
-    mySection <- gsub("[[:blank:]]+", " ", mySection)
-    mySection <-
-        gsub("([[:blank:]][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{2}", "\n\\1;", mySection, perl=T, ignore.case=T) ## Row names identified
-    mySection <-
-        gsub("(F[0-9]{2}\\.[0-9]{2})", "\\1;", mySection, perl=T, ignore.case=T)
-    return(read_delim(mySection, delim=";", trim_ws = TRUE, col_names = FALSE)
-           )
+    
+    
+                     , depressiveMain, perl=T) ## table
 
-writeLines(testSection, "testSection.txt")
 
+writeLines(depressiveMain, "depressiveMain.txt")
 
 
 depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", depressiveMain, perl=T) ## table
 
 
-
-
-writeLines(depressiveMain, "depressiveMain.txt")
 
 ## table notes
 tab <- read_csv("dsm5-table-p176.csv")
