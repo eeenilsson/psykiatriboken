@@ -42,28 +42,19 @@ depressiveMain <- gsub("■", " ", depressiveMain)
 writeLines(depressiveMain, "depressiveMain.txt")
 
 #### table replacement
+## depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", depressiveMain, perl=T) ## table
 startTag <- "(?s)(?<=the clinician should record only the substance.induced depressive disorder.\n\n)"
 stopTag <- "9.94 (?=_Specify_)"
 myTable <- getSection(startTag, stopTag, depressiveMain)
 myTable <- parseTableUseDisorder(myTable)
 colnames(myTable) <- c("Substance", "Mild",  "Moderate or severe", "Without use disorder")
-
 depressiveMain <- gsub(
     paste(startTag, ".*", stopTag, sep= ""),
-    paste("<--@TABLESTART-->", paste(as.character(kable(myTable, align = paste("l", paste(rep("c", ncol(test)), collapse=""), sep=""))), collapse="\n"), "\n\n<--@TABLESTOP-->", sep="") ## add newlines after
-                     , depressiveMain, perl=T) ## table
-
-formatTable(myTable)
-
-    
-    
-                     , depressiveMain, perl=T) ## table
-
+    formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced Depressive Disorder"), depressiveMain, perl=T) ## table
+## TODO: Save as .csv?
 
 writeLines(depressiveMain, "depressiveMain.txt")
 
-
-depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", depressiveMain, perl=T) ## table
 
 
 

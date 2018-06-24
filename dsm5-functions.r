@@ -129,7 +129,7 @@ parseTableUseDisorder <- function (x)){
     return(TEMP[1:ncol(TEMP)-1]) ## last col empty
     }           
 
-formatTable <- function(TABLE){
+formatTable <- function(TABLE, caption = NULL){
     ## Add newlines after and start/stop tags before/after.
-    paste("<--@TABLESTART-->", paste(as.character(kable(TABLE, align = paste("l", paste(rep("c", ncol(test)), collapse=""), sep=""))), collapse="\n"), "\n\n<--@TABLESTOP-->", sep="") ## add newlines after    
+    paste("<--@TABLESTART--> ", caption, "\n", paste(as.character(kable(TABLE, align = paste("l", paste(rep("c", ncol(test)), collapse=""), sep=""))), collapse="\n"), "\n<--@TABLESTOP-->\n\n", sep="") ## add newlines after    
 }

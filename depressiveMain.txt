@@ -552,6 +552,7 @@ Note: This diagnosis should be made instead of a diagnosis of substance intoxica
 
 Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced depressive disorders are indicated in the table below. Note that the ICD-10- CM code depends on wliether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance- induced depressive disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced depressive disorder (e.g., “mild cocaine use disorder with cocaine-induced depressive disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced depressive disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a onetime heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced depressive disorder.
 
+<--@TABLESTART--> ICD codes for Substance/Medication-Induced Depressive Disorder
 |Substance                         |  Mild  | Moderate or severe | Without use disorder |
 |:---------------------------------|:------:|:------------------:|:--------------------:|
 |Alcohol                           | F10.14 |       F10.24       |        F10.94        |
@@ -563,6 +564,7 @@ Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica
 |Amphetamine (or other stimulant)  | F15.14 |       F15.24       |        F15.94        |
 |Cocaine                           | F14.14 |       F14.24       |        F14.94        |
 |Other (or unknown) substance      | F19.14 |       F19.24       |        F19.94        |
+<--@TABLESTOP-->
 
 _Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
