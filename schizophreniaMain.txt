@@ -64,7 +64,7 @@ Note: Diagnosis of delusional disorder can be made without using this severity s
 
 ##h Subtypes <--@HEADER-->
 
-In érotomanie type, the central theme of the delusion is that another person is in love with the individual. The person about whom this conviction is held is usually of higher status (e.g., a famous individual or a superior at work) but can be a complete stranger. Efforts to contact the object of the delusion are common. In grandiose type, the central theme of the delusion is the conviction of having some great talent or insight or of having made some important discovery. Less commonly, the individual may have the delusion of having a special relationship with a prominent individual or of being a prominent person (in which case the actual individual may be regarded as an impostor). Grandiose delusions may have a religious content. In jealous type, the central theme of the delusion is that of an unfaithful partner. This belief is arrived at without due cause and is based on incorrect inferences supported by small bits of "evidence" (e.g., disarrayed clothing). The individual with the delusion usually confronts the spouse or lover and attempts to intervene in the imagined infidelity. In persecutory type, the central theme of the delusion involves the individual's belief of being conspired against, cheated, spied on, followed, poisoned, maliciously maligned, harassed, or obstructed in the pursuit of long-term goals. Small slights may be exaggerated and become the focus of a delusional system. The affected individual may engage in repeated attempts to obtain satisfaction by legal or legislative action. Individuals with persecutory delusions are often resentful and angry and may resort to violence against those they believe are hurting them. In somatic type, the central theme of the delusion involves bodily functions or sensations. Somatic delusions can occur in several forms. Most common is the belief that the individual emits a foul odor; that there is an infestation of insects on or in the skin; that there is an internal parasite; that certain parts of the body are misshapen or ugly; or that parts of the body are not functioning.
+In erotomanic type, the central theme of the delusion is that another person is in love with the individual. The person about whom this conviction is held is usually of higher status (e.g., a famous individual or a superior at work) but can be a complete stranger. Efforts to contact the object of the delusion are common. In grandiose type, the central theme of the delusion is the conviction of having some great talent or insight or of having made some important discovery. Less commonly, the individual may have the delusion of having a special relationship with a prominent individual or of being a prominent person (in which case the actual individual may be regarded as an impostor). Grandiose delusions may have a religious content. In jealous type, the central theme of the delusion is that of an unfaithful partner. This belief is arrived at without due cause and is based on incorrect inferences supported by small bits of "evidence" (e.g., disarrayed clothing). The individual with the delusion usually confronts the spouse or lover and attempts to intervene in the imagined infidelity. In persecutory type, the central theme of the delusion involves the individual's belief of being conspired against, cheated, spied on, followed, poisoned, maliciously maligned, harassed, or obstructed in the pursuit of long-term goals. Small slights may be exaggerated and become the focus of a delusional system. The affected individual may engage in repeated attempts to obtain satisfaction by legal or legislative action. Individuals with persecutory delusions are often resentful and angry and may resort to violence against those they believe are hurting them. In somatic type, the central theme of the delusion involves bodily functions or sensations. Somatic delusions can occur in several forms. Most common is the belief that the individual emits a foul odor; that there is an infestation of insects on or in the skin; that there is an internal parasite; that certain parts of the body are misshapen or ugly; or that parts of the body are not functioning.
 
 ##h Diagnostic Features <--@HEADER-->
 
@@ -74,7 +74,7 @@ In addition to the five symptom domain areas identified in the diagnostic criter
 
 ##h Associated Features Supporting Diagnosis <--@HEADER-->
 
-Social, marital, or work problems can result from the delusional beliefs of delusional disorder. Individuals with delusional disorder may be able to factually describe that others view their beliefs as irrational but are unable to accept this themselves (i.e., there may be "factual insight" but no true insight). Many individuals develop irritable or dysphoric mood, which can usually be understood as a reaction to their delusional beliefs. Anger and violent behavior can occur with persecutory, jealous, and érotomanie types. The individual may engage in htigious or antagonistic behavior (e.g., sending hundreds of letters of protest to the government). Legal difficulties can occur, particularly in jealous and érotomanie types.
+Social, marital, or work problems can result from the delusional beliefs of delusional disorder. Individuals with delusional disorder may be able to factually describe that others view their beliefs as irrational but are unable to accept this themselves (i.e., there may be "factual insight" but no true insight). Many individuals develop irritable or dysphoric mood, which can usually be understood as a reaction to their delusional beliefs. Anger and violent behavior can occur with persecutory, jealous, and erotomanic types. The individual may engage in htigious or antagonistic behavior (e.g., sending hundreds of letters of protest to the government). Legal difficulties can occur, particularly in jealous and erotomanic types.
 
 ##h Prevalence <--@HEADER-->
 
@@ -760,7 +760,7 @@ The diagnosis of psychotic disorder due to another medical condition depends on 
 
 Suicide risk in the context of psychotic disorder due to another medical condition is not clearly delineated, although certain conditions such as epilepsy and multiple sclerosis are associated with increased rates of suicide, which may be further increased in the presence of psychosis.
 
-##h Functional Consequences of Psychotic Disorder Due to Another IVIedical Condition <--@HEADER-->
+##h Functional Consequences of Psychotic Disorder Due to Another Medical Condition <--@HEADER-->
 
 Functional disability is typically severe in the context of psychotic disorder due to another medical condition but will vary considerably by the type of condition and likely improve with successful resolution of the condition.
 
@@ -814,7 +814,7 @@ Catatonia associated with another mental disorder (catatonia specifier) may be u
 
 Induced Movement Disorders and Other Adverse Effects of Medication"). Because of the seriousness of the complications, particular attention should be paid to the possibility that the catatonia is attributable to 333.92 (G21.0) neuroleptic malignant syndrome.
 
-## Catatonic Disorder Due to Another IVIedical Condition
+##d Catatonic disorder due to another medical condition <--@DIAGNOSIS-->
 
 293.89 (F06.1)
 
@@ -876,7 +876,7 @@ Coding note: Code first 781.99 (R29.818) other symptoms involving nervous and mu
 
 This category applies to presentations in which symptoms characteristic of a schizophrenia spectrum and other psychotic disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the schizophrenia spectrum and other psychotic disorders diagnostic class. The other specified schizophrenia spectrum and other psychotic disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific schizophrenia spectrum and other psychotic disorder. This is done by recording “other specified schizophrenia spectrum and other psychotic disorder” followed by the specific reason (e.g., “persistent auditory hallucinations”).
 
-## Examples of presentations that can be specified using the “other specified” designation include the following:
+Examples of presentations that can be specified using the “other specified” designation include the following:
 
 1. Persistent auditory hallucinations occurring in the absence of any other features.
 

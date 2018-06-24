@@ -1069,7 +1069,7 @@ Stereotypic movement disorder may occur as a primary diagnosis or secondary to a
 
 Cornelia de Lange syndrome, and Smith-Magenis syndrome. When stereotypic movement disorder co-occurs with another medical condition, both should be coded.
 
-##d Tic Disorders  <--@DIAGNOSIS-->
+##d Tic disorders  <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 

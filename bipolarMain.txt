@@ -1,4 +1,4 @@
-##h Bipolar I disorder <--@DIAGNOSIS-->
+##d Bipolar I disorder <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -252,7 +252,7 @@ Co-occurring mental disorders are common, with the most frequent disorders being
 
 Metabolic syndrome and migraine are more common among individuals with bipolar disorder than in the general population. More than half of individuals whose symptoms meet criteria for bipolar disorder have an alcohol use disorder, and those with both disorders are at greater risk for suicide attempt.
 
-##h Bipolar II disorder <--@DIAGNOSIS-->
+##d Bipolar II disorder <--@DIAGNOSIS-->
 
 296.89 (F31.81)
 
@@ -460,7 +460,7 @@ Bipolar II disorder is more often than not associated with one or more co-occurr
 
 These commonly co-occurring disorders do not seem to follow a course of illness that is truly independent from that of the bipolar disorder, but rather have strong associations with mood states. For example, anxiety and eating disorders tend to associate most with depressive symptoms, and substance use disorders are moderately associated with manic symptoms.
 
-##h Cyclothymic disorder <--@DIAGNOSIS-->
+##d Cyclothymic disorder <--@DIAGNOSIS-->
 
 301.13 (F34.0)
 
@@ -520,7 +520,7 @@ Borderline personality disorder. Borderline personality disorder is associated w
 
 Substance-related disorders and sleep disorders (i.e., difficulties in initiating and maintaining sleep) may be present in individuals with cyclothymic disorder. Most children with cyclothymic disorder treated in outpatient psychiatric settings have comorbid mental conditions; they are more likely than other pediatric patients with mental disorders to have comorbid attention-deficit/hyperactivity disorder.
 
-##h Substance/medication-induced bipolar and related disorder <--@DIAGNOSIS-->
+##d Substance/medication-induced bipolar and related disorder <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -566,7 +566,7 @@ With onset during intoxication: If the criteria are met for intoxication with th
 
 With onset during withdrawal: If criteria are met for withdrawal from the substance and the symptoms develop during, or shortly after, withdrawal.
 
-## Recording Procedures
+##h Recording Procedures <--@HEADER-->
 
 ICD-9-CM. The name of the substance/medication-induced bipolar and related disorder begins with the specific substance (e.g., cocaine, dexamethasone) that is presumed to be causing the bipolar mood symptoms. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class. For substances that do not fit into any of the classes (e.g., dexamethasone), the code for "other substance" should be used; and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category "unknown substance" should be used.
 
@@ -610,7 +610,7 @@ Substance/medication-induced bipolar and related disorder should be differentiat
 
 Comorbidities are those associated with the use of illicit substances (in the case of illegal stimulants or phencyclidine) or diversion of prescribed stimulants. Comorbidities related to steroid or immunosuppressant medications are those medical indications for these preparations. Delirium can occur before or along with manic symptoms in individuals ingesting phencyclidine or those who are prescribed steroid medications or other immunosuppressant medications.
 
-##h Bipolar and related disorder due to another medical condition <--@DIAGNOSIS-->
+##d Bipolar and related disorder due to another medical condition <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -678,7 +678,7 @@ Medication-induced depressive or manic symptoms. An important differential diagn
 
 Conditions comorbid with bipolar and related disorder due to another medical condition are those associated with the medical conditions of etiological relevance. Delirium can occur before or along with manic symptoms in individuals with Cushing's disease.
 
-##h Other specified bipolar and related disorder <--@DIAGNOSIS-->
+##d Other specified bipolar and related disorder <--@DIAGNOSIS-->
 
 296.89 (F31.89)
 
@@ -694,7 +694,7 @@ Examples of presentations that can be specified using the “other specified” 
 
 4. Short-duration eyelothymia (less than 24 months): Multiple episodes of hypomanic symptoms that do not meet criteria for a hypomanic episode and multiple episodes of depressive symptoms that do not meet criteria for a major depressive episode that persist over a period of less than 24 months (less than 12 months for children or adolescents) in an individual whose presentation has never met full criteria for a major depressive, manic, or hypomanic episode and does not meet criteria for any psychotic disorder. During the course of the disorder, the hypomanic or depressive symptoms are present for more days than not, the individual has not been without symptoms for more than 2 months at a time, and the symptoms cause clinically significant distress or impairment.
 
-##h Unspecified bipolar and related disorder <--@DIAGNOSIS-->
+##d Unspecified bipolar and related disorder <--@DIAGNOSIS-->
 
 296.80 (F31.9)
 

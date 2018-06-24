@@ -27,7 +27,7 @@ source('dsm5-section2.r')
 ## Section III ==============================
 ## Diagnostic classifications
 source("dsm5-neurodevelopmental.r")
-source("dsm5-schizophrenia.r")
+source("dsm5-schizophrenia.r") ## Note: Added Tic Disordes as diagnosis
 source("dsm5-bipolar.r") ## also makes a bib entry
 
 ## Notes
