@@ -132,7 +132,7 @@ E. There has never been a manic episode or a hypomanic episode.
 
 Note: This exclusion does not apply if all of the manic-like or hypomanic-like episodes are substance-induced or are attributable to the physiological effects of another medical condition.
 
-In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to weeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of MDE is more persistent and not tied to specific thoughts or preoccupations.
+Note: In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to weeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of MDE is more persistent and not tied to specific thoughts or preoccupations.
 
 The pain of grief may be accompanied by positive emotions and humor that are uncharacteristic of the pervasive unhappiness and misery characteristic of MDE. The thought content associated with grief generally features a preoccupation with thoughts and memories of the deceased, rather than the self-critical or pessimistic ruminations seen in MDE. In grief, self-esteem is generally preserved, whereas in MDE feelings of worthlessness and self-loathing are common. If selfderogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about "joining" the deceased, whereas in MDE such thoughts are focused on ending one's own life because of feeling worthless, undeserving of life, or unable to cope with the pain of depression.
 
@@ -552,9 +552,13 @@ Note: This diagnosis should be made instead of a diagnosis of substance intoxica
 
 Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced depressive disorders are indicated in the table below. Note that the ICD-10- CM code depends on wliether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance- induced depressive disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced depressive disorder (e.g., “mild cocaine use disorder with cocaine-induced depressive disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced depressive disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a onetime heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced depressive disorder.
 
-<--TABLE-P176-->
+## ICD-10-CM
 
-_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+## ICD-9-CM
+
+With use disorder, mild With use disorder, moderate or severe Withoutusedisorder Alcohol 291.89 F10.14 F10.24 FI 0.94 Phencyclidine 292.84 F16.14 F16.24 F16.94 Other hallucinogen 292.84 F16.14 F16.24 FI 6.94 Inhalant 292.84 F18.14 F18.24 FI 8.94 Opioid 292.84 F11.14 F11.24 F11.94 Sedative, hypnotic, or anxiolytic 292.84 F13.14 FI 3.24 FI 3.94 ## Amphetamine (or other stimulant)
+
+292.84 F15.14 FI 5.24 FI 5.94 Cocaine 292.84 F14.14 FI 4.24 FI 4.94 Other (or unknown) substance 292.84 F19.14 F19.24 FI 9.94 _Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: If criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
@@ -740,7 +744,7 @@ With anxious distress: Anxious distress is defined as the presence of at least t
 
 _Specify_ current severity:
 
-IMild: Two symptoms.Moderate: Three symptoms.Moderate-severe: Four or five symptoms.
+IMild: Two symptoms. Moderate: Three symptoms. Moderate-severe: Four or five symptoms.
 
 Severe: Four or five symptoms and with motor agitation.
 
