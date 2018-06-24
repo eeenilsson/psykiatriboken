@@ -1,4 +1,4 @@
-Disruptive Mood Dysregulation Disorder
+## Disruptive Mood Dysregulation Disorder
 
 296.99 (F34.8)
 
@@ -92,7 +92,9 @@ Intermittent explosive disorder. Children with symptoms suggestive of intermitte
 
 Rates of comorbidity in disruptive mood dysregulation disorder are extremely high. It is rare to find individuals whose symptoms meet criteria for disruptive mood dysregulation disorder alone. Comorbidity between disruptive mood dysregulation disorder and other DSM-defined syndromes appears higher than for many other pediatric mental illnesses; the strongest overlap is with oppositional defiant disorder. Not only is the overall rate of comorbidity high in disruptive mood dysregulation disorder, but also the range of comor- bid illnesses appears particularly diverse. These children typically present to the clinic with a wide range of disruptive behavior, mood, anxiety, and even autism spectrum symptoms and diagnoses. However, children with disruptive mood dysregulation disorder should not have symptoms that meet criteria for bipolar disorder, as in that context, only the bipolar disorder diagnosis should be made. If children have symptoms that meet criteria for oppositional defiant disorder or intermittent explosive disorder and disruptive mood dysregulation disorder, only the diagnosis of disruptive mood dysregulation disorder should be assigned. Also, as noted earlier, the diagnosis of disruptive mood dysregulation disorder should not be assigned if the symptoms occur only in an anxiety- provoking context, when the routines of a child with autism spectrum disorder or obsessive-compulsive disorder are disturbed, or in the context of a major depressive episode.
 
-## Major Depressive DisorderDiagnostic Criteria
+## Major Depressive Disorder
+
+## Diagnostic Criteria
 
 A. Five (or more) of the following symptoms have been present during the same 2-week period and represent a change from previous functioning: at least one of the symptoms is either (1) depressed mood or (2) loss of interest or pleasure.
 
@@ -128,7 +130,9 @@ Note: Responses to a significant loss (e.g., bereavement, financial ruin, losses
 
 E. There has never been a manic episode or a hypomanic episode.
 
-Note: This exclusion does not apply if all of the manic-like or hypomanic-like episodes are substance-induced or are attributable to the physiological effects of another medical condition.’ In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to weeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of MDE is more persistent and not tied to specific thoughts or preoccupations.
+Note: This exclusion does not apply if all of the manic-like or hypomanic-like episodes are substance-induced or are attributable to the physiological effects of another medical condition.
+
+In distinguishing grief from a major depressive episode (MDE), it is useful to consider that in grief the predominant affect is feelings of emptiness and loss, while in MDE it is persistent depressed mood and the inability to anticipate happiness or pleasure. The dysphoria in grief is likely to decrease in intensity over days to weeks and occurs in waves, the so-called pangs of grief. These waves tend to be associated with thoughts or reminders of the deceased. The depressed mood of MDE is more persistent and not tied to specific thoughts or preoccupations.
 
 The pain of grief may be accompanied by positive emotions and humor that are uncharacteristic of the pervasive unhappiness and misery characteristic of MDE. The thought content associated with grief generally features a preoccupation with thoughts and memories of the deceased, rather than the self-critical or pessimistic ruminations seen in MDE. In grief, self-esteem is generally preserved, whereas in MDE feelings of worthlessness and self-loathing are common. If selfderogatory ideation is present in grief, it typically involves perceived failings vis-à-vis the deceased (e.g., not visiting frequently enough, not telling the deceased how much he or she was loved). If a bereaved individual thinks about death and dying, such thoughts are generally focused on the deceased and possibly about "joining" the deceased, whereas in MDE such thoughts are focused on ending one's own life because of feeling worthless, undeserving of life, or unable to cope with the pain of depression.
 
@@ -138,7 +142,7 @@ The diagnostic code for major depressive disorder is based on whether this is a 
 
 Current severity and psychotic features are only indicated if full criteria are currently met for a major depressive episode. Remission specifiers are only indicated if the full criteria are not currently met for a major depressive episode. Codes are as follows:
 
-## Severity/course specifier Single episode Recurrent episode*
+## Severity/course specifier Single episode Recurrent episode
 
 Mild (p. 188) 296.21 (F32.0) 296.31 (F33.0)
 
@@ -152,7 +156,9 @@ In partial remission (p. 188) 296.25 (F32.4) 296.35 (F33.41)
 
 In full remission (p. 188) 296.26 (F32.5) 296.36 (F33.42)
 
-Unspecified 296.20 (F32.9) 296.30 (F33.9)*For an episode to be considered recurrent, there must be an interval of at least 2 consecutive months between separate episodes in which criteria are not met for a major depressive episode. The definitions of specifiers are found on the indicated pages.**If psychotic features are present, code the "with psychotic features" specifier irrespective of episode severity.
+Unspecified 296.20 (F32.9) 296.30 (F33.9)
+
+Note: For an episode to be considered recurrent, there must be an interval of at least 2 consecutive months between separate episodes in which criteria are not met for a major depressive episode. The definitions of specifiers are found on the indicated pages.**If psychotic features are present, code the "with psychotic features" specifier irrespective of episode severity.
 
 In recording the name of a diagnosis, terms should be listed in the following order: major depressive disorder, single or recurrent episode, severity/psychotic/remission specifiers, followed by as many of the following specifiers without codes that apply to the current episode.
 
@@ -192,9 +198,7 @@ Appetite change may involve either a reduction or increase. Some depressed indiv
 
 Sleep disturbance may take the form of either difficulty sleeping or sleeping excessively (Criterion A4). When insomnia is present, it typically takes the form of middle in- sonrmia (i.e., waking up during the night and then having difficulty returning to sleep) or terminal insomnia (i.e., waking too early and being unable to return to sleep). Initial insomnia (i.e., difficulty falling asleep) may also occur. Individuals who present with oversleeping (hypersomnia) may experience prolonged sleep episodes at night or increased daytime sleep. Sometimes the reason that the individual seeks treatment is for the disturbed sleep.
 
-Psychomotor changes include agitation (e.g., the inability to sit still, pacing, hand- wringing; or pulling or rubbing of the skin, clothing, or other objects) or retardation (e.g., slowed speech, thinking, and body movements; increased pauses before answering; speech that is decreased in volume, inflection, amount, or variety of content, or muteness)
-
-(Criterion A5). The psychomotor agitation or retardation must be severe enough to be observable by others and not represent merely subjective feelings.
+Psychomotor changes include agitation (e.g., the inability to sit still, pacing, hand- wringing; or pulling or rubbing of the skin, clothing, or other objects) or retardation (e.g., slowed speech, thinking, and body movements; increased pauses before answering; speech that is decreased in volume, inflection, amount, or variety of content, or muteness)(Criterion A5). The psychomotor agitation or retardation must be severe enough to be observable by others and not represent merely subjective feelings.
 
 Decreased energy, tiredness, and fatigue are common (Criterion A6). A person may report sustained fatigue without physical exertion. Even the smallest tasks seem to requiresubstantial effort. The efficiency with which tasks are accomplished may be reduced. For example, an individual may complain that washing and dressing in the morning are exhausting and take twice as long as usual.
 
@@ -548,11 +552,9 @@ Note: This diagnosis should be made instead of a diagnosis of substance intoxica
 
 Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced depressive disorders are indicated in the table below. Note that the ICD-10- CM code depends on wliether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance- induced depressive disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced depressive disorder (e.g., “mild cocaine use disorder with cocaine-induced depressive disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced depressive disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a onetime heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced depressive disorder.
 
-## ICD-10-CMICD-9-CM
+<--TABLE-P176-->
 
-With use disorder, mild With use disorder, moderate or severe Withoutusedisorder Alcohol 291.89 F10.14 F10.24 FI 0.94 Phencyclidine 292.84 F16.14 F16.24 F16.94 Other hallucinogen 292.84 F16.14 F16.24 FI 6.94 Inhalant 292.84 F18.14 F18.24 FI 8.94 Opioid 292.84 F11.14 F11.24 F11.94 Sedative, hypnotic, or anxiolytic 292.84 F13.14 FI 3.24 FI 3.94 ## Amphetamine (or other stimulant)
-
-292.84 F15.14 FI 5.24 FI 5.94 Cocaine 292.84 F14.14 FI 4.24 FI 4.94 Other (or unknown) substance 292.84 F19.14 F19.24 FI 9.94 _Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: If criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
@@ -622,7 +624,9 @@ Compared with individuals with major depressive disorder and no comorbid substan
 
 Compared with individuals with major depressive disorder and a comorbid substance use disorder, individuals with substance/medication-induced depressive disorder are more likely to have alcohol use disorder, any other substance use disorder, and histrionic personality disorder; however, they are less likely to have persistent depressive disorder.
 
-## Depressive Disorder Due to Another l\/ledical Condition
+## Depressive Disorder
+
+## Due to Another l\/ledical Condition
 
 ## Diagnostic Criteria
 
@@ -680,7 +684,9 @@ There are no epidemiological studies that provide evidence to differentiate the 
 
 There is a clear association between serious medical illnesses and suicide, particularly shortly after onset or diagnosis of the illness. Thus, it would be prudent to assume that the risk of suicide for major depressive episodes associated with medical conditions is not less than that for other forms of major depressive episode, and might even be greater.
 
-## Functional Consequences of Depressive Disorder Due to Another Medicai Condition
+## Functional Consequences of Depressive Disorder
+
+## Due to Another Medicai Condition
 
 Functional consequences pertain to those associated with the medical condition. In general, it is believed, but not established, that a major depressive episode induced by Cushing's disease will not recur if the Cushing's disease is cured or arrested. However, it is also suggested, but not established, that mood syndromes, including depressive and manic/ hypomanic ones, may be episodic (i.e., recurring) in some individuals with static brain injuries and other central nervous system diseases.
 
@@ -734,7 +740,7 @@ With anxious distress: Anxious distress is defined as the presence of at least t
 
 _Specify_ current severity:
 
-IMild: Two symptoms.■Moderate: Three symptoms.■Moderate-severe: Four or five symptoms.
+IMild: Two symptoms.Moderate: Three symptoms.Moderate-severe: Four or five symptoms.
 
 Severe: Four or five symptoms and with motor agitation.
 

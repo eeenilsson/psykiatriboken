@@ -25,84 +25,36 @@ depressiveMain <- paste(depressiveMain, collapse = "") ## collapse to one
 depressiveMain <- cleanText(depressiveMain)
 depressiveMain <- makeHeaders(depressiveMain)
 depressiveMain <- cleanMore(depressiveMain)
-
-depressiveMain <- gsub("(## )([^\n]*)(\n\n## )", "## \\2", depressiveMain) ## removes broken headers (may also affect some lists?)
+## depressiveMain <- gsub("(## )([^\n]*)(\n\n## )", "## \\2", depressiveMain) ## removes broken headers. Affects true headers followed by true headers
 depressiveMain <- gsub(" \n\n", "\n\n", depressiveMain, perl=T) ## Remove blanks preceding newline
 depressiveMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", depressiveMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
 
-writeLines(depressiveMain, "depressiveMain.txt")
-
-
-depressiveMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:\\)[\\. ])(\n\n)", " \\1", depressiveMain, perl=T) ## Remove unwanted newline breaks in text (not preceded by dot or colon)
-
-## test exclude dot blank
-depressiveMain <- gsub("(?<=\n\n)([^\n#]*)^([^\\.:\\)]|[^\\. ])(\n\n)", " \\1", depressiveMain, perl=T) 
-writeLines(depressiveMain, "depressiveMain.txt")
-
-gsub("(?<=\n\n)([^\n#]*)^([^\\.:\\)]|[^\\. ])(\n\n)", " \\1", text, perl=T) ## Remove unwanted newline breaks in text (not preceded by dot or colon)
-
-
-
-gsub("(?<=\n\n)([^\n#]*)([^\\.:\\)])(\n\n)", " \\1", text, perl=T) ## removes Note
-gsub("(?<=\n\n)([^\n#]*)([^\\.:\\)])(?!\\.[[:blank:]]\n)(\n)", " \\1", text, perl=T) ## removes Note
-
-gsub("(?<=\n\n)([^\n#]*)([^\\.:\\)])(\n\n)", "\\1", text, perl=T) ## removes Note
-
-gsub("(?<=\n\n)([^\n#]*)^([^\\.:\\)]|[^: ])(\n\n)", " \\1", text, perl=T)
-gsub("(?<=\n\n)([^\n#]*)^([^\\.:\\)]|[^ct])(\n\n)", " \\1", text, perl=T)
-gsub("(?<=\n\n)([^\n#]*)([^\\.:\\)]|[^c]t)(\n\n)", " \\1", text, perl=T)
-
-( [^"'?@] | @+[^"#'?@] )*@*
-
-!~ /[ab]h/;
-
-gsub("(?<=\n\n)([^\n#]*)(\n\n)", "", text, perl=T) ## saves header
-gsub("(?<=\n\n)([^\n#]*)(\n\n)", "\\1", text, perl=T)
-
-([^\\,\\.: ])
-
-
-
-
-(?:(?![\\,\\.]).)
-
-makeHeaders <-function(x){
-    gsub("((?<=\n)
-(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
-}
-
-text <- "\n\nAmong the depressive disorders in DSM-5. (Oppositional defiant disorder is included in the chapter Disruptive, Impulse-Control, and Conduct \n\nDisorders.) This reflects the more prominent mood component. \n\nNote: Among individuals with disruptive mood dysregulation disorder, as compared with individuals with \n\n## Header\n\n Text here "
-
 #### chunk specific replacements
 depressiveMain <- gsub("^", "## ", depressiveMain)
+depressiveMain<- gsub("muteness\\)\n\n\\(Criterion", "muteness\\)\\(Criterion", depressiveMain)
+depressiveMain <- gsub("## Functional Consequences of\n\n##", "## Functional Consequences of", depressiveMain)
+depressiveMain <- gsub("episode\\*", "episode", depressiveMain)
+depressiveMain <- gsub("\\*For an episode", "\n\nNote: For an episode", depressiveMain)
+depressiveMain <- gsub("condition.. In distinguishing grief", "condition\\.\n\nNote: In distinguishing grief", depressiveMain)
+depressiveMain <- gsub("Induced\n\n## Depressive", "Induced Depressive", depressiveMain)
+depressiveMain <- gsub("■", " ", depressiveMain)
+
+writeLines(depressiveMain, "depressiveMain.txt")
 
 #### table replacement
-startTag <- "(?s)(?<=Codes are as follows.\n\n)"
-stopTag <- "\\(F31.4\\)\n\n(?=In distinguishing grief)"
+startTag <- "(?s)(?<=the clinician should record only the substance.induced depressive disorder.\n\n)"
+stopTag <- "9.94 (?=_Specify_)"
+grep(startTag, depressiveMain, perl=T) ## test
+grep(stopTag, depressiveMain, perl=T) ## test
 paste(startTag, ".*", stopTag, sep= "")
-depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P164-->\n\n", depressiveMain, perl=T) ## table
-startTag <- "(?s)(?<=the pain of depression.\n\n)"
-stopTag <- "\\(F31.9\\)\n\n(?=Severity and psychotic)"
-paste(startTag, ".*", stopTag, sep= "")
-depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "", depressiveMain, perl=T) ## table
+depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", depressiveMain, perl=T) ## table
+
+writeLines(depressiveMain, "depressiveMain.txt")
+
 ## table notes
-tableNote <- substr(depressiveMain,
-       regexpr("Severity and psychotic specifiers do not apply", depressiveMain),
-       regexpr("without codes as apply to the current or most recent episode.", depressiveMain) + attr(regexpr("without codes as apply to the current or most recent episode.", depressiveMain), "match.length"))
-depressiveMain <- gsub("\nSeverity and psychotic specifiers do not apply.*without codes as apply to the current or most recent episode.\n", "\n\n", depressiveMain) ## remove table note
-tableNote <- paste("NoteA", tableNote, sep="")
-tableNote <- gsub("\n\nSeverity", "\n\nNoteBSeverity", tableNote)
-tableNote <- gsub("\\*\\*\\*If psychotic", "NoteCIf psychotic", tableNote)
-tableNote <- gsub("NoteA", "Current or most recent episode hypomanic: ", tableNote)
-tableNote <- gsub("NoteB", "Current or most recent episode unspecified: ", tableNote)
-tableNote <- gsub("NoteC", "\n\nWith psychotic features: ", tableNote)
-tableNote <- paste("Codes in table are noted as ICD-9-CM (ICD-10-CM).\n\n", tableNote, sep="")
-## Note: See csv file, to get a markdown table:
-tab <- read_csv("dsm5-table-p164.csv")
-## kable(tab,
-##       caption = "Coding for Depressive I disorder",
-##       align=c('lcccc')
-##       )
+tab <- read_csv("dsm5-table-p176.csv")
+
+## Type 1 table
 allRows <- list() 
 for(i in 2:ncol(tab)-1){
    newRow <- 
@@ -113,12 +65,7 @@ replaceTable <- paste(allRows, collapse = "\n\n")
 replaceTable <- paste("<--TABLE-P164 REPLACEMENT-->\n\n", replaceTable, "\n\n", tableNote, "\n", sep="")
 depressiveMain <- gsub("<--TABLE-P164-->\n\n", replaceTable, depressiveMain, perl=T) ## table
 
-#### table substance induced depressive
-startTag <- "(?s)(?<=the clinician should record only the substance.induced depressive and related disorder.)\n\n"
-stopTag <- "FI 9.94\n\n(?=_Specify_ if)"
-paste(startTag, ".*", stopTag, sep= "")
-depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "\n\n<--TABLE-P180-->\n\n", depressiveMain, perl=T) ## table
-tab <- read_csv('dsm5-table-p180.csv') ## Coding for Substance-Induced Depressive disorder
+## type 2 table
 i <- 1
 for(i in 2:nrow(tab)-1){
    newRow <- 
@@ -135,9 +82,9 @@ replaceTable <- paste(allRows, collapse = "\n\n")
 replaceTable <- paste("<--TABLE-P180 REPLACEMENT-->\n\n", replaceTable, "\n\n", sep="")
 depressiveMain <- gsub("<--TABLE-P180-->\n\n", replaceTable, depressiveMain, perl=T) ## table
 
-## move section
-startTag <- "(?<=With mixed features .pp. 149.150.\n\n)(In distinguishing grief)"
-stopTag <- "(pain of depression.\n\n)(?=With rapid cycling)"
+## move section ## Not needed
+startTag <- "(?<=medical condition.)(..In distinguishing grief)"
+stopTag <- "(pain of depression.\n\n)(?=## Coding)"
 grep(startTag, depressiveMain, perl=T) ## test
 grep(stopTag, depressiveMain, perl=T) ## test
 ### get section
@@ -146,12 +93,14 @@ mySection <-
            regexpr(startTag, depressiveMain, perl=T)[1],
            regexpr(stopTag, depressiveMain, perl=T)[1]+
            attr(regexpr(stopTag, depressiveMain, perl=T), "match.length")-1)
+mySection <- gsub("^..", "", mySection) ## clean first two chars
 ## delete section
 depressiveMain <-
     gsub(paste("(?s)", startTag, ".*", stopTag, sep= ""), "", depressiveMain, perl=T) ## table
 ## insert section
 depressiveMain <- gsub("(distress in the context of loss..)(?=\n\n## Depressive II Disorder)",
                     paste("distress in the context of loss.\n\n", mySection, sep=""), depressiveMain, perl=T)
+
 
 ### Add tags
 ## assign group tags (none in depressive)
