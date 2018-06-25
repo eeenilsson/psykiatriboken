@@ -1,4 +1,3 @@
-### Anxiety Disorders  ==============
 chapterTitle <- "Obsessive-Compulsive and Related Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
 ## Obsessive-Compulsive and Related Disorders	 235
@@ -37,6 +36,7 @@ obsessiveMain <- gsub("## These beliefs", "These beliefs", obsessiveMain)
 obsessiveMain <- gsub("## OCD try", "OCD try", obsessiveMain)
 obsessiveMain <- gsub("## The essential features", "The essential features", obsessiveMain)
 obsessiveMain <- gsub("attention ##", "attention.\n\n ##", obsessiveMain)
+obsessiveMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", obsessiveMain)
 
 writeLines(obsessiveMain, "obsessiveMain.txt")
 
@@ -44,8 +44,8 @@ writeLines(obsessiveMain, "obsessiveMain.txt")
 ## obsessiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", obsessiveMain, perl=T) ## table
 
 ### start and stop tags
-startTag <- "(?s)(?<=the clinician should record only the substance.induced obsessive disorder.)"
-stopTag <- "FI 9.980 (?=_Specify)"
+startTag <- "(?s)(?<=the clinician should record only the substance.induced obsessive.compulsive and related disorder.)"
+stopTag <- "F19.988 (?=_Specify)"
 grep(startTag, obsessiveMain, perl=T) ## test
 grep(stopTag, obsessiveMain, perl=T) ## test
 ### get Section
@@ -54,8 +54,8 @@ myTable <- parseTableUseDisorder(myTable)
 colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
 obsessiveMain <- gsub(
     paste(startTag, ".*", stopTag, sep= ""),
-    formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced Obsessive Disorder"), obsessiveMain, perl=T) ## table
-write_csv(myTable, "dsm5-table-p176.csv")
+    formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced Obsessive-Compulsive Disorder"), obsessiveMain, perl=T) ## table
+write_csv(myTable, "dsm5-table-p295.csv")
 writeLines(obsessiveMain, "obsessiveMain.txt")
 
 ## ## move section ## Not needed in depr ======================

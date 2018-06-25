@@ -66,10 +66,6 @@ cleanMore <- function(CHUNK){
 return(TEMP)
 }
 
-
-
-## Gener
-
 ## assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash.replace = "##"){
 ##     ## Assign label 'tag' to strings in CHUNK matching LIST
 ##     TEMP <- CHUNK
@@ -133,12 +129,12 @@ parseTableUseDisorder <- function (x){
     mySection <- gsub("##", "", mySection)
     mySection <- gsub("FI ", "F1", mySection)
     mySection <-
-        gsub("^.*(?=Alcohol)", " ", mySection, perl=T) ## clean start, repl w blank
+        gsub("^.*Withoutusedisorder.*?(?=[A-Z])", " ", mySection, perl=T) ## clean start, repl w blank
     mySection <- gsub("ICD.*disorder", "", mySection)
     mySection <- gsub("[[:blank:]]+", " ", mySection)
     mySection <-
         gsub("([[:blank:]][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{2}", "\n\\1;", mySection, perl=T, ignore.case=T) ## Row names identified
-    mySection <- gsub("(F[0-9]{2}\\.[0-9]{2})", "\\1;", mySection, perl=T, ignore.case=T)
+    mySection <- gsub("(F[0-9]{2}\\.[0-9]{2,3})", "\\1;", mySection, perl=T, ignore.case=T)
     TEMP <- read_delim(mySection, delim=";", trim_ws = TRUE, col_names = FALSE)
     return(TEMP[1:ncol(TEMP)-1]) ## last col empty
     }           
