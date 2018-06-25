@@ -75,5 +75,7 @@ spellList <- list(
     'IManic' = "Manic",
     's\\)nidrome' = "syndrome",
     'Withi' = "With",
-    'üfe' = "life"
+    'üfe' = "life",
+    'Coinpiilsive' = "Compulsive",
+    'R i s k' = "Risk"
 )
