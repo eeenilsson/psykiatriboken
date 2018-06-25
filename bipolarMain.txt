@@ -96,7 +96,7 @@ Note: Criteria A-C constitute a major depressive episode. Major depressive episo
 
 Note: Responses to a significant loss (e.g., bereavement, financial ruin, losses from a natural disaster, a serious medical illness or disability) may include the feelings of intensesadness, rumination about the loss, insomnia, poor appetite, and weight loss noted in Criterion A, which may resemble a depressive episode. Although such symptoms may be understandable or considered appropriate to the loss, the presence of a major depressive episode in addition to the normal response to a significant loss should also be carefully considered. This decision inevitably requires the exercise of clinical judgment based on the individual’s history and the cultural norms for the expression of distress in the context of loss.̂
 
-## Bipolar I Disorder
+##d Bipolar I disorder <--@DIAGNOSIS-->
 
 A. Criteria have been met for at least one manic episode (Criteria A-D under “Manic Episode” above).
 

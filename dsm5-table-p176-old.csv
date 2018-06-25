@@ -1,0 +1,10 @@
+ICD-10-CM codes,ICD-9-CM,"With use disorder, mild","With use disorder, moderate or severe",Without use disorder
+Alcohol,291.89,F10.14,F10.24,F10.94
+Phencyclidine,292.84,F16.14,F16.24,F16.94
+Other hallucinogen,292.84,F16.14,F16.24,F16.94
+Inhalant,292.84,F18.14,F18.24,F18.94
+Opioid,292.84,F11.14,F11.24,F11.94
+"Sedative, hypnotic, or anxiolytic",292.84,F13.14,F13.24,F13.94
+Amphetamine (or other stimulant) ,292.84,F15.14,F15.24,F15.94
+Cocaine,292.84,F14.14,F14.24,F14.94
+Other (or unknown) substance,292.84,F19.14,F19.24,F19.94

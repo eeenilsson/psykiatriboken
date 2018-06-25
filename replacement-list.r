@@ -1,5 +1,6 @@
 ### make a listr of value-replacement pairs
 spellList <- list(
+    'l..ledical' = "Medical",
     'Bipoiar' = "Bipolar",
     'Differentiai' = "Differential",
     'Mari\\(ers' = "Markers",

@@ -105,16 +105,16 @@ assignTagHeader <- function(x){
     return(TEMP)
 }
 
-getSection <- function(startTag, stopTag, x){
-    ## Exract text betwen startTag and stopTag
+getSection <- function(START, STOP, x){
+    ## Exract text betwen START and STOP, which are strings of regex.
     ## x is a string (contents of long text file)
     substr(x,
-           regexpr(startTag, x, perl=T)[1],
-           regexpr(stopTag, x, perl=T)[1]+
-           attr(regexpr(stopTag, x, perl=T), "match.length")-1)
+           regexpr(START, x, perl=T)[1],
+           regexpr(STOP, x, perl=T)[1]+
+           attr(regexpr(STOP, x, perl=T), "match.length")-1)
 }
 
-parseTableUseDisorder <- function (x)){ 
+parseTableUseDisorder <- function (x){ 
     ## Read a string yanked from txt file
     ## Works on substance use ICD code tables
     mySection <- x
@@ -131,5 +131,36 @@ parseTableUseDisorder <- function (x)){
 
 formatTable <- function(TABLE, caption = NULL){
     ## Add newlines after and start/stop tags before/after.
-    paste("<--@TABLESTART--> ", caption, "\n", paste(as.character(kable(TABLE, align = paste("l", paste(rep("c", ncol(test)), collapse=""), sep=""))), collapse="\n"), "\n<--@TABLESTOP-->\n\n", sep="") ## add newlines after    
+    paste("<--@TABLESTART--> ", caption, "\n", paste(as.character(kable(TABLE, align = paste("l", paste(rep("c", ncol(TABLE)), collapse=""), sep=""))), collapse="\n"), "\n<--@TABLESTOP-->\n\n", sep="") ## add newlines after    
+}
+
+tableTransform <- function(TABLE, type = 1){
+    ## Prints table as text, structured according to one of two syntaxes.
+    ## For use with dsm5 import.
+
+    ## type 1 table
+    if(type == 1){
+        for(i in 2:nrow(TABLE)-1){
+            newRow <- 
+                paste(TABLE[[1]][i],
+                      ": ICD-9-CM code ", TABLE[[2]][i],
+                      "; ICD-10-CM code if use disorder is mild (", TABLE[[3]][i],
+                      "), -moderate or severe (", TABLE[[4]][i],
+                      ") or without use disorder (", TABLE[[4]][i],
+                      ")",
+                      sep = "")
+            allRows[i] <- newRow
+        }
+        OUTPUT <- paste(allRows, collapse = "\n\n")        
+    }else{
+        ## Type 2 table
+        allRows <- list() 
+        for(i in 2:ncol(TABLE)-1){
+            newRow <- 
+                paste("- If ", names(TABLE)[i], ": ", paste(TABLE[[1]], TABLE[[i]], collapse = ", "), sep = "")
+            allRows[i-1] <- newRow
+        }
+        OUTPUT <- paste(allRows, collapse = "\n\n")
+    }
+    return(OUTPUT)
 }

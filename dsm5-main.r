@@ -29,6 +29,15 @@ source('dsm5-section2.r')
 source("dsm5-neurodevelopmental.r")
 source("dsm5-schizophrenia.r") ## Note: Added Tic Disordes as diagnosis
 source("dsm5-bipolar.r") ## also makes a bib entry
+source('dsm5-depressive.r')
+
+
+## TODO
+## make subheaders of all headers not starting with "##h"
+## After flattening lists with replace-bounded-hash, all non-tagged starting with ## are-sub headers
+## Note: Do this after cleaning hashlists
+## depressiveMain <- gsub("(?<=\n)##[[:blank:]]", "### ", depressiveMain, perl=T)
+
 
 ## Notes
 

@@ -412,7 +412,7 @@ V60.2,Z59.7,,Insufficient social insurance or welfare support
 V60.2,Z59.4,,Lack of adequate food or safe drinking water
 "315,39",F80.9,,Language disorder
 V60.2,Z59.6,,Low income
-,,,"Major depressive disorder, Recurrent episode"
+,,F33.9,"Major depressive disorder, Recurrent episode"
 "296,36",F33.42,,"Major depressive disorder, Recurrent episode, In full remission"
 "296,35",F33.41,,"Major depressive disorder, Recurrent episode, In partial remission"
 "296,31",F33.0,,"Major depressive disorder, Recurrent episode, Mild"
@@ -420,7 +420,7 @@ V60.2,Z59.6,,Low income
 "296,33",F33.2,,"Major depressive disorder, Recurrent episode, Severe"
 "296,3",F33.9,,"Major depressive disorder, Recurrent episode, Unspecified"
 "296,34",F33.3,,"Major depressive disorder, Recurrent episode, With psychotic features"
-,,,"Major depressive disorder, Single episode"
+,,F32.9,"Major depressive disorder, Single episode"
 "296,26",F32.5,,"Major depressive disorder, Single episode, In full remission"
 "296,25",F32.4,,"Major depressive disorder, Single episode, In partial remission"
 "296,21",F32.0,,"Major depressive disorder, Single episode, Mild"
