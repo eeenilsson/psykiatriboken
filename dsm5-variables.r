@@ -35,7 +35,11 @@ listHeaders <- c(
 "Comorbidity",
 "Specifiers for",
 "Relationship to Other Classifications",
-"Specifiers for Depressive Disorders"
+"Specifiers for Depressive Disorders",
+"Features",
+"Associated Features",
+## Custom headers
+"Introduction to" ## for intro sections
 )
 
 #### List groups

@@ -44,9 +44,7 @@ First episode, currently in acute episode: First manifestation of the disorder m
 
 First episode, currently in partial remission: Partial remission is a time period during which an improvement after a previous episode is maintained and in which the defining criteria of the disorder are only partially fulfilled.
 
-First episode, currently in full remission: Full remission is a period of time after a previous episode during which no disorder-specific symptoms are present. 
-
-Multiple episodes, currently in acute episode 
+First episode, currently in full remission: Full remission is a period of time after a previous episode during which no disorder-specific symptoms are present. Multiple episodes, currently in acute episode 
 
 Multiple episodes, currently in partial remission 
 
@@ -672,7 +670,7 @@ The disorder usually remits within a day but in some cases may persist for a few
 
 Substance/medication-induced psychotic disorder may at times persist when the offending agent is removed, such that it may be difficult initially to distinguish it from an independent psychotic disorder. Agents such as amphetamines, phencyclidine, and cocaine have been reported to evoke temporary psychotic states that can sometimes persist for weeks or longer despite removal of the agent and treatment with neuroleptic medication. In later life, polypharmacy for medical conditions and exposure to medications for parkinsonism, cardiovascular disease, and other medical disorders may be associated with a greater likelihood of psychosis induced by prescription medications as opposed to substances of abuse.
 
-## Diagnostic Marlcers
+##h Diagnostic Markers <--@HEADER-->
 
 With substances for which relevant blood levels are available (e.g., blood alcohol level, other quantifiable blood levels such as digoxin), the presence of a level consistent with toxicity may increase diagnostic certainty.
 
@@ -752,7 +750,7 @@ The expression of psychotic disorder due to another medical condition does not d
 
 Course modifiers. Identification and treatment of the underlying medical condition has the greatest impact on course, although preexisting central nervous system injury may confer a worse course outcome (e.g., head trauma, cerebrovascular disease).
 
-## Diagnostic Marlcers
+##h Diagnostic Markers <--@HEADER-->
 
 The diagnosis of psychotic disorder due to another medical condition depends on the clinical condition of each individual, and the diagnostic tests will vary according to that condition. A variety of medical conditions may cause psychotic symptoms. These include neurological conditions (e.g., neoplasms, cerebrovascular disease, Huntington's disease, multiple sclerosis, epilepsy, auditory or visual nerve injury or impairment, deafness, migraine, central nervous system infections), endocrine conditions (e.g., hyper- and hypothyroidism, hyper- and hypoparathyroidism, hyper- and hypoadrenocorticism), metabolic conditions (e.g., hypoxia, hypercarbia, hypoglycemia), fluid or electrolyte imbalances, hepatic or renal diseases, and autoimmune disorders with central nervous system involvement (e.g., systemic lupus erythematosus). The associated physical examination findings, laboratory findings, and patterns of prevalence or onset reflect the etiological medical condition.
 

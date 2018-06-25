@@ -55,9 +55,16 @@ cleanMore <- function(CHUNK){
     TEMP <- gsub("\n\nDiagnostic Criteria[[:blank:]](?=[0-9])", "\n\n## Diagnostic Criteria ", TEMP, perl=T)
     TEMP <- gsub("\n\nDiagnostic Criteria[[:blank:]](?=\\()", "\n\n## Diagnostic Criteria ", TEMP, perl=T)
     TEMP <- gsub("(\n\n## Diagnostic Criteria )((.{2,})?)(?=\n\n)", "\n\n\\2\\1", TEMP, perl=T)  ## put diagnosis codes before header if they exist
-
+    TEMP <- gsub("## Functional Consequences of\n\n##", "## Functional Consequences of ", TEMP)
+    TEMP <- gsub("■", " ", TEMP)
+        TEMP <- gsub("## Functional Consequences of \n\n##", "## Functional Consequences of", TEMP) ## with blank
+    TEMP <- gsub("Disorder\n\n## Due", "Disorder Due", TEMP)
+    TEMP <- gsub("Induced\n\n##", "Induced", TEMP)
+    
 return(TEMP)
 }
+
+## Gener
 
 ## assignTag <- function(CHUNK, LIST, tag = "<--@TAG-->", ignore.case = FALSE, hash.replace = "##"){
 ##     ## Assign label 'tag' to strings in CHUNK matching LIST
@@ -118,12 +125,15 @@ parseTableUseDisorder <- function (x){
     ## Read a string yanked from txt file
     ## Works on substance use ICD code tables
     mySection <- x
+    mySection <- gsub("\n\n", " ", mySection) ## First get rid of newlines
     mySection <- gsub("##", "", mySection)
     mySection <- gsub("FI ", "F1", mySection)
+    mySection <-
+        gsub("^.*(?=Alcohol)", " ", mySection, perl=T) ## clean start, repl w blank
     mySection <- gsub("ICD.*disorder", "", mySection)
-    mySection <- gsub("\n\n", " ", mySection)
     mySection <- gsub("[[:blank:]]+", " ", mySection)
-    mySection <- gsub("([[:blank:]][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{2}", "\n\\1;", mySection, perl=T, ignore.case=T) ## Row names identified
+    mySection <-
+        gsub("([[:blank:]][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{2}", "\n\\1;", mySection, perl=T, ignore.case=T) ## Row names identified
     mySection <- gsub("(F[0-9]{2}\\.[0-9]{2})", "\\1;", mySection, perl=T, ignore.case=T)
     TEMP <- read_delim(mySection, delim=";", trim_ws = TRUE, col_names = FALSE)
     return(TEMP[1:ncol(TEMP)-1]) ## last col empty
@@ -131,7 +141,7 @@ parseTableUseDisorder <- function (x){
 
 formatTable <- function(TABLE, caption = NULL){
     ## Add newlines after and start/stop tags before/after.
-    paste("<--@TABLESTART--> ", caption, "\n", paste(as.character(kable(TABLE, align = paste("l", paste(rep("c", ncol(TABLE)), collapse=""), sep=""))), collapse="\n"), "\n<--@TABLESTOP-->\n\n", sep="") ## add newlines after    
+    paste("\n\n<--@TABLESTART--> ", caption, "\n", paste(as.character(kable(TABLE, align = paste("l", paste(rep("c", ncol(TABLE)), collapse=""), sep=""))), collapse="\n"), "\n<--@TABLESTOP-->\n\n", sep="") ## add newlines after    
 }
 
 tableTransform <- function(TABLE, type = 1){

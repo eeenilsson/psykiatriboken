@@ -38,6 +38,7 @@ source('dsm5-depressive.r')
 ## Note: Do this after cleaning hashlists
 ## depressiveMain <- gsub("(?<=\n)##[[:blank:]]", "### ", depressiveMain, perl=T)
 
+## Remove surplus newlines (more that two in row, at start of file, at end of file)
 
 ## Notes
 

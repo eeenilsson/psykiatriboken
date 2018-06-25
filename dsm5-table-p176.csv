@@ -1,10 +1,12 @@
 Substance,With mild use disorder,Moderate or severe,Without use disorder
-Alcohol,F10.14,F10.24,F10.94
-Phencyclidine,F16.14,F16.24,F16.94
-Other hallucinogen,F16.14,F16.24,F16.94
-Inhalant,F18.14,F18.24,F18.94
-Opioid,F11.14,F11.24,F11.94
-"Sedative, hypnotic, or anxiolytic",F13.14,F13.24,F13.94
-Amphetamine (or other stimulant),F15.14,F15.24,F15.94
-Cocaine,F14.14,F14.24,F14.94
-Other (or unknown) substance,F19.14,F19.24,F19.94
+Alcohol,F10.18,0 F10.28,0 F10.98
+Caffeine,F15.18,0 F15.28,0 F15.98
+Cannabis,F12.18,0 F12.28,0 F12.98
+Phencyclidine,F16.18,0 F16.28,0 F16.98
+Other hallucinogen,F16.18,0 F16.28,0 F16.98
+Inhalant,F18.18,0 F18.28,0 F18.98
+Opioid,F11.18,8 F11.28,8 F11.98
+"Sedative, hypnotic, or anxiolytic",F13.18,0 F13.28,0 F13.98
+Amphetamine (or other stimulant),F15.18,0 F15.28,0 F15.98
+Cocaine,F14.18,0 F14.28,0 F14.98
+substance,F19.18,0 F19.28,0 F19.98
