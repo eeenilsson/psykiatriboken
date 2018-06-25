@@ -80,5 +80,7 @@ spellList <- list(
     'R i s k' = "Risk",
     'Sociai' = "Social",
     'Dereaiization' = "Derealization",
-    'Disinhiblted' = "Disinhibited"
+    'Disinhiblted' = "Disinhibited",
+    'Depersonaiization' = "Depersonalization",
+    'Dereallzation' = "Derealization"
 )

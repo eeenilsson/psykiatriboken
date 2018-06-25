@@ -30,7 +30,8 @@ source('dsm5-section2.r')
 ## source("dsm5-schizophrenia.r") ## Note: Added Tic Disordes as diagnosis
 ## source("dsm5-bipolar.r") ## also makes a bib entry
 ## source('dsm5-depressive.r')
-
+## source('dsm5-obssive.r')
+## source('dsm5-trauma.r')
 
 ## TODO
 ## make subheaders of all headers not starting with "##h"
@@ -140,9 +141,9 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## Depressive Disorders	155
 ## Anxiety Disorders	189
 ## Obsessive-Compulsive and Related Disorders	 235
-
 ## Trauma- and Stressor-Related Disorders	265
 ## Dissociative Disorders	291
+
 ## Somatic Symptom and Related Disorders	 309
 ## Feeding and Eating Disorders	 329
 ## Elimination Disorders	355
