@@ -26,12 +26,12 @@ cleanText <- function(CHUNK) {
     ## gathers some text cleaning functions
     TEMP <- CHUNK
     TEMP <- gsub("­\n", "", TEMP) ## remove - at end of line
-    TEMP <- spellCorrect(spellList, TEMP)
     TEMP <- cleanNewlines(TEMP)
     TEMP <- gsub("\n", "\n\n", TEMP) ## double newline
     TEMP <- gsub("•", "\n•", TEMP)
     TEMP <- gsub("\\.{2,}", "\t", TEMP)
     TEMP <- gsub("((?<=\\.)[A-Z])", " \\1", TEMP, perl=T)
+    TEMP <- spellCorrect(spellList, TEMP)
     return(TEMP)
 }
 

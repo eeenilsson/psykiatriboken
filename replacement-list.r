@@ -1,9 +1,16 @@
 ### make a listr of value-replacement pairs
 spellList <- list(
+        ## Note: One-letter replacements should come at the beginning
+    ' ̂' = "",
+    '(-){2,}' = "",
+    '(_){2,}' = "",
+    '(_̂){1,}' = "",
+    'iVl' = "M",
+    'iVi' = "M",
+    'lUl' = "M",
     'l..ledical' = "Medical",
     'Bipoiar' = "Bipolar",
     'Differentiai' = "Differential",
-    'Mari\\(ers' = "Markers",
     'Reiationship'= "Relationship",
     'Prevaience'= "Prevalence",
     'Deveiopment' = "Development",
@@ -13,9 +20,13 @@ spellList <- list(
     'Risic' = "Risk",
     'Risl\\(' = "Risk",
     'icnown' = "known",
+    'Mari\\(ers' = "Markers",
     'iVlaricers' = "Markers",
+    'Maricers' = "Markers",
     'Marlcers' = "Markers",
+    'iViotor' = "Motor",
     'lUliid' = "Mild",
+    'Miid' = "Mild",
     'lUloderate' = "Moderate",
     'Cuiture' = "Culture",
     'Fieid' = "Field",
@@ -30,7 +41,6 @@ spellList <- list(
     'S^izophrenïa' = "Schizophrenia",
     'SchiZOphreniâ' = "Schizophrenia",
     'Schizoplirenia' = "Schizophrenia",
-    'iViotor' = "Motor",
     'inciuding' = "including",
     'Tliis' = "This",
     'CInapter' = "Chapter",
@@ -53,13 +63,5 @@ spellList <- list(
     'IManic' = "Manic",
     's\\)nidrome' = "syndrome",
     'Withi' = "With",
-    'üfe' = "life",
-    ## Note: One-letter replacements should come at the end so that the above work
-    ' ̂' = "",
-    '(-){2,}' = "",
-    '(_){2,}' = "",
-    '(_̂){1,}' = "",
-    'iVl' = "M",
-    'iVi' = "M",
-    'lUl' = "M"
+    'üfe' = "life"
 )

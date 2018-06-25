@@ -2,7 +2,7 @@
 chapterTitle <- "Depressive Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
 
-source('replacement-list.r')
+source('replacement-list.r') ## ## Diagnostic Marlcers not replaced??
 
 ## Depressive disorders intro
 depressiveIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 193) ## "Depressive disorders". ## Note: remove last part
@@ -13,7 +13,6 @@ depressiveIntro <- gsub("D eprG SSiV G  diSO rdG rS", "Depressive disorders", de
 depressiveIntro <- gsub("disorder \n\n.dysth", "disorder (dysth", depressiveIntro)
 depressiveIntro <- gsub("Further \n\nStudy", "Further Study", depressiveIntro)
 depressiveIntro <- gsub("Further \n\nStudy", "Further Study", depressiveIntro)
-writeLines(depressiveIntro, "depressiveIntro.txt")
 
 ## Depressive main body
 depressiveMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 194:226)
@@ -26,6 +25,8 @@ depressiveMain <- cleanMore(depressiveMain)
 ## depressiveMain <- gsub("(## )([^\n]*)(\n\n## )", "## \\2", depressiveMain) ## removes broken headers. Affects true headers followed by true headers
 depressiveMain <- gsub(" \n\n", "\n\n", depressiveMain, perl=T) ## Remove blanks preceding newline
 depressiveMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", depressiveMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
+depressiveMain <- spellCorrect(spellList, depressiveMain)
+depressiveMain <- gsub("Marlcers", "Markers", depressiveMain)
 
 #### chunk specific replacements
 depressiveMain <- gsub("^", "## ", depressiveMain)
