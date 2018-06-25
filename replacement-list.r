@@ -82,5 +82,7 @@ spellList <- list(
     'Dereaiization' = "Derealization",
     'Disinhiblted' = "Disinhibited",
     'Depersonaiization' = "Depersonalization",
-    'Dereallzation' = "Derealization"
+    'Dereallzation' = "Derealization",
+    'psyctiological' = "psychological",
+    'psychoiogicai' = "psychological"
 )

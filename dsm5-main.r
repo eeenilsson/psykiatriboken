@@ -28,7 +28,7 @@ source('dsm5-section2.r')
 ## Diagnostic classifications
 ## source("dsm5-neurodevelopmental.r")
 ## source("dsm5-schizophrenia.r") ## Note: Added Tic Disordes as diagnosis
-## source("dsm5-bipolar.r") ## also makes a bib entry
+## source("dsm5-bipolar.r")
 ## source('dsm5-depressive.r')
 ## source('dsm5-obssive.r')
 ## source('dsm5-trauma.r')
@@ -38,6 +38,7 @@ source('dsm5-section2.r')
 ## After flattening lists with replace-bounded-hash, all non-tagged starting with ## are-sub headers
 ## Note: Do this after cleaning hashlists
 ## depressiveMain <- gsub("(?<=\n)##[[:blank:]]", "### ", depressiveMain, perl=T)
+## see makeBib.
 
 ## Remove surplus newlines (more that two in row, at start of file, at end of file)
 
@@ -143,8 +144,8 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## Obsessive-Compulsive and Related Disorders	 235
 ## Trauma- and Stressor-Related Disorders	265
 ## Dissociative Disorders	291
-
 ## Somatic Symptom and Related Disorders	 309
+
 ## Feeding and Eating Disorders	 329
 ## Elimination Disorders	355
 ## Sleep-Wake Disorders	361

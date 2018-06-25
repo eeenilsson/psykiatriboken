@@ -61,7 +61,7 @@ cleanMore <- function(CHUNK){
     TEMP <- gsub("Disorder\n\n## Due", "Disorder Due", TEMP)
     TEMP <- gsub("Induced\n\n##", "Induced", TEMP)
     TEMP <- gsub("Induced \n\n##", "Induced", TEMP) ## with blank
-
+    TEMP <- gsub("## Examples", "Examples", TEMP)
     TEMP <- gsub("and \n\n## Related", "and Related", TEMP)
 return(TEMP)
 }
