@@ -77,5 +77,8 @@ spellList <- list(
     'Withi' = "With",
     'üfe' = "life",
     'Coinpiilsive' = "Compulsive",
-    'R i s k' = "Risk"
+    'R i s k' = "Risk",
+    'Sociai' = "Social",
+    'Dereaiization' = "Derealization",
+    'Disinhiblted' = "Disinhibited"
 )

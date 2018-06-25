@@ -17,9 +17,9 @@ traumaIntro <- gsub("T r3 U m 3 - â n d StrG SSO r-rG l..G d", "Trauma- and Str
 writeLines(traumaIntro, "traumaIntro.txt")
 
 ## Trauma main body
-traumaMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 302:)
-## traumaMain[1] <-
-##     gsub("(?s).*(?=\nSeparation Trauma Disorder)", "", traumaMain[1], perl=T) ## remove redundant text before section starts and 
+traumaMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 302:327)
+traumaMain[1] <-
+    gsub("(?s).*(?=\nReactive Attachment Disorder)", "", traumaMain[1], perl=T) ## remove redundant text before section starts and 
 traumaMain <- paste(traumaMain, collapse = "") ## collapse to one
 traumaMain <- cleanText(traumaMain)
 traumaMain <- makeHeaders(traumaMain)
@@ -32,52 +32,13 @@ writeLines(traumaMain, "traumaMain.txt")
 
 
 #### chunk specific replacements
-traumaMain <- gsub("Trauma-Compulsive Disorder i", "## Trauma-Compulsive Disorder", traumaMain)
-traumaMain <- gsub("## These beliefs", "These beliefs", traumaMain)
-traumaMain <- gsub("## OCD try", "OCD try", traumaMain)
-traumaMain <- gsub("## The essential features", "The essential features", traumaMain)
-traumaMain <- gsub("attention ##", "attention.\n\n ##", traumaMain)
-traumaMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", traumaMain)
+traumaMain <- gsub("## Examples", "Examples", traumaMain)
+traumaMain <- gsub("and\n\n##", "and", traumaMain)
 
 writeLines(traumaMain, "traumaMain.txt")
 
 #### table replacement ==================
-## traumaMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", traumaMain, perl=T) ## table
-
-### start and stop tags
-startTag <- "(?s)(?<=the clinician should record only the substance.induced trauma.compulsive and related disorder.)"
-stopTag <- "F19.988 (?=_Specify)"
-grep(startTag, traumaMain, perl=T) ## test
-grep(stopTag, traumaMain, perl=T) ## test
-### get Section
-myTable <- getSection(startTag, stopTag, traumaMain)
-myTable <- parseTableUseDisorder(myTable)
-colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
-traumaMain <- gsub(
-    paste(startTag, ".*", stopTag, sep= ""),
-    formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced Trauma-Compulsive Disorder"), traumaMain, perl=T) ## table
-write_csv(myTable, "dsm5-table-p295.csv")
-writeLines(traumaMain, "traumaMain.txt")
-
-## ## move section ## Not needed in depr ======================
-## Note: use getSection function instead
-## startTag <- "(?<=medical condition.)(..In distinguishing grief)"
-## stopTag <- "(pain of depression.\n\n)(?=## Coding)"
-## grep(startTag, traumaMain, perl=T) ## test
-## grep(stopTag, traumaMain, perl=T) ## test
-## ### get section
-## mySection <-
-##     substr(traumaMain,
-##            regexpr(startTag, traumaMain, perl=T)[1],
-##            regexpr(stopTag, traumaMain, perl=T)[1]+
-##            attr(regexpr(stopTag, traumaMain, perl=T), "match.length")-1)
-## mySection <- gsub("^..", "", mySection) ## clean first two chars
-## ## delete section
-## traumaMain <-
-##     gsub(paste("(?s)", startTag, ".*", stopTag, sep= ""), "", traumaMain, perl=T) ## table
-## ## insert section
-## traumaMain <- gsub("(distress in the context of loss..)(?=\n\n## Trauma II Disorder)",
-##                     paste("distress in the context of loss.\n\n", mySection, sep=""), traumaMain, perl=T)
+## None in trauma
 
 ### Add tags
 ## assign group tags (none in trauma)
