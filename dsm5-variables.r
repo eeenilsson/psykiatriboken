@@ -39,6 +39,7 @@ listHeaders <- c(
 "Relationship to",
 "Specifiers for Depressive Disorders",
 "Features",
+"Risk and Prognostic",
 "Associated Features",
 ## Custom headers
 "Introduction to", ## for intro sections

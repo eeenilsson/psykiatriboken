@@ -37,6 +37,9 @@ source('dsm5-variables.r')
 ## source('dsm5-feeding.r')
 ## source('dsm5-elimination.r')
 ## source('dsm5-sleep.r') ## Note: diagnosis subgroups tagged as headers
+## source('dsm5-sexual.r')
+## source('dsm5-gender.r')
+## source('dsm5-impulse.r')
 
 ## ======================================================
 
@@ -54,9 +57,9 @@ source('dsm5-variables.r')
 ## Elimination Disorders	355
 ## Sleep-Wake Disorders	361
 ## Sexual Dysfunctions	423
-
-
+## Gender Dysphoria	451
 ## Disruptive, Impulse-Control, and Conduct Disorders	461
+
 ## Substance-Related and Addictive Disorders	 481
 ## Neurocognitive Disorders	 591
 ## Personality Disorders	645

@@ -1,81 +1,81 @@
-chapterTitle <- "Somatic Symptom and Related Disorders"
+chapterTitle <- "Disruptive, Impulse-Control, and Conduct Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
-## Somatic Symptom and Related Disorders	 309
+## Disruptive, Impulse-Control, and Conduct Disorders	461
 
-## Somatic intro and main body
-somaticMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 345:363)
-## somaticMain[1] <-
-##     gsub("(?s).*(?=\nSeparation Somatic Disorder)", "", somaticMain[1], perl=T) ## remove redundant text before section starts and 
-somaticMain <- paste(somaticMain, collapse = "") ## collapse to one
-somaticMain <- cleanText(somaticMain)
-somaticMain <- makeHeaders(somaticMain)
-somaticMain <- cleanMore(somaticMain)
-somaticMain <- gsub(" \n\n", "\n\n", somaticMain, perl=T) ## Remove blanks preceding newline
-somaticMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", somaticMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
-somaticMain <- gsub("^.*SomStiC", "Somatic", somaticMain) ## remove title and first sentance (not correctly parsed from pdf)
-somaticMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), somaticMain) ## Add header to intro
-somaticMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), somaticMain) ## Add chapter
-somaticMain <- gsub("(?<=[^\n])##", "\n\n##", somaticMain, perl=T) ## ## should be preceded by newline
+## Impulse intro and main body
+impulseMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 495:514)
+## impulseMain[1] <-
+##     gsub("(?s).*(?=\nSeparation Impulse Disorder)", "", impulseMain[1], perl=T) ## remove redundant text before section starts and 
+impulseMain <- paste(impulseMain, collapse = "") ## collapse to one
+impulseMain <- cleanText(impulseMain)
+impulseMain <- makeHeaders(impulseMain)
+impulseMain <- cleanMore(impulseMain)
+impulseMain <- gsub(" \n\n", "\n\n", impulseMain, perl=T) ## Remove blanks preceding newline
+impulseMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", impulseMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
+impulseMain <- gsub("^.*SomStiC", "Impulse", impulseMain) ## remove title and first sentance (not correctly parsed from pdf)
+impulseMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), impulseMain) ## Add header to intro
+impulseMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), impulseMain) ## Add chapter
+impulseMain <- gsub("(?<=[^\n])##", "\n\n##", impulseMain, perl=T) ## ## should be preceded by newline
 
-writeLines(somaticMain, "somaticMain.txt")
+writeLines(impulseMain, "impulseMain.txt")
 
 #### chunk specific replacements
-somaticMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", somaticMain)
+impulseMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", impulseMain)
 
-## somaticMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", somaticMain)
+## impulseMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", impulseMain)
 
-writeLines(somaticMain, "somaticMain.txt")
+writeLines(impulseMain, "impulseMain.txt")
 
 #### table replacement ==================
-## somaticMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", somaticMain, perl=T) ## table
+## impulseMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", impulseMain, perl=T) ## table
 
 ### start and stop tags
-## startTag <- "(?s)(?<=the clinician should record only the substance.induced somatic.compulsive and related disorder.)"
+## startTag <- "(?s)(?<=the clinician should record only the substance.induced impulse.compulsive and related disorder.)"
 ## stopTag <- "F19.988 (?=_Specify)"
-## grep(startTag, somaticMain, perl=T) ## test
-## grep(stopTag, somaticMain, perl=T) ## test
+## grep(startTag, impulseMain, perl=T) ## test
+## grep(stopTag, impulseMain, perl=T) ## test
 ## ### get Section
-## myTable <- getSection(startTag, stopTag, somaticMain)
+## myTable <- getSection(startTag, stopTag, impulseMain)
 ## myTable <- parseTableUseDisorder(myTable)
 ## colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
-## somaticMain <- gsub(
+## impulseMain <- gsub(
 ##     paste(startTag, ".*", stopTag, sep= ""),
-##     formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced NNNN Disorder"), somaticMain, perl=T) ## table
+##     formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced NNNN Disorder"), impulseMain, perl=T) ## table
 ## write_csv(myTable, "dsm5-table-p295.csv")
-## writeLines(somaticMain, "somaticMain.txt")
+## writeLines(impulseMain, "impulseMain.txt")
 
 ## ## move section ## Not needed in depr ======================
 ## Note: use getSection function instead
 ## startTag <- "(?<=medical condition.)(..In distinguishing grief)"
 ## stopTag <- "(pain of depression.\n\n)(?=## Coding)"
-## grep(startTag, somaticMain, perl=T) ## test
-## grep(stopTag, somaticMain, perl=T) ## test
+## grep(startTag, impulseMain, perl=T) ## test
+## grep(stopTag, impulseMain, perl=T) ## test
 ## ### get section
 ## mySection <-
-##     substr(somaticMain,
-##            regexpr(startTag, somaticMain, perl=T)[1],
-##            regexpr(stopTag, somaticMain, perl=T)[1]+
-##            attr(regexpr(stopTag, somaticMain, perl=T), "match.length")-1)
+##     substr(impulseMain,
+##            regexpr(startTag, impulseMain, perl=T)[1],
+##            regexpr(stopTag, impulseMain, perl=T)[1]+
+##            attr(regexpr(stopTag, impulseMain, perl=T), "match.length")-1)
 ## mySection <- gsub("^..", "", mySection) ## clean first two chars
 ## ## delete section
-## somaticMain <-
-##     gsub(paste("(?s)", startTag, ".*", stopTag, sep= ""), "", somaticMain, perl=T) ## table
+## impulseMain <-
+##     gsub(paste("(?s)", startTag, ".*", stopTag, sep= ""), "", impulseMain, perl=T) ## table
 ## ## insert section
-## somaticMain <- gsub("(distress in the context of loss..)(?=\n\n## Somatic II Disorder)",
-##                     paste("distress in the context of loss.\n\n", mySection, sep=""), somaticMain, perl=T)
+## impulseMain <- gsub("(distress in the context of loss..)(?=\n\n## Impulse II Disorder)",
+##                     paste("distress in the context of loss.\n\n", mySection, sep=""), impulseMain, perl=T)
 
 ### Add tags
-## assign group tags (none in somatic)
-somaticMain <- assignTag(somaticMain, groupList, tag = "<--@GROUP-->", hash.replace = "##g")
+## assign group tags (none in impulse)
+impulseMain <- assignTag(impulseMain, groupList, tag = "<--@GROUP-->", hash.replace = "##g")
 
 ## assign diagnosis tags
-somaticMain <- assignTag(somaticMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE , hash.replace = "##d") ## Note that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
+impulseMain <- assignTag(impulseMain, listDiagnoses, "<--@DIAGNOSIS-->", ignore.case = TRUE , hash.replace = "##d") ## Note that this will replace match with diagnosis from list (inlcuding CAPS/nocaps from list)
 
 ## mark headers
-somaticMain <- assignTagHeader(somaticMain)
+impulseMain <- assignTagHeader(impulseMain)
 
 #### write
-writeLines(somaticMain, "somaticMain.txt")
+writeLines(impulseMain, "impulseMain.txt")
 
 ## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
 
