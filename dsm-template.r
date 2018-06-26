@@ -40,7 +40,7 @@ writeLines(somaticMain, "somaticMain.txt")
 ## colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
 ## somaticMain <- gsub(
 ##     paste(startTag, ".*", stopTag, sep= ""),
-##     formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced Somatic-Compulsive Disorder"), somaticMain, perl=T) ## table
+##     formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced NNNN Disorder"), somaticMain, perl=T) ## table
 ## write_csv(myTable, "dsm5-table-p295.csv")
 ## writeLines(somaticMain, "somaticMain.txt")
 

@@ -125,17 +125,21 @@ parseTableUseDisorder <- function (x){
     ## Read a string yanked from txt file
     ## Works on substance use ICD code tables
     mySection <- x
+    ## mySection <- myTable ## test
     mySection <- gsub("\n\n", " ", mySection) ## First get rid of newlines
     mySection <- gsub("##", "", mySection)
     mySection <- gsub("FI ", "F1", mySection)
     mySection <-
         gsub("^.*Withoutusedisorder.*?(?=[A-Z])", " ", mySection, perl=T) ## clean start, repl w blank
     mySection <- gsub("ICD.*disorder", "", mySection)
-    mySection <- gsub("[[:blank:]]+", " ", mySection)
+    mySection <- gsub("\\)", ") ", mySection) ## add blank after parens
+    mySection <- gsub("[[:blank:]]+", " ", mySection) ## clean double parens
     mySection <-
-        gsub("([[:blank:]][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{2}", "\n\\1;", mySection, perl=T, ignore.case=T) ## Row names identified
+        gsub("([[:blank:]][A-Z][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{2}", "\n\\1;", mySection, perl=T, ignore.case=FALSE) ## Row names identified
     mySection <- gsub("(F[0-9]{2}\\.[0-9]{2,3})", "\\1;", mySection, perl=T, ignore.case=T)
-    TEMP <- read_delim(mySection, delim=";", trim_ws = TRUE, col_names = FALSE)
+    mySection <- gsub("NA", "NA;", mySection)
+    TEMP <-
+        read_delim(mySection, delim=";", trim_ws = TRUE, col_names = FALSE)
     return(TEMP[1:ncol(TEMP)-1]) ## last col empty
     }           
 

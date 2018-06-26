@@ -27,30 +27,35 @@ sleepMain <- gsub("international Classification", "International Classification"
 sleepMain <- gsub("(?<=[^\n])##", "\n\n##", sleepMain, perl=T) ## ## should be preceded by newline
 sleepMain <- gsub("condition.[\\\\] ", "condition.", sleepMain)
 sleepMain <- gsub("isexacerbating", "is exacerbating", sleepMain)
-sleepMain <- gsub("Type[\\\\] ", "Type", sleepMain)
+sleepMain <- gsub("Type[\\\\] ", "Type ", sleepMain)
+sleepMain <- gsub("Type[\\\\] ", "Type ", sleepMain) ## needs repeat?
 sleepMain <- gsub("Movement\n\n## Sleep", "Movement Sleep", sleepMain)
-## sleepMain <- gsub("## During sleep onset", "During sleep onset", sleepMain)
-## sleepMain <- gsub("## Severity can be", "Severity can be", sleepMain)
+sleepMain <- gsub("## During sleep onset", "During sleep onset", sleepMain)
+sleepMain <- gsub("of\n\n## Sleep", "of Sleep", sleepMain)
+sleepMain <- gsub("## REM sleep behavior disorder is", "REM sleep behavior disorder is", sleepMain)
+sleepMain <- gsub("the\n\nInternational", "the International", sleepMain)
+sleepMain <- gsub("## Prevalence rates of", "Prevalence rates of", sleepMain)
+sleepMain <- gsub("to\n\n7", "to 7", sleepMain)
+sleepMain <- gsub("## The essential", "The essential", sleepMain)
 
 writeLines(sleepMain, "sleepMain.txt")
 
 #### table replacement ==================
-## sleepMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", sleepMain, perl=T) ## table
-
 ### start and stop tags
-## startTag <- "(?s)(?<=the clinician should record only the substance.induced sleep.compulsive and related disorder.)"
-## stopTag <- "F19.988 (?=_Specify)"
-## grep(startTag, sleepMain, perl=T) ## test
-## grep(stopTag, sleepMain, perl=T) ## test
-## ### get Section
-## myTable <- getSection(startTag, stopTag, sleepMain)
-## myTable <- parseTableUseDisorder(myTable)
-## colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
-## sleepMain <- gsub(
-##     paste(startTag, ".*", stopTag, sep= ""),
-##     formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced Sleep-Compulsive Disorder"), sleepMain, perl=T) ## table
-## write_csv(myTable, "dsm5-table-p295.csv")
-## writeLines(sleepMain, "sleepMain.txt")
+startTag <- "(?s)(?<=discontinuation of the substance/medication.)\n\n## ICD-9-CM"
+stopTag <- "FI 9.982(?= \n\n##)"
+grep(startTag, sleepMain, perl=T) ## test
+grep(stopTag, sleepMain, perl=T) ## test
+
+### get Section
+myTable <- getSection(startTag, stopTag, sleepMain)
+myTable <- parseTableUseDisorder(myTable)
+colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
+sleepMain <- gsub(
+    paste(startTag, ".*", stopTag, sep= ""),
+    formatTable(myTable, caption = "ICD codes for Substance/Medication-Induced Sleep Disorder"), sleepMain, perl=T) ## table
+write_csv(myTable, "dsm5-table-p450.csv")
+writeLines(sleepMain, "sleepMain.txt")
 
 ## ## move section ## Not needed in depr ======================
 ## Note: use getSection function instead

@@ -13,7 +13,12 @@ spellList <- list(
     'Bipoiar' = "Bipolar",
     'Differentiai' = "Differential",
     'Reiationship'= "Relationship",
+    'Relationsliip' = "Relationship",
     'Prevaience'= "Prevalence",
+    'internationai' = "international",
+    'Ciassification' = "Classification",
+    'hypoventilation1' = "hypoventilation",
+    'liypoventilation' = "hypoventilation",
     'Deveiopment' = "Development",
     'medicai' = "medical",
     'IVIedical' = "Medical",
@@ -26,6 +31,7 @@ spellList <- list(
     'Sieep' = "Sleep",
     'Mari\\(ers' = "Markers",
     'iVlaricers' = "Markers",
+    'i..larl\\(ers' = "Markers",
     'IViarkers' = "Markers",
     'IVIarkers' = "Markers",
     'IVIaricers' = "Markers",
@@ -93,5 +99,7 @@ spellList <- list(
     'psychoiogicai' = "psychological",
     'Intaice' = "Intake",
     'Worl\\(' = "Work",
-    "REIVI" = "REM"
+    'REIVI' = "REM",
+    'Walce' = "Wake",
+    'Pliase' = "Phase"
 )

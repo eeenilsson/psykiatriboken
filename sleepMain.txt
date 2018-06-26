@@ -538,9 +538,7 @@ Systemic hypertension, coronary artery disease, heart failure, stroke, diabetes,
 
 As many as one-third of individuals referred for evaluation of obstructive sleep apnea hypopnea report symptoms of depression, with as many of 10% having depression scores consistent with moderate to severe depression. Severity of obstructive sleep apnea hypopnea, as measured by the apnea hypopnea index, has been foimd to be correlated w i^ severity of symptoms of depression. This association may be stronger in males than in females.
 
-##h Relationship to internationai Ciassification of <--@HEADER-->
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), differentiates 11 subtypes of "sleep-related breathing disorders," including primary central sleep apnea, obstructive sleep apnea, and sleep-related hypoventilation.
 
@@ -640,7 +638,7 @@ B. The disturbance is not better explained by another current sleep disorder.
 
 Specify whether:
 
-327.24 (G47.34) Idiopathic liypoventilation: This subtype is not attributable to any readily identified condition.
+327.24 (G47.34) Idiopathic hypoventilation: This subtype is not attributable to any readily identified condition.
 
 327.25 (G47.35) Congenital central alveolar hypoventilation: This subtype is a rare congenital disorder in which the individual typically presents in the perinatal period with shallow breathing, or cyanosis and apnea during sleep.
 
@@ -704,9 +702,7 @@ Other breathing-related sleep disorders. Sleep-related hypoventilation can be di
 
 Sleep-related hypoventilation often occurs in association with a pulmonary disorder (e.g., interstitial lung disease, COPD), with a neuromuscular or chest wall disorder (e.g., muscular dystrophies, post-polio syndrome, cervical spinal cord injury, obesity, kyphoscoliosis), or.most relevant to the mental health provider, with medication use (e.g., benzodiazepines, opiates). Congenital central alveolar hypoventilation often occurs in association with autonomic dysfunction and may occur in association with Hirschsprung's disease. COPD, a disorder of lower airway obstruction usually associated with cigarette smoking, can result in sleep- related hypoventilation and hypoxemia. The presence of coexisting obstructive sleep apnea hypopnea is thought to exacerbate hypoxemia and hypercapnia during sleep and wakefulness. The relationship between congenital central alveolar hypoventilation and idiopathic sleep-related hypoventilation is unclear; in some individuals, idiopathic sleep-related hypoventilation may represent cases of late-onset congenital central alveolar hypoventilation.
 
-##h Relationship to internationai Ciassification of <--@HEADER-->
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), combines sleep- related hypoventilation and sleep-related hypoxemia under the category of sleep-related hypoventilation/hypoxemic syndromes. This approach to classification reflects the frequent co-occurrence of disorders that lead to hypoventilation and hypoxemia. In contrast, the classification used in DSM-5 reflects evidence that there are distinct sleep-related pathogenetic processes leading to hypoventilation.
 
@@ -780,7 +776,7 @@ Increased prevalence in adolescence may be a consequence of both physiological a
 
 Genetic and physiological. Predisposing factors may include a longer than average circadian period, changes in light sensitivity, and impaired homeostatic sleep drive. Some individuals with delayed sleep phase type may be hypersensitive to evening light, which can serve as a delay signal to the circadian clock, or they may be hyposensitive to morning light such that its phase-advancing effects are reduced. Genetic factors may play a role in the pathogenesis of familial and sporadic forms of delayed sleep phase type, including mutations in circadian genes (e.g., PER3, CKle).
 
-## Diagnostic i\/larl(ers
+##h Diagnostic Markers <--@HEADER-->
 
 Confirmation of the diagnosis includes a complete history and use of a sleep diary or actigra- phy (i.e., a wrist-wom motion detector that monitors motor activity for prolonged periods and can be used as a proxy for sleep-wake patterns for at least 7 days). The period covered should include weekends, when social and occupational obligations are less strict, to ensure that the individual exhibits a consistently delayed sleep-wake pattern. Biomarkers such as salivary dim light melatonin onset should be obtained only when the diagnosis is unclear.
 
@@ -840,7 +836,7 @@ African Americans may have a shorter circadian period and larger magnitude phase
 
 A sleep diary and actigraphy may be used as diagnostic markers, as described earlier for delayed sleep phase type.
 
-##h Functional Consequences of Advanced Sleep Pliase Type <--@HEADER-->
+##h Functional Consequences of Advanced Sleep Phase Type <--@HEADER-->
 
 Excessive sleepiness associated with advanced sleep phase can have a negative effect on cognitive performance, social interaction, and safety. Use of wake-promoting agents to combat sleepiness or sedatives for early morning awakening may increase potential for substance abuse.
 
@@ -930,7 +926,7 @@ Diagnosis is confirmed by history and sleep diary or actigraphy for an extended 
 
 Sequential measurement of phase markers (e.g., melatonin) can help determine circadian phase in both sighted and blind individuals.
 
-##h Functional Consequences of Non-24-Hour Sleep-Walce Type <--@HEADER-->
+##h Functional Consequences of Non-24-Hour Sleep-Wake Type <--@HEADER-->
 
 Complaints of insomnia (sleep onset and sleep maintenance), excessive sleepiness, or both are prominent. The unpredictability of sleep and wake times (typically a daily delay drift) results in an inability to attend school or maintain a steady job and may increase potential for social isolation.
 
@@ -1128,7 +1124,7 @@ E. Coexisting mental and medical disorders do not adequately explain the predomi
 
 Specify if:
 
-## During sleep onset
+During sleep onset
 
 Specify if:
 
@@ -1232,9 +1228,7 @@ Nightmares may be comorbid with several medical conditions, including coronary h
 
 Nightmares are normally characteristic of REM sleep behavior disorder, PTSD, and acute stress disorder, but nightmare disorder may be independently coded if nightmares preceded the condition and their frequency or severity necessitates independent clinical attention. The latter may be determined by asking whether nightmares were a problem before onset of the other disorder and whether they continued after other symptoms had remitted.
 
-## Relationsliip to internationai Ciassification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), presents similar diagnostic criteria for nightmare disorder.
 
@@ -1312,9 +1306,7 @@ REM sleep behavior disorder is present concurrently in approximately 30% of pati
 
 ##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
-## REM sleep behavior disorder is virtually identical to REM sleep behavior disorder in the
-
-International Classification of Sleep Disorders, 2nd Edition (ICSD-2).
+REM sleep behavior disorder is virtually identical to REM sleep behavior disorder in the International Classification of Sleep Disorders, 2nd Edition (ICSD-2).
 
 ##d Restless legs syndrome <--@DIAGNOSIS-->
 
@@ -1350,9 +1342,7 @@ Periodic leg movements in sleep (PLMS) can serve as corroborating evidence for R
 
 ##h Prevalence <--@HEADER-->
 
-##h Prevalence rates of RLS vary widely when broad criteria are utilized but range from 2% to <--@HEADER-->
-
-7.2% when more defined criteria are employed. When frequency of symptoms is at least three times per week with moderate or severe distress, the prevalence rate is 1.6%; when frequency of symptoms is a minimum of one time per week, the prevalence rate is 4.5%.
+Prevalence rates of RLS vary widely when broad criteria are utilized but range from 2% to 7.2% when more defined criteria are employed. When frequency of symptoms is at least three times per week with moderate or severe distress, the prevalence rate is 1.6%; when frequency of symptoms is a minimum of one time per week, the prevalence rate is 4.5%.
 
 Females are 1.5-2 times more likely than males to have RLS. RLS also increases with age.
 
@@ -1404,9 +1394,7 @@ Depressive disorders, anxiety disorders, and attentional disorders are commonly 
 
 There may be an association with numerous other medical disorders, including hypertension, narcolepsy, migraine, Parkinson's disease, multiple sclerosis, peripheral neuropathy, obstructive sleep apnea, diabetes mellitus, fibromyalgia, osteoporosis, obesity, thyroid disease, and cancer. Iron deficiency, pregnancy, and chronic renal failure are also comorbid with RLS.
 
-##h Relationship to internationai Ciassification of <--@HEADER-->
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), presents similar diagnostic criteria for RLS but does not contain a criterion specifying frequency or duration of symptoms.
 
@@ -1448,13 +1436,21 @@ With onset during intoxication: This specifier should be used if criteria are me
 
 With onset during discontinuation/withdrawal: This specifier should be used if criteria are met for discontinuation/withdrawal from the substance/medication and symptoms developed during, or shortly after, discontinuation of the substance/medication.
 
-## ICD-9-CM
+<--@TABLESTART--> ICD codes for Substance/Medication-Induced Sleep Disorder
+|Substance                         | With mild use disorder | Moderate or severe | Without use disorder |
+|:---------------------------------|:----------------------:|:------------------:|:--------------------:|
+|Alcohol                           |        F10.182         |      F10.282       |       F10.982        |
+|Caffeine                          |        F15.182         |      F15.282       |       F15.982        |
+|Cannabis                          |        F12.188         |      F12.288       |       F12.988        |
+|Opioid                            |        F11.182         |      F11.282       |       F11.982        |
+|Sedative, hypnotic, or anxiolytic |        F13.182         |      F13.282       |       F13.982        |
+|Amphetamine (or other stimulant)  |        F15.182         |      F15.282       |       F15.982        |
+|Cocaine                           |        F14.182         |      F14.282       |       F14.982        |
+|Tobacco                           |           NA           |      F17.208       |          NA          |
+|Other (or unknown) substance      |        F19.182         |      F19.282       |       F19.982        |
+<--@TABLESTOP-->
 
-With use disorder, mild 
-
-## ICD-IO-CM
-
-With use disorder, moderate or severe Withoutusedisorder Alcohol 291.82 F10.182 F10.282 FI 0.982 Caffeine 292.85 F15.182 FI 5.282 F15.982 Cannabis 292.85 F12.188 FI 2.288 FI 2.988 Opioid 292.85 F11.182 F11.282 F11.982 Sedative, hypnotic, or anxiolytic 292.85 F13.182 FI 3.282 FI 3.982 Amphetamine (or other stimulant)292.85 F15.182 FI 5.282 FI 5.982 Cocaine 292.85 F14.182 FI 4.282 FI 4.982 Tobacco 292.85 NA F17.208 NA Other (or unknown) substance 292.85 FI 9.182 FI 9.282 FI 9.982 
+ 
 
 ##h Recording Procedures <--@HEADER-->
 
@@ -1468,7 +1464,7 @@ When recording the name of the disorder, the comorbid substance use disorder (if
 
 ##h Diagnostic Features <--@HEADER-->
 
-## The essential feature of substance/medication-induced sleep disorder is a prominent sleep disturbance that is sufficiently severe to warrant independent clinical attention (Criterion A) and that is judged to be primarily associated with the pharmacological effects of a substance (i.e., a drug of abuse, a medication, toxin exposure) (Criterion B). Depending on the substance involved, one of four types of sleep disturbances is reported. Insomnia type and daytime sleepiness type are most common, while parasomnia type is seen less often. The mixed type is noted when more than one type of sleep disturbance-related symptom is present and none predominates. The disturbance must not be better explained by another sleep disorder
+The essential feature of substance/medication-induced sleep disorder is a prominent sleep disturbance that is sufficiently severe to warrant independent clinical attention (Criterion A) and that is judged to be primarily associated with the pharmacological effects of a substance (i.e., a drug of abuse, a medication, toxin exposure) (Criterion B). Depending on the substance involved, one of four types of sleep disturbances is reported. Insomnia type and daytime sleepiness type are most common, while parasomnia type is seen less often. The mixed type is noted when more than one type of sleep disturbance-related symptom is present and none predominates. The disturbance must not be better explained by another sleep disorder
 
 (Criterion C). A substance/medication-induced sleep disorder is distinguished from insomnia disorder or a disorder associated with excessive daytime sleepiness by considering onset and course. For drugs of abuse, there must be evidence of intoxication or withdrawal from the history, physical examination, or laboratory findings. Substance/medication-induced sleep disorder arises only in association with intoxication or discontinuation/withdrawal states, whereas other sleep disorders may precede the onset of substance use or occur during times of sustained abstinence. As discontinuation/withdrawal states for some substances can be protracted, onset of the sleep disturbance can occur 4 weeks after cessation of substance use, and the disturbance may have features atypical of other sleep disorders (e.g., atypical age at onset or course). The diagnosis is not made if the sleep disturbance occurs only during a delirium (Criterion D). The symptoms must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion E). This diagnosis should be made instead of a diagnosis of substance intoxication or substance withdrawal only when the symptoms in Criterion A predominate in the clinical picture and when the symptoms warrant independent clinical attention.
 
@@ -1542,9 +1538,7 @@ Sleep disorder due to another medical condition. Substance/medication-induced sl
 
 See the "Comorbidity" sections for other sleep disorders in this chapter, including insomnia, hypersomnolence, central sleep apnea, sleep-related hypoventilation, and circadian rhythm sleep-wake disorders, shift work type.
 
-## Relationsliip to internationai Ciassification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), lists sleep disorders "due to drug or substance" under their respective phenotypes (e.g., insonmia, hypersomnia).
 
