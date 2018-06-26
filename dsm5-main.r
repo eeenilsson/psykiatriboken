@@ -59,8 +59,8 @@ source('dsm5-variables.r')
 ## Sexual Dysfunctions	423
 ## Gender Dysphoria	451
 ## Disruptive, Impulse-Control, and Conduct Disorders	461
-
 ## Substance-Related and Addictive Disorders	 481
+
 ## Neurocognitive Disorders	 591
 ## Personality Disorders	645
 ## Paraphilic Disorders	685

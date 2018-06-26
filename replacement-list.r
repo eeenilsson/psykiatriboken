@@ -103,5 +103,8 @@ spellList <- list(
     'Walce' = "Wake",
     'Pliase' = "Phase",
     'Comorbldlty' = "Comorbidity",
-    'Genlto' = "Genito"
+    'Genlto' = "Genito",
+    'Substarice' = "Substance",
+    'Muitipie' = "Multiple",
+    'v\\^ithdrawal' = "withdrawal"
 )

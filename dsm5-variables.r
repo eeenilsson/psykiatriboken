@@ -41,6 +41,13 @@ listHeaders <- c(
 "Features",
 "Risk and Prognostic",
 "Associated Features",
+"Severity and Specifiers",
+"Substance Intoxication",
+"Route of Administration",
+"Duration of Effects",
+"Use of Multiple Substances",
+"Associated Laboratory",
+"Substance/Medication-Induced Mental Disorders",
 ## Custom headers
 "Introduction to", ## for intro sections
 ## Sub-diagnoses that are to be kept as headers on same level as diagnosis
@@ -68,5 +75,8 @@ groupList <- c(
     ## Other
     "Breathing-Related Sleep Disorders",
     "Parasomnias",
-    "Gender Dysphoria"
+    "Gender Dysphoria",
+    "Substance-Related Disorders",
+    "Substance Use Disorders", ## Sub to Substance-Related Disorders
+    "Substance-Induced Disorders" ## Sub to Substance-Related Disorders
 )
