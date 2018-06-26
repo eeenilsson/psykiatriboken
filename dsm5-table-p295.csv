@@ -1,4 +1,7 @@
 Substance,With mild use disorder,Moderate or severe,Without use disorder
-Amphetamine (or other stimulant),F15.188,F15.288,F15.988
-Cocaine,F14.188,F14.288,F14.988
-Other (or unknown) substance,F19.188,F19.288,F19.988
+Alcohol,F10.181,F10.281,F10.981
+Opioid,F11.181,F11.281,F11.981
+"Sedative, hypnotic, or anxiolytic",F13.181,F13.281,F13.981
+Amphetamine (or other stimulant),F15.181,F15.281,F15.981
+Cocaine,F14.181,F14.281,F14.981
+Other (or unknown) substance,F19.181,F19.281,F19.981

@@ -101,5 +101,7 @@ spellList <- list(
     'Worl\\(' = "Work",
     'REIVI' = "REM",
     'Walce' = "Wake",
-    'Pliase' = "Phase"
+    'Pliase' = "Phase",
+    'Comorbldlty' = "Comorbidity",
+    'Genlto' = "Genito"
 )
