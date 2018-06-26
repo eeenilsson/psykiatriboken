@@ -1007,7 +1007,7 @@ Males make up about three-quarters of those with phencyclidine-related emergency
 
 Laboratory testing may be useful, as phencyclidine is present in the urine in intoxicated individuals up to 8 days after ingestion. The individual's history, along with certain physical signs, such as nystagmus, analgesia and prominent hypertension, may aid in distinguishing the phencyclidine clinical picture from that of other hallucinogens.
 
-##h Functional Consequences of Pliencyclidine Use Disorder <--@HEADER-->
+##h Functional Consequences of Phencyclidine Use Disorder <--@HEADER-->
 
 In individuals with phencyclidine use disorder, there may be physical evidence of injuries from accidents, fights, and falls. Chronic use of phencyclidine may lead to deficits in memory, speech, and cognition that may last for months. Cardiovascular and neurological tox- icities (e.g., seizures, dystonias, dyskinesias, catalepsy, hypothermia or hyperthermia) may result from intoxication with phencyclidine. Other consequences include intracranial hemorrhage, rhabdomyolysis, respiratory problems, and (occasionally) cardiac arrest.
 
@@ -1176,7 +1176,7 @@ Phencyclidine intoxication reflects the clinically significant behavioral change
 
 Use of phencyclidine or related substances may be taken as an estimate of the prevalence of intoxication. Approximately 2.5% of the population reports having ever used phencyclidine. Among high school students, 2.3% of 12th graders report ever using phencyclidine, with 57% having used in the past 12 months. This represents an increase from prior to 2011. Past-year use of ketamine, which is assessed separately from other substances, has remained stable over time, with about 1.7% of 12th graders reporting use.
 
-## Diagnostic IVIarlcers
+##h Diagnostic Markers <--@HEADER-->
 
 Laboratory testing may be useful, as phencyclidine is detectable in urine for up to 8 days following use, although the levels are only weakly associated with an individual's clinical presentation and may therefore not be useful for case management. Creatine phosphoki- nase and aspartate aminotransferase levels may be elevated.
 
@@ -1224,7 +1224,7 @@ E. The signs or symptoms are not attributable to another medical condition and a
 
 Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid hallucinogen use disorder. If a mild hallucinogen use disorder is co- morbid, the ICD-10-CM code is F I 6.129, and if a moderate or severe hallucinogen use disorder is comorbid, the ICD-10-CM code is F16.229. If there is no comorbid hallucinogen use disorder, then the ICD-10-CM code is F16.929.
 
-## Note; For information on Associated Features Supporting Diagnosis and Culture-Related
+Note: For information on Associated Features Supporting Diagnosis and Culture-Related
 
 Diagnostic Issues, see the corresponding sections in other hallucinogen use disorder.
 
@@ -1304,11 +1304,11 @@ Conditions to be ruled out include schizophrenia, other drug effects, neurodegen
 
 Common comorbid mental disorders accompanying hallucinogen persisting perception disorder are panic disorder, alcohol use disorder, and major depressive disorder.
 
-## Other Phencyclidine-Induced Disorders
+##g Other Phencyclidine-Induced Disorders <--@GROUP-->
 
 Other phencyclidine-induced disorders are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters): phencyclidine-induced psychotic disorder ("Schizophrenia Spectrum and Other Psychotic Disorders"); phencyclidine-induced bipolar disorder ("Bipolar and Related Disorders"); phencyclidine-induced depressive disorder ("Depressive Disorders"); and phencyclidine-induced anxiety disorder ("Anxiety Disorders"). For phencyclidine-induced intoxication delirium, see the criteria and discussion of delirium in the chapter "Neurocognitive Disorders." These phencyclidine-induced disorders are diagnosed instead of phencyclidine intoxication only when the symptoms are sufficiently severe to warrant independent clinical attention.
 
-## Other Hallucinogen-Induced Disorders
+##g Other Hallucinogen-Induced Disorders <--@GROUP-->
 
 The following other hallucinogen-induced disorders are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters): other hallucinogen-induced psychotic disorder ("Schizophrenia Spectrum and Other Psychotic Disorders"); other hallucinogen- induced bipolar disorder ("Bipolar and Related Disorders"); other hallucinogen-induceddepressive disorder ("Depressive Disorders"); and other hallucinogen-induced anxiety disorder ("Anxiety Disorders"). For other hallucinogen intoxication delirium, see the criteria and discussion of delirium in the chapter "Neurocognitive Disorders." These hallucinogen-induced disorders are diagnosed instead of other hallucinogen intoxication only when the symptoms are sufficiently severe to warrant independent clinical attention.
 
@@ -1533,7 +1533,7 @@ The following inhalant-induced disorders are described in other chapters of the 
 
 This category applies to presentations in wliich symptoms characteristic of an inhalant- related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any specific inhalant-related disorder or any of the disorders in the substance-related and addictive disorders diagnostic class.
 
-## Opioid-Related Disorders
+##g Opioid-Related Disorders <--@GROUP-->
 
  Opioid Use Disorder, Opioid Intoxication, Opioid Withdrawai, Other Opioid-induced Disorders, Unspecified Opioid-Related Disorder.
 
@@ -1779,7 +1779,7 @@ Other substance intoxication. Dilated pupils are also seen in hallucinogen intox
 
 Other opioid-induced disorders. Opioid withdrawal is distinguished from the other opioid-induced disorders (e.g., opioid-induced depressive disorder, with onset during withdrawal) because the symptoms in these latter disorders are in excess of those usually associated with opioid withdrawal and meet full criteria for the relevant disorder.
 
-## Other Opioid-Induced Disorders
+##g Other Opioid-Induced Disorders <--@GROUP-->
 
 The following opioid-induced disorders are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters): opioid-induced depressive disorder ("Depressive Disorders"); opioid-induced anxiety disorder ("Anxiety Disorders"); opioid-induced sleep disorder ("Sleep-Wake Disorders"); and opioid-induced sexual dysfunction ("Sexual Dysfunctions"). For opioid intoxication delirium and opioid withdrawal delirium, see the criteria and discussion of delirium in the chapter "Neurocognitive Disorders." These opioid- induced disorders are diagnosed instead of opioid intoxication or opioid withdrawal only when the symptoms are sufficiently severe to warrant independent clinical attention.
 
@@ -2039,23 +2039,17 @@ Anxiety disorders. Recurrence or worsening of an underlying anxiety disorder pro
 
 Other Sedative-, Hypnotic-, or Anxiolytic-Induced Disorders The following sedative-, hypnotic-, or anxiolytic-induced disorders are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters): sedative-, hypnotic-, or anxiolytic-induced psychotic disorder (''Schizophrenia Spectrum and Other Psychotic Disorders"); sedative-, hypnotic-, or anxiolytic-induced bipolar disorder ("Bipolar and Related Disorders"); sedative-, hypnotic-, or anxiolytic-induced depressive disorder ("Depressive Disorders"); sedative-, hypnotic-, or anxiolytic-induced anxiety disorder ("Anxiety Disorders"); sedative-, hypnotic-, or anxiolytic-induced sleep disorder ("Sleep- Wake Disorders"); sedative-, hypnotic-, or anxiolytic-induced sexual dysfunction ("Sexual Dysfunctions"); and sedative-, hypnotic-, or anxiolytic-induced major or mild neuro- cognitive disorder ("Neurocognitive Disorders"). For sedative, hypnotic, or anxiolytic intoxication delirium and sedative, hypnotic, or anxiolytic withdrawal delirium, see the criteria and discussion of delirium in the chapter "Neurocognitive Disorders." These sedative-, hypnotic-, or anxiolytic-induced disorders are diagnosed instead of sedative, hypnotic, or anxiolytic intoxication or sedative, hypnotic, or anxiolytic withdrawal only when the symptoms are sufficiently severe to warrant independent clinical attention.
 
-Unspecified Sedative-, Hypnotic-, or Anxiolytic-Related Disorder 292.9 (F13.99)
+Unspecified Sedative-, Hypnotic-, or Anxiolytic-Related Disorder
+
+292.9 (F13.99)
 
 This category applies to presentations in which symptoms characteristic of a sedative-, hypnotic-, or anxiolytic-related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any specific sedative-, hypnotic-, or anxiolytic-related disorder or any of the disorders in the substance-related and addictive disorders diagnostic class.
 
-## Stimulant-Related Disorders
+##g Stimulant-Related Disorders <--@GROUP-->
+
+ Stimulant Use Disorder, Stimulant Intoxication, Stimulant Withdrawal, Other Stimulant-Induced Disorders, Unspecified Stimulant-Related Disorder.
 
 ##d Stimulant use disorder <--@DIAGNOSIS-->
-
-##d Stimulant intoxication <--@DIAGNOSIS-->
-
-##d Stimulant withdrawal <--@DIAGNOSIS-->
-
-## Other Stimulant-Induced Disorders
-
-##d Unspecified stimulant-related disorder <--@DIAGNOSIS-->
-
-## Stimulant Use Disorder
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -2195,7 +2189,7 @@ Stimulant intoxication and withdrawal. Stimulant intoxication and withdrawal are
 
 Stimulant-related disorders often co-occur with other substance use disorders, especially those involving substances with sedative properties, which are often taken to reduce in-somnia, nervousness, and other unpleasant side effects. Cocaine users often use alcohol, while amphetamine-type stimulant users often use cannabis. Stimulant use disorder may be associated with posttraumatic stress disorder, antisocial personality disorder, atten- tion-deficit/hyperactivity disorder, and gambling disorder. Cardiopulmonary problems are often present in individuals seeking treatment for cocaine-related problems, with chest pain being the most common. Medical problems occur in response to adulterants used as "cutting" agents. Cocaine users who ingest cocaine cut with levamisole, an antimicrobial and veterinary medication, may experience agranulocytosis and febrile neutropenia.
 
-## Stimulant Intoxication
+##d Stimulant intoxication <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -2251,7 +2245,7 @@ Stimulant-induced disorders. Stimulant intoxication is distinguished from the ot
 
 Other mental disorders. Salient mental disturbances associated with stimulant intoxication should be distinguished from the symptoms of schizophrenia, paranoid type; bipolar and depressive disorders; generalized anxiety disorder; and panic disorder as described in DSM-5.
 
-## Stimulant Withdrawal
+##d Stimulant withdrawal <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -2281,7 +2275,7 @@ It is not permissible to code a comorbid mild amphetamine, cocaine, or other sti
 
 ##h Diagnostic Features <--@HEADER-->
 
-## The essential feature of stimulant withdrawal is the presence of a characteristic withdrawal syndrome that develops within a few hours to several days after the cessation of (or marked reduction in) stimulant use (generally high dose) that has been prolonged (Criterion A). The withdrawal syndrome is characterized by the development of dysphoric mood accompanied by two or more of the following physiological changes: fatigue, vivid and unpleasant dreams, insomnia or hypersomnia, increased appetite, and psychomotor retardation or agitation (Criterion B). Bradycardia is often present and is a reliable measure of stimulant withdrawal.
+The essential feature of stimulant withdrawal is the presence of a characteristic withdrawal syndrome that develops within a few hours to several days after the cessation of (or marked reduction in) stimulant use (generally high dose) that has been prolonged (Criterion A). The withdrawal syndrome is characterized by the development of dysphoric mood accompanied by two or more of the following physiological changes: fatigue, vivid and unpleasant dreams, insomnia or hypersomnia, increased appetite, and psychomotor retardation or agitation (Criterion B). Bradycardia is often present and is a reliable measure of stimulant withdrawal.
 
 Anhedonia and drug craving can often be present but are not part of the diagnostic criteria. These symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion C). The symptoms must not be attributable to another medical condition and are not better explained by another mental disorder (Criterion D).
 
@@ -2293,25 +2287,19 @@ Acute withdrawal symptoms ("a crash") are often seen after periods of repetitive
 
 Stimulant use disorder and other stimulant-induced disorders. Stimulant withdrawal is distinguished from stimulant use disorder and from the other stimulant-induced disorders (e.g., stimulant-induced intoxication delirium, depressive disorder, bipolar disorder, psychotic disorder, anxiety disorder, sexual dysfunction, sleep disorder) because the symptoms of withdrawal predominate the clinical presentation and are severe enough to warrant independent clinical attention.
 
-## Other Stimulant-Induced Disorders
+##g Other Stimulant-Induced Disorders <--@GROUP-->
 
 The following stimulant-induced disorders (which include amphetamine-, cocaine-, and other stimulant-induced disorders) are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters): stimulant-induced psychotic disorder ("Schizophrenia Spectrum and Other Psychotic Disorders"); stimulant-induced bipolar disorder ("Bipolar and Related Disorders"); stimulant-induced depressive disorder ("Depressive Disorders"); stimulant-induced anxiety disorder ("Anxiety Disorders"); stimulant-induced obsessive- compulsive disorder ("Obsessive-Compulsive and Related Disorders"); stimulant-induced sleep disorder ("Sleep-Wake Disorders"); and stimulant-induced sexual dysfunction ("Sexual Dysfunctions"). For stimulant intoxication delirium, see the criteria and discussion of delirium in the chapter "Neurocognitive Disorders." These stimulant-induced disorders are diagnosed instead of stimulant intoxication or stimulant withdrawal only when the symptoms are sufficiently severe to warrant independent clinical attention.
 
-## Unspecified Stimulant-Related Disorder
+##d Unspecified stimulant-related disorder <--@DIAGNOSIS-->
 
 This category applies to presentations in which symptoms characteristic of a stimulant- related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any specific stimulant-related disorder or any of the disorders in the substance-related and addictive disorders diagnostic class.
 
 Coding note: The ICD-9-CM code is 292.9. The ICD-10-CM code depends on whether the stimulant is an amphetamine, cocaine, or another stimulant. The ICD-10-CM code for an unspecified amphetamine- or other stimulant-related disorder is F15.99. The ICD-10- CM code for an unspecified cocaine-related disorder is FI 4.99.
 
-## Tobacco-Related Disorders
+##g Tobacco-Related Disorders <--@GROUP-->
 
-##d Tobacco use disorder <--@DIAGNOSIS-->
-
-##d Tobacco withdrawal <--@DIAGNOSIS-->
-
-## Other Tobacco-Induced Disorders
-
-##d Unspecified tobacco-related disorder <--@DIAGNOSIS-->
+ Tobacco Use Disorder, Tobacco Withdrawal, Other Tobacco-Induced Disorders, Unspecified Tobacco-Related Disorder.
 
 ##d Tobacco use disorder <--@DIAGNOSIS-->
 
@@ -2411,7 +2399,7 @@ The major predictor of reversibility is duration of smoking. Secondhand smoke in
 
 The most common medical diseases from smoking are cardiovascular illnesses, chronic obstructive pulmonary disease, and cancers. Smoking also increases perinatal problems, such as low birth weight and miscarriage. The most common psychiatric comorbidities are alcohol/substance, depressive, bipolar, anxiety, personality, and attention-deficit/hyper- activity disorders. In individuals with current tobacco use disorder, the prevalence of current alcohol, drug, anxiety, depressive, bipolar, and personality disorders ranges from 22% to 32%. Nicotine-dependent smokers are 2.7-8.1 times more likely to have these disorders than nondependent smokers, never-smokers, or ex-smokers.
 
-## Tobacco Withdrawal
+##d Tobacco withdrawal <--@DIAGNOSIS-->
 
 292.0 (F17.203)
 
@@ -2475,29 +2463,19 @@ Abstinence from cigarettes can cause clinically significant distress. Withdrawal
 
 The symptoms of tobacco withdrawal overlap with those of other substance withdrawal syndromes (e.g., alcohol withdrawal; sedative, hypnotic, or anxiolytic withdrawal; stimulant withdrawal; caffeine withdrawal; opioid withdrawal); caffeine intoxication; anxiety, depressive, bipolar, and sleep disorders; and medication-induced akathisia. Admission to smoke-free inpatient units or voluntary smoking cessation can induce withdrawal symptoms that mimic, intensify, or disguise other disorders or adverse effects of medications used to treat mental disorders (e.g., irritability thought to be due to alcohol withdrawal could be due to tobacco withdrawal). Reduction in symptoms with the use of nicotine medications confirms the diagnosis.
 
-## Other Tobacco-Induced Disorders
+##g Other Tobacco-Induced Disorders <--@GROUP-->
 
 Tobacco-induced sleep disorder is discussed in the chapter "Sleep-Wake Disorders" (see ''Substance/Medication-Induced Sleep Disorder").
 
-Unspecified Tobacco-Related Disorder 292.9 (F17.209)
+##d Unspecified tobacco-related disorder <--@DIAGNOSIS-->
+
+292.9 (F17.209)
 
 This category applies to presentations in which symptoms characteristic of a tobacco- related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any specific tobacco-related disorder or any of the disorders in the substance-related and addictive disorders diagnostic class.
 
-## Other (or Unknown)
+##g Other (or Unknown) Substance-Related Disorders <--@GROUP-->
 
-## Substance-Related Disorders
-
-##d Other (or unknown) substance use disorder <--@DIAGNOSIS-->
-
-##d Other (or unknown) substance intoxication <--@DIAGNOSIS-->
-
-##d Other (or unknown) substance withdrawal <--@DIAGNOSIS-->
-
-## Other (or Unknown) Substance-Induced Disorders
-
-##d Unspecified other (or unknown) substance-related disorder <--@DIAGNOSIS-->
-
-##d Other (or unknown) substance use disorder <--@DIAGNOSIS-->
+ Other (or Unknown) Substance Use Disorder, Other (or Unknown) Substance Intoxication, Other (or Unknown) Substance Withdrawal, Other (or Unknown) Substance-Induced Disorders, Unspecified Other (or Unknown) Substance-Related Disorder, Other (or Unknown) Substance Use Disorder.
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -2645,7 +2623,7 @@ Other toxic, metabolic, traumatic, neoplastic, vascular, or infectious disorders
 
 As with all substance-related disorders, adolescent conduct disorder, adult antisocial personality disorder, and other substance use disorders tend to co-occur with other (or unknown) substance intoxication.
 
-## Other (or Unknown) Substance Withdrawal
+##d Other (or unknown) substance withdrawal <--@DIAGNOSIS-->
 
 292.0 (F19.239)
 
@@ -2703,15 +2681,11 @@ Paradoxically, drug intoxications also must be ruled out, because, for example, 
 
 As with all substance-related disorders, adolescent conduct disorder, adult antisocial personality disorder, and other substance use disorders likely co-occur with other (or unknown) substance withdrawal.
 
-## Other (or Unknown)
-
-## Substance-Induced Disorders
+## Other (or Unknown) Substance-Induced Disorders
 
 Because the category of other or unknown substances is inherently ill-defined, the extent and range of induced disorders are uncertain. Nevertheless, other (or unknown) substance-induced disorders are possible and are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication- induced mental disorders in these chapters): other (or unknown) substance-induced psychotic disorder ("Schizophrenia Spectrum and Other Psychotic Disorders"); other (or unknown substance-induced bipolar disorder ("Bipolar and Related Disorders"); other (or unknown) substance-induced depressive disorder ("Depressive Disorders"); other (or unknown) substance-induced anxiety disorders ("Anxiety Disorders"); other (or unknown) substance-induced obsessive-compulsive disorder ("Obsessive-Compulsive and Related Disorders"); other (or unknown) substance-induced sleep disorder ("Sleep-Wake Disorders"); other (or unknown) substance-induced sexual dysfunction ("Sexual Dysfunctions"); an(J other (or unknown) substance/medication-induced major or mild neu- rocognitive disorder ("Neurocognitive Disorders"). For other (or unknown) substance- induced intoxication delirium and other (or unknown) substance-induced withdrawal delirium, see the criteria and discussion of delirium in the chapter "Neurocognitive Disorders." These other (or unknown) substance-induced disorders are diagnosed instead of other (or unknown) substance intoxication or other (or unknown) substance withdrawal only when the symptoms are sufficiently severe to warrant independent clinical attention.
 
-## Unspecified Other (or Unknown)
-
-## Substance-Related Disorder
+##d Unspecified other (or unknown) substance-related disorder <--@DIAGNOSIS-->
 
 292.9 (F19.99)
 

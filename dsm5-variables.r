@@ -90,8 +90,15 @@ groupList <- c(
     "Cannabis-Related Disorders",
     "Other Cannabis-Induced Disorders",
     "Hallucinogen-Related Disorders",
+    "Other Phencyclidine-Induced Disorders",
+    "Other Hallucinogen-Induced Disorders",
     "Inhalant-Related Disorders",
     "Other Inhalant-Induced Disorders",
     "Opioid-Related Disorders",
-    "Other Opioid-Induced Disorders"
+    "Other Opioid-Induced Disorders",
+    "Stimulant-Related Disorders",
+    "Other Stimulant-Induced Disorders",
+    "Tobacco-Related Disorders",
+    "Other Tobacco-Induced Disorders",
+    "Other \\(or Unknown\\) Substance-Related Disorders"
 )

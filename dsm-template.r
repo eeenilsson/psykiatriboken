@@ -17,11 +17,22 @@ impulseMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep
 impulseMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), impulseMain) ## Add chapter
 impulseMain <- gsub("(?<=[^\n])##", "\n\n##", impulseMain, perl=T) ## ## should be preceded by newline
 impulseMain <- gsub("\\,\"", "\"\\,", impulseMain) ## comma before qoutes corrected
+impulseMain <- gsub("## The essential", "The essential", impulseMain) ## seems common
+impulseMain <- gsub("Disorder 2", "Disorder\n\n2", impulseMain)
 
 writeLines(impulseMain, "impulseMain.txt")
 
 #### chunk specific replacements
 impulseMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", impulseMain)
+impulseMain <- removeFalseHeader("Missing work or school", impulseMain)
+
+##
+## startTag <- "## Inhalant Use Disorder\n\n## Inhalant"
+## stopTag <- "Disorders\n\n## Unspecified Inhalant.Related Disorder"
+## grep(startTag, impulseMain, perl=T, ignore.case=T)
+## grep(stopTag, impulseMain, perl=T, ignore.case=T)
+## impulseMain <- cutSection(startTag, stopTag, impulseMain, insert.list=TRUE) ## cut section and insert list
+
 
 ## impulseMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", impulseMain)
 

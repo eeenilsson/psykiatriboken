@@ -17,9 +17,11 @@ substanceMain <- gsub("^.*G C l", "The substance-related", substanceMain) ## rem
 substanceMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), substanceMain) ## Add header to intro
 substanceMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), substanceMain) ## Add chapter
 substanceMain <- gsub("(?<=[^\n])##", "\n\n##", substanceMain, perl=T) ## ## should be preceded by newline
-substanceMain <- gsub("\\,\"", "\"\\,", substanceMain) ## comma before qoutes corrected
 
-                      
+substanceMain <- gsub("\\,\"", "\"\\,", substanceMain) ## comma before qoutes corrected
+substanceMain <- gsub("## The essential", "The essential", substanceMain) ## seems common
+substanceMain <- gsub("Disorder 2", "Disorder\n\n2", substanceMain)
+
 writeLines(substanceMain, "substanceMain.txt")
 
 #### chunk specific replacements
@@ -32,12 +34,12 @@ substanceMain <- gsub("Schizophrenia \n\n", "Schizophrenia ", substanceMain)
 substanceMain <- gsub("Anxiety\n\n", "Anxiety ", substanceMain)
 substanceMain <- gsub("'\"", "\"", substanceMain)
 substanceMain <- gsub("## Features of inhalant use disorder include", "Features of inhalant use disorder include", substanceMain)
-
 substanceMain <- removeFalseHeader("Missing work or school", substanceMain)
-
 substanceMain <- gsub("Sedative, Hypnotic, or Anxiolytic Intoxication \n\n##", "## Sedative, Hypnotic, or Anxiolytic Intoxication\n\n##", substanceMain) ## make header
 substanceMain <- gsub("Sedative. Hypnotic. or Anxiolytic Withdrawal \n\n##", "## Sedative, Hypnotic, or Anxiolytic Withdrawal\n\n##", substanceMain)
-
+substanceMain <- gsub("Unspecified Tobacco-Related Disorder\n\n2", "## Unspecified Tobacco-Related Disorder\n\n2", substanceMain)
+substanceMain <- gsub("Unknown\\)\n\n## Substance", "Unknown\\) Substance", substanceMain)
+substanceMain <- gsub("## Note;", "Note:", substanceMain)
 
 writeLines(substanceMain, "substanceMain.txt")
 
@@ -54,13 +56,23 @@ startTag <- "## Inhalant Use Disorder\n\n## Inhalant"
 stopTag <- "Disorders\n\n## Unspecified Inhalant.Related Disorder"
 grep(startTag, substanceMain, perl=T, ignore.case=T)
 grep(stopTag, substanceMain, perl=T, ignore.case=T)
-
 substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE) ## cut section and insert list
 
 startTag <- "## Opioid Use Disorder\n\n## Opioid"
 stopTag <- "Disorders\n\n## Unspecified Opioid-Related Disorder"
 substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE) ## cut section and insert list
 
+startTag <- "## Stimulant Use Disorder\n\n## Stimulant"
+stopTag <- "Disorders\n\n## Unspecified Stimulant.Related Disorder"
+substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE)
+
+startTag <- "## Tobacco Use Disorder\n\n## Tobacco"
+stopTag <- "Disorders\n\n## Unspecified Tobacco.Related Disorder"
+substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE)
+
+startTag <- "## Other \\(or Unknown\\) Substance Use Disorder\n\n## Other"
+stopTag <- "Disorder\n\n## Other \\(or Unknown\\) Substance.Use Disorder"
+substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE)
 
 writeLines(substanceMain, "substanceMain.txt")
 ## substanceMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", substanceMain)

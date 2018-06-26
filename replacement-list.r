@@ -37,7 +37,7 @@ spellList <- list(
     'IVIaricers' = "Markers",
     'Maricers' = "Markers",
     'Marlcers' = "Markers",
-    'IVIarlcers' = "IVIarlcers",
+    'IVIarlcers' = "Markers",
     'l..larl\\(ers' = "Markers",
     'iViotor' = "Motor",
     'lUliid' = "Mild",
@@ -110,5 +110,6 @@ spellList <- list(
     'v\\^ithdrawal' = "withdrawal",
     'availal..e' = "available",
     'Otiier' = "Other",
-    't\\).ical' = "practical"
+    't\\).ical' = "practical",
+    'Pliencyclidine' = "Phencyclidine"
 )

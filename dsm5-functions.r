@@ -127,7 +127,7 @@ getSection <- function(START, STOP, x){
            attr(regexpr(STOP, x, perl=T), "match.length")-1)
 }
 
-cutSection <- function (START, STOP, x, insert.list = FALSE){
+cutSection <- function (START, STOP, x, insert.list = FALSE, ignore.case = FALSE ){
     ## Cut out text betwen START and STOP, which are strings of regex, and paste a comma spearated string of items instead if insert.list is = TRUE.
     ## x is a string (contents of long text file)
     if(isTRUE(insert.list)){
@@ -137,7 +137,7 @@ cutSection <- function (START, STOP, x, insert.list = FALSE){
     }else{
         TEMP <- c("")
     }
-    gsub(paste("(?s)(", START, ")(.*)?", "(", STOP, ")", sep = ""), TEMP, x, perl=T)
+    gsub(paste("(?s)(", START, ")(.*)?", "(", STOP, ")", sep = ""), TEMP, x, perl=T, ignore.case = ignore.case)
 }
 
 parseTableUseDisorder <- function (x){ 
