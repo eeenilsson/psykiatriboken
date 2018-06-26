@@ -23,7 +23,9 @@ spellList <- list(
     'icnown' = "known",
     'Mari\\(ers' = "Markers",
     'iVlaricers' = "Markers",
+    'IViarkers' = "Markers",
     'IVIarkers' = "Markers",
+    'IVIaricers' = "Markers",
     'Maricers' = "Markers",
     'Marlcers' = "Markers",
     'iViotor' = "Motor",
@@ -84,5 +86,6 @@ spellList <- list(
     'Depersonaiization' = "Depersonalization",
     'Dereallzation' = "Derealization",
     'psyctiological' = "psychological",
-    'psychoiogicai' = "psychological"
+    'psychoiogicai' = "psychological",
+    'Intaice' = "Intake"
 )

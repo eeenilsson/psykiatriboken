@@ -14,6 +14,7 @@ somaticMain <- gsub(" \n\n", "\n\n", somaticMain, perl=T) ## Remove blanks prece
 somaticMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", somaticMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
 somaticMain <- gsub("^.*SomStiC", "Somatic", somaticMain) ## remove title and first sentance (not correctly parsed from pdf)
 somaticMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), somaticMain) ## Add header to intro
+somaticMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), somaticMain) ## Add chapter
 
 writeLines(somaticMain, "somaticMain.txt")
 

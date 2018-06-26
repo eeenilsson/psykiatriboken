@@ -14,13 +14,13 @@ source('page-index.r')
 source('dsm5-variables.r')
 
 ## Title, preface and more ================
-source('dsm5-title.r')
+## source('dsm5-title.r')
 
 ## Section I ===================
-source('dsm5-section1.r')
+## source('dsm5-section1.r')
 
 ## Section II Diagnostic criteria ==========================
-source('dsm5-section2.r')
+## source('dsm5-section2.r')
 ## TOC
 ## Preface
 
@@ -32,6 +32,16 @@ source('dsm5-section2.r')
 ## source('dsm5-depressive.r')
 ## source('dsm5-obssive.r')
 ## source('dsm5-trauma.r')
+
+## Join chapters =========
+## text <- readr::read_file('somaticMain.txt')
+## chapterName <- getSection("##i ", "\n", text)
+
+##i Introduction to Somatic Symptom and Related Disorders
+
+text <- "##i Introduction to Somatic Symptom and Related Disorders\n\nSomatic symptom disorder and other disorders with prominent somatic symptoms constitute a new category in DSM-5 called somatic symptom and related disorders. This chapter includes the diag"
+
+x
 
 ## TODO
 ## make subheaders of all headers not starting with "##h"
@@ -145,8 +155,8 @@ test <- substr(neurodevelopmentalMain, 1, 25000)
 ## Trauma- and Stressor-Related Disorders	265
 ## Dissociative Disorders	291
 ## Somatic Symptom and Related Disorders	 309
-
 ## Feeding and Eating Disorders	 329
+
 ## Elimination Disorders	355
 ## Sleep-Wake Disorders	361
 ## Sexual Dysfunctions	423
