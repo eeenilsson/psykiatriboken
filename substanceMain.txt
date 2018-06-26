@@ -4,7 +4,7 @@
 
 The substance-related disorders encompass 10 separate classes of drugs: alcohol; caffeine; cannabis; hallucinogens (with separate categories for phencyclidine [or similarly acting arylcyclohexylamines] and other hallucinogens); inhalants; opioids; sedatives, hypnotics, and anxiolytics; stimulants (amphetamine-type substances, cocaine, and other stimulants); tobacco; and other (or unknown) substances. These 10 classes are not fully distinct. All drugs that are taken in excess have in common direct activation of the brain reward system, which is involved in the reinforcement of behaviors and the production of memories. They produce such an intense activation of the reward system that normal activities may be neglected. Instead of achieving reward system activation through adaptive behaviors, drugs of abuse directly activate the reward pathways. The pharmacological mechanisms by which each class of drugs produces reward are different, but the drugs typically activate the system and produce feelings of pleasure, often referred to as a ''high." Furthermore, individuals with lower levels of self-control, which may reflect impairments of brain inhibitory mechanisms, may be particularly predisposed to develop substance use disorders, suggesting that the roots of substance use disorders for some persons can be seen in behaviors long before the onset of actual substance use itself.
 
-In addition to the substance-related disorders, this chapter also includes gambling disorder, reflecting evidence that gambling behaviors activate reward systems similar to those activated by drugs of abuse and produce some behavioral symptoms that appear comparable to those produced by the substance use disorders. Other excessive behavioral patterns, such as Internet gaming, have also been described, but the research on these and other behavioral syndromes is less clear. Thus, groups of repetitive behaviors, which some term behavioral addictions, with such subcategories as "sex addiction," "exercise addiction," or "shopping addiction," are not included because at this time there is insufficient peer-reviewed evidence to establish the diagnostic criteria and course descriptions needed to identify these behaviors as mental disorders.
+In addition to the substance-related disorders, this chapter also includes gambling disorder, reflecting evidence that gambling behaviors activate reward systems similar to those activated by drugs of abuse and produce some behavioral symptoms that appear comparable to those produced by the substance use disorders. Other excessive behavioral patterns, such as Internet gaming, have also been described, but the research on these and other behavioral syndromes is less clear. Thus, groups of repetitive behaviors, which some term behavioral addictions, with such subcategories as "sex addiction", "exercise addiction", or "shopping addiction", are not included because at this time there is insufficient peer-reviewed evidence to establish the diagnostic criteria and course descriptions needed to identify these behaviors as mental disorders.
 
 The substance-related disorders are divided into two groups: substance use disorders and substance-induced disorders. The following conditions may be classified as substance-induced: intoxication, withdrawal, and other substance/medication-induced mental disorders (psychotic disorders, bipolar and related disorders, depressive disorders, anxiety disorders, obsessive-compulsive and related disorders, sleep disorders, sexual dysfunctions, delirium, and neurocognitive disorders).
 
@@ -82,7 +82,7 @@ Symptoms of tolerance and withdrawal occurring during appropriate medical treatm
 
 ## Severity and Specifiers
 
-Substance use disorders occur in a broad range of severity, from mild to severe, with severity based on the number of symptom criteria endorsed. As a general estimate of severity, a mild substance use disorder is suggested by the presence of two to three symptoms, moderate by four to five symptoms, and severe by six or more symptoms. Changing severity across time is also reflected by reductions or increases in the frequency and/or dose of substance use, as assessed by the individual's own report, report of knowledgeable others, clinician's observations, and biological testing. The following course specifiers and descriptive features specifiers are also available for substance use disorders: "in early remission," "in sustained remission," "on maintenance therapy," and "in a controlled environment." Definitions of each are provided within respective criteria sets.
+Substance use disorders occur in a broad range of severity, from mild to severe, with severity based on the number of symptom criteria endorsed. As a general estimate of severity, a mild substance use disorder is suggested by the presence of two to three symptoms, moderate by four to five symptoms, and severe by six or more symptoms. Changing severity across time is also reflected by reductions or increases in the frequency and/or dose of substance use, as assessed by the individual's own report, report of knowledgeable others, clinician's observations, and biological testing. The following course specifiers and descriptive features specifiers are also available for substance use disorders: "in early remission", "in sustained remission", "on maintenance therapy", and "in a controlled environment." Definitions of each are provided within respective criteria sets.
 
 ## Recording Procedures for Substance Use Disorders
 
@@ -100,7 +100,7 @@ The overall category of substance-induced disorders includes intoxication, withd
 
 Criteria for substance intoxication are included within the substance-specific sections of this chapter. The essential feature is the development of a reversible substance-specific syndrome due to the recent ingestion of a substance (Criterion A). The clinically significant problematic behavioral or psychological changes associated with intoxication (e.g., belligerence, mood lability, impaired judgment) are attributable to the physiological effects of the substance on the central nervous system and develop during or shortly after use of the substance (Criterion B). The symptoms are not attributable to another medical condition and are not better explained by another mental disorder (Criterion D). Substance intoxication is common among those with a substance use disorder but also occurs frequently in individuals without a substance use disorder. This category does not apply to tobacco.
 
-The most common changes in intoxication involve disturbances of perception, wakefulness, attention, thinking, judgment, psychomotor behavior, and interpersonal behavior. Short-term, or "acute," intoxications may have different signs and symptoms thansustained, or "chronic," intoxications. For example, moderate cocaine doses may initially produce gregariousness, but social withdrawal may develop if such doses are frequently repeated over days or weeks.
+The most common changes in intoxication involve disturbances of perception, wakefulness, attention, thinking, judgment, psychomotor behavior, and interpersonal behavior. Short-term, or "acute", intoxications may have different signs and symptoms thansustained, or "chronic", intoxications. For example, moderate cocaine doses may initially produce gregariousness, but social withdrawal may develop if such doses are frequently repeated over days or weeks.
 
 When used in the physiological sense, the term intoxication is broader than substance intoxication as defined here. Many substances may produce physiological or psychological changes that are not necessarily problematic. For example, an individual with tachycardia from substance use has a physiological effect, but if this is the only symptom in the absence of problematic behavior, the diagnosis of intoxication would not apply. Intoxication may sometimes persist beyond the time when the substance is detectable in the body.
 
@@ -142,7 +142,7 @@ As noted above, the substance-related codes in ICD-IO-CM combine the substance u
 
 ## Substance/Medication-Induced Mental Disorders
 
-The substance/medication-induced mental disorders are potentially severe, usually temporary, but sometimes persisting central nervous system (CNS) syndromes that develop in the context of the effects of substances of abuse, medications, or several toxins. They are distinguished from the substance use disorders, in which a cluster of cognitive, behavioral, and physiological symptoms contribute to the continued use of a substance despite significant substance-related problems. The substance/medication-induced mental disorders may be induced by the 10 classes of substances that produce substance use disorders, or by a great variety of other medications used in medical treatment. Each substance- induced mental disorder is described in the relevant chapter (e.g., "Depressive Disorders," "Neurocognitive Disorders"), and therefore, only a brief description is offered here. All substance/medication-induced disorders share common characteristics. It is important to recognize these common features to aid in the detection of these disorders. These features are described as follows:
+The substance/medication-induced mental disorders are potentially severe, usually temporary, but sometimes persisting central nervous system (CNS) syndromes that develop in the context of the effects of substances of abuse, medications, or several toxins. They are distinguished from the substance use disorders, in which a cluster of cognitive, behavioral, and physiological symptoms contribute to the continued use of a substance despite significant substance-related problems. The substance/medication-induced mental disorders may be induced by the 10 classes of substances that produce substance use disorders, or by a great variety of other medications used in medical treatment. Each substance- induced mental disorder is described in the relevant chapter (e.g., "Depressive Disorders", "Neurocognitive Disorders"), and therefore, only a brief description is offered here. All substance/medication-induced disorders share common characteristics. It is important to recognize these common features to aid in the detection of these disorders. These features are described as follows:
 
 A. The disorder represents a clinically significant symptomatic presentation of a relevant mental disorder.
 
@@ -186,7 +186,7 @@ The same consequences related to the relevant independent mental disorder (e.g.,
 
 ## Recording Procedures for Substance/Medication- induced Mental Disorders
 
-Coding notes and separate recording procedures for ICD-9-CM and ICD-IO-CM codes for other specific substance/medication-induced mental disorders are provided in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters: '"Schizophrenia Spectrum and Other Psychotic Disorders," "Bipolar and Related Disorders," "Depressive Disorders," "Anxiety Disorders," "Obsessive-Compulsive and Related Disorders," "Sleep- Wake Disorders," "Sexual Dysfunctions," and "Neurocognitive Disorders"). Generally, for ICD-9-CM, if a mental disorder is induced by a substance use disorder, a separate diagnostic code is given for the specific substance use disorder, in addition to the code for the substance/medication-induced mental disorder. For ICD-IO-CM, a single code combines the substance-induced mental disorder with the substance use disorder. A separate diagnosis of the comorbid substance use disorder is not given, although the name and severity of the specific substance use disorder (when present) are used when recording the substance/medication-induced mental disorder. ICD-IO-CM codes are also provided for situations in which the substance/medication-induced mental disorder is not induced by a substance use disorder (e.g., when a disorder is induced by one-time use of a substance or medication). Additional information needed to record the diagnostic name of the substance/medication-induced mental disorder is provided in the section "Recording Procedures" for each substance/medication-induced mental disorder in its respective chapter.
+Coding notes and separate recording procedures for ICD-9-CM and ICD-IO-CM codes for other specific substance/medication-induced mental disorders are provided in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters: "Schizophrenia Spectrum and Other Psychotic Disorders", "Bipolar and Related Disorders", "Depressive Disorders", "Anxiety Disorders", "Obsessive-Compulsive and Related Disorders", "Sleep- Wake Disorders", "Sexual Dysfunctions", and "Neurocognitive Disorders"). Generally, for ICD-9-CM, if a mental disorder is induced by a substance use disorder, a separate diagnostic code is given for the specific substance use disorder, in addition to the code for the substance/medication-induced mental disorder. For ICD-IO-CM, a single code combines the substance-induced mental disorder with the substance use disorder. A separate diagnosis of the comorbid substance use disorder is not given, although the name and severity of the specific substance use disorder (when present) are used when recording the substance/medication-induced mental disorder. ICD-IO-CM codes are also provided for situations in which the substance/medication-induced mental disorder is not induced by a substance use disorder (e.g., when a disorder is induced by one-time use of a substance or medication). Additional information needed to record the diagnostic name of the substance/medication-induced mental disorder is provided in the section "Recording Procedures" for each substance/medication-induced mental disorder in its respective chapter.
 
 ## Alcohol-Related Disorders
 
@@ -374,7 +374,7 @@ Alcohol intoxication is an important contributor to suicidal behavior. There app
 
 ## Prevalence
 
-The large majority of alcohol consumers are likely to have been intoxicated to some degree at some point in their lives. For example, in 2010,44% of 12th-grade students admitted to having been "drunk in the past year," with more than 70% of college students reporting the same.
+The large majority of alcohol consumers are likely to have been intoxicated to some degree at some point in their lives. For example, in 2010,44% of 12th-grade students admitted to having been "drunk in the past year", with more than 70% of college students reporting the same.
 
 ## Development and Course
 
@@ -696,15 +696,7 @@ This category applies to presentations in whicfi symptoms characteristic of a ca
 
 ## Cannabis-Related Disorders
 
-## Cannabis Use Disorder
-
-## Cannabis Intoxication
-
-## Cannabis Withdrawal
-
-## Other Cannabis-Induced Disorders
-
-## Unspecified Cannabis-Related Disorder
+Caffeine intoxication, Caffeine withdrawal, Other Caffeine-Induced Disorders and Unspecified caffeine-related disorder.
 
 ## Cannabis Use Disorder
 
@@ -762,9 +754,7 @@ Changing severity across time in an individual may also be reflected by changes 
 
 Cannabis use disorder and the other cannabis-related disorders include problems that are associated with substances derived from the cannabis plant and chemically similar synthetic compounds. Over time, this plant material has accumulated many names (e.g., weed, pot, herb, grass, reefer, mary jane, dagga, dope, bhang, skunk, boom, gangster, kif, and ganja). A concentrated extraction of the cannabis plant that is also commonly used is hashish. Cannabis is the generic and perhaps the most appropriate scientific term for the psychoactive substance(s) derived from the plant, and as such it is used in this manual to refer to all forms of cannabis-like substances, including synthetic cannabinoid compounds.
 
-## Synthetic oral formulations (pill/capsules) of delta-9-tetrahydrocannabinol (delta-9-
-
-THC) are availal l̂e by prescription for a number of approved medical indications (e.g., for nausea and vomiting caused by chemotherapy; for anorexia and weight loss in individuals with AIDS). Other synthetic cannabinoid compounds have been manufactured and distributed for nonmedical use in the form of plant material that has been sprayed with a cannabinoid formulation (e.g., K2, Spice, JWH-018, JWH-073).
+Synthetic oral formulations (pill/capsules) of delta-9-tetrahydrocannabinol (delta-9-THC) are availal l̂e by prescription for a number of approved medical indications (e.g., for nausea and vomiting caused by chemotherapy; for anorexia and weight loss in individuals with AIDS). Other synthetic cannabinoid compounds have been manufactured and distributed for nonmedical use in the form of plant material that has been sprayed with a cannabinoid formulation (e.g., K2, Spice, JWH-018, JWH-073).
 
 The cannabinoids have diverse effects in the brain, prominent among which are actions on CBl and CB2 cannabinoid receptors that are found throughout the central nervous system. Endogenous ligands for these receptors behave essentially like neurotransmitters.
 
@@ -968,11 +958,7 @@ Because many of the symptoms of cannabis withdrawal are also symptoms of other s
 
 ## Other Cannabis-Induced Disorders
 
-The following cannabis-induced disorders are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters): cannabis-induced psychotic disorder ("Schizophrenia 
-
-## Spectrum and Other Psychotic Disorders"); cannabis-induced anxiety disorder (''Anxiety
-
-Disorders"); and cannabis-induced sleep disorder ("Sleep-Wake Disorders"). For cannabis intoxication delirium, see the criteria and discussion of delirium in the chapter "Neurocog- nitive Disorders." These cannabis-induced disorders are diagnosed instead of cannabis intoxication or cannabis withdrawal when the symptoms are sufficiently severe to warrant independent clinical attention.
+The following cannabis-induced disorders are described in other chapters of the manual with disorders with which they share phenomenology (see the substance/medication-induced mental disorders in these chapters): cannabis-induced psychotic disorder ("Schizophrenia Spectrum and Other Psychotic Disorders"); cannabis-induced anxiety disorder (''Anxiety Disorders"); and cannabis-induced sleep disorder ("Sleep-Wake Disorders"). For cannabis intoxication delirium, see the criteria and discussion of delirium in the chapter "Neurocog- nitive Disorders." These cannabis-induced disorders are diagnosed instead of cannabis intoxication or cannabis withdrawal when the symptoms are sufficiently severe to warrant independent clinical attention.
 
 ## Unspecified Cannabis-Related Disorder
 
@@ -982,23 +968,7 @@ This category applies to presentations in whicii symptoms characteristic of a ca
 
 ## Hallucinogen-Related Disorders
 
-## Phencyclidine Use Disorder
-
-## Other Hallucinogen Use Disorder
-
-## Phencyclidine Intoxication
-
-## Other Hallucinogen Intoxication
-
-## Hallucinogen Persisting Perception Disorder
-
-## Other Phencyclidine-induced Disorders
-
-## Other Hallucinogen-induced Disorders
-
-## Unspecified Phencyclidine-Related Disorder
-
-## Unspecified Hallucinogen-Related Disorder
+Phencyclidine Use Disorder, Other Hallucinogen Use Disorder, Phencyclidine Intoxication, Other Hallucinogen Intoxication, Hallucinogen Persisting Perception Disorder, Other Phencyclidine-induced Disorders, Other Hallucinogen-induced Disorders and Unspecified Phencyclidine-Related Disorder.
 
 ## Phencyclidine Use Disorder
 
@@ -1140,7 +1110,7 @@ Specifiers"In a controlled environment" applies as a further specifier of remiss
 
 ## Diagnostic Features
 
-Hallucinogens comprise a diverse group of substances that, despite having different chemical structures and possibly involving different molecular mechanisms, produce similar alterations of perception, mood, and cognition in users. Hallucinogens included are phenylalkylamines (e.g., mescaline, DOM [2,5-dimethoxy-4-methylamphetamine], and MDMA [3,4-methylenedioxymethamphetamine; also called "ecstasy"]); the indoleamines, including psilocybin (i.e., psilocin) and dimethyltryptamine (DMT); and the ergolines, such as LSD (lysergic acid diethylamide) and morning glory seeds. In addition, miscellaneous other ethnobotanical compounds are classified as "hallucinogens," of which Salvia divinorum and jimsonweed are two examples. Excluded from the hallucinogen group are cannabis and its active compound, delta-9-tetrahydrocannabinol (THC) (see the section "Cannabis-Related Disorders"). These substances can have hallucinogenic effects but are diagnosed separately because of significant differences in their psychological and behavioral effects.
+Hallucinogens comprise a diverse group of substances that, despite having different chemical structures and possibly involving different molecular mechanisms, produce similar alterations of perception, mood, and cognition in users. Hallucinogens included are phenylalkylamines (e.g., mescaline, DOM [2,5-dimethoxy-4-methylamphetamine], and MDMA [3,4-methylenedioxymethamphetamine; also called "ecstasy"]); the indoleamines, including psilocybin (i.e., psilocin) and dimethyltryptamine (DMT); and the ergolines, such as LSD (lysergic acid diethylamide) and morning glory seeds. In addition, miscellaneous other ethnobotanical compounds are classified as "hallucinogens", of which Salvia divinorum and jimsonweed are two examples. Excluded from the hallucinogen group are cannabis and its active compound, delta-9-tetrahydrocannabinol (THC) (see the section "Cannabis-Related Disorders"). These substances can have hallucinogenic effects but are diagnosed separately because of significant differences in their psychological and behavioral effects.
 
 Hallucinogens are usually taken orally, although some forms are smoked (e.g., DMT, salvia) or (rarely) taken intranasally or by injection (e.g., ecstasy). Duration of effects variesacross types of hallucinogens. Some of these substances (i.e., LSD, MDMA) have a long half-life and extended duration such that users may spend hours to days using and/or recovering from the effects of these drugs. However, other hallucinogenic drugs (e.g., DMT, salvia) are short acting. Tolerance to hallucinogens develops with repeated use and has been reported to have both autonomic and psychological effects. Cross-tolerance exists between LSD and other hallucinogens (e.g., psilocybin, mescaline) but does not extend to other drug categories such as amphetamines and cannabis.
 
@@ -1180,7 +1150,7 @@ Historically, hallucinogens have been used as part of established religious prac
 
 ## Gender-Related Diagnostic Issues
 
-In adolescents, females may be less likely than males to endorse ''hazardous use," and female gender may be associated with increased odds of other hallucinogen use disorder.
+In adolescents, females may be less likely than males to endorse ''hazardous use", and female gender may be associated with increased odds of other hallucinogen use disorder.
 
 ## Diagnostic Markers
 
@@ -1236,7 +1206,7 @@ D. The signs or symptoms are not attributable to another medical condition and a
 
 Coding note: The ICD-9-CM code is 292.89. The ICD-10-CM code depends on whether there is a comorbid phencyclidine use disorder. If a mild phencyclidine use disorder is co- morbid, the ICD-10-CM code is F16.129, and if a moderate or severe phencyclidine use disorder is comorbid, the ICD-10-CM code is F16.229. If there is no comorbid phencyclidine use disorder, then the ICD-10-CM code is F16.929.
 
-Note: In addition to the section "Functional Consequences of Phencyclidine Intoxication," see the corresponding section in phencyclidine use disorder.
+Note: In addition to the section "Functional Consequences of Phencyclidine Intoxication", see the corresponding section in phencyclidine use disorder.
 
 ## Diagnostic Features
 
@@ -1310,7 +1280,7 @@ The prevalence of other hallucinogen intoxication may be estimated by use of tho
 
 Other hallucinogen intoxication may lead to increased suicidality, although suicide is rare among users of hallucinogens.
 
-## Functional Consequences of Otiier Hallucinogen Intoxication
+## Functional Consequences of Other Hallucinogen Intoxication
 
 Other hallucinogen intoxication can have serious consequences. The perceptual disturbances and impaired judgment associated with other hallucinogen intoxication can result in injuries or fatalities from automobile crashes, physical fights, or unintentional selfinjury (e.g., attempts to "fly" from high places). Environmental factors and the personality and expectations of the individual using the hallucinogen may contribute to the nature of and severity of hallucinogen intoxication. Continued use of hallucinogens, particularly MDMA, has also been linked with neurotoxic effects.
 
@@ -1396,13 +1366,7 @@ This category applies to presentations in which symptoms characteristic of a hal
 
 ## Inhalant-Related Disorders
 
-## Inhalant Use Disorder
-
-## Inhalant Intoxication
-
-## Other Inhalant-Induced Disorders
-
-## Unspecified Inhalant-Related Disorder
+ Inhalant Use Disorder, Inhalant Intoxication, Other Inhalant-Induced Disorders, Unspecified Inhalant-Related Disorder.
 
 ## Inhalant Use Disorder
 
@@ -1585,7 +1549,7 @@ Gender differences in the prevalence of inhalant intoxication in the general pop
 
 ## Functional Consequences of inhalant intoxication
 
-Use of inhaled substances in a closed container, such as a plastic bag over the head, may lead to unconsciousness, anoxia, and death. Separately, "sudden sniffing death," likely from cardiac arrhythmia or arrest, may occur with various volatile inhalants. The enhanced toxicity of certain volatile inhalants, such as butane or propane, also causes fatalities. Although inhalant intoxication itself is of short duration, it may produce persisting medical and neurological problems, especially if the intoxications are frequent.
+Use of inhaled substances in a closed container, such as a plastic bag over the head, may lead to unconsciousness, anoxia, and death. Separately, "sudden sniffing death", likely from cardiac arrhythmia or arrest, may occur with various volatile inhalants. The enhanced toxicity of certain volatile inhalants, such as butane or propane, also causes fatalities. Although inhalant intoxication itself is of short duration, it may produce persisting medical and neurological problems, especially if the intoxications are frequent.
 
 ## Differential Diagnosis
 
@@ -2033,7 +1997,7 @@ Note: For information on Development and Course; Risk and Prognostic Factors; Cu
 
 ## Diagnostic Features
 
-The essential feature of sedative, hypnotic, or anxiolytic intoxication is the presence of clinically significant maladaptive behavioral or psychological changes (e.g., inappropriate sexual or aggressive behavior, mood lability, impaired judgment, impaired social or occupational functioning) that develop during, or shortly after, use of a sedative, hypnotic, or anxiolytic (Criteria A and B). As with other brain depressants, such as alcohol, these behaviors may be accompanied by slurred speech, incoordination (at levels that can interfere with driving abilities and with performing usual activities to the point of causing falls or automobile accidents), an unsteady gait, nystagmus, impairment in cognition (e.g., attentional or memory problems), and stupor or coma (Criterion C). Memory impairment is a prominent feature of sedative, hypnotic, or anxiolytic intoxication and is most often characterized by an anterograde amnesia tiiat resembles "alcoholic blackouts," which can be disturbing to the individual. The symptoms must not be attributable to another medical condition and are not better explained by anothermental disorder (Criterion D). Intoxication may occur in individuals who are receiving these substances by prescription, are borrov îng the medication from friends or relatives, or are deliberately taking the substance to achieve intoxication.
+The essential feature of sedative, hypnotic, or anxiolytic intoxication is the presence of clinically significant maladaptive behavioral or psychological changes (e.g., inappropriate sexual or aggressive behavior, mood lability, impaired judgment, impaired social or occupational functioning) that develop during, or shortly after, use of a sedative, hypnotic, or anxiolytic (Criteria A and B). As with other brain depressants, such as alcohol, these behaviors may be accompanied by slurred speech, incoordination (at levels that can interfere with driving abilities and with performing usual activities to the point of causing falls or automobile accidents), an unsteady gait, nystagmus, impairment in cognition (e.g., attentional or memory problems), and stupor or coma (Criterion C). Memory impairment is a prominent feature of sedative, hypnotic, or anxiolytic intoxication and is most often characterized by an anterograde amnesia tiiat resembles "alcoholic blackouts", which can be disturbing to the individual. The symptoms must not be attributable to another medical condition and are not better explained by anothermental disorder (Criterion D). Intoxication may occur in individuals who are receiving these substances by prescription, are borrov îng the medication from friends or relatives, or are deliberately taking the substance to achieve intoxication.
 
 ## Associated Features Supporting Diagnosis
 
@@ -2259,7 +2223,7 @@ Short-half-life amphetamine-type stimulants (MDMA [3,4-methylenedioxy-JV-methyl-
 
 ## Functional Consequences of Stimulant Use Disorder
 
-Various medical conditions may occur depending on the route of administration. Intranasal users often develop sinusitis, irritation, bleeding of the nasal mucosa, and a perforated nasal septum. Individuals who smoke the drugs are at increased risk for respiratory problems (e.g., coughing, bronchitis, and pneumonitis). Injectors have puncture marks and "tracks," most commonly on their forearms. Risk of HIV infection increases with frequent intravenous injections and unsafe sexual activity. Other sexually transmitted diseases, hepatitis, and tuberculosis and other lung infections are also seen. Weight loss and malnutrition are common.
+Various medical conditions may occur depending on the route of administration. Intranasal users often develop sinusitis, irritation, bleeding of the nasal mucosa, and a perforated nasal septum. Individuals who smoke the drugs are at increased risk for respiratory problems (e.g., coughing, bronchitis, and pneumonitis). Injectors have puncture marks and "tracks", most commonly on their forearms. Risk of HIV infection increases with frequent intravenous injections and unsafe sexual activity. Other sexually transmitted diseases, hepatitis, and tuberculosis and other lung infections are also seen. Weight loss and malnutrition are common.
 
 Chest pain may be a common symptom during stimulant intoxication. Myocardial infarction, palpitations and arrhythmias, sudden death from respiratory or cardiac arrest, and stroke have been associated with stimulant use among young and otherwise healthy individuals. Seizures can occur with stimulant use. Pneumothorax can result from performing Valsalva-like maneuvers done to better absorb inhaled smoke. Traumatic injuries due to violent behavior are common among individuals trafficking drugs. Cocaine use is associated with irregularities in placental blood flow, abruptio placentae, premahire labor and delivery, and an increased prevalence of infants with very low birth weights.
 
@@ -2427,7 +2391,7 @@ Specify if:
 
 In early remission: After full criteria for tobacco use disorder were previously met, none of the criteria for tobacco use disorder have been met for at least 3 months but for less than 12 months (with the exception that Criterion A4, “Craving, or a strong desire or urge to use tobacco,” may be met).
 
-In sustained remission: After full criteria for tobacco use disorder were previously met, none of the criteria for tobacco use disorder have been met at any time during a period of 12 months or longer (with the exception that Criterion A4, “Craving, or a strong desire or urge to use tobacco," may be met).
+In sustained remission: After full criteria for tobacco use disorder were previously met, none of the criteria for tobacco use disorder have been met at any time during a period of 12 months or longer (with the exception that Criterion A4, “Craving, or a strong desire or urge to use tobacco", may be met).
 
 Specify if:
 
@@ -2701,7 +2665,7 @@ Note: For information on Risk and Prognostic Factors, Culture-Related Diagnostic
 
 Other (or unknown) substance intoxication is a clinically significant mental disorder that develops during, or immediately after, use of either a) a substance not elsewhere addressed in this chapter (i.e., alcohol; caffeine; cannabis; phencyclidine and other hallucinogens; inhalants; opioids; sedatives, hypnotics, or anxiolytics; stimulants; or tobacco) or b) an unknown substance. If the substance is known, it should be reflected in the name of the disorder upon coding.
 
-Application of the diagnostic criteria for other (or unknown) substance intoxication is very challenging. Criterion A requires development of a reversible "substance-specific syndrome," but if the substance is unknown, that syndrome usually will be unknown. To resolve this conflict, clinicians may ask the individual or obtain collateral history as to whether the individual has experienced a similar episode after using substances with the same "street" name or from the same source. Similarly, hospital emergency departments sometimes recognize over a few days numerous presentations of a severe, unfamiliar intoxication syndrome from a newly available, previously unknown substance. Because of the great variety of intoxicating substances. Criterion B can provide only broad examples of signs and symptoms from some intoxications, with no threshold for the number of symptoms required for a diagnosis; clinical judgment guides those decisions. Criterion C requires ruling out other medical conditions, mental disorders, or intoxications.
+Application of the diagnostic criteria for other (or unknown) substance intoxication is very challenging. Criterion A requires development of a reversible "substance-specific syndrome", but if the substance is unknown, that syndrome usually will be unknown. To resolve this conflict, clinicians may ask the individual or obtain collateral history as to whether the individual has experienced a similar episode after using substances with the same "street" name or from the same source. Similarly, hospital emergency departments sometimes recognize over a few days numerous presentations of a severe, unfamiliar intoxication syndrome from a newly available, previously unknown substance. Because of the great variety of intoxicating substances. Criterion B can provide only broad examples of signs and symptoms from some intoxications, with no threshold for the number of symptoms required for a diagnosis; clinical judgment guides those decisions. Criterion C requires ruling out other medical conditions, mental disorders, or intoxications.
 
 ## Prevalence
 

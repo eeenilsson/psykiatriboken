@@ -16,6 +16,7 @@ impulseMain <- gsub("^.*SomStiC", "Impulse", impulseMain) ## remove title and fi
 impulseMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), impulseMain) ## Add header to intro
 impulseMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), impulseMain) ## Add chapter
 impulseMain <- gsub("(?<=[^\n])##", "\n\n##", impulseMain, perl=T) ## ## should be preceded by newline
+impulseMain <- gsub("\\,\"", "\"\\,", impulseMain) ## comma before qoutes corrected
 
 writeLines(impulseMain, "impulseMain.txt")
 

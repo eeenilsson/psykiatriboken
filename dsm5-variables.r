@@ -82,5 +82,8 @@ groupList <- c(
     "Alcohol-Related Disorders",
     "Other Alcohol-Induced Disorders",
     "Caffeine-Related Disorders",
-    "Other Caffeine-Induced Disorders"
+    "Other Caffeine-Induced Disorders",
+    "Cannabis-Related Disorders",
+    "Other Cannabis-Induced Disorders",
+    "Hallucinogen-Related Disorders"
 )

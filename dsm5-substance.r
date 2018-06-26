@@ -17,23 +17,39 @@ substanceMain <- gsub("^.*G C l", "The substance-related", substanceMain) ## rem
 substanceMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), substanceMain) ## Add header to intro
 substanceMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), substanceMain) ## Add chapter
 substanceMain <- gsub("(?<=[^\n])##", "\n\n##", substanceMain, perl=T) ## ## should be preceded by newline
+substanceMain <- gsub("\\,\"", "\"\\,", substanceMain) ## comma before qoutes corrected
+
                       
 writeLines(substanceMain, "substanceMain.txt")
 
 #### chunk specific replacements
 substanceMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", substanceMain)
 substanceMain <- gsub("Medication.\n\n## Induced", "Medication-Induced", substanceMain)
+substanceMain <- gsub("## Synthetic oral", "Synthetic oral", substanceMain)
+substanceMain <- gsub("9.\n\nTHC", "9-THC", substanceMain)
+substanceMain <- gsub("## Spectrum and Other", "Spectrum and Other", substanceMain)
+substanceMain <- gsub("Schizophrenia \n\n", "Schizophrenia ", substanceMain)
+substanceMain <- gsub("Anxiety\n\n", "Anxiety ", substanceMain)
+substanceMain <- gsub("'\"", "\"", substanceMain)
+
+writeLines(substanceMain, "substanceMain.txt")
 
 ## ## clean - replace list
 substanceMain <- gsub("(?s)(## Alcohol use disorder\n\n##)(.*)?(Disorders\n\n## Unspecified alcohol.related disorder)", "Alcohol use disorder, Alcohol intoxication, Alcohol withdrawal, Other Alcohol-induced Disorders and Unspecified alcohol-related disorder.", substanceMain, perl=T, ignore.case=T)
 
-grep("(?s)(## Alcohol use disorder)(.*)?(Unspecified alcohol.related disorder)", substanceMain, perl=T, ignore.case=T)
+substanceMain <- gsub("(?s)(## Cannabis use disorder\n\n##)(.*)?(Disorders\n\n## Unspecified cannabis.related disorder)", "Caffeine intoxication, Caffeine withdrawal, Other Caffeine-Induced Disorders and Unspecified caffeine-related disorder.", substanceMain, perl=T, ignore.case=T)
 
 substanceMain <- gsub("(?s)(## Caffeine intoxication\n\n##)(.*)?(Disorders\n\n## Unspecified caffeine.related disorder)", "Caffeine intoxication, Caffeine withdrawal, Other Caffeine-Induced Disorders and Unspecified caffeine-related disorder.", substanceMain, perl=T, ignore.case=T)
 
-grep("(?s)(## Caffeine Intoxication)(.*)?(## Unspecified Caffeine.Related Disorder)", substanceMain, perl=T, ignore.case=T)
+substanceMain <- gsub("(?s)(## Phencyclidine Use Disorder\n\n##)(.*)?(Disorder\n\n## Unspecified Hallucinogen.Related Disorder)", "Phencyclidine Use Disorder, Other Hallucinogen Use Disorder, Phencyclidine Intoxication, Other Hallucinogen Intoxication, Hallucinogen Persisting Perception Disorder, Other Phencyclidine-induced Disorders, Other Hallucinogen-induced Disorders and Unspecified Phencyclidine-Related Disorder.", substanceMain, perl=T, ignore.case=T)
 
+startTag <- "## Inhalant Use Disorder\n\n## Inhalant"
+stopTag <- "Disorders\n\n## Unspecified Inhalant.Related Disorder"
+grep(startTag, substanceMain, perl=T, ignore.case=T)
+grep(stopTag, substanceMain, perl=T, ignore.case=T)
+substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE) ## cut section and insert list
 
+writeLines(substanceMain, "substanceMain.txt")
 ## substanceMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", substanceMain)
 
 writeLines(substanceMain, "substanceMain.txt")
