@@ -57,7 +57,8 @@ listHeaders <- c(
 "Advanced Sleep Phase Type",
 "Irregular Sleep-Wake Type",
 "Non-24-Hour Sleep-Wake Type",
-"Shift Work Type"
+"Shift Work Type",
+"Neurocognitive Domains"
 )
 
 #### List groups
