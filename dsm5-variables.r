@@ -66,5 +66,6 @@ groupList <- c(
     ## Depressive: None
     ## Other
     "Breathing-Related Sleep Disorders",
-    "Parasomnias"
+    "Parasomnias",
+    "Gender Dysphoria"
 )

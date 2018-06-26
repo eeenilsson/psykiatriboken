@@ -55,7 +55,7 @@ source('dsm5-variables.r')
 ## Sleep-Wake Disorders	361
 ## Sexual Dysfunctions	423
 
-## Gender Dysphoria	451
+
 ## Disruptive, Impulse-Control, and Conduct Disorders	461
 ## Substance-Related and Addictive Disorders	 481
 ## Neurocognitive Disorders	 591
