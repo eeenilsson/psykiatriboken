@@ -2,12 +2,13 @@ chapterTitle <- "Substance-Related and Addictive Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
 ## Substance-Related and Addictive Disorders	 481
 
-## Impulse intro and main body
+## Intro and main body
 substanceMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 515:623)
 ## substanceMain[1] <-
 ##     gsub("(?s).*(?=\nSeparation Substance Disorder)", "", substanceMain[1], perl=T) ## remove redundant text before section starts and 
 substanceMain <- paste(substanceMain, collapse = "") ## collapse to one
 substanceMain <- cleanText(substanceMain)
+substanceMain <- gsub("Disorder...292.9", "Disorder\n\n292.9", substanceMain) ## otherwise no header
 substanceMain <- makeHeaders(substanceMain)
 substanceMain <- cleanMore(substanceMain)
 substanceMain <- gsub(" \n\n", "\n\n", substanceMain, perl=T) ## Remove blanks preceding newline
@@ -16,12 +17,22 @@ substanceMain <- gsub("^.*G C l", "The substance-related", substanceMain) ## rem
 substanceMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), substanceMain) ## Add header to intro
 substanceMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), substanceMain) ## Add chapter
 substanceMain <- gsub("(?<=[^\n])##", "\n\n##", substanceMain, perl=T) ## ## should be preceded by newline
-
+                      
 writeLines(substanceMain, "substanceMain.txt")
 
 #### chunk specific replacements
 substanceMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", substanceMain)
 substanceMain <- gsub("Medication.\n\n## Induced", "Medication-Induced", substanceMain)
+
+## ## clean - replace list
+substanceMain <- gsub("(?s)(## Alcohol use disorder\n\n##)(.*)?(Disorders\n\n## Unspecified alcohol.related disorder)", "Alcohol use disorder, Alcohol intoxication, Alcohol withdrawal, Other Alcohol-induced Disorders and Unspecified alcohol-related disorder.", substanceMain, perl=T, ignore.case=T)
+
+grep("(?s)(## Alcohol use disorder)(.*)?(Unspecified alcohol.related disorder)", substanceMain, perl=T, ignore.case=T)
+
+substanceMain <- gsub("(?s)(## Caffeine intoxication\n\n##)(.*)?(Disorders\n\n## Unspecified caffeine.related disorder)", "Caffeine intoxication, Caffeine withdrawal, Other Caffeine-Induced Disorders and Unspecified caffeine-related disorder.", substanceMain, perl=T, ignore.case=T)
+
+grep("(?s)(## Caffeine Intoxication)(.*)?(## Unspecified Caffeine.Related Disorder)", substanceMain, perl=T, ignore.case=T)
+
 
 ## substanceMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", substanceMain)
 

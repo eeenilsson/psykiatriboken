@@ -63,6 +63,7 @@ cleanMore <- function(CHUNK){
     TEMP <- gsub("Induced \n\n##", "Induced", TEMP) ## with blank
     TEMP <- gsub("## Examples", "Examples", TEMP)
     TEMP <- gsub("and \n\n## Related", "and Related", TEMP)
+    TEMP <- gsub("\\\\", "", TEMP) ## remove all backslashes
 return(TEMP)
 }
 

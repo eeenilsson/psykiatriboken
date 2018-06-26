@@ -40,6 +40,7 @@ source('dsm5-variables.r')
 ## source('dsm5-sexual.r')
 ## source('dsm5-gender.r')
 ## source('dsm5-impulse.r')
+## source('dsm5-substance.r') ## split by groups and diagnosis
 
 ## ======================================================
 

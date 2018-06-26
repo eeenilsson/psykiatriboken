@@ -12,7 +12,6 @@ listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmCle
 listDiagnoses <- lapply(listDiagnoses, function(x){gsub("([^,]*)(.*)", "\\1", x)}) ## get diagnosis before comma, for matching
 listDiagnoses <- simplify2array(listDiagnoses)
 
-
 ## list of headers, to identify these
 ## Note: Ok to use jst the start of header (the end may be chapter-specific)
 listHeaders <- c(
@@ -47,7 +46,6 @@ listHeaders <- c(
 "Duration of Effects",
 "Use of Multiple Substances",
 "Associated Laboratory",
-"Substance/Medication-Induced Mental Disorders",
 ## Custom headers
 "Introduction to", ## for intro sections
 ## Sub-diagnoses that are to be kept as headers on same level as diagnosis
@@ -78,5 +76,11 @@ groupList <- c(
     "Gender Dysphoria",
     "Substance-Related Disorders",
     "Substance Use Disorders", ## Sub to Substance-Related Disorders
-    "Substance-Induced Disorders" ## Sub to Substance-Related Disorders
+    "Substance-Induced Disorders", ## Sub to Substance-Related Disorders
+    "Substance Intoxication and Withdrawal",
+    "Substance/Medication-Induced Mental Disorders",
+    "Alcohol-Related Disorders",
+    "Other Alcohol-Induced Disorders",
+    "Caffeine-Related Disorders",
+    "Other Caffeine-Induced Disorders"
 )
