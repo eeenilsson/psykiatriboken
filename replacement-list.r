@@ -109,5 +109,6 @@ spellList <- list(
     'Muitipie' = "Multiple",
     'v\\^ithdrawal' = "withdrawal",
     'availal..e' = "available",
-    'Otiier' = "Other"
+    'Otiier' = "Other",
+    't\\).ical' = "practical"
 )

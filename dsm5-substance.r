@@ -31,6 +31,13 @@ substanceMain <- gsub("## Spectrum and Other", "Spectrum and Other", substanceMa
 substanceMain <- gsub("Schizophrenia \n\n", "Schizophrenia ", substanceMain)
 substanceMain <- gsub("Anxiety\n\n", "Anxiety ", substanceMain)
 substanceMain <- gsub("'\"", "\"", substanceMain)
+substanceMain <- gsub("## Features of inhalant use disorder include", "Features of inhalant use disorder include", substanceMain)
+
+substanceMain <- removeFalseHeader("Missing work or school", substanceMain)
+
+substanceMain <- gsub("Sedative, Hypnotic, or Anxiolytic Intoxication \n\n##", "## Sedative, Hypnotic, or Anxiolytic Intoxication\n\n##", substanceMain) ## make header
+substanceMain <- gsub("Sedative. Hypnotic. or Anxiolytic Withdrawal \n\n##", "## Sedative, Hypnotic, or Anxiolytic Withdrawal\n\n##", substanceMain)
+
 
 writeLines(substanceMain, "substanceMain.txt")
 
@@ -47,7 +54,13 @@ startTag <- "## Inhalant Use Disorder\n\n## Inhalant"
 stopTag <- "Disorders\n\n## Unspecified Inhalant.Related Disorder"
 grep(startTag, substanceMain, perl=T, ignore.case=T)
 grep(stopTag, substanceMain, perl=T, ignore.case=T)
+
 substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE) ## cut section and insert list
+
+startTag <- "## Opioid Use Disorder\n\n## Opioid"
+stopTag <- "Disorders\n\n## Unspecified Opioid-Related Disorder"
+substanceMain <- cutSection(startTag, stopTag, substanceMain, insert.list=TRUE) ## cut section and insert list
+
 
 writeLines(substanceMain, "substanceMain.txt")
 ## substanceMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", substanceMain)

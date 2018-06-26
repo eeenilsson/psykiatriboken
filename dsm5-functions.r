@@ -17,6 +17,11 @@ makeHeaders <-function(x){
     gsub("((?<=\n)(?:(?![\\,\\.:]).)+(?=\n){1}?)", "## \\1", x, perl=T)
 }
 
+removeFalseHeader <- function(FHEAD, x){
+    ## specify false header without hashes
+    gsub(paste("## ", FHEAD, sep = ""), FHEAD, x)
+}
+
 cleanNewlines <- function(CHUNK){
     ## removes newlines not followed by parens, Cap, number. or multiplnumbers
     gsub("(?s)\n(?!\\(|[A-Z]|[0-9]\\.|[0-9]{3,}.*\\(F)", "", CHUNK, perl=T) 
@@ -134,7 +139,6 @@ cutSection <- function (START, STOP, x, insert.list = FALSE){
     }
     gsub(paste("(?s)(", START, ")(.*)?", "(", STOP, ")", sep = ""), TEMP, x, perl=T)
 }
-
 
 parseTableUseDisorder <- function (x){ 
     ## Read a string yanked from txt file

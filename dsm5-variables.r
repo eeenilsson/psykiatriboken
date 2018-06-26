@@ -12,6 +12,10 @@ listCodes <- gsub("([.|()\\^{}+$*?]|\\[|\\])", "\\\\\\1", icd10cmDsm5$icd10cmCle
 listDiagnoses <- lapply(listDiagnoses, function(x){gsub("([^,]*)(.*)", "\\1", x)}) ## get diagnosis before comma, for matching
 listDiagnoses <- simplify2array(listDiagnoses)
 
+## ## Add diagnoses with comma manually
+## listDiagnoses <- append(listDiagnoses, "Sedative\\, Hypnotic\\, or Anxiolytic Intoxication ")
+## Not needed
+
 ## list of headers, to identify these
 ## Note: Ok to use jst the start of header (the end may be chapter-specific)
 listHeaders <- c(
@@ -85,5 +89,9 @@ groupList <- c(
     "Other Caffeine-Induced Disorders",
     "Cannabis-Related Disorders",
     "Other Cannabis-Induced Disorders",
-    "Hallucinogen-Related Disorders"
+    "Hallucinogen-Related Disorders",
+    "Inhalant-Related Disorders",
+    "Other Inhalant-Induced Disorders",
+    "Opioid-Related Disorders",
+    "Other Opioid-Induced Disorders"
 )
