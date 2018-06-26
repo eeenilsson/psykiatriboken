@@ -14,7 +14,7 @@ spellCorrect <- function(SPELL, CHUNK){
 }
 
 makeHeaders <-function(x){
-    gsub("((?<=\n)(?:(?![\\,\\.]).)+(?=\n){1}?)", "## \\1", x, perl=T)
+    gsub("((?<=\n)(?:(?![\\,\\.:]).)+(?=\n){1}?)", "## \\1", x, perl=T)
 }
 
 cleanNewlines <- function(CHUNK){

@@ -15,16 +15,11 @@ somaticMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", somaticM
 somaticMain <- gsub("^.*SomStiC", "Somatic", somaticMain) ## remove title and first sentance (not correctly parsed from pdf)
 somaticMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), somaticMain) ## Add header to intro
 somaticMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), somaticMain) ## Add chapter
+somaticMain <- gsub("(?<=[^\n])##", "\n\n##", somaticMain, perl=T) ## ## should be preceded by newline
 
 writeLines(somaticMain, "somaticMain.txt")
 
 #### chunk specific replacements
-somaticMain <- gsub("## The principles", "The principles", somaticMain)
-somaticMain <- gsub("from\n\nDSM", "from DSM", somaticMain)
-somaticMain <- gsub("## Prevalence estimates of", "Prevalence estimates of", somaticMain)
-somaticMain <- gsub("against resistance.\n## ", "against resistance.\n", somaticMain)
-somaticMain <- gsub("Affecting\n\n## Other", "Affecting Other", somaticMain)
-somaticMain <- gsub("Factors\n\n## Affecting", "Factors Affecting", somaticMain)
 somaticMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", somaticMain)
 
 ## somaticMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", somaticMain)

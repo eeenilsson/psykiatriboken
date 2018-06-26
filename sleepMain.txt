@@ -1,6 +1,8 @@
-Sleep-W&k^
+##c Sleep-Wake Disorders
 
-ThG DSM-5 Cl3SS ifiC3tion of sleep-wake disorders is intended for use by general mental health and medical clinicians (those caring for adult, geriatric, and pediatric patients). Sleep-wake disorders encompass 10 disorders or disorder groups: insomrüa disorder, hypersomjiolence disorder, narcolepsy, breathing-related sleep disorders, circadian rhythm sleep-wake disorders, non-rapid eye movement (NREM) sleep arousal disorders, nightmare disorder, rapid eye movement (REM) sleep behavior disorder, restless legs syndrome, and substance/medication-induced sleep disorder. Individuals with these disorders typically present with sleep-wake complaints of dissatisfaction regarding the quality, timing, and amount of sleep. Resulting daytime distress and impairment are core features shared by all of these sleep-wake disorders.
+##i Introduction to Sleep-Wake Disorders
+
+The DSM-5 classification of sleep-wake disorders is intended for use by general mental health and medical clinicians (those caring for adult, geriatric, and pediatric patients). Sleep-wake disorders encompass 10 disorders or disorder groups: insomrüa disorder, hypersomjiolence disorder, narcolepsy, breathing-related sleep disorders, circadian rhythm sleep-wake disorders, non-rapid eye movement (NREM) sleep arousal disorders, nightmare disorder, rapid eye movement (REM) sleep behavior disorder, restless legs syndrome, and substance/medication-induced sleep disorder. Individuals with these disorders typically present with sleep-wake complaints of dissatisfaction regarding the quality, timing, and amount of sleep. Resulting daytime distress and impairment are core features shared by all of these sleep-wake disorders.
 
 The organization of this chapter is designed to facilitate differential diagnosis of sleep- wake complaints and to clarify when referral to a sleep specialist is appropriate for further assessment and treatment planning. The DSM-5 sleep disorders nosology uses a simple, clinically useful approach, while also reflecting scientific advances in epidemiology, genetics, pathophysiology, assessment, and interventions research since DSM-IV. In some cases (e.g., insomnia disorder), a "lumping" approach has been adopted, whereas in others (e.g., narcolepsy), a "splitting" approach has been taken, reflecting the availability of validators derived from epidemiological, neurobiological, and interventions research.
 
@@ -16,17 +18,17 @@ The approach taken to the classification of sleep-wake disorders in DSM-5 can be
 
 ICSD-2 reflected the science and opinions of the sleep specialist community and was prepared for use by specialists.
 
-## The weight of available evidence supports the superior performance characteristics (interrater reliability, as well as convergent, discriminant, and face validity) of simpler, less- differentiated approaches to diagnosis of sleep-wake disorders. The text accompanying each set of diagnostic criteria provides linkages to the corresponding disorders included in
+The weight of available evidence supports the superior performance characteristics (interrater reliability, as well as convergent, discriminant, and face validity) of simpler, less- differentiated approaches to diagnosis of sleep-wake disorders. The text accompanying each set of diagnostic criteria provides linkages to the corresponding disorders included in
 
 ICSD-2. The DSM-5 sleep-wake disorders classification also specifies corresponding nonpsychiatric listings (e.g., neurology codes) from the International Classification of Diseases (ICD).
 
 The field of sleep disorders medicine has progressed in this direction since the publication of DSM-IV. The use of biological validators is now embodied in the DSM-5 classification of sleep-wake disorders, particularly for disorders of excessive sleepiness, such as narcolepsy; for breathing-related sleep disorders, for which formal sleep studies (i.e., polysomnography) are indicated; and for restless legs syndrome, which can often coexist with periodic limb movements during sleep, detectable via polysomnography.
 
-## Insomnia Disorder
+##d Insomnia disorder <--@DIAGNOSIS-->
 
 780.52 (G47.00)
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. A predominant complaint of dissatisfaction witli sleep quantity or quality, associated with one (or more) of the following symptoms:
 
@@ -50,11 +52,11 @@ G. The insomnia is not attributable to the physiological effects of a substance 
 
 H. Coexisting mental disorders and medical conditions do not adequately explain the predominant complaint of insomnia.
 
-_Specify_ if:
+Specify if:
 
 With non-sleep disorder mental comorbidity, including substance use disorders With other medical comorbidity With other sleep disorder Coding note: The code 780.52 (G47.00) applies to all three specifiers. Code also the relevant associated mental disorder, medical condition, or other sleep disorder immediately after the code for insomnia disorder in order to indicate the association.
 
-_Specify_ if:
+Specify if:
 
 Episodic: Sy(nptoms last at least 1 month but less than 3 months.
 
@@ -66,7 +68,7 @@ Note: Acute and short-term insomnia (i.e., symptoms lasting less than 3 months b
 
 Note. The diagnosis of insomnia disorder is given whether it occurs as an independent condition or is comorbid with another mental disorder (e.g., major depressive disorder), medical condition (e.g., pain), or another sleep disorder (e.g., a breathing-related sleep disorder). For instance, insomnia may develop its own course with some anxiety and depressive features but in the absence of criteria being met for any one mental disorder. Insomnia may also manifest as a clinical feature of a more predominant mental disorder. Persistent insomnia may even be a risk factor for depression and is a common residual symptom after treatment for this condition. With comorbid insomnia and a mental disorder, treatment may also need to target both conditions. Given these different courses, it is often impossible to establish the precise nature of the relationship between these clinical entities, and this relationship may change over time. Therefore, in the presence of insomnia and a comorbid disorder, it is not necessary to make a causal attribution between the two conditions. Rather, the diagnosis of insomnia disorder is made with concurrent specification of the clinically comorbid conditions. A concurrent insomnia diagnosis should only be considered when the insomnia is sufficiently severe to warrant independent clinical attention; otherwise, no separate diagnosis is necessary.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 The essential feature of insomnia disorder is dissatisfaction with sleep quantity or quality with complaints of difficulty initiating or maintaining sleep. The sleep complaints are accompanied by clinically significant distress or impairment in social, occupational, or other important areas of functioning. The sleep disturbance may occur during the course of another mental disorder or medical condition, or it may occur independently.
 
@@ -82,7 +84,7 @@ Insomnia disorder involves daytime impairments as well as nighttime sleep diffic
 
 These include fatigue or, less commonly, daytime sleepiness; the latter is more common among older individuals and when insomnia is comorbid with another medical condition (e.g., chronic pain) or sleep disorder (e.g., sleep apnea). Impairment in cognitive performance may include difficulties with attention, concentration and memory, and even with performing simple manual skills. Associated mood disturbances are typically described as irritability or mood lability and less commonly as depressive or anxiety symptoms. Not all individuals with nighttime sleep disturbances are distressed or have functional impairment. For example, sleep continuity is often interrupted in healthy older adults who nevertheless identify themselves as good sleepers. A diagnosis of insomnia disorder should be reserved for those individuals with significant daytime distress or impairment related to their nighttime sleep difficulties.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Insomnia is often associated with physiological and cognitive arousal and conditioning factors that interfere with sleep. A preoccupation with sleep and distress due to the inability to sleep may lead to a vicious cycle: the more the individual strives to sleep, the more frustration builds and further impairs sleep. Thus, excessive attention and efforts to sleep, which override normal sleep-onset mechanisms, may contribute to the development of insomnia. Individuals with persistent insomnia may also acquire maladaptive sleep habits (e.g., spending excessive time in bed; following an erratic sleep schedule; napping) and cognitions (e.g., fear of sleeplessness; apprehensions of daytime impairments; clock monitoring) during the course of the disorder. Engaging in such activities in an environment in which the individual has frequently spent sleepless nights may further compound the conditioned arousal and perpetuate sleep difficulties. Conversely, the individual may fall asleep more easily when not trying to do so. Some individuals also report better sleep when away from their own bedrooms and their usual routines.
 
@@ -90,11 +92,11 @@ Insomnia may be accompanied by a variety of daytime complaints and symptoms, inc
 
 Individuals with insomnia may have elevated scores on self-report psychological or personality inventories with profiles indicating mild depression and anxiety, a worrisome cognitive style, an emotion-focused and internalizing style of conflict resolution, and a somatic focus. Patterns of neurocognitive impairment among individuals with insomnia disorder are inconsistent, although there may be impairments in performing tasks of higher complexity and those requiring frequent changes in performance strategy. Individuals with insomnia often require more effort to maintain cognitive performance.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Population-based estimates indicate that about one-third of adults report insomnia symptoms, 10%-15% experience associated daytime impairments, and 6% -10% have symptomsthat meet criteria for insonmia disorder. Insomnia disorder is the most prevalent of all sleep disorders. ù;i primary care settings, approximately 10%-20% of individuals complain of significant insomnia symptoms. Insomnia is a more prevalent complaint among females than among males, with a gender ratio of about 1.44:1. Although insomnia can be a symptom or an independent disorder, it is most frequently observed as a comorbid condition with another medical condition or mental disorder. For instance, 40%-50% of individuals with insomnia also present with a comorbid mental disorder.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 The onset of insomnia symptoms can occur at any time during life, but the first episode is more common in young adulthood. Less frequently, insomnia begins in childhood or adolescence. In women, new-onset insomnia may occur during menopause and persist even after other symptoms (e.g., hot flashes) have resolved. Insomnia may have a late-life onset, which is often associated with the onset of other health-related conditions.
 
@@ -108,7 +110,7 @@ Difficulties initiating and maintaining sleep can also occur in children and ado
 
 The increased prevalence of insomnia in older adults is partly explained by the higher incidence of physical health problems with aging. Changes in sleep patterns associated with the normal developmental process must be differentiated from those exceeding age-related changes. Although polysomnography is of limited value in the routine evaluation of insomnia, it may be more useful in the differential diagnosis among older adults because the etiologies of insomnia (e.g., sleep apnea) are more often identifiable in older individuals.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 While the risk and prognostic factors discussed in this section increase vuhierability to insomnia, sleep disturbances are more likely to occur when predisposed individuals are exposed to precipitating events, such as major life events (e.g., illness, separation) or less severe but more chronic daily stress. Most individuals resume normal sleep patterns after the initial triggering event has disappeared, but others—perhaps those more vulnerable to insomnia—continue experiencing persistent sleep difficulties. Perpetuating factors such as poor sleep habits, irregular sleep scheduling, and the fear of not sleeping feed into the insomnia problem and may contribute to a vicious cycle that may induce persistent insomnia.
 
@@ -120,11 +122,11 @@ Genetic and physiological. Female gender and advancing age are associated with i
 
 Course modifiers. Deleterious course modifiers include poor sleep hygiene practices (e.g., excessive caffeine use, irregular sleep schedules).
 
-## Gender-Related Diagnostic issues
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Insomnia is a more prevalent complaint among females than among males, with first onset often associated with the birth of a new child or with menopause. Despite higher prevalence among older females, polysomnographic studies suggest better preservation of sleep continuity and slow-wave sleep in older females than in older males.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Polysomnography usually shows impairments of sleep continuity (e.g., increased sleep latency and time awake after sleep onset and decreased sleep efficiency [percentage of time in bed asleep] and may show increased stage 1 sleep and decreased stages 3 and 4 sleep.
 
@@ -136,11 +138,11 @@ Other laboratory measures show evidence, although not consistently, of increased
 
 Individuals with insomnia disorder may appear either fatigued or haggard or, conversely, overaroused and "wired." However, there are no consistent or characteristic abnormalities on physical examination. There may be an increased incidence of stress-related psychophysiological symptoms (e.g., tension headache, muscle tension or pain, gastrointestinal symptoms).
 
-## Functional Consequences of Insomnia Disorder
+##h Functional Consequences of Insomnia Disorder <--@HEADER-->
 
 Interpersonal, social, and occupational problems may develop as a result of insomnia or excessive concern with sleep, increased daytime irritability, and poor concentration. Decreased attention and concentration are common and may be related to higher rates of accidents observed in insomnia. Persistent insomnia is also associated with long-term consequences, including increased risks of major depressive disorder, hypertension, and myocardial infarction; increased absenteeism and reduced productivity at work; reduced quality of life; and increased economic burden.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Normal sleep variations. Normal sleep duration varies considerably across individuals.
 
@@ -164,23 +166,21 @@ However, it is these behavioral events, rather than the insomnia per se, that do
 
 Substance/medication-induced sleep disorder, insomnia type. Substance/medication- induced sleep disorder, insomnia type, is distinguished from insomnia disorder by the fact that a substance (i.e., a drug of abuse, a medication, or exposure to a toxin) is judged to be etiologically related to the insomnia (see "Substance/Medication-Induced Sleep Disorder" later in this chapter). For example, insomnia occurring only in the context of heavy coffee consumption would be diagnosed as caffeine-induced sleep disorder, insomnia type, with onset during intoxication.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Insomnia is a common comorbidity of many medical conditions, including diabetes, coronary heart disease, chronic obstructive pulmonary disease, arthritis, fibromyalgia, and other chronic pain conditions. The risk relationship appears to be bidirectional: insomnia increases the risk of medical conditions, and medical problems increase the risk of insomnia. The direction of the relationship is not always clear and may change over time; for this reason, comorbid insomnia is the preferred terminology in the presence of coexisting insomnia with another medical condition (or mental disorder).
 
 Individuals with insomnia disorder frequently have a comorbid mental disorder, particularly bipolar, depressive, and anxiety disorders. Persistent insomnia represents a risk factor or an early symptom of subsequent bipolar, depressive, anxiety, and substance use disorders. Individuals with insomnia may misuse medications or alcohol to help with nighttime sleep, anxiolytics to combat tension or anxiety, and caffeine or other stimulants to combat excessive fatigue. In addition to worsening the insomnia, this type of substance use may in some cases progress to a substance use disorder.
 
-## Relationship to international Classification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 There are several distinct insomnia phenotypes relating to the perceived source of the insomnia that are recognized by the International Classification of Sleep Disorders, 2nd Edition (ICSD-2). These include psychophysiological insomnia, idiopathic insomnia, sleep-state misperception, and inadequate sleep hygiene. Despite their clinical appeal and heuristic value, there is limited evidence to support these distinct phenotypes.
 
-## Hypersomnolence Disorder
+##d Hypersomnolence disorder <--@DIAGNOSIS-->
 
 780.54 (G47.10)
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Self-reported excessive sleepiness (hypersomnolence) despite a main sleep period lasting at least 7 hours, with at least one of the following symptoms:
 
@@ -200,11 +200,11 @@ E. The hypersomnolence is not attributable to the physiological effects of a sub
 
 F. Coexisting mental and medical disorders do not adequately explain the predominant complaint of t^ypersomnolence.
 
-_Specify_ if:
+Specify if:
 
 With mental disorder, including substance use disorders With medical condition With another sleep disorder Coding note: The code 780.54 (G47.10) applies to all three specifiers. Code also the relevant associated mental disorder, medical condition, or other sleep disorder immediately after the code for hypersomnolence disorder in order to indicate the association.
 
-_Specify_ if:
+Specify if:
 
 Acute: Duration of less than 1 month.
 
@@ -212,7 +212,7 @@ Subacute: Duration of 1-3 months.
 
 Persistent: Duration of more than 3 months.
 
-_Specify_ current severity:
+Specify current severity:
 
 Specify severity based on degree of difficulty maintaining daytime alertness as manifested by the occurrence of multiple attacks of irresistible sleepiness within any given day occurring, for example, while sedentary, driving, visiting with friends, or working.
 
@@ -222,7 +222,7 @@ Moderate: Difficulty maintaining daytime alertness 3-^ days/week.
 
 Severe: Difficulty maintaining daytime alertness 5-7 days/week.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Hypersomnolence is a broad diagnostic term and includes symptoms of excessive quantity of sleep (e.g., extended nocturnal sleep or involuntary daytime sleep), deteriorated quality of wakefulness (i.e., sleep propensity during wakefulness as shown by difficulty awakening or inability to remain awake when required), and sleep inertia (i.e., a period of impaired performance and reduced vigilance following awakening from the regular sleep episode or from a nap) (Criterion A). Individuals with this disorder fall asleep quickly and have a good sleep efficiency (>90%). They may have difficulty waking up in the morning, sometimes appearing confused, combative, or ataxic. This prolonged impairment of alertness at the sleep-wake transition is often referred to as sleep inertia (i.e., sleep drunkenness).
 
@@ -232,37 +232,37 @@ The persistent need for sleep can lead to automatic behavior (usually of a very 
 
 For some individuals with hypersomnolence disorder, the major sleep episode (for most individuals, nocturnal sleep) has a duration of 9 hours or more. However, the sleep is often nonrestorative and is followed by difficulty awakening in the morning. For other individuals with hypersomnolence disorder, the major sleep episode is of normal nocturnal sleep duration (6-9 hours). In these cases, the excessive sleepiness is characterized by several unintentional daytime naps. These daytime naps tend to be relatively long (often lasting 1 hour or more), are experienced as nonrestorative (i.e., unrefreshing), and do not lead to improved alertness. Individuals with hypersomnolence have daytime naps nearly everyday regardless of the nocturnal sleep duration. Subjective sleep quality may or may not be reported as good. Individuals typically feel sleepiness developing over a period of time, rather thanexperiencing a sudden sleep "attack." Unintentional sleep episodes typically occur in low- stimulation and low-activity situations (e.g., while attending lectures, reading, watching television, or driving long distances), but in more severe cases they can manifest in high- attention situations such as at work, in meetings, or at social gatherings.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Nonrestorative sleep, automatic behavior, difficulties awakening in the morning, and sleep inertia, although common in hypersomnolence disorder, may also be seen in a variety of conditions, including narcolepsy. Approximately 80% of individuals with hypersomnolence report that their sleep is nonrestorative, and as many have difficulties awakening in the morning. Sleep inertia, though less common (i.e., observed in 36%-50% of individuals with hypersomnolence disorder), is highly specific to h)φersomnolence. Short naps (i.e., duration of less than 30 minutes) are often unrefreshing. Individuals with hypersomnolence often appear sleepy and may even fall asleep in the clinician's waiting area.
 
 A subset of individuals with hypersomnolence disorder have a family history of hypersomnolence and also have symptoms of autonomic nervous system dysfunction, including recurrent vascular-type headaches, reactivity of the peripheral vascular system (Raynaud's phenomenon), and fainting.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Approximately 5%-10% of individuals who consult in sleep disorders clinics with complaints of daytime sleepiness are diagnosed as having hypersomnolence disorder. It is estimated that about 1% of the European and U. S. general population has episodes of sleep inertia. Hypersomnolence occurs with relatively equal frequency in males and females.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Hypersomnolence disorder has a persistent course, with a progressive evolution in the severity of symptoms. In most extreme cases, sleep episodes can last up to 20 hours. However, the average nighttime sleep duration is around 9Vi hours. While many individuals with hypersomnolence are able to reduce their sleep time during working days, weekend and holiday sleep is greatly increased (by up to 3 hours). Awakenings are very difficult and accompanied by sleep inertia episodes in nearly 40% of cases. Hypersomnolence fully manifests in most cases in late adolescence or early adulthood, with a mean age at onset of 17-24 years. Individuals with hypersomnolence disorder are diagnosed, on average, 10-15 years after the appearance of the first symptoms. Pediatric cases are rare.
 
 Hypersomnolence has a progressive onset, with symptoms beginning between ages 15 and 25 years, with a gradual progression over weeks to months. For most individuals, the course is then persistent and stable, unless treatment is initiated. The development of other sleep disorders (e.g., breathing-related sleep disorder) may worsen the degree of sleepiness. Although hyperactivity may be one of the presenting signs of daytime sleepiness in children, voluntary napping increases with age. This normal phenomenon is distinct from hypersomnolence.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Environmental. Hypersomnolence can be increased temporarily by psychological stress and alcohol use, but they have not been documented as environmental precipitating factors. Viral infections have been reported to have preceded or accompanied hypersomnolence in about 10% of cases. Viral infections, such as HIV pneumonia, infectious mononucleosis, and Guillain-Barré syndrome, can also evolve into hypersomnolence withinmonths after the infection. Hypersomnolence can also appear within 6-18 months following a head traum; .̂ Genetic and physiological. Hypersomnolence may be familial, with an autosomaldominant mode of inheritance.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Nocturnal polysomnography demonstrates a normal to prolonged sleep duration, short sleep latency, and normal to increased sleep continuity. The distribution of rapid eye movement (REM) sleep is also normal. Sleep efficiency is mostly greater than 90%. Some individuals with hypersomnolence disorder have increased amounts of slow-wave sleep.
 
 The multiple sleep latency test documents sleep tendency, typically indicated by mean sleep latency values of less than 8 minutes. In hypersomnolence disorder, the mean sleep latency is typically less than 10 minutes and frequently 8 minutes or less. Sleep-onset REM periods (SOREMPs; i.e., the occurrence of REM sleep within 20 minutes of sleep onset) may be present but occur less than two times in four to five nap opportunities.
 
-## Functional Consequences of Hypersomnoience Disorder
+##h Functional Consequences of Hypersomnoience Disorder <--@HEADER-->
 
 The low level of alertness that occurs while an individual fights the need for sleep can lead to reduced efficiency, diminished concentration, and poor memory during daytime activities. Hypersomnoience can lead to significant distress and dysfunction in work and social relationships. Prolonged nocturnal sleep and difficulty awakening can result in difficulty in meeting morning obligations, such as arriving at work on time. Unintentional daytime sleep episodes can be embarrassing and even dangerous, if, for instance, the individual is driving or operating machinery when the episode occurs.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Normative variation in sleep. "Normal" sleep duration varies considerably in the general population. "Long sleepers" (i.e., individuals who require a greater than average amount of sleep) do not have excessive sleepiness, sleep inertia, or automatic behavior when they obtain their required amount of nocturnal sleep. Sleep is reported to be refreshing. If social or occupational demands lead to shorter nocturnal sleep, daytime symptoms may appear.
 
@@ -278,7 +278,7 @@ Parasomnias. Parasomnias rarely produce the prolonged, undisturbed nocturnal sle
 
 Other mental disorders. Hypersomnolence disorder must be distinguished from mental disorders that include hypersomnolence as an essential or associated feature. In particular, complaints of daytime sleepiness may occur in a major depressive episode, with atypical features, and in the depressed phase of bipolar disorder. Assessment for other mental disorders is essential before a diagnosis of hypersomnolence disorder is considered. A diagnosis of hypersomnolence disorder can be made in the presence of another current or past mental disorder.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 H)φersomnolence can be associated with depressive disorders, bipolar disorders (during a depressive episode), and major depressive disorder, with seasonal pattern. Many individuals with hypersomnolence disorder have symptoms of depression that may meet criteria for a depressive disorder. This presentation may be related to the psychosocial consequences of persistent increased sleep need. Individuals with hyper somnolence disorder are also at risk for substance-related disorders, particularly related to self-medication with stimulants.
 
@@ -286,15 +286,13 @@ This general lack of specificity may contribute to very heterogeneous profiles a
 
 Neurodegenerative conditions, such as Alzheimer's disease, Parkinson's disease, and multiple system atrophy, may also be associated with hypersomnolence.
 
-## Relationship to internatlonai Classification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), differentiates nine subtypes of "hypersomnias of central origin," including recurrent hypersomnia (KleineLevin syndrome).
 
-## Narcolepsy
+##d Narcolepsy <--@DIAGNOSIS-->
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Recurrent periods of an irrepressible need to sleep, lapsing into sleep, or napping occurring within the same day. These must have been occurring at least three times per week over the past 3 months.
 
@@ -309,7 +307,7 @@ Low CSF levels of hypocretin-1 must not be observed in the context of acute brai
 
 3. Nocturnal sleep polysomnography showing rapid eye movement (REM) sleep latency less than or equal to 15 minutes, or a multiple sleep latency test showing a mean sleep latency less than or equal to 8 minutes and two or more sleep-onset REM periods.
 
-_Specify_ whether:
+Specify whether:
 
 347.00 (G47.419) Narcolepsy without cataplexy but with hypocretin deficiency: Criterion B requirements of low CSF hypocretin-1 levels and positive polysomnography/ multiple sleep latency test are met, but no cataplexy is present (Criterion B1 not met).
 
@@ -327,7 +325,7 @@ Narcolepsy, obesity, and type 2 diabetes and low CSF hypocretin-1 levels have be
 
 Coding note (for ICD-9-CM code 347.10 only): Code first the underlying medical condition (e.g., 040.2 Whipple’s disease; 347.10 narcolepsy secondary to Whipple’s disease).
 
-_Specify_ current severity:
+Specify current severity:
 
 IMild: Infrequent cataplexy (less than once per week), need for naps only once or twice per day, and less disturbed nocturnal sleep.
 
@@ -335,11 +333,11 @@ Moderate: Cataplexy once daily or every few days, disturbed nocturnal sleep, and
 
 Severe: Drug-resistant cataplexy with multiple attacks daily, nearly constant sleepiness, and disturbed noctumal sleep (i.e., movements, insomnia, and vivid dreaming).
 
-## Subtypes
+##h Subtypes <--@HEADER-->
 
 In narcolepsy without cataplexy but with hypocretin deficiency, unclear ''cataplexy-like" symptoms may be reported (e.g., the symptoms are not triggered by emotions and are unusually long lasting). In extremely rare cases, cerebrospinal fluid (CSF) levels of hypocretin-1 are low, and polysomnographic/multiple sleep latency test (MSLT) results are negative: repeating the test is advised before establishing the subtype diagnosis. In narcolepsy with cataplexy but without hypocretin deficiency, test results for human leukocyte antigen (HLA) DQBl’̂ 06:02 may be negative. Seizures, falls of other origin, and conversion disorder (functional neurological symptom disorder) should be excluded. In narcolepsy secondary to infectious (e.g., Whipple's disease, sarcoidosis), traumatic, or tumoral destruction of hypocretin neurons, test results for HLA DQBl *06:02 may be positive and may result from the insult triggering the autoimmune process. In other cases, the destruction of hypocretin neurons may be secondary to trauma or hypothalamic surgery. Head trauma or infections of the central nervous system can, however, produce transitory decreases in CSF hypocretin-1 levels without hypocretin cell loss, complicating the diagnosis.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 The essential features of sleepiness in narcolepsy are recurrent daytime naps or lapses into sleep. Sleepiness typically occurs daily but must occur at a minimum three times a week for at least 3 months (Criterion A). Narcolepsy generally produces cataplexy, which most commonly presents as brief episodes (seconds to minutes) of sudden, bilateral loss of muscle tone precipitated by emotions, typically laughing and joking. Muscles affected may include those of the neck, jaw, arms, legs, or whole body, resulting in head bobbing, jaw dropping, or complete falls. Individuals are awake and aware during cataplexy. To meet Criterion Bl(a), cataplexy must be triggered by laughter or joking and must occur at least a few times per month when the condition is untreated or in the past.
 
@@ -347,23 +345,23 @@ Cataplexy should not be confused with ''weakness" occurring in the context of at
 
 In children close to onset, genuine cataplexy can be atypical, affecting primarily the face, causing grimaces or jaw opening with tongue thrusting ("cataplectic faces"). Alternatively, cataplexy may present as low-grade continuous hypotonia, yielding a wobbling walk. In these cases. Criterion Bl(b) can be met in children or in individuals within 6 months of a rapid onset.
 
-## Narcolepsy-cataplexy nearly always results from the loss of hypothalamic hypocretin (orexin)-producing cells, causing hypocretin deficiency (less than or equal to one-third of control values, or 110 pg/mL in most laboratories). Cell loss is likely autoimmune, and approximately 99% of affected individuals carry HLA-DQBl*06:02 (vs. 12%-38% of control subjects). Thus, checking for the presence of DQB1*06:02 prior to a lumbar puncture for evaluation of CSF hypocretin-1 immunoreactivity may be useful. Rarely, low CSF levels of hypocretin-1 occur without cataplexy, notably in youths who may develop cataplexy later. CSF hypocretin-1 measurement represents the gold standard, excepting associated severe conditions (neurological, inflammatory, infectious, trauma) that can interfere with the assay.
+Narcolepsy-cataplexy nearly always results from the loss of hypothalamic hypocretin (orexin)-producing cells, causing hypocretin deficiency (less than or equal to one-third of control values, or 110 pg/mL in most laboratories). Cell loss is likely autoimmune, and approximately 99% of affected individuals carry HLA-DQBl*06:02 (vs. 12%-38% of control subjects). Thus, checking for the presence of DQB1*06:02 prior to a lumbar puncture for evaluation of CSF hypocretin-1 immunoreactivity may be useful. Rarely, low CSF levels of hypocretin-1 occur without cataplexy, notably in youths who may develop cataplexy later. CSF hypocretin-1 measurement represents the gold standard, excepting associated severe conditions (neurological, inflammatory, infectious, trauma) that can interfere with the assay.
 
 A nocturnal polysonrmographic sleep study followed by an MSLT can also be used to confirm the diagnosis (Criterion B3). These tests must be performed after the individual has stopped all psychotropic medications, following 2 weeks of adequate sleep time (as documented with sleep diaries, actigraphy). Short rapid eye movement (REM) latency (sleep-onset REM period, REM latency less than or equal to 15 minutes) during polysomnography is sufficient to confirm the diagnosis and meets Criterion B3. Alternatively, the MSLT result must be positive, showing a mean sleep latency of less than or equal to 8 minutes and two or more sleep-onset REM periods in four to five naps.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 When sleepiness is severe, automatic behaviors may occur, with the individual continuing his or her activities in a semi-automatic, hazelike fashion without memory or consciousness. Approximately 20%-60% of individuals experience vivid hypnagogic hallucinationsbefore or upon falling asleep or hypnopompic hallucinations just after awakening. These hallucinations are distinct from the less vivid, nonhallucinatory dreamlike mentation at sleep onset that occurs in normal sleepers. Nightmares and vivid dreaming are also frequent in narcolepsy, as is REM sleep behavior disorder. Approximately 20%-60% of individuals experience sleep paralysis upon falling asleep or awakening, leaving them awake but unable to move or speak. However, many normal sleepers also report sleep paralysis, especially with stress or sleep deprivation. Nocturnal eating may occur. Obesity is common. Nocturnal sleep disruption with frequent long or short awakenings is common and can be disabling.
 
 Individuals may appear sleepy or fall asleep in the waiting area or during clinical examination. During cataplexy, individuals may slump in a chair and have slurred speech or drooping eyelids. If the clinician has time to check reflexes during cataplexy (most attacks are less than 10 seconds), reflexes are abolished—an important finding distinguishing genuine cataplexy from conversion disorder.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Narcolepsy-cataplexy affects 0.02%-0.04% of the general population in most countries.
 
 Narcolepsy affects both genders, with possibly a slight male preponderance.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Onset is typically in children and adolescents/young adults but rarely in older adults.
 
@@ -375,7 +373,7 @@ Young children and adolescents with narcolepsy often develop aggression or behav
 
 Maintaining a regular schedule benefits individuals at all ages.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Temperamental. Parasomnias, such as sleepwalking, bruxism, REM sleep behavior disorder, and enuresis, may be more common in individuals who develop narcolepsy. Individuals commonly report that they need more sleep than other family members.
 
@@ -385,11 +383,11 @@ Genetic and physiological. Monozygotic twins are 25%-32% concordant for narcolep
 
 The prevalence of narcolepsy is l%-2% in first-degree relatives (a 10- to 40-fold increase overall). Narcolepsy is strongly associated with DQB1*06:02 (99% vs. 12%-38% in control subjects of various ethnic groups; 25% in the general U. S. population). DQB1*03:01 increases, while DQBl’OSiOl, DQBl’OôiOl, and DQB1*06:03 reduce risk in the presence of DQB1’̂ 06:02, but the effect is small. Polymorphisms within the T-cell receptor alpha gene and other immune modulating genes also modulate risk slightly.
 
-## Culture-Related Diagnostic issues
+##h Culture-Related Diagnostic Issues <--@HEADER-->
 
 Narcolepsy has been described in all ethnic groups and in many cultures. Among African Americans, more cases present without cataplexy or with atypical cataplexy, complicating diagnosis, especially in the presence of obesity and obstructive sleep apnea.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Functional imaging suggests impaired hypothalamic responses to humorous stimuli.
 
@@ -399,11 +397,11 @@ A sleep-onset REM period during the polysomnography (REM sleep latency less than
 
 Hypocretin deficiency is demonstrated by measuring CSF hypocretin-1 immunoreac- tivity. The test is particularly useful in individuals with suspected conversion disorder and those without typical cataplexy, or in treatment-refractory cases. The diagnostic value of the test is not affected by medications, sleep deprivation, or circadian time, but the findings are uninteφretable when the individual is severely ill with a concurrent infection or head trauma or is comatose. CSF cytology, protein, and glucose are within normal range even when sampled within weeks of rapid onset. CSF hypocretin-1 in these incipient cases is typically already very diminished or undetectable.
 
-## Functional Consequences of Narcolepsy
+##h Functional Consequences of Narcolepsy <--@HEADER-->
 
 Driving and working are impaired, and individuals with narcolepsy should avoid jobs that place themselves (e.g., working with machinery) or others (e.g., bus driver, pilot) in danger. Once the narcolepsy is controlled with therapy, patients can usually drive, although rarely long distances alone. Untreated individuals are also at risk for social isolation and accidental injury to themselves or others. Social relations may suffer as these individuals strive to avert cataplexy by exerting control over emotions.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Other hypersomnias. Hypersomnolence and narcolepsy are similar with respect to the degree of daytime sleepiness, age at onset, and stable course over time but can be distinguished based on distinctive clinical and laboratory features. Individuals with hypersomnolence typically have longer and less disrupted nocturnal sleep, greater difficulty awakening, more persistent daytime sleepiness (as opposed to more discrete "sleep attacks" in narcolepsy), longer and less refreshing daytime sleep episodes, and little or no dreaming during daytime naps. By contrast, individuals with narcolepsy have cataplexy and recurrent intrusions of elements of REM sleep into the transition between sleep and wakefulness (e.g., sleep-related hallucinations and sleep paralysis). The MSLT typically demonstrates shorter sleep latencies (i.e., greater physiological sleepiness) as well as the presence of multiple sleep-onset REM periods in individuals with narcolepsy.
 
@@ -425,25 +423,23 @@ Chorea and movement disorders. In young children, cataplexy can be misdiagnosed 
 
 Schizophrenia. In the presence of florid and vivid hypnagogic hallucinations, individuals may think these experiences are real—a feature that suggests schizophrenia. Similarly, with stimulant treatment, persecutory delusions may develop. If cataplexy is present, the clinician should first assume that these symptoms are secondary to narcolepsy before considering a co-occurring diagnosis of schizophrenia.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Narcolepsy can co-occur with bipolar, depressive, and anxiety disorders, and in rare cases with schizophrenia. Narcolepsy is also associated with increased body mass index or obesity, especially when the narcolepsy is untreated. Rapid weight gain is common in young children with a sudden disease onset. Comorbid sleep apnea should be considered if there is a sudden aggravation of preexisting narcolepsy.
 
-## Relationship to international Classification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), differentiates five subtypes of narcolepsy.
 
-## Breathing-Related Sleep Disorders
+##g Breathing-Related Sleep Disorders <--@GROUP-->
 
 The breathing-related sleep disorders category encompasses three relatively distinct disorders: obstructive sleep apnea hypopnea, central sleep apnea, and sleep-related hypoventilation.
 
-## Obstructive Sleep Apnea Hypopnea
+##d Obstructive sleep apnea hypopnea <--@DIAGNOSIS-->
 
 327.23 (G47.33)
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Either (1) or (2):
 
@@ -452,19 +448,19 @@ b. Daytime sleepiness, fatigue, or unrefreshing sleep despite sufficient opportu
 
 2. Evidence by polysomnography of 15 or more obstructive apneas and/or hypopneas per hour of sleep regardless of accompanying symptoms.
 
-_Specify_ current severity:
+Specify current severity:
 
 Mild: Apnea hypopnea index is less than 15. Moderate: Apnea hypopnea Index is 15-30.
 
 Severe: Apnea hypopnea index is greater than 30.
 
-## Specifiers
+##h Specifiers <--@HEADER-->
 
 Disease severity is measured by a count of the number of apneas plus hypopneas per hour of sleep (apnea hypopnea index) using polysomnography or other overnight monitoring.
 
 Overall severity is also informed by levels of nocturnal desaturation and sleep fragmentation (measured by brain cortical arousal frequency and sleep stages) and degree of associated symptoms and daytime impairment. However, the exact number and thresholds may vary according to the specific measurement techniques used, and these numbers may change over time. Regardless of the apnea hypopnea index (count) per se, the disorder is considered to be more severe when apneas and hypopneas are accompanied by significant oxygen hemoglobin desaturation (e.g., when more than 10% of the sleep time is spent at desaturation levels of less than 90%) or when sleep is severely fragmented as shown by anelevated arousal index (arousal index greater than 30) or reduced stages in deep sleep (e.g., percentage stage N3 [slow-v^ave sleep] less than 5%).
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Obstructive sleep apnea hypopnea is the most common breathing-related sleep disorder.
 
@@ -476,15 +472,15 @@ Obstructive sleep apnea hypopnea in adults is diagnosed on the basis of polysom-
 
 Specific attention to disturbed sleep occurring in association with snoring or breathing pauses and physical findings that increase risk of obstructive sleep apnea hypopnea (e.g., central obesity, crowded pharyngeal airway, elevated blood pressure) is needed to reduce the chance of misdiagnosing this treatable condition.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Because of the frequency of nocturnal awakenings that occur with obstructive sleep apnea hypopnea, individuals may report symptoms of insomnia. Other common, though nonspecific, symptoms of obstructive sleep apnea hypopnea are heartburn, nocturia, morning headaches, dry mouth, erectile dysfunction, and reduced libido. Rarely, individuals may complain of difficulty breathing while lying supine or sleeping. Hypertension may occur in more than 60% of individuals with obstructive sleep apnea hypopnea.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Obstructive sleep apnea hypopnea is a very common disorder, affecting at least l% -2% of children, 2%-15% of middle-age adults, and more than 20% of older individuals. In the general community, prevalence rates of undiagnosed obstructive sleep apnea hypopnea may be very high in elderly individuals. Since the disorder is strongly associated with obesity, increases in obesity rates are likely to be accompanied by an increased prevalence of this disorder. Prevalence may be particularly high among males, older adults, and certain racial/ethnic groups. In adults, the male-to-female ratio of obstructive sleep apnea hypopnea ranges from 2:1 to 4:1. Gender differences decline in older age, possibly because of an increased prevalence in females after menopause. There is no gender difference among prepubertal children.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 The age distribution of obstructive sleep apnea hypopnea likely follows a J-shaped distribution. There is a peak in children ages 3-8 years when the nasopharynx may be compromised by a relatively large mass of tonsillar tissue compared with the size of the upperairway. With growth of the airway and regression of lymphoid tissue during later childhood, there is reduction in prevalence. Then, as obesity prevalence increases in midlife and females enter menopause, obstructive sleep apnea hypopnea again increases. The course in older age is unclear; the disorder may level off after age 65 years, but in other individuals, prevalence may increase with aging. Because there is some age dependency of the occurrence of apneas and hypopneas, polysomnographic results must be interpreted in light of other clinical data. In particular, significant clinical symptoms of insomnia or hypersomnia should be investigated regardless of the individual's age.
 
@@ -494,31 +490,31 @@ Spontaneous resolution of obstructive sleep apnea hypopnea has been reported wit
 
 In young children, the signs and symptoms of obstructive sleep apnea hypopnea may be more subtle than in adults, making diagnosis more difficult to establish. Polysomnography is useful in confirming diagnosis. Evidence of fragmentation of sleep on the polysomnogram may not be as apparent as in studies of older individuals, possibly because of the high homeostatic drive in young individuals. Symptoms such as snoring are usually parent-reported and thus have reduced sensitivity. Agitated arousals and unusual sleep postures, such as sleeping on the hands and knees, may occur. Nocturnal enuresis also may occur and should raise the suspicion of obstructive sleep apnea hypopnea if it recurs in a child who was previously dry at night. Children may also manifest excessive daytime sleepiness, although this is not as common or pronounced as in adults. Daytime mouth breathing, difficulty in swallowing, and poor speech articulation are also common features in children. Children younger than 5 years more often present with nighttime symptoms, such as observed apneas or labored breathing, than with l^havioral symptoms (i.e., the nighttime symptoms are more noticeable and more often bring the child to clinical attention). In children older than 5 years, daytime symptoms such as sleepiness and behavioral problems (e.g., impulsivity and hyperactivity), attention-deficit/ hyperactivity disorder, learning difficulties, and morning headaches are more often the focus of concern. Children with obstructive sleep apnea hypopnea also may present with failure to thrive and developmental delays. In young children, obesity is a less common risk factor, while delayed growth and "failure to thrive" may be present.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Genetic and physiological. The major risk factors for obstructive sleep apnea hypopnea are obesity and male gender. Others include maxillary-mandibular retrognathia or micrognathia, positive family history of sleep apnea, genetic syndromes that reduce upper airway patency (e.g., Down's syndrome, Treacher Collin's syndrome), adenotonsillar hypertrophy (especially in young children), menopause (in females), and various endocrine syndromes (e.g., acromegaly). Compared with premenopausal females, males are at increased risk for obstructive sleep apnea hypopnea, possibly reflecting the influences of sex hormones on ventilatory control and body fat distribution, as well as because of gender differences in airway structure. Medications for mental disorders and medical conditions that tend to induce somnolence may worsen the course of apnea symptoms if these medications are not managed carefully.
 
 Obstructive sleep apnea hypopnea has a strong genetic basis, as evidenced by the significant familial aggregation of the apnea hypopnea index. The prevalence of obstructive sleep apnea hypopnea is approximately twice as high among the first-degree relatives of probands with obstructive sleep apnea hypopnea as compared with members of control families. One-third of the variance in the apnea hypopnea index is explained by shared familial factors. Although genetic markers with diagnostic or prognostic value are not yet available for use, eliciting a family history of obstructive sleep apnea hypopnea should increase the clinical suspicion for the disorder.
 
-## Culture-Related Diagnostic Issues
+##h Culture-Related Diagnostic Issues <--@HEADER-->
 
 There is a potential for sleepiness and fatigue to be reported differently across cultures. In some groups, snoring may be considered a sign of health and thus may not trigger concerns. Individuals of Asian ancestry may be at increased risk for obstructive sleep apnea hypopnea despite relatively low BMI, possibly reflecting the influence of craniofacial risk factors that narrow the nasopharynx.
 
-## Gender-Related Issues
+##h Gender-Related Issues <--@HEADER-->
 
 Females may more commonly report fatigue rather than sleepiness and may underreport snoring.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Polysomnography provides quantitative data on frequency of sleep-related respiratory disturbances and associated changes in oxygen saturation and sleep continuity. Polysomnographie findings in children differ from those in adults in that children demonstrate labored breathing, partial obstructive hypoventilation with cyclical desaturations, hyper- capnia and paradoxical movements. Apnea hypopnea index levels as low as 2 are used to define thresholds of abnormality in children.
 
 Arterial blood gas measurements while the individual is awake are usually normal, but some individuals can have waking hypoxemia or hypercapnia. This pattern should alert the clinician to the possibility of coexisting lung disease or hypoventilation. Imaging procedures may reveal narrowing of the upper airway. Cardiac testing may show evidence of impaired ventricular function. Individuals with severe nocturnal oxygen desaturation may also have elevated hemoglobin or hematocrit values. Validated sleep measures (e.g., multiple sleep latency test [MSLT], maintenance of wakefulness test) may identify sleepiness.
 
-## Functional Consequences of Obstructive Sleep Apnea Hypopnea
+##h Functional Consequences of Obstructive Sleep Apnea Hypopnea <--@HEADER-->
 
 More than 50% of individuals with moderate to severe obstructive sleep apnea hypopnea report symptoms of daytime sleepiness. A twofold increased risk of occupational accidents has been reported in association with symptoms of snoring and sleepiness. Motor vehicle crashes also have been reported to be as much as sevenfold higher among individuals with elevated apnea hypopnea index values. Clinicians should be cognizant of state government requirements for reporting this disorder, especially in relationship to commercial drivers. Reduced scores on measures of health-related quality of life are common in individuals with obstructive sleep apnea hypopnea, with the largest decrements observed in the physical and vitality subscales.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Primary snoring and other sleep disorders. Individuals with obstructive sleep apnea hypopnea must be differentiated from individuals with primary snoring (i.e., otherwiseasjnnptomatic individuals who snore and do not have abnormalities on overnight polysomnography). Individuals with obstructive sleep apnea hypopnea may additionally report nocturnal gasping and choking. The presence of sleepiness or other daytime symptoms not explained by other etiologies suggests the diagnosis of obstructive sleep apnea hypopnea, but this differentiation requires polysomnography. Definitive differential diagnosis between hypersomnia, central sleep apnea, sleep-related hypoventilation, and obstructive sleep apnea hypopnea also requires polysomnographic studies.
 
@@ -534,27 +530,29 @@ Attention-deficit/hyperactivity disorder. Attention-defidt/hyperactivity disorde
 
 Substance/medication-induced insomnia or hypersomnia. Substance use and substance withdrawal (including medications) can produce insomnia or hypersomnia. A careful history is usually sufficient to identify the relevant substance/medication, and follow-up shows improvement of the sleep disturbance after discontinuation of the substance/medication. In other cases, the use of a substance/medication (e.g., alcohol, barbiturates, benzodiazepines, tobacco) has been shown to exacerbate obstructive sleep apnea hypopnea.
 
-An individual with symptoms and signs consistent with obstructive sleep apnea hypop-nea should receive that diagnosis, even in the presence of concurrent substance use that isexacerbating the condition.\ ## Comorbidity
+An individual with symptoms and signs consistent with obstructive sleep apnea hypop-nea should receive that diagnosis, even in the presence of concurrent substance use that is exacerbating the condition.
+
+##h Comorbidity <--@HEADER-->
 
 Systemic hypertension, coronary artery disease, heart failure, stroke, diabetes, and increased mortality are consistently associated with obstructive sleep apnea hypopnea. Risk estimates vary from 30% to as much as 300% for moderate to severe obstructive sleep apnea hypopnea. Evidence of pulmonary hypertension and right heart failure (e.g., cor pulmonale, ankle edema, hepatic congestion) are rare in obstructive sleep apnea hypopnea and when present indicate either very severe disease or associated hypoventilation or cardiopulmonary comorbidities. Obstructive sleep apnea hypopnea also may occur with increased frequency in association with a number of medical or neurological conditions (e.g., cerebrovascular disease, Parkinson's disease). Physical findings reflect the co-occurrence of these conditions.
 
 As many as one-third of individuals referred for evaluation of obstructive sleep apnea hypopnea report symptoms of depression, with as many of 10% having depression scores consistent with moderate to severe depression. Severity of obstructive sleep apnea hypopnea, as measured by the apnea hypopnea index, has been foimd to be correlated w i^ severity of symptoms of depression. This association may be stronger in males than in females.
 
-## Reiationsliip to internationai Ciassification of
+##h Relationship to internationai Ciassification of <--@HEADER-->
 
-## Sieep Disorders
+## Sleep Disorders
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), differentiates 11 subtypes of "sleep-related breathing disorders," including primary central sleep apnea, obstructive sleep apnea, and sleep-related hypoventilation.
 
-## Central Sleep Apnea
+##d Central sleep apnea <--@DIAGNOSIS-->
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Evidence by polysomnography of five or more central apneas per hour of sleep.
 
 B. The disorder is not better explained by another current sleep disorder.
 
-_Specify_ whether:
+Specify whether:
 
 327.21 (G47.31) Idiopathic central sleep apnea: Characterized by repeated episodes of apneas and hypopneas during sleep caused by variability in respiratory effort but without evidence of ainway obstruction.
 
@@ -566,19 +564,19 @@ Coding note (for 780.57 [G47.37] code only): When an opioid use disorder is pres
 
 Note: See the section “Diagnostic Features” in text.
 
-_Specify_ current severity:
+Specify current severity:
 
 Severity of central sleep apnea is graded according to the frequency of the breathing disturbances as well as the extent of associated oxygen desaturation and sleep fragmentation that occur as a consequence of repetitive respiratory disturbances.
 
-## Subtypes
+##h Subtypes <--@HEADER-->
 
 Idiopathic central sleep apnea and Cheyne-Stokes breathing are characterized by increased gain of the ventilatory control system, also referred to as high loop gain, which leads to instability in ventilation and PaC02 levels. This instability is termed periodic breathing and can be recognized by hyperventilation alternating with hypoventilation. Individuals with these disorders typically have pC02 levels while awake that are slightly hypocapneic or normocapneic. Central sleep apnea may also manifest during initiation of treatment of obstructive sleep apnea hypopnea or may occur in association with obstructive sleep apnea hypopnea syndrome (termed complex sleep apnea). The occurrence of central sleep apnea in association with obstructive sleep apnea is also considered to be due to high loop gain. In contrast, the pathogenesis of central sleep apnea comorbid with opioid use has been attributed to the effects of opioids on the respiratory rhythm generators in the medulla as well as to its differential effects on hypoxic versus hypercapneic respiratory drive. These individuals may have elevated pC02 levels while awake. Individuals receiving chronic methadone maintenance therapy have been noted to have increased sonmolence and depression, although the role of breathing disorders associated with opioid medication in causing these problems has not been studied.
 
-## Specifiers
+##h Specifiers <--@HEADER-->
 
 An increase in the central apnea index (i.e., number of central apneas per hour of sleep) reflects an increase in severity of central sleep apnea. Sleep continuity and quality may be markedly impaired with reductions in restorative stages of non-rapid eye movement (REM) sleep (i.e., decreased slow-wave sleep [stage N3]). In individuals with severe Cheyne- Stokes breathing, the pattern can also be observed during resting wakefulness, a finding that is thought to be a poor prognostic marker for mortality.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Central sleep apnea disorders are characterized by repeated episodes of apneas and hy- popneas during sleep caused by variability in respiratory effort. These are disorders of ventilatory control in which respiratory events occur in a periodic or intermittent pattern.
 
@@ -586,7 +584,7 @@ Idiopathic central sleep apnea is characterized by sleepiness, insomnia, and awa
 
 Alterations in neuromuscular control of breathing can occur in association with medications or substances used in individuals with mental health conditions, which can cause or exacerbate impairments of respiratory rhythm and ventilation. Individuals taking these medications have a sleep-related breathing disorder that could contribute to sleep disturbances and symptoms such as sleepiness, confusion, and depression. Specifically, chronicuse of long-acting opioid medications is often associated with impairment of respiratory control leading to central sleep apnea.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Individuals with central sleep apnea hypopneas can manifest with sleepiness or insomnia.
 
@@ -594,27 +592,27 @@ There can be complaints of sleep fragmentation, including awakening with dyspnea
 
 Some individuals are asymptomatic. Obstructive sleep apnea hypopnea can coexist with Cheyne-Stokes breathing, and thus snoring and abruptly terminating apneas may be observed during sleep.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 The prevalence of idiopathic central sleep apnea is unknown but thought to be rare. The prevalence of Cheyne-Stokes breathing is high in individuals with depressed cardiac ventricular ejection fraction. In individuals with an ejection fraction of less than 45%, the prevalence has been reported to be 20% or higher. The male-to-female ratio for prevalence is even more highly skewed toward males than for obstructive sleep apnea hypopnea. Prevalence increases with age, and most patients are older than 60 years. Cheyne-Stokes breathing occurs in approximately 20% of individuals with acute stroke. Central sleep apnea comorbid with opioid use occurs in approximately 30% of individuals taking chronic opioids for nonmalignant pain and similarly in individuals receiving methadone maintenance therapy.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 The onset of Cheyne-Stokes breathing appears tied to the development of heart failure. The Cheyne-Stokes breathing pattern is associated with oscillations in heart rate, blood pressure and oxygen desaturation, and elevated sympathetic nervous system activity that can promote progression of heart failure. The clinical significance of Cheyne-Stokes breathing in the setting of stroke is not known, but Cheyne-Stokes breathing may be a transient finding that resolves with time after acute stroke. Central sleep apnea comorbid with opioid use has been documented with chronic use (i.e., several months).
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Genetic and physiological. Cheyne-Stokes breathing is frequently present in individuals with heart failure. The coexistence of atrial fibrillation further increases risk, as do older age and male gender. Cheyne-Stokes breathing is also seen in association with acute stroke and possibly renal failure. The underlying ventilatory instability in the setting of heart failure has been attributed to increased ventilatory chemosensitivity and hyperventilation due to pulmonary vascular congestion and circulatory delay. Central sleep apnea is seen in individuals taking long-acting opioids.
 
-## Diagnostic l\/larl(ers
+##h Diagnostic Markers <--@HEADER-->
 
 Physical findings seen in individuals with a Cheyne-Stokes breathing pattern relate to its risk factors. Findings consistent with heart failure, such as jugular venous distension, S3 heart sound, lung crackles, and lower extremity edema, may be present. Polysonmogra- phy is used to characterize the breathing characteristics of each breathing-related sleep disorder subtype. Central sleep apneas are recorded when periods of breathing cessation for longer than 10 seconds occur. Cheyne-Stokes breathing is characterized by a pattern of periodic crescendo-decrescendo variation in tidal volume that results in central apneas and hypopneas occurring at a frequency of at least five events per hour that are accompanied by frequent arousals. The cycle length of Cheyne-Stokes breathing (or time from end of one central apnea to the end of the next apnea) is about 60 seconds.
 
-## Functional Consequences of Central Sleep Apnea
+##h Functional Consequences of Central Sleep Apnea <--@HEADER-->
 
 Idiopathic central sleep apnea has been reported to cause symptoms of disrupted sleep, including insomnia and sleepiness. Cheyne-Stokes breathing with comorbid heart failure has been associated with excessive sleepiness, fatigue, and insomnia, although many individuals may be asymptomatic. Coexistence of heart failure and Cheyne-Stokes breathing may be associated with increased cardiac arrhythmias and increased mortality or cardiac transplantation. Individuals with central sleep apnea comorbid with opioid use may present with symptoms of sleepiness or insomnia.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Idiopathic central sleep apnea must be distinguished from other breathing-related sleep disorders, other sleep disorders, and medical conditions and mental disorders that cause sleep fragmentation, sleepiness, and fatigue. This is achieved using polysomnography.
 
@@ -626,21 +624,21 @@ Polysomnographie respiratory findings can help distinguish Cheyne-Stokes breathi
 
 Central sleep apnea comorbid with opioid use can be differentiated from other types of breathing-related sleep disorders based on the use of long-acting opioid medications in conjunction with polysomnographic evidence of central apneas and periodic or ataxic breathing. It can be distinguished from insomnia due to drug or substance use based on polysomnographic evidence of central sleep apnea.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Central sleep apnea disorders are frequently present in users of long-acting opioids, such as methadone. Individuals taking these medications have a sleep-related breathing disorder that could contribute to sleep disturbances and symptoms such as sleepiness, confusion, and depression. While the individual is asleep, breathing patterns such as central apneas, periodic apneas, and ataxic breathing may be observed. Obstructive sleep apnea hypopnea may coexist with central sleep apnea, and features consistent with this condition can also be present (see 'Obstructive Sleep Apnea Hypopnea" earlier in this chapter).
 
 Cheyne-Stokes breathing is more commonly observed in association with conditions that include heart failure, stroke, and renal failure and is seen more frequently in individuals with atrial fibrillation. Individuals with Cheyne-Stokes breathing are more likely to be older, to be male, and to have lower weight than individuals with obstructive sleep apnea hypopnea.
 
-## Sleep-Related Hypoventilation1
+##d Sleep-related hypoventilation1 <--@DIAGNOSIS-->
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Polysomnograpy demonstrates episodes of decreased respiration associated with elevated CO2 levels. (Note: In the absence of objective measurement of CO2 , persistent low levels of hemoglobin oxygen saturation unassociated with apneic/hypopneic events may indicate hypoventilation.)
 
 B. The disturbance is not better explained by another current sleep disorder.
 
-_Specify_ whether:
+Specify whether:
 
 327.24 (G47.34) Idiopathic liypoventilation: This subtype is not attributable to any readily identified condition.
 
@@ -648,33 +646,33 @@ _Specify_ whether:
 
 327.26 (G47.36) Comorbid sleep-related hypoventilation: This subtype occurs as a consequence of a medical condition, such as a pulmonary disorder (e.g., interstitial lung disease, chronic obstructive pulmonary disease) or a neuromuscular or chest wall disorder (e.g., muscular dystrophies, postpolio syndrome, cervical spinal cord injury, kyphoscoliosis), or medications (e.g., benzodiazepines, opiates). It also occurs with obesity (obesity hypoventilation disorder), where it reflects a combination of increased work of breathing due to reduced chest wall compliance and ventilation-perfusion mismatch and variably reduced ventilatory drive. Such individuals usually are characterized by body mass index of greater than 30 and hypercapnia during wakefulness (with a PCO2 of greater than 45), without other evidence of hypoventilation.
 
-_Specify_ current severity:
+Specify current severity:
 
 Severity is graded according to the degree of hypoxemia and hypercarbia present during sleep and evidence of end organ impairment due to these abnormalities (e.g., rightsided heart failure). The presence of blood gas abnormalities during wakefulness is an indicator of greater severity.
 
-## Subtypes
+##h Subtypes <--@HEADER-->
 
 Regarding obesity hypoventilation disorder, the prevalence of obesity hypoventilation in the general population is not known but is thought to be increasing in association with the increased prevalence of obesity and extreme obesity.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Sleep-related hypoventilation can occur independently or, more frequently, comorbid with medical or neurological disorders, medication use, or substance use disorder. Although symptoms are not mandatory to make this diagnosis, individuals often report excessive daytime sleepiness, frequent arousals and awakenings during sleep, morning headaches, and insomnia complaints.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Individuals with sleep-related hypoventilation can present with sleep-related complaints of insomnia or sleepiness. Episodes of orthopnea can occur in individuals with diaphragm weakness. Headaches upon awakening may be present. During sleep, episodes of shallow breathing may be observed, and obstructive sleep apnea hypopnea or central sleep apnea may coexist. Consequences of ventilatory insufficiency, including pulmonary hypertension, cor pulmonale (right heart failure), polycythemia, and neurocognitive dysfunction.can be present. With progression of ventilatory insufficiency, blood gas abnormalities extend into wakefulness. Features of the medical condition causing sleep-related hypoventilation can also be present. Episodes of hypoventilation may be associated with frequent arousals or bradytachycardia. Individuals may complain of excessive sleepiness and insomnia or morning headaches or may present with findings of neurocognitive dysfunction or depression. Hypoventilation may not be present during wakefulness.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Idiopathic sleep-related hypoventilation in adults is very uncommon. The prevalence of congenital central alveolar hypoventilation is unknown, but the disorder is rare. Comor- bid sleep-related hypoventilation (i.e., hypoventilation comorbid with other conditions, such as chronic obstructive pulmonary disease [COPD], neuromuscular disorders, or obesity) is more common.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Idiopathic sleep-related hypoventilation is thought to be a slowly progressive disorder of respiratory impairment. When this disorder occurs comorbidly with other disorders (e.g., COPD, neuromuscular disorders, obesity), disease severity reflects the severity of the underlying condition, and the disorder progresses as the condition worsens. Complications such as pulmonary hypertension, cor pulmonale, cardiac dysrhythmias, polycythemia, neurocognitive dysfunction, and worsening respiratory failure can develop with increasing severity of blood gas abnormalities.
 
 Congenital central alveolar hypoventilation usually manifests at birth with shallow, erratic, or absent breathing. This disorder can also manifest during infancy, childhood, and adulthood because of variable penetrance of the PHOX2B mutation. Children with congenital central alveolar hypoventilation are more likely to have disorders of the autonomic nervous system, Hirschsprung's disease, neural crest tumors, and characteristic boxshaped face (i.e., the face is short relative to its width).
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Environmental. Ventilatory drive can be reduced in individuals using central nervous system depressants, including benzodiazepines, opiates, and alcohol.
 
@@ -684,37 +682,37 @@ Neuromuscular disorders influence breathing through impairment of respiratory mo
 
 Congenital central alveolar hypoventilation is a genetic disorder attributable to mutations of PH0X2B, a gene that is crucial for the development of the embryonic autonomic nervous system and neural crest derivatives. Children with congenital central alveolar hypoventilation show blunted ventilatory responses to hypercapnia, especially in non-rapid eye movement sleep.
 
-## Gender-Related Diagnostic Issues
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Gender distributions for sleep-related hypoventilation occurring in association with co- morbid conditions reflect the gender distributions of the comorbid conditions. For example, COPD is more frequently present in males and with increasing age.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Sleep-related hypoventilation is diagnosed using polysomnography showing sleep-related hypoxemia and hypercapnia that is not better explained by another breathing-related sleep disorder. The documentation of increased arterial pC02 levels to greater than 55 mmHg during sleep or a 10 mmHg or greater increase in pC02 levels (to a level that also exceeds 50 mmHg) during sleep in comparison to awake supine values, for 10 minutes or longer, is the gold standard for diagnosis. However, obtaining arterial blood gas determinations during sleep is impractical, and non-invasive measures of pC02 have not been adequately validated during sleep and are not widely used during polysomnography in adults. Prolonged and sustained decreases in oxygen saturation (oxygen saturation of less than 90% for more than 5 minutes with a nadir of at least 85%, or oxygen saturation of less than 90% for at least 30% of sleep time) in the absence of evidence of upper airway obstruction are often used as an indication of sleep-related hypoventilation; however, this finding is not specific, as there are other potential causes of hypoxemia, such as that due to lung disease.
 
-## Functional Consequences of Sleep-Related Hypoventilation
+##h Functional Consequences of Sleep-Related Hypoventilation <--@HEADER-->
 
 The consequences of sleep-related hypoventilation are related to the effects of chronic exposure to hypercapnia and hypoxemia. These blood gas derangements cause vasoconstriction of the pulmonary vasculature leading to pulmonary hypertension, which, if severe, can result in right-sided heart failure (cor pulmonale). Hypoxemia can lead to dysfunction of organs such as the brain, blood, and heart, leading to outcomes such as cognitive dysfunction, polycythemia, and cardiac arrhythmias. Hypercapnia can depress ventilatory drive, leading to progressive respiratory failure.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Other medical conditions affecting ventilation. In adults, the idiopathic variety of sleep- related hypoventilation is very uncommon and is determined by excluding the presence of lung diseases, skeletal malformations, neuromuscular disorders, and other medical and neurological disorders or medications that affect ventilation. Sleep-related hypoventilation must be distinguished from other causes of sleep-related hypoxemia, such as that due to lung disease.
 
 Other breathing-related sleep disorders. Sleep-related hypoventilation can be distinguished from obstructive sleep apnea hypopnea and central sleep apnea based on clinical features and findings on polysomnography. Sleep-related hypoventilation typically shows more sustained periods of oxygen desaturation rather that the periodic episodes seen in obstructive sleep apnea hypopnea and central sleep apnea. Obstructive sleep apnea hypopnea and central sleep apnea also show a pattern of discrete episodes of repeated airflow decreases that can be absent in sleep-related hypoventilation.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Sleep-related hypoventilation often occurs in association with a pulmonary disorder (e.g., interstitial lung disease, COPD), with a neuromuscular or chest wall disorder (e.g., muscular dystrophies, post-polio syndrome, cervical spinal cord injury, obesity, kyphoscoliosis), or.most relevant to the mental health provider, with medication use (e.g., benzodiazepines, opiates). Congenital central alveolar hypoventilation often occurs in association with autonomic dysfunction and may occur in association with Hirschsprung's disease. COPD, a disorder of lower airway obstruction usually associated with cigarette smoking, can result in sleep- related hypoventilation and hypoxemia. The presence of coexisting obstructive sleep apnea hypopnea is thought to exacerbate hypoxemia and hypercapnia during sleep and wakefulness. The relationship between congenital central alveolar hypoventilation and idiopathic sleep-related hypoventilation is unclear; in some individuals, idiopathic sleep-related hypoventilation may represent cases of late-onset congenital central alveolar hypoventilation.
 
-## Relationship to internationai Ciassification of
+##h Relationship to internationai Ciassification of <--@HEADER-->
 
-## Sieep Disorders
+## Sleep Disorders
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), combines sleep- related hypoventilation and sleep-related hypoxemia under the category of sleep-related hypoventilation/hypoxemic syndromes. This approach to classification reflects the frequent co-occurrence of disorders that lead to hypoventilation and hypoxemia. In contrast, the classification used in DSM-5 reflects evidence that there are distinct sleep-related pathogenetic processes leading to hypoventilation.
 
-## Circadian Rhythm Sleep-Wake Disorders
+##d Circadian rhythm sleep-wake disorders <--@DIAGNOSIS-->
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. A persistent or recurrent pattern of sleep disruption that is primarily due to an alteration of the circadian system or to a misalignment between the endogenous circadian rhythm and the sleep-wake schedule required by an individual’s physical environment or social or professional schedule.
 
@@ -724,21 +722,21 @@ C. The sleep disturbance causes clinically significant distress or impairment in
 
 Coding note: For ICD-9-CM, code 307.45 for all subtypes. For ICD-10-CM, code is based on subtype.
 
-_Specify_ whether:
+Specify whether:
 
 307.45 (G47.21) Delayed sleep phase type: A pattern of delayed sleep onset and awakening times, with an inability to fall asleep and awaken at a desired or conventionally acceptable earlier time.
 
-_Specify_ if:
+Specify if:
 
 Familial: A family history of delayed sleep phase is present.
 
-_Specify_ if:
+Specify if:
 
 Overlapping with non-24-hour sleep-wake type: Delayed sleep phase type may overlap with another circadian rhythm sleep-wake disorder, non-24-hour sleep-wake type.
 
 307.45 (G47.22) Advanced sleep phase type: A pattern of advanced sleep onset and awakening times, with an inability to remain awake or asleep until the desired or conventionally acceptable later sleep or wake times.
 
-_Specify_ if:
+Specify if:
 
 Familial: A family history of advanced sleep phase is present.
 
@@ -748,7 +746,7 @@ Familial: A family history of advanced sleep phase is present.
 
 307.45 (G47.26) Shift work type: Insomnia during the major sleep period and/or excessive sleepiness (including inadvertent sleep) during the major awake period associated with a shift work schedule (i.e., requiring unconventional work hours).
 
-307.45 (G47.20) Unspecified type _Specify_ if:
+307.45 (G47.20) Unspecified type Specify if:
 
 Episodic: Symptoms last at least 1 month but less than 3 months.
 
@@ -756,21 +754,21 @@ Persistent: Symptoms last 3 months or longer.
 
 Recurrent: Two or more episodes occur within the space of 1 year.
 
-## Delayed Sleep Phase Type
+##h Delayed Sleep Phase Type <--@HEADER-->
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 The delayed sleep phase type is based primarily on a history of a delay in the timing of the major sleep period (usually more than 2 hours) in relation to the desired sleep and wake- up time, resulting in symptoms of insomnia and excessive sleepiness. When allowed to set their own schedule, individuals with delayed sleep phase type exhibit normal sleep quality and duration for age. Symptoms of sleep-onset insomnia, difficulty waking in the morning, and excessive early day sleepiness are prominent.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Common associated features of delayed sleep phase type include a history of mental disorders or a concurrent mental disorder. Extreme and prolonged difficulty awakening with morning confusion is also common. Psychophysiological insomnia may develop as a result of maladaptive behaviors that impair sleep and increase arousal because of repeated attempts to fall asleep at an earlier time.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Prevalence of delayed sleep phase type in the general population is approximately 0.17% but appears to be greater than 7% in adolescents. Although the prevalence of familial delayed sleep phase type has not been established, a family history of delayed sleep phase is present in individuals with delayed sleep phase type.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Course is persistent, lasting longer than 3 months, with intermittent exacerbations throughout adulthood. Although age at onset is variable, symptoms begin typically in adolescence and early adulthood and persist for several months to years before diagnosis is established. Severity may decrease with age. Relapse of symptoms is common.
 
@@ -778,7 +776,7 @@ Clinical expression may vary across the lifespan depending on social, school, an
 
 Increased prevalence in adolescence may be a consequence of both physiological and behavioral factors. Hormonal changes may be involved specifically, as delayed sleep phase is associated with the onset of puberty. Thus, delayed sleep phase type in adolescents should be differentiated from the common delay in the timing of circadian rhythms in this age group. In the familial form, the course is persistent and may not improve sig îificantly with age.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Genetic and physiological. Predisposing factors may include a longer than average circadian period, changes in light sensitivity, and impaired homeostatic sleep drive. Some individuals with delayed sleep phase type may be hypersensitive to evening light, which can serve as a delay signal to the circadian clock, or they may be hyposensitive to morning light such that its phase-advancing effects are reduced. Genetic factors may play a role in the pathogenesis of familial and sporadic forms of delayed sleep phase type, including mutations in circadian genes (e.g., PER3, CKle).
 
@@ -786,23 +784,23 @@ Genetic and physiological. Predisposing factors may include a longer than averag
 
 Confirmation of the diagnosis includes a complete history and use of a sleep diary or actigra- phy (i.e., a wrist-wom motion detector that monitors motor activity for prolonged periods and can be used as a proxy for sleep-wake patterns for at least 7 days). The period covered should include weekends, when social and occupational obligations are less strict, to ensure that the individual exhibits a consistently delayed sleep-wake pattern. Biomarkers such as salivary dim light melatonin onset should be obtained only when the diagnosis is unclear.
 
-## Functional Consequences of Delayed Sleep Phase Type
+##h Functional Consequences of Delayed Sleep Phase Type <--@HEADER-->
 
 Excessive early day sleepiness is prominent. Extreme and prolonged difficulty awakening with morning confusion (i.e., sleep inertia) is also common. The severity of insomnia and excessive sleepiness symptoms varies substantially among individuals and largely depends on the occupational and social demands on the individual.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Normative variations in sleep. Delayed sleep phase type must be distinguished from "normal" sleep patterns in which an individual has a late schedule that does not cause personal, social, or occupational distress (most commonly seen in adolescents and young adults).
 
 Other sleep disorders. Insomnia disorder and other circadian rhythm sleep-wake disorders should be included in the differential. Excessive sleepiness may also be caused by other sleep disturbances, such as breathing-related sleep disorders, insomnias, sleep- related movement disorders, and medical, neurological, and mental disorders. Overnight polysomnography may help in evaluating for other comorbid sleep disorders, such as sleep apnea. The circadian nature of delayed sleep phase type, however, should differentiate it from other disorders with similar complaints.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Delayed sleep phase type is strongly associated with depression, personality disorder, and somatic symptom disorder or illness anxiety disorder. In addition, comorbid sleep disorders, such as insomnia disorder, restless legs syndrome, and sleep apnea, as well as depressive and bipolar disorders and anxiety disorders, can exacerbate symptoms of insomnia and excessive sleepiness. Delayed sleep phase type may overlap with another circadian rhythm sleep-wake disorder, non-24-hour sleep-wake type. Sighted individuals with non- 24-hour sleep-wake type disorder commonly also have a history of delayed circadian sleep phase.
 
-## Advanced Sleep Phase Type\
+##h Advanced Sleep Phase Type\ <--@HEADER-->
 
-## Specifiers
+##h Specifiers <--@HEADER-->
 
 Advanced sleep phase type may be documented with the specified "famihal." Although the prevalence of familial advanced sleep phase type has not been established, a family history of advanced sleep phase is present in individuals with advanced sleep phase type.
 
@@ -810,113 +808,115 @@ In this type, specific mutations demonstrate an autosomal dominant mode of inher
 
 In the familial form, onset of symptoms may occur earlier (during childhood and early adulthood), the course is persistent, and the severity of symptoms may increase with age.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Advanced sleep phase type is characterized by sleep-wake times that are several hours earlier than desired or conventional times. Diagnosis is based primarily on a history of an advance in the timing of the major sleep period (usually more than 2 hours) in relation to the desired sleep and wake-up time, with symptoms of early morning insomnia and excessive daytime sleepiness. When allowed to set their schedule, individuals with advanced sleep phase type will exhibit normal sleep quality and duration for age.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Individuals with advanced sleep phase type are "morning types," having earlier sleep- wake times, with the timing of circadian biomarkers such as melatonin and core body temperature rhythms occurring 2-A hours earlier than normal. When required to keep a conventional schedule requiring a delay of bedtime, these individuals will continue to have an early rise time, leading to persistent sleep deprivation and daytime sleepiness. Use of hypnotics or alcohol to combat sleep-maintenance insomnia and stimulants to reduce daytime sleepiness may lead to substance abuse in these individuals.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 The estimated prevalence of advanced sleep phase type is approximately 1% in middle- age adults. Sleep-wake times and circadian phase advance in older individuals, probably accounting for increased prevalence in this population.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Onset is usually in late adulthood. In the familial form, onset can be earlier. The course is typically persistent, lasting more than 3 months, but the severity may increase depending on work and social schedules. The advanced sleep phase type is more common in older adults.
 
 Clinical expression may vary across the lifespan depending on social, school, and work obligations. Individuals who can alter their work schedules to accommodate the advanced circadian sleep and wake timing can experience remission of symptoms. Increasing age tends to advance the sleep phase, however, it is unclear whether the common age-associated advanced sleep phase type is due solely to a change in circadian timing (as seen in the familial form) or also to age-related changes in the homeostatic regulation of sleep, resulting in earlier awakening. Severity, remission, and relapse of symptoms suggest lack of adherence to behavioral and environmental treatments designed to control sleep and wake structure and light exposure.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Environmental. Decreased late aftemoon/early evening exposure to light and/or exposure to early morning light due to early morning awakening can increase the risk of advanced sleep phase type by advancing circadian rhythms. By going to bed early, these individuals are not exposed to light in the phase delay region of the curve, resulting in perpetuation of advanced phase. In familial advanced sleep phase type, a shortening of the endogenous circadian period can result in an advanced sleep phase, although circadian period does not appear to systematically decrease with age.
 
-Genetic and physiological. Advanced sleep phase type has demonstrated an autosomal dominant mode of inheritance, including a PER2 gene mutation causing hypophos- phorylation of the PER2 protein and a missense mutation in CKL ## Culture-Related Diagnostic issues
+Genetic and physiological. Advanced sleep phase type has demonstrated an autosomal dominant mode of inheritance, including a PER2 gene mutation causing hypophos- phorylation of the PER2 protein and a missense mutation in CKL 
+
+##h Culture-Related Diagnostic Issues <--@HEADER-->
 
 African Americans may have a shorter circadian period and larger magnitude phase advances to light than do Caucasians, possibly increasing the risk for development of advanced sleep phase type in this population.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 A sleep diary and actigraphy may be used as diagnostic markers, as described earlier for delayed sleep phase type.
 
-## Functional Consequences of Advanced Sieep Pliase Type
+##h Functional Consequences of Advanced Sleep Pliase Type <--@HEADER-->
 
 Excessive sleepiness associated with advanced sleep phase can have a negative effect on cognitive performance, social interaction, and safety. Use of wake-promoting agents to combat sleepiness or sedatives for early morning awakening may increase potential for substance abuse.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Other sleep disorders. Behavioral factors such as irregular sleep schedules, voluntary early awakening, and exposure to light in the early morning should be considered, particularly in older adults. Careful attention should be paid to rule out other sleep-wake disorders, such as insomnia disorder, and other mental disorders and medical conditions that can cause early morning awakening.
 
 Depressive and bipolar disorders. Because early morning awakening, fatigue, and sleepiness are prominent features of major depressive disorder, depressive and bipolar disorders must also be considered.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Medical conditions and mental disorders with the symptom of early morning awakening, such as insomnia, can co-occur with the advance sleep phase type.
 
-## Irregular Sleep-Wake Type
+##h Irregular Sleep-Wake Type <--@HEADER-->
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 The diagnosis of irregular sleep-wake type is based primarily on a history of symptoms of insomnia at night (during the usual sleep period) and excessive sleepiness (napping) during the day. Irregular sleep-wake type is characterized by a lack of discernable sleep-wakecircadian rhythm. There is no major sleep period, and sleep is fragmented into at least three periods d\iring the 24-hour day.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Individuals with irregular sleep-wake type typically present with insomnia or excessive sleepiness, depending on the time of day. Sleep and wake periods across 24 hours are fragmented, although the longest sleep period tends to occur between 2:00 A. M. and 6:00 A. M. and is usually less than 4 hours. A history of isolation or reclusion may occur in association with the disorder and contribute to the symptoms via a lack of external stimuli to help entrain a normal pattern. Individuals or their caregivers report frequent naps throughout the day. Irregular sleep-wake type is most commonly associated with neurodegenerative disorders, such as major neurocognitive disorder, and many neurodevelopmental disorders in children.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Prevalence of irregular sleep-wake type in the general population is unknown.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 The course of irregular sleep-wake type is persistent. Age at onset is variable, but the disorder is more common in older adults.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Temperamental. Neurodegenerative disorders, such as Alzheimer's disease, Parkinson's disease, and Huntington's disease, and neurodevelopmental disorders in children increase the risk for irregular sleep-wake type.
 
 Environmental. Decreased exposure to environmental light and structured daytime activity can be associated with a low-amplitude circadian rhythm. Hospitalized individuals are especially prone to such weak external entraining stimuli, and even outside the hospital setting, individuals with major neurocognitive disorder (i.e., dementia) are exposed to significantly less bright light.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 A detailed sleep history and a sleep diary (by a caregiver) or actigraphy help confirm the irregular sleep-wake pattern.
 
-## Functional Consequences of irregular Sleep-Wake Type
+##h Functional Consequences of irregular Sleep-Wake Type <--@HEADER-->
 
 Lack of a clearly discernible major sleep and wake period in irregular sleep-wake type results in insomnia or excessive sleepiness, depending on the time of day. Disruption of the caregiver's sleep also often occurs and is an important consideration.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Normative variations in sleep. Irregular sleep-wake type should be distinguished from a voluntary irregular sleep-wake schedule and poor sleep hygiene, which can result in insomnia and excessive sleepiness.
 
 Other medical conditions and mental disorders. Other causes of insomnia and daytime sleepiness, including comorbid medical conditions and mental disorders or medication, should be considered.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Irregular sleep-wake type is often comorbid with neurodegenerative and neurodevelop- mental disorders, such as major neurocognitive disorder, intellectual disability (intellectual developmental disorder), and traumatic brain injury. It is also comorbid with other medical conditions and mental disorders in which there is social isolation and/or lack of light and structured activities.
 
-## Non-24-Hour Sleep-Wake Type
+##h Non-24-Hour Sleep-Wake Type <--@HEADER-->
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 The diagnosis of non-24-hour sleep-wake type is based primarily on a history of symptoms of insomnia or excessive sleepiness related to abnormal synchronization between the 24-hour light-dark cycle and the endogenous circadian rhythm. Individuals typically present with periods of insomnia, excessive sleepiness, or both, which alternate with short asymptomatic periods. Starting with the asymptomatic period, when the individual's sleep phase is aligned to the external environment, sleep latency will gradually increase and the individual will complain of sleep-onset insomnia. As the sleep phase continues to drift so that sleep time is now in the daytime, the individual will have trouble staying awake during the day and will complain of sleepiness. Because the circadian period is not aligned to the external 24-hour environment, symptoms will depend on when an individual tries to sleep in relation to the circadian rhythm of sleep propensity.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Non-24-hour sleep-wake type is most common among blind or visually impaired individuals who have decreased light perception. In sighted individuals, there is often a history of delayed sleep phase and of decreased exposure to light and structured social and physical activity. Sighted individuals with non-24-hour sleep-wake type also demonstrate increased sleep duration.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Prevalence of non-24-hour sleep-wake type in the general population is unclear, but the disorder appears rare in sighted individuals. The prevalence in blind individuals is estimated to be 50%.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Course of non-24-hour sleep-wake type is persistent, with intermittent remission and exacerbations due to changes in work and social schedules throughout the lifespan. Age at onset is variable, depending on the onset of visual impairment. In sighted individuals, because of the overlap with delayed sleep phase type, non-24-hour sleep-wake type may develop in adolescence or early adulthood. Remission and relapse of symptoms in blind and sighted individuals largely depend on adherence to treatments designed to control sleep and wake structure and light exposure.
 
 Clinical expression may vary across the lifespan depending on social, school, and work obligations. In adolescents and adults, irregular sleep-wake schedules and exposure to light or lack of light at critical times of the day can exacerbate the effects of sleep loss and disrupt circadian entrainment. Consequently, symptoms of insomnia, daytime sleepiness, and school, professional, and interpersonal functioning may worsen.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Environmental. In sighted individuals, decreased exposure or sensitivity to light and social and physical activity cues may contribute to a free-running circadian rhythm. With thehigh frequency of mental disorders involving social isolation and cases of non-24-hour sleep-wake type developing after a change in sleep habits (e.g., night shift work, job loss), behavioral factors in combination with physiological tendency may precipitate and perpetuate this disorder in sighted individuals. Hospitalized individuals with neurological and psychiatric disorders can become insensitive to social cues, predisposing them to the development of non-24-hour sleep-wake type.
 
@@ -924,81 +924,77 @@ Genetic and physiological. Blindness is a risk factor for non-24-hour sleep-wake
 
 Non-24-hour sleep-wake type has been associated with traumatic brain injury.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Diagnosis is confirmed by history and sleep diary or actigraphy for an extended period.
 
 Sequential measurement of phase markers (e.g., melatonin) can help determine circadian phase in both sighted and blind individuals.
 
-## Functional Consequences of Non-24-Hour Sieep-Walce Type
+##h Functional Consequences of Non-24-Hour Sleep-Walce Type <--@HEADER-->
 
 Complaints of insomnia (sleep onset and sleep maintenance), excessive sleepiness, or both are prominent. The unpredictability of sleep and wake times (typically a daily delay drift) results in an inability to attend school or maintain a steady job and may increase potential for social isolation.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Circadian rhythm sleep-wake disorders. In sighted individuals, non-24-hour sleep-wake type should be differentiated from delayed sleep phase type, as individuals with delayed sleep phase type may display a similar progressive delay in sleep period for several days.
 
 Depressive disorders. Depressive symptoms and depressive disorders may result in similar circadian dysregulation and symptoms.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Blindness is often comorbid with non-24-hour sleep-wake type, as are depressive and bipolar disorders with social isolation.
 
-## Shift Work Type
+##h Shift Work Type <--@HEADER-->
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Diagnosis is primarily based on a history of the individual working outside of the normal 8:00 A. M. to 6:00 P. M. daytime window (particularly at night) on a regularly scheduled (i.e., non-overtime) basis. Symptoms of excessive sleepiness at work, and impaired sleep at home, on a persistent basis are prominent. Presence of both sets of symptoms are usually required for a diagnosis of shift work type. Typically, when the individual reverts to a daywork routine, symptoms resolve. Although the etiology is slightly different, individuals who travel across many time zones on a very frequent basis may experience effects similar to those experienced by individuals with shift work type who work rotating shifts.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 The prevalence of shift work type is unclear, but the disorder is estimated to affect 5%-10% of the night worker population (16%-20% of the workforce). Prevalence rises with advancement into middle-age and beyond (Drake et al. 2004).
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Shift work type can appear in individuals of any age but is more prevalent in individuals older than 50 years and typically worsens with the passage of time if the disruptive work hours persist. Although older adults may show similar rates of circadian phase adjustment to a change in routine as do younger adults, they appear to experience significantly more sleep disruption as a consequence of the circadian phase shift.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Temperamental. Predisposing factors include a morning-type disposition, a need for long (i.e., more than 8 hours) sleep durations in order to feel well rested, and strong competing social and domestic needs (e.g., parents of young children). Individuals who are able to commit to a nocturnal lifestyle, with few competing day-oriented demands, appear at lower risk for shift work type.
 
 Genetic and physiological. Because shift workers are more likely than day workers to be obese, obstructive sleep apnea may be present and may exacerbate the symptoms.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 A history and sleep diary or actigraphy may be useful in diagnosis, as discussed earlier for delayed sleep phase type.
 
-## Functional Consequences of Shift Worl( Type
+##h Functional Consequences of Shift Work Type <--@HEADER-->
 
 Individuals with shift work type not only may perform poorly at work but also appear to be at risk for accidents both at work and on the drive home. They may also be at risk for poor mental health (e.g., alcohol use disorder, substance use disorder, depression) and physical health (e.g., gastrointestinal disorders, cardiovascular disease, diabetes, cancer).
 
 Individuals with a history of bipolar disorder are particularly vulnerable to shift work type-related episodes of mania resulting from missed nights of sleep. Shift work type often results in interpersonal problems.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Normative variations in sleep with shift work. The diagnosis of shift work type, as opposed to the ''normal" difficulties of shift work, must depend to some extent on the severity of symptoms and/or level of distress experienced by the individual. Presence of shift work type symptoms even when the individual is able to live on a day-oriented routine for several weeks at a time may suggest the presence of other sleep disorders, such as sleep apnea, insomnia, and narcolepsy, which should be ruled out.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Shift work type has been associated with increased alcohol use disorder, other substance use disorders, and depression. A variety of physical health disorders (e.g., gastrointestinal disorders, cardiovascular disease, diabetes, cancer) have been found to be associated with prolonged exposure to shift work.
 
-## Relationship to International Classification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), differentiates nine circadian rhythm sleep disorders, including jet lag type.
 
-## Parasomnias
+##g Parasomnias <--@GROUP-->
 
 Parasomnias are disorders characterized by abnormal behavioral, experiential, or physiological events occurring in association with sleep, specific sleep stages, or sleep-wake transitions. The most common parasomnias—non-rapid eye movement (NREM) sleep arousal disorders and rapid eye movement (REM) sleep behavior disorder—represent admixtures of wakefulness and NREM sleep and wakefulness and REM sleep, respectively.
 
 These conditions serve as a reminder that sleep and wakefulness are not mutually exclusive and that sleep is not necessarily a global, whole-brain phenomenon.
 
-## Non-Rapid Eye Movement
+##d Non-rapid eye movement sleep arousal disorders <--@DIAGNOSIS-->
 
-## Sleep Arousal Disorders
-
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Recurrent episodes of incomplete awakening from sleep, usually occurring during the first third of the major sleep episode, accompanied by either one of the following:
 
@@ -1018,13 +1014,15 @@ F. Coexisting mental and medical disorders do not explain the episodes of sleepw
 
 Coding note: For ICD-9-CM, code 307.46 for all subtypes. For ICD-10-CM, code is basedon subtype.
 
-_Specify_ whether:
+Specify whether:
 
-307.46 (F51.3) Sleepwalking type _Specify_ if:
+307.46 (F51.3) Sleepwalking type Specify if:
 
 With sleep-related eating With sleep-related sexual behavior (sexsomnia)
 
-307.46 (F51.4) Sleep terror type ## Diagnostic Features
+307.46 (F51.4) Sleep terror type 
+
+##h Diagnostic Features <--@HEADER-->
 
 The essential feature of non-rapid eye movement (NREM) sleep arousal disorders is the repeated occurrence of incomplete arousals, usually beginning during the first third of the major sleep episode (Criterion A), that typically are brief, lasting 1-10 minutes, but may be protracted, lasting up to 1 hour. The maximum duration of an event is unknown. The eyes are typically open during these events. Many individuals exhibit both subtypes of arousals on different occasions, which underscores the unitary underlying pathophysiology. The subtypes reflect varying degrees of simultaneous occurrence of wakefulness and NREM sleep, resulting in complex behaviors arising from sleep with varying degrees of conscious awareness, motor activity, and autonomic activation.
 
@@ -1032,7 +1030,9 @@ The essential feature of sleepwalking is repeated episodes of complex motor beha
 
 The essential feature of sleep terrors is the repeated occurrence of precipitous awakenings from sleep, usually beginning with a panicky scream or cry (Criterion A2). Sleep terrors usually begin during the first third of the major sleep episode and last 1-10 minutes, but they may last considerably longer, particularly in children. The episodes are accompanied by impressive autonomic arousal and behavioral manifestations of intense fear.
 
-During an episode, the individual is difficult to awaken or comfort. If the individual awakens after the sleep terror, little or none of the dream, or only fragmentary, single images, are recalled. During a typical episode of sleep terrors, the individual abruptly sits up in bed screaming or crying, with a frightened expression and autonomic signs of intense anxiety (e.g., tachycardia, rapid breathing, sweating, dilation of the pupils). The individual may be inconsolable and is usually unresponsive to the efforts of others to awaken or comfort him or her. Sleep terrors are also called "night terrors" or "pavor nocturnus." ## Associated Features Supporting Diagnosis
+During an episode, the individual is difficult to awaken or comfort. If the individual awakens after the sleep terror, little or none of the dream, or only fragmentary, single images, are recalled. During a typical episode of sleep terrors, the individual abruptly sits up in bed screaming or crying, with a frightened expression and autonomic signs of intense anxiety (e.g., tachycardia, rapid breathing, sweating, dilation of the pupils). The individual may be inconsolable and is usually unresponsive to the efforts of others to awaken or comfort him or her. Sleep terrors are also called "night terrors" or "pavor nocturnus." 
+
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Sleepwalking episodes can include a wide variety of behaviors. Episodes may begin with confusion: the individual may simply sit up in bed, look about, or pick at the blanket or sheet. This behavior then becomes progressively complex. The individual may actually leave the bed and walk into closets, out of the room, and even out of buildings. Individuals may use the bathroom, eat, talk, or engage in more complex behaviors. Running and frantic attempts to escape some apparent threat can also occur. Most behaviors during sleepwalking episodes are routine and of low complexity. However, cases of unlocking doors and even operating machinery (driving an automobile) have been reported. Sleepwalking can also include inappropriate behavior (e.g., commonly, urinating in a closet or wastebasket). Most episodes last for several minutes to a half hour but may be more protracted.
 
@@ -1042,17 +1042,17 @@ There are two "specialized" forms of sleepwalking: sleep-related eating behavior
 
 During a typical episode of sleep terrors, there is often a sense of overwhelming dread, with a compulsion to escape. Although fragmentary vivid dream images may occur, a storylike dream sequence (as in nightmares) is not reported. Most commonly, the individual does not awaken fully, but returns to sleep and has amnesia for the episode on awakening the next morning. Usually only one episode will occur on any one night. Occasionally several episodes may occur at intervals throughout the night. These events rarely arise during daytime naps.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Isolated or infrequent NREM sleep arousal disorders are very common in the general population. From 10% to 30% of children have had at least one episode of sleepwalking, and 2%-3% sleepwalk often. The prevalence of sleepwalking disorder, marked by repeated episodes and impairment or distress, is much lower, probably in the range of l%-5%. The prevalence of sleepwalking episodes (not sleepwalking disorder) is 1.0%-7.0% among adults, with weekly to monthly episodes occurring in 0.5%-0.7%. The lifetime prevalence of sleepwalking in adults is 29.2%, with a past-year prevalence of sleepwalking of 3.6%.
 
 The prevalence of sleep terrors in the general population is unknown. The prevalence of sleep terror episodes (as opposed to sleep terror disorder, in which there is recurrence and distress or impairment) is approximately 36.9% at 18 months of age, 19.7% at 30 months of age, and 2.2% in adults.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 NREM sleep arousal disorders occur most commonly in childhood and diminish in frequency with increasing age. The onset of sleepwalking in adults with no prior history of sleepwalking as children should prompt a search for specific etiologies, such as obstructive sleep apnea, nocturnal seizures, or effect of medication.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Environmental. Sedative use, sleep deprivation, sleep-wake schedule disruptions, fatigue, and physical or emotional stress increase the likelihood of episodes. Fever and sleep deprivation can produce an increased frequency of NREM sleep arousal disorders.
 
@@ -1060,7 +1060,7 @@ Genetic and physiological. A family history for sleepwalking or sleep terrors ma
 
 Individuals with sleep terrors frequently have a positive family history of either sleep terrors or sleepwalking, with as high as a 10-fold increase in the prevalence of the disorder among first-degree biological relatives. Sleep terrors are much more common in monozygotic twins as compared with dizygotic twins. The exact mode of inheritance is unknown.
 
-## Gender-Related Diagnostic Issues
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Violent or sexual activity during sleepwalking episodes is more likely to occur in adults.
 
@@ -1068,17 +1068,17 @@ Eating during sleepwalking episodes is more commonly seen in females. Sleepwalki
 
 Older children and adults provide a more detailed recollection of fearful images associated with sleep terrors than do younger children, who are more likely to have complete amnesia or report only a vague sense of fear. Among children, sleep terrors are more common in males than in females. Among adults, the sex ratio is even.
 
-## Diagnostic IVIaricers
+##h Diagnostic Markers <--@HEADER-->
 
 NREM sleep arousal disorders arise from any stage of NREM sleep but most commonly from deep NREM sleep (slow-wave sleep). They are most likely to appear in the first third of the night and do not commonly occur during daytime naps. During the episode, the polysomnogram may be obscured with movement artifact. In the absence of such artifact, the electroencephalogram typically shows theta or alpha frequency activity during the episode, indicating partial or incomplete arousal.
 
 Polysomnography in conjunction with audiovisual monitoring can be used to document episodes of sleepwalking. In the absence of actually capturing an event during a polysomno- graphic recording, there are no polysomnographic features that can serve as a marker for sleepwalking. Sleep deprivation may increase the likelihood of capturing an event. As a group, individuals who sleepwalk show instability of deep NREM sleep, but the overlap in findings with individuals who do not sleepwalk is great enough to preclude use of this indicator in establishing a diagnosis. Unlike arousals from REM sleep associated with nightmares, in which there is an increase in heart rate and respiration prior to the arousal, the NREM sleep arousals of sleep terrors begin precipitously from sleep, without anticipatory autonomic changes. The arousals are associated with impressive autonomic activity, with doubling or tripling of the heart rate. The pathophysiology is poorly understood, but there appears to be instability in the deeper stages of NREM sleep. Absent capturing an event during a formal sleep study, there are no reliable polysomnographic indicators of the tendency to experience sleep terrors.
 
-## Functional Consequences of Non-REIVI Sleep Arousal Disorders
+##h Functional Consequences of Non-REM Sleep Arousal Disorders <--@HEADER-->
 
 For the diagnosis of a NREM sleep arousal disorder to be made, the individual or household members must experience clinically significant distress or impairment, although pa- rasomnia symptoms may occur occasionally in nonclinical populations and would be subthreshold for the diagnosis. Embarrassment concerning the episodes can impair social relationships. Social isolation or occupational difficulties can result. The determination of a "disorder" depends on a number of factors, which may vary on an individual basis and will depend on the frequency of events, potential for violence or injurious behaviors, embarrassment, or disruption/distress of other household members. Severity determination is best made based on the nature or consequence of the behaviors rather than simply on frequency. Uncommonly, NREM sleep arousal disorders may result in serious injury to the individual or to someone trying to console the individual. Injuries to others are confined to those in close proximity; individuals are not "sought out." Typically, sleepwalking in both children and adults is not associated with significant mental disorders. For individuals with sleep-related eating behaviors, unknowingly preparing or eating food during the sleep period may create problems such as poor diabetes control, weight gain, injury (cuts and bums), or consequences of eating dangerous or toxic inedibles. NREM sleep arousal disorders may rarely result in violent or injurious behaviors with forensic implications.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Nightmare disorder. In contrast to individuals with NREM sleep arousal disorders, individuals with nightmare disorder typically awaken easily and completely, report vivid storyhke dreams accompanying the episodes, and tend to have episodes later in the night.
 
@@ -1102,21 +1102,19 @@ Medication-induced complex behaviors. Behaviors similar to those in NREM sleep a
 
 Night eating syndrome. The sleep-related eating disorder form of sleepwalking is to be differentiated from night eating syndrome, in which there is a delay in the circadian rhythm of food ingestion and an association with insomnia and/or depression.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 In adults, there is an association between sleepwalking and major depressive episodes and obsessive-compulsive disorder. Children or adults with sleep terrors may have elevated scores for depression and anxiety on personality inventories.
 
-## Relationship to international Classification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 The International Classification o f Sleep Disorders, 2nd Edition, includes "confusional arousal" as a NREM sleep arousal disorder.
 
-## Nightmare Disorder
+##d Nightmare disorder <--@DIAGNOSIS-->
 
 307.47 (F51.5)
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Repeated occurrences of extended, extremely dysphoric, and well-remembered dreams that usually involve efforts to avoid threats to survival, security, or physical integrity and that generally occur during the second half of the major sleep episode.
 
@@ -1128,15 +1126,15 @@ D. The nightmare symptoms are not attributable to the physiological effects of a
 
 E. Coexisting mental and medical disorders do not adequately explain the predominant complaint of dysphoric dreams.
 
-_Specify_ if:
+Specify if:
 
 ## During sleep onset
 
-_Specify_ if:
+Specify if:
 
 With associated non-sleep disorder, including substance use disorders With associated other medical condition With associated other sleep disorder Coding note: The code 307.47 (F51.5) applies to all three specifiers. Code also the relevant associated mental disorder, medical condition, or other sleep disorder immediately after the code for nightmare disorder in order to indicate the association.
 
-_Specify_ if:
+Specify if:
 
 Acute: Duration of period of nightmares is 1 month or less.
 
@@ -1144,9 +1142,9 @@ Subacute: Duration of period of nightmares is greater than 1 month but less than
 
 Persistent: Duration of period of nightmares is 6 months or greater.
 
-_Specify_ current severity:
+Specify current severity:
 
-## Severity can be rated by the frequency with which the nightmares occur:
+Severity can be rated by the frequency with which the nightmares occur:
 
 Mild: Less than one episode per week on average.
 
@@ -1154,7 +1152,7 @@ Moderate: One or more episodes per week but less than nightly.
 
 Severe: Episodes nightly.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Nightmares are typically lengthy, elaborate, story like sequences of dream imagery that seem real and that incite anxiety, fear, or other dysphoric emotions. Nightmare content typically focuses on attempts to avoid or cope with imminent danger but may involve themes that evoke other negative emotions. Nightmares occurring after traumatic experiences may replicate the threatening situation ("'replicative nightmares"), but most do not.
 
@@ -1162,7 +1160,7 @@ On awakening, nightmares are well remembered and can be described in detail. The
 
 Nightmares usually terminate with awakening and rapid return of full alertness. However, the dysphoric emotions may persist into wakefulness and contribute to difficulty returning to sleep and lasting daytime distress. Some nightmares, known as "bad dreams," may not induce awakening and are recalled only later. If nightmares occur during sleep- onset REM periods (hypnagogic), the dysphoric emotion is frequently accompanied by a sense of being both awake and unable to move voluntarily {isolated sleep paralysis).
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Mild autonomic arousal, including sweating, tachycardia, and tachypnea, may characterize nightmares. Body movements and vocalizations are not characteristic because of REM sleep-related loss of skeletal muscle tone, but such behaviors may occur under situations of emotional stress or sleep fragmentation and in posttraumatic stress disorder (PTSD).
 
@@ -1170,17 +1168,17 @@ When talking or emoting occurs, it is typically a brief event terminating the ni
 
 Individuals with frequent nightmares are at substantially greater risk for suicidal ideation and suicide attempts, even when gender and mental illness are taken into account.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 Prevalence of nightmares increases through childhood into adolescence. From 1.3% to 3.9% of parents report that their preschool children have nightmares "often" or "always".
 
 Prevalence increases from ages 10 to 13 for both males and females but continues to increase to ages 20-29 for females (while decreasing for males), when it can be twice as high for females as for males. Prevalence decreases steadily with age for both sexes, but the gender difference remains. Among adults, prevalence of nightmares at least monthly is 6%, whereas prevalence for frequent nightmares is l%-2%. Estimates often combine idiopathic and posttraumatic nightmares indiscriminately.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Nightmares often begin between ages 3 and 6 years but reach a peak prevalence and severity in late adolescence or early adulthood. Nightmares most likely appear in children exposed to acute or chronic psychosocial stressors and thus may not resolve spontaneously. In a minority, frequent nightmares persist into adulthood, becoming virtually a lifelong disturbance. Although specific nightmare content may reflect the individual's age, the essential features of the disorder are the same across age groups.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Temperamental. Individuals who experience nightmares report more frequent past adverse events, but not necessarily trauma, and often display personality disturbances or psychiatric diagnosis.
 
@@ -1190,23 +1188,23 @@ Genetic and physiological. Twin studies have identified genetic effects on the d
 
 Course modifiers. Adaptive parental bedside behaviors, such as soothing the child following nightmares, may protect against developing chronic nightmares.
 
-## Culture-Related Diagnostic issues
+##h Culture-Related Diagnostic Issues <--@HEADER-->
 
 The significance attributed to nightmares may vary by culture, and sensitivity to such beliefs may facilitate disclosure.
 
-## Gender-Related Diagnostic Issues
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Adult females report having nightmares more frequently than do adult males. Nightmare content differs by sex, with adult females tending to report themes of sexual harassment or of loved ones disappearing/dying, and adult males tending to report themes of physical aggression or war/terror.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Polysomnographie studies demonstrate abrupt awakenings from REM sleep, usually during the second half of the night, prior to report of a nightmare. Heart, respiratory, and eye movement rates may quicken or increase in variability before awakening. Nightmares following traumatic events may also arise during non-REM (NREM), particularly stage 2, sleep. The typical sleep of individuals with nightmares is mildly impaired (e.g., reduced efficiency, less slow- wave sleep, more awakenings), with more frequent periodic leg movements in sleep and relative sympathetic nervous system activation after REM sleep deprivation.
 
-## Functional Consequences of Niglitmare Disorder
+##h Functional Consequences of Niglitmare Disorder <--@HEADER-->
 
 Nightmares cause more significant subjective distress than demonstrable social or occupational impairment. However, if awakenings are frequent or result in sleep avoidance, individuals may experience excessive daytime sleepiness, poor concentration, depression, anxiety, or irritability. Frequent childhood nightmares (e.g., several per week), may cause significant distress to parents and child.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Sleep terror disorder. Both nightmare disorder and sleep terror disorder include awakenings or partial awakenings with fearfulness and autonomic activation, but the two disorders are differentiable. Nightmares typically occur later in the night, during REM sleep, and produce vivid, storylike, and clearly recalled dreams; mild autonomic arousal; and complete awakenings. Sleep terrors typically arise in the first third of the night during stage 3 or 4 NREM sleep and produce either no dream recall or images without an elaborate storylike quality. The terrors lead to partial awakenings that leave the individual confused, disoriented, and only partially responsive and with substantial autonomic arousal.
 
@@ -1228,7 +1226,7 @@ Sleep-related dissociative disorders. Individuals may recall actual physical or 
 
 Medication or substance use. Numerous substances/medications can precipitate nightmares, including dopaminergics; beta-adrenergic antagonists and other antihypertensives; amphetamine, cocaine, and other stimulants; antidepressants; smoking cessation aids; and melatonin. Withdrawal of REM sleep-suppressant medications (e.g., antidepressants) and alcohol can produce REM sleep rebound accompanied by nightmares. If nightmares are sufficiently severe to warrant independent clinical attention, a diagnosis of substance/ medication-induced sleep disorder should be considered.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Nightmares may be comorbid with several medical conditions, including coronary heart disease, cancer, parkinsonism, and pain, and can accompany medical treatments, such as hemodialysis, or withdrawal from medications or substances of abuse. Nightmares frequently are comorbid with other mental disorders, including PTSD; insomnia disorder; schizophrenia; psychosis; mood, anxiety, adjustment, and personality disorders; and grief during bereavement. A concurrent nightmare disorder diagnosis should only be considered when independent clinical attention is warranted (i.e Criteria A-C are met). Otherwise, no separate diagnosis is necessary. These conditions should be listed under the appropriate comorbid category specifier. However, nightmare disorder may be diagnosed as a separate disorder in individuals with PTSD if the nightmares are temporally unrelated to PTSD (i.e., preceding other PTSD symptoms or persisting after other PTSD symptoms have resolved).
 
@@ -1236,15 +1234,15 @@ Nightmares are normally characteristic of REM sleep behavior disorder, PTSD, and
 
 ## Relationsliip to internationai Ciassification of
 
-## Sieep Disorders
+## Sleep Disorders
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), presents similar diagnostic criteria for nightmare disorder.
 
-## Rapid Eye Movement Sleep Behavior Disorder
+##d Rapid eye movement sleep behavior disorder <--@DIAGNOSIS-->
 
 327.42 (G47.52)
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. Repeated episodes of arousal during sleep associated with vocalization and/or complex motor behaviors.
 
@@ -1264,37 +1262,37 @@ F. The disturbance is not attributable to the physiological effects of a substan
 
 G. Coexisting mental and medical disorders do not explain the episodes.
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 The essential feature of rapid eye movement (REM) sleep behavior disorder is repeated episodes of arousal, often associated with vocalizations and/or complex motor behaviors arising from REM sleep (Criterion A). These behaviors often reflect motor responses to the content of action-filled or violent dreams of being attacked or trying to escape from a threatening situation, which may be termed dream enacting behaviors. The vocalizations are often loud, emotion-filled, and profane. These behaviors may be very bothersome to the individual and the bed partner and may result in significant injury (e.g., falling, jumping, or flying out of bed; running, punching, thrusting, hitting, or kicking). Upon awakening, the individual is immediately awake, alert, and oriented (Criterion C) and is often able to recall dream mentation, which closely correlates with the observed behavior. The eyes typically remain closed during these events. The diagnosis of REM sleep behavior disorder requires clinically significant distress or impairment (Criterion E); this determination will depend on a number of factors, including the frequency of events, the potential for violence or injurious behaviors, embarrassment, and distress in other household members.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Severity determination is best made based on the nature or consequence of the behavior rather than simply on frequency. Although the behaviors are typically prominent and violent, lesser behaviors may also occur.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
 The prevalence of REM sleep behavior disorder is approximately 0.38%-0.5% in the general population. Prevalence in patients with psychiatric disorders may be greater, possibly related to medications prescribed for the psychiatric disorder.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 The onset of REM sleep behavior disorder may be gradual or rapid, and the course is usually progressive. REM sleep behavior disorder associated with neurodegenerative disorders may improve as the underlying neurodegenerative disorder progresses. Because of the very high association with the later appearance of an underlying neurodegenerative disorder, most notably one of the synucleinopathies (Parkinson's disease, multiple system atrophy, or major or mild neurocognitive disorder with Lewy bodies), the neurological status of individuals with REM sleep behavior disorder should be closely monitored.
 
 REM sleep behavior disorder overwhelmingly affects males older than 50 years, but increasingly this disorder is being identified in females and in younger individuals. Symptoms in young individuals, particularly young females, should raise the possibility of narcolepsy or medication-induced REM sleep behavior disorder.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Genetic and physiologicaL Many widely prescribed medications, including tricyclic antidepressants, selective serotonin reuptake inhibitors, serotonin-norepinephrine reuptake inhibitors, and beta-blockers, may result in polysomnographic evidence of REM sleep w îthout atonia and in frank REM sleep behavior disorder. It is not known whether the medications per se result in REM sleep behavior disorder or they unmask an underlying predisposition.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Associated laboratory findings from polysomnography indicate increased tonic and/or phasic electromyographic activity during REM sleep that is normally associated with muscle atonia. The increased muscle activity variably affects different muscle groups, mandating more extensive electromyographic monitoring than is employed in conventional sleep studies. For this reason, it is suggested that electromyographic monitoring include the submen- talis, bilateral extensor digitorum, and bilateral anterior tibialis muscle groups. Continuous video monitoring is mandatory. Other polysomnographic findings may include very frequent periodic and aperiodic extremity electromyography activity during non-REM (NREM) sleep. This polysomnography observation, termed REM sleep without atonia, is present in virtually all cases of REM sleep behavior disorder but may also be an asymptomatic polysomnographic finding. Clinical dream-enacting behaviors coupled with the polysomnographic finding of REM without atonia is necessary for the diagnosis of REM sleep behavior disorder. REM sleep without atonia without a clinical history of dream-enacting behaviors is simply an asymptomatic polysomnographic observation. It is not known whether isolated REM sleep without atonia is a precursor to REM sleep behavior disorder.
 
-## Functional Consequences of Rapid Eye IViovement Sieep Behavior Disorder
+##h Functional Consequences of Rapid Eye IViovement Sleep Behavior Disorder <--@HEADER-->
 
 REM sleep behavior disorder may occur in isolated occasions in otherwise unaffected individuals. Embarrassment concerning the episodes can impair social relationships. Individuals may avoid situations in which others might become aware of the disturbance, visiting friends overnight, or sleeping with bed partners. Social isolation or occupational difficulties can result. Uncommonly, REM sleep behavior disorder may result in serious injury to the victim or to the bed partner.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Other parasomnias. Confusional arousals, sleepwalking, and sleep terrors can easily be confused with REM sleep behavior disorder. In general, these disorders occur in younger individuals. Unlike REM sleep behavior disorder, they arise from deep NREM sleep and therefore tend to occur in the early portion of the sleep period. Awakening from a confusional arousal is associated with confusion, disorientation, and incomplete recall of dream mentation accompanying the behavior. Polysomnographic monitoring in the disorders of arousal reveals normal REM atonia.
 
@@ -1308,23 +1306,21 @@ Unlike virtually all other parasomnias, which arise precipitously from NREM or R
 
 Malingering. Many cases of malingering in which the individual reports problematic sleep movements perfectly mimic the clinical features of REM sleep behavior disorder, and polysonmographic documentation is mandatory.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 REM sleep behavior disorder is present concurrently in approximately 30% of patients with narcolepsy. When it occurs in narcolepsy, the demographics reflect the younger age range of narcolepsy, with equal frequency in males and females. Based on findings from individuals presenting to sleep clinics, most individuals (>50%) with initially "'idiopathic" REM sleep behavior disorder will eventually develop a neurodegenerative disease—most notably, one of the synucleinopathies (Parkinson's disease, multiple system atrophy, or major or mild neurocognitive disorder with Lewy bodies). REM sleep behavior disorder often predates any other sign of these disorders by many years (often more than a decade).
 
-## Relationship to International Classification of
-
-## Sleep Disorders
+##h Relationship to International Classification of Sleep Disorders <--@HEADER-->
 
 ## REM sleep behavior disorder is virtually identical to REM sleep behavior disorder in the
 
 International Classification of Sleep Disorders, 2nd Edition (ICSD-2).
 
-## Restless Legs Syndrome
+##d Restless legs syndrome <--@DIAGNOSIS-->
 
 333.94 (G25.81)
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. An urge to move the legs, usually accompanied by or in response to uncomfortable and unpleasant sensations in the legs, characterized by all of the following:
 
@@ -1342,19 +1338,19 @@ D. The symptoms in Criterion A are not attributable to another mental disorder o
 
 E. The symptoms are not attributable to the physiological effects of a drug of abuse or medication (e.g., akathisia).
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 Restless legs syndrome (RLS) is a sensorimotor, neurological sleep disorder characterized by a desire to move the legs or arms, usually associated with uncomfortable sensations typically described as creeping, crawling, tingling, burning, or itching (Criterion A). The diagnosis of RLS is based primarily on patient self-report and history. Symptoms are worse when the individual is at rest, and frequent movements of the legs occur in an effort to relieve the uncomfortable sensations. Symptoms are worse in the evening or night, and in some individuals they occur only in the evening or night. Evening worsening occurs independently of any differences in activity. It is important to differentiate RLS from other conditions such as positional discomfort and leg cramps (Criterion D).
 
 The symptoms of RLS can delay sleep onset and awaken the individual from sleep and are associated with significant sleep fragmentation. The relief obtained from moving the legs may no longer be apparent in severe cases. RLS is associated with daytime sleepiness and is frequently accompanied by significant clinical distress or functional impairment.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 Periodic leg movements in sleep (PLMS) can serve as corroborating evidence for RLS, with up to 90% of individuals diagnosed with RLS demonstrating PLMS when recordings are taken over multiple nights. Periodic leg movements during wakefulness are supportive of an RLS diagnosis. Reports of difficulty initiating and maintaining sleep and of excessive daytime sleepiness may also support the diagnosis of RLS. Additional supportive features include a family history of RLS among first-degree relatives and a reduction in symptoms, at least initially, with dopaminergic treatment.
 
-## Prevalence
+##h Prevalence <--@HEADER-->
 
-## Prevalence rates of RLS vary widely when broad criteria are utilized but range from 2% to
+##h Prevalence rates of RLS vary widely when broad criteria are utilized but range from 2% to <--@HEADER-->
 
 7.2% when more defined criteria are employed. When frequency of symptoms is at least three times per week with moderate or severe distress, the prevalence rate is 1.6%; when frequency of symptoms is a minimum of one time per week, the prevalence rate is 4.5%.
 
@@ -1362,7 +1358,7 @@ Females are 1.5-2 times more likely than males to have RLS. RLS also increases w
 
 The prevalence of RLS may be lower in Asian populations.
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 The onset of RLS typically occurs in the second or third decade. Approximately 40% of individuals diagnosed with RLS during adulthood report having experienced symptoms before age 20 years, and 20% report having experienced symptoms before age 10 years.
 
@@ -1374,7 +1370,7 @@ While Criterion A for adults assumes that the description of "urge to move" is b
 
 Nocturnal worsening tends to persist even in the context of pediatric RLS. As with RLS in adults, there is a significant negative impact on sleep, mood, cognition, and function. Impairment in children and adolescents is manifested more often in behavioral and educational domains.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Genetic and physiological. Predisposing factors include female gender, advancing age, genetic risk variants, and family history of RLS. Precipitating factors are often time- limited, such as iron deficiency, with most individuals resuming normal sleep patterns after the initial triggering event has disappeared. Genetic risk variants also play a role in RLS secondary to such disorders as uremia, suggesting that individuals with a genetic susceptibility develop RLS in the presence of further risk factors. RLS has a strong familial component.
 
@@ -1382,41 +1378,41 @@ There are defined pathophysiological pathways subserving RLS. Genome-wide associ
 
 Pathophysiological mechanisms in RLS also include disturbances in the central dopaminergic system and disturbances in iron metabolism. The endogenous opiate system may also be involved. Treatment effects of dopaminergic drugs (primarily D2 and D3 nonergot agonists) provide further support that RLS is grounded in dysfunctional central dopaminergic pathways. While the effective treatment of RLS has also been shown to significantly reduce depressive symptoms, serotonergic antidepressants can induce or aggravate RLS in some individuals.
 
-## Gender-Related Diagnostic issues
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Although RLS is more prevalent in females than in males, there are no diagnostic differences according to gender. However, the prevalence of RLS during pregnancy is two to three times greater than in the general population. RLS associated with pregnancy peaks during the third trimester and improves or resolves in most cases soon after delivery. The gender difference in prevalence of RLS is explained at least in part by parity, with nullipa- rous females being at the same risk of RLS as age-matched males.
 
-## Diagnostic Markers
+##h Diagnostic Markers <--@HEADER-->
 
 Polysomnography demonstrates significant abnormalities in RLS, commonly increased latency to sleep, and higher arousal index. Polysomnography with a preceding immobilization test may provide an indicator of the motor sign of RLS, periodic limb movements, under standard conditions of sleep and during quiet resting, both of which can provoke RLS symptoms.
 
-## Functional Consequences of Restless Legs Syndrome
+##h Functional Consequences of Restless Legs Syndrome <--@HEADER-->
 
 Forms of RLS severe enough to significantly impair functioning or associated with mental disorders, including depression and anxiety, occur in approximately 2%-3% of the population.
 
 Although the impact of milder symptoms is less well characterized, individuals with RLS complain of disruption in at least one activity of daily living, with up to 50% reportinga negative impact on mood, and 47.6% reporting a lack of energy. The most common consequences of RLS are sleep disturbance, including reduced sleep time, sleep fragmentation, and overall disturbance; depression, generalized anxiety disorder, panic disorder, and posttraumatic stress disorder; and quality-of-life impairments. RLS can result in daytime sleepiness or fatigue and is frequently accompanied by significant distress or impairment in affective, social, occupational, educational, academic, behavioral, or cognitive functioning.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 The most important conditions in the differential diagnosis of RLS are leg cramps, positional discomfort, arthralgias/arthritis, myalgias, positional ischemia (numbness), leg edema, peripheral neuropathy, radiculopathy, and habitual foot tapping. ''Knotting" of the muscle (cramps), relief with a single postural shift, limitation to joints, soreness to palpation (myalgias), and other abnormalities on physical examination are not characteristic of RLS. Unlike RLS, nocturnal leg cramps do not typically present with the desire to move the limbs nor are there frequent limb movements. Less common conditions to be differentiated from RLS include neuroleptic-induced akathisia, myelopathy, symptomatic venous insufficiency, peripheral artery disease, eczema, other orthopedic problems, and anxiety- induced restlessness. Worsening at night and periodic limb movements are more connmon in RLS than in medication-induced akathisia or peripheral neuropathy.
 
 While is it important that RLS symptoms not be solely accounted for by another medical or behavioral condition, it should also be appreciated that any of these similar conditions can occur in an individual with RLS. This necessitates a separate focus on each possible condition in the diagnostic process and when assessing impact. For cases in which tiie diagnosis of RLS is not certain, evaluation for the supportive features of RLS, particularly PLMS or a family history of RLS, may be helpful. Clinical features, such as response to a dopaminergic agent and positive family history for RLS, can help with the differential diagnosis.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 Depressive disorders, anxiety disorders, and attentional disorders are commonly comor- bid with RLS and are discussed in the section "Functional Consequences of Restless Legs Syndrome." The main medical disorder comorbid with RLS is cardiovascular disease.
 
 There may be an association with numerous other medical disorders, including hypertension, narcolepsy, migraine, Parkinson's disease, multiple sclerosis, peripheral neuropathy, obstructive sleep apnea, diabetes mellitus, fibromyalgia, osteoporosis, obesity, thyroid disease, and cancer. Iron deficiency, pregnancy, and chronic renal failure are also comorbid with RLS.
 
-## Reiationsliip to internationai Ciassification of
+##h Relationship to internationai Ciassification of <--@HEADER-->
 
-## Sieep Disorders
+## Sleep Disorders
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), presents similar diagnostic criteria for RLS but does not contain a criterion specifying frequency or duration of symptoms.
 
-## Substance/Medication-Induced Sleep Disorder
+##d Substance/medication-induced sleep disorder <--@DIAGNOSIS-->
 
-## Diagnostic Criteria
+##h Diagnostic Criteria <--@HEADER-->
 
 A. A prominent and severe disturbance in sleep.
 
@@ -1438,7 +1434,7 @@ Note: This diagnosis should be made instead of a diagnosis of substance intoxica
 
 Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced sleep disorders are indicated in the table below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced sleep disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced sleep disorder (e.g., “mild cocaine use disorder with cocaine-induced sleep disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced sleep disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced sleep disorder. A moderate or severe tobacco use disorder is required in order to code a tobacco-induced sleep disorder; it is not permissible to code a comorbid mild tobacco use disorder or no tobacco use disorder with a tobacco-induced sleep disorder.
 
-_Specify_ whether:
+Specify whether:
 
 Insomnia type: Characterized by difficulty falling asleep or maintaining sleep, frequent nocturnal awakenings, or nonrestorative sleep.
 
@@ -1446,7 +1442,7 @@ Daytime sleepiness type: Characterized by predominant complaint of excessive sle
 
 Parasomnia type: Characterized by abnormal behavioral events during sleep. Mixed type: Characterized by a substance/medication-induced sleep problem characterized by multiple types of sleep symptoms, but no symptom clearly predominates.
 
-_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+Specify if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: This specifier should be used if criteria are met for intoxication with the substance/medication and symptoms developed during the intoxication period.
 
@@ -1454,9 +1450,13 @@ With onset during discontinuation/withdrawal: This specifier should be used if c
 
 ## ICD-9-CM
 
-With use disorder, mild ## ICD-IO-CM
+With use disorder, mild 
 
-With use disorder, moderate or severe Withoutusedisorder Alcohol 291.82 F10.182 F10.282 FI 0.982 Caffeine 292.85 F15.182 FI 5.282 F15.982 Cannabis 292.85 F12.188 FI 2.288 FI 2.988 Opioid 292.85 F11.182 F11.282 F11.982 Sedative, hypnotic, or anxiolytic 292.85 F13.182 FI 3.282 FI 3.982 Amphetamine (or other stimulant)292.85 F15.182 FI 5.282 FI 5.982 Cocaine 292.85 F14.182 FI 4.282 FI 4.982 Tobacco 292.85 NA F17.208 NA Other (or unknown) substance 292.85 FI 9.182 FI 9.282 FI 9.982 ## Recording Procedures
+## ICD-IO-CM
+
+With use disorder, moderate or severe Withoutusedisorder Alcohol 291.82 F10.182 F10.282 FI 0.982 Caffeine 292.85 F15.182 FI 5.282 F15.982 Cannabis 292.85 F12.188 FI 2.288 FI 2.988 Opioid 292.85 F11.182 F11.282 F11.982 Sedative, hypnotic, or anxiolytic 292.85 F13.182 FI 3.282 FI 3.982 Amphetamine (or other stimulant)292.85 F15.182 FI 5.282 FI 5.982 Cocaine 292.85 F14.182 FI 4.282 FI 4.982 Tobacco 292.85 NA F17.208 NA Other (or unknown) substance 292.85 FI 9.182 FI 9.282 FI 9.982 
+
+##h Recording Procedures <--@HEADER-->
 
 ICD-9-CM. The name of the substance/medication-induced sleep disorder begins with the specific substance (e.g., cocaine, bupropion) that is presumed to be causing the sleep disturbance. The diagnostic code is selected from the table included in the criteria set, which is based on the drug class. For substances that do not fit into any of the classes (e.g., bupropion), the code for "other substance" should be used; and in cases in which a substance is judged to be an etiological factor but the specific class of substance is unknown, the category "unknown substance" should be used.
 
@@ -1466,13 +1466,13 @@ ICD-10-CM. The name of the substance/medication-induced sleep disorder begins wi
 
 When recording the name of the disorder, the comorbid substance use disorder (if any) is listed first, followed by the word "with," followed by the name of the substance-induced sleep disorder, followed by the specification of onset (i.e., onset during intoxication, onsetduring discontinuation/withdrawal), followed by the subtype designation (i.e., insomnia type, daytime sleepiness type, parasomnia type, mixed type). For example, in the case of insomnia occurring during withdrawal in a man with a severe lorazepam use disorder, the diagnosis is F13.282 severe lorazepam use disorder with lorazepam-induced sleep disorder, with onset during withdrawal, insomnia type. A separate diagnosis of the comorbid severe lorazepam use disorder is not given. If the substance-induced sleep disorder occurs without a comorbid substance use disorder (e.g., with medication use), no accompanying substance use disorder is noted (e.g., F19.982 bupropion-induced sleep disorder, with onset during medication use, insomnia type). When more than one substance is judged to play a significant role in the development of the sleep disturbance, each should be listed separately (e.g., F10.282 severe alcohol use disorder with alcohol-induced sleep disorder, with onset during intoxication, insomnia type; F14.282 severe cocaine use disorder with cocaine-induced sleep disorder, with onset during intoxication, insomnia type).
 
-## Diagnostic Features
+##h Diagnostic Features <--@HEADER-->
 
 ## The essential feature of substance/medication-induced sleep disorder is a prominent sleep disturbance that is sufficiently severe to warrant independent clinical attention (Criterion A) and that is judged to be primarily associated with the pharmacological effects of a substance (i.e., a drug of abuse, a medication, toxin exposure) (Criterion B). Depending on the substance involved, one of four types of sleep disturbances is reported. Insomnia type and daytime sleepiness type are most common, while parasomnia type is seen less often. The mixed type is noted when more than one type of sleep disturbance-related symptom is present and none predominates. The disturbance must not be better explained by another sleep disorder
 
 (Criterion C). A substance/medication-induced sleep disorder is distinguished from insomnia disorder or a disorder associated with excessive daytime sleepiness by considering onset and course. For drugs of abuse, there must be evidence of intoxication or withdrawal from the history, physical examination, or laboratory findings. Substance/medication-induced sleep disorder arises only in association with intoxication or discontinuation/withdrawal states, whereas other sleep disorders may precede the onset of substance use or occur during times of sustained abstinence. As discontinuation/withdrawal states for some substances can be protracted, onset of the sleep disturbance can occur 4 weeks after cessation of substance use, and the disturbance may have features atypical of other sleep disorders (e.g., atypical age at onset or course). The diagnosis is not made if the sleep disturbance occurs only during a delirium (Criterion D). The symptoms must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning (Criterion E). This diagnosis should be made instead of a diagnosis of substance intoxication or substance withdrawal only when the symptoms in Criterion A predominate in the clinical picture and when the symptoms warrant independent clinical attention.
 
-## Associated Features Supporting Diagnosis
+##h Associated Features Supporting Diagnosis <--@HEADER-->
 
 During periods of substance/medication use, intoxication, or withdrawal, individuals frequently complain of dysphoric mood, including depression and anxiety, irritability, cognitive impairment, inability to concentrate, and fatigue.
 
@@ -1500,35 +1500,35 @@ Tobacco. Chronic tobacco consumption is associated primarily with symptoms of in
 
 Other or unknown substances/medications. Other substances/medications may produce sleep disturbances, particularly medications that affect the central or autonomic nervous systems (e.g., adrenergic agonists and antagonists, dopamine agonists and antagonists, cholinergic agonists and antagonists, serotonergic agonists and antagonists, antihistamines, corticosteroids).
 
-## Development and Course
+##h Development and Course <--@HEADER-->
 
 Insomnia in children can be identified by either a parent or the child. Often the child has a clear sleep disturbance associated with initiation of a medication but may not report symptoms, although parents observe the sleep disturbances. The use of some illicit substances (e.g., cannabis, ecstasy) is prevalent in adolescence and early adulthood. Insomnia or any other sleep disturbance encountered in this age group should prompt careful consideration of whether the sleep disturbance is due to consumption of these substances.
 
 Help-seeking behavior for the sleep disturbance in these age groups is limited, and thus corroborative report may be elicited from a parent, caregiver, or teacher. Older individuals take more medications and are at increased risk for developing a substance/medication- induced sleep disorder. They may interpret sleep disturbance as part of normal aging and fail to report symptoms. Individuals with major neurocognitive disorder (e.g., dementia) are at risk for substance/medication-induced sleep disorders but may not report symptoms, making corroborative report from caregiver(s) particularly important.
 
-## Risk and Prognostic Factors
+##h Risk and Prognostic Factors <--@HEADER-->
 
 Risk and prognostic factors involved in substance abuse/dependence or medication use are normative for certain age groups. They are relevant for, and likely applicable to, the type of sleep disturbance encountered (see the chapter "Substance-Related and Addictive Disorders" for descriptions of respective substance use disorders).
 
 Temperamental. Substance use generally precipitates or accompanies insomnia in vulnerable individuals. Thus, presence of insomnia in response to stress or change in sleep environment or timing can represent a risk for developing substance/medication-induced sleep disorder. A similar risk may be present for individuals with other sleep disorders (e.g., individuals with hypersomnia who use stimulants).
 
-## Culture-Related Diagnostic issues
+##h Culture-Related Diagnostic Issues <--@HEADER-->
 
 The consumption of substances, including prescribed medications, may depend in part on cultural background and specific local drug regulations.
 
-## Gender-Related Diagnostic issues
+##h Gender-Related Diagnostic Issues <--@HEADER-->
 
 Gender-specific prevalences (i.e., females affected more than males at a ratio of about 2:1) exist for patterns of consumption of some substances (e.g., alcohol). The same amount and duration of consumption of a given substance may lead to highly different sleep-related outcomes in males and females based on, for example, gender-specific differences in hepatic functioning.
 
-## Diagnostic IViarkers
+##h Diagnostic Markers <--@HEADER-->
 
 Each of the substance/medication-induced sleep disorders produces electroencephalo- graphic sleep patterns that are associated with, but cannot be considered diagnostic of, other disorders. The electroencephalographic sleep profile for each substance is related to the stage of use, whether intake/intoxication, chronic use, or withdrawal following discontinuation of the substance. All-night polysomnography can help define the severity of insomnia complaints, while the multiple sleep latency test provides information about Üie severity of daytime sleepiness. Monitoring of nocturnal respiration and periodic limb movements with polysomnography may verify a substance's impact on nocturnal breathing and motor behavior. Sleep diaries for 2 weeks and actigraphy are considered helpful in confirming the presence of substance/medication-induced sleep disorder. Drug screening can be of use when the individual is not aware or unwilling to relate information about substance intake.
 
-## Functional Consequences of Substance/Medication-induced Sleep Disorder
+##h Functional Consequences of Substance/Medication-induced Sleep Disorder <--@HEADER-->
 
 While there are many functional consequences associated with sleep disorders, the only unique consequence for substance/medication-induced sleep disorder is increased risk for relapse. The degree of sleep disturbance during alcohol withdrawal (e.g., REM sleep rebound predicts risk of relapse of drinking). Monitoring of sleep quality and daytime sleepiness during and after withdrawal may provide clinically meaningful information on whether an individual is at increased risk for relapse.
 
-## Differential Diagnosis
+##h Differential Diagnosis <--@HEADER-->
 
 Substance intoxication or substance withdrawal. Sleep disturbances are commonly encountered in the context of substance intoxication or substance discontinuation/withdrawal. A diagnosis of substance/medication-induced sleep disorder should be made instead of a diagnosis of substance intoxication or substance withdrawal only when the sleep disturbance is predominant in the clinical picture and is sufficiently severe to warrant independent clinical attention.
 
@@ -1538,13 +1538,13 @@ Other sleep disorders. A substance/medication-induced sleep disorder is distingu
 
 Sleep disorder due to another medical condition. Substance/medication-induced sleep disorder and sleep disorder associated with another medical condition may produce similar symptoms of insomnia, daytime sleepiness, or a parasomnia. Many individuals with other medical conditions that cause sleep disturbance are treated with medications that may also cause sleep disturbances. The chronology of symptoms is the most important factor in distinguishing between these two sources of sleep symptoms. Difficulties with sleep that clearly preceded the use of any medication for treatment of a medical condition wouldsuggest a diagnosis of sleep disorder associated with another medical condition. Conversely, sleep symptoms that appear only after the initiation of a particular medication/ substance suggest a substance/medication-induced sleep disorder. If the disturbance is comorbid with another medical condition and is also exacerbated by substance use, both diagnoses (i.e., sleep disorder associated with another medical condition and substance/ medication-induced sleep disorder) are given. When there is insufficient evidence to determine whether the sleep disturbance is attributable to a substance/medication or to another medical condition or is primary (i.e., not due to either a substance/medication or another medical condition), a diagnosis of other specified sleep-wake disorder or unspecified sleep-wake disorder is indicated.
 
-## Comorbidity
+##h Comorbidity <--@HEADER-->
 
 See the "Comorbidity" sections for other sleep disorders in this chapter, including insomnia, hypersomnolence, central sleep apnea, sleep-related hypoventilation, and circadian rhythm sleep-wake disorders, shift work type.
 
 ## Relationsliip to internationai Ciassification of
 
-## Sieep Disorders
+## Sleep Disorders
 
 The International Classification of Sleep Disorders, 2nd Edition (ICSD-2), lists sleep disorders "due to drug or substance" under their respective phenotypes (e.g., insonmia, hypersomnia).
 

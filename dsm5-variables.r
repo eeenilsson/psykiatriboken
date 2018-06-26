@@ -28,6 +28,7 @@ listHeaders <- c(
 "Risk and Prognostic Factors",
 "Culture-Related Diagnostic Issues",
 "Gender-Related Diagnostic Issues",
+"Gender-Related Issues",
 "Suicide Risk",
 "Functional Consequences of",
 "Differential Diagnosis",
@@ -35,11 +36,18 @@ listHeaders <- c(
 "Comorbidity",
 "Specifiers for",
 "Relationship to Other Classifications",
+"Relationship to",
 "Specifiers for Depressive Disorders",
 "Features",
 "Associated Features",
 ## Custom headers
-"Introduction to" ## for intro sections
+"Introduction to", ## for intro sections
+## Sub-diagnoses that are to be kept as headers on same level as diagnosis
+"Delayed Sleep Phase Type",
+"Advanced Sleep Phase Type",
+"Irregular Sleep-Wake Type",
+"Non-24-Hour Sleep-Wake Type",
+"Shift Work Type"
 )
 
 #### List groups
@@ -53,8 +61,10 @@ groupList <- c(
     "Motor Disorders",
     "Other Neurodevelopmental Disorders",
      ## Schizophrenia
-    "Catatonia"
+    "Catatonia",
     ## Bipolar: None
     ## Depressive: None
+    ## Other
+    "Breathing-Related Sleep Disorders",
+    "Parasomnias"
 )
-

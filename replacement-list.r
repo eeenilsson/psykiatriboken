@@ -21,6 +21,9 @@ spellList <- list(
     'Risic' = "Risk",
     'Risl\\(' = "Risk",
     'icnown' = "known",
+    'internatlonai' = "international",
+    'Reiationsliip' = "Relationship",
+    'Sieep' = "Sleep",
     'Mari\\(ers' = "Markers",
     'iVlaricers' = "Markers",
     'IViarkers' = "Markers",
@@ -28,6 +31,7 @@ spellList <- list(
     'IVIaricers' = "Markers",
     'Maricers' = "Markers",
     'Marlcers' = "Markers",
+    'l..larl\\(ers' = "Markers",
     'iViotor' = "Motor",
     'lUliid' = "Mild",
     'Miid' = "Mild",
@@ -87,5 +91,7 @@ spellList <- list(
     'Dereallzation' = "Derealization",
     'psyctiological' = "psychological",
     'psychoiogicai' = "psychological",
-    'Intaice' = "Intake"
+    'Intaice' = "Intake",
+    'Worl\\(' = "Work",
+    "REIVI" = "REM"
 )
