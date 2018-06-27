@@ -180,9 +180,7 @@ V65.40 (Z71.9) Other Counseling or Consultation This category should be used whe
 
 ##g Problems Related to Other Psychosocial, Personal, and Environmental Circumstances <--@GROUP-->
 
-V62.89 (Z65.8)
-
- Religious or Spiritual Problem This category can be used when the focus of clinical attention is a religious or spiritual problem. Examples include distressing experiences that involve loss or questioning of faith, problems associated with conversion to a new faith, or questioning of spiritual values that may not necessarily be related to an organized church or religious institution.
+V62.89 (Z65.8)  Religious or Spiritual Problem This category can be used when the focus of clinical attention is a religious or spiritual problem. Examples include distressing experiences that involve loss or questioning of faith, problems associated with conversion to a new faith, or questioning of spiritual values that may not necessarily be related to an organized church or religious institution.
 
 V61.7 (Z64.0) Problems Related to Unwanted Pregnancy V61.5 (Z64.1) Problems Related to Multiparity V62.89 (Z64.4) Discord With Social Service Provider, Including Probation Officer, Case Manager, or Social Services Worker V62.89 (Z65.4) Victim of Terrorism or Torture V62.22 (Z65.5) Exposure to Disaster, War, or Other Hostilities V62.89 (Z65.8) Other Problem Related to Psychosocial Circumstances V62.9 (Z65.9) Unspecified Problem Related to Unspecified Psychosocial Circumstances 
 

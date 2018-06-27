@@ -666,7 +666,7 @@ The timing and sequence of parkinsonism and mild NCD may be more difficult to de
 
 Lewy body pathology frequently coexists with Alzheimer's disease and cerebrovascular disease pathology, particularly among the oldest age groups. In Alzheimer's disease, there is concomitant synuclein pathology in 60% of cases (if amygdala-restricted cases are included). In general, there is a higher rate of Lewy body pathology in individuals with dementia than in older individuals without dementia.
 
-## Major or Mild Vascular Neurocognitive Disorder
+##g Major or Mild Vascular Neurocognitive Disorder <--@GROUP-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 

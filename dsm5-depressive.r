@@ -2,8 +2,6 @@
 chapterTitle <- "Depressive Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
 
-source('replacement-list.r') ## ## Diagnostic Marlcers not replaced??
-
 ## Depressive disorders intro
 depressiveIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 193) ## "Depressive disorders". ## Note: remove last part
 depressiveIntro <- paste(depressiveIntro, collapse = "")

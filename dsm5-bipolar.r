@@ -4,8 +4,6 @@
 chapterTitle <- "Bipolar and Related Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
 
-source('replacement-list.r')
-
 ### Bipolar disorders intro
 bipolarIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 161) ## "Bipolar disorders". ## Note: remove last part
 bipolarIntro <- paste(bipolarIntro, collapse = "")

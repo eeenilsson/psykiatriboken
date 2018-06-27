@@ -872,7 +872,7 @@ Personality change due to another medical condition. Obsessive-compulsive person
 
 Substance use disorders. Obsessive-compulsive personality disorder must also be distinguished from symptoms that may develop in association with persistent substance use.
 
-## Other Personality Disorders
+##g Other Personality Disorders <--@GROUP-->
 
 ##d Personality change due to another medical condition <--@DIAGNOSIS-->
 

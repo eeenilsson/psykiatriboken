@@ -30,7 +30,7 @@ source('dsm5-variables.r')
 ## source("dsm5-schizophrenia.r") ## Note: Added Tic Disordes as diagnosis
 ## source("dsm5-bipolar.r")
 ## source('dsm5-depressive.r')
-## source('dsm5-obssive.r')
+## source('dsm5-obsessive.r')
 ## source('dsm5-anxiety.r')
 ## source('dsm5-trauma.r')
 ## source('dsm5-dissociative.r')
@@ -52,21 +52,21 @@ source('dsm5-variables.r')
 ## list al scripts in section II
 dsmFiles <- c(
     "neurodevelopmental",
-    "schizophrenia",
-    "bipolar",
-    "depressive",
-    "obssive",
-    "anxiety",
-    "trauma",
-    "dissociative",
-    "somatic",
-    "feeding",
-    "elimination",
-    "sleep",
-    "sexual",
-    "gender",
-    "impulse",
-    "substance",
+   "schizophrenia",
+   "bipolar",
+  ## "depressive",
+    ## "obsessive",
+    ## "anxiety",
+    ## "trauma",
+    ## "dissociative",
+    ## "somatic",
+    ## "feeding",
+    ## "elimination",
+    ## "sleep",
+    ## "sexual",
+    ## "gender",
+    ## "impulse",
+    ## "substance",
     "neurocognitive",
     "personality",
     "paraphilic",
@@ -78,15 +78,19 @@ dsmFiles <- c(
 ## Make list of all chapter contents
 allChapters <- list()
 for (q in 1:length(dsmFiles)){
+    print(paste("**** Sourcing", paste("dsm5-", dsmFiles[q], ".r", sep=""), sep=" "))
     source(
         paste("dsm5-", dsmFiles[q], ".r", sep="")
     )
+    print(paste("Get ", paste(dsmFiles[q], "Main", sep=""), sep = " "))
     allChapters <- c(allChapters,
                           get(paste(dsmFiles[q], "Main", sep=""))
                      )
-    allChapters[[q]][2] <- chapterTitle
-    allChapters[[q]][3] <- pageIndex[chapterTitle]
+    ## allChapters[[q]][2] <- chapterTitle
+    ## allChapters[[q]][3] <- pageIndex[chapterTitle]
+    print(paste("Removing", paste(dsmFiles[q], "Main", sep=""), sep = " "))
     do.call("rm", list(paste(dsmFiles[q], "Main", sep="")))
+    print(chapterTitle)
     
 }
 
