@@ -6,11 +6,11 @@ This discussion covers other conditions and problems that may be a focus of clin
 
 The conditions and problems listed in this chapter are not mental disorders. Their inclusion in DSM-5 is meant to draw attention to the scope of additional issues that may be encountered in routine clinical practice and to provide a systematic listing that may be useful to clinicians in documenting these issues.
 
-## Relational Problems
+##g Relational Problems <--@GROUP-->
 
 Key relationships, especially intimate adult partner relationships and parent/caregiver- child relationships, have a significant impact on the health of the individuals in these relationships. These relationships can be health promoting and protective, neutral, or detrimental to health outcomes. In the extreme, these close relationships can be associated with maltreatment or neglect, which has significant medical and psychological consequences for the affected individual. A relational problem may come to clinical attention either as the reason that the individual seeks health care or as a problem that affects the course, prognosis, or treatment of the individual's mental or other medical disorder.
 
-## Problems Related to Family Upbringing
+##h Problems Related to Family Upbringing <--@HEADER-->
 
 V61.20 (Z62.820) Parent-Child Relational Problem For this category, the term parent is used to refer to one of the child's primary caregivers, who may be a biological, adoptive, or foster parent or may be another relative (such as a grandparent) who fulfills a parental role for the child. This category should be used when the main focus of clinical attention is to address the quality of the parent-child relationship or when the quality of the parent-child relationship is affecting the course, prognosis, or treatment of a mental or other medical disorder. Typically, the parent-child relational problem is associated with impaired functioning in behavioral, cognitive, or affective domains. Examples of behavioral problems include inadequate parental control, supervision, and involvement with the child; parental overprotection; excessive parental pressure; arguments that escalate to threats of physical violence; and avoidance without resolution of problems. Cognitive problems may include negative attributions of the other's intentions, hostility toward or scapegoating of the other, and unwarranted feelings of estrangement.
 
@@ -30,7 +30,7 @@ V61.8 (Z63.8) High Expressed Emotion Level Withn Family Expressed emotion is a c
 
 V62.82 (Z63.4) Uncomplicated Bereavement This category can be used when the focus of clinical attention is a normal reaction to the death of a loved one. As part of their reaction to such a loss, some grieving individuals present with symptoms characteristic of a major depressive episode—for example, feelings of sadness and associated symptoms such as insomnia, poor appetite, and weight loss. The berea>(ed individual typically regards the depressed mood as "normal", although the individual may seek professional help for relief of associated symptoms such as insomnia or anorexia. The duration and expression of "normal" bereavement vary considerably among different cultural groups. Further guidance in distinguishing grief from a major depressive episode is provided in the criteria for major depressive episode.
 
-## Abuse and Neglect
+##g Abuse and Neglect <--@GROUP-->
 
 Maltreatment by a family member (e.g., caregiver, intimate adult partner) or by a nonrelative can be the area of current clinical focus, or such maltreatment can be an important factor in the assessment and treatment of patients with mental or other medical disorders.
 
@@ -44,7 +44,7 @@ For T codes only, the 7th character should be coded as follows:
 
 A (initial encounter)—Use while the patient is receiving active treatment for the condition (e.g., surgical treatment, emergency department encounter, evaluation and treatment by a new clinician); or D (subsequent encounter)—Use for encounters after the patient has received active treatment for the condition and when he or she is receiving routine care for the condition during the healing or recovery phase (e.g., cast change or removal, removal of external or internal fixation device, medication adjustment, other aftercare and follow-up visits).
 
-## Child Maltreatm ent and Neglect Problems
+##g Child Maltreatment and Neglect Problems <--@GROUP-->
 
 ##d Child physical abuse <--@DIAGNOSIS-->
 
@@ -86,7 +86,7 @@ Child Psychological Abuse, Confirmed995.51 (T74.32XA) Initial encounter995.51 (T
 
 V61.21 (Z69.010) Encounter for mental health services for victim of child psychological abuse by parent V61.21 (Z69.020) Encounter for mental health services for victim of nonparental child psychological abuse VI 5.42 (Z62.811 ) Personal history (past history) of psychological abuse in childhood V61.22 (Z69.011 ) Encounter for mental health services for peφetrator of parental child psychological abuse V62.83 (Z69.021 ) Encounter for mental health services for perpetrator of nonparental child psychological abuse 
 
-## Adult Maltreatm ent and Neglect Problems
+##g Adult Maltreatment and Neglect Problems <--@GROUP-->
 
 Spouse or Partner Violence, Physical This category should be used when nonaccidental acts of physical force that result, or have reasonable potential to result, in physical harm to an intimate partner or that evoke significant fear in the partner have occurred during the past year. Nonaccidental acts of physical force include shoving, slapping, hair pulling, pinching, restraining, shaking, throwing, biting, kicking, hitting with the fist or an object, burning, poisoning, applying force to the throat, cutting off the air supply, holding the head under water, and using a weapon. Acts for the purpose of physically protecting oneself or one's partner are excluded.
 
@@ -102,11 +102,15 @@ Spouse or Partner Neglect, Confirmed995.85 (T74.01 XA) Initial encounter995.85 (
 
 ##d Other circumstances related to spouse or partner neglect <--@DIAGNOSIS-->
 
-V61.11 (Z69.11) Encounter for mental health services for victim of spouse or partner neglect V15.42 (Z91.412) Personal history (past history) of spouse or partner neglect V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouse or partner neglect Spouse or Partner Abuse, Psychological Partner psychological abuse encompasses nonaccidental verbal or symbolic acts by one partner that result, or have reasonable potential to result, in significant harm to the other partner. This category should be used when such psychological abuse has occurred during the past year. Acts of psychological abuse include berating or humiliating the victim; interrogating the victim; restricting tiie victim's ability to come and go freely; obstructing the victim's access to assistance (e.g., law enforcement; legal, protective, or medical resources); threatening the victim with physical harm or sexual assault; harming, or threatening to harm, people or things that the victim cares about; unwarranted restriction of the victim's access to or use of economic resources; isolating the victim from family, friends, or social support resources; stalking the victim; and trying to make the victim think that he or she is crazy.
+V61.11 (Z69.11) Encounter for mental health services for victim of spouse or partner neglect V15.42 (Z91.412) Personal history (past history) of spouse or partner neglect V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouse or partner neglect
+
+ ##d Spouse or partner abuse, Psychological <--@DIAGNOSIS-->
+
+ Partner psychological abuse encompasses nonaccidental verbal or symbolic acts by one partner that result, or have reasonable potential to result, in significant harm to the other partner. This category should be used when such psychological abuse has occurred during the past year. Acts of psychological abuse include berating or humiliating the victim; interrogating the victim; restricting tiie victim's ability to come and go freely; obstructing the victim's access to assistance (e.g., law enforcement; legal, protective, or medical resources); threatening the victim with physical harm or sexual assault; harming, or threatening to harm, people or things that the victim cares about; unwarranted restriction of the victim's access to or use of economic resources; isolating the victim from family, friends, or social support resources; stalking the victim; and trying to make the victim think that he or she is crazy.
 
 Spouse or Partner Abuse, Psychological, Confirmed995.82 (T74.31 XA) Initial encounter995.82 (174.31 XD) Subsequent encounter Spouse or Partner Abuse, Psychological, Suspected995.82 (T76.31 XA) Initial encounter995.82 (T76.31XD) Subsequent encounter Other Circumstances Related to Spouse or Partner Abuse, Psychological V61.11 (Z69.11) Encounter for mental health services for victim of spouse or partner psychological abuse V15.42 (Z91.411 ) Personal history (past history) of spouse or partner psychological abuse V61.12 (Z69.12) Encounter for mental health services for perpetrator of spouse or partner psychological abuse 
 
-## Adult Abuse by Nonspouse or Nonpartner
+##h Adult Abuse by Nonspouse or Nonpartner <--@HEADER-->
 
 These categories should be used when an adult has been abused by another adult who is not an intimate partner. Such maltreatment may involve acts of physical, sexual, or emotional abuse. Examples of adult abuse include nonaccidental acts of physical force (e.g., pushing/shoving, scratching, slapping, throwing something that could hurt, punching, biting) that have resulted—or have reasonable potential to result—in physical harm or have caused significant fear; forced or coerced sexual acts; and verbal or symbolic acts with the potential to cause psychological harm (e.g., berating or humiliating the person; interrogating the person; restricting the person's ability to come and go freely; obstructing the person's access to assistance; threatening the person; harming or threatening to harm people or things that the person cares about; restricting the person's access to or use of economic resources; isolating the person from family, friends, or social support resources; stalking the person; trying to make the person think that he or she is crazy). Acts for the purpose of physically protecting oneself or the other person are excluded.
 
@@ -116,7 +120,7 @@ Adult Physical Abuse by Nonspouse or Nonpartner, Confirmed995.81 (T74.11XA) Init
 
 V65.49 (Z69.81 ) Encounter for mental health services for victim of nonspousal or nonpartner adult abuse V62.83 (Z69.82) Encounter for mental health services for perpetrator of nonspousal or nonpartner adult abuse 
 
-## Educational and Occupational Problems
+##g Educational and Occupational Problems <--@GROUP-->
 
 ## Educational Problems
 
@@ -130,7 +134,7 @@ V62.21 (Z56.82) Problem Related to Current Military Deployment Status This categ
 
 V62.29 (Z56.9) Other Problem Related to Employment This category should be used when an occupational problem is the focus of clinical attention or has an impact on the individual's treatment or prognosis. Areas to be considered include problems with employment or in the work environment, including unemployment; recent change of job; threat of job loss; job dissatisfaction; stressful work schedule; uncertainty about career choices; sexual harassment on the job; other discord with boss, supervisor, co-workers, or others in the work environment; uncongenial or hostile work environments; other psychosocial stressors related to work; and any other problems related to employment and/or occupation.
 
-## Housing and Economic Problems
+##g Housing and Economic Problems <--@GROUP-->
 
 ## Housing Problems
 
@@ -148,7 +152,7 @@ V60.2 (Z59.4) Lack of Adequate Food or Safe Drinking Water V60.2 (Z59.5) Extreme
 
 V60.9 (Z59.9) Unspecified Housing or Economic Problem This category should be used when there is a problem related to housing or economic circumstances other than as specified above.
 
-## Other Problems Related to the Social Enviroriment
+##g Other Problems Related to the Social Environment <--@GROUP-->
 
 V62.89 (Z60.0) Phase of Life Problem This category should be used when a problem adjusting to a life-cycle transition (a particular developmental phase) is the focus of clinical attention or has an impact on the individual's treatment or prognosis. Examples of such transitions include entering or completing school, leaving parental control, getting married, starting a new career, becoming a parent, adjusting to an "empty nest" after children leave home, and retiring.
 
@@ -162,23 +166,27 @@ V62.4 (Z60.5) Target of (Perceived) Adverse Discrimination or Persecution This c
 
 V62.9 (Z60.9) Unspecified Problem Related to Social Environment This category should be used when there is a problem related to the individual's social environment other than as specified above.
 
-## Problems Related to Crime or Interaction
+##g Problems Related to Crime or Interaction <--@GROUP-->
 
 With the Legal System V62.89 (Z65.4) Victim of Crime V62.5 (Z65.0) Conviction in Civil or Criminal Proceedings Without Imprisonment V62.5 (Z65.1) Imprisonment or Other Incarceration V62.5 (Z65.2) Problems Related to Release From Prison V62.5 (Z65.3) Problems Related to Other Legal Circumstances 
 
-## Other Health Service Encounters for
-
-## Counseling and Medical Advice
+##g Other Health Service Encounters for Counseling and Medical Advice <--@GROUP-->
 
 V65.49 (Z70.9) Sex Counseling This category should be used when the individual seeks counseling related to sex education, sexual behavior, sexual orientation, sexual attitudes (embarrassment, timidity), others' sexual behavior or orientation (e.g., spouse, partner, child), sexual enjoyment, or any other sex-related issue.
 
 V65.40 (Z71.9) Other Counseling or Consultation This category should be used when counseling is provided or advice/consultation is sought for a problem that is not specified above or elsewhere in this chapter. Examples include spiritual or religious counseling, dietary counseling, and counseling on nicotine use.
 
-Problems Related to Other Psychosocial, Personal, and Environmental Circumstances V62.89 (Z65.8) Religious or Spiritual Problem This category can be used when the focus of clinical attention is a religious or spiritual problem. Examples include distressing experiences that involve loss or questioning of faith, problems associated with conversion to a new faith, or questioning of spiritual values that may not necessarily be related to an organized church or religious institution.
+
+
+##g Problems Related to Other Psychosocial, Personal, and Environmental Circumstances <--@GROUP-->
+
+V62.89 (Z65.8)
+
+ Religious or Spiritual Problem This category can be used when the focus of clinical attention is a religious or spiritual problem. Examples include distressing experiences that involve loss or questioning of faith, problems associated with conversion to a new faith, or questioning of spiritual values that may not necessarily be related to an organized church or religious institution.
 
 V61.7 (Z64.0) Problems Related to Unwanted Pregnancy V61.5 (Z64.1) Problems Related to Multiparity V62.89 (Z64.4) Discord With Social Service Provider, Including Probation Officer, Case Manager, or Social Services Worker V62.89 (Z65.4) Victim of Terrorism or Torture V62.22 (Z65.5) Exposure to Disaster, War, or Other Hostilities V62.89 (Z65.8) Other Problem Related to Psychosocial Circumstances V62.9 (Z65.9) Unspecified Problem Related to Unspecified Psychosocial Circumstances 
 
-## Other Circumstances of Personal History
+##g Other Circumstances of Personal History <--@GROUP-->
 
 V15.49 (Z91.49) Other Personal History of Psychological Trauma V15.59 (Z91.5) Personal History of Self-Harm V62.22 (Z91.82) Personal History of Military Deployment V15.89 (Z91.89) Other Personal Risk Factors V69.9 (Z72.9) Problem Related to Lifestyle This category should be used when a lifestyle problem is a specific focus of treatment or directly affects the course, prognosis, or treatment of a mental or other medical disorder. Examples of lifestyle problems include lack of physical exercise, inappropriate diet, high-risk sexual behavior, and poor sleep hygiene. A problem that is attributable to a symptom of a mental disorder should not be coded unless that problem is a specific focus of treatment or directly affects the course, prognosis, or treatment of the individual. In such cases, both the mental disorder and the lifestyle problem should be coded.
 

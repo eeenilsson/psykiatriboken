@@ -31,6 +31,7 @@ source('dsm5-variables.r')
 ## source("dsm5-bipolar.r")
 ## source('dsm5-depressive.r')
 ## source('dsm5-obssive.r')
+## source('dsm5-anxiety.r')
 ## source('dsm5-trauma.r')
 ## source('dsm5-dissociative.r')
 ## source('dsm5-somatic.r')
@@ -45,43 +46,12 @@ source('dsm5-variables.r')
 ## source('dsm5-personality.r') ## split by groups and diagnosis
 ## source('dsm5-paraphilic.r')
 ## source('dsm5-other.r')
-## source('dsm5-medication?.r')
-
-## ======================================================
-
-## List of Section II chapters:
-## Neurodevelopmental Disorders	 31
-## Schizophrenia Spectrum and Other Psychotic Disorders	87
-## Bipolar and Related Disorders	 123
-## Depressive Disorders	155
-## Anxiety Disorders	189
-## Obsessive-Compulsive and Related Disorders	 235
-## Trauma- and Stressor-Related Disorders	265
-## Dissociative Disorders	291
-## Somatic Symptom and Related Disorders	 309
-## Feeding and Eating Disorders	 329
-## Elimination Disorders	355
-## Sleep-Wake Disorders	361
-## Sexual Dysfunctions	423
-## Gender Dysphoria	451
-## Disruptive, Impulse-Control, and Conduct Disorders	461
-## Substance-Related and Addictive Disorders	 481
-## Neurocognitive Disorders	 591
-## Personality Disorders	645
-## Paraphilic Disorders	685
-## Other Mental Disorders	 707
-## Medication-Induced Movement Disorders and Other Adverse Effects of Medication	 709
-## Other Conditions That May Be a Focus of Clinical Attention 	 715
+## source('dsm5-medication.r')
+## source('dsm5-focus.r') ## Split by group
 
 ## Join chapters =========
 ## text <- readr::read_file('somaticMain.txt')
 ## chapterName <- getSection("##i ", "\n", text)
-
-##i Introduction to Somatic Symptom and Related Disorders
-
-text <- "##i Introduction to Somatic Symptom and Related Disorders\n\nSomatic symptom disorder and other disorders with prominent somatic symptoms constitute a new category in DSM-5 called somatic symptom and related disorders. This chapter includes the diag"
-
-x
 
 ## TODO
 ## make subheaders of all headers not starting with "##h"
@@ -89,8 +59,13 @@ x
 ## Note: Do this after cleaning hashlists
 ## depressiveMain <- gsub("(?<=\n)##[[:blank:]]", "### ", depressiveMain, perl=T)
 ## see makeBib.
-
 ## Remove surplus newlines (more that two in row, at start of file, at end of file)
+
+## Section III Emerging Measures and Models
+## source(dsm5-emerging.r) ## Not edited, lots of tables
+
+## Appendix
+## source(dsm5-glossary.r) ## needs some more work
 
 ## Notes
 
@@ -150,7 +125,37 @@ x
 ## add "icd10 to parens containing these diagnoses"
 
 ## test
-test <- substr(neurodevelopmentalMain, 1, 25000)
+## test <- substr(neurodevelopmentalMain, 1, 25000)
+
+##i Introduction to Somatic Symptom and Related Disorders
+
+## text <- "##i Introduction to Somatic Symptom and Related Disorders\n\nSomatic symptom disorder and other disorders with prominent somatic symptoms constitute a new category in DSM-5 called somatic symptom and related disorders. This chapter includes the diag"
+
+## ======================================================
+
+## List of Section II chapters:
+## Neurodevelopmental Disorders	 31
+## Schizophrenia Spectrum and Other Psychotic Disorders	87
+## Bipolar and Related Disorders	 123
+## Depressive Disorders	155
+## Anxiety Disorders	189
+## Obsessive-Compulsive and Related Disorders	 235
+## Trauma- and Stressor-Related Disorders	265
+## Dissociative Disorders	291
+## Somatic Symptom and Related Disorders	 309
+## Feeding and Eating Disorders	 329
+## Elimination Disorders	355
+## Sleep-Wake Disorders	361
+## Sexual Dysfunctions	423
+## Gender Dysphoria	451
+## Disruptive, Impulse-Control, and Conduct Disorders	461
+## Substance-Related and Addictive Disorders	 481
+## Neurocognitive Disorders	 591
+## Personality Disorders	645
+## Paraphilic Disorders	685
+## Other Mental Disorders	 707
+## Medication-Induced Movement Disorders and Other Adverse Effects of Medication	 709
+## Other Conditions That May Be a Focus of Clinical Attention 	 715
 
 
 ## TODO ================================

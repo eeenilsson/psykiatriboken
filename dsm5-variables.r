@@ -61,7 +61,10 @@ listHeaders <- c(
 "Shift Work Type",
 "Neurocognitive Domains",
 "Major Neurocognitive Disorder",
-"Mild Neurocognitive Disorder")
+"Mild Neurocognitive Disorder",
+"Problems Related to Family Upbringing",
+"Spouse or Partner Abuse, Psychological",
+"Adult Abuse by Nonspouse or Nonpartner")
 
 #### List groups
 groupList <- c(
@@ -110,5 +113,16 @@ groupList <- c(
     "Cluster A Personality Disorders",
     "Cluster B Personality Disorders",
     "Cluster C Personality Disorders",
-    "Other Personality Disorders"
+    "Other Personality Disorders",
+    "Relational Problems",
+"Educational and Occupational Problems",
+"Housing and Economic Problems",
+"Other Problems Related to the Social Environment",
+"Problems Related to Crime or Interaction",
+"Other Health Service Encounters for Counseling and Medical Advice",
+"Problems Related to Other Psychosocial, Personal, and Environmental Circumstances",
+"Other Circumstances of Personal History",
+"Abuse and Neglect",
+"Child Maltreatment and Neglect Problems",
+"Adult Maltreatment and Neglect Problems"
 )

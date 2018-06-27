@@ -27,6 +27,13 @@ writeLines(focusMain, "focusMain.txt")
 #### chunk specific replacements
 focusMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", focusMain)
 focusMain <- removeFalseHeader("Missing work or school", focusMain)
+focusMain <- gsub("for\n\n## Counseling", "for Counseling", focusMain)
+focusMain <- gsub("Problems Related to Other Psychosocial, Personal, and Environmental Circumstances ", "\n\n## Problems Related to Other Psychosocial, Personal, and Environmental Circumstances ", focusMain)
+focusMain <- gsub("neglect Spouse or Partner Abuse, Psychological", "neglect\n\n ## Spouse or Partner Abuse, Psychological\n\n", focusMain)
+focusMain <- gsub("## Problems Related to Other Psychosocial, Personal, and Environmental Circumstances V62.89 \\(Z65.8\\)"
+, "## Problems Related to Other Psychosocial, Personal, and Environmental Circumstances\n\nV62.89 (Z65.8) "
+, focusMain)
+
 
 ##
 ## startTag <- "## Inhalant Use Disorder\n\n## Inhalant"

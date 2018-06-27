@@ -115,5 +115,8 @@ spellList <- list(
     'Otiier' = "Other",
     't\\).ical' = "practical",
     'Pliencyclidine' = "Phencyclidine",
-    'Deiirium' = "Delirium"
+    'Deiirium' = "Delirium",
+    'Enviroriment' = "Environment",
+    'Maltreatm ent' = "Maltreatment",
+    'Assessrilbnt' = "Assessment"
 )
