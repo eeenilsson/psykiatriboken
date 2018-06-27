@@ -50,6 +50,7 @@ listHeaders <- c(
 "Duration of Effects",
 "Use of Multiple Substances",
 "Associated Laboratory",
+"Course and Development",
 ## Custom headers
 "Introduction to", ## for intro sections
 ## Sub-diagnoses that are to be kept as headers on same level as diagnosis

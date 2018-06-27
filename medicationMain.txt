@@ -1,0 +1,91 @@
+##c Medication-Induced Movement Disorders and Other Adverse Effects of Medication
+
+##i Introduction to Medication-Induced Movement Disorders and Other Adverse Effects of Medication
+
+Medication Induced movement disorders are included in Section II because of their frequent importance in 1) the management by medication of mental disorders or other medical conditions and 2) the differential diagnosis of mental disorders (e.g., anxiety disorder versus neuroleptic-induced akathisia; malignant catatonia versus neuroleptic malignant syndrome). Although these movement disorders are labeled "medication induced", it is often difficult to establish the causal relationship between medication exposure and the development of the movement disorder, especially because some of these movement disorders also occur in the absence of medication exposure. The conditions and problems listed in this chapter are not mental disorders.
+
+The term neuroleptic is becoming outdated because it highlights the propensity of antipsychotic medications to cause abnormal movements, and it is being replaced with the term antipsychotic in many contexts. Nevertheless, the term neuroleptic remains appropriate in this context. Although newer antipsychotic medications may be less likely to cause some medication-induced movement disorders, those disorders still occur. Neuroleptic medications include so-called conventional, "typical", or first-generation antipsychotic agents (e.g., chlorpromazine, haloperidol, fluphenazine); "atypical" or second-generation antipsychotic agents (e.g., clozapine, risperidone, olanzapine, quetiapine); certain dopamine receptor-blocking drugs used in the treatment of symptoms such as nausea and gas- troparesis (e.g., prochlorperazine, promethazine, trimethobenzamide, thiethylperazine, metoclopramide); and amoxapine, which is marketed as an antidepressant.
+
+##d Neuroleptic-induced parkinsonism <--@DIAGNOSIS-->
+
+Other Medication-Induced Parkinsonism332.1 (G21.11 ) Neuroleptic-Induced Parkinsonism332.1 (G21.19) Other Medication-Induced Parkinsonism Parkinsonian tremor, muscular rigidity, akinesia (i.e., loss of movement or difficulty initiating movement), or bradykinesia (i.e., slowing movement) developing within a few weeks of starting or raising the dosage of a medication (e.g., a neuroleptic) or after reducing the dosage of a medication used to treat extrapyramidal symptoms.
+
+Neuroleptic Malignant Syndrome333.92 (G21.0) Neuroleptic Malignant Syndrome Although neuroleptic malignant syndrome is easily recognized in its classic full-blown form, it is often heterogeneous in onset, presentation, progression, and outcome. The clinical features described below are those considered most important in making the diagnosis of neuroleptic malignant syndrome based on consensus recommendations.
+
+##h Diagnostic Features <--@HEADER-->
+
+Patients have generally been exposed to a dopamine antagonist within 72 hours prior to symptom development. Hyperthermia (>100.4°F or >38.0°C on at least two occasions, measured orally), associated with profuse diaphoresis, is a distinguishing feature of neuroleptic malignant syndrome, setting it apart from other neurological side effects of antipsychotic medications. Extreme elevations in temperature, reflecting a breakdown in central thermoregulation, are more likely to support the diagnosis of neuroleptic malignant syndrome. Generalized rigidity, described as "lead pipe" in its most severe form and usually unresponsive to antiparkinsonian agents, is a cardinal feature of the disorder and may be associated with other neurological symptoms (e.g., tremor, sialorrhea, akinesia, dystonia, trismus, myoclonus, dysarthria, dysphagia, rhabdomyolysis). Creatine kinase elevation of at least four times the upper limit of normal is commonly seen. Changes in mental status, characterized by delirium or altered consciousness ranging from stupor to coma, are often an early sign. Affected individuals may appear alert but dazed and unresponsive, consistent with catatonic stupor. Autonomic activation and instability—manifested by tachycardia (rate >25% above baseline), diaphoresis, blood pressure elevation (systolic or diastolic >25% above baseline) or fluctuation (>20 mmHg diastolic change or >25 mmHg systolic change within 24 hours), urinary incontinence, and pallor—may be seen at any time but provide an early clue to the diagnosis. Tachypnea (rate >50% above baseline) is common, and respiratory distress—resulting from metabolic acidosis, hypermetabolism, chest wall restriction, aspiration pneumonia, or pulmonary emboli—can occur and lead to sudden respiratory arrest.
+
+A workup, including laboratory investigation, to exclude other infectious, toxic, metabolic, and neuropsychiatric etiologies or complications is essential (see the section "Differential Diagnosis" later in this discussion). Although several laboratory abnormalities are associated with neuroleptic malignant syndrome, no single abnormality is specific to the diagnosis. Individuals with neuroleptic malignant syndrome may have leukocytosis, metabolic acidosis, hypoxia, decreased serum iron concentrations, and elevations in serum muscle enzymes and catecholamines. Findings from cerebrospinal fluid analysis and neuroimaging studies are generally normal, whereas electroencephalography shows generalized slowing. Autopsy findings in fatal cases have been nonspecific and variable, depending on complications.
+
+##h Development and Course <--@HEADER-->
+
+Evidence from database studies suggests incidence rates for neuroleptic malignant syndrome of 0.01%-0.02% among individuals treated with antipsycho tics. The temporal progression of signs and symptoms provides important clues to the diagnosis and prognosis of neuroleptic malignant syndrome. Alteration in mental status and other neurological signs typically precede systemic signs. The onset of symptoms varies from hours to days after drug initiation. Some cases develop within 24 hours after drug initiation, most within the first week, and virtually all cases within 30 days. Once the syndrome is diagnosed and oral antipsychotic drugs are discontinued, neuroleptic malignant syndrome is self-limited in most cases. The mean recovery time after drug discontinuation is 7-10 days, with most individuals recovering within 1 week and nearly all within 30 days. The duration may be prolonged when long-acting antipsychotics are implicated. There have been reports of individuals in whom residual neurological signs persisted for weeks after the acute hyper- metabolic symptoms resolved. Total resolution of symptoms can be obtained in most cases of neuroleptic malignant syndrome; however, fatality rates of 10%-20% have been reported when the disorder is not recognized. Although many individuals do not experience a recurrence of neuroleptic malignant syndrome when rechallenged with antipsychotic medication, some do, especially when antipsychotics are reinstituted soon after an episode.
+
+##h Risk and Prognostic Factors <--@HEADER-->
+
+Neuroleptic malignant syndrome is a potential risk in any individual after antipsychotic drug administration. It is not specific to any neuropsychiatric diagnosis and may occur in individuals without a diagnosable mental disorder who receive dopamine antagonists.
+
+Clinical, systemic, and metabolic factors associated with a heightened risk of neuroleptic malignant syndrome include agitation, exhaustion, dehydration, and iron deficiency. A prior episode associated with antipsychotics has been described in 15%-20% of index cases, suggesting underlying vulnerability in some patients; however, genetic findings based on neurotransmitter receptor polymorphisms have not been replicated consistently.
+
+Nearly all dopamine antagonists have been associated with neuroleptic malignant sjmdrome, although high-potency antipsychotics pose a greater risk compared with low- potency agents and newer atypical antipsychotics. Partial or milder forms may be associated with newer antipsychotics, but neuroleptic malignant syndrome varies in severity even with older drugs. Dopamine antagonists used in medical settings (e.g., metoclopramide, prochlorperazine) have also been implicated. Parenteral administration routes, rapid titration rates, and higher total drug dosages have been associated with increased risk; however, neuroleptic malignant syndrome usually occurs within the therapeutic dosage range of antipsychotics.
+
+##h Differential Diagnosis <--@HEADER-->
+
+Neuroleptic malignant syndrome must be distinguished from other serious neurological or medical conditions, including central nervous system infections, inflammatory or autoimmune conditions, status epilepticus, subcortical structural lesions, and systemic conditions (e.g., pheochromocytoma, thyrotoxicosis, tetanus, heat stroke).
+
+Neuroleptic malignant syndrome also must be distinguished from similar syndromes resulting from the use of other substances or medications, such as serotonin syndrome; parkinsonian hyperthermia syndrome following abrupt discontinuation of dopamine agonists; alcohol or sedative withdrawal; malignant hyperthermia occurring during anesthesia; hyperthermia associated with abuse of stimulants and hallucinogens; and atropine poisoning from anticholinergics.
+
+In rare instances, individuals with schizophrenia or a mood disorder may present with malignant catatonia, which may be indistinguishable from neuroleptic malignant syndrome. Some investigators consider neuroleptic malignant syndrome to be a drug- induced form of malignant catatonia.
+
+Medication-Induced Acute Dystonia333.72 (G24.02) Medication-Induced Acute Dystonia Abnormal and prolonged contraction of the muscles of the eyes (oculogyric crisis), head, neck (torticollis or retrocollis), limbs, or trunk developing within a few days of starting or raising the dosage of a medication (such as a neuroleptic) or after reducing the dosage of a medication used to treat extrapyramidal symptoms.
+
+IVledication-lnduced Acute Al<atlnisia333.99 (G25.71) Medication-Induced Acute Akathisia Subjective complaints of restlessness, often accompanied by observed excessive movements (e.g., fidgety movements of the legs, rocking from foot to foot, pacing, inability to sit or stand still), developing within a few weeks of starting or raising the dosage of a medication (such as a neuroleptic) or after reducing the dosage of a medication used to treat extrapyramidal symptoms.
+
+Tardive Dyskinesia333.85 (G24.01) Tardive Dyskinesia Involuntary athetoid or choreiform movements (lasting at least a few weeks) generally of the tongue, lower face and jaw, and extremities (but sometimes involving the pharyngeal, diaphragmatic, or trunk muscles) developing in association with the use of a neuroleptic medication for at least a few months.
+
+Symptoms may develop after a shorter period of medication use in older persons. In some patients, movements of this type may appear after discontinuation, or after change or reduction in dosage, of neuroleptic medications, in which case the condition is called neuroleptic withdrawal-emergent dyskinesia. Because withdrawal-emergent dyskinesia is usually time-limited, lasting less than 4-8 weeks, dyskinesia that persists beyond this window is considered to be tardive dyskinesia.
+
+##d Tardive dystonia <--@DIAGNOSIS-->
+
+Tardive Akathisia333.72 (G24.09) Tardive Dystonia333.99 (G25.71 ) Tardive Akathisia Tardive syndrome involving other types of movement problems, such as dystonia or akathisia, which are distinguished by their late emergence in the course of treatment and their potential persistence for months to years, even in the face of neuroleptic discontinuation or dosage reduction.
+
+Medication-Induced Postural Tremor333.1 (G25.1) Medication-Induced Postural Tremor Fine tremor (usually in the range of 8-12 Hz) occurring during attempts to maintain a posture and developing in association with the use of medication (e.g., lithium, antidepressants, valproate). This tremor is very similar to the tremor seen with anxiety, caffeine, and other stimulants.
+
+Other Medication-Induced Movement Disorder333.99 (G25.79) Other Medication-Induced Movement Disorder This category is for medication-induced movement disorders not captured by any of the specific disorders listed above. Examples include 1) presentations resembling neuroleptic malignant syndrome that are associated with medications other than neuroleptics and 2) other medication-induced tardive conditions.
+
+Antidepressant Discontinuation Syndrome995.29 (T43.205A) Initial encounter995.29 (T43.205D) Subsequent encounter995.29 (T43.205S) Sequelae Antidepressant discontinuation syndrome is a set of symptoms that can occur after an abrupt cessation (or marked reduction in dose) of an antidepressant medication that was taken continuously for at least 1 month. Symptoms generally begin within 2-4 days and typically include specific sensory, somatic, and cognitive-emotional manifestations. Frequently reported sensory and somatic symptoms include flashes of lights, "electric shock" sensations, nausea, and hyperresponsivity to noises or lights. Nonspecific anxiety and feelings of dread may also be reported. Symptoms are alleviated by restarting the same medication or starting a different medication that has a similar mechanism of action— for example, discontinuation symptoms after withdrawal from a serotonin-norepineph- rine reuptake inhibitor may be alleviated by starting a tricyclic antidepressant. To qualify as antidepressant discontinuation syndrome, the symptoms should not have been present before the antidepressant dosage was reduced and are not better explained by another mental disorder (e.g., manic or hypomanic episode, substance intoxication, substance withdrawal, somatic symptom disorder).
+
+##h Diagnostic Features <--@HEADER-->
+
+Discontinuation symptoms may occur following treatment with tricyclic antidepressants (e.g., imipramine, amitriptyline, desipramine), serotonin reuptake inhibitors (e.g., fluoxetine, paroxetine, sertraline), and monoamine oxidase inhibitors (e.g., phenelzine, selegiline, pargyline). The incidence of this syndrome depends on the dosage and half-life of the medication being taken, as well as the rate at which the medication is tapered. Short-acting medications that are stopped abruptly rather than tapered gradually may pose the greatest risk. The short-acting selective serotonin reuptake inhibitor (SSRI) paroxetine is the agent most commonly associated with discontinuation symptoms, but such symptoms occur for all types of antidepressants.
+
+Unlike withdrawal syndromes associated with opioids, alcohol, and other substances of abuse, antidepressant discontinuation syndrome has no pathognomonic symptoms. Instead, the symptoms tend to be vague and variable and typically begin 2-A days after the last dose of the antidepressant. For SSRIs (e.g., paroxetine), symptoms such as dizziness, ringing in the ears, "electric shocks in the head", an inability to sleep, and acute anxiety are described. The antidepressant use prior to discontinuation must not have incurred hypo- mania or euphoria (i.e., there should be confidence that the discontinuation syndrome is not the result of fluctuations in mood stability associated with the previous treatment).
+
+The antidepressant discontinuation syndrome is based solely on pharmacological factors and is not related to the reinforcing effects of an antidepressant. Also, in the case of stimulant augmentation of an antidepressant, abrupt cessation may result in stimulant withdrawal symptoms (see "Stimulant Withdrawal" in the chapter "Substance-Related and Addictive Disorders") rather than the antidepressant discontinuation syndrome described here.
+
+##h Prevalence <--@HEADER-->
+
+The prevalence of antidepressant discontinuation syndrome is unknown but is thought to vary according to the dosage prior to discontinuation, the half-life and receptor-binding affinity of the medication, and possibly the individual's genetically influenced rate of metabolism for this medication.
+
+##h Course and Development <--@HEADER-->
+
+Because longitudinal studies are lacking, litfle is known about the clinical course of antidepressant discontinuation syndrome. Symptoms appear to abate over time with very gradual dosage reductions. After an episode, some individuals may prefer to resume medication indefinitely if tolerated.
+
+##h Differential Diagnosis <--@HEADER-->
+
+The differential diagnosis of antidepressant discontinuation syndrome includes anxiety and depressive disorders, substance use disorders, and tolerance to medications.
+
+Anxiety and depressive disorders. Discontinuation symptoms often resemble symptoms of a persistent anxiety disorder or a return of somatic symptoms of depression for which the medication was initially given.
+
+Substance use disorders. Antidepressant discontinuation syndrome differs from substance withdrawal in that antidepressants themselves have no reinforcing or euphoric effects. The medication dosage has usually not been increased without the clinician's permission, and the individual generally does not engage in drug-seeking behavior to obtain additional medication. Criteria for a substance use disorder are not met.
+
+Tolerance to medications. Tolerance and discontinuation symptoms can occur as a normal physiological response to stopping medication after a substantial duration of exposure. Most cases of medication tolerance can be managed through carefully controlled tapering.
+
+##h Comorbidity <--@HEADER-->
+
+Typically, the individual was initially started on the medication for a major depressive disorder; the original symptoms may return during the discontinuation syndrome.
+
+Other Adverse Effect of Medication995.20 (T50.905A) Initial encounter995.20 (T50.905D) Subsequent encounter995.20 (T50.905S) Sequelae 
+
+This category is available for optional use by clinicians to code side effects of medication (other than movement symptoms) when these adverse effects become a main focus of clinical attention. Examples include severe hypotension, cardiac arrhythmias, and priapism.
