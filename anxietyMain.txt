@@ -1,3 +1,37 @@
+##c Anxiety Disorders
+
+##i Introduction to Anxiety Disorders
+
+Anxiety disorders include disorders that share features of excessive fear and anxiety and related behavioral disturbances. Fear is the emotional response to real or perceived imminent threat, whereas anxiety is anticipation of future threat. Obviously, these two states overlap, but they also differ, with fear more often associated with surges of autonomic arousal necessary for fight or flight, thoughts of immediate danger, and escape behaviors, and anxiety more often associated with muscle tension and vigilance in preparation for future danger and cautious or avoidant behaviors. Sometimes the level of fear or anxiety is reduced by pervasive avoidance behaviors. Panic attacks feature prominently within the anxiety disorders as a particular type of fear response. Panic attacks are not limited to anxiety disorders but rather can be seen in other mental disorders as well.
+
+The anxiety disorders differ from one another in the types of objects or situations that induce fear, anxiety, or avoidance behavior, and the associated cognitive ideation. Thus, while the anxiety disorders tend to be highly comorbid with each other, they can be differentiated by close examination of the types of situations that are feared or avoided and the content of the associated thoughts or beliefs.
+
+Anxiety disorders differ from developmentally normative fear or anxiety by being excessive or persisting beyond developmentally appropriate periods. They differ from transient fear or anxiety, often stress-induced, by being persistent (e.g., typically lasting 6 months or more), although the criterion for duration is intended as a general guide with allowance for some degree of flexibility and is sometimes of shorter duration in children (as in separation anxiety disorder and selective mutism). Since individuals with anxiety disorders typically overestimate the danger in situations they fear or avoid, the primary determination of whether the fear or anxiety is excessive or out of proportion is made by the clinician, taking cultural contextual factors into account. Many of the anxiety disorders develop in childhood and tend to persist if not treated. Most occur more frequently in females than in males (approximately 2:1 ratio). Each anxiety disorder is diagnosed only when the symptoms are not attributable to the physiological effects of a substance/medication or to another medical condition or are not better explained by another mental disorder.
+
+The chapter is arranged developmentally, with disorders sequenced according to the typical age at onset. The individual with separation anxiety disorder is fearful or anxious about separation from attachment figures to a degree that is developmentally inappropriate. There is persistent fear or anxiety about harm coming to attachment figures and events that could lead to loss of or separation from attachment figures and reluctance to go away from attachment figures, as well as nightmares and physical symptoms of distress. Although the symptoms often develop in childhood, they can be expressed throughout adulthood as well.
+
+Selective mutism is characterized by a consistent failure to speak in social situations in which there is an expectation to speak (e.g., school) even though the individual speaks in other situations. The failure to speak has significant consequences on achievement in academic or occupational settings or otherwise interferes with normal social communication.
+
+Individuals with specific phobia are fearful or anxious about or avoidant of circumscribed objects or situations. A specific cognitive ideation is not featured in this disorder, as it is in other anxiety disorders. The fear, anxiety, or avoidance is almost always imme-diately induced by the phobic situation, to a degree that is persistent and out of proportion to the actual risk posed. There are various types of specific phobias: animal; natural environment; blood-injection-injury; situational; and other situations.
+
+In social anxiety disorder (social phobia), the individual is fearful or anxious about or avoidant of social interactions and situations that involve the possibility of being scrutinized. These include social interactions such as meeting unfamiliar people, situations in which the individual may be observed eating or drinking, and situations in which the individual performs in front of others. The cognitive ideation is of being negatively evaluated by others, by being embarrassed, humiliated, or rejected, or offending others.
+
+In panic disorder, the individual experiences recurrent unexpected panic attacks and is persistently concerned or worried about having more panic attacks or changes his or her behavior in maladaptive ways because of the panic attacks (e.g., avoidance of exercise or of unfamiliar locations). Panic attacks are abrupt surges of intense fear or intense discomfort that reach a peak within minutes, accompanied by physical and/or cognitive symptoms. 
+
+Limited-symptom panic attacks include fewer than four symptoms. Panic attacks may be expected, such as in response to a typically feared object or situation, or unexpected, meaning that the panic attack occurs for no apparent reason. Panic attacks function as a marker and prognostic factor for severity of diagnosis, course, and comorbidity across an array of disorders, including, but not limited to, the anxiety disorders (e.g., substance use, depressive and psychotic disorders). Panic attack may therefore be used as a descriptive specifier for any anxiety disorder as well as other mental disorders.
+
+Individuals with agoraphobia are fearful and anxious about two or more of the following situations: using public transportation; being in open spaces; being in enclosed places; standing in line or being in a crowd; or being outside of the home alone in other situations. 
+
+The individual fears these situations because of thoughts that escape might be difficult or help might not be available in the event of developing panic-like symptoms or other incapacitating or embarrassing symptoms. These situations almost always induce fear or anxiety and are often avoided and require the presence of a companion.
+
+The key features of generalized anxiety disorder are persistent and excessive anxiety and worry about various domains, including work and school performance, that the individual finds difficult to control. In addition, the individual experiences physical symptoms, including restlessness or feeling keyed up or on edge; being easily fatigued; difficulty concentrating or mind going blank; irritability; muscle tension; and sleep disturbance.
+
+Substance/medication-induced anxiety disorder involves anxiety due to substance intoxication or withdrawal or to a medication treatment. In anxiety disorder due to another medical condition, anxiety symptoms are the physiological consequence of another medical condition.
+
+Disorder-specific scales are available to better characterize the severity of each anxiety disorder and to capture change in severity over time. For ease of use, particularly for individuals with more than one anxiety disorder, these scales have been developed to have the same format (but different focus) across the anxiety disorders, with ratings of behavioral symptoms, cognitive ideation symptoms, and physical symptoms relevant to each disorder.
+
+
+
 
 
 ##d Separation anxiety disorder <--@DIAGNOSIS-->
@@ -50,7 +84,7 @@ In adolescents in the United States, the 12-month prevalence is 1.6%. Separation
 
 Periods of heightened separation anxiety from attachment figures are part of normal early development and may indicate the development of secure attachment relationships (e.g., around 1 year of age, when infants may suffer from stranger anxiety). Onset of separation anxiety disorder may be as early as preschool age and may occur at any time during childhood and more rarely in adolescence. Typically there are periods of exacerbation and remission. In some cases, both the anxiety about possible separation and the avoidance of situations involving separation from the home or nuclear family (e.g., going away to college, moving away from attachment figures) may persist through adulthood. However, the majority of children with separation anxiety disorder are free of impairing anxiety disorders over their lifetimes. Many adults with separation anxiety disorder do not recall a childhood onset of separation anxiety disorder, although they may recall symptoms.
 
-The manifestations of separation anxiety disorder vary with age. Younger children are more reluctant to go to school or may avoid school altogether. Younger children may not express worries 6r specific fears of definite threats to parents, home, or themselves, and the anxiety is manifested only when separation is experienced. As children age, worries emerge; these are often worries about specific dangers (e.g., accidents, kidnapping, mugging, death) or vague concerns about not being reunited with attachment figures. In adults, separation anxiety disorder may limit their ability to cope with changes in circumstances (e.g., moving, getting married). Adults with the disorder are typically overconcemed about their offspring and spouses and experience marked discomfort when separated from them.
+The manifestations of separation anxiety disorder vary with age. Younger children are more reluctant to go to school or may avoid school altogether. Younger children may not express worries 6r specific fears of definite threats to parents, home, or themselves, and the anxiety is manifested only when separation is experienced. As children age, worries emerge; these are often worries about specific dangers (e.g., accidents, kidnapping, mugging, death) or vague concerns about not being reunited with attachment figures. In adults, separation anxiety disorder may limit their ability to cope with changes in circumstances (e.g., moving, getting married). Adults with the disorder are typically overconcerned about their offspring and spouses and experience marked discomfort when separated from them.
 
 They may also experience significant disruption in work or social experiences because of needing to continuously check on the whereabouts of a significant other.
 
@@ -76,7 +110,7 @@ Separation anxiety disorder in children may be associated with an increased risk
 
 ##h Functional Consequences of Separation Anxiety Disorder <--@HEADER-->
 
-Individuals with separation anxiety disorder often limit independent activities away from home or attachment figures (e.g., in children, avoiding school, not going to camp, havingdifficulty sleeping alone; in adolescents, not going away to college; in adults, not leaving the parental home, not traveling, not working outside the home).
+Individuals with separation anxiety disorder often limit independent activities away from home or attachment figures (e.g., in children, avoiding school, not going to camp, having difficulty sleeping alone; in adolescents, not going away to college; in adults, not leaving the parental home, not traveling, not working outside the home).
 
 ##h Differential Diagnosis <--@HEADER-->
 
@@ -90,7 +124,7 @@ Conduct disorder. School avoidance (truancy) is common in conduct disorder, but 
 
 Social anxiety disorder. School refusal may be due to social anxiety disorder (social phobia). In such instances, the school avoidance is due to fear of being judged negatively by others rather than to worries about being separated from the attachment figures.
 
-Posttraumatic stress disorder. Fear of separation from loved ones is common after traumatic events such as a disasters, particularly when periods of separation from loved ones were experienced during the traumatic event. In posttraumatic stress disorder (PTSD), the central symptoms concern intrusions about, and avoidance of, memories associated with the traumatic event itself, whereas in separation anxiety disorder, the worries and avoidance concern the well-being of attachment figures and separation from them.
+Post-traumatic stress disorder. Fear of separation from loved ones is common after traumatic events such as a disasters, particularly when periods of separation from loved ones were experienced during the traumatic event. In posttraumatic stress disorder (PTSD), the central symptoms concern intrusions about, and avoidance of, memories associated with the traumatic event itself, whereas in separation anxiety disorder, the worries and avoidance concern the well-being of attachment figures and separation from them.
 
 Illness anxiety disorder. Individuals with illness anxiety disorder worry about specific illnesses they may have, but the main concern is about the medical diagnosis itself, not about being separated from attachment figures.
 
@@ -108,7 +142,7 @@ Personality disorders. Dependent personality disorder is characterized by an ind
 
 ##h Comorbidity <--@HEADER-->
 
-In children, separation anxiety disorder is highly comorbid with generahzed anxiety disorder and specific phobia. In adults, common comorbidities include specific phobia, PTSD, panic disorder, generalized anxiety disorder, social anxiety disorder, agoraphobia, obsessive-compulsive disorder, and personality disorders. Depressive and bipolar disorders are also comorbid with separation anxiety disorder in adults.
+In children, separation anxiety disorder is highly comorbid with generalized anxiety disorder and specific phobia. In adults, common comorbidities include specific phobia, PTSD, panic disorder, generalized anxiety disorder, social anxiety disorder, agoraphobia, obsessive-compulsive disorder, and personality disorders. Depressive and bipolar disorders are also comorbid with separation anxiety disorder in adults.
 
 ##d Selective mutism <--@DIAGNOSIS-->
 
@@ -134,7 +168,7 @@ The disturbance is often marked by high social anxiety. Children with selective 
 
 ##h Associated Features Supporting Diagnosis <--@HEADER-->
 
-Associated features of selective mutism may include excessive shyness, fear of social embarrassment, social isolation and withdrawal, clinging, compulsive traits, negativism, temper tantrums, or mild oppositional behavior. Although children with this disorder generally have normal language skills, there may occasionally be an associated commu-nication disorder, although no particular association with a specific communication disorder has been identified. Even when these disorders are present, anxiety is present as well. In clinical settings, children with selective mutism are almost always given an additional diagnosis of another anxiety disorder—most commonly, social anxiety disorder (social phobia).
+Associated features of selective mutism may include excessive shyness, fear of social embarrassment, social isolation and withdrawal, clinging, compulsive traits, negativism, temper tantrums, or mild oppositional behavior. Although children with this disorder generally have normal language skills, there may occasionally be an associated communication disorder, although no particular association with a specific communication disorder has been identified. Even when these disorders are present, anxiety is present as well. In clinical settings, children with selective mutism are almost always given an additional diagnosis of another anxiety disorder—most commonly, social anxiety disorder (social phobia).
 
 ##h Prevalence <--@HEADER-->
 
@@ -198,9 +232,9 @@ F. The fear, anxiety, or avoidance causes clinically significant distress or imp
 
 G. The disturbance is not better explained by the symptoms of another mental disorder, including fear, anxiety, and avoidance of situations associated with panic-like symptoms or other incapacitating symptoms (as in agoraphobia): objects or situations related to obsessions (as in obsessive-compulsive disorder); reminders of traumatic events (as in posttraumatic stress disorder); separation from home or attachment figures (as in separation anxiety disorder); or social situations (as in social anxiety disorder).
 
-_Specify_ if:
+Specify if:
 
-## Code based on the phobic stimulus:
+Code based on the phobic stimulus:
 
 300.29 (F40.218) Animal (e.g., spiders, insects, dogs).
 
@@ -224,7 +258,7 @@ It is common for individuals to have multiple specific phobias. The average indi
 
 A key feature of this disorder is that the fear or anxiety is circumscribed to the presence of a particular situation or object (Criterion A), which may be termed the phobic stimulus. The categories of feared situations or objects are provided as specifiers. Many individuals fear objects or situations from more than one category, or phobic stimulus. For the diagnosis of specific phobia, the response must differ from normal, transient fears that commonly occur in the population. To meet the criteria for a diagnosis, the fear or anxiety must be intense or severe (i.e., "marked") (Criterion A). The amount of fear experienced may vary with proximity to the feared object or situation and may occur in anticipation of or in the actual presence of the object or situation. Also, the fear or anxiety may take the form of a full or limited symptom panic attack (i.e., expected panic attack). Another characteristic of specific phobias is that fear or anxiety is evoked nearly every time the individual comes into contact with the phobic stimulus (Criterion B). Thus, an individual who becomes anxious only occasionally upon being confronted with the situation or object (e.g., becomes anxious when flying only on one out of every five airplane flights) would not be diagnosed with specific phobia. However, the degree of fear or anxiety expressed may vary (from anticipatory anxiety to a full panic attack) across different occasions of encountering the phobic object or situation because of various contextual factors such as the presence of others, duration of exposure, and other threatening elements such as turbulence on a flight for individuals who fear flying. Fear and anxiety are often expressed differently between children and adults. Also, the fear or anxiety occurs as soon as the phobic object or situation is encountered (i.e., immediately rather than being delayed).
 
-The individual actively avoids the situation, or if he or she either is unable or decides not to avoid it, the situation or object evokes intense fear or anxiety (Criterion C). Active avoidance means the individual intentionally behaves in ways that are designed to prevent or minimize contact with phobic objects or situations (e.g., takes tunnels instead of bridges on daily commute to work for fear of heights; avoids entering a dark room for fear of spiders; avoids accepting a job in a locale where a phobic stimulus is more common). Avoid-ance behaviors are often obvious (e.g., an individual who fears blood refusing to go to the doctor) but are sometimes less obvious (e.g., an individual who fears snakes refusing to look at pictures ihat resemble the form or shape of snakes). Many individuals with specific phobias have suffered over many years and have changed their living circumstances in ways designed to avoid the phobic object or situation as much as possible (e.g., an individual diagnosed with specific phobia, animal, who moves to reside in an area devoid of the particular feared animal). Therefore, they no longer experience fear or anxiety in their daily life. In such instances, avoidance behaviors or ongoing refusal to engage in activities that would involve exposure to the phobic object or situation (e.g., repeated refusal to accept offers for work-related travel because of fear of flying) may be helpful in confirming the diagnosis in the absence of overt anxiety or panic.
+The individual actively avoids the situation, or if he or she either is unable or decides not to avoid it, the situation or object evokes intense fear or anxiety (Criterion C). Active avoidance means the individual intentionally behaves in ways that are designed to prevent or minimize contact with phobic objects or situations (e.g., takes tunnels instead of bridges on daily commute to work for fear of heights; avoids entering a dark room for fear of spiders; avoids accepting a job in a locale where a phobic stimulus is more common). Avoidance behaviors are often obvious (e.g., an individual who fears blood refusing to go to the doctor) but are sometimes less obvious (e.g., an individual who fears snakes refusing to look at pictures that resemble the form or shape of snakes). Many individuals with specific phobias have suffered over many years and have changed their living circumstances in ways designed to avoid the phobic object or situation as much as possible (e.g., an individual diagnosed with specific phobia, animal, who moves to reside in an area devoid of the particular feared animal). Therefore, they no longer experience fear or anxiety in their daily life. In such instances, avoidance behaviors or ongoing refusal to engage in activities that would involve exposure to the phobic object or situation (e.g., repeated refusal to accept offers for work-related travel because of fear of flying) may be helpful in confirming the diagnosis in the absence of overt anxiety or panic.
 
 The fear or anxiety is out of proportion to the actual danger that the object or situation poses, or more intense than is deemed necessary (Criterion D). Although individuals with specific phobia often recognize their reactions as disproportionate, they tend to overestimate the danger in their feared situations, and thus the judgment of being out of proportion is made by the clinician. The individual's sociocultural context should also be taken into account. For example, fears of the dark may be reasonable in a context of ongoing violence, and fear of insects may be more disproportionate in settings where insects are consumed in the diet. The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more (Criterion E), which helps distinguish the disorder from transient fears that are common in the population, particularly among children. However, the duration criterion should be used as a general guide, with allowance for some degree of flexibility.
 
@@ -256,7 +290,7 @@ Although most specific phobias develop in childhood and adolescence, it is possi
 
 ##h Risk and Prognostic Factors <--@HEADER-->
 
-Temperamental. Temperamental risk factors for specific phobia, such as negative affec- tivity (neuroticism) or behavioral inhibition, are risk factors for other anxiety disorders as well.
+Temperamental. Temperamental risk factors for specific phobia, such as negative affectivity (neuroticism) or behavioral inhibition, are risk factors for other anxiety disorders as well.
 
 Environmental. Environmental risk factors for specific phobias, such as parental overprotectiveness, parental loss and separation, and physical and sexual abuse, tend to predict other anxiety disorders as well. As noted earlier, negative or traumatic encounters with the feared object or situation sometimes (but not always) precede the development of specific phobia.
 
@@ -326,11 +360,11 @@ G. The fear, anxiety, or avoidance causes clinically significant distress or imp
 
 H. The fear, anxiety, or avoidance is not attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication) or another medical condition.
 
-I. The fear, anxiety, or avoidance is not better explained by the symptoms of another mental disorder, such as panic disorder, body dysmoφhic disorder, or autism spectrum disorder.
+I. The fear, anxiety, or avoidance is not better explained by the symptoms of another mental disorder, such as panic disorder, body dysmorphic disorder, or autism spectrum disorder.
 
 J. If another medical condition (e.g., Parkinson’s disease, obesity, disfigurement from bums or injury) is present, the fear, anxiety, or avoidance is clearly unrelated or is excessive.
 
-_Specify_ if:
+Specify if:
 
 Performance only: If the fear is restricted to speaking or performing in public.
 
@@ -346,7 +380,7 @@ The social situations almost always provoke fear or anxiety (Criterion C). Thus,
 
 In children, the fear or anxiety may be expressed by crying, tantrums, freezing, clinging, or shrinking in social situations. The individual will often avoid the feared social situations.
 
-Alternatively, the situations are endured with intense fear or anxiety (Criterion D). Avoid-ance can be extensive (e.g., not going to parties, refusing school) or subtle (e.g., overpreparing the text of a speech, diverting attention to others, limiting eye contact).
+Alternatively, the situations are endured with intense fear or anxiety (Criterion D). Avoidance can be extensive (e.g., not going to parties, refusing school) or subtle (e.g., overpreparing the text of a speech, diverting attention to others, limiting eye contact).
 
 The fear or anxiety is judged to be out of proportion to the actual risk of being negatively evaluated or to the consequences of such negative evaluation (Criterion E). Sometimes, the anxiety may not be judged to be excessive, because it is related to an actual danger (e.g., being bullied or tormented by others). However, individuals with social anxiety disorder often overestimate the negative consequences of social situations, and thus the judgment of being out of proportion is made by the clinician. The individual's sociocultural context needs to be taken into account when this judgment is being made. For example, in certain cultures, behavior that might otherwise appear socially anxious may be considered appropriate in social situations (e.g., might be seen as a sign of respect).
 
@@ -668,7 +702,7 @@ G. The fear, anxiety, or avoidance causes clinically significant distress or imp
 
 H. If another medical condition (e.g., inflammatory bowel disease, Parkinson’s disease) is present, the fear, anxiety, or avoidance is clearly excessive.
 
-I. The fear, anxiety, or avoidance is not better explained by the symptoms of another mental disorder—for example, the symptoms are not confined to specific phobia, situational type; do not involve only social situations (as in social anxiety disorder): and are not related exclusively to obsessions (as in obsessive-compulsive disorder), perceived defects or flaws in physical appearance (as in body dysmoφhic disorder), reminders of traumatic events (as in posttraumatic stress disorder), or fear of separation (as in separation anxiety disorder).
+I. The fear, anxiety, or avoidance is not better explained by the symptoms of another mental disorder—for example, the symptoms are not confined to specific phobia, situational type; do not involve only social situations (as in social anxiety disorder): and are not related exclusively to obsessions (as in obsessive-compulsive disorder), perceived defects or flaws in physical appearance (as in body dysmorphic disorder), reminders of traumatic events (as in posttraumatic stress disorder), or fear of separation (as in separation anxiety disorder).
 
 Note: Agoraphobia is diagnosed irrespective of the presence of panic disorder. If an individual’s presentation meets criteria for panic disorder and agoraphobia, both diagnoses should be assigned.
 
@@ -840,7 +874,7 @@ Social anxiety disorder. Individuals with social anxiety disorder often have ant
 
 Obsessive-compulsive disorder. Several features distinguish the excessive worry of generalized anxiety disorder from the obsessional thoughts of obsessive-compulsive disorder. In generalized anxiety disorder the focus of the worry is about forthcoming problems, and it is the excessiveness of the worry about future events that is abnormal. In obsessive-compulsive disorder, the obsessions are inappropriate ideas that take the form of intrusive and unwanted thoughts, urges, or images.
 
-Posttraumatic stress disorder and adjustment disorders. Anxiety is invariably present in posttraumatic stress disorder. Generalized anxiety disorder is not diagnosed if the anxiety and worry are better explained by symptoms of posttraumatic stress disorder.
+Post-traumatic stress disorder and adjustment disorders. Anxiety is invariably present in posttraumatic stress disorder. Generalized anxiety disorder is not diagnosed if the anxiety and worry are better explained by symptoms of posttraumatic stress disorder.
 
 Anxiety may also be present in adjustment disorder, but this residual category should be used only when the criteria are not met for any other disorder (including generalized anxiety disorder). Moreover, in adjustment disorders, the anxiety occurs in response to an identifiable stressor within 3 months of the onset of the stressor and does not persist for more than 6 months after the termination of the stressor or its consequences.
 
@@ -850,9 +884,7 @@ Depressive, bipolar, and psychotic disorders. Generalized anxiety/worry is a com
 
 Individuals whose presentation meets criteria for generalized anxiety disorder are likely to have met, or currently meet, criteria for other anxiety and unipolar depressive disorders. The neuroticism or emotional liability that underpins this pattern of comorbidity is associated with temperamental antecedents and genetic and environmental risk factors shared between these disorders, although independent pathways are also possible. Comorbidity with substance use, conduct, psychotic, neurodevelopmental, and neurocogni- tive disorders is less common.
 
-## Substance/Medication-Induced
-
-## Anxiety Disorder
+##d Substance/medication-induced anxiety disorder <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -874,25 +906,13 @@ E. The disturbance causes clinically significant distress or impairment in socia
 
 Note: This diagnosis should be made instead of a diagnosis of substance intoxication or substance withdrawal only when the symptoms in Criterion A predominate in the clinical picture and they are sufficiently severe to warrant clinical attention.
 
-Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced anxiety disorders are indicated in the table below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced anxiety disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced anxiety disorder (e.g., “mild cocaine use disorder with cocaine-induced anxiety disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced anxiety disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a onetime heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced anxiety disorder.
+Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced anxiety disorders are indicated in the table below. Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced anxiety disorder, the 4th position character is “1,” and the clinician should record “mild [substance] use disorder” before the substance-induced anxiety disorder (e.g., “mild cocaine use disorder with cocaine-induced anxiety disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced anxiety disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a onetime heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced anxiety disorder. s - . , - , ## ICD-10-CM
 
-<--@TABLESTART--> ICD codes for Substance/Medication-Induced Anxiety Disorder
-|Substance                         | With mild use disorder | Moderate or severe | Without use disorder |
-|:---------------------------------|:----------------------:|:------------------:|:--------------------:|
-|Alcohol                           |         F10.18         |      0 F10.28      |       0 F10.98       |
-|Caffeine                          |         F15.18         |      0 F15.28      |       0 F15.98       |
-|Cannabis                          |         F12.18         |      0 F12.28      |       0 F12.98       |
-|Phencyclidine                     |         F16.18         |      0 F16.28      |       0 F16.98       |
-|Other hallucinogen                |         F16.18         |      0 F16.28      |       0 F16.98       |
-|Inhalant                          |         F18.18         |      0 F18.28      |       0 F18.98       |
-|Opioid                            |         F11.18         |      8 F11.28      |       8 F11.98       |
-|Sedative, hypnotic, or anxiolytic |         F13.18         |      0 F13.28      |       0 F13.98       |
-|Amphetamine (or other stimulant)  |         F15.18         |      0 F15.28      |       0 F15.98       |
-|Cocaine                           |         F14.18         |      0 F14.28      |       0 F14.98       |
-|substance                         |         F19.18         |      0 F19.28      |       0 F19.98       |
-<--@TABLESTOP-->
+## ICD-9-CM
 
-_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+With use disorder, mild With use disorder, moderate or severe Withoutusedisorder Alcohol 291.89 F10.180 FI 0.280 FI 0.980 Caffeine 292.89 F15.180 FI 5.280 FI 5.980 Cannabis 292.89 F12.180 FI 2.280 FI 2.980 Phencyclidine 292.89 F16.180 FI 6.280 FI 6.980 Other hallucinogen 292.89 F16.180 F16.280 F16.980 Inhalant 292.89 FI 8.180 FI 8.280 F18.980 Opioid 292.89 F11.188 F11.288 F11.988 Sedative, hypnotic, or anxiolytic 292.89 FI 3.180 FI 3.280 FI 3.980 ## Amphetamine (or other stimulant)
+
+292.89 FI 5.180 FI 5.280 FI 5.980 Cocaine 292.89 FI 4.180 FI 4.280 FI 4.980 Other (or unl<nown) substance 292.89 FI 9.180 FI 9.280 FI 9.980 Specify if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: This specifier applies if criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
@@ -1014,9 +1034,7 @@ This category applies to presentations in which symptoms characteristic of an an
 
 ## This is done by recording “other specified anxiety disorder” followed by the specific reason (e.g., “generalized anxiety not occurring more days than not”).
 
-## Examples of presentations that can be specified using the “other specified” designation include the following;
-
-1. Limited-symptom attacks.
+Examples of presentations that can be specified using the “other specified” designation include the following; 1. Limited-symptom attacks.
 
 2. Generalized anxiety not occurring more days than not.
 

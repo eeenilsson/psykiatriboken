@@ -90,7 +90,7 @@ D. If manic or major depressive episodes have occurred, these have been brief re
 
 E. The disturbance is not attributable to the physiological effects of a substance or another medical condition and is not better explained by another mental disorder, such as body dysmorphic disorder or obsessive-compulsive disorder.
 
-## Specify whether:
+Specify whether:
 
 Erotomanic type: This subtype applies when the central theme of the delusion is that another person is in love with the individual.
 

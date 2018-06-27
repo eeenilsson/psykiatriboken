@@ -177,4 +177,8 @@ writeLines(bipolarMain, "bipolarMain.txt")
 ## bipolarMain <- gsub("(?<=\n)##[[:blank:]]", "### ", bipolarMain, perl=T)
 
 
-## Notes below
+## Join intro to main
+bipolarMain <- paste(bipolarIntro, bipolarMain, sep = "\n\n") ## join
+bipolarMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), bipolarMain) ## Add header to intro
+bipolarMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), bipolarMain) ## Add chapter
+writeLines(bipolarMain, "bipolarMain.txt")

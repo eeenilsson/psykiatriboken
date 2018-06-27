@@ -1,3 +1,31 @@
+##c Neurodevelopmental Disorders
+
+##i Introduction to Neurodevelopmental Disorders
+
+The neurodevelopmental disorders are a group of conditions with onset in the developmental period. The disorders typically manifest early in development, often before the child enters grade school, and are characterized by developmental deficits that produce impairments of personal, social, academic, or occupational functioning. The range of developmental deficits varies from very specific limitations of learning or control of executive functions to global impairments of social skills or intelligence. The neurodevelopmental disorders frequently co-occur; for example, individuals with autism spectrum disorder often have intellectual disability (intellectual developmental disorder), and many children with attention-deficit/hyperactivity disorder (ADHD) also have a specific learning disorder. For some disorders, the clinical presentation includes symptoms of excess as well as deficits and delays in achieving expected milestones. For example, autism spectrum disorder is diagnosed only when the characteristic deficits of social communication are accompanied by excessively repetitive behaviors, restricted interests, and insistence on sameness.
+
+Intellectual disability (intellectual developmental disorder) is characterized by deficits in general mental abilities, such as reasoning, problem solving, planning, abstract thinking, judgment, academic learning, and learning from experience. The deficits result in impairments of adaptive functioning, such that the individual fails to meet standards of personal independence and social responsibility in one or more aspects of daily life, including commimication, social participation, academic or occupational functioning, and personal independence at home or in community settings. Global developmental delay, as its name implies, is diagnosed when an individual fails to meet expected developmental milestones in several areas of intellectual functioning. The diagnosis is used for individuals who are imable to undergo systematic assessments of intellectual functioning, including children who are too young to participate in standardized testing. Intellectual disability may result from an acquired insult during the developmental period from, for example, a severe head injury, in which case a neurocognitive disorder also may be diagnosed.
+
+Tlie communication disorders include language disorder, speech sound disorder, social (pragmatic) communication disorder, and childhood-onset fluency disorder (stuttering). The first three disorders are characterized by deficits in the development and use of language, speech, and social communication, respectively. Childhood-onset fluency disorder is characterized by disturbances of the normal fluency and motor production of speech, including repetitive sounds or syllables, prolongation of consonants or vowel sounds, broken words, blocking, or words produced with an excess of physical tension. 
+
+Like other neurodevelopmental disorders, communication disorders begin early in life and may produce lifelong functional impairments.
+
+Autism spectrum disorder is characterized by persistent deficits in social communication and social interaction across multiple contexts, including deficits in social reciprocity, nonverbal communicative behaviors used for social interaction, and skills in developing, maintaining, and understanding relationships. In addition to the social communication deficits, the diagnosis of autism spectrum disorder requires the presence of restricted, repetitive patterns of behavior, interests, or activities. Because symptoms change with development and may be masked by compensatory mechanisms, the diagnostic criteria maybe met based on historical information, although the current presentation must cause significant impairment.
+
+Withn the diagnosis of autism spectrum disorder, individual clinical characteristics are noted through the use of specifiers (with or without accompanying intellectual impairment; with or without accompanying structural language impairment; associated with a known medical/genetic or environmental/acquired condition; associated with another neurodevelopmental, mental, or behavioral disorder), as well as specifiers that describe the autistic symptoms (age at first concern; with or without loss of established skills; severity). These specifiers provide clinicians with an opportunity to individualize the diagnosis and communicate a richer clinical description of the affected individuals. For example, many individuals previously diagnosed with Asperger's disorder would now receive a diagnosis of autism spectrum disorder without language or intellectual impairment.
+
+ADHD is a neurodevelopmental disorder defined by impairing levels of inattention, disorganization, and/or hyperactivity-impulsivity. Inattention and disorganization entail inability to stay on task, seeming not to listen, and losing materials, at levels that are inconsistent with age or developmental level. Hyperactivity-impulsivity entails overactivity, fidgeting, inability to stay seated, intruding into other people's activities, and inability to wait—symptoms that are excessive for age or developmental level. In childhood, ADHD frequently overlaps with disorders that are often considered to be "externalizing disorders," such as oppositional defiant disorder and conduct disorder. ADHD often persists into adulthood, witii resultant impairments of social, academic and occupational functioning.
+
+The neurodevelopmental motor disorders include developmental coordination disorder, stereotypic movement disorder, and tic disorders. Developmental coordination disorder is characterized by deficits in the acquisition and execution of coordinated motor skills and is manifested by clumsiness and slowness or inaccuracy of performance of motor skills that cause interference with activities of daily living. Stereotypic movement disorder is diagnosed when an individual has repetitive, seemingly driven, and apparently purposeless motor behaviors, such as hand flapping, body rocking, head banging, selfbiting, or hitting. The movements interfere with social, academic, or other activities. If the behaviors cause self-injury, this should be specified as part of the diagnostic description. 
+
+Tic disorders are characterized by the presence of motor or vocal tics, which are sudden, rapid, recurrent, nonrhythmic, sterotyped motor movements or vocalizations. The duration, presumed etiology, and clinical presentation define the specific tic disorder that is diagnosed: Tourette's disorder, persistent (chronic) motor or vocal tic disorder, provisional tic disorder, other specified tic disorder, and unspecified tic disorder. Tourette's disorder is diagnosed when the individual has multiple motor and vocal tics that have been present for at least 1 year and that have a waxing-waning symptom course.
+
+Specific learning disorder, as the name implies, is diagnosed when there are specific deficits in an individual's ability to perceive or process information efficiently and accurately. This neurodevelopmental disorder first manifests during the years of formal schooling and is characterized by persistent and impairing difficulties with learning foundational academic skills in reading, writing, and/or math. The individual's performance of the affected academic skills is well below average for age, or acceptable performance levels are achieved only with extraordinary effort. Specific learning disorder may occur in individuals identified as intellectually gifted and manifest only when the learning demands or assessment procedures (e.g., timed tests) pose barriers that cannot be overcome by their innate intelligence and compensatory strategies. For all individuals, specific learning disorder can produce lifelong impairments in activities dependent on the skills, including occupational performance.
+
+The use of specifiers for the neurodevelopmental disorder diagnoses enriches the clinical description of the individual's clinical course and current symptomatology. In addition to specifiers that describe the clinical presentation, such as age at onset or severity ratings, the neurodevelopmental disorders may include the specifier "associated with a known medical or genetic condition or environmental factor." This specifier gives clinicians an opportunity to document factors that may have played a role in the etiology of the disorder, as v̂ l̂l as those that might affect the clinical course. Examples include genetic disorders, such as fragile X syndrome, tuberous sclerosis, and Rett syndrome; medical conditions such as epilepsy; and environmental factors, including very low birth weight and fetal alcohol exposure (even in the absence of stigmata of fetal alcohol syndrome).
+
+
+
 ##g Intellectual Disabilities <--@GROUP-->
 
 ##d Intellectual disability (intellectual developmental disorder) <--@DIAGNOSIS-->
@@ -16,7 +44,7 @@ Note: The diagnostic term intellectual disability is the equivalent term for the
 
 Coding note: The ICD-9-CM code for intellectual disability (intellectual developmental disorder) is 319, which is assigned regardless of the severity specifier. The ICD-10-CM code depends on the severity specifier (see below).
 
-_Specify_ current severity (see Table 1 ):
+Specify current severity (see Table 1 ):
 
 (F70) Mild 
 
@@ -376,7 +404,7 @@ A. Persistent deficits in social communication and social interaction across mul
 
 3. Deficits in developing, maintaining, and understanding relationships, ranging, for example, from difficulties adjusting behavior to suit various social contexts; to difficulties in sharing imaginative play or in making friends; to absence of interest in peers.
 
-_Specify_ current severity:
+Specify current severity:
 
 Severity is based on social communication impairments and restricted, repetitive patterns of behavior (seeTable 2).
 
@@ -390,7 +418,7 @@ B. Restricted, repetitive patterns of behavior, interests, or activities, as man
 
 4. Hyper- or hyporeactivity to sensory input or unusual interest in sensory aspects of the environment (e.g., apparent indifference to pain/temperature, adverse response to specific sounds or textures, excessive smelling or touching of objects, visual fascination with lights or movement).
 
-_Specify_ current severity:
+Specify current severity:
 
 Severity is based on social communication impairments and restricted, repetitive patterns of behavior (see Table 2).
 
@@ -585,7 +613,7 @@ D. There is clear evidence that the symptoms interfere with, or reduce the quali
 
 E. The symptoms do not occur exclusively during the course of schizophrenia or another psychotic disorder and are not better explained by another mental disorder (e.g., mood disorder, anxiety disorder, dissociative disorder, personality disorder, substance intoxication or withdrawal).
 
-_Specify_ whether:
+Specify whether:
 
 314.01 (F90.2) Combined presentation: If both Criterion A1 (inattention) and Criterion A2 (hyperactivity-impulsivity) are met for the past 6 months.
 
@@ -751,7 +779,7 @@ Note; The four diagnostic criteria are to be met based on a clinical synthesis o
 
 Coding note: Specify all academic domains and subskills that are impaired. When more than one domain is impaired, each one should be coded individually according to the following specifiers.
 
-_Specify_ if:
+Specify if:
 
 315.00 (F81.0) With impairment in reading:
 
@@ -979,19 +1007,19 @@ C. Onset is in the early developmental period.
 
 D. The repetitive motor behavior is not attributable to the physiological effects of a substance or neurological condition and is not better explained by another neurodevel- opmental or mental disorder (e.g., trichotillomania [hair-pulling disorder], obsessive- compulsive disorder).
 
-_Specify_ if:
+Specify if:
 
 With self-injurious behavior (or behavior that would result in an injury if preventive measures were not used)
 
 Without self-injurious behavior
 
-_Specify_ if:
+Specify if:
 
 Associated with a known medical or genetic condition, neurodevelopmental disorder, or environmental factor (e.g., Lesch-Nyhan syndrome, intellectual disability [intellectual developmental disorder], intrauterine alcohol exposure)
 
 Coding note: Use additional code to identify the associated medical or genetic condition, or neurodevelopmental disorder.
 
-_Specify_ current severity:
+Specify current severity:
 
 Mild: Symptoms are easily suppressed by sensory stimulus or distraction.
 
@@ -1087,7 +1115,7 @@ D. The disturbance is not attributable to the physiological effects of a substan
 
 E. Criteria have never been met for Tourette’s disorder.
 
-_Specify_ if:
+Specify if:
 
 With motor tics only 
 
@@ -1203,7 +1231,7 @@ This category applies to presentations in which symptoms characteristic of a tic
 
 This category applies to presentations in which symptoms characteristic of a neurodevelopmental disorder that cause impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the neurodevelopmental disorders diagnostic class. The other specified neurodevelopmental disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific neurodevelopmental disorder. This is done by recording “other specified neurodevelopmental disorder” followed by the specific reason (e.g., “neurodevelopmental disorder associated with prenatal alcohol exposure”).
 
-## An example of a presentation that can be specified using the “other specified” designation is the following:
+An example of a presentation that can be specified using the “other specified” designation is the following:
 
 Neurodevelopmental disorder associated with prenatal alcohol exposure: Neurodevelopmental disorder associated with prenatal alcohol exposure is characterized by a range of developmental disabilities following exposure to alcohol in utero.
 

@@ -12,7 +12,7 @@ dissociativeIntro <- makeHeaders(dissociativeIntro)
 dissociativeIntro <- cleanMore(dissociativeIntro)
 ## dissociativeIntro <- gsub("## Separation.*$", "", dissociativeIntro) ## remove start of next
 dissociativeIntro <- gsub("DiSSOCi.tiVG d isorders", "Dissociative disorders", dissociativeIntro)
-dissociativeIntro <- gsub("^", "## Introduction to Dissociative Disorders\n\n", dissociativeIntro) ## Add header to intro
+dissociativeIntro <- gsub("^", "##i Introduction to Dissociative Disorders\n\n", dissociativeIntro) ## Add header to intro
 dissociativeIntro <- gsub("and \n\nGanser", "and Ganser", dissociativeIntro)
 dissociativeIntro <- gsub("## Dissociative Identity.*$", "", dissociativeIntro) ## remove beginning of next section
 writeLines(dissociativeIntro, "dissociativeIntro.txt")
@@ -53,6 +53,8 @@ dissociativeMain <- assignTagHeader(dissociativeMain)
 #### write
 writeLines(dissociativeMain, "dissociativeMain.txt")
 
-## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
-
-## Notes below
+## Join intro to main
+dissociativeMain <- paste(dissociativeIntro, dissociativeMain, sep = "\n\n") ## join
+## dissociativeMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), dissociativeMain) ## Add header to intro
+dissociativeMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), dissociativeMain) ## Add chapter
+writeLines(dissociativeMain, "dissociativeMain.txt")

@@ -11,7 +11,7 @@ traumaIntro <- cleanText(traumaIntro)
 traumaIntro <- makeHeaders(traumaIntro)
 traumaIntro <- cleanMore(traumaIntro)
 traumaIntro <- gsub("## Reactive Attachment Disorder.*$", "", traumaIntro) ## remove start of next
-traumaIntro <- gsub("^", "## Introduction to ", traumaIntro) ## Add header to intro
+traumaIntro <- gsub("^", "##i Introduction to ", traumaIntro) ## Add header to intro
 traumaIntro <- gsub("and \n\n## Stressor", "and Stressor", traumaIntro)
 traumaIntro <- gsub("T r3 U m 3 - â n d StrG SSO r-rG l..G d", "Trauma- and Stressor-Related Disorders", traumaIntro)
 writeLines(traumaIntro, "traumaIntro.txt")
@@ -53,6 +53,8 @@ traumaMain <- assignTagHeader(traumaMain)
 #### write
 writeLines(traumaMain, "traumaMain.txt")
 
-## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
-
-## Notes below
+## Join intro to main
+traumaMain <- paste(traumaIntro, traumaMain, sep = "\n\n") ## join
+## traumaMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), traumaMain) ## Add header to intro
+traumaMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), traumaMain) ## Add chapter
+writeLines(traumaMain, "traumaMain.txt")

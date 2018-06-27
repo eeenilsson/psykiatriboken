@@ -98,4 +98,9 @@ store <- depressiveMain
 writeLines(depressiveMain, "depressiveMain.txt")
 ## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
 
-## Notes below
+
+## Join intro to main
+depressiveMain <- paste(depressiveIntro, depressiveMain, sep = "\n\n") ## join
+depressiveMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), depressiveMain) ## Add header to intro
+depressiveMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), depressiveMain) ## Add chapter
+writeLines(depressiveMain, "depressiveMain.txt")

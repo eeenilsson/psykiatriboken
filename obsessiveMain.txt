@@ -1,3 +1,31 @@
+##c Obsessive-Compulsive and Related Disorders
+
+##i Introduction to Obsessive-Compulsive and Related Disorders
+
+Obsessive-Compulsive and related disorders include obsessive-compulsive disorder (OCD), body dysmorphic disorder, hoarding disorder, trichotillomania (hair- pulling disorder), excoriation (skin-picking) disorder, substance/medication-induced obsessive-compulsive and related disorder, obsessive-compulsive and related disorder due to another medical condition, and other specified obsessive-compulsive and related disorder and unspecified obsessive-compulsive and related disorder (e.g., body-focused repetitive behavior disorder, obsessional jealousy).
+
+OCD is characterized by the presence of obsessions and/or compulsions. Obsessions are recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, whereas compulsions are repetitive behaviors or mental acts that an individual feels driven to perform in response to an obsession or according to rules that must be applied rigidly. Some other obsessive-compulsive and related disorders are also characterized by preoccupations and by repetitive behaviors or mental acts in response to the preoccupations. Other obsessive-compulsive and related disorders are characterized primarily by recurrent body-focused repetitive behaviors (e.g., hair pulling, skin picking) and repeated attempts to decrease or stop the behaviors.
+
+The inclusion of a chapter on obsessive-compulsive and related disorders in DSM-5 reflects the increasing evidence of these disorders' relatedness to one another in terms of a range of diagnostic validators as well as the clinical utility of grouping these disorders in the same chapter. Clinicians are encouraged to screen for these conditions in individuals who present with one of them and be aware of overlaps between these conditions. At the same time, there are important differences in diagnostic validators and treatment approaches across these disorders. Moreover, there are close relationships between the anxiety disorders and some of the obsessive-compulsive and related disorders (e.g., OCD), which is reflected in the sequence of DSM-5 chapters, with obsessive-compulsive and related disorders following anxiety disorders.
+
+The obsessive-compulsive and related disorders differ from developmentally normative preoccupations and rituals by being excessive or persisting beyond developmentally appropriate periods. The distinction between the presence of subclinical symptoms and a clinical disorder requires assessment of a number of factors, including the individual's level of distress and impairment in functioning.
+
+The chapter begins with OCD. It then covers body dysmorphic disorder and hoarding disorder, which are characterized by cognitive symptoms such as perceived defects or flaws in physical appearance or the perceived need to save possessions, respectively. The chapter then covers trichotillomania (hair-pulling disorder) and excoriation (skin-picking) disorder, which are characterized by recurrent body-focused repetitive behaviors. Finally, it covers substance/medication-induced obsessive-compulsive and related disorder, obsessive-compulsive and related disorder due to another medical condition, and other specified obsessive-compulsive and related disorder and unspecified obsessive-compulsive and related disorder.
+
+While the specific content of obsessions and compulsions varies among individuals, certain symptom dimensions are common in OCD, including those of cleaning (contamination obsessions and cleaning compulsions); symmetry (symmetry obsessions and repeat-ing, ordering, and counting compulsions); forbidden or taboo thoughts (e.g., aggressive, sexual, and religious obsessions and related compulsions); and harm (e.g., fears of harm to oneself or others and related checking compulsions). The tic-related specifier of OCD is used v^hen an individual has a current or past history of a tic disorder.
+
+Body dysmorphic disorder is characterized by preoccupation with one or more perceived defects or flav ŝ in physical appearance that are not observable or appear only slight to others, and by repetitive behaviors (e.g., mirror checking, excessive grooming, skin picking, or reassurance seeking) or mental acts (e.g., comparing one's appearance v̂ ith that of other people) in response to the appearance concerns. The appearance preoccupations are not better explained by concerns with body fat or weight in an individual with an eating disorder. Muscle dysmoφhia is a form of body dysmorphic disorder that is characterized by the belief that one's body build is too small or is insufficiently muscular.
+
+Hoarding disorder is characterized by persistent difficulty discarding or parting with possessions, regardless of their actual value, as a result of a strong perceived need to save the items and to distress associated with discarding them. Hoarding disorder differs from normal collecting. For example, symptoms of hoarding disorder result in the accumulation of a large number of possessions that congest and clutter active living areas to the extent that their intended use is substantially compromised. The excessive acquisition form of hoarding disorder, which characterizes most but not all individuals with hoarding disorder, consists of excessive collecting, buying, or stealing of items that are not needed or for which there is no available space.
+
+Trichotillomania (hair-pulling disorder) is characterized by recurrent pulling out of one's hair resulting in hair loss, and repeated attempts to decrease or stop hair pulling. 
+
+Excoriation (skin-picking) disorder is characterized by recurrent picking of one's skin resulting in skin lesions and repeated attempts to decrease or stop skin picking. The body- focused repetitive behaviors that characterize these two disorders are not triggered by obsessions or preoccupations; however, they may be preceded or accompanied by various emotional states, such as feelings of anxiety or boredom. They may also be preceded by an increasing sense of tension or may lead to gratification, pleasure, or a sense of relief when the hair is pulled out or the skin is picked. Individuals with these disorders may have varying degrees of conscious awareness of the behavior while engaging in it, with some individuals displaying more focused attention on the behavior (with preceding tension and subsequent relief) and other individuals displaying more automatic behavior (with the behaviors seeming to occur without full awareness).
+
+Substance/medication-induced obsessive-compulsive and related disorder consists of symptoms that are due to substance intoxication or withdrawal or to a medication. Obsessive-compulsive and related disorder due to another medical condition involves symptoms characteristic of obsessive-compulsive and related disorders that are the direct pathophysiological consequence of a medical disorder. Other specified obsessive-compulsive and related disorder and unspecified obsessive-compulsive and related disorder consist of symptoms that do not meet criteria for a specific obsessive-compulsive and related disorder because of atypical presentation or uncertain etiology; these categories are also used for other specific syndromes that are not listed in Section Π and when insufficient information is available to diagnose the presentation as another obsessive-compulsive and related disorder. Examples of specific syndromes not listed in Section Π, and therefore diagnosed as other specified obsessive-compulsive and related disorder or as unspecified obsessive-compulsive and related disorder include body-focused repetitive behavior disorder and obsessional jealousy.
+
+Obsessive-compulsive and related disorders that have a cognitive component have insight as the basis for specifiers; in each of these disorders, insight ranges from "good or fair insight" to "poor insight" to "absent insight/delusional beliefs" with respect to disorder- related beliefs. For individuals whose obsessive-compulsive and related disorder symptoms warrant the "with absent insight/delusional beliefs" specifier, these symptoms should not be diagnosed as a psychotic disorder.
+
 ##d Obsessive-compulsive disorder <--@DIAGNOSIS-->
 
 300.3 (F42)
@@ -6,13 +34,13 @@
 
 A. Presence of obsessions, compulsions, or both:
 
-## Obsessions are defined by (1) and (2):
+Obsessions are defined by (1) and (2):
 
 1. Recurrent and persistent thoughts, urges, or images that are experienced, at some time during the disturbance, as intrusive and unwanted, and that in most individuals cause marked anxiety or distress.
 
 2. The individual attempts to ignore or suppress such thoughts, urges, or images, or to neutralize them with some other thought or action (i.e., by performing a compulsion).
 
-## Compulsions are defined by (1) and (2):
+Compulsions are defined by (1) and (2):
 
 1. Repetitive behaviors (e.g., hand washing, ordering, checking) or mental acts (e.g., praying, counting, repeating words silently) that the individual feels driven to perform in response to an obsession or according to rules that must be applied rigidly.
 
@@ -26,7 +54,7 @@ C. The obsessive-compulsive symptoms are not attributable to the physiological e
 
 D. The disturbance is not better explained by the symptoms of another mental disorder (e.g., excessive worries, as in generalized anxiety disorder; preoccupation with appearance, as in body dysmorphic disorder; difficulty discarding or parting with possessions, as in hoarding disorder; hair pulling, as in trichotillomania [hair-pulling disorder]; skin picking, as in excoriation [skin-picking] disorder; stereotypies, as in stereotypic movement disorder; ritualized eating behavior, as in eating disorders; preoccupation with substances or gambling, as in substance-related and addictive disorders; preoccupation with having an illness, as in illness anxiety disorder; sexual urges or fantasies, as in paraphilic disorders; impulses, as in disruptive, impulse-control, and conduct disorders; guilty ruminations, as in major depressive disorder; thought insertion or delusional preoccupations, as in schizophrenia spectrum and other psychotic disorders; or repetitive patterns of behavior, as in autism spectrum disorder).
 
-_Specify_ if:
+Specify if:
 
 With good or fair insiglit: The individual recognizes that obsessive-compulsive disorder beliefs are definitely or probably not true or that they may or may not be true.
 
@@ -34,7 +62,7 @@ With poor insight: The individual thinks obsessive-compulsive disorder beliefs a
 
 With absent insight/deiusionai beiiefs: The individual is completely convinced that obsessive-compulsive disorder beliefs are true.
 
-_Specify_ if:
+Specify if:
 
 Tic-reiated: The individual has a current or past history of a tic disorder.
 
@@ -146,11 +174,11 @@ C. The preoccupation causes clinically significant distress or impairment in soc
 
 D. The appearance preoccupation is not better explained by concerns with body fat or weight in an individual whose symptoms meet diagnostic criteria for an eating disorder.
 
-_Specify_ if:
+Specify if:
 
 With muscle dysmorphia: The individual is preoccupied with the idea that his or her body build is too small or insufficiently muscular. This specifier is used even if the individual is preoccupied with other body areas, which is often the case.
 
-_Specify_ if:
+Specify if:
 
 Indicate degree of insight regarding body dysmorphic disorder beliefs (e.g., “I look ugly” or “I lool< deformed”).
 
@@ -250,11 +278,11 @@ E. The hoarding is not attributable to another medical condition (e.g., brain in
 
 F. The hoarding is not better explained by the symptoms of another mental disorder (e.g., obsessions in obsessive-compulsive disorder, decreased energy in major depressive disorder, delusions in schizophrenia or another psychotic disorder, cognitive deficits in major neurocognitive disorder, restricted interests in autism spectrum disorder).
 
-_Specify_ if:
+Specify if:
 
 With excessive acquisition: If difficulty discarding possessions is accompanied by excessive acquisition of items that are not needed or for which there is no available space.
 
-_Specify_ if:
+Specify if:
 
 With good or fair insight: The individual recognizes that hoarding-related beliefs and behaviors (pertaining to difficulty discarding items, clutter, or excessive acquisition) are problematic.
 
@@ -332,7 +360,9 @@ Schizophrenia spectrum and other psychotic disorders. Hoarding disorder is not d
 
 Major depressive episode. Hoarding disorder is not diagnosed if the accumulation of objects is judged to be a direct consequence of psychomotor retardation, fatigue, or loss of energy during a major depressive episode.
 
-Obsessive-compulsive disorder. Hoarding disorder is not diagnosed if the symptoms are judged to be a direct consequence of typical obsessions or compulsions, such as fears of contamination, harm, or feelings of incompleteness in obsessive-compulsive disorder (OCD). Feelings of incompleteness (e.g., losing one's identity, or having to document and preserve all life experiences) are the most frequent OCD symptoms associated with this form of hoarding. The accumulation of objects can also be the result of persistently avoiding onerous rituals (e.g., not discarding objects in order to avoid endless washing or checking rituals). \ In OCD, the behavior is generally unwanted and highly distressing, and the individual experiences no pleasure or reward from it. Excessive acquisition is usually not present; if excessive acquisition is present, items are acquired because of a specific obsession (e.g., the need to buy items that have been accidentally touched in order to avoid contaminating other people), not because of a genuine desire to possess the items. Individuals who hoard in the context of OCD are also more likely to accumulate bizarre items, such as trash, feces, urine, nails, hair, used diapers, or rotten food. Accumulation of such items is very unusual in hoarding disorder.
+Obsessive-compulsive disorder. Hoarding disorder is not diagnosed if the symptoms are judged to be a direct consequence of typical obsessions or compulsions, such as fears of contamination, harm, or feelings of incompleteness in obsessive-compulsive disorder (OCD). Feelings of incompleteness (e.g., losing one's identity, or having to document and preserve all life experiences) are the most frequent OCD symptoms associated with this form of hoarding. The accumulation of objects can also be the result of persistently avoiding onerous rituals (e.g., not discarding objects in order to avoid endless washing or checking rituals).
+
+In OCD, the behavior is generally unwanted and highly distressing, and the individual experiences no pleasure or reward from it. Excessive acquisition is usually not present; if excessive acquisition is present, items are acquired because of a specific obsession (e.g., the need to buy items that have been accidentally touched in order to avoid contaminating other people), not because of a genuine desire to possess the items. Individuals who hoard in the context of OCD are also more likely to accumulate bizarre items, such as trash, feces, urine, nails, hair, used diapers, or rotten food. Accumulation of such items is very unusual in hoarding disorder.
 
 When severe hoarding appears concurrently with other typical symptoms of OCD but is judged to be independent from these symptoms, both hoarding disorder and OCD may be diagnosed.
 
@@ -522,15 +552,13 @@ Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica
 
 Note that the ICD-10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced obsessive-compulsive and related disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced obsessive-compulsive and related disorder (e.g., “mild cocaine use disorder with cocaine-induced obsessive-compulsive and related disorder"). If a moderate or severe substance use disorder is comorbid with the substance-induced obsessive-compulsive and related disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there Is no comorbidsubstance use disorder (e.g., after a one-time heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced obsessive-compulsive and related disorder.
 
-<--@TABLESTART--> ICD codes for Substance/Medication-Induced Obsessive-Compulsive Disorder
-|Substance                        | With mild use disorder | Moderate or severe | Without use disorder |
-|:--------------------------------|:----------------------:|:------------------:|:--------------------:|
-|Amphetamine (or other stimulant) |        F15.188         |      F15.288       |       F15.988        |
-|Cocaine                          |        F14.188         |      F14.288       |       F14.988        |
-|Other (or unknown) substance     |        F19.188         |      F19.288       |       F19.988        |
-<--@TABLESTOP-->
+## ICD-10-CM
 
-_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+## ICD-9-CIVI
+
+With use disorder, mild With use disorder, moderate or severe Withoutusedisorder ## Amphetamine (or other stimulant)
+
+292.89 F15.188 F15.288 F15.988 Cocaine 292.89 F14.188 FI 4.288 F14.988 Other (or unknown) substance 292.89 F19.188 F19.288 F19.988 Specify if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: If the criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
@@ -574,7 +602,7 @@ Obsessive-compulsive and related disorder due to another medical condition. If t
 
 Delirium. If obsessive-compulsive and related disorder symptoms occur exclusively during the course of delirium, they are considered to be an associated feature of the delirium and are not diagnosed separately.
 
-## Obsessive-Compulsive and Related Disorder Due to Another Medical Condition
+##d Obsessive-compulsive and related disorder due to another medical condition <--@DIAGNOSIS-->
 
 294.8 (F06.8)
 
@@ -590,7 +618,7 @@ D. The disturbance does not occur exclusively during the course of a delirium.
 
 E. The disturbance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning.
 
-_Specify_ if:
+Specify if:
 
 With obsessive-compulsive disorder-lil<e symptoms: If obsessive-compulsive disorder-like symptoms predominate in the clinical presentation.
 
@@ -648,7 +676,7 @@ Other specified obsessive-compulsive and related disorder or unspecified obsessi
 
 This category applies to presentations in which symptoms characteristic of an obsessive- compulsive and related disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the obsessive-compulsive and related disorders diagnostic class. The other specified obsessive-compulsive and related disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific obsessive-compulsive and related disorder. This is done by recording “other specified obsessive-compulsive and related disorder” followed by the specific reason (e.g., “body-focused repetitive behavior disorder”).
 
-## Examples of presentations that can be specified using the “other specified” designation include the following:
+Examples of presentations that can be specified using the “other specified” designation include the following:
 
 1. Body dysmorphic-like disorder witli actual flaws: This is similar to body dysmorphic disorder except that the defects or flaws in physical appearance are clearly observable by others (i.e., they are more noticeable than “slight”). In such cases, the preoccupation with these flaws is clearly excessive and causes significant impairment or distress.
 

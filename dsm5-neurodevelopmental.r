@@ -52,3 +52,10 @@ store <- neurodevelopmentalMain
 ##neurodevelopmentalMain <- store ## recover
 writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
 ## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
+
+## Join intro to main
+neurodevelopmentalMain <- paste(neurodevelopmentalIntro, neurodevelopmentalMain, sep = "\n\n") ## join
+neurodevelopmentalMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), neurodevelopmentalMain) ## Add header to intro
+neurodevelopmentalMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), neurodevelopmentalMain) ## Add chapter
+writeLines(neurodevelopmentalMain, "neurodevelopmentalMain.txt")
+

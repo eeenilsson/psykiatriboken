@@ -11,7 +11,7 @@ obsessiveIntro <- cleanText(obsessiveIntro)
 obsessiveIntro <- makeHeaders(obsessiveIntro)
 obsessiveIntro <- cleanMore(obsessiveIntro)
 ## obsessiveIntro <- gsub("## Separation.*$", "", obsessiveIntro) ## remove start of next
-obsessiveIntro <- gsub("^", "## Introduction to ", obsessiveIntro) ## Add header to intro
+obsessiveIntro <- gsub("^", "##i Introduction to ", obsessiveIntro) ## Add header to intro
 obsessiveIntro <- gsub("O bSG SSiV G -C O m pu lsiV G", "Obsessive-Compulsive", obsessiveIntro)
 writeLines(obsessiveIntro, "obsessiveIntro.txt")
 
@@ -93,4 +93,8 @@ writeLines(obsessiveMain, "obsessiveMain.txt")
 
 ## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
 
-## Notes below
+## Join intro to main
+obsessiveMain <- paste(obsessiveIntro, obsessiveMain, sep = "\n\n") ## join
+## obsessiveMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), obsessiveMain) ## Add header to intro
+obsessiveMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), obsessiveMain) ## Add chapter
+writeLines(obsessiveMain, "obsessiveMain.txt")

@@ -1,3 +1,19 @@
+##c Depressive Disorders
+
+##i Introduction to Depressive Disorders
+
+Depressive disorders include disruptive mood dysregulation disorder, major depressive disorder (including major depressive episode), persistent depressive disorder (dysthymia), premenstrual dysphoric disorder, substance/medication-induced depressive disorder, depressive disorder due to another medical condition, other specified depressive disorder, and imspecified depressive disorder. Unlike in DSM-IV, this chapter "Depressive Disorders" has been separated from the previous chapter "Bipolar and Related Disorders." The common feature of all of these disorders is the presence of sad, empty, or irritable mood, accompanied by somatic and cognitive changes that significantly affect the individual's capacity to function. What differs among them are issues of duration, timing, or presumed etiology.
+
+In order to address concerns about the potential for the overdiagnosis of and treatment for bipolar disorder in children, a new diagnosis, disruptive mood dysregulation disorder, referring to the presentation of children with persistent irritability and frequent episodes of extreme behavioral dyscontrol, is added to the depressive disorders for children up to 12 years of age. Its placement in this chapter reflects the finding that children with this symptom pattern typically develop unipolar depressive disorders or anxiety disorders, rather than bipolar disorders, as they mature into adolescence and adulthood.
+
+Major depressive disorder represents the classic condition in this group of disorders. It is characterized by discrete episodes of at least 2 weeks' duration (although most episodes last considerably longer) involving clear-cut changes in affect, cognition, and neurovege- tative functions and inter-episode remissions. A diagnosis based on a single episode is possible, although the disorder is a recurrent one in the majority of cases. Careful consideration is given to the delineation of normal sadness and grief from a major depressive episode. Bereavement may induce great suffering, but it does not typically induce an episode of major depressive disorder. When they do occur together, the depressive symptoms and functional impairment tend to be more severe and the prognosis is worse compared with bereavement that is not accompanied by major depressive disorder. Bereavement-related depression tends to occur in persons with other vulnerabilities to depressive disorders, and recovery may be facilitated by antidepressant treatment.
+
+A more chronic form of depression, persistent depressive disorder (dysthymia), can be diagnosed when the mood disturbance continues for at least 2 years in adults or 1 year in children. This diagnosis, new in DSM-5, includes both the DSM-IV diagnostic categories of chronic major depression and dysthymia.
+
+After careful scientific review of the evidence, premenstrual dysphoric disorder has been moved from an appendix of DSM-IV ("Criteria Sets and Axes Provided for Further Study") to Section II of DSM-5. Almost 20 years of additional of research on this condition has confirmed a specific and treatment-responsive form of depressive disorder that begins sometime following ovulation and remits within a few days of menses and has a marked impact on functioning.
+
+A large number of substances of abuse, some prescribed medications, and several medical conditions can be associated with depression-like phenomena. This fact is recognized in the diagnoses of substance/medication-induced depressive disorder and depressive disorder due to another medical condition.
+
 ##d Disruptive mood dysregulation disorder <--@DIAGNOSIS-->
 
 296.99 (F34.8)
@@ -162,7 +178,7 @@ Note: For an episode to be considered recurrent, there must be an interval of at
 
 In recording the name of a diagnosis, terms should be listed in the following order: major depressive disorder, single or recurrent episode, severity/psychotic/remission specifiers, followed by as many of the following specifiers without codes that apply to the current episode.
 
-_Specify_:
+Specify:
 
 With anxious distress (p. 184)
 
@@ -326,7 +342,7 @@ H. The symptoms cause clinically significant distress or impairment in social, o
 
 Note: Because the criteria for a major depressive episode include four symptoms that are absent from the symptom list for persistent depressive disorder (dysthymia), a very limitednumber of individuals will have depressive symptoms that have persisted longer than 2 years but will not mee| criteria for persistent depressive disorder. If full criteria for a major depressive episode have been met at some point during the current episode of illness, they should be given a diagnosis of major depressive disorder. Othenwise, a diagnosis of other specified depressive disorder or unspecified depressive disorder is warranted.
 
-_Specify_ if:
+Specify if:
 
 With anxious distress (p. 184)
 
@@ -342,19 +358,19 @@ With mood-incongruent psychotic features (p. 186)
 
 With peripartum onset (pp. 186-187)
 
-_Specify_ if:
+Specify if:
 
 In partial remission (p. 188)
 
 In full remission (p. 188)
 
-_Specify_ if:
+Specify if:
 
 Early onset: If onset is before age 21 years.
 
 Late onset: If onset is at age 21 years or older.
 
-_Specify_ if (for most recent 2 years of persistent depressive disorder):
+Specify if (for most recent 2 years of persistent depressive disorder):
 
 With pure dysthymic syndrome: Full criteria for a major depressive episode have not been met in at least the preceding 2 years.
 
@@ -364,7 +380,7 @@ With intermittent major depressive episodes, with current episode: Full criteria
 
 With intermittent major depressive episodes, without current episode: Full criteria for a major depressive episode are not currently met, but there has been one or more major depressive episodes in at least the preceding 2 years.
 
-_Specify_ current severity:
+Specify current severity:
 
 Mild (p. 188)
 
@@ -552,23 +568,13 @@ Note: This diagnosis should be made instead of a diagnosis of substance intoxica
 
 Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced depressive disorders are indicated in the table below. Note that the ICD-10- CM code depends on wliether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance- induced depressive disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced depressive disorder (e.g., “mild cocaine use disorder with cocaine-induced depressive disorder”). If a moderate or severe substance use disorder is comorbid with the substance-induced depressive disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder (e.g., after a onetime heavy use of the substance), then the 4th position character is “9,” and the clinician should record only the substance-induced depressive disorder.
 
+## ICD-10-CM
 
+## ICD-9-CM
 
-<--@TABLESTART--> ICD codes for Substance/Medication-Induced Depressive Disorder
-|Substance                         | With mild use disorder | Moderate or severe | Without use disorder |
-|:---------------------------------|:----------------------:|:------------------:|:--------------------:|
-|Alcohol                           |         F10.14         |       F10.24       |        F10.94        |
-|Phencyclidine                     |         F16.14         |       F16.24       |        F16.94        |
-|Other hallucinogen                |         F16.14         |       F16.24       |        F16.94        |
-|Inhalant                          |         F18.14         |       F18.24       |        F18.94        |
-|Opioid                            |         F11.14         |       F11.24       |        F11.94        |
-|Sedative, hypnotic, or anxiolytic |         F13.14         |       F13.24       |        F13.94        |
-|Amphetamine (or other stimulant)  |         F15.14         |       F15.24       |        F15.94        |
-|Cocaine                           |         F14.14         |       F14.24       |        F14.94        |
-|Other (or unknown) substance      |         F19.14         |       F19.24       |        F19.94        |
-<--@TABLESTOP-->
+With use disorder, mild With use disorder, moderate or severe Withoutusedisorder Alcohol 291.89 F10.14 F10.24 FI 0.94 Phencyclidine 292.84 F16.14 F16.24 F16.94 Other hallucinogen 292.84 F16.14 F16.24 FI 6.94 Inhalant 292.84 F18.14 F18.24 FI 8.94 Opioid 292.84 F11.14 F11.24 F11.94 Sedative, hypnotic, or anxiolytic 292.84 F13.14 FI 3.24 FI 3.94 ## Amphetamine (or other stimulant)
 
-_Specify_ if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
+292.84 F15.14 FI 5.24 FI 5.94 Cocaine 292.84 F14.14 FI 4.24 FI 4.94 Other (or unknown) substance 292.84 F19.14 F19.24 FI 9.94 Specify if (see Table 1 in the chapter “Substance-Related and Addictive Disorders” for diagnoses associated with substance class):
 
 With onset during intoxication: If criteria are met for intoxication with the substance and the symptoms develop during intoxication.
 
@@ -654,7 +660,7 @@ E. The disturbance causes clinically significant distress or impairment in socia
 
 Coding note: The ICD-9-CM code for depressive disorder due to another medical condition is 293.83, which is assigned regardless of the specifier. The ICD-10-CM code depends on the specifier (see below).
 
-_Specify_ if:
+Specify if:
 
 (F06.31) With depressive features: Full criteria are not met for a major depressive episode. ' (F06.32) With major depressive-iilce episode: Full criteria are met (except Criterion C) for a major depressive episode.
 
@@ -718,7 +724,7 @@ Conditions comorbid with depressive disorder due to another medical condition ar
 
 This category applies to presentations in which symptoms characteristic of a depressive disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the depressive disorders diagnostic class. The other specified depressive disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific depressive disorder. This is done by recording “other specified depressive disorder” followed by the specific reason (e.g., “short-duration depressive episode”).
 
-## Examples of presentations that can be specified using the “other specified” designation include the following:
+Examples of presentations that can be specified using the “other specified” designation include the following:
 
 1. Recurrent brief depression: Concurrent presence of depressed mood and at least four other symptoms of depression for 2-13 days at least once per month (not associated with the menstrual cycle) for at least 12 consecutive months in an individual whose presentation has never met criteria for any other depressive or bipolar disorder and does not currently meet active or residual criteria for any psychotic disorder.
 
@@ -734,7 +740,7 @@ This category applies to presentations in which symptoms characteristic of a dep
 
 ##h Specifiers for Depressive Disorders <--@HEADER-->
 
-_Specify_ if:
+Specify if:
 
 With anxious distress: Anxious distress is defined as the presence of at least two of the following symptoms during the majority of days of a major depressive episode or persistent depressive disorder (dysthymia):
 
@@ -748,7 +754,7 @@ With anxious distress: Anxious distress is defined as the presence of at least t
 
 5. Feeling that the individual might lose control of himself or herself.
 
-_Specify_ current severity:
+Specify current severity:
 
 IMild: Two symptoms. Moderate: Three symptoms. Moderate-severe: Four or five symptoms.
 
@@ -870,13 +876,13 @@ This specifier does not apply to those situations in which the pattern is better
 
 The prevalence of winter-type seasonal pattern appears to vary with latitude, age, and sex. Prevalence increases with higher latitudes. Age is also a strong predictor of seasonality, with younger persons at higher risk for winter depressive episodes.
 
-_Specify_ if:
+Specify if:
 
 In partial remission: Symptoms of the immediately previous major depressive episode are present, but full criteria are not met, or there is a period lasting less than 2 months without any significant symptoms of a major depressive episode following the end of such an episode.
 
 In full remission: During the past 2 months, no significant signs or symptoms of the disturbance were present.
 
-_Specify_ current severity:
+Specify current severity:
 
 Severity is based on the number of criterion symptoms, the severity of those symptoms, and the degree of functional disability.
 

@@ -98,3 +98,9 @@ store <- schizophreniaMain
 ##schizophreniaMain <- store ## recover
 writeLines(schizophreniaMain, "schizophreniaMain.txt")
 ## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
+
+## Join intro to main
+schizophreniaMain <- paste(schizophreniaIntro, schizophreniaMain, sep = "\n\n") ## join
+schizophreniaMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), schizophreniaMain) ## Add header to intro
+schizophreniaMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), schizophreniaMain) ## Add chapter
+writeLines(schizophreniaMain, "schizophreniaMain.txt")

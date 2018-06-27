@@ -1,6 +1,7 @@
 chapterTitle <- "Somatic Symptom and Related Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
 ## Somatic Symptom and Related Disorders	 309
+## Main body included Intro
 
 ## Somatic intro and main body
 somaticMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 345:363)

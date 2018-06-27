@@ -9,7 +9,7 @@ source('replacement-list.r') ## ## Diagnostic Marlcers not replaced??
 anxietyIntro <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 227:228)
 anxietyIntro <- paste(anxietyIntro, collapse = "")
 anxietyIntro <- cleanText(anxietyIntro)
-anxietyIntro <- gsub("^", paste("## Introduction to ", chapterTitle, "\n\n", sep=""), anxietyIntro) ## Add header to intro
+anxietyIntro <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), anxietyIntro) ## Add header to intro
 anxietyIntro <- makeHeaders(anxietyIntro)
 anxietyIntro <- gsub("A n x ie ty  diSOrdGrS", "Anxiety disorders", anxietyIntro)
 anxietyIntro <- gsub("## Separation.*$", "", anxietyIntro) ## remove start of next
@@ -86,6 +86,8 @@ anxietyMain <- assignTagHeader(anxietyMain)
 #### write
 writeLines(anxietyMain, "anxietyMain.txt")
 
-## Now use elisp function "replace-bounded-hash" to flatten some lists n txt file
-
-## Notes below
+## Join intro to main
+anxietyMain <- paste(anxietyIntro, anxietyMain, sep = "\n\n") ## join
+## anxietyMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), anxietyMain) ## Add header to intro
+anxietyMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), anxietyMain) ## Add chapter
+writeLines(anxietyMain, "anxietyMain.txt")

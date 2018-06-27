@@ -27,7 +27,7 @@ source('dsm5-variables.r')
 ## Section III ==============================
 ## Diagnostic classifications
 ## source("dsm5-neurodevelopmental.r")
-## source("dsm5-schizophrenia.r") ## Note: Added Tic Disordes as diagnosis
+source("dsm5-schizophrenia.r") ## Note: Added Tic Disordes as diagnosis
 ## source("dsm5-bipolar.r")
 ## source('dsm5-depressive.r')
 ## source('dsm5-obssive.r')
@@ -49,9 +49,50 @@ source('dsm5-variables.r')
 ## source('dsm5-medication.r')
 ## source('dsm5-focus.r') ## Split by group
 
+
+dsmFiles <- c(
+    "neurodevelopmental",
+    "schizophrenia"
+)
+
+i<- 1
+i<- 2
+allChapters <- list()
+for (q in 1:length(dsmFiles)){
+    source(
+        paste("dsm5-", dsmFiles[q], ".r", sep="")
+    )
+    allChapters <- c(allChapters,
+                          get(paste(dsmFiles[q], "Main", sep=""))
+                     )
+    do.call("rm", list(paste(dsmFiles[q], "Main", sep="")))
+}
+
+
+str(allChapters)
+
+str(test3)
+dsmFiles[2]
+allChapters <- c(allChapters, test)
+
+assign(
+    paste(dsmFiles[i], "Main", sep="")
+  , character()
+)
+objects()
+str(neurodevelopmentalMain)
+
+test <- get(paste(dsmFiles[i], "Main", sep=""))
+str(test)
+
+
 ## Join chapters =========
 ## text <- readr::read_file('somaticMain.txt')
 ## chapterName <- getSection("##i ", "\n", text)
+chapterTitle <- "Neurodevelopmental Disorders"
+pageIndex[chapterTitle] ## Chapter page index from TOC
+
+
 
 ## TODO
 ## make subheaders of all headers not starting with "##h"

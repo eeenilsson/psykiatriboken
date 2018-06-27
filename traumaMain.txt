@@ -1,3 +1,13 @@
+##c Trauma- and Stressor-Related Disorders
+
+##i Introduction to Trauma- and Stressor-Related Disorders
+
+Trauma- and Stressor-Related Disorders disorders include disorders in which exposure to a traumatic or stressful event is listed explicitly as a diagnostic criterion. These include reactive attachment disorder, disinhibited social engagement disorder, posttraumatic stress disorder (PTSD), acute stress disorder, and adjustment disorders. Placement of this chapter reflects the close relationship between these diagnoses and disorders in the surrounding chapters on anxiety disorders, obsessive-compulsive and related disorders, and dissociative disorders.
+
+Psychological distress following exposure to a traumatic or stressful event is quite variable. In some cases, symptoms can be well understood within an anxiety- or fear-based context. It is clear, however, that many individuals who have been exposed to a traumatic or stressful event exhibit a phenotype in which, rather than anxiety- or fear-based symptoms, the most prominent clinical characteristics are anhedonic and dysphoric symptoms, externalizing angry and aggressive symptoms, or dissociative symptoms. Because of these variable expressions of clinical distress following exposure to catastrophic or aversive events, the aforementioned disorders have been grouped under a separate category: trauma- and stressor-related disorders. Furthermore, it is not uncommon for the clinical picture to include some combination of the above symptoms (with or without anxiety- or fear-based symptoms). Such a heterogeneous picture has long been recognized in adjustment disorders, as well. Social neglect—that is, the absence of adequate caregiving during childhood—is a diagnostic requirement of both reactive attachment disorder and disinhibited social engagement disorder. Although the two disorders share a common etiology, the former is expressed as an internalizing disorder with depressive symptoms and withdrawn behavior, while the latter is marked by disinhibition and externalizing behavior.
+
+
+
 
 
 ##d Reactive attachment disorder <--@DIAGNOSIS-->
@@ -36,11 +46,11 @@ F. The disturbance is evident before age 5 years.
 
 G. The child has a developmental age of at least 9 months.
 
-_Specify_ if:
+Specify if:
 
 Persistent: The disorder has been present for more than 12 months.
 
-_Specify_ current severity:
+Specify current severity:
 
 Reactive attachment disorder is specified as severe when a child exhibits all symptoms of the disorder, with each symptom manifesting at relatively high levels.
 
@@ -120,11 +130,11 @@ D. The care in Criterion C is presumed to be responsible for the disturbed behav
 
 E. The child has a developmental age of at least 9 months.
 
-_Specify_ if:
+Specify if:
 
 Persistent: The disorder has been present for more than 12 months.
 
-_Specify_ current severity:
+Specify current severity:
 
 Disinhibited social engagement disorder is specified as severe when the child exhibits all symptoms of the disorder, with each symptom manifesting at relatively high levels.
 
@@ -250,7 +260,7 @@ G. The disturbance causes clinically significant distress or impairment in socia
 
 H. The disturbance is not attributable to the physiological effects of a substance (e.g., medication, alcohol) or another medical condition.
 
-_Specify_ whether:
+Specify whether:
 
 With dissociative symptoms: The individual’s symptoms meet the criteria for posttraumatic stress disorder, and in addition, in response to the stressor, the individual experiences persistent or recurrent symptoms of either of the following:
 
@@ -260,7 +270,7 @@ With dissociative symptoms: The individual’s symptoms meet the criteria for po
 
 Note: To use this subtype, the dissociative symptoms must not be attributable to the physiological effects of a substance (e.g., blackouts, behavior during alcohol intoxication) or another medical condition (e.g., complex partial seizures).
 
-_Specify_ if:
+Specify if:
 
 With delayed expression: If the full diagnostic criteria are not met until at least 6 months after the event (although the onset and expression of some symptoms may be immediate).
 
@@ -328,7 +338,7 @@ F. The disturbance causes clinically significant distress or impairment in relat
 
 G. The disturbance is not attributable to the physiological effects of a substance (e.g., medication or alcohol) or another medical condition.
 
-_Specify_ whether:
+Specify whether:
 
 With dissociative symptoms: The individual’s symptoms meet the criteria for posttraumatic stress disorder, and the individual experiences persistent or recurrent symptoms of either of the following:
 
@@ -338,7 +348,7 @@ With dissociative symptoms: The individual’s symptoms meet the criteria for po
 
 Note: To use this subtype, the dissociative symptoms must not be attributable to the physiological effects of a substance (e.g., blackouts) or another medical condition (e.g., complex partial seizures).
 
-_Specify_ if:
+Specify if:
 
 With delayed expression: If the full diagnostic criteria are not met until at least 6 months after the event (although the onset and expression of some symptoms may be immediate).
 
@@ -554,7 +564,9 @@ Temperamental. Risk factors include prior mental disorder, high levels of negati
 
 Environmental. First and foremost, an individual must be exposed to a traumatic event to be at risk for acute stress disorder. Risk factors for the disorder include a history of prior trauma.
 
-Genetic and physiological. Females are at greater risk for developing acute stress disorder.\ Elevated reactivity, as reflected by acoustic startle response, prior to trauma exposure increases the risk for developing acute stress disorder.
+Genetic and physiological. Females are at greater risk for developing acute stress disorder.
+
+Elevated reactivity, as reflected by acoustic startle response, prior to trauma exposure increases the risk for developing acute stress disorder.
 
 ##h Culture-Related Diagnostic Issues <--@HEADER-->
 
@@ -604,7 +616,7 @@ D. The symptoms do not represent normal bereavement.
 
 E. Once the stressor or its consequences have terminated, the symptoms do not persist for more than an additional 6 months.
 
-_Specify_ whether:
+Specify whether:
 
 309.0 (F43.21) With depressed mood: Low mood, tearfulness, or feelings of hopelessness are predominant.
 
