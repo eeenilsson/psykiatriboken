@@ -36,6 +36,7 @@ neurocognitiveMain <- gsub("Disorder\n\nWith", "Disorder With", neurocognitiveMa
 neurocognitiveMain <- gsub("Disorder\n\n## Due", "Disorder Due", neurocognitiveMain)
 neurocognitiveMain <- gsub("## Neurobehavioral symptoms", "Neurobehavioral symptoms", neurocognitiveMain)
 neurocognitiveMain <- gsub("the\n\nTBI", "the TBI", neurocognitiveMain)
+neurocognitiveMain <- gsub("Note:\n\nDo not use", "Note: Do not use", neurocognitiveMain)
 
 neurocognitiveMain <- removeFalseHeader("Major or mild NCD", neurocognitiveMain)
 
