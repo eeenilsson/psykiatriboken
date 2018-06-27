@@ -31,7 +31,7 @@ pageIndex <- list(
 "Paraphilic Disorders"= "685",
 "Other Mental Disorders"= "707",
 "Medication-Induced Movement Disorders and Other Adverse Effects of Medication"= "709",
-"Other Conditions That May Be a Focus of Clinical Attention "= "715",
+"Other Conditions That May Be a Focus of Clinical Attention"= "715",
 
 ## Section III Emerging Measures and Models
 "Assessment Measures"= "733",
