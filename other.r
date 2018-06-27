@@ -3,7 +3,7 @@ pageIndex[chapterTitle] ## Chapter page index from TOC
 ## Other Mental Disorders	 707
 
 ## Other intro and main body
-otherMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 717:737)
+otherMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 738:739)
 ## otherMain[1] <-
 ##     gsub("(?s).*(?=\nSeparation Other Disorder)", "", otherMain[1], perl=T) ## remove redundant text before section starts and 
 otherMain <- paste(otherMain, collapse = "") ## collapse to one
@@ -12,7 +12,7 @@ otherMain <- makeHeaders(otherMain)
 otherMain <- cleanMore(otherMain)
 otherMain <- gsub(" \n\n", "\n\n", otherMain, perl=T) ## Remove blanks preceding newline
 otherMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", otherMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
-otherMain <- gsub("^.*SomStiC", "Other", otherMain) ## remove title and first sentance (not correctly parsed from pdf)
+otherMain <- gsub("^.*F o u r d iSO rd G fS", "Four disorders", otherMain) ## remove title and first sentance (not correctly parsed from pdf)
 otherMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), otherMain) ## Add header to intro
 otherMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), otherMain) ## Add chapter
 otherMain <- gsub("(?<=[^\n])##", "\n\n##", otherMain, perl=T) ## ## should be preceded by newline
@@ -25,7 +25,8 @@ writeLines(otherMain, "otherMain.txt")
 
 #### chunk specific replacements
 otherMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", otherMain)
-otherMain <- removeFalseHeader("Missing work or school", otherMain)
+otherMain <- removeFalseHeader("Missing work or school", otherMain) 
+otherMain <- gsub("Disorder 3", "Disorder\n\n3", otherMain)
 
 ##
 ## startTag <- "## Inhalant Use Disorder\n\n## Inhalant"

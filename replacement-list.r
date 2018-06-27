@@ -44,6 +44,7 @@ spellList <- list(
     'lUliid' = "Mild",
     'IViiid' = "Mild",
     'Miid' = "Mild",
+    'IVIental' = "Mental",
     'lUloderate' = "Moderate",
     'Cuiture' = "Culture",
     'Fieid' = "Field",

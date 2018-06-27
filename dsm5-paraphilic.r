@@ -26,7 +26,7 @@ writeLines(paraphilicMain, "paraphilicMain.txt")
 #### chunk specific replacements
 paraphilicMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", paraphilicMain)
 paraphilicMain <- removeFalseHeader("Many of the conditions", paraphilicMain)
-paraphilicMain <- gsub("Disorder 3", "Disorder\n\n3", paraphilicMain)
+paraphilicMain <- gsub("(Disorder)( )([0-9][3])", "\\1\n\n\\3", paraphilicMain)
 
 ## startTag <- "## Inhalant Use Disorder\n\n## Inhalant"
 ## stopTag <- "Disorders\n\n## Unspecified Inhalant.Related Disorder"
