@@ -34,6 +34,8 @@ neurocognitiveMain <- gsub("Frontotemporal\n\n##", "Frontotemporal", neurocognit
 neurocognitiveMain <- gsub("Major or Mild\n\n##", "Major or Mild", neurocognitiveMain)
 neurocognitiveMain <- gsub("Disorder\n\nWith", "Disorder With", neurocognitiveMain)
 neurocognitiveMain <- gsub("Disorder\n\n## Due", "Disorder Due", neurocognitiveMain)
+neurocognitiveMain <- gsub("## Neurobehavioral symptoms", "Neurobehavioral symptoms", neurocognitiveMain)
+neurocognitiveMain <- gsub("the\n\nTBI", "the TBI", neurocognitiveMain)
 
 neurocognitiveMain <- removeFalseHeader("Major or mild NCD", neurocognitiveMain)
 
@@ -75,8 +77,17 @@ neurocognitiveMain <- gsub(
 write_csv(myTable, "dsm5-table-p629.csv")
 
 ## ## TABLE 2 Severity ratings for traumatic brain injury
+startTag <- "(?s)(## TABLE 2 Severity ratings for traumatic brain injury)"
+stopTag <- "## Score\\)"
+tableNote <- "Note: Disorientation and confusion is assessed using Glasgow Coma Scale (GCS). For mild TBI GCS should not be below 13 at 30 minutes."
+myTable <- read_delim("dsm5-table-neurocognitive-tbi.txt", delim=";")
+neurocognitiveMain <- gsub(
+    paste(startTag, ".*", stopTag, sep= ""),
+    paste(formatTable(myTable, caption = "Severity ratings for traumatic brain injury"), tableNote, sep="\n\n"),
+    neurocognitiveMain, perl=T) ## table
+write_csv(myTable, "dsm5-table-p659.csv")
 
-"## TABLE 2 Severity ratings for traumatic brain injury"
+writeLines(neurocognitiveMain, "neurocognitiveMain.txt")
 
 ## table Major neurocognitive
 tableNote <- "Note: Codes in the table are for _probable_ major neurocognitive disorder. For _possible_ major neurocognitive disorder use 331.9 (G31.9) in the following conditions: Alzheimer’s disease, frontotemporal lobar degeneration, Lewy body disease, vascular disease and Parkinson’s disease.
