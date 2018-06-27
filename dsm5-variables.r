@@ -58,8 +58,9 @@ listHeaders <- c(
 "Irregular Sleep-Wake Type",
 "Non-24-Hour Sleep-Wake Type",
 "Shift Work Type",
-"Neurocognitive Domains"
-)
+"Neurocognitive Domains",
+"Major Neurocognitive Disorder",
+"Mild Neurocognitive Disorder")
 
 #### List groups
 groupList <- c(
@@ -101,5 +102,7 @@ groupList <- c(
     "Other Stimulant-Induced Disorders",
     "Tobacco-Related Disorders",
     "Other Tobacco-Induced Disorders",
-    "Other \\(or Unknown\\) Substance-Related Disorders"
+    "Other \\(or Unknown\\) Substance-Related Disorders",
+    "Major and Mild Neurocognitive Disorders",
+    "Major or Mild Vascular Neurocognitive Disorder"
 )

@@ -1,0 +1,14 @@
+Etiological subtype, Associated etiological code, Major neurocognitive disorder, Mild neurocognitive disorder
+Alzheimer’s disease, 331.0 (G30.9), 294.1x (F02.8X), 331.83 (G31.84)
+Frontotemporal lobar degeneration, 331.19 (G31.09), 294.1x (F02.8X), 331.83 (G31.84)
+Lewy body disease, 331.82 (G31.83), 294.1x (F02.8X), 331.83 (G31.84)
+Vascular disease, None, 290.40 (F01.5x), 331.83 (G31.84)
+Traumatic brain injury, 907.0 (S06.2X9S), 294.1x (F02.8X), 331.83 (031.84)
+Substance/medication-induced, None, Based on substance, Based on substance
+HIV infection, 042 (B20), 294.1x (F02.8x), 331.83 (G31.84)
+Prion disease, 046.79 (A81.9), 294.1x (F02.8X), 331.83 (G31.84)
+Parkinson’s disease, 332.0 (G20), 294.1x (F02.8X), 331.83 (G31.84)
+Huntington’s disease, 333.4 (G10), 294.1x (F02.8X), 331.83 (G31.84)
+Due to another medical condition, Medical condition, 294.1x (F02.8X), 331.83 (G31.84)
+Due to multiple etiologies, All conditions, 294.1x (F02.8X), 331.83 (G31.84)
+Unspecified neurocognitive disorder, None, 799.59 (R41.9), 799.59 (R41.9)
