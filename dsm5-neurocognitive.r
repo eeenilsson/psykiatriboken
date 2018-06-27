@@ -58,9 +58,10 @@ grep(stopTag, neurocognitiveMain, perl=T) ## test
 ### get Section
 myTable <- getSection(startTag, stopTag, neurocognitiveMain)
 
-gsub("##(.*)?CM", "", myTable) ## additional cleaning needed
+myTable <- gsub("##(.*)?CM", "", myTable, perl=T) ## additional cleaning needed
 
-myTable <- parseTableUseDisorder(myTable)
+myTable <-
+    parseTableUseDisorder(myTable)
 colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
 neurocognitiveMain <- gsub(
     paste(startTag, ".*", stopTag, sep= ""),
