@@ -12,7 +12,7 @@ paraphilicMain <- makeHeaders(paraphilicMain)
 paraphilicMain <- cleanMore(paraphilicMain)
 paraphilicMain <- gsub(" \n\n", "\n\n", paraphilicMain, perl=T) ## Remove blanks preceding newline
 paraphilicMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", paraphilicMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
-paraphilicMain <- gsub("^.*SomStiC", "Paraphilic", paraphilicMain) ## remove title and first sentance (not correctly parsed from pdf)
+paraphilicMain <- gsub("^.*Psrsphilic", "Paraphilic", paraphilicMain) ## remove title and first sentance (not correctly parsed from pdf)
 paraphilicMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), paraphilicMain) ## Add header to intro
 paraphilicMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), paraphilicMain) ## Add chapter
 paraphilicMain <- gsub("(?<=[^\n])##", "\n\n##", paraphilicMain, perl=T) ## ## should be preceded by newline
@@ -25,9 +25,9 @@ writeLines(paraphilicMain, "paraphilicMain.txt")
 
 #### chunk specific replacements
 paraphilicMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", paraphilicMain)
-paraphilicMain <- removeFalseHeader("Missing work or school", paraphilicMain)
+paraphilicMain <- removeFalseHeader("Many of the conditions", paraphilicMain)
+paraphilicMain <- gsub("Disorder 3", "Disorder\n\n3", paraphilicMain)
 
-##
 ## startTag <- "## Inhalant Use Disorder\n\n## Inhalant"
 ## stopTag <- "Disorders\n\n## Unspecified Inhalant.Related Disorder"
 ## grep(startTag, paraphilicMain, perl=T, ignore.case=T)

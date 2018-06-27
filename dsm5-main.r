@@ -42,6 +42,7 @@ source('dsm5-variables.r')
 ## source('dsm5-impulse.r')
 ## source('dsm5-substance.r') ## split by groups and diagnosis
 ## source('dsm5-neurocognitive.r') ## split by groups and diagnosis
+## source('dsm5-personality.r') ## split by groups and diagnosis
 
 ## ======================================================
 
@@ -65,7 +66,6 @@ source('dsm5-variables.r')
 ## Neurocognitive Disorders	 591
 ## Personality Disorders	645
 
-## Paraphilic Disorders	685
 ## Other Mental Disorders	 707
 ## Medication-Induced Movement Disorders and Other Adverse Effects of Medication	 709
 ## Other Conditions That May Be a Focus of Clinical Attention 	 715
