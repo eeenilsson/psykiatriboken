@@ -41,6 +41,7 @@ source('dsm5-variables.r')
 ## source('dsm5-gender.r')
 ## source('dsm5-impulse.r')
 ## source('dsm5-substance.r') ## split by groups and diagnosis
+## source('dsm5-neurocognitive.r') ## split by groups and diagnosis
 
 ## ======================================================
 
@@ -61,9 +62,9 @@ source('dsm5-variables.r')
 ## Gender Dysphoria	451
 ## Disruptive, Impulse-Control, and Conduct Disorders	461
 ## Substance-Related and Addictive Disorders	 481
-
 ## Neurocognitive Disorders	 591
 ## Personality Disorders	645
+
 ## Paraphilic Disorders	685
 ## Other Mental Disorders	 707
 ## Medication-Induced Movement Disorders and Other Adverse Effects of Medication	 709

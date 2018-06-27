@@ -104,5 +104,10 @@ groupList <- c(
     "Other Tobacco-Induced Disorders",
     "Other \\(or Unknown\\) Substance-Related Disorders",
     "Major and Mild Neurocognitive Disorders",
-    "Major or Mild Vascular Neurocognitive Disorder"
+    "Major or Mild Vascular Neurocognitive Disorder",
+    "General Personality Disorder",
+    "Cluster A Personality Disorders",
+    "Cluster B Personality Disorders",
+    "Cluster C Personality Disorders",
+    "Other Personality Disorders"
 )

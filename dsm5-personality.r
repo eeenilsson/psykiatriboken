@@ -1,9 +1,9 @@
-chapterTitle <- "Disruptive, Impulse-Control, and Conduct Disorders"
+chapterTitle <- "Personality Disorders"
 pageIndex[chapterTitle] ## Chapter page index from TOC
-## Disruptive, Impulse-Control, and Conduct Disorders	461
+## Personality Disorders	645
 
 ## Impulse intro and main body
-impulseMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 495:514)
+impulseMain <- extract_text("/home/eee/Dropbox/psykiatri/documents/dsm-5-manual-2013.pdf", pages = 677:716)
 ## impulseMain[1] <-
 ##     gsub("(?s).*(?=\nSeparation Impulse Disorder)", "", impulseMain[1], perl=T) ## remove redundant text before section starts and 
 impulseMain <- paste(impulseMain, collapse = "") ## collapse to one
@@ -12,20 +12,31 @@ impulseMain <- makeHeaders(impulseMain)
 impulseMain <- cleanMore(impulseMain)
 impulseMain <- gsub(" \n\n", "\n\n", impulseMain, perl=T) ## Remove blanks preceding newline
 impulseMain <- gsub("(?<=\n\n)([^\n#]*)([^\\.:_\\)])(\n\n)", "\\1\\2 ", impulseMain, perl=T) ## Remove unwanted newline breaks in text not preceded by dot or colon or parens or underscore. NOTE: Must be preceded by removing blanks before newline
-impulseMain <- gsub("^.*SomStiC", "Impulse", impulseMain) ## remove title and first sentance (not correctly parsed from pdf)
+impulseMain <- gsub("^.*T h is C h s p te r b e g i n s", "This chapter begins", impulseMain) ## remove title and first sentance (not correctly parsed from pdf)
 impulseMain <- gsub("^", paste("##i Introduction to ", chapterTitle, "\n\n", sep=""), impulseMain) ## Add header to intro
 impulseMain <- gsub("^", paste("##c ", chapterTitle, "\n\n", sep=""), impulseMain) ## Add chapter
 impulseMain <- gsub("(?<=[^\n])##", "\n\n##", impulseMain, perl=T) ## ## should be preceded by newline
 impulseMain <- gsub("\\,\"", "\"\\,", impulseMain) ## comma before qoutes corrected
 impulseMain <- gsub("## The essential", "The essential", impulseMain) ## seems common
 impulseMain <- gsub("Disorder 2", "Disorder\n\n2", impulseMain)
-impulseMain <- gsub("([a-z])(\n\n)([0-9])", "\\1 \\3", impulseMain) ## newline followed by number and preceded bu letter with no period character
 
 writeLines(impulseMain, "impulseMain.txt")
 
 #### chunk specific replacements
-impulseMain <- gsub("[^\n]## Diagnostic Features", "\n\n## Diagnostic Features", impulseMain)
-impulseMain <- removeFalseHeader("Missing work or school", impulseMain)
+impulseMain <- gsub("of\n\n3", "of 3", impulseMain)
+impulseMain <- gsub("\\)\n\n\\(", ") (", impulseMain)
+impulseMain <- gsub("([a-z])(\n\n)([0-9])", "\\1 \\3", impulseMain)
+impulseMain <- gsub("Change\n\n## Due", "Change Due", impulseMain)
+impulseMain <- gsub("Medical Condition 310.1", "Medical Condition\n\n310.1", impulseMain)
+impulseMain <- gsub("Personality Disorder 301", "Personality Disorder\n\n301", impulseMain)
+
+impulseMain <- removeFalseHeader("Individuals with", impulseMain)
+impulseMain <- removeFalseHeader("A prevalence estimate for paranoid", impulseMain)
+impulseMain <- removeFalseHeader("Individuals with schizoid", impulseMain)
+impulseMain <- removeFalseHeader("National Epidemiologic Survey", impulseMain)
+impulseMain <- removeFalseHeader("Individuals with this", impulseMain)
+impulseMain <- removeFalseHeader("The median population", impulseMain)
+impulseMain <- removeFalseHeader("These individuals are often", impulseMain)
 
 ##
 ## startTag <- "## Inhalant Use Disorder\n\n## Inhalant"
@@ -38,7 +49,7 @@ impulseMain <- removeFalseHeader("Missing work or school", impulseMain)
 ## impulseMain <- gsub("Disorder\n\n## Due to Another Medical Condition", "Disorder Due to Another Medical Condition", impulseMain)
 
 writeLines(impulseMain, "impulseMain.txt")
-
+x
 #### table replacement ==================
 ## impulseMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", impulseMain, perl=T) ## table
 
