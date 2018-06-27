@@ -65,8 +65,9 @@ source('dsm5-variables.r')
 ## Substance-Related and Addictive Disorders	 481
 ## Neurocognitive Disorders	 591
 ## Personality Disorders	645
-
+## Paraphilic Disorders	685
 ## Other Mental Disorders	 707
+
 ## Medication-Induced Movement Disorders and Other Adverse Effects of Medication	 709
 ## Other Conditions That May Be a Focus of Clinical Attention 	 715
 
