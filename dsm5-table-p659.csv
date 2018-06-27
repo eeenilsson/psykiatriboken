@@ -1,4 +1,10 @@
-Injury characteristic,Mild TBI,Moderate TBI,Severe TBI
-Loss of consciousness,<30 min,30 min to 24 h,>24 h
-Post-traumatic amnesia,<24 hours,24 h to 7 d,>7 d
-Disorientation and confusion,GCS 13-15,GCS 9-12,GCS 3-8
+Substance,With mild use disorder,Moderate or severe,Without use disorder
+"Alcohol (major neurocognitive disorder) , nonamnestic- confabulatory type",NA,F10.27,F10.97
+"Alcohol (major neurocognitive disorder) , amnestic- confabulatory type",NA,F10.26,F10.96
+Alcohol (mild neurocognitive disorder),NA,F10.288,F10.988
+Inhalant (major neurocognitive disorder),F18.17,F18.27,F18.97
+Inhalant (mild neurocognitive disorder),F18.188,F18.288,F18.988
+"Sedative, hypnotic, or anxiolytic (major neurocognitive disorder)",NA,F13.27,F13.97
+"Sedative, hypnotic, or anxiolytic (mild neurocognitive disorder)",NA,F13.288,F13.988
+Other (or unknown) substance (major neurocognitive disorder),F19.17,F19.27,F19.97
+Other (or unknown) substance (mild neurocognitive disorder),F19.188,F19.288,F19.988

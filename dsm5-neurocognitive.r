@@ -76,6 +76,23 @@ neurocognitiveMain <- gsub(
     formatTable(myTable, caption = "ICD codes for Intoxication Delirium"), neurocognitiveMain, perl=T) ## table
 write_csv(myTable, "dsm5-table-p629.csv")
 
+## Substance-induced
+
+startTag <- "(?s)(?<=Behavioral disturbance cannot be coded but should still be indicated in writing.)(\n\n## ICD.10)"
+stopTag <- "FI 9.988 (?=Specify)"
+grep(startTag, neurocognitiveMain, perl=T) ## test
+grep(stopTag, neurocognitiveMain, perl=T) ## test
+### get Section
+myTable <- getSection(startTag, stopTag, neurocognitiveMain)
+##myTable <- gsub("##(.*)?CM", "", myTable, perl=T) ## additional cleaning needed
+myTable <-
+    parseTableUseDisorder(myTable)
+colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
+neurocognitiveMain <- gsub(
+    paste(startTag, ".*", stopTag, sep= ""),
+    formatTable(myTable, caption = "ICD codes for Substance/Medication-induced Major or Mild Neurocognitive Disorder"), neurocognitiveMain, perl=T) ## table
+write_csv(myTable, "dsm5-table-p661.csv")
+
 ## ## TABLE 2 Severity ratings for traumatic brain injury
 startTag <- "(?s)(## TABLE 2 Severity ratings for traumatic brain injury)"
 stopTag <- "## Score\\)"

@@ -141,7 +141,7 @@ Genetic and physiological. Both major and mild NCDs can increase the risk for de
 
 In addition to laboratory findings characteristic of underlying medical conditions (or intoxication or withdrawal states), there is often generalized slowing on electroencephalography, and fast activity is occasionally found (e.g., in some cases of alcohol withdrawal delirium). However, electroencephalography is insufficiently sensitive and specific for diagnostic use.
 
-## Functional Consequences of Deiirium
+## Functional Consequences of Delirium
 
 Delirium itself is associated with increased functional decline and risk of institutional placement. Hospitalized individuals 65 years or older with delirium have three times the risk of nursing home placement and about three times the functional decline as hospitalized patients without delirium at both discharge and 3 months postdischarge.
 
@@ -840,19 +840,17 @@ The severity of a TBI is rated at the time of injury/initial assessment as mild,
 
 The severity rating of the TBI itself does not necessarily correspond to the severity of the resulting NCD. The course of recovery from TBI is variable, depending not only on the specifics of the injury but also on cofactors, such as age, prior history of brain damage, or substance abuse, that may favor or impede recovery.
 
+## TABLE 2 Severity ratings for traumatic brain injury
 
+## Injury characteristic Mild TBI Moderate TBI Severe TBI
 
-<--@TABLESTART--> Severity ratings for traumatic brain injury
-|Injury characteristic        | Mild TBI  |  Moderate TBI  | Severe TBI |
-|:----------------------------|:---------:|:--------------:|:----------:|
-|Loss of consciousness        |  <30 min  | 30 min to 24 h |   >24 h    |
-|Post-traumatic amnesia       | <24 hours |  24 h to 7 d   |    >7 d    |
-|Disorientation and confusion | GCS 13-15 |    GCS 9-12    |  GCS 3-8   |
-<--@TABLESTOP-->
+## Loss of consciousness <30 nnin 30 minutes-24 hours >24 hours
 
+## Post-traumatic amnesia <24 hours 24 hours-7 days >7 days
 
+## Disorientation and confusion 13-15 (not below 13 9-12 3-8at initial assessment at 30 minutes) (Glasgow Coma Scale
 
-Note: Disorientation and confusion is assessed using Glasgow Coma Scale (GCS). For mild TBI GCS should not be below 13 at 30 minutes.
+## Score)
 
 Neurobehavioral symptoms tend to be most severe in the immediate aftermath of the TBI. Except in the case of severe TBI, the typical course is that of complete or substantial improvement in associated neurocognitive, neurological, and psychiatric symptoms and signs. Neurocognitive symptoms associated with mild TBI tend to resolve within days to weeks after the injury with complete resolution typical by 3 months. Other symptoms that may potentially co-occur with the neurological symptoms (e.g., depression, irritability, fatigue, headache, photosensitivity, sleep disturbance) also tend to resolve in the weeks following mild TBI. Substantial subsequent deterioration in these areas should trigger consideration of additional diagnoses. However, repeated mild TBI may be associated with persisting neurocognitive disturbance.
 
@@ -870,13 +868,11 @@ Risk factors for neurocognitive disorder after traumatic brain injury. Repeated 
 
 Course modifiers. Mild TBI generally resolves within a few weeks to months, although resolution may be delayed or incomplete in the context of repeated TBI. Worse outcome frommoderate to severe TBI is associated with older age (older than 40 years) and initial clinical parameters, such â low Glasgow Coma Scale score; worse motor function; pupillary nonreactivity; and computed tomography (CT) evidence of brain injury (e.g., petechial hemorrhages, subarachnoid hemorrhage, midline shift, obliteration of third ventricle).
 
-## Diagnostic IViarlcers
+## Diagnostic Markers
 
 Beyond neuropsychological testing, CT scanning may reveal petechial hemorrhages, subarachnoid hemorrhage, or evidence of contusion. Magnetic resonance image scanning may also reveal hyperintensities suggestive of microhemorrhages.
 
-## Functional Consequences of Major or IViiid
-
-## Neurocognitive Disorder Due to Traumatic Brain injury
+## Functional Consequences of Major or Mild Neurocognitive Disorder Due to Traumatic Brain injury
 
 With mild NCD due to TBI, individuals may report reduced cognitive efficiency, difficulty concentrating, and lessened ability to perform usual activities. With major NCD due to TBI, an individual may have difficulty in independent living and self-care. Prominent neuromotor features, such as severe incoordination, ataxia, and motor slowing, may be present in major NCD due to TBI and may add to functional difficulties. Individuals with TBI histories report more depressive symptoms, and these can amplify cognitive complaints and worsen functional outcome. Additionally, loss of emotional control, including aggressive or inappropriate affect and apathy, may be present after more severe TBI with greater neurocognitive impairment. These features may compound difficulties with independent living and self-care.
 
@@ -904,35 +900,21 @@ E. The neurocognitive disorder is not attributable to another medical condition 
 
 Coding note: The ICD-9-CM and ICD-10-CM codes for the [specific substance/medica- tion]-induced neurocognitive disorders are indicated in the table below. Note that the ICD- 10-CM code depends on whether or not there is a comorbid substance use disorder present for the same class of substance. If a mild substance use disorder is comorbid with the substance-induced neurocognitive disorder, the 4th position character is “1 and the clinician should record “mild [substance] use disorder” before the substance-induced neurocognitive disorder (e.g., “mild inhalant use disorder with inhalant-induced major neurocognitive disorder”). If a moderate or severe substance use disorder is comorbid with the substance- induced neurocognitive disorder, the 4th position character is “2,” and the clinician should record “moderate [substance] use disorder” or “severe [substance] use disorder,” depending on the severity of the comorbid substance use disorder. If there is no comorbid substance use disorder, then the 4th position character is “9,” and the clinician should record only the substance-induced neurocognitive disorder. For some classes of substances (i.e., alcohol; sedatives, hypnotics, anxiolytics), it is not permissible to code a comorbid mild substance use disorder with a substance-induced neurocognitive disorder; only a comorbid moderate or severe substance use disorder, or no substance use disorder, can be diagnosed. Behavioral disturbance cannot be coded but should still be indicated in writing.
 
-## ICD-10-CM
+<--@TABLESTART--> ICD codes for Intoxication Delirium
+|Substance                                                                 | With mild use disorder | Moderate or severe | Without use disorder |
+|:-------------------------------------------------------------------------|:----------------------:|:------------------:|:--------------------:|
+|Alcohol (major neurocognitive disorder) , nonamnestic- confabulatory type |           NA           |       F10.27       |        F10.97        |
+|Alcohol (major neurocognitive disorder) , amnestic- confabulatory type    |           NA           |       F10.26       |        F10.96        |
+|Alcohol (mild neurocognitive disorder)                                    |           NA           |      F10.288       |       F10.988        |
+|Inhalant (major neurocognitive disorder)                                  |         F18.17         |       F18.27       |        F18.97        |
+|Inhalant (mild neurocognitive disorder)                                   |        F18.188         |      F18.288       |       F18.988        |
+|Sedative, hypnotic, or anxiolytic (major neurocognitive disorder)         |           NA           |       F13.27       |        F13.97        |
+|Sedative, hypnotic, or anxiolytic (mild neurocognitive disorder)          |           NA           |      F13.288       |       F13.988        |
+|Other (or unknown) substance (major neurocognitive disorder)              |         F19.17         |       F19.27       |        F19.97        |
+|Other (or unknown) substance (mild neurocognitive disorder)               |        F19.188         |      F19.288       |       F19.988        |
+<--@TABLESTOP-->
 
-## ICD-9-CM
-
-With use disorder, mild With use disorder, moderate or severe Without use disorder Alcohol (major neurocognitive disorder), nonamnestic- confabulatory type 291.2 NA FI 0.27 FI 0.97 Alcohol (major neurocognitive disorder), amnestic- confabulatory type 291.1 NA FI 0.26 FI 0.96 
-
-## Alcohol (mild neurocognitive disorder)
-
-291.89 NA FI 0.288 FI 0.988 
-
-## Inhalant (major neurocognitive disorder)
-
-292.82 F18.17 FI 8.27 FI 8.97 
-
-## Inhalant (mild neurocognitive disorder)
-
-292.89 FI 8.188 FI 8.288 FI 8.988 Sedative, hypnotic, or anxiolytic (major neurocognitive disorder)
-
-292.82 NA FI 3.27 FI 3.97 Sedative, hypnotic, or anxiolytic (mild neurocognitive disorder)
-
-292.89 NA FI 3.288 FI 3.988 
-
-## Other (or unknown) substance (major neurocognitive disorder)
-
-292.82 F19.17 FI 9.27 FI 9.97 
-
-## Other (or unknown) substance (mild neurocognitive disorder)
-
-292.89 F19.188 FI 9.288 FI 9.988 Specify if:
+Specify if:
 
 Persistent:,Neurocognitive impairment continues to be significant after an extended period of abstinence.
 

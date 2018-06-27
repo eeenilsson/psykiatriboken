@@ -152,12 +152,15 @@ parseTableUseDisorder <- function (x){
     mySection <-
         gsub("^.*Withoutusedisorder.*?(?=[A-Z])", " ", mySection, perl=T) ## clean start, repl w blank
     mySection <- gsub("With use disorder.+?Without use disorder", " ", mySection, perl=T) ## repea for multi-page tables
-    mySection <- gsub("ICD.*disorder", "", mySection)
+    ## mySection <-
+    ##     gsub("ICD(.*)?disorder", "", mySection)
+    mySection <- gsub("ICD(.*)?\\-CM", "", mySection)
     mySection <- gsub("\\)", ") ", mySection) ## add blank after parens
     mySection <- gsub("[[:blank:]]+", " ", mySection) ## clean double parens
     mySection <- gsub("[[:blank:]]+", " ", mySection) ## remove multiple blanks
     mySection <-
-        gsub("([[:blank:]][A-Z][a-z ,\\(\\)]*)[[:blank:]][0-9]{3}\\.[0-9]{1,2}", "\n\\1;", mySection, perl=T, ignore.case=FALSE) ## Row names identified
+        gsub("([[:blank:]][A-Z][a-z ,\\(\\)\\-]*)[[:blank:]][0-9]{3}\\.[0-9]{1,2}", "\n\\1;", mySection, perl=T, ignore.case=FALSE) ## Row names identified
+    
     mySection <- gsub("(F[0-9]{2}\\.[0-9]{2,3})", "\\1;", mySection, perl=T, ignore.case=T)
     mySection <- gsub("NA", "NA;", mySection)
     TEMP <-
