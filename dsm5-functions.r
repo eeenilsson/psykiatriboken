@@ -48,6 +48,7 @@ cleanMore <- function(CHUNK){
     TEMP <- gsub("\n\n([A-Z].*\\))(?=(\n\n[A-Z]\\.))", "\n\n### \\1", TEMP, perl = T) ### subheaders for multiple subdiagnoses in the diagnostic criteria section
     TEMP <- gsub("\n\n## Disorder\n\n", "Disorder\n\n", TEMP) ## make ##Disorder not be separate header
     TEMP <- gsub("(### )([A-Z]\\.)", "\\2", TEMP)
+    TEMP <- gsub("\nSpecify.", "\n_Specify_ ", TEMP)
     TEMP <- gsub("## Specify", "_Specify_", TEMP)
     TEMP <- gsub("(\\.)([a-z]\\.[[:blank:]][A-Z])", "\\1\n\\2", TEMP) ## lowercase lists
     TEMP <- gsub("\\/.\n\n## ", "\\/", TEMP) ## remove forwardslash

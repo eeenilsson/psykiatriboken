@@ -24,9 +24,7 @@ Because of the two-pronged nature of diagnosing paraphilic disorders, clinician-
 
 The most widely applicable framework for assessing the strength of a paraphilia itself is one in which examinees' paraphilic sexual fantasies, urges, or behaviors are evaluated in relation to their normophilic sexual interests and behaviors. In a clinical interview or on self-administered questionnaires, examinees can be asked whether their paraphilic sexual fantasies, urges, or behaviors are weaker than, approximately equal to, or stronger than their normophilic sexual interests and behaviors. This same type of comparison can be, and usually is, employed in psychophysiological measures of sexual interest, such as penile plethysmography in males or viewing time in males and females.
 
-##d Voyeuristic disorder <--@DIAGNOSIS-->
-
-302.82 (F65.3)
+##d Voyeuristic disorder 302.82 (F65.3) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -84,9 +82,7 @@ Substance use disorders. Substance use disorders might involve single voyeuristi
 
 Known comorbidities in voyeuristic disorder are largely based on research with males suspected of or convicted for acts involving the secret watching of unsuspecting nude or sexually active persons. Hence, these comorbidities might not apply to all individuals with voyeuristic disorder. Conditions that occur comorbidly with voyeuristic disorder include hypersexuality and other paraphilic disorders, particularly exhibitionistic disorder. Depressive, bipolar, anxiety, and substance use disorders; attention-deficit/hyperactivity disorder; and conduct disorder and antisocial personality disorder are also frequent co- morbid conditions.
 
-##d Exhibitionistic disorder <--@DIAGNOSIS-->
-
-302.4 (F65.2)
+##d Exhibitionistic disorder 302.4 (F65.2) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -158,9 +154,7 @@ Substance use disorders. Alcohol and substance use disorders might involve singl
 
 Known comorbidities in exhibitionistic disorder are largely based on research with individuals (almost all males) convicted for criminal acts involving genital exposure to nonconsenting individuals. Hence, these comorbidities might not apply to all individuals who qualify for a diagnosis of exhibitionistic disorder. Conditions that occur comorbidly with exhibitionistic disorder at high rates include depressive, bipolar, anxiety, and substance use disorders; hypersexuality; attention-deficit/hyperactivity disorder; other paraphilic disorders; and antisocial personality disorder.
 
-##d Frotteuristic disorder <--@DIAGNOSIS-->
-
-302.89 (F65.81)
+##d Frotteuristic disorder 302.89 (F65.81) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -214,9 +208,7 @@ Known comorbidities in frotteuristic disorder are largely based on research with
 
 Potential differential diagnoses for frotteuristic disorder sometimes occur also as comor- bid disorders. Therefore, it is generally necessary to evaluate the evidence for frotteuristic disorder and possible comorbid conditions as separate questions.
 
-##d Sexual masochism disorder <--@DIAGNOSIS-->
-
-302.83 (F65.51)
+##d Sexual masochism disorder 302.83 (F65.51) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -264,9 +256,7 @@ Many of the conditions that could be differential diagnoses for sexual masochism
 
 Known comorbidities with sexual masochism disorder are largely based on individuals in treatment. Disorders that occur comorbidly with sexual masochism disorder typically include other paraphilic disorders, such as transvestic fetishism.
 
-##d Sexual sadism disorder <--@DIAGNOSIS-->
-
-302.84 (F65.52)
+##d Sexual sadism disorder 302.84 (F65.52) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -312,9 +302,7 @@ Many of the conditions that could be differential diagnoses for sexual sadism di
 
 Known comorbidities with sexual sadism disorder are largely based on individuals (almost all males) convicted for criminal acts involving sadistic acts against nonconsenting victims. Hence, these comorbidities might not apply to all individuals who never engaged in sadistic activity with a nonconsenting victim but who qualify for a diagnosis of sexual sadism disorder based on subjective distress over their sexual interest. Disorders that are commonly comorbid with sexual sadism disorder include other paraphilic disorders.
 
-##d Pedophilic disorder <--@DIAGNOSIS-->
-
-302.2 (F65.4)
+##d Pedophilic disorder 302.2 (F65.4) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -404,9 +392,7 @@ Obsessive-compulsive disorder. There are occasional individuals who complain abo
 
 Psychiatric comorbidity of pedophilic disorder includes substance use disorders; depressive, bipolar, and anxiety disorders; antisocial personality disorder; and other paraphilic disorders. However, findings on comorbid disorders are largely among individuals convicted for sexual offenses involving children (almost all males) and may not be general- izable to other individuals with pedophilic disorder (e.g., individuals who have never approached a child sexually but who qualify for the diagnosis of pedophilic disorder on the basis of subjective distress).
 
-##d Fetishistic disorder <--@DIAGNOSIS-->
-
-302.81 (F65.0)
+##d Fetishistic disorder 302.81 (F65.0) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -470,9 +456,7 @@ Fetishistic behavior without fetishistic disorder. Use of a fetish object for se
 
 Fetishistic disorder may co-occur with other paraphilic disorders as well as hypersexuality. Rarely, fetishistic disorder may be associated with neurological conditions.
 
-##d Transvestic disorder <--@DIAGNOSIS-->
-
-302.3 (F65.1)
+##d Transvestic disorder 302.3 (F65.1) <--@DIAGNOSIS-->
 
 ##h Diagnostic Criteria <--@HEADER-->
 
@@ -534,16 +518,12 @@ Gender dysphoria. Individuals with transvestic disorder do not report an incongr
 
 Transvestism (and thus transvestic disorder) is often found in association with other paraphilias. The most frequently co-occurring paraphilias are fetishism and masochism. One particularly dangerous form of masochism, autoerotic asphyxia, is associated with transvestism in a substantial proportion of fatal cases.
 
-##d Other specified paraphilic disorder <--@DIAGNOSIS-->
-
-302.89 (F65.89)
+##d Other specified paraphilic disorder 302.89 (F65.89) <--@DIAGNOSIS-->
 
 This category applies to presentations in which symptoms characteristic of a paraphilic disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the paraphilic disorders diagnostic class. The other specified paraphilic disorder category is used in situations in which the clinician chooses to communicate the specific reason that the presentation does not meet the criteria for any specific paraphilic disorder. This is done by recording “other specified paraphilic disorder'’ followed by the specific reason (e.g., “zoophilia”).
 
 Examples of presentations that can be specified using the “other specified” designation include, but are not limited to, recurrent and intense sexual arousal involving telephone scatologia (obscene phone calls), necrophilia (coφses), zoophilia (animals), coprophilia (feces), klismaphilia (enemas), or urophilia (urine) that has been present for at least 6 months and causes marked distress or impairment in social, occupational, or other important areas of functioning. Other specified paraphilic disorder can be specified as in remission and/or as occurring in a controlled environment.
 
-##d Unspecified paraphilic disorder <--@DIAGNOSIS-->
-
-302.9 (F65.9)
+##d Unspecified paraphilic disorder 302.9 (F65.9) <--@DIAGNOSIS-->
 
 This category applies to presentations in which symptoms characteristic of a paraphilic disorder that cause clinically significant distress or impairment in social, occupational, or other important areas of functioning predominate but do not meet the full criteria for any of the disorders in the paraphilic disorders diagnostic class. The unspecified paraphilic disorder category is used in situations in which the clinician chooses not to specify the reason that the criteria are not met for a specific paraphilic disorder, and includes presentations in which there is insufficient information to make a more specific diagnosis.

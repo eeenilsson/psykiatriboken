@@ -44,8 +44,8 @@ writeLines(depressiveMain, "depressiveMain.txt")
 ## depressiveMain <- gsub(paste(startTag, ".*", stopTag, sep= ""), "<--TABLE-P176-->\n\n", depressiveMain, perl=T) ## table
 startTag <- "(?s)(?<=the clinician should record only the substance.induced depressive disorder.\n\n)"
 stopTag <- "9.94 (?=_Specify_)"
-## grep(startTag, depressiveMain, perl=T) ## test
-## grep(stopTag, depressiveMain, perl=T) ## test
+grep(startTag, depressiveMain, perl=T) ## test
+grep(stopTag, depressiveMain, perl=T) ## test
 myTable <- getSection(startTag, stopTag, depressiveMain)
 myTable <- parseTableUseDisorder(myTable)
 colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")

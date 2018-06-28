@@ -45,6 +45,7 @@ grep(startTag, anxietyMain, perl=T) ## test
 grep(stopTag, anxietyMain, perl=T) ## test
 ### get Section
 myTable <- getSection(startTag, stopTag, anxietyMain)
+myTable <- gsub("unl<nown", "unknown", myTable) ## otherwise error
 myTable <- parseTableUseDisorder(myTable)
 colnames(myTable) <- c("Substance", "With mild use disorder",  "Moderate or severe", "Without use disorder")
 anxietyMain <- gsub(

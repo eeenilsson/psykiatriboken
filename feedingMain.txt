@@ -28,7 +28,7 @@ Coding note: The ICD-9-CIVI code for pica is 307.52 and is used for children or 
 
 The ICD-10-CM codes for pica are (F98.3) in children and (F50.8) in adults.
 
-_Specify_ if:
+Specify if:
 
 In remission: After full criteria for pica were previously met, the criteria have not been met for a sustained period of time.
 
@@ -100,7 +100,7 @@ C. The eating disturbance does not occur exclusively during the course of anorex
 
 D. If the symptoms occur in the context of another mental disorder (e.g., intellectual disability [Intellectual developmental disorder] or another neurodevelopmental disorder), they are sufficiently severe to warrant additional clinical attention.
 
-_Specify_ if:
+Specify if:
 
 In remission: After full criteria for rumination disorder were previously met, the criteria have not been met for a sustained period of time.
 
@@ -168,7 +168,7 @@ C. The eating disturbance does not occur exclusively during the course of anorex
 
 D. The eating disturbance is not attributable to a concurrent medical condition or not better explained by another mental disorder. When the eating disturbance occurs in the context of another condition or disorder, the severity of the eating disturbance exceeds that routinely associated with the condition or disorder and warrants additional clinical attention.
 
-_Specify_ if:
+Specify if:
 
 In remission: After full criteria for avoidant/restrictive food intake disorder were previously met, the criteria have not been met for a sustained period of time.
 
@@ -222,7 +222,7 @@ Diagnostic markers include malnutrition, low weight, growth delay, and the need 
 
 ##h Functional Consequences of Avoidant/Restrictive <--@HEADER-->
 
-## Food Intaice Disorder
+## Food Intake Disorder
 
 Associated developmental and functional limitations include impairment of physical development and social difficulties that can have a significant negative impact on family function.
 
@@ -274,25 +274,23 @@ C. Disturbance in tlie way in which one’s body weight or shape is experienced,
 
 Coding note: The ICD-9-CM code for anorexia nervosa is 307.1, which is assigned regardless of the subtype. The ICD-10-CM code depends on the subtype (see below).
 
-_Specify_ whether:
+Specify whether:
 
 (F50.01) Restricting type: During the last 3 months, the individual has not engaged in recurrent episodes of binge eating or purging behavior (i.e., self-induced vomiting or the misuse of laxatives, diuretics, or enemas). This subtype describes presentations in which weight loss is accomplished primarily through dieting, fasting, and/or excessive exercise.
 
 (F50.02) Binge-eating/purging type: During the last 3 months, the individual has engaged in recurrent episodes of binge eating or purging behavior (i.e., self-induced vomiting or the misuse of laxatives, diuretics, or enemas).
 
-_Specify_ if:
+Specify if:
 
 In partial remission: After full criteria for anorexia nervosa were previously met. Criterion A (low body weight) has not been met for a sustained period, but either Criterion B (intense fear of gaining weight or becoming fat or behavior that interferes with weight gain) or Criterion C (disturbances in self-perception of weight and shape) is still met.
 
 In full remission: After full criteria for anorexia nervosa were previously met, none of the criteria have been met for a sustained period of time.
 
-_Specify_ current severity:
+Specify current severity:
 
 The minimum level of severity is based, for adults, on current body mass index (BMI) (see below) or, for children and adolescents, on BMI percentile. The ranges below are derived from World Health Organization categories for thinness in adults; for children and adolescents, corresponding BMI percentiles should be used. The level of severity may be increased to reflect clinical symptoms, the degree of functional disability, and the need for supervision.
 
-Mild: BMI>17kg/m2
-
-Moderate: BM116-16.99 kg/m^ Severe: BM115-15.99 kg/m^ Extreme: BMI < 15 kg/m^
+Mild: BMI>17kg/m2 Moderate: BM116-16.99 kg/m^ Severe: BM115-15.99 kg/m^ Extreme: BMI < 15 kg/m^ 
 
 ##h Subtypes <--@HEADER-->
 
@@ -360,7 +358,7 @@ Genetic and physiological. There is an increased risk of anorexia nervosa and bu
 
 Anorexia nervosa occurs across culturally and socially diverse populations, although available evidence suggests cross-cultural variation in its occurrence and presentation. Anorexia nervosa is probably most prevalent in post-industrialized, high-income countries such as in the United States, many European countries, Australia, New Zealand, and Japan, but its incidence in most low- and middle-income countries is uncertain. Whereas the prevalence of anorexia nervosa appears comparatively low among Latinos, African Americans, and Asians in the United States, clinicians should be aware that mental health service utilization among individuals with an eating disorder is significantly lower in these ethnic groups and that the low rates may reflect an ascertainment bias. The presentation of weight concerns among individuals with eating and feeding disorders varies substantially across cultural contexts. The absence of an expressed intense fear of weight gain, sometimes referred to as "fat phobia," appears to be relatively more common in populations in Asia, where the rationale for dietary restriction is commonly related to a more culturally sanctioned complaint such as gastrointestinal discomfort. Withn the United States, presentations without a stated intense fear of weight gain may be comparatively more common among Latino groups.
 
-## Diagnostic IVIaricers
+##h Diagnostic Markers <--@HEADER-->
 
 The following laboratory abnormalities may be observed in anorexia nervosa; their presence may serve to increase diagnostic confidence.
 
@@ -438,13 +436,13 @@ D. Self-evaluation is unduly influenced by body shape and weight.
 
 E. The disturbance does not occur exclusively during episodes of anorexia nervosa.
 
-_Specify_ if:
+Specify if:
 
 In partial remission: After full criteria for bulimia nervosa were previously met, some, but not all, of the criteria have been met for a sustained period of time.
 
 In full remission: After full criteria for bulimia nervosa were previously met, none of the criteria have been met for a sustained period of time.
 
-_Specify_ current severity:
+Specify current severity:
 
 The minimum level of severity is based on the frequency of inappropriate compensatory behaviors (see below). The level of severity may be increased to reflect other symptoms and the degree of functional disability.Mild: An average of 1-3 episodes of inappropriate compensatory behaviors per week.  Moderate: An average of 4-7 episodes of inappropriate compensatory behaviors per week.
 
@@ -512,7 +510,7 @@ Bulimia nervosa has been reported to occur with roughly similar frequencies in m
 
 Bulimia nervosa is far more common in females than in males. Males are especially underrepresented in treatment-seeking samples, for reasons that have not yet been systematically examined.
 
-## Diagnostic IViarkers
+##h Diagnostic Markers <--@HEADER-->
 
 No specific diagnostic test for bulimia nervosa currently exists. However, several laboratory abnormalities may occur as a consequence of purging and may increase diagnostic certainty. These include fluid and electrolyte abnormalities, such as hypokalemia (which can provoke cardiac arrhythmias), hypochloremia, and hyponatremia. The loss of gastric acid through vomiting may produce a metabolic alkalosis (elevated serum bicarbonate), and the frequent induction of diarrhea or dehydration through laxative and diuretic abuse can cause metabolic acidosis. Some individuals with bulimia nervosa exhibit mildly elevated levels of serum amylase, probably reflecting an increase in the salivary isoenzyme.
 
@@ -574,13 +572,13 @@ D. The binge eating occurs, on average, at least once a week for 3 months.
 
 E. The binge eating is not associated with the recurrent use of inappropriate compensatory behavior as in bulimia nen/osa and does not occur exclusively during the course of bulimia nervosa or anorexia nervosa.
 
-_Specify_ if:
+Specify if:
 
 In partial remission: After full criteria for binge-eating disorder were previously met, binge eating occurs at an average frequency of less than one episode per week for a sustained period of time.
 
 In full remission: After full criteria for binge-eating disorder were previously met, none of the criteria have been met for a sustained period of time.
 
-_Specify_ current severity:
+Specify current severity:
 
 The minimum level of severity is based on the frequency of episodes of binge eating (see below). The level of severity may be increased to reflect other symptoms and the degree of functional disability.
 

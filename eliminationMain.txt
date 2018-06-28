@@ -20,7 +20,7 @@ C. Chronological age is at least 5 years (or equivalent developmental level).
 
 D. The behavior is not attributable to the physiological effects of a substance (e.g., a diuretic, an antipsychotic medication) or another medical condition (e.g., diabetes, spina bifida, a seizure disorder).
 
-_Specify_ whether:
+Specify whether:
 
 Nocturnal only: Passage of urine only during nighttime sleep.
 
@@ -100,7 +100,7 @@ C. Chronological age is at least 4 years (or equivalent developmental level).
 
 D. The behavior is not attributable to the physiological effects of a substance (e.g., laxatives) or another medical condition except through a mechanism involving constipation.
 
-_Specify_ whether:
+Specify whether:
 
 With constipation and overflow incontinence: There is evidence of constipation on physical examination or by history.
 

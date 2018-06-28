@@ -794,7 +794,7 @@ Other sleep disorders. Insomnia disorder and other circadian rhythm sleep-wake d
 
 Delayed sleep phase type is strongly associated with depression, personality disorder, and somatic symptom disorder or illness anxiety disorder. In addition, comorbid sleep disorders, such as insomnia disorder, restless legs syndrome, and sleep apnea, as well as depressive and bipolar disorders and anxiety disorders, can exacerbate symptoms of insomnia and excessive sleepiness. Delayed sleep phase type may overlap with another circadian rhythm sleep-wake disorder, non-24-hour sleep-wake type. Sighted individuals with non- 24-hour sleep-wake type disorder commonly also have a history of delayed circadian sleep phase.
 
-##h Advanced Sleep Phase Type\ <--@HEADER-->
+##h Advanced Sleep Phase Type <--@HEADER-->
 
 ##h Specifiers <--@HEADER-->
 
@@ -854,7 +854,7 @@ Medical conditions and mental disorders with the symptom of early morning awaken
 
 ##h Diagnostic Features <--@HEADER-->
 
-The diagnosis of irregular sleep-wake type is based primarily on a history of symptoms of insomnia at night (during the usual sleep period) and excessive sleepiness (napping) during the day. Irregular sleep-wake type is characterized by a lack of discernable sleep-wakecircadian rhythm. There is no major sleep period, and sleep is fragmented into at least three periods d\iring the 24-hour day.
+The diagnosis of irregular sleep-wake type is based primarily on a history of symptoms of insomnia at night (during the usual sleep period) and excessive sleepiness (napping) during the day. Irregular sleep-wake type is characterized by a lack of discernable sleep-wakecircadian rhythm. There is no major sleep period, and sleep is fragmented into at least three periods diring the 24-hour day.
 
 ##h Associated Features Supporting Diagnosis <--@HEADER-->
 
@@ -1080,7 +1080,9 @@ Nightmare disorder. In contrast to individuals with NREM sleep arousal disorders
 
 NREM sleep arousal disorders occur during NREM sleep, whereas nightmares usually occur during REM sleep. Parents of children with NREM sleep arousal disorders may misinterpret reports of fragmentary imagery as nightmares.
 
-Breathing-related sleep disorders. Breathing disorders during sleep can also produce confusional arousals with subsequent amnesia. However, breathing-related sleep disorders are also characterized by characteristic symptoms of snoring, breathing pauses, anddaytime sleepiness. In some individuals, a breathing-related sleep disorder may precipitate episodes of sleepwalking.\ REM sleep behavior disorder. REM sleep behavior disorder may be difficult to distinguish from NREM sleep arousal disorders. REM sleep behavior disorder is characterized by episodes of prominent, complex movements, often involving personal injury arising from sleep. In contrast to NREM sleep arousal disorders, REM sleep behavior disorder occurs during REM sleep. Individuals v̂ ith REM sleep behavior disorder awaken easily and report more detailed and vivid dream content than do individuals with NREM sleep arousal disorders. They often report that they "act out dreams." Parasomnia overlap syndrome. Parasomnia overlap syndrome consists of clinical and polysomnographic features of both sleepwalking and REM sleep behavior disorder.
+Breathing-related sleep disorders. Breathing disorders during sleep can also produce confusional arousals with subsequent amnesia. However, breathing-related sleep disorders are also characterized by characteristic symptoms of snoring, breathing pauses, anddaytime sleepiness. In some individuals, a breathing-related sleep disorder may precipitate episodes of sleepwalking.
+
+REM sleep behavior disorder. REM sleep behavior disorder may be difficult to distinguish from NREM sleep arousal disorders. REM sleep behavior disorder is characterized by episodes of prominent, complex movements, often involving personal injury arising from sleep. In contrast to NREM sleep arousal disorders, REM sleep behavior disorder occurs during REM sleep. Individuals v̂ ith REM sleep behavior disorder awaken easily and report more detailed and vivid dream content than do individuals with NREM sleep arousal disorders. They often report that they "act out dreams." Parasomnia overlap syndrome. Parasomnia overlap syndrome consists of clinical and polysomnographic features of both sleepwalking and REM sleep behavior disorder.
 
 Sleep-related seizures. Some types of seizures can produce episodes of very unusual behaviors that occur predominantly or exclusively during sleep. Nocturnal seizures may closely mimic NREM sleep arousal disorders but tend to be more stereotypic in nature, occur multiple times nightly, and be more likely to occur from daytime naps. The presence of sleep-related seizures does not preclude the presence of NREM sleep arousal disorders.
 
