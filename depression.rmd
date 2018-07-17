@@ -8,6 +8,22 @@ Comparative efficacy and acceptability of 21 antidepressant drugs for the acute 
 
 Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder [@Jakobsen2017].
 
+## Depression i anslutning till förlossning
+
+Ungefär 5% av mödrar drabbas av depression under graviditet eller tiden efter förlossning [Ref: DSM5]. Enligt en stor finsk studie är dock incidensen av "Major depression" 0.8% under graviditet [@Räisänen2014]. Den dominerande riskfaktorn är tidigare depression, vilket ungefär hälften av de mödrar som drabbas har haft [@Räisänen2014]. Ofta föreligger även svår ångest och panikattacker. Psykotiska drag ses hos ungefär en på 1000 förlossningar. I DSM-5 kan depressionsdiagnosen anges som "with peripartum onset" om depressionen startat under graviditeten eller inom fyra veckor efter förlossning. Risken för återfall vid nästa graviditet är ungefär 40% [Ref: DSM5]. 
+
+Barn vars mammor har depression kring förlossningen löper ökad risk för "failure to thrive", "attachement disorder" och försenad utveckling vid ett års ålder. Dessa besvär kan förebyggas genom att mammans besvär behandlas. Depresionen medför även risker för mamman, såsom minskad energi, sömnstörningar och försämrad anknytning till barnet, liksom ökad risk för självmord [@Langan2016].
+
+Depression i anslutning till förlossning bör skiljas från "baby blues", som är kortvarig, har milda symptom och påverkar fungerandet minimalt [@Langan2016]. Mödrar som drabbas av depression bör utvärderas avseende bpolär sjukdom, postpartum-psykos och suicidrisk [@Langan2016].
+
+Mild eller måttlig depression kan behandlas med psykoterapi eller antidepressiva läkemedel emedan måttlig till svår depression bör behanlas med båda. 
+
+Läkemedelsbehandling: Se avsnittet om SSRI vid graviditet och amning, \@ref(ssri-pregnancy). 
+
+Se antidepressants-pregnancy.csv
+
+
+Risk factors for and perinatal outcomes of major depression during pregnancy [@Räisänen2014]
 
 # Bipolär sjukdom
 

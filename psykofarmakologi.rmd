@@ -1,6 +1,37 @@
 # Psykofarmakologi
 
  Monitoring: [@Hiemke2018]
- 
- Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
- 
+
+## Antidepressiva
+
+Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
+
+### Biverkningar
+
+**Hyperhidros** (svettningar) förekommer som kolinerg biverkan av exempelvis duloxetin. Kan behandlas med oxybutynin (off-label), som enligt NICE har effekt mot svettningarna och kan  i sin tur vara associerat med antikolinerga biverkningar såsom muntorrhet, urinretention och förstoppning (https://www.nice.org.uk/advice/es10/resources/hyperhidrosis-oxybutynin-pdf-1158108623557). Okybutynin är kontraindicerat vid galukom, vissa gastrointestinala sjukdomar, urinretention och myastenia gravis.
+
+## SSRI vid graviditet och amning {#ssri-pregnancy}
+
+Barn vilkas mammor använt SSRI under förlossning får oftare för tidig födsel, lägre födslovikt, autism och ADHD [@Sujan2017]. Detta kan bero på att depression är genetiskt kopplat till dessa tillstånd, vilket innebär att mammor som är deprimerade oftare har en genetisk uppsättning som också är förknippat med ADHD eller autism. Det kan också bero på att depressionen i sig är skadlig för barnet. En annan tänkbar förklaring är att de läkemedel som ges vi depression påverkar fostret.
+
+Potentiella risker skiljer med SSRI-behandling sig åt mellan olika delar av graviditeten. Exempelvis befaras att vissa SSRI under tidig graviditet kan öka risken för medfött hjärtfel. Riskökningen är dock liten. SSRI-behandling under senare delen av graviditeten kan ge utsättningssymptom hos barnet och eventuellt öka risken för pulmonell hypertension (hos barnet). 
+
+Angående risken för ADHD och autism har en stor svensk studie visat att det inte föreligger någon ökad risk för autism eller ADHD [@Sujan2017]. Man såg även att om barnets pappa använde antidepressiva, eller om mamman använt antidepressiva _före_ graviditeten ökade risken för ADHD och autism, vilket talar för att det är familjefaktorer snarare än läkemedlen som orsakar den ökade risken för dessa tillstånd.
+
+I praktiken får de små riskerna vägas mot behovet av behandling. De SSRI som anses medföra lägst risker för barnet (fluoxetin, citalopram ?) bör ges.
+
+Mycket litet av läkemedlen finns i bröstmjölken. Som försiktighetsåtgärd rekommenderas inte SSRI under amning, men riskerna är troligen mycket små och får vägas mot behovet.
+
+Sertralin anses säkert både vid graviditet och amning.
+
+"Citalopram, escitalopram, and sertraline appear to be the safest selective serotonin reuptake inhibitors during pregnancy, whereas fluvoxamine, paroxetine, and sertraline are preferred in breastfeeding women because they lead to the lowest serum medication levels in breastfed infants." [@Langan2016]
+
+Recognizing and Treating Peripartum Depression [@Liebermann2012]
+
+Identification and Management of Peripartum Depression [@Langan2016]
+
+### Resurser
+
+NHS patient recommendations: https://www.nhs.uk/conditions/ssri-antidepressants/considerations/#pregnancy
+
+Associations of Maternal Antidepressant Use During the First Trimester of Pregnancy With Preterm Birth, Small for Gestational Age, Autism Spectrum Disorder, and Attention-Deficit/Hyperactivity Disorder in Offspring [@Sujan2017]

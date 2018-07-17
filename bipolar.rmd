@@ -1,0 +1,18 @@
+# Bipolär sjukdom
+
+## Skattningsinstrument
+
+Miller CJ, Johnson SL, Eisner L Assessment Tools for Adult Bipolar Disorder. Clin Psychol (New York). 2009 Jun; 16:(2)188-201
+
+### HCL-32
+
+Hypomania checklist (HCL 32): Medelvärdet högre vid bipolär sjukdom. Fråga 3 kan användas för cut-off: Mer än 13 p på den frågan indikerar bipolär sjukdom.
+
+Ej tillräckligt effektivt för befolkningsscreening (icke-klinisk population) [@Lee2016].
+
+"The HCL-32 showed an adequate discrimination power for distinguishing individuals with BDs from those with major depressive disorders in previous studies [6–9]. Those studies also identified two or three sub-domains of the scale representing separate clinical factors. Compared to the MDQ, the HCL-32 showed higher sensitivity and lower specificity in screening hypomania, having high accuracy for the detection of ‘softer’ BD cases [10]. However, both questionnaires were developed for and have been applied to patients in a depressive episode." [@Lee2016]
+
+Investigation of the clinical utility of the hypomania checklist 32 (HCL-32) for the screening of bipolar disorders in the non-clinical adult population [@Lee2016]
+
+
+Skalor för neuropsykiatriska besvär och tvång: http://www.memogen.se/tests.html
