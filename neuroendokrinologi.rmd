@@ -1,0 +1,36 @@
+# Neuroendokrinologi {#neuroendokrinologi}
+
+_Hypothalamus_ och _hypofysen_ sammanlänkar det centrala nervystemet med kroppens endokrina organ. Här integreras det enokrina systemet med externa impulser från lukt, smak, sexualitet mm och kan i sin tur påverka beteenden relaterade till dessa. Från hypothalamus går signaler till övriga delar av hjärnan och koordinerar därigenom beteenden som är komplementära till de hormonella signalerna. De så kallade _hypothalamic-pituitary-axlarna_ regleras genom feed-back signaler via nedströms hormoner men även via signaler från andra områden i hjärnan.
+
+Hypothalamus integrerar information från sinnesintryck (dofter, ljus, smärta, temperatur) och inre miljö (blodtryck, osmolalitet, blodsocker). Utflöde från hypothalamus når hypofysen, hjärnbarken, hjärnstammen, ryggmärgen och autonoma preganglionära nervceller).
+
+Hypofysen kan indelas i _neurohypofys_ och _adenohypofys_ (**Fig \@ref(fig:hypophysis-organization)**). Neuron från hypothalamus frisätter hormoner direkt till blodet i neurohypofysen, emedan motsvarande hormoner i adenohypofysen frisätts i det lokala kapillärnätverket i infundibulum (**Fig \@ref(fig:neuroendocrine-tuberoinfundibular-system)**) som leder till adenohypofysen där hormonet når endokrina celler. Exempelvis produceras GHRH respektive somatostatin i nervceller vars cellkroppar är belägna i hypothalamus. Dessa hormoner frisätts via nervcellerna axoner till kapillärnätverket i infundibulum [?] och transporteras via detta till adenohypofysen. Där finns _somatotroper_, celler som producerar tillväxthormon (GH), vilket när det frisätts når blodomloppet via venöst avflöde från hypofysen. GHRH stimulerar  emedan somatiostatin inhiberar syntes- och frisättning av GH från somatotroperna. Aptit och födointag integreras med detta system genom "hungerhormonet" ghrelin som frisätts från mag-tarmkanalen och stimulerar frisättning av GHRH och inhiberar frisättning av somatostatin. Leptin har motsatt effekt [?].
+
+Det finns konceptuella likheter mellan nervceller och endokrina celler (**Fig \@ref(fig:neoroendocrine-neuron-glandular-cells)**): Elektrisk exciterbarhet, jonkonduktans som eglerar exocytos av signalsubstanser från lagringsvesiklar. Neurosekretoriska celler är nervceller vars axoner inte går till vanliga synapser, utan exempelvis istället frisätter sina signalmolekyler i hypofysens portakretslopp.
+
+```{r hypophysis-organization, fig.cap='Neurohypophysis and adenohypophysis.' }
+
+include_graphics('../dropbox/images/psychiatry/hypophysis-organization.png')
+
+``` 
+
+```{r neuroendocrine-tuberoinfundibular-system, fig.cap='Tuberoinfundibular system.' }
+
+include_graphics('../dropbox/images/psychiatry/neuroendocrine-tuberoinfundibular-system.png')
+
+``` 
+
+
+```{r neoroendocrine-neuron-glandular-cells, fig.cap='Similarities between nerve cells and endocrine cells.' }
+
+include_graphics('../dropbox/images/psychiatry/neoroendocrine-neuron-glandular-cells.png')
+
+```
+
+## Resurser
+
+Importance of glial cells in neurohumoral homeostasis: The special relationship: glia–neuron interactions in the neuroendocrine hypothalamus [@Clasadonte2018]
+
+Duus
+
+Thieme felxibook 2+3

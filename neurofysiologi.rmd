@@ -226,6 +226,9 @@ Chorea kan uppstå efter skador i basala ganglierna, tex subthalamuskärnan.
 
 Blockering av den hämmande banan från striatum till GPe (vilket leder till desinhibering av GPe med efterföljande inhibering subthalamuskärnan) orsakar chorea i kroppshalvan kontralateralt från blockeringen. Det finns även forskning som visar att den direkta banan har betydelse vid levodopa-inducerad dyskinesi.
 
+# Autonoma nervsystemet
+
+Sympathetic nervous system through the ages [@Esler2011].
 
 ### Referenser
 

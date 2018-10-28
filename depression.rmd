@@ -2,7 +2,7 @@
 
 Guidelines on Choice and Selection of Antidepressants for the Management of Depression [@guidelines_antidepressants2016].
 
-Backing into the future: pharmacological approaches to the management of resistant depression [@Cowen2017]: ". For patients who have failed to respond to two antidepressant trials, augmentation with atypical anti-psychotic drugs, speciﬁcally quetiapine and aripiprazole, has the best evidence for efﬁcacy, though older treatments such as lithium and triiodothyronine still have utility."
+Backing into the future: pharmacological approaches to the management of resistant depression [@Cowen2017]: "For patients who have failed to respond to two antidepressant trials, augmentation with atypical anti-psychotic drugs, speciﬁcally quetiapine and aripiprazole, has the best evidence for efﬁcacy, though older treatments such as lithium and triiodothyronine still have utility."
 
 Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder [@Cipriani2018]: "In head-to-head studies, agomelatine, amitriptyline, escitalopram, mirtazapine, paroxetine, venlafaxine, and vortioxetine were more effective than other antidepressants"
 
