@@ -1,5 +1,5 @@
 ---
-bibliography: ["../bibliography/bibliography.bib"]
+bibliography: [../bibliography/bibliography.bib,../dropbox/research/library/bibliography-recent.bib]
 csl: ../bibliography/oxford-scimed.csl
 
 ---
