@@ -4,9 +4,11 @@ Vad är det.
 
 Teorier om patofysiologi.
 
-Epidemiologi.
+Epidemiologi. Andel av tiden i mani/depression.
 
 Samsjuklighet/riskbeteenden.
+
+Ärftlighet. Livshändelser kan vara utlösande.
 
 DSM-5
 
@@ -14,15 +16,89 @@ DSM-5
 
 Huvudkriteriet för diagnosen bipolär sjukdom är förekomst av mani (vid typ I) eller hypomani (vid typ II). Episoder med depression är inte obligat, men vanligt, och särskilt framträdande vid typ II.
 
-En manisk episod innebär att stämningsläget är förhöjt, expansivt [förklara] eller irritabelt tillsammans med ökad energi eller målinriktad aktivitet [förklara].
+En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller irritabelt tillsammans med ökad energi eller _målinriktad aktivitet_.
 
 För att betraktas som en manisk episod krävs att förändringen i stämningsläge och aktivitet är ihållande (föreligger nästan varje dag och större delen av dagen) under en tydligt avgränsad period (dvs inte ett varaktigt beteende) som varar minst en vecka. Om besvären är så påtagliga att de leder till sjukhusinläggning kan perioden dock vara kortare (ingen nedre gräns) och ändå räknas som en manisk episod.
 
+Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt som förändringen i stämningsläge och -aktivitet): Uppblåst självförtroende eller _grandiositet_; minskat sömnbehov; ökad pratsamhet; _ideflykt_ eller känsla av att tankarna rusar; blir lätt distraherad av yttre stimuli; ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt) eller psykomotorisk agitation; överdrivet högriskbeteende (tex ekonomiskt, sexuellt). 
+
+Vid hypomani saknas uttalad nedsättning av social funktion och arbetsförmåga. Minsta varaktigheten är då fyra dagar och symtomen leder inte till sjukhusinläggning. Om psykotiska symtom föreligger räknas episoden som mani.
+
+Diagnosen bipolär sjukdom typ I kan ställas om personen haft en eller flera maniska episoder under sin livstid, oavsett om depressiva episoder förekommit. Om hypomani förkommit men aldrig mani, samt minst en depression, ställs diagnosen bipolär sjukdom typ II.
+
+Det maniska beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
+
+Irritabilitet snarare än förhöjt stämninsläge är vanligt. Snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet).
+
+Projekt, uppblåst självförtroende (kan vara av vanföreställningskaraktär). Minskat sömnbehov, dvs utvilad trots minskad sömntid.
+
+Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter. Ökad sexlust är vanligt.
+
+Uppsnabbat tal är karakteristiskt.
+
+Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell**.
+
+"Dysphoric mood, mood lability, anxiety, guilt, suicidality, and irritability were the only symptoms significantly more common in the mixed group. In contrast, grandiosity, euphoric mood, and pressured speech were significantly more often observed in the pure manic group." [@Cassidy1998]
+
+
+```{r table-bipolar-symptoms} 
+
+source('../functions/fix.names.R')
+source('../functions/query_label.r')
+tmp <- read_csv('bipolar-symptoms.csv')
+cnames <- tmp$symptom
+labs <- cnames
+names(labs) <- fix.names(cnames)
+
+tmp <- as_tibble(cbind(study = names(tmp), t(tmp)))
+colnames(tmp) <- fix.names(c("study", cnames) )
+tmp <- tmp[-1,]
+tmp[5:ncol(tmp)] <- sapply(tmp[5:ncol(tmp)], as.numeric)
+tmp%>%gather(symptom, percent, -c(study, ref, n, rigorous, type)) -> tmp ## long
+
+tmp%>%
+    mutate(
+        n_symptom = n * percent/100,
+        n_without = n - n_symptom
+    )%>%filter(rigorous == "no")%>%
+    group_by(ref, symptom)%>%
+    summarise(
+        n_total = sum(n),
+        n_symptom = sum(n_symptom, na.omit = TRUE)
+    )%>%
+    filter(!is.na(n_symptom))-> tmp
+
+tmp%>%
+    group_by(symptom)%>%
+    summarise(
+        n = sum(n_total),
+        n_symptom = sum(n_symptom)
+    )%>%
+    mutate(
+        percent = n_symptom/n*100
+    )%>%
+    arrange(-percent)%>%
+    mutate(
+        percent = as.character(signif(percent, digits = 2))
+               ) -> tmp
+tmp%>%
+    select(symptom, percent) -> tbl
+
+tbl$symptom <- query_label(tbl$symptom, labs)
+names(tbl) <- c("Symptom", "Percent")
+
+kable(tbl,
+      caption = "Prevalence of symptoms in manic or mixed bipolar episodes",
+      align = "lc")
+
+## ref [@Cassidy1998], aggregate of this and two other studies summarised in the same paper. Mixed and manic episodes aggregated.
+
+``` 
+
+ 
+
+
 _Exempel_
-
-Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt som förändringen i stämningsläge och aktivitet): Uppblåst självförtroende eller _grandiositet_ [förklara]
-
-
 
 ## Diagnos enl DSM-5
 
@@ -54,47 +130,6 @@ Note: A full manic episode that emerges during antidepressant treatment (e.g., m
 
 Note: Criteria A-D constitute a manic episode. At least one lifetime manic episode is required for the diagnosis of bipolar I disorder.
 
-### Bipolar I Disorder
-
-A. Criteria have been met for at least one manic episode (Criteria A-D under “Manic Episode” above).
-
-B. The occurrence of the manic and major depressive episode(s) is not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum and other psychotic disorder.
-
-
-### Hypomanic Episode
-
-A. A distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently increased activity or energy, lasting at least 4 consecutive days and present most of the day, nearly every day.
-
-B. During the period of mood disturbance and increased energy and activity, three (or more) of the following symptoms (four if the mood is only irritable) have persisted, represent a noticeable change from usual behavior, and have been present to a significant degree:
-
-1. Inflated self-esteem or grandiosity.
-
-2. Decreased need for sleep (e.g., feels rested after only 3 hours of sleep).
-
-3. More talkative than usual or pressure to keep talking.
-
-4. Flight of ideas or subjective experience that thoughts are racing.
-
-5. Distractibility (i.e., attention too easily drawn to unimportant or irrelevant external stimuli), as reported or observed.
-
-6. Increase in goal-directed activity (either socially, at work or school, or sexually) or psychomotor agitation.
-
-7. Excessive involvement in activities that have a high potential for painful consequences (e.g., engaging in unrestrained buying sprees, sexual indiscretions, or foolish business investments).
-
-C. The episode is associated with an unequivocal change in functioning that is uncharacteristic of the individual when not symptomatic.
-
-D. The disturbance in mood and the change in functioning are observable by others.
-
-E. The episode is not severe enough to cause marked impairment in social or occupational functioning or to necessitate hospitalization. If there are psychotic features, the episode is, by definition, manic.
-
-F. The episode is not attributable to the physiological effects of a substance (e.g., a drug of abuse, a medication, other treatment).
-
-Note: A full hypomanic episode that emerges during antidepressant treatment (e.g., medication, electroconvulsive therapy) but persists at a fully syndromal level beyond the physiological effect of that treatment is sufficient evidence for a hypomanic episode diagnosis. However, caution is indicated so that one or two symptoms (particularly increased irritability, edginess, or agitation following antidepressant use) are not taken as sufficient for diagnosis of a hypomanic episode, nor necessarily indicative of a bipolar diathesis.
-
-Note: Criteria A-'F constitute a hypomanic episode. Hypomanic episodes are common in bipolar I disorder but are not required for the diagnosis of bipolar I disorder.
-
-
-
 
 ## Behandling
 
@@ -118,3 +153,7 @@ Investigation of the clinical utility of the hypomania checklist 32 (HCL-32) for
 
 
 Skalor för neuropsykiatriska besvär och tvång: http://www.memogen.se/tests.html
+
+## Resources
+
+Mood Disorders A Handbook Of Science And Practice, https://epdf.tips/mood-disorders-a-handbook-of-science-and-practice.html

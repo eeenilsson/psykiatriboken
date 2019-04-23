@@ -1,0 +1,32 @@
+symptom,cassidy1998_manic1,cassidy1998_manic2,cassidy1998_mixed1,cassidy1998_mixed2,winokur1969_manic,winokur1969_mixed,goodwin1990_any
+ref,cassidy1998_manic1,cassidy1998_manic1,cassidy1998_manic1,cassidy1998_manic1,winkour1969,winkour1969,goodwin1990
+rigorous,no,yes,no,yes,no,no,no
+type,manic,manic,mixed,mixed,manic,mixed,any
+n,280,280,83,83,100,14,87
+Increased motor activity,97,88,89,78,100,100,87
+Decreased sleep,91,78,93,84,90,100,81
+Pressured speech,96,83,86,69,99,93,98
+Racing thoughts or disturbed concentration,94,76,95,82,,,
+Flight of ideas,,,,,93,42,71
+Distractability,,,,,100,100,71
+Delusions,,,,,48,57,48
+Auditory hallucinations,,,,,21,14,18
+Visual hallucinations,,,,,9.0,7.1,10
+Olfactory hallucinations,,,,,,,17
+Mood lability,64,33,94,75,95,100,69
+Euphoric mood,87,71,43,22,98,100,71
+Dysphoric mood,20,10,99,88,68,100,72
+Guilt,1.8,1.1,41,23,,,
+Suicidal ideation,4.6,0.7,49,31,7.0,43,
+Psychosis,91,78,89,77,,,47
+Paranoia,74,61,80,68,,,
+Persecutory delusions,,,,,19,,28
+Grandiosity,89,78,61,48,86,57,
+Lack of insight,91,74,80,60,63,,
+Increased contact,86,69,76,54,,,
+Increased sexuality,60,39,41,25,65,36,57
+Humor,47,22,37,12,,,
+Anxiety,23,10,90,71,,,
+Irritability,73,49,90,61,85,100,80
+Aggression,43,24,54,25,83,79,49
+Unusual dress,31,11,18,7.2,,,
