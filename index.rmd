@@ -50,7 +50,14 @@ makestack <- function(x){
     paste("\\makecell[lt]{", gsub(",", " \\\\\\\\ ", x), "}") ## replace commas with four backslashes
 }
 
+source('../functions/fix.names.R')
+source('../functions/query_label.r')
+source('../functions/make_rows.r')
+source('../functions/make_namedlist.r')
 source('../functions/fix_pval.r')
+
+## varnames
+source('varnames.r')
 
 ```
 

@@ -1,16 +1,16 @@
 # Bipolär sjukdom
 
+## Inledning
+
 Vad är det.
 
-Teorier om patofysiologi.
+Teorier om patofysiologi. Ärftlighet. Livshändelser kan vara utlösande.
 
-Epidemiologi. Andel av tiden i mani/depression.
+Epidemiologi. Beskriv andel av tiden i mani/depression.
 
 Samsjuklighet/riskbeteenden.
 
-Ärftlighet. Livshändelser kan vara utlösande.
-
-DSM-5
+Prognos.
 
 ## Diagnostik
 
@@ -20,31 +20,20 @@ En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller 
 
 För att betraktas som en manisk episod krävs att förändringen i stämningsläge och aktivitet är ihållande (föreligger nästan varje dag och större delen av dagen) under en tydligt avgränsad period (dvs inte ett varaktigt beteende) som varar minst en vecka. Om besvären är så påtagliga att de leder till sjukhusinläggning kan perioden dock vara kortare (ingen nedre gräns) och ändå räknas som en manisk episod.
 
-Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt som förändringen i stämningsläge och -aktivitet): Uppblåst självförtroende eller _grandiositet_; minskat sömnbehov; ökad pratsamhet; _ideflykt_ eller känsla av att tankarna rusar; blir lätt distraherad av yttre stimuli; ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt) eller psykomotorisk agitation; överdrivet högriskbeteende (tex ekonomiskt, sexuellt). 
+Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt som förändringen i stämningsläge och -aktivitet): Uppblåst självförtroende eller _grandiositet_; minskat sömnbehov; ökad pratsamhet; _tankeflykt_ eller en känsla av att tankarna rusar; distraherbarhet (av yttre ovidkommande stimuli); ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt) eller psykomotorisk agitation; överdrivet högriskbeteende (tex ekonomiskt, sexuellt). 
 
-Vid hypomani saknas uttalad nedsättning av social funktion och arbetsförmåga. Minsta varaktigheten är då fyra dagar och symtomen leder inte till sjukhusinläggning. Om psykotiska symtom föreligger räknas episoden som mani.
+Blandad episod av mani med samtidiga depressiva inslag förekommer. Vid sådan episod är dysfori, ångest, skuldkänslor, suicidtankar och irritabilitet vanligare medan man vid ren manisk episod oftare observerat grandiositet, eufori och talträngdhet [@Cassidy1998].
+
+Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåga. Minsta varaktigheten är då fyra dagar. Om psykotiska symtom föreligger eller om symtomen leder till sjukhusinläggning räknas episoden som mani. Beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
 
 Diagnosen bipolär sjukdom typ I kan ställas om personen haft en eller flera maniska episoder under sin livstid, oavsett om depressiva episoder förekommit. Om hypomani förkommit men aldrig mani, samt minst en depression, ställs diagnosen bipolär sjukdom typ II.
 
-Det maniska beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
+Notera att snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet). Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter, exempelvis vidlyftiga projekt inom områden där personen saknar specifik kompetens. Minskat sömnbehov innebär att personen känner sig utvilad trots minskad sömntid. Uppblåst självförtroende kan vara av vanföreställningskaraktär.
 
-Irritabilitet snarare än förhöjt stämninsläge är vanligt. Snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet).
+Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell \@ref(tab:bipolar-symptoms)**. Uppsnabbat tal är karakteristiskt.
 
-Projekt, uppblåst självförtroende (kan vara av vanföreställningskaraktär). Minskat sömnbehov, dvs utvilad trots minskad sömntid.
+```{r bipolar-symptoms} 
 
-Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter. Ökad sexlust är vanligt.
-
-Uppsnabbat tal är karakteristiskt.
-
-Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell**.
-
-"Dysphoric mood, mood lability, anxiety, guilt, suicidality, and irritability were the only symptoms significantly more common in the mixed group. In contrast, grandiosity, euphoric mood, and pressured speech were significantly more often observed in the pure manic group." [@Cassidy1998]
-
-
-```{r table-bipolar-symptoms} 
-
-source('../functions/fix.names.R')
-source('../functions/query_label.r')
 tmp <- read_csv('bipolar-symptoms.csv')
 cnames <- tmp$symptom
 labs <- cnames
@@ -84,25 +73,39 @@ tmp%>%
 tmp%>%
     select(symptom, percent) -> tbl
 
-tbl$symptom <- query_label(tbl$symptom, labs)
-names(tbl) <- c("Symptom", "Percent")
+## label table
+## tbl$symptom <- query_label(tbl$symptom, labs) ## internal names
+## names(tbl) <- c("Symptom", "Percent")
+tbl$symptom <- query_label(tbl$symptom, varnames)
+names(tbl) <- query_label(names(tbl), varnames)
 
-kable(tbl,
-      caption = "Prevalence of symptoms in manic or mixed bipolar episodes",
-      align = "lc")
+x <- tbl
+
+foot <- paste0("Resultaten är summerade från tre olika studier där respektive symtom efterfrågades vid totalt ", min(tmp$n), " till ", max(tmp$n), " bipolära episoder beroende på vilka studier som inkluderade kartläggning av symtomet.")
+
+kable(x, "latex",
+      align = c("l", rep('c', times = ncol(x))),
+      caption = "Symtom vid bipolär episod av manisk eller blandad typ",
+      booktabs=TRUE,
+      escape=FALSE
+      )%>%
+    footnote(
+        general= make_rows(foot),
+        general_title = "",
+        ##footnote_as_chunk=TRUE, 
+        escape=FALSE) 
+
+
 
 ## ref [@Cassidy1998], aggregate of this and two other studies summarised in the same paper. Mixed and manic episodes aggregated.
+## TODO: Översätt symtomen
+
 
 ``` 
 
- 
-
-
 _Exempel_
 
-## Diagnos enl DSM-5
-
-### Manic Episode
+### Manisk episod, diagnoskriterier enligt DSM-5
 
 > A. A distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently increased goal-directed activity or energy, lasting at least 1 week and present most of the day, nearly every day (or any duration if hospitalization is necessary).
 
@@ -135,7 +138,7 @@ Note: Criteria A-D constitute a manic episode. At least one lifetime manic episo
 
 Snabbt isättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abé2015].
 
-
+Diskutera antidepressivas roll. Relatera till tid i mani/depression?
 
 ## Skattningsinstrument
 
@@ -150,7 +153,6 @@ Ej tillräckligt effektivt för befolkningsscreening (icke-klinisk population) [
 "The HCL-32 showed an adequate discrimination power for distinguishing individuals with BDs from those with major depressive disorders in previous studies [6–9]. Those studies also identified two or three sub-domains of the scale representing separate clinical factors. Compared to the MDQ, the HCL-32 showed higher sensitivity and lower specificity in screening hypomania, having high accuracy for the detection of ‘softer’ BD cases [10]. However, both questionnaires were developed for and have been applied to patients in a depressive episode." [@Lee2016]
 
 Investigation of the clinical utility of the hypomania checklist 32 (HCL-32) for the screening of bipolar disorders in the non-clinical adult population [@Lee2016]
-
 
 Skalor för neuropsykiatriska besvär och tvång: http://www.memogen.se/tests.html
 

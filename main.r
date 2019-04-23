@@ -17,6 +17,8 @@ library(kableExtra)
 
 ## Render
 bookdown::render_book("index.rmd", "bookdown::pdf_book")
+x
+
 
 ##render("presentation_beamer.rmd", "beamer_presentation") ## presentation
 ##render("public_defence_application_part1a.rmd", "pdf_document", encoding="UTF-8")
