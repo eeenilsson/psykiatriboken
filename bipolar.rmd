@@ -132,3 +132,9 @@ Mood Disorders A Handbook Of Science And Practice, https://epdf.tips/mood-disord
 TOREAD: Mixed states in DSM-5: Implications for clinical care, education, and research vieta [@Vieta2013].
 
 Image for presentation: 'light_and_dark.jpeg', see dropbox.
+
+
+
+- Canadian network for mood and anxiety treatments (canmat) and international society for bipolar disorders (isbd) collaborative update of canmat guidelines for the management of patients with bipolar disorder: update 2013 [@Yatham2013].
+
+- Svenska Psykiatriska Föreningen, 2014, Bipolär sjukdom - kliniska riktlinjer för utredning och behandling [@Spf2014].
