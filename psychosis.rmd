@@ -1,0 +1,26 @@
+# Schizofreni {#schizophrenia}
+
+För en översikt av antipsykotiska läkemedel, se \@ref(antipsychotics).
+
+## Antipsykotisk behandling vid schizofreni
+
+Inom diagnosen schizofreni kan sjukdomsbilden variera i fråga om symtom, förlopp och respons på behandling. Den gemensamma nämnaren för schizofreni närliggande diagnoser är psykotiska symtom.
+
+I kanadensiska riktlinjer beskrivs sex behandlingsområden [@Remington2017]: 
+
+> A. First-episode schizophrenia
+> B. Acute exacerbation
+> C. Relapse prevention and maintenance treatment
+> D. Treatment-resistant schizophrenia
+> E. Clozapine-resistant schizophrenia
+> F. Specific symptom domains
+
+
+
+## Resources
+
+PsychEd Episode 12: Treatment of Schizophrenia Part IV Advanced Principles of Schizophrenia Treatment: https://podcasts.apple.com/gb/podcast/episode-12-treatment-schizophrenia-part-iv-advanced/id1215646896?i=1000434940536
+
+Addington, J., Addington, D., Abidi, S., Raedler, T., & Remington, G., Canadian treatment guidelines for individuals at clinical high risk of psychosis., Can J Psychiatry, 62(9), 656–661 (2017).  [@Addington2017]
+
+Remington, G., Addington, D., Honer, W., Ismail, Z., Raedler, T., & Teehan, M., Guidelines for the pharmacotherapy of schizophrenia in adults., Can J Psychiatry, 62(9), 604–616 (2017).  [@Remington2017]

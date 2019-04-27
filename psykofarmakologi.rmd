@@ -36,7 +36,9 @@ NHS patient recommendations: https://www.nhs.uk/conditions/ssri-antidepressants/
 
 Associations of Maternal Antidepressant Use During the First Trimester of Pregnancy With Preterm Birth, Small for Gestational Age, Autism Spectrum Disorder, and Attention-Deficit/Hyperactivity Disorder in Offspring [@Sujan2017]
 
-## Neuroleptika
+## Antipsykotiska läkemedel {#antipsychotics}
+
+D2 occupancy 65% optimum.
 
 Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazole: a retrospective, cohort study [@Jukic2019].
 
@@ -56,7 +58,7 @@ Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken fö
 
 source('antipsychotics-side-effects.r', print.eval=TRUE)
 
-p
+p4 + lbls
 
 ``` 
 
