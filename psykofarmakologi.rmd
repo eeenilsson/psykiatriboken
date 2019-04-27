@@ -40,7 +40,7 @@ Associations of Maternal Antidepressant Use During the First Trimester of Pregna
 
 Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazole: a retrospective, cohort study [@Jukic2019].
 
-Figur \@ref(fig:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel. Intervallet som visas är mellan minsta effektiva dos och högsta effektiva dos med måldosen som punktestimat och maxdosen i rött. Inom klamrar anges dosen i milligram: [minsta effektiva dos, måldos, högsta effektiva dos].
+Figur \@ref(fig:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel. Intervallet som visas är mellan minsta effektiva dos och högsta effektiva dos med måldosen som punktestimat och maxdosen i rött. Inom klamrar anges dosen i milligram: [minsta effektiva dos, måldos, högsta effektiva dos]. Källa: Maudsley och FASS.
 
 ```{r antipsychotics-dosing-interval, fig.cap = "Doseringsintervall för antipsykotiska läkemedel" } 
 
@@ -49,4 +49,33 @@ source('antipsychotics-dosing-interval.r', print.eval=TRUE)
 p
 
 ``` 
- 
+
+Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Mång av biverkningarna är dosberoende. Källa: Maudsley.
+
+```{r antipsychotics-side-effects, fig.cap = "Relativ risk för biverkningar av antipsykotiska läkemedel" } 
+
+source('antipsychotics-side-effects.r', print.eval=TRUE)
+
+p
+
+``` 
+
+### FGA vs SGA
+
+Effectiveness of Antipsychotic Drugs in Patients with Chronic Schizophrenia lieberman [@Lieberman2005].
+
+Randomized Controlled Trial of the Effect on Quality of Life of Second- vs First-Generation Antipsychotic Drugs in Schizophrenia [@Jones2006].
+
+The CATIE and CUtLASS studies in schizophrenia: results and implications for clinicians [@Naber2009].
+
+Inga skillnader mellan grupperna (SGA vs FGA) i fråga om livskvalitet eller symtom.
+
+
+
+### Tardiv dyskinesi
+
+Rational Antipsychotic Choice: Weighing the Risk of Tardive Dyskinesia and Metabolic Syndrome
+
+Carbon M, Hsieh CH, Kane JM, Correll CU. Tardive Dyskinesia Prevalence in the Period of Second-Generation Antipsychotic Use: A Meta-Analysis. J Clin Psychiatry. 2017
+
+Is the comparison FGA vs SGA valid?

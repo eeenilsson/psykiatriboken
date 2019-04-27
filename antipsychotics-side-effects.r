@@ -26,10 +26,8 @@ p + geom_bar(position="dodge", stat="identity") + facet_grid(rows = vars(effect)
     coord_flip() +
     theme_classic(base_size = 10) -> p
 
-p
-
-pdf(file = "../dropbox/fig-antipsychotics-side-effects.pdf")
-p
-dev.off()
+## pdf(file = "../dropbox/fig-antipsychotics-side-effects.pdf")
+## p
+## dev.off()
 
 
