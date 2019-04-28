@@ -1,0 +1,785 @@
+---
+bibliography: [../bibliography/bibliography.bib,../dropbox/research/library/bibliography-recent.bib]
+csl: ../bibliography/oxford-scimed.csl
+
+---
+
+
+<!-- halftime: -->
+<!-- geometry: "left=2.3cm, right=2.3cm, top=2.3cm, bottom=2.3cm" -->
+<!-- classoption: oneside -->
+
+
+<!-- Change to this for thesis: -->
+<!-- geometry: "left=4cm, right=3cm, top=2.5cm, bottom=2.5cm" -->
+
+
+<!-- Also works here: -->
+<!-- header-includes: -->
+<!--    - \usepackage{pdfpages} -->
+
+<!-- Other options: -->
+<!-- papersize: A4 -->
+<!-- fontsize: 12pt -->
+<!-- linestretch: 1.5 -->
+<!-- fontfamily -->
+<!-- See: http://pandoc.org/MANUAL.html -->
+<!-- See latex font catalgue: http://www.tug.dk/FontCatalogue/ -->
+
+```{r global_options, include=FALSE}
+
+## set global options for knitr
+knitr::opts_chunk$set(echo=FALSE,
+                      warning=FALSE,
+                      message=FALSE)
+
+options(knitr.table.format = "markdown") # for kable tables
+
+## packages
+pacman::p_load(tidyverse,
+               ggplot2,
+               kableExtra,
+               rsvg,
+               svglite)
+
+## themes
+source('../functions/theme_polar.r')
+
+## Functions
+makestack <- function(x){
+    paste("\\makecell[lt]{", gsub(",", " \\\\\\\\ ", x), "}") ## replace commas with four backslashes
+}
+
+source('../functions/fix.names.R')
+source('../functions/query_label.r')
+source('../functions/make_rows.r')
+source('../functions/make_namedlist.r')
+source('../functions/fix_pval.r')
+
+## varnames
+source('varnames.r')
+
+```
+
+```{r load-data } 
+
+## Data for plotting
+## diagnoses_comparison <- readRDS("diagnosis_comparison.rds")
+## igfdata <- readRDS("igfdata.rds")
+
+``` 
+ 
+
+<!--chapter:end:index.rmd-->
+
+# Inledning
+
+Nnnnn
+
+ord med _italic_ förklaras i ordlistan
+
+<!--chapter:end:prolog.rmd-->
+
+# Beroende och missbruk av alkohol och droger
+
+## Inledning
+
+Detta kapitel innehåller: 
+
+- Neurobiologi med koppling till symtom och andra fenomen.
+
+## Epidemiologi
+
+## Hjärnan och beroende {#abuse-brain}
+
+De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. Deras anatomi och övergripande funktioner beskrivs i kapitel \@ref(basal-ganglia). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
+
+_Striatum_ kallas ett område i hjärnan som har betydelse för vår förmåga att välja mellan olika impulser för att nå bästa möjliga utfall. Detta område ingår i hjärnans belöningssystem, som aktiveras av droger. [@Volkow2015] När en beroendeframkallande drog (exemplevis kokain, amfetamin eller nikotin) används påverkas nervceller belägna i mitthjärnan (lat. _mesencephalon_), närmare bestämt den del av den "svarta substansen" (lat. _sustanta nigra_) som _benämns par compacta_, så att de via sina axoner frisätter höga nivåer dopamin till ett område i striatum kallat accumbenskärnan (lat. _nucleus accumbens_). Där finns celler med D1-receptorer som aktiveras av dopamin. De ingår i den sk "direkta banan" vars aktivering leder till desinhibering av _talamus_, vilket främjar beteendet[belöning?]. Där finns även andra cellgrupper, som istället har D2-receptorer och ingår i den "indirekta banan". Dessa celler _hämmas_ av dopamin, vilket via kopplingar i andra nervkärnor stimulerar till ökad aktivitet i talamus. Förändrad aktivitet i båda dessa banor leder därmed till att beteendet förstärks.
+
+För adapteringen till dopaminagonister är direkta banan av störst betydelse.
+
+DIrect pathway: Associative rewarding stimuli vs nonassociatie ones
+Indirect pathway 
+
+As expected from the canonical circuitry, NAc D1-MSN activation promotes drug-seeking behavior while D2-MSNs had an inhibitory effect. However, other studies have shown that it is the input to the VP, rather than to the Vental Mesencephalon, which promotes reinstatement of drug-seeking behavior after withdrawal and that the VP itself, unlike its dorsal counterpart the globus pallidus, directly inhibits the thalamus
+
+Thus altered availability of dopamine in the striatum, induced by presentation of conditioned stimuli, is able to dynamically alter activity in direct and indirect striatal output pathways. The implications of this will be discussed in the next section
+
+
+
+Vid fortsatt drogbruk försvagas även självkontrollen över drogbeteendet och hjärnan blir mer känlig för stress och negativt humör, vilket bidrar till beroende och fortsatt användning.
+
+<!--Striatum, direct/indirect https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4228842/ -->
+
+\includegraphics[width=\textwidth]{../dropbox/images/psychiatry/brain_mesolimbic_pathway.png} 
+
+DA neurons in the VTA fire in either a tonic (1–8 Hz) or a tran- sient (<500 ms) high-frequency phasic mode (>15 Hz), with the phasic mode resulting in larger DA increases than the tonic mode. Though it was initially believed that DA signaling in the brain encoded for reward, more recent findings have revealed that it encodes for a _reward prediction_ signal. Specifically, these studies have shown that phasic DA firing is time locked to unexpected or novel reward but is also triggered by cues that predict reward  reward prediction
+
+Drugs modulate the expression of genes involved in neuro plasticity through epigenetic and possibly RNA modifications  gene expression, epigenetics, rna
+
+if the expected reward does not materialize, DA cell firing is inhibited 
+
+
+Ventral striatum
+- nucleus accumbens
+- olfactory tubercle. 
+Dorsal striatum 
+- caudate nucleus
+- putamen
+
+### Referenser
+
+Striatal direct and indirect pathways control decision-making behavior [@Macpherson2014]
+
+Brain on drugs [@Volkow2015].
+
+Film om direct pathway (Khan acaemy): https://www.khanacademy.org/science/health-and-medicine/nervous-system-diseases/parkinsons-disease/v/the-basal-ganglia-the-direct-pathway
+
+# Volkow brain on drugs
+
+<!-- drugs of abuse exert their initial reinforcing effects by activating reward circuits in the brain and that -->
+
+<!-- continued drug use impairs brain function by interfering with the capacity to exert self-control over drug-taking behaviors and rendering the brain more sensitive to stress and negative moods.   -->
+
+
+<!-- Drugs of abuse exert their initial reinforcing effects by triggering supraphysiologic surges of dopamine in the nucleus accumbens (NAc) that activate the direct striatal pathway via D1 receptors and inhibit the indirect striato-cortical pathway via D2 receptors. -->
+
+<!-- through their different pharmacological effects, in- crease the release of DA in the shell subregion of the NAc  -->
+
+
+<!-- DA neurons in the VTA fire in either a tonic (1–8 Hz) or a tran- sient (<500 ms) high-frequency phasic mode (>15 Hz), with the phasic mode resulting in larger DA increases than the tonic mode. Though it was initially believed that DA signaling in the brain encoded for reward, more recent findings have revealed that it encodes for a _reward prediction_ signal. Specifically, these studies have shown that phasic DA firing is time locked to unexpected or novel reward but is also triggered by cues that predict reward  reward prediction -->
+
+<!-- Drugs modulate the expression of genes involved in neuro plasticity through epigenetic and possibly RNA modifications  gene expression, epigenetics, rna -->
+
+<!-- if the expected reward does not materialize, DA cell firing is inhibited  -->
+
+Reviews: intracellular signaling cascades and epigenetic modifications associated with addiction; thus, we refer readers to recent reviews on these topics (Heller et al., 2014; Nestler, 2012; Pascoli et al., 2014a).
+
+# Drug Reward Signaling in Brain 
+
+(VTA) and projecting to the nucleus accumbens (NAc) play a key role in the processing of reward-related stimuli, including those associated with drugs of abuse  Ventral tegument in midbrain, nucleus accumbens i cortex (basal part of forebrain).
+
+D3R mostly co-localize with D1R-MSNs, with which they heteromerize, potentiating their function.
+
+The ventral striatal direct and in- direct pathways have distinct roles in modulating reward and motivation. The direct pathway is associated with reward, whereas the indirect one is associated with punishment. Thus, DA receptor stimulation of the direct pathway directly mediates reward, whereas DA-re- ceptor-mediated inhibition of the indirect pathway opposes aversive responses. This could explain why maximal drug reward is obtained when DA binds to both D1R and D2R.
+
+To be reinforcing, drug- induced DA increases need to be fast and sufficiently large to stimulate low-affinity D1R in addition to D2R, leading to the acti- vation of the direct pathway and the inhibition of the indirect pathway. Specifically, when large DA increases triggered by stimulant drugs were achieved over a short time period (<10 min), they were associated with reward, whereas DA increases achieved over 60 min were not. This may also explain why routes of administration that achieve faster and higher drug levels in the brain, such as smoking and intravenous injection, are more rewarding and addictive than routes of administration that result in slow brain uptake, like oral administration 
+
+For natural reinforcers such as food or sex, the DA signals triggered by the CS drive the motivation to get the reward since with their repeated delivery the DA cells stop firing in response to their consumption (Schultz et al., 1997). This is in sharp contrast to the response to drugs of abuse, which due to their pharmacological properties, continue increasing DA release during their consumption. Ie drugs dont give satisfaction. DA in the NAc will increase upon exposure to drug cues, which will trigger the desire to take the drug (craving) also during their consumption, which will sustain the motivation to continue consuming them. This may explain why drugs are more likely to result in compulsive patterns of administration than natural reinforcers.  
+
+The pharmacological mechanisms of action of various drugs types influence the nature of the molecular and cellular changes associated with their repeated consumption. For example, alpha 6 and beta 3 nicotinic receptors are upregu- lated in DA neurons with repeated nico- tine exposure (Visanji et al., 2006), dopamine transporters are downregulated in the striatum with repeated methamphetamine exposure (Groman et al., 2012), and cannabinoid receptors 1 are downregulated in striatum with repeated delta9-tetrahydrocan- nabinol (THC) exposure 
+
+Endogenous opioids and cannabinoids have been also implicated in drug reward responses 
+
+# Transition into Addiction 
+
+## Drug-Induced Neuroplasticity in DA Pathways 
+
+addiction seems to emerge gradually, although the rate of this transition varies as a function of several factors, including the type of drug (i.e., faster for methamphetamine and slower for cannabinoids), the pattern of exposure (greater for regular than occasional use), and the developmental stage (faster in adolescence than in adulthood) 
+
+Drug-induced DA increases trigger various forms of synaptic plasticity that can result in strengthening or weakening of synap- tic connectivity in various brain reward regions 
+
+The speed with which addiction emerges is influenced by genetics 
+
+These synaptic modifications generate a long-lasting molecular memory for the drug’s rewarding and conditioning effects that will modify subsequent behaviors 
+
+## Role of Dopamine in Addiction 
+
+reductions in striatal D2R (dorsal and ventral) in drug abusers have been associated with decreased activity in the PFC, including anterior cingulate (ACC) and orbitofrontal (OFC) cortical regions. The ACC and OFC are necessary for self-control and for processing salience attribution, and their disruption is associated with a propensity for impulsive and compulsive behaviors 
+
+Repeated exposure to different types of drugs has been associ- ated with downregulation of D2R in striatum. Low levels of D2R in striatum may mediate the risk for compulsive drug taking in part by impairing PFC regions that inhibit prepo- tent responses and enable flexibility of behavioral choices as a function of changing environments. In rodents, low levels of D2R in striatum are associated with impulsivity and predict escalating and compulsive administration of cocaine.
+
+Though, theoretically, enhanced signaling through D1R and its activation of the direct pathway would be consistent with facilita- tion of drug reward (Gore and Zweifel, 2013), the findings related to the consequences of repeated drug exposure on D1R have not been consistent.  
+
+A powerful approach for investigating changes in DA signaling in addiction is to compare the DA responses triggered by drugs in addicted versus non-addicted individuals.  . For instance, in studies that compared the effects of drug intoxication between cocaine abusers and controls, where stimulant drugs such as methylphe- nidate and amphetamine were used as pharmacological challenges. These studies have consistently shown that the DA increases triggered by stimulants are markedly attenuated in cocaine abusers 
+
+In cocaine abusers (Martinez et al., 2011) and in methamphetamine abusers undergoing substance abuse treatment (Wang et al., 2012), the blunted DA responses to stimulant drugs have been also associated with worse clinical outcomes.  
+
+In contrast, in marijuana abusers, while stimulant-induced DA increases in striatum did not differ from controls (Urban et al., 2012; Volkow et al., 2014b), the brain reactivity to DA stimulation was blunted, an effect that was associated with negative emotionality 
+
+The regional brain activation responses to a stimulant drug also differ between controls and cocaine abusers in ventral pre- frontal regions.  
+
+## Neuronal Circuitry in Addiction 
+
+In this model of addiction, the motivation to take the drug is not only driven by conditioned responses to cues, but also by nega- tive emotional states.  
+
+In consequence, the addicted individual experiences enhanced reactivity to drug cues and to stressful stimuli, the reactivity to natural reward is decreased, and there is loss of flex- ibility to adjust the saliency value of reward as a function of their context.  
+
+For example, interventions designed to counteract dysphoria or strengthen executive control, even if not resulting in complete abstinence, may improve long-term success and recovery from addiction 
+
+
+
+
+## Kroppen och missbruk
+
+## Samband med andra psykiska sjukdomar
+
+Suicidrisk mm
+
+## Att diagnosticera beroendesjukdomar
+
+## Skattningsformulär
+
+### AUDIT
+
+AUDIT[@Bohn1995;@Reinert2007].
+
+### DUDIT
+
+### Biologiska markörer
+
+PEth etc.
+
+## Akut behandling av överdos och abstinens
+
+CIWAS
+
+### Wernicke encephalopati och Korsakoff demens
+
+## Läkemedelsbehandling
+
+## Psykologisk och annan behandling
+
+## Beroendet i historien och kulturen
+
+Opium - även på stenåldern.
+
+Faulkner
+
+Skildringar
+
+## Sammanfattning
+
+
+<!--chapter:end:beroende.rmd-->
+
+# Bipolär sjukdom
+
+## Inledning
+
+Vad är det.
+
+Teorier om patofysiologi. Ärftlighet. Livshändelser kan vara utlösande.
+
+Epidemiologi. Beskriv andel av tiden i mani/depression.
+
+Samsjuklighet/riskbeteenden.
+
+Prognos.
+
+## Diagnostik
+
+Huvudkriteriet för diagnosen bipolär sjukdom är förekomst av mani (vid typ I) eller hypomani (vid typ II). Episoder med depression är inte obligat, men vanligt, och särskilt framträdande vid typ II.
+
+En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller irritabelt tillsammans med ökad energi eller _målinriktad aktivitet_.
+
+För att betraktas som en manisk episod krävs att förändringen i stämningsläge och aktivitet är ihållande (föreligger nästan varje dag och större delen av dagen) under en tydligt avgränsad period (dvs inte ett varaktigt beteende) som varar minst en vecka. Om besvären är så påtagliga att de leder till sjukhusinläggning kan perioden dock vara kortare (ingen nedre gräns) och ändå räknas som en manisk episod.
+
+Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt som förändringen i stämningsläge och -aktivitet): Uppblåst självförtroende eller _grandiositet_; minskat sömnbehov; ökad pratsamhet; _tankeflykt_ eller en känsla av att tankarna rusar; distraherbarhet (av yttre ovidkommande stimuli); ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt) eller psykomotorisk agitation; överdrivet högriskbeteende (tex ekonomiskt, sexuellt). 
+
+Blandad episod av mani med samtidiga depressiva inslag förekommer. Vid sådan episod är dysfori, ångest, skuldkänslor, suicidtankar och irritabilitet vanligare medan man vid ren manisk episod oftare observerat grandiositet, eufori och talträngdhet [@Cassidy1998].
+
+Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåga. Minsta varaktigheten är då fyra dagar. Om psykotiska symtom föreligger eller om symtomen leder till sjukhusinläggning räknas episoden som mani. Beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
+
+Diagnosen bipolär sjukdom typ I kan ställas om personen haft en eller flera maniska episoder under sin livstid, oavsett om depressiva episoder förekommit. Om hypomani förkommit men aldrig mani, samt minst en depression, ställs diagnosen bipolär sjukdom typ II.
+
+Notera att snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet). Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter, exempelvis vidlyftiga projekt inom områden där personen saknar specifik kompetens. Minskat sömnbehov innebär att personen känner sig utvilad trots minskad sömntid. Uppblåst självförtroende kan vara av vanföreställningskaraktär.
+
+Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell \@ref(tab:bipolar-symptoms)**. Uppsnabbat tal är karakteristiskt.
+
+```{r bipolar-symptoms} 
+
+tmp <- read_csv('bipolar-symptoms.csv')
+cnames <- tmp$symptom
+labs <- cnames
+names(labs) <- fix.names(cnames)
+
+tmp <- as_tibble(cbind(study = names(tmp), t(tmp)))
+colnames(tmp) <- fix.names(c("study", cnames) )
+tmp <- tmp[-1,]
+tmp[5:ncol(tmp)] <- sapply(tmp[5:ncol(tmp)], as.numeric)
+tmp%>%gather(symptom, percent, -c(study, ref, n, rigorous, type)) -> tmp ## long
+
+tmp%>%
+    mutate(
+        n_symptom = n * percent/100,
+        n_without = n - n_symptom
+    )%>%filter(rigorous == "no")%>%
+    group_by(ref, symptom)%>%
+    summarise(
+        n_total = sum(n),
+        n_symptom = sum(n_symptom, na.omit = TRUE)
+    )%>%
+    filter(!is.na(n_symptom))-> tmp
+
+tmp%>%
+    group_by(symptom)%>%
+    summarise(
+        n = sum(n_total),
+        n_symptom = sum(n_symptom)
+    )%>%
+    mutate(
+        percent = n_symptom/n*100
+    )%>%
+    arrange(-percent)%>%
+    mutate(
+        percent = as.character(signif(percent, digits = 2))
+               ) -> tmp
+tmp%>%
+    select(symptom, percent) -> tbl
+
+## label table
+## tbl$symptom <- query_label(tbl$symptom, labs) ## internal names
+## names(tbl) <- c("Symptom", "Percent")
+tbl$symptom <- query_label(tbl$symptom, varnames)
+names(tbl) <- query_label(names(tbl), varnames)
+
+x <- tbl
+
+foot <- paste0("Resultaten är summerade från tre olika studier där respektive symtom efterfrågades vid totalt ", min(tmp$n), " till ", max(tmp$n), " bipolära episoder beroende på vilka studier som inkluderade kartläggning av symtomet.")
+
+kable(x, "latex",
+      align = c("l", rep('c', times = ncol(x))),
+      caption = "Symtom vid bipolär episod av manisk eller blandad typ",
+      booktabs=TRUE,
+      escape=FALSE
+      )%>%
+    footnote(
+        general= make_rows(foot),
+        general_title = "",
+        ##footnote_as_chunk=TRUE, 
+        escape=FALSE) 
+
+
+
+## ref [@Cassidy1998], aggregate of this and two other studies summarised in the same paper. Mixed and manic episodes aggregated.
+## TODO: Översätt symtomen
+
+
+``` 
+
+## Behandling
+
+Snabbt isättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abé2015].
+
+Diskutera antidepressivas roll. Relatera till tid i mani/depression?
+
+## Skattningsinstrument
+
+Miller CJ, Johnson SL, Eisner L Assessment Tools for Adult Bipolar Disorder. Clin Psychol (New York). 2009 Jun; 16:(2)188-201
+
+### HCL-32
+
+Hypomania checklist (HCL 32): Medelvärdet högre vid bipolär sjukdom. Fråga 3 kan användas för cut-off: Mer än 13 p på den frågan indikerar bipolär sjukdom.
+
+Ej tillräckligt effektivt för befolkningsscreening (icke-klinisk population) [@Lee2016].
+
+"The HCL-32 showed an adequate discrimination power for distinguishing individuals with BDs from those with major depressive disorders in previous studies [6–9]. Those studies also identified two or three sub-domains of the scale representing separate clinical factors. Compared to the MDQ, the HCL-32 showed higher sensitivity and lower specificity in screening hypomania, having high accuracy for the detection of ‘softer’ BD cases [10]. However, both questionnaires were developed for and have been applied to patients in a depressive episode." [@Lee2016]
+
+Investigation of the clinical utility of the hypomania checklist 32 (HCL-32) for the screening of bipolar disorders in the non-clinical adult population [@Lee2016]
+
+Skalor för neuropsykiatriska besvär och tvång: http://www.memogen.se/tests.html
+
+## Resources
+
+Mood Disorders A Handbook Of Science And Practice, https://epdf.tips/mood-disorders-a-handbook-of-science-and-practice.html
+
+TOREAD: Mixed states in DSM-5: Implications for clinical care, education, and research vieta [@Vieta2013].
+
+Image for presentation: 'light_and_dark.jpeg', see dropbox.
+
+
+
+- Canadian network for mood and anxiety treatments (canmat) and international society for bipolar disorders (isbd) collaborative update of canmat guidelines for the management of patients with bipolar disorder: update 2013 [@Yatham2013].
+
+- Svenska Psykiatriska Föreningen, 2014, Bipolär sjukdom - kliniska riktlinjer för utredning och behandling [@Spf2014].
+
+<!--chapter:end:bipolar.rmd-->
+
+# De basala ganglierna {#basal-ganglia}
+
+De basala ganglierna (**Fig \@ref(fig:image-basal-ganglia-coronal)**) ligger djupt under hjärnbarkens främre del. De finreglerar motoriken och är inblandade i planering av målstyrt beteende, inlärning och vanemässiga beteenden. Inflödet av signaler kommer främst från hjärnbarken och efter bearbetning signalerar de basala ganglierna tillbaks dit via thalamus. På så vis reglerar de basala ganglierna avpassningen i tid (timing-) och graden av aktivitet för de signaler som går från hjärnbarken till pyramidbanorna, bland annat med följden att beteenden som leder till belöning stimuleras och beteenden som leder till negativa resultat hämmas. Utflödande signaler från basala ganglierna till talamus är förknippat med utförande av en rörelse, emedan upphörd signalering från basala ganglierna är förknippat med pausning av rörelsen. Paralella system inom de basala ganglierna med liknande uppbyggnad finns för motorik, ögonrörelser, exekutiva funktioner och emotioner.
+
+Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av särskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är viktig i detta sammanhang. De basala gangliernas roll vid drogberoende diskuteras i stycke \@ref(abuse-brain).
+
+De basala ganglerna utövar sin effekt på impulser från hjärnbarken via talamus, som står under kontinuerlig hämning (GABA) från de basala gangliernas sk "output"-kärnor (utflödeskärnor, SNr, GPi). När aktiviteten i dessa utflödeskärnor ökas innebär det en starkare hämning av talamus och det motsatta sker vid minskad aktivitet.
+
+<!-- \includegraphics[width=\textwidth]{../dropbox/images/psychiatry/basal_ganglia_coronal.png} --> 
+
+## Striatum
+
+Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontralateralt) samt från thalamus. De flesta av neuronerna i striatum är så kallade "Medium spiny neurons" (MSNs). Dessa uttrycker förutom glutamatreceptorer även dopaminreceptorer av D1-typ och/eller D2-typ. Hos 40% (en del senare studier visar dock < 6% i dosala striatum) av MSN i striatum finns båda dessa receptortyper. Dopamin _stimulerar_ D1-MSN och _hämmar_ aktiviteten i D2-MSN. Både D1-MSN och D2-MSN har även receptorer för andra signalsubstanser, tex acetylcholin. MSN-axonerna frisätter i sin tur GABA, vilket har en inhibitorisk effekt på målet. Den sk direkta banan från _ventrala_ striatum domineras av D1-MSN och är kopplat till belöning emedan den indirekta banan domineras av D2-MSN och är kopplad till aversion. De direkta och indirekta banorna i _dorsala_ striatum är istället förbundna med motoriska funktioner.
+
+Striatum får glutamaterga signaler från amygdala och serotoninerga från Raphe Nuclei. Sådana serotinonerga banor kan ligga bakom levodopa-inducerade dyskinesier.
+
+
+## Den direkta och indirekta banan
+
+Signalerna från striatum till utflödeskärnan GPi kan förenklat beskrivas med två olika banor (**Fig \@ref(fig:original-basal-ganglia-model)**). 
+
+Den "direkta banan" går direkt från striatum till GPi och består i huvudsak av axoner från D1-MSN, vilka stimuleras av dopamin och har en hämmande (GABAerg) effekt på GPi. Aktivering av den direkta banan ger således ökad thalamusaktivitet.
+
+Den "indirekta banan" går från striatum till GPi med GPe och subtalamuskärnan som mellansteg. Neuronerna från striatum till GPe är (toniskt?) inhibitoriska, liksom neuronerna från GPe till subtalamuskärnan. Denna sänder i sin tur excitatoriska signaler till GPi. Eftersom neuronerna från striatum i denna bana är i huvudsak D2-MSN _hämmas_ de av dopamin, vilket leder till att hämningen av GPe släpper, varvid denna kärna förstärker sin hämning av subtalamuskärnan, med följden att GPi får minde stimuli. Sluteffekten av en hämning i den första delen av den indirekta banan (Striatum-GPi) blir ökad thalamusaktivitet. Senare forskning har visat att celler med D1 receptorer även ingår i den indirekta banan och att celler med D2-receptorer ingår i den direkta banan. 
+
+Direkta banan - belöning, indirekta banan aversion?
+
+```{r direct-indirect-pathway, fig.cap="Indirect, direct and hyperdirect pathway." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/direct-indirect-pathway.png")
+
+``` 
+
+Note: Bilden stämmer inte riktigt med nedan. Kolla upp!
+
+
+Cortex -------> Striatum -------------------GABA-----------------------| GPi
+                    \
+					 \----GABA-----| GPe ----GABA----| Subthalamus ----> GPi
+
+<!-- D2-MSN----| GPe -->
+<!-- D1-MSN----GPi/SNr -->
+
+
+<!-- Minus plus minus blir plus -->
+
+<!-- Striatum ------| GP -------| Thalamus------\-> Cortex------\-> Pyramidbanorna -->
+
+
+## Pallidum ##
+
+Nervcellerna i _pallidum_ (globus pallidus och ventrala pallidum) utsänder hämmande signaler (GABA) till sina mål, så länge de inte får signaler från striatum. Signaler från striatum till pallidum gör att aktiviteten hos nervcellerna där minskar och därmed släpper hämningen av målstrukturerna som då ökar sin aktivitet (desinhiberas).
+
+Pallidum består av _ventrala pallidum_, _globus pallidus interna_ och _globus pallidus externa_. GPe och GPi består av liknande celltyper (stora, GABAerga neuroner) och kommunicerar med varandra.
+
+<!-- _Globus pallidus_ (som tillsammans med _ventrala pallidum_ utgör _pallidum_)får sitt tillflöde av signaler främst från övriga delar av striatum. Vid frånvaro av signaler till pallidum sänder nervcellerna där hämmande signaler (GABA) till sina mål. Signaler från striatum gör att deras aktivitet minskar och därmed sker avhämning av målstrukturerna som då ökar sin aktivitet. -->
+
+## Substantia nigra och globus pallidus interna ##
+
+Den svarta substansen (lat. _substantia nigra_) indelas i pars compacta (SNc) och pars reticulata (SNr). SNr kommunicerar med GPi och inhiberer _thalamus_ genom att frisätta GABA. SNc å andra sidan producerar dopamin och reglerar aktiviteten i _striatum_.
+
+SNr tillsammans med GPi benämns ibland "output nuclei". Båda består av inhibitoriska GABAerga nervceller som avger tonisk, hämmande aktivitet till thalamus. SNr och GPi hämmas av D1-MSN belägna i striatum via den direkta banan. De stimuleras av subtalamuskärnans glutamaterga projektioner som löper i senare delen av den indirekta banan. När den första delen av den indirekta banan (D2-MSN i striatum) hämmas av dopamin leder det också till minskad aktivitet i GPi.
+
+
+## Globus pallidus externa ##
+
+GPe har GABAerga nerveller och erhåller hämmande GABA-signaler från D2-MSN i striatum.  Excitatoriska glutamat-signaler kommer till GPe från subthalamuskärnan.
+
+## Subthalamuskärnan ##
+
+Nervcellerna här producerar glutamat och har därmed en stimulerande effekt. Kärnan får hämmande signaler från GPe och skickar excitatoriska signaler till GPe, GPi, SNr och delar av talamus. Kärnan är del av den _indirekta banan_. Den får även glutamaterga signaler direkt från cortex via den _hyperdirekta banan_, som därmed förbipasserar basala gangliernas "input nuclei" och medför snabbare konduktionstid med starkt inflytande över basala gangliernas utflöde. Subthalamuskärnan kan delas in i en motorisk, associativ respektive limbisk region.
+
+I subthalamuskärnan sätts elektroder vid "deep brain stimulation".
+
+## Signalsubstanser i de basala ganglierna ##
+
+Dopaminerga nervceller i SNc innehåller neuromelanin, en prekursor till dopamin, som ger området dess svarta färg. Dessa nervceller förstörs gradvis vid Parkinsons sjukdom. Överlevande nervceller innehåller aggregat av felveckade proteiner vilka ses histologiskt som sk Lewy-kroppar.  
+
+Från ventrala tegumentet, SNc och retrorubrala området kommer dopaminergt inflöde till basala ganglierna. Ventrala tegumentet förser främst nucleus accumbens och områden i limbiska systemet, medan SNc och retrrubrala området främst utgör den nigrostriatala banan.
+
+## Basala gangliernas funktion ##
+
+I den klassika modellen beskrivs striato-pallidala kopplingen via direkta och indirekta banan, vilka med sin grundaktivitet har motsatta effekter på utflödet från de basala ganglierna (**Fig \@ref(fig:original-basal-ganglia-model)**). Via direkta banan inhiberas det toniska aktiviteten i GPi/SNr. Indirekta banan inhiberar GPe och desihiberar därmed subthalamuskärnan, vilken ökar den toniska aktiviteten i GPi/SNr. Den klassiska modellen har ifrågasatts, men fått stöd av senare forskning. Den klassiska modellen har modifierats och man har nu beskrivit re-entry kretsar inom de basala ganglierna och att detta nätverk kan gynna eller hämma samtidiga signaler snarare än hantera en signal åt gången.  
+
+```{r original-basal-ganglia-model, fig.cap="Original basal ganglia model." } 
+
+include_graphics("../dropbox/images/psychiatry/original_basal_ganglia_model.png")
+
+``` 
+
+Brist på dopamin medför ökad inhibitorisk aktivitet i förstaneuronen i den indirekta banan, vilka löper från striatum till GPe, vars inhibition av subthalamuskärnan då i sin tur minskar. Subthalamuskärnan ökar då sina glutamaterga signaler vilket ger överaktivering av inhibitoriska neuroner i GPi/SNr. Samtleder dopaminbristen till minskad inhibitorisk aktivitet i den direkta banan vilket bidrar till överaktivering av GPi/SNr. Denna överaktivitet  försvårar pausning av det hämmande utflödet från GPi till thalamus och begränsar därför igångsättning och utförande av rörelser. Dyskinesi (hemichorea-ballism, levodopainducerade dyskinesier) kan med denna modell förstås som en reduktion i utflöde från GPi, dvs motsatsen till parkinsonism.
+
+De basala ganglierna kan delas in efter funktioner, beroende på deras relation till olika områden i hjärbarken: Motorisk, associativ och emotionell/limbisk funktion. Dessa är förknippade med aktivitet i olika delar av striatum, med motoriska funktioner posteriort, emotionella funktioner ventralt.
+
+Tidsuppfattning, implicit lärande, vanebildning, belöningsrelaterat beteende, emotioner är exempel på funktioner som går via striatum.
+
+Artificiell blockering av olika delar av de basala ganglierna ger dyskinesier, stereotypier, hyperaktivitet, tics-liknande beteende, sexuellt beteende (erektion, ejakulation), kräkning med mera.
+
+## Nigrostriatala banan ##
+
+Nigrostriatala banan går från substantia nigra (SNc) och utgör huvuddelen av det dopaminerga inflödet till striatum. Dopamin stimulerar D1-MSN och hämmar D2-MSN, vilket leder till ökad aktivitet i den direkta banan och samtidigt minskad aktivitet i den indirekta banans förstaneuron.
+
+## Mesostriatala banan ##
+
+Vantrala tegumentet
+
+## Mesolimbiska banan ##
+
+Indirekta banan: striato-GPe-STN-GPi/SNr.
+Direct striatopallidal: Striato-GPi/SNr
+Mesolimbiska banan: 
+
+## Lista över de basala ganglierna och relaterade kärnor ##
+
+The term basal ganglia in the strictest sense refers to nuclei embedded deep in the brain hemispheres (striatum or caudate-putamen and globus pallidus), whereas related nuclei consist of structures located in the diencephalon (subthalamic nucleus), mesencephalon (substantia nigra), and pons (pedunculopontine nucleus).
+
+```{r image-basal-ganglia-coronal, fig.cap='Koronalt snitt genom de basala ganglierna.' } 
+
+## https://www.opencpu.org/posts/svg-release/
+
+imageName <- "basal_ganglia_coronal.svg"
+imageDir <- "../dropbox/images/psychiatry/"
+imagePath <- paste(imageDir, imageName, sep="")
+newNamePdf <- paste(gsub("\\..*","",imageName), ".pdf", sep = "")
+
+## convert svg in path to pdf in local directory
+rsvg_pdf(imagePath, newNamePdf)
+
+## include as graphic
+include_graphics(newNamePdf)
+
+## write to format via bitmap
+## bitmap <- rsvg(imagePath)
+## png::writePNG(bitmap, "bitmapToPng.png")
+## jpeg::writeJPEG(bitmap, "bitmapToJpg.jpg", quality = 1)
+## webp::write_webp(bitmap, "bitmapToWebp.webp", quality = 100)
+## See also package svglite?
+
+``` 
+
+1. Dorsala striatum (nuleus lenticulare)
+1.1 Nucleus caudatus (CN, sv. _svanskärnan_)
+1.2 Putamen (Put, sv _yttre skalkärnan_)
+1.3 Globus pallidus
+1.3.1 Internal (medial) segment (GPi)
+1.3.2 External (lateral) segment (GPe)
+2. Ventrala striatum
+1.1 Nucleus accumbens (Acb, sv. _accumbenskärnan_)
+1.1 Olfactory tubercle
+
+3. Ventrala pallidum
+4. Substantia nigra(a)
+4.1 Pars compacta (SNc)
+4.2 Pars reticulata (SNr)
+5. Subthalamic nucleus(a) (STN, sv. _subtalamuskärnan_)
+6. Pedunculopontine nucleus(a)
+
+Amygdala?
+
+(a) Ingår ej i snäv mening i de basala ganglierna (som ligger i hjärnhalvorna), eftersom de ligger i mesencephalon, diencephalon respektive pons.
+
+Functional Neuroanatomy of the Basal Ganglia lanciego[@Lanciego2012] ger en översikt.
+
+### Lista över nervbanor
+
+ 
+```{r mesolimbic-pathway, fig.cap = "Mesolimbiska banan."} 
+
+## install.packages("DiagrammeR")
+## install.packages("DiagrammeRsvg") ## needs tweaking to install in linux, something with V8
+
+imageName <- "brain_mesolimbic_pathway.svg"
+imageDir <- "../dropbox/images/psychiatry/"
+imagePath <- paste(imageDir, imageName, sep="")
+newNamePdf <- paste(gsub("\\..*","",imageName), ".pdf", sep = "")
+rsvg_pdf(imagePath, newNamePdf)
+include_graphics(newNamePdf)
+
+``` 
+
+
+Indirekta banan: striato-GPe-STN-GPi/SNr.
+Direct striatopallidal: Striato-GPi/SNr
+Mesolimbiska banan: 
+
+### Funktioner relaterade till de basala ganglierna
+
+Motorik
+Motorisk inlärning
+Exekutiva funktioner och beteenden
+Emotioner
+
+### Sjukdomar och symtom vid störd funktion i basala ganglierna ####
+
+Historiskt (och ibland fortfarande) används begreppet "extrapyramidala syndrom" för att beskriva störningar i de basala ganglierna, men detta begrepp anses förlegat och bör inte längre användas[@Lanciego2012].
+
+
+- Movement disorders
+  - Parkinsons sjukdom
+  - Huntingtons sjukdom
+- Tourette syndrome
+- Hemiballismus
+- Obsessive–compulsive disorder
+- Dystonia
+- Addiction
+- Tics
+- Chorea
+
+#### Parkinsonism
+
+Karaktäriseras av rigiditet (ökad muskeltonus i vila), hypokinesi (få spontana rörelser)/akinesi, bradykinesi och vilotremor.
+
+Dopaminbrist gör att den indirekta vägen dominerar vilket leder till att basala gangliernas inhbition av thalamus svårligen kan brytas för att sätta igång rörelser. De basala ganglierna reagerar vid parkinsons sjukdom även annorlunda på stimuli utifrån. Putamen, subtalamuskärnan och GPi har en ökad reaktivitet vilket försvårar filtreringen av impulser. Effekten av detta blir att rörelser utgående från hjärnbarken hämmas, vilket kan förklara hypokinesi och bradykinesi, men hur sjukdom i basala ganglierna orsakar rigiditet och tremor är inte känt.
+
+#### Dystoni
+
+Långvarig muskelspasm och onormal kroppsställning.
+
+#### Dyskinesi (chorea eller ballism)
+
+Chorea är fragmenterade rörelser som flödar från en kroppsdel till en annan. Vid stor amplitud på rörelserna läggs "ballism" till beskrivningen. Den vanligaste orsaken till dyskinesi är levodopabehandling till parkinsonpatienter. Andra orsaker är Huntingtons sjukdom, hyperthyreos och systemisk lupus erythematosus.
+
+Minskad aktivitet i subthalamuskärnans bana till GPi med minskad aktivitet från GPi är en förklaringsmodell för dessa symtom.
+
+Chorea kan uppstå efter skador i basala ganglierna, tex subthalamuskärnan. 
+
+Blockering av den hämmande banan från striatum till GPe (vilket leder till desinhibering av GPe med efterföljande inhibering subthalamuskärnan) orsakar chorea i kroppshalvan kontralateralt från blockeringen. Det finns även forskning som visar att den direkta banan har betydelse vid levodopa-inducerad dyskinesi.
+
+# Autonoma nervsystemet
+
+Sympathetic nervous system through the ages [@Esler2011].
+
+### Referenser
+
+Lanciego[@Lanciego2012] beskriver de basala gangliernas anatomi i detalj tillsammans med deras funktioner. Läsvärd men delvis ganska ingående med detaljer som kanske är mest relevanta för forskare inom området.
+
+Den som önskar fördjupa sig i området kan överväga att delta i någon av de kongresser som anordnas av International Basal Ganglia Society (www.ibags2017.org).
+
+<!--chapter:end:neurofysiologi.rmd-->
+
+# Neuroendokrinologi {#neuroendokrinologi}
+
+_Hypothalamus_ och _hypofysen_ sammanlänkar det centrala nervystemet med kroppens endokrina organ. Här integreras det enokrina systemet med externa impulser från lukt, smak, sexualitet mm och kan i sin tur påverka beteenden relaterade till dessa. Från hypothalamus går signaler till övriga delar av hjärnan och koordinerar därigenom beteenden som är komplementära till de hormonella signalerna. De så kallade _hypothalamic-pituitary-axlarna_ regleras genom feed-back signaler via nedströms hormoner men även via signaler från andra områden i hjärnan.
+
+Hypothalamus integrerar information från sinnesintryck (dofter, ljus, smärta, temperatur) och inre miljö (blodtryck, osmolalitet, blodsocker). Utflöde från hypothalamus når hypofysen, hjärnbarken, hjärnstammen, ryggmärgen och autonoma preganglionära nervceller).
+
+Hypofysen kan indelas i _neurohypofys_ och _adenohypofys_ (**Fig \@ref(fig:hypophysis-organization)**). Neuron från hypothalamus frisätter hormoner direkt till blodet i neurohypofysen, emedan motsvarande hormoner i adenohypofysen frisätts i det lokala kapillärnätverket i infundibulum (**Fig \@ref(fig:neuroendocrine-tuberoinfundibular-system)**) som leder till adenohypofysen där hormonet når endokrina celler. Exempelvis produceras GHRH respektive somatostatin i nervceller vars cellkroppar är belägna i hypothalamus. Dessa hormoner frisätts via nervcellerna axoner till kapillärnätverket i infundibulum [?] och transporteras via detta till adenohypofysen. Där finns _somatotroper_, celler som producerar tillväxthormon (GH), vilket när det frisätts når blodomloppet via venöst avflöde från hypofysen. GHRH stimulerar  emedan somatiostatin inhiberar syntes- och frisättning av GH från somatotroperna. Aptit och födointag integreras med detta system genom "hungerhormonet" ghrelin som frisätts från mag-tarmkanalen och stimulerar frisättning av GHRH och inhiberar frisättning av somatostatin. Leptin har motsatt effekt [?].
+
+Det finns konceptuella likheter mellan nervceller och endokrina celler (**Fig \@ref(fig:neoroendocrine-neuron-glandular-cells)**): Elektrisk exciterbarhet, jonkonduktans som eglerar exocytos av signalsubstanser från lagringsvesiklar. Neurosekretoriska celler är nervceller vars axoner inte går till vanliga synapser, utan exempelvis istället frisätter sina signalmolekyler i hypofysens portakretslopp.
+
+```{r hypophysis-organization, fig.cap='Neurohypophysis and adenohypophysis.' }
+
+include_graphics('../dropbox/images/psychiatry/hypophysis-organization.png')
+
+``` 
+
+```{r neuroendocrine-tuberoinfundibular-system, fig.cap='Tuberoinfundibular system.' }
+
+include_graphics('../dropbox/images/psychiatry/neuroendocrine-tuberoinfundibular-system.png')
+
+``` 
+
+
+```{r neoroendocrine-neuron-glandular-cells, fig.cap='Similarities between nerve cells and endocrine cells.' }
+
+include_graphics('../dropbox/images/psychiatry/neoroendocrine-neuron-glandular-cells.png')
+
+```
+
+## Resurser
+
+Importance of glial cells in neurohumoral homeostasis: The special relationship: glia–neuron interactions in the neuroendocrine hypothalamus [@Clasadonte2018]
+
+Duus
+
+Thieme felxibook 2+3
+
+<!--chapter:end:neuroendokrinologi.rmd-->
+
+# Psykofarmakologi
+
+ Monitoring: [@Hiemke2018]
+
+## Antidepressiva
+
+Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
+
+### Biverkningar
+
+**Hyperhidros** (svettningar) förekommer som kolinerg biverkan av exempelvis duloxetin. Kan behandlas med oxybutynin (off-label), som enligt NICE har effekt mot svettningarna och kan  i sin tur vara associerat med antikolinerga biverkningar såsom muntorrhet, urinretention och förstoppning (https://www.nice.org.uk/advice/es10/resources/hyperhidrosis-oxybutynin-pdf-1158108623557). Okybutynin är kontraindicerat vid galukom, vissa gastrointestinala sjukdomar, urinretention och myastenia gravis.
+
+## SSRI vid graviditet och amning {#ssri-pregnancy}
+
+Barn vilkas mammor använt SSRI under förlossning får oftare för tidig födsel, lägre födslovikt, autism och ADHD [@Sujan2017]. Detta kan bero på att depression är genetiskt kopplat till dessa tillstånd, vilket innebär att mammor som är deprimerade oftare har en genetisk uppsättning som också är förknippat med ADHD eller autism. Det kan också bero på att depressionen i sig är skadlig för barnet. En annan tänkbar förklaring är att de läkemedel som ges vi depression påverkar fostret.
+
+Potentiella risker skiljer med SSRI-behandling sig åt mellan olika delar av graviditeten. Exempelvis befaras att vissa SSRI under tidig graviditet kan öka risken för medfött hjärtfel. Riskökningen är dock liten. SSRI-behandling under senare delen av graviditeten kan ge utsättningssymptom hos barnet och eventuellt öka risken för pulmonell hypertension (hos barnet). 
+
+Angående risken för ADHD och autism har en stor svensk studie visat att det inte föreligger någon ökad risk för autism eller ADHD [@Sujan2017]. Man såg även att om barnets pappa använde antidepressiva, eller om mamman använt antidepressiva _före_ graviditeten ökade risken för ADHD och autism, vilket talar för att det är familjefaktorer snarare än läkemedlen som orsakar den ökade risken för dessa tillstånd.
+
+I praktiken får de små riskerna vägas mot behovet av behandling. De SSRI som anses medföra lägst risker för barnet (fluoxetin, citalopram ?) bör ges.
+
+Mycket litet av läkemedlen finns i bröstmjölken. Som försiktighetsåtgärd rekommenderas inte SSRI under amning, men riskerna är troligen mycket små och får vägas mot behovet.
+
+Sertralin anses säkert både vid graviditet och amning.
+
+"Citalopram, escitalopram, and sertraline appear to be the safest selective serotonin reuptake inhibitors during pregnancy, whereas fluvoxamine, paroxetine, and sertraline are preferred in breastfeeding women because they lead to the lowest serum medication levels in breastfed infants." [@Langan2016]
+
+Recognizing and Treating Peripartum Depression [@Liebermann2012]
+
+Identification and Management of Peripartum Depression [@Langan2016]
+
+### Resurser
+
+NHS patient recommendations: https://www.nhs.uk/conditions/ssri-antidepressants/considerations/#pregnancy
+
+Associations of Maternal Antidepressant Use During the First Trimester of Pregnancy With Preterm Birth, Small for Gestational Age, Autism Spectrum Disorder, and Attention-Deficit/Hyperactivity Disorder in Offspring [@Sujan2017]
+
+## Antipsykotiska läkemedel {#antipsychotics}
+
+D2 occupancy 65% optimum.
+
+Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazole: a retrospective, cohort study [@Jukic2019].
+
+Figur \@ref(fig:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel. Intervallet som visas är mellan minsta effektiva dos och högsta effektiva dos med måldosen som punktestimat och maxdosen i rött. Inom klamrar anges dosen i milligram: [minsta effektiva dos, måldos, högsta effektiva dos]. Källa: Maudsley och FASS.
+
+```{r antipsychotics-dosing-interval, fig.cap = "Doseringsintervall för antipsykotiska läkemedel" } 
+
+source('antipsychotics-dosing-interval.r', print.eval=TRUE)
+
+p
+
+``` 
+
+Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Mång av biverkningarna är dosberoende. Källa: Maudsley.
+
+```{r antipsychotics-side-effects, fig.cap = "Relativ risk för biverkningar av antipsykotiska läkemedel" } 
+
+source('antipsychotics-side-effects.r', print.eval=TRUE)
+
+p4 + lbls
+
+``` 
+
+### FGA vs SGA
+
+Effectiveness of Antipsychotic Drugs in Patients with Chronic Schizophrenia lieberman [@Lieberman2005].
+
+Randomized Controlled Trial of the Effect on Quality of Life of Second- vs First-Generation Antipsychotic Drugs in Schizophrenia [@Jones2006].
+
+The CATIE and CUtLASS studies in schizophrenia: results and implications for clinicians [@Naber2009].
+
+Inga skillnader mellan grupperna (SGA vs FGA) i fråga om livskvalitet eller symtom.
+
+
+
+### Tardiv dyskinesi
+
+Rational Antipsychotic Choice: Weighing the Risk of Tardive Dyskinesia and Metabolic Syndrome
+
+Carbon M, Hsieh CH, Kane JM, Correll CU. Tardive Dyskinesia Prevalence in the Period of Second-Generation Antipsychotic Use: A Meta-Analysis. J Clin Psychiatry. 2017
+
+Is the comparison FGA vs SGA valid?
+
+<!--chapter:end:psykofarmakologi.rmd-->
+
+# Epilog
+
+Nnnnn
+
+<!--chapter:end:epilog.rmd-->
+
+# Ordlista
+
+**Grandiositet** Personen uppvisar en orealistisk känsla av överlägsenhet, att vara unik eller utvald. Förekommer vid mani, hypomani, narcissistiskt personlighetssyndrom, antisocialt personlighetssyndrom, reactive attachment disorder, [paranoia?]. Ingår i BPRS och PANSS.
+
+**Expansivt stämningsläge** Uppblåst självbild med överdrivna känslouttryck, tex överdriven entusiasm, vänlighet, distanslöshet, klädsel etc. Förekommer vid hypomani och mani.
+
+**Målinriktat beteende** Målinriktat beteende innebär flexibelt val av respons baserat på inlärda kopplingar mellan situation, handling och konsekvens [@de_Wit2009]. Förekommer vid hypomani och mani.
+
+**Tankeflykt** 
+
+<!--chapter:end:ordlista.rmd-->
+
+# References
+
+<!--chapter:end:referenser.rmd-->
+
