@@ -65,13 +65,16 @@ p + facet_wrap("effect", nrow = 1
 ##              ## subtitle = "Plot of length by dose",
 ##               caption = "Risk level: 1, very low; 2, low; 3, moderate; 4, high. Adapted from Maudsley Prescribing Guidelines in Psychiatry, 13ed")
 
-lbls <- labs(title = "Biverkningar av antipsykotiska läkemedel",
-             ## subtitle = "Plot of length by dose",
+ti <- labs(title = "Biverkningar av antipsykotiska läkemedel"
+           ## subtitle = "Plot of length by dose"
+           )
+
+cap <- labs(
               caption = "Risknivå: 1, mycket låg; 2, låg; 3, måttlig; 4, hög. Risknivåerna är en grov uppskattning av relativ risk.\n
-Anpassat från Maudsley Prescribing Guidelines in Psychiatry, 13:e upplagan, av Erik Nilsson.")
+Anpassat från Maudsley Prescribing Guidelines in Psychiatry, 13:e upplagan, av Erik Nilsson."
+)
 
-
-p4 + lbls
+p4 + cap + ti
 
 ## ggsave("../dropbox/fig-antipsychotics-side-effects.pdf",
 ##       , width = 297, height = 210, units = 'mm' )
