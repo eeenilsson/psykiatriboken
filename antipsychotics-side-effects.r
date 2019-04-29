@@ -36,9 +36,9 @@ tmp%>%
 p <- ggplot(aes(x = drug, y = level+1, fill = drug), data = tmp)
 
     
-p1 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, effect %in% c("sedation", "weight_gain", "prolactin")))
+## p1 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, effect %in% c("sedation", "weight_gain", "prolactin")))
 
-p2 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, !(effect %in% c("sedation", "weight_gain", "prolactin"))))
+## p2 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, !(effect %in% c("sedation", "weight_gain", "prolactin"))))
 
 
 ## base
