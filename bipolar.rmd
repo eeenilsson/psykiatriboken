@@ -109,6 +109,31 @@ Snabbt isättande av behandling kan motiveras av att maniska perioder kan påver
 
 Diskutera antidepressivas roll. Relatera till tid i mani/depression?
 
+```{r  bipolar-treatment} 
+
+source('bipolar-treatment.r')
+tbl$drug <- query_label(tbl$drug, varnames)
+colnames(tbl) <- query_label(colnames(tbl), varnames)
+
+x <- tbl
+
+foot <- "Från CANMAT riktlinjer (se Yatham 2013). Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: Li, litium; Va, valproat; Bu, bupropion; Flx, fluoxetin."
+kable(x, "latex",
+      align = c("l", rep('c', times = ncol(x))),
+      caption = "Behandling vid bipolär sjukdom typ 1",
+      booktabs=TRUE,
+      escape=FALSE
+      )%>%
+    footnote(
+        general= make_rows(foot),
+        general_title = "",
+        ##footnote_as_chunk=TRUE, 
+        escape=FALSE) 
+
+
+``` 
+ 
+
 ## Psykotiska symtom vid bipolär sjukdom
 
 Mood-incongruent psykotiska symtom medför sämre prognos. Mer likt schizofreni?

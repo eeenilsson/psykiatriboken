@@ -74,7 +74,9 @@ cap <- labs(
 Anpassat från Maudsley Prescribing Guidelines in Psychiatry, 13:e upplagan, av Erik Nilsson."
 )
 
-p4 + cap + ti
+p4
+
+## p4 + cap + ti
 
 ## ggsave("../dropbox/fig-antipsychotics-side-effects.pdf",
 ##       , width = 297, height = 210, units = 'mm' )

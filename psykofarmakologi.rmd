@@ -48,8 +48,6 @@ Figur \@ref(fig:antipsychotics-dosing-interval) visar relativa doseringsinterval
 
 source('antipsychotics-dosing-interval.r', print.eval=TRUE)
 
-p
-
 ``` 
 
 Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Mång av biverkningarna är dosberoende. Källa: Maudsley.
@@ -57,8 +55,6 @@ Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken fö
 ```{r antipsychotics-side-effects, fig.cap = "Relativ risk för biverkningar av antipsykotiska läkemedel" } 
 
 source('antipsychotics-side-effects.r', print.eval=TRUE)
-
-p4 + lbls
 
 ``` 
 

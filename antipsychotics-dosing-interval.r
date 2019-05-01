@@ -1,8 +1,5 @@
 ## plot antipsychotics-dosing-interval
 
-source('../functions/query_label.r')
-source('varnames.r')
-
 antipsychotics <- read_csv('../psykiatri_st/antipsychotics-annotated.csv')
 
 antipsychotics%>%
@@ -62,15 +59,13 @@ p + geom_point() +
     theme_classic() -> p
 
 p + scale_fill_identity(name = 'the fill', guide = 'legend',labels = c('m1')) +
-    theme(legend.position="bottom")
+    theme(legend.position="bottom") -> p
 
 ## pdf(file = "fig_antipsychotics_dose_interval.pdf")
 ## p
 ## dev.off()
 
 ## label guide test
-
-require(tidyverse)
 
 p <- ggplot(data = tmp)
 
@@ -105,4 +100,6 @@ ax <- labs(y = "Dos (% av måldos)")
 cap <- labs(
     caption = "Linjerna visar intervallet mellan minsta effektiva dos och högsta effektiva dos, över vilken större effekt inte har visats.\nKlamrarna visar (i mg) [minsta effektiva dos: måldos, högsta effektiva dos].\nAnpassat från Maudsley Prescribing Guidelines in Psychiatry, 13:e upplagan, och FASS, av Erik Nilsson.")
 
-p + ti + ax + cap
+## p + ti + ax + cap
+
+p + ax
