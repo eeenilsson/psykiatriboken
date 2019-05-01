@@ -11,32 +11,51 @@ dta%>%
 
 dta%>%
     filter(
-        prio == 1
+        prio == 1 | prio == 2
+    ) -> dta1
+
+## dta1%>%
+##     filter(drug == "bupropion") -> dta1
+
+dta1%>%
+    mutate(
+        adj = ifelse(adj == 1|adj == 2, adj, NA),
+        adj_to= ifelse(adj == 1|adj == 2, adj_to, NA)
     ) -> dta1
 
 dta1%>%
     mutate(
-        adj = ifelse(adj == 1, adj, NA),
-        adj_to= ifelse(adj == 1, adj_to, NA)
+        adjunctive = ifelse(is.na(mono),
+                                  paste0(adj, " with ", adj_to),
+                                  ifelse(mono == adj, paste0("+-", adj_to),
+                     ifelse(!is.na(adj), paste0("(", adj, " with ", adj_to, ")"), NA)
+                     )),
+        show = paste0(mono, " ", adjunctive)
     ) -> dta1
-
-
 
 ## dta[dta == 3] <- NA ## exclude third line
 ## dta[dta == "3l"] <- NA
 ## dta[dta == "3v"] <- NA
 ## dta[dta == "3lv"] <- NA
 
-dta%>%
+dta1%>%
+    select(drug, phase, show)%>%
+    spread(
+        phase, show
+    ) -> show
+
+
+
+dta1%>%
     select(drug, phase, mono)%>%
     spread(
         phase, mono
     ) -> mono
 
-dta%>%
-    select(drug, phase, adjunct)%>%
+dta1%>%
+    select(drug, phase, adj_to)%>%
     spread(
-        phase, adjunct
+        phase, adj_to
     ) -> adj
 
 ## dta%>%
