@@ -34,6 +34,7 @@ knitr::opts_chunk$set(echo=FALSE,
                       message=FALSE)
 
 options(knitr.table.format = "markdown") # for kable tables
+options(knitr.kable.NA = '')
 
 ## packages
 pacman::p_load(tidyverse,

@@ -4,6 +4,64 @@ pacman::p_load(tidyverse)
 dta <- read_csv('../notes/bipolar_treatment.csv')
 
 dta%>%
+    select(drug, phase, litium:omega3) -> tmp
+
+is1 <- function(x){na.omit(x == 1)}
+
+
+
+
+sapply(tmp, is1)
+
+is1(NA)
+
+tmp%>%
+    filter(drug == 'litium')%>%
+    filter(phase == 'acute_mania') == 1
+
+tmp%>%
+    gather(
+        adjunct, line, -c(drug, phase)
+    )%>%
+    filter(line < 3)%>%
+    filter(!is.na(line))%>%
+    group_by(drug, phase, line)%>%
+    summarise(
+        adj = paste(adjunct, collapse = ", ")
+    ) -> tmp2
+
+## todo: mono, + vs +/-
+
+tmp2%>%
+    ##filter(drug == "lamotrigin")%>%
+    summarise(
+        show = paste0(line, " ", paste(adj, collapse = ", "), collapse = "\n")
+    ) -> tmp2    
+
+tmp2%>%
+    select(drug, phase, show)%>%
+    spread(phase, show)    
+    
+dta1%>%
+    select(drug, phase, show)%>%
+    spread(
+        phase, show
+    ) -> show
+
+
+
+tmp == 1
+
+
+?select_if
+
+colnames(tmp)
+
+sapply(tmp, function(x) colnames(x))
+
+
+#########
+dta%>%
     rowwise()%>%
     mutate(
         prio = min(mono, adj, na.rm = TRUE)
@@ -15,8 +73,9 @@ dta%>%
     ) -> dta1
 
 
-dta1%>%
+dta1%>% ## remove 3rd line trt
     mutate(
+        mono = ifelse(mono == 1|mono == 2, mono, NA),
         adj = ifelse(adj == 1|adj == 2, adj, NA),
         adj_to= ifelse(adj == 1|adj == 2, adj_to, NA)
     ) -> dta1

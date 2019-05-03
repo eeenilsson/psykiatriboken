@@ -117,7 +117,7 @@ colnames(tbl) <- query_label(colnames(tbl), varnames)
 
 x <- tbl
 
-foot <- "Från CANMAT riktlinjer (se Yatham 2013). Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: Li, litium; Va, valproat; Bu, bupropion; Flx, fluoxetin."
+foot <- "Från CANMAT riktlinjer (se Yatham 2013). Siffran 1 betyder förstahandsval, 2 är andrahandsval. Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: Li, litium; Va, valproat; Bu, bupropion; Flx, fluoxetin."
 kable(x, "latex",
       align = c("l", rep('c', times = ncol(x))),
       caption = "Behandling vid bipolär sjukdom typ 1",
