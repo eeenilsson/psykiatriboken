@@ -118,7 +118,7 @@ colnames(tbl) <- query_label(colnames(tbl), varnames)
 x <- tbl
 abbr <- query.abbrev(tbl, abbreviations)
 abbr <- paste0(paste(names(abbr), abbr, sep = ", "), collapse = "; ")
-foot <- paste0("Tabellen visar första- och andrahandsalternativ (kursiv stil). Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: .", abbr, ".")
+foot <- paste0("Tabellen visar första- och andrahandsalternativ (kursiv stil). Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: ", abbr, ".")
 
 ## Ref: CANMAT, Yatham 2013.
 
