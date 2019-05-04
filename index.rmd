@@ -1,7 +1,6 @@
 ---
 bibliography: [../bibliography/bibliography.bib,../dropbox/research/library/bibliography-recent.bib]
 csl: ../bibliography/oxford-scimed.csl
-
 ---
 
 
@@ -33,7 +32,7 @@ knitr::opts_chunk$set(echo=FALSE,
                       warning=FALSE,
                       message=FALSE)
 
-options(knitr.table.format = "markdown") # for kable tables
+## options(knitr.table.format = "markdown") # for kable tables
 options(knitr.kable.NA = '')
 
 ## packages
@@ -53,12 +52,14 @@ makestack <- function(x){
 
 source('../functions/fix.names.R')
 source('../functions/query_label.r')
+source('../functions/query.abbrev.r')
 source('../functions/make_rows.r')
 source('../functions/make_namedlist.r')
 source('../functions/fix_pval.r')
 
 ## varnames
 source('varnames.r')
+source('abbreviations.r')
 
 ```
 

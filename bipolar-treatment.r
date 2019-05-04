@@ -6,139 +6,158 @@ dta <- read_csv('../notes/bipolar_treatment.csv')
 dta%>%
     select(drug, phase, litium:omega3) -> tmp
 
-is1 <- function(x){na.omit(x == 1)}
-
-
-
-
-sapply(tmp, is1)
-
-is1(NA)
 
 tmp%>%
-    filter(drug == 'litium')%>%
-    filter(phase == 'acute_mania') == 1
+    gather(
+        adjunct, line, -c(drug, phase)
+    )%>%
+    filter(line < 3) -> temp
+
+toabbrev <- unique(c(temp$drug, temp$adjunct))
 
 tmp%>%
     gather(
         adjunct, line, -c(drug, phase)
     )%>%
     filter(line < 3)%>%
-    filter(!is.na(line))%>%
+    filter(!is.na(line))%>%    
+    mutate(sign = ifelse(drug == adjunct,
+                         "$\\pm$", NA),
+           adjunct = ifelse(drug == adjunct, NA, adjunct))%>%
+    ## filter(drug == "litium")%>%
+    arrange(phase)%>%
     group_by(drug, phase, line)%>%
     summarise(
-        adj = paste(adjunct, collapse = ", ")
+        adj = paste(ifelse(length(na.omit(sign))==0 & length(na.omit(adjunct)) != 0, "med", ifelse(length(na.omit(adjunct))!=0, na.omit(sign), "mono")), paste(na.omit(substr(adjunct, 1, 2)), collapse = "/"))
+    )%>%
+    group_by(phase)%>%
+    complete(drug, line)-> tmp2
+
+tmp2%>%
+    mutate(
+        adj = ifelse(line == 2, ifelse(!is.na(adj), paste0("\\textit{", adj, "}"), adj), adj)
     ) -> tmp2
 
-## todo: mono, + vs +/-
+tmp2%>%
+    mutate(
+        line = ifelse(is.na(adj), NA, line)
+      ## ,adj = ifelse(is.na(adj), "n", adj)
+    ) -> tmp2
+
+tmp2[is.na(tmp2)] <- "-"
+
+## tmp2%>% ## with line nr
+##     group_by(drug, phase)%>%
+##     summarise(
+##         show = paste(line, adj, collapse = "\n")
+##     ) -> tmp2
 
 tmp2%>%
-    ##filter(drug == "lamotrigin")%>%
+    group_by(drug, phase)%>%
     summarise(
-        show = paste0(line, " ", paste(adj, collapse = ", "), collapse = "\n")
-    ) -> tmp2    
-
-tmp2%>%
-    select(drug, phase, show)%>%
-    spread(phase, show)    
+        show = paste(adj, collapse = "\n")
+    ) -> tmp2
     
-dta1%>%
-    select(drug, phase, show)%>%
+tmp2%>%
+    select(drug, phase, show)%>%    
     spread(
         phase, show
-    ) -> show
+    ) -> tbl
 
 
 
-tmp == 1
+## write_csv(
+##     data.frame(
+##         label = substr(toabbrev, 1, 2),
+##     variable = toabbrev
+    
+##     ),
+##     "abbreviations_bip.csv"
+
+## )
 
 
-?select_if
-
-colnames(tmp)
-
-sapply(tmp, function(x) colnames(x))
 
 
-#########
-dta%>%
-    rowwise()%>%
-    mutate(
-        prio = min(mono, adj, na.rm = TRUE)
-    ) -> dta
+## #########
+## dta%>%
+##     rowwise()%>%
+##     mutate(
+##         prio = min(mono, adj, na.rm = TRUE)
+##     ) -> dta
 
-dta%>%
-    filter(
-        prio == 1 | prio == 2
-    ) -> dta1
-
-
-dta1%>% ## remove 3rd line trt
-    mutate(
-        mono = ifelse(mono == 1|mono == 2, mono, NA),
-        adj = ifelse(adj == 1|adj == 2, adj, NA),
-        adj_to= ifelse(adj == 1|adj == 2, adj_to, NA)
-    ) -> dta1
-
-dta1%>%
-    mutate(
-        adjunctive = ifelse(is.na(mono),
-                                  paste0(adj, " med ", adj_to),
-                                  ifelse(mono == adj, paste0("+- ", adj_to),
-                     ifelse(!is.na(adj), paste0("(", adj, " med ", adj_to, ")"), NA)
-                     )),
-        show = paste0(mono, " ", adjunctive)
-    ) -> dta1
-
-### 3rd line treatments
-dta%>%
-    filter(
-        mono == 3 | adj == 3
-    ) -> dta3
-
-dta3%>%
-    mutate(
-        adj = ifelse(adj == 3, adj, NA),
-        adj_to= ifelse(adj == 3, adj_to, NA),
-        mono = ifelse(mono == 3, adj, NA)
-    ) -> dta3
-
-dta3%>%
-    mutate(
-        adjunctive = ifelse(is.na(mono),
-                                  paste0(adj, " med ", adj_to),
-                                  ifelse(mono == adj, paste0("+- ", adj_to),
-                     ifelse(!is.na(adj), paste0("(", adj, " med ", adj_to, ")"), NA)
-                     )),
-        show = paste0(mono, " ", adjunctive)
-    ) -> dta3
-## TODO: Finish adjunctive as separate table
-
-### reshape
-
-## dta[dta == 3] <- NA ## exclude third line
-## dta[dta == "3l"] <- NA
-## dta[dta == "3v"] <- NA
-## dta[dta == "3lv"] <- NA
-
-dta1%>%
-    select(drug, phase, show)%>%
-    spread(
-        phase, show
-    ) -> show
-
-show <- as.tibble(sapply(show, function(x) gsub(".?NA.?", "", x)))
+## dta%>%
+##     filter(
+##         prio == 1 | prio == 2
+##     ) -> dta1
 
 
-tibble(drug = show$drug,
-       n = as.numeric(rowSums(sapply(show[-1], function(x) substr(x, 1, 1) == "1"), na.rm = TRUE)),
-       mnt = as.numeric(sapply(show["maintainance"], function(x) substr(x, 1, 1)), na.rm = TRUE)
-      )%>%
-    arrange(mnt, -n)-> odr
+## dta1%>% ## remove 3rd line trt
+##     mutate(
+##         mono = ifelse(mono == 1|mono == 2, mono, NA),
+##         adj = ifelse(adj == 1|adj == 2, adj, NA),
+##         adj_to= ifelse(adj == 1|adj == 2, adj_to, NA)
+##     ) -> dta1
 
-tbl <- show[match(odr$drug, show$drug),]
+## dta1%>%
+##     mutate(
+##         adjunctive = ifelse(is.na(mono),
+##                                   paste0(adj, " med ", adj_to),
+##                                   ifelse(mono == adj, paste0("+- ", adj_to),
+##                      ifelse(!is.na(adj), paste0("(", adj, " med ", adj_to, ")"), NA)
+##                      )),
+##         show = paste0(mono, " ", adjunctive)
+##     ) -> dta1
 
-colnames(tbl) <- c("drug", "depression", "mania", "maintainance")
+## ### 3rd line treatments
+## dta%>%
+##     filter(
+##         mono == 3 | adj == 3
+##     ) -> dta3
+
+## dta3%>%
+##     mutate(
+##         adj = ifelse(adj == 3, adj, NA),
+##         adj_to= ifelse(adj == 3, adj_to, NA),
+##         mono = ifelse(mono == 3, adj, NA)
+##     ) -> dta3
+
+## dta3%>%
+##     mutate(
+##         adjunctive = ifelse(is.na(mono),
+##                                   paste0(adj, " med ", adj_to),
+##                                   ifelse(mono == adj, paste0("+- ", adj_to),
+##                      ifelse(!is.na(adj), paste0("(", adj, " med ", adj_to, ")"), NA)
+##                      )),
+##         show = paste0(mono, " ", adjunctive)
+##     ) -> dta3
+## ## TODO: Finish adjunctive as separate table
+
+## ### reshape
+
+## ## dta[dta == 3] <- NA ## exclude third line
+## ## dta[dta == "3l"] <- NA
+## ## dta[dta == "3v"] <- NA
+## ## dta[dta == "3lv"] <- NA
+
+## dta1%>%
+##     select(drug, phase, show)%>%
+##     spread(
+##         phase, show
+##     ) -> show
+
+## show <- as.tibble(sapply(show, function(x) gsub(".?NA.?", "", x)))
+
+
+## tibble(drug = show$drug,
+##        n = as.numeric(rowSums(sapply(show[-1], function(x) substr(x, 1, 1) == "1"), na.rm = TRUE)),
+##        mnt = as.numeric(sapply(show["maintainance"], function(x) substr(x, 1, 1)), na.rm = TRUE)
+##       )%>%
+##     arrange(mnt, -n)-> odr
+
+## tbl <- show[match(odr$drug, show$drug),]
+
+## colnames(tbl) <- c("drug", "depression", "mania", "maintainance")
 
 
 #####

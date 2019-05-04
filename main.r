@@ -19,9 +19,6 @@ library(kableExtra)
 bookdown::render_book("index.rmd", "bookdown::pdf_book")
 bookdown::render_book("index.rmd", "bookdown::pdf_book", output_dir = "../dropbox")
 
-
-?render_book
-
 x
 
 
