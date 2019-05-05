@@ -1,6 +1,11 @@
 ### Psykiatriboken
 ## Main script
 
+## Sys.setlocale("LC_ALL","Swedish")
+## options(encoding = "utf-8")
+## options(encoding = "UTF-8")
+## options(encoding = "latin-1")
+
 ## Packages
 require(knitr)
 require(rmarkdown)
@@ -21,6 +26,11 @@ bookdown::render_book("index.rmd", "bookdown::pdf_book", output_dir = "../dropbo
 
 x
 
+## Plot single pages
+source('antipsychotics-dosing-interval.r', encoding='utf-8')
+
+
+x
 
 ##render("presentation_beamer.rmd", "beamer_presentation") ## presentation
 ##render("public_defence_application_part1a.rmd", "pdf_document", encoding="UTF-8")
@@ -72,7 +82,7 @@ p + geom_contour()
 
 dta <- transform(
     cbind(x = 1:10,
-    y = 1:10)  
+    y = 1:10)
 )
 
 p <- ggplot(aes(x=x, y=y), data = dta)

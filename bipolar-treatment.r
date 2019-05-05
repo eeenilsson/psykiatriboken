@@ -20,7 +20,7 @@ tmp%>%
         adjunct, line, -c(drug, phase)
     )%>%
     filter(line < 3)%>%
-    filter(!is.na(line))%>%    
+    filter(!is.na(line))%>%
     mutate(sign = ifelse(drug == adjunct,
                          "$\\pm$", NA),
            adjunct = ifelse(drug == adjunct, NA, adjunct))%>%
@@ -28,7 +28,7 @@ tmp%>%
     arrange(phase)%>%
     group_by(drug, phase, line)%>%
     summarise(
-        adj = paste(ifelse(length(na.omit(sign))==0 & length(na.omit(adjunct)) != 0, "med", ifelse(length(na.omit(adjunct))!=0, na.omit(sign), "mono")), paste(na.omit(substr(adjunct, 1, 2)), collapse = "/"))
+        adj = paste(ifelse(length(na.omit(sign))==0 & length(na.omit(adjunct)) != 0, "+", ifelse(length(na.omit(adjunct))!=0, na.omit(sign), "mono")), paste(na.omit(substr(adjunct, 1, 2)), collapse = "/"))
     )%>%
     group_by(phase)%>%
     complete(drug, line)-> tmp2
@@ -57,9 +57,9 @@ tmp2%>%
     summarise(
         show = paste(adj, collapse = "\n")
     ) -> tmp2
-    
+
 tmp2%>%
-    select(drug, phase, show)%>%    
+    select(drug, phase, show)%>%
     spread(
         phase, show
     ) -> tbl
@@ -70,7 +70,7 @@ tmp2%>%
 ##     data.frame(
 ##         label = substr(toabbrev, 1, 2),
 ##     variable = toabbrev
-    
+
 ##     ),
 ##     "abbreviations_bip.csv"
 
