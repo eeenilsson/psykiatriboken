@@ -4,26 +4,32 @@
 
 Detta kapitel innehåller: 
 
+- Modeller för konceptualisering av beroende.
 - Neurobiologi med koppling till symtom och andra fenomen.
+- Specifikt om olika missbrukspreparat.
+
 
 ## Epidemiologi
 
-## Hjärnan och beroende {#abuse-brain}
+## Konceptualisering
 
-De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. Deras anatomi och övergripande funktioner beskrivs i kapitel \@ref(basal-ganglia). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
+Olika nivåer för beskrivning (inlärningspsykologi inkl belöning, anatomi, nervbanor, neurokemi). Stress-sårbarhet. Allostatisk modell. Neuroadaptation.
 
-_Striatum_ kallas ett område i hjärnan som har betydelse för vår förmåga att välja mellan olika impulser för att nå bästa möjliga utfall. Detta område ingår i hjärnans belöningssystem, som aktiveras av droger. [@Volkow2015] När en beroendeframkallande drog (exemplevis kokain, amfetamin eller nikotin) används påverkas nervceller belägna i mitthjärnan (lat. _mesencephalon_), närmare bestämt den del av den "svarta substansen" (lat. _sustanta nigra_) som _benämns par compacta_, så att de via sina axoner frisätter höga nivåer dopamin till ett område i striatum kallat accumbenskärnan (lat. _nucleus accumbens_). Där finns celler med D1-receptorer som aktiveras av dopamin. De ingår i den sk "direkta banan" vars aktivering leder till desinhibering av _talamus_, vilket främjar beteendet[belöning?]. Där finns även andra cellgrupper, som istället har D2-receptorer och ingår i den "indirekta banan". Dessa celler _hämmas_ av dopamin, vilket via kopplingar i andra nervkärnor stimulerar till ökad aktivitet i talamus. Förändrad aktivitet i båda dessa banor leder därmed till att beteendet förstärks.
+## Beroendets anatomi {#abuse-brain}
+
+De _basala ganglierna_ är en samling områden i hjärnan som är inblandade i flera funktioner, bland annat inlärning, motorik, känslor och kognition. Den beroendeframkallande effekten av vissa droger kan förklaras med olika processer där de basala ganglierna är inblandade. De basala gangliernas anatomi och övergripande funktioner beskrivs i kapitel \@ref(basal-ganglia). Här följer en beskrivning av hur olika strukturer och processer i hjärnan är kopplade till beroende.
+
+_Striatum_ kallas ett område i hjärnan som har betydelse för vår förmåga att välja mellan olika impulser för att nå bästa möjliga utfall. Detta område ingår i hjärnans belöningssystem, som aktiveras av droger. [@Volkow2015] När en beroendeframkallande drog (exemplevis kokain, amfetamin eller nikotin) används påverkas nervceller belägna i mitthjärnan (lat. _mesencephalon_), närmare bestämt den del av den "svarta substansen" (lat. _sustanta nigra_) som _benämns pars compacta_, så att de via sina axoner frisätter höga nivåer dopamin till ett område i striatum kallat accumbenskärnan (lat. _nucleus accumbens_). Där finns celler med D1-receptorer som aktiveras av dopamin. De ingår i den sk "direkta banan" vars aktivering leder till desinhibering av _talamus_, vilket främjar beteendet[belöning?]. Där finns även andra cellgrupper, som istället har D2-receptorer och ingår i den "indirekta banan". Dessa celler _hämmas_ av dopamin, vilket via kopplingar i andra nervkärnor stimulerar till ökad aktivitet i talamus. Förändrad aktivitet i båda dessa banor leder därmed till att beteendet förstärks.
 
 För adapteringen till dopaminagonister är direkta banan av störst betydelse.
 
 DIrect pathway: Associative rewarding stimuli vs nonassociatie ones
+
 Indirect pathway 
 
 As expected from the canonical circuitry, NAc D1-MSN activation promotes drug-seeking behavior while D2-MSNs had an inhibitory effect. However, other studies have shown that it is the input to the VP, rather than to the Vental Mesencephalon, which promotes reinstatement of drug-seeking behavior after withdrawal and that the VP itself, unlike its dorsal counterpart the globus pallidus, directly inhibits the thalamus
 
 Thus altered availability of dopamine in the striatum, induced by presentation of conditioned stimuli, is able to dynamically alter activity in direct and indirect striatal output pathways. The implications of this will be discussed in the next section
-
-
 
 Vid fortsatt drogbruk försvagas även självkontrollen över drogbeteendet och hjärnan blir mer känlig för stress och negativt humör, vilket bidrar till beroende och fortsatt användning.
 
@@ -31,12 +37,11 @@ Vid fortsatt drogbruk försvagas även självkontrollen över drogbeteendet och 
 
 \includegraphics[width=\textwidth]{../dropbox/images/psychiatry/brain_mesolimbic_pathway.png} 
 
-DA neurons in the VTA fire in either a tonic (1–8 Hz) or a tran- sient (<500 ms) high-frequency phasic mode (>15 Hz), with the phasic mode resulting in larger DA increases than the tonic mode. Though it was initially believed that DA signaling in the brain encoded for reward, more recent findings have revealed that it encodes for a _reward prediction_ signal. Specifically, these studies have shown that phasic DA firing is time locked to unexpected or novel reward but is also triggered by cues that predict reward  reward prediction
+DA neurons in the VTA fire in either a tonic (1–8 Hz) or a tran- sient (<500 ms) high-frequency phasic mode (>15 Hz), with the phasic mode resulting in larger DA increases than the tonic mode. Though it was initially believed that DA signaling in the brain encoded for reward, more recent findings have revealed that it encodes for a _reward prediction_ signal. Specifically, these studies have shown that phasic DA firing is time locked to unexpected or novel reward but is also triggered by cues that predict reward.
 
 Drugs modulate the expression of genes involved in neuro plasticity through epigenetic and possibly RNA modifications  gene expression, epigenetics, rna
 
 if the expected reward does not materialize, DA cell firing is inhibited 
-
 
 Ventral striatum
 - nucleus accumbens
@@ -45,85 +50,41 @@ Dorsal striatum
 - caudate nucleus
 - putamen
 
+TODO: Add stuff from notes.
+
 ### Referenser
 
 Striatal direct and indirect pathways control decision-making behavior [@Macpherson2014]
 
 Brain on drugs [@Volkow2015].
 
-Film om direct pathway (Khan acaemy): https://www.khanacademy.org/science/health-and-medicine/nervous-system-diseases/parkinsons-disease/v/the-basal-ganglia-the-direct-pathway
+Film om direct pathway: (Direct pathway, Khan academy)[https://www.khanacademy.org/science/health-and-medicine/nervous-system-diseases/parkinsons-disease/v/the-basal-ganglia-the-direct-pathway]	
 
-# Volkow brain on drugs
+# Beroendets fysiologi
 
-<!-- drugs of abuse exert their initial reinforcing effects by activating reward circuits in the brain and that -->
+Egen sammanfattning efter kurs i beroendelära. TODO: Integrera resonemanget om dopamin ovan.
 
-<!-- continued drug use impairs brain function by interfering with the capacity to exert self-control over drug-taking behaviors and rendering the brain more sensitive to stress and negative moods.   -->
+Beroendets fysiologi kan beskrivas på olika nivåer: Inlärningspsykologisk (betingning), anatomisk (områden och nervbanor i hjärnan), neurokemisk (signalsubstanser, neurofarmakologi) och genetisk (inkl epigentisk).
 
+Stress- sårbarhetsmodellen är relevant för teorier om beroendeutvecklig. Man har observerat en ärftlig sårbarhet för alkoholberoende, där arvsgången är komplex. Hypoteser finns om att ärftligheten består av annorlunda omsättning av alkohol (farmakokinetik, tex polymorfism alkoholdehydrogenas), annorlunda upplevelse av ruset (farmakodynamik) och annorlunda molekylära adaptationer. Intressant nog finns en överlappning mellan genetisk predisposition för olika typer av drogberoende. Miljöfaktorer av betydelse inkluderar stress, livstrauman, våld, beteendet hos "peers" och drogens tillgänglighet. Man har funnit att stress, tex negativa livshändelser, ger känslighet för beroendesjukdomar. Både kortisol- och noradrenalinsystemen är förändrade och sambandet tycks gå i båda riktningar, dvs stress ökar risken för beroende och beroendesjukdomen medför en stressrespons, exempelvis ger akut abstinens en ökad frisättning av corticotropin releasing hormone (CRF). Man har även sett att prenatal stress ger ökad CRF-sekretion vid stressrespons hos barnet i vuxen ålder, vilket hypotetiskt skulle kunna ha betydelse för risken att utveckal beroende vid drogbruk. \cite{Koob2004}
 
-<!-- Drugs of abuse exert their initial reinforcing effects by triggering supraphysiologic surges of dopamine in the nucleus accumbens (NAc) that activate the direct striatal pathway via D1 receptors and inhibit the indirect striato-cortical pathway via D2 receptors. -->
+Hos personer som utvecklar drogberoende sker psykologiska och motsvarande biologiska förändringar som kan förklara övergången från drogbruk utan beroende till ett beroendesyndrom som kännetecknas av bland annat toleransutveckling, abstinens och negativt känsloläge i frånvaro av drogen. Initialt karakteriseras beroendet av svårigheter med impulskontroll för att senare i förloppet präglas av tvångsmässigt eftersökande och intag av drogen. I fasen med bristande impulskontroll (impulsiva handlingar) föregås handlingen av upprymdhet som övergår till vällust efter intag, vilket i inlärningspsykologiska termer ger positiv förstärkning av beteendet. Vid tvångsmässighet (repetitiva handlingar) föreligger ångest som minskar efter intag av drogen. Detta ger negativ förstärkning av det beteendet.  Beroende karakteras, i jämförelse med drogbruk utan beroende, av ett negativt känsloläge (dysfori, ångest, irritabiltet) när man ej har tillgång till drogen. Vid droganvändning stiger belöningströskeln gradvis men snabbt även för andra stimuli än själva drogen och vid långvarig användning blir denna störning av det naturliga belöningssystemet ihållande \cite{Koob2004}.
 
-<!-- through their different pharmacological effects, in- crease the release of DA in the shell subregion of the NAc  -->
+Vid långvarig droganvändning sker biologisk anpassing som motsvarar de psykologiska mekanismer (övergång från positiv till negativ förstärkning) och kliniska observationer (impulskontrollstörning och senare tvångsmässighet samt negativ affekt i frånvaro av drogen) som beskrivits ovan. Övergången från bruk till beroende kan beskrivas med en _allostatisk_ modell, där kompensatoriska mekanismer uppnår ett nytt jämviktsläge som skiljer sig från det normala. Funktioner bibehålls därmed genom att utgånsläget i belönings- och kontrollsystemet förskjuts. Grunden för detta är en allmän teori om neuroadaptation där ett stimuli startar en första process (process A) som efter en stund motverkas av en adaptiv process (process B) och där summan av dessa (A - B) utgör responsen (TODO Figur insert neuroadaptation.png). Denna modell kan förklara observationer av olika adaptiva processer i nervsystemet. Toleransutveckling vid drogberoende kan på så vis förklaras med en allt starkare B-pocess som minskar de positiva effekterna av drogintag samtidigt som fortsatt intag av drogen behövs för att återgå till jämviktsläget och minska abstinenssymtomen. I den allostatiska modellen sker en gradvis förskjutning av detta jämviktsläge så att en negativa utgångspunkt kvarstår när nästa drogintag sker. \cite{Koob2004}
 
+Mekanismerna som beskrivs ovan har motsvarighet i neurokemiska förändringar. Vid nedsatt impulskontroll föreligger minskad signalering via GABA, serotonin, dopamin och opioidpeptider samt ökad aktivitet i HPA-axeln och NPY som behöver kompenseras. I det tvångsmässiga stadiet är förändringar i HPA-axeln och och Neuropeptid Y-aktivitet mest framträdande. Belöningssystemets roll har studerats i råttor via självadministrering av alkohol, där man bland annat funnit att drogrelaterade stimuli ökar dopaminfrisättningen hos personer med beroende (förväntan, betingning).  \cite{Koob2004}
 
-<!-- DA neurons in the VTA fire in either a tonic (1–8 Hz) or a tran- sient (<500 ms) high-frequency phasic mode (>15 Hz), with the phasic mode resulting in larger DA increases than the tonic mode. Though it was initially believed that DA signaling in the brain encoded for reward, more recent findings have revealed that it encodes for a _reward prediction_ signal. Specifically, these studies have shown that phasic DA firing is time locked to unexpected or novel reward but is also triggered by cues that predict reward  reward prediction -->
+## Alkohol
 
-<!-- Drugs modulate the expression of genes involved in neuro plasticity through epigenetic and possibly RNA modifications  gene expression, epigenetics, rna -->
+Dopamin och (ventrala?) striatum involverade i de positivt förstärkande effekterna av beroendeframkallande medel. Alkohol ger frisättning av dopamin i nucleus accumbens \cite{Boileau2003}.
 
-<!-- if the expected reward does not materialize, DA cell firing is inhibited  -->
+### Neuroadaptation vid alkoholintag
 
-Reviews: intracellular signaling cascades and epigenetic modifications associated with addiction; thus, we refer readers to recent reviews on these topics (Heller et al., 2014; Nestler, 2012; Pascoli et al., 2014a).
+Alkoholintag har olika effekter vid intag jämfört med kroniskt eller ofta återkommande bruk. Alkohol interagerar med receptorer i olika signalsystem och ombyggnad av dessa system är associerat med toleransutveckling och abstinenssyndrom. Vid intag av alkohol hämmas glutamaterga (excitatoriska) nervsignaler, medan kroniskt alkoholintag istället ökar denna typ av signalering. I enlighet med den allostatiska modellen måste då personen int alkohol för att återställa balans i glutamatsignaleringen. Liknande förändringar ses i hjärnans inhibitoriska system, dvs på signalsubstansen GABA och dess receptorer, där alkoholintag stimulerar systemet och kroniskt bruk troligen hämmar systemet (dock ses  olika effekter i olika delar av hjärnan). \cite{Roberto2017}
 
-# Drug Reward Signaling in Brain 
+I det glutamaterga systemet finns flera typer av glutamatreceptorer (jonkanalerna AMPA-R, NMDA-R och kainat-R samt G-proteinkopplade receptorer), där NMDA-R är den som främst påverkas av alkohol. Alkoholintag hämmar NMDA-R medan kroniskt bruk leder via påverkan på transkriptionen till ändring av receptorernas komposition (subenheter), vilket påverkar deras känslighet för etanol med följden att receptorn sensitiseras. Även fosforylering och distribution av receptorn i nervcellens membran kan troligen påverkas. Alkohol påverkan även andra typer av glutamatreceptorer och leder dessutom till ökade nivåer av glutamat i nervsynapsen. Kronisk EtOH uppreglerar även flera gener inblandede i glutamaterg neurotransmission. Sammantaget ger kroniskt alkoholintag sensitisering av glutamatreceptorer och ökad presynaptisk glutamatfrisättning, i kombination med minskat återupptag, vilket leder till ökade glutamatnivåer i centrala amygdala, hippocampus och striatum. Detta tros orsaka hyperexcitabilitet och excitotoxicitet tidigt under abstinensförloppet, vilket bidrar till celldöd i hjärnan. \cite{Roberto2017}
 
-(VTA) and projecting to the nucleus accumbens (NAc) play a key role in the processing of reward-related stimuli, including those associated with drugs of abuse  Ventral tegument in midbrain, nucleus accumbens i cortex (basal part of forebrain).
-
-D3R mostly co-localize with D1R-MSNs, with which they heteromerize, potentiating their function.
-
-The ventral striatal direct and in- direct pathways have distinct roles in modulating reward and motivation. The direct pathway is associated with reward, whereas the indirect one is associated with punishment. Thus, DA receptor stimulation of the direct pathway directly mediates reward, whereas DA-re- ceptor-mediated inhibition of the indirect pathway opposes aversive responses. This could explain why maximal drug reward is obtained when DA binds to both D1R and D2R.
-
-To be reinforcing, drug- induced DA increases need to be fast and sufficiently large to stimulate low-affinity D1R in addition to D2R, leading to the acti- vation of the direct pathway and the inhibition of the indirect pathway. Specifically, when large DA increases triggered by stimulant drugs were achieved over a short time period (<10 min), they were associated with reward, whereas DA increases achieved over 60 min were not. This may also explain why routes of administration that achieve faster and higher drug levels in the brain, such as smoking and intravenous injection, are more rewarding and addictive than routes of administration that result in slow brain uptake, like oral administration 
-
-For natural reinforcers such as food or sex, the DA signals triggered by the CS drive the motivation to get the reward since with their repeated delivery the DA cells stop firing in response to their consumption (Schultz et al., 1997). This is in sharp contrast to the response to drugs of abuse, which due to their pharmacological properties, continue increasing DA release during their consumption. Ie drugs dont give satisfaction. DA in the NAc will increase upon exposure to drug cues, which will trigger the desire to take the drug (craving) also during their consumption, which will sustain the motivation to continue consuming them. This may explain why drugs are more likely to result in compulsive patterns of administration than natural reinforcers.  
-
-The pharmacological mechanisms of action of various drugs types influence the nature of the molecular and cellular changes associated with their repeated consumption. For example, alpha 6 and beta 3 nicotinic receptors are upregu- lated in DA neurons with repeated nico- tine exposure (Visanji et al., 2006), dopamine transporters are downregulated in the striatum with repeated methamphetamine exposure (Groman et al., 2012), and cannabinoid receptors 1 are downregulated in striatum with repeated delta9-tetrahydrocan- nabinol (THC) exposure 
-
-Endogenous opioids and cannabinoids have been also implicated in drug reward responses 
-
-# Transition into Addiction 
-
-## Drug-Induced Neuroplasticity in DA Pathways 
-
-addiction seems to emerge gradually, although the rate of this transition varies as a function of several factors, including the type of drug (i.e., faster for methamphetamine and slower for cannabinoids), the pattern of exposure (greater for regular than occasional use), and the developmental stage (faster in adolescence than in adulthood) 
-
-Drug-induced DA increases trigger various forms of synaptic plasticity that can result in strengthening or weakening of synap- tic connectivity in various brain reward regions 
-
-The speed with which addiction emerges is influenced by genetics 
-
-These synaptic modifications generate a long-lasting molecular memory for the drug’s rewarding and conditioning effects that will modify subsequent behaviors 
-
-## Role of Dopamine in Addiction 
-
-reductions in striatal D2R (dorsal and ventral) in drug abusers have been associated with decreased activity in the PFC, including anterior cingulate (ACC) and orbitofrontal (OFC) cortical regions. The ACC and OFC are necessary for self-control and for processing salience attribution, and their disruption is associated with a propensity for impulsive and compulsive behaviors 
-
-Repeated exposure to different types of drugs has been associ- ated with downregulation of D2R in striatum. Low levels of D2R in striatum may mediate the risk for compulsive drug taking in part by impairing PFC regions that inhibit prepo- tent responses and enable flexibility of behavioral choices as a function of changing environments. In rodents, low levels of D2R in striatum are associated with impulsivity and predict escalating and compulsive administration of cocaine.
-
-Though, theoretically, enhanced signaling through D1R and its activation of the direct pathway would be consistent with facilita- tion of drug reward (Gore and Zweifel, 2013), the findings related to the consequences of repeated drug exposure on D1R have not been consistent.  
-
-A powerful approach for investigating changes in DA signaling in addiction is to compare the DA responses triggered by drugs in addicted versus non-addicted individuals.  . For instance, in studies that compared the effects of drug intoxication between cocaine abusers and controls, where stimulant drugs such as methylphe- nidate and amphetamine were used as pharmacological challenges. These studies have consistently shown that the DA increases triggered by stimulants are markedly attenuated in cocaine abusers 
-
-In cocaine abusers (Martinez et al., 2011) and in methamphetamine abusers undergoing substance abuse treatment (Wang et al., 2012), the blunted DA responses to stimulant drugs have been also associated with worse clinical outcomes.  
-
-In contrast, in marijuana abusers, while stimulant-induced DA increases in striatum did not differ from controls (Urban et al., 2012; Volkow et al., 2014b), the brain reactivity to DA stimulation was blunted, an effect that was associated with negative emotionality 
-
-The regional brain activation responses to a stimulant drug also differ between controls and cocaine abusers in ventral pre- frontal regions.  
-
-## Neuronal Circuitry in Addiction 
-
-In this model of addiction, the motivation to take the drug is not only driven by conditioned responses to cues, but also by nega- tive emotional states.  
-
-In consequence, the addicted individual experiences enhanced reactivity to drug cues and to stressful stimuli, the reactivity to natural reward is decreased, and there is loss of flex- ibility to adjust the saliency value of reward as a function of their context.  
-
-For example, interventions designed to counteract dysphoria or strengthen executive control, even if not resulting in complete abstinence, may improve long-term success and recovery from addiction 
+Även i GABA-systemet finns flera typer av receptorer (jonkanalerna GABAA-R och GABAC-R samt den G-proteinkopplade GABAB-R). Alkoholintag förstärker funktionen bland annat hos olika jonkanalreceptorer med "cys-loops", inklusive GABAA-R, strychnine-sensitive glycine receptor (GlyR), nicotinic acetylcholine receptor (nAChR) och serotonin 3 receptor (5-HT3), genom att öka sannolikheten för öppning av kanalen och/eller öka agonistaffinitet. Alkohol har således en GABA-erg effekt och kroniskt alkoholintag påverkar GABA-receptorernas sammansättning (subehnhetskomposition) och -farmakologi. De exakta mekanismerna bakom de observerad effekterna av alkohol på GABA-receptorer är relativt okända, men hypotetiskt kan det röras sig om påverkan på endocytos, återvinning, nedbrytning, transport och syntes av receptorer och deras subenheter, samt fosforylering av GABAA-R och intracellulär signallering via second messengers. Adaptationen till kroniskt alkoholbruk skiljer sig i olika områden av hjärnan där cortex cerebri, hippocampus och amygdala identifierats som viktiga områden. GABAA-R adaptation tros vara av betydelse för toleransutveckling mot flera av alkoholens akuta effekter såsom anxiolys, sedation, ataxi, positiv förstärkning och tros vara förknippat med ökad krampbenägenhet vid alkoholabstinens. \cite{Roberto2017}
 
 
 

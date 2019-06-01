@@ -4,7 +4,7 @@ De basala ganglierna (**Fig \@ref(fig:image-basal-ganglia-coronal)**) ligger dju
 
 Delar av de basala ganglierna (nucleus accumbens, ventral pallidum, and ventral tegmental area) ingår i det _limbiska systemet_ och är av särskild betydelse för belöningsrelaterad inlärning. Den mesolimbiska banan som löper från VTA till nucleus accumbens är viktig i detta sammanhang. De basala gangliernas roll vid drogberoende diskuteras i stycke \@ref(abuse-brain).
 
-De basala ganglerna utövar sin effekt på impulser från hjärnbarken via talamus, som står under kontinuerlig hämning (GABA) från de basala gangliernas sk "output"-kärnor (utflödeskärnor, SNr, GPi). När aktiviteten i dessa utflödeskärnor ökas innebär det en starkare hämning av talamus och det motsatta sker vid minskad aktivitet.
+De basala ganglierna utövar sin effekt på impulser från hjärnbarken via talamus, som står under kontinuerlig hämning (GABA) från de basala gangliernas sk "output"-kärnor (utflödeskärnor, SNr, GPi). När aktiviteten i dessa utflödeskärnor ökas innebär det en starkare hämning av talamus och det motsatta sker vid minskad aktivitet.
 
 <!-- \includegraphics[width=\textwidth]{../dropbox/images/psychiatry/basal_ganglia_coronal.png} --> 
 
@@ -13,7 +13,6 @@ De basala ganglerna utövar sin effekt på impulser från hjärnbarken via talam
 Striatum får glutamaterga signaler från hela cortex (ipsilateralt och kontralateralt) samt från thalamus. De flesta av neuronerna i striatum är så kallade "Medium spiny neurons" (MSNs). Dessa uttrycker förutom glutamatreceptorer även dopaminreceptorer av D1-typ och/eller D2-typ. Hos 40% (en del senare studier visar dock < 6% i dosala striatum) av MSN i striatum finns båda dessa receptortyper. Dopamin _stimulerar_ D1-MSN och _hämmar_ aktiviteten i D2-MSN. Både D1-MSN och D2-MSN har även receptorer för andra signalsubstanser, tex acetylcholin. MSN-axonerna frisätter i sin tur GABA, vilket har en inhibitorisk effekt på målet. Den sk direkta banan från _ventrala_ striatum domineras av D1-MSN och är kopplat till belöning emedan den indirekta banan domineras av D2-MSN och är kopplad till aversion. De direkta och indirekta banorna i _dorsala_ striatum är istället förbundna med motoriska funktioner.
 
 Striatum får glutamaterga signaler från amygdala och serotoninerga från Raphe Nuclei. Sådana serotinonerga banor kan ligga bakom levodopa-inducerade dyskinesier.
-
 
 ## Den direkta och indirekta banan
 
@@ -34,9 +33,12 @@ include_graphics("../dropbox/images/psychiatry/direct-indirect-pathway.png")
 Note: Bilden stämmer inte riktigt med nedan. Kolla upp!
 
 
-Cortex -------> Striatum -------------------GABA-----------------------| GPi
+STnr -------\
+             \ D1, D2
+
+Cortex -----> Striatum -------------------GABA-----------------------| - GPi
                     \
-					 \----GABA-----| GPe ----GABA----| Subthalamus ----> GPi
+					 \----GABA-----| GPe ----GABA----| Subthalamus ----> + GPi
 
 <!-- D2-MSN----| GPe -->
 <!-- D1-MSN----GPi/SNr -->
