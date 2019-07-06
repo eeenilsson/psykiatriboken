@@ -1,6 +1,6 @@
 # Beteendepsykologi
 
-Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan tillämpas för att analysera, förstå och beskriva beteende.
+Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan tillämpas för att analysera, förstå och beskriva beteende. Först beskrivs olika teorier om hur inlärning fungerar genom association (avsnitt \@ref(respondent-conditioning)) respektive konsekvenser (avsnitt \@ref(operant-conditioning)), därefter hur beteenden kan karläggas i så kallad topografisk analys \@ref(topographic-analysis), med syfte att ringa in kliniska problemområden att arbeta med under behandling.
 
 ## Grundläggande begrepp
 
@@ -15,46 +15,73 @@ Funktionella aspekter: Beteendets funktion.
 Inre beteende: Observerbart av inividen. 
 Yttre beteenden: Observerbart av omgivningen.
 
-## Respondent inlärning
+## Respondent inlärning {#respondent-conditioning}
 
-Respondent inlärning innebär att en företeelse får en betydelse det inte haft tidigare, exempelvis när en klocka ringer strax innan en hund får äta kommer klockan med tiden få betydelsen att det är dags för mat och utlösa ett beteende kopplat till ätande (tex ökad salivation). Respondent inlärning kallas också betingning. Betingningen kräver att stimulus (maten och klockan) kommer före responsen (salivation). Inlärningen blir starkare med antalet upprepningar, samt vid kortare tidsintervall mellan stimulus och respons. I detta exempel är maten ett "obetingat stimulus" som är kopplat till den obetingade responsen (salivation). Klockan är till en början ett neutralt stimulus som med tiden blir ett betingat stimulus som kan utlösa en betingad respons (salivation). Schematiskt kan detta beskrivas enligt nedan, där situation 1 är före- och situation 2 efter att enlärning skett.
+Respondent inlärning innebär att en företeelse får en betydelse det inte haft tidigare, exempelvis när en klocka ringer strax innan en hund får äta kommer klockan med tiden och utlösa ett beteende kopplat till ätande (tex ökad salivation). Respondent inlärning kallas också betingning och associationsinlärning. Betingningen kräver att stimulus (maten och klockan) kommer före responsen (salivation). Inlärningen blir starkare med antalet upprepningar, samt vid kortare tidsintervall mellan stimulus och respons. I detta exempel är maten ett _obetingat stimulus_ som är kopplat till den _obetingade responsen_ (salivation). Klockan är till en början ett _neutralt stimulus_ som med tiden blir ett _betingat stimulus_ som kan utlösa en _betingad respons_ (salivation). Schematiskt kan detta beskrivas enligt nedan, där situation 1 är före- och situation 2 efter att inlärning skett. 
 
-### Exempel på respondent inlärning
+**Exempel på respondent inlärning**
 
-Situation 1, före inlärning: Neutralt stimulus förekommer tillsammans med obetingat stimulus som leder till obetingad respons.
+> **Situation 1 (ursprunglig situation):**
+> Obetingat stimulus (OS) => Obetingad respons (OR)
+> Neutralt stimulus (NS)
 
-Situation 2, efter inlärning: Det neutrala stimulus har blivit ett betingat stimulus som kan utlösa betingad respons, liknande situation 1.
-
-> **Situation 1:**
-> Obetingat stimulus => Obetingad respons
-> Neutralt stimulus
-
-> **Situation 2:**
-> Betingat stimulus => Betingad respons
+> **Situation 2 (betingad situation):**
+> Betingat stimulus (BS) => Betingad respons (BR)
 
 >**Exempel, Pavlovs hund:**
-> Mat => Salivation
-> Klocka
+> Mat (OS) => Salivation (OR)
+> Klocka (BS)
 
-Betingning av andra ordningen är när ett nytt neutralt stimuli i närvaro av den betingade situationen blir ett nytt betingat stimuli. generalisering är när stimuli som liknar BS också börjar utlösa samma respons. Motsatt är diskriminering när ett liknande stimuli inte utlöser responsen.
+_Betingning av andra ordningen_ är när ett nytt neutralt stimuli i närvaro av den betingade situationen blir ett nytt betingat stimuli. Om man exempelvis skulle börja tända en röd lampa i samband med att klockan i exeplet ovan ringer, skulle lampan kunna bli ett nytt betingat stimuli som utlöser salivation. _Generalisering_ är när stimuli som liknar ett betingat stimuli (exempelvis ett klocka med annan klang) också börjar utlösa samma respons. Motsatt är _diskriminering_ när ett liknande stimuli inte utlöser responsen. Dessa mekanismer kan användas för att förstå och behandla vissa ångestsjukdomar (se exempel nedan). _Regelstyrt beteende_ är ett beteende som är språkligt formulerat som en instruktion. Det kan fungera som diskriminativt stimulus, tex trafikskylt.
 
-Utsläckning av den betingade responsen kräver exponering där responsen uteblir.
+_Utsläckning_ av den betingade responsen kan användas vid psykologisk behandling och kräver exponering för betingat stimuli där responsen uteblir, vilket försvagar kopplingen mellan betingat stimuli och -respons. _Stimuluskontroll_ innebär att arrangera situationer som påverkar sannolikheten för ett visst beteende. Tex att inte lägga sig förrän man är sömnig.
 
-Introceptiv betingning: Inre stimuli ger betingad respons. En tanke kan uppträda som betingat stimuli, det kan även vara en betingad respons.
+Inre stimuli (exempelvis känslan av snabbare hjärtfrekvens) kan kopplas till betingad respons, vilket kallas _introceptiv betingning_. Notera att en tanke kan uppträda som betingat stimuli, men även vara betingad respons. 
 
-Paniksyndrom:
-Panikattack (OS) => rädsla (OR)
-Hjärtklappning (NS)
+_Förberedd inlärning_ innebär att människor är predisponerade så att vissa beteenden lättare lärs in.
 
-Sömnsvårigheter:
-Insomni => Ältar
-Sängen
+**Kliniska exempel på respondent inlärning**
 
-Tvångssyndrom:
-Kollade jag spisen? => oro
-Står vid ytterdörren
+> **Paniksyndrom:**
+> Panikattack (OS) => rädsla (OR)
+> Hjärtklappning (NS)
 
-Människor är predisponerade så att vissa beteenden lättare lärs in, sk förberedd inlärning.
+> **Sömnsvårigheter:**
+> Insomni => Ältande
+> Sängen
+
+> **Tvångssyndrom:**
+> Kollade jag spisen? => oro
+> Står vid ytterdörren
+
+## Operant inlärning {#operant-conditioning}
+
+Inlärning via handlande och konsekvenser kallas _operant inlärning_. Genom erfarenhet etableras en koppling mellan agerande och konsekvens och konsekvenserna ökar eller minskar sannolikeheten för att ett visst beteende upprepas. För att analysera operant inlärning används begreppen förstärkning (beteendet ökar) och försvagning (beteendet minskar). Försvagning kallas även bestraffning. Den styrande konsekvensen beskrivs som "positiv" (något läggs till) eller "negativ" (något tas bort).
+
+Vid beteendeanalys utifrån operant inlärning, utgå från beteendet som antingen förstärks (ökar) eller försvagas/bestraffas (minskar). Analysera sedan om konsekvensen innebär att något läggs till eller tas bort. Se **Tabell** nedan.
+
+**Tabell: Operant inlärning**
+
+| Operant inlärning    | Konsekvens | Beteende | Situation                             |
+|----------------------+------------+----------+---------------------------------------|
+| Positiv förstärkning | Läggs till | Ökar     | Godis när läxorna är gjorda           |
+| Negativ förstärkning | Tas bort   | Ökar     | Ta på en tröja (K) när man fryser (B) |
+|                      |            |          |                                       |
+| Positiv försvagning  | Läggs till | Minskar  | Skäll för att komma försent           |
+| Negativ försvagning  | Tas bort   | Minskar  | Böter (K) vid fortkörning (B)         |
+|                      |            |          |                                       |
+
+Bestraffning/försvagning är i allmänhet mindre effektivt än förstärkning och ökar risken för undvikande. I kliniska sammanhang finner man ofta de förstärkande eller försvagande konsekvenserna i den sociala kontekten eller kopplat till affektreglering. Beteendets funktion är ofta att ge undvikande av obehag. Vid depression kan försvagning/bestraffning vara en framträdande mekanism. Om tex socialt umgänge medför mindervärdeskäslor kan det leda till att beteendet minskar. Detta samverkar med negativ förstärkning av undvikande beteende som minskar obehagskänslorna.
+
+_Primära förstärkare_ är obetingade stimuli som har grundläggande betydelse, tex mat, sex eller behaglig kroppstemperatur. _Generaliserade förstärkare_ är fexibla företeelser som kan representera flera primära förstärkare. Ett exempel på detta är pengar, som kan innebära tillgång till mat, nöjen etc. 
+
+## Fördjupning och andra teorier om inlärning
+
+I teroier om _relationsrespons_ tänker man sig att människans språk är associarat till att kunna skapa relationer mellan företeelser, exempelvis metaforer. Genom sådana relationer kan företeelser få en stimulusfunktion trots att de inte varit del av en tidigare eftarenhet. Beteendet kan då bli som om det utlöstes av ett annat stimulus än det som faktiskt är för handen. Detta har bland annat betydelse för förmågan att uppskjutan belöning. Låt säga att du lärt dig att socker leder till ohälsa. Då finns en relation mellan sötsaker och ohälsa som gör att du väljer bort en kaka till kaffet trots att den smakat gott vid tidigare tillfällen. Relationsrespons kan på ett liknande sätt innebära att man tar ut saker i förskott, "tänk om...".
+
+_Teckenekonomi_ innebär att beteenden ersätts med en symbolisk förstärkare (tecken) som kan bytas in mot något önskvärt, exempelvis pengar vid lönearbete.
+
+_Modellinlärning_ innebär inlärning genom observation av andras beteende.
 
 ## Basala affekter
 
@@ -64,53 +91,15 @@ Människor är predisponerade så att vissa beteenden lättare lärs in, sk för
 - Rädsla
 - Äckel
 
-## Operant inlärning
 
-Inlärning via handlande och konsekvenser. Vår erfarenhet etablerar viss relation mellan agerande och konsekvens. Konsekvenserna ökar eller minskar sannolikeheten för att ett visst beteende upprepas.
-
-Utgå från beteendet som antingen förstärks (ökar) eller försvagas/bestraffas (minskar). Bestraffning i detta sammanhang är en konsekvens som mminskar sannolikheten för att beteendet upprepas. Den styrande konsekvensen är "positiv" (något läggs till) eller "negativ" (något tas bort).
+## Beskrivning och kartläggning av beteenden
 
 
-| Operant betingning   | Konsekvens | Beteende | Situation                             |
-|----------------------+------------+----------+---------------------------------------|
-| Positiv förstärkning | Läggs till | Ökar     | Godis när läxorna är gjorda           |
-| Negativ förstärkning | Tas bort   | Ökar     | Ta på en tröja (K) när man fryser (S) |
-|                      |            |          |                                       |
-| Positiv försvagning  | Läggs till | Minskar  | Skäll för att komma försent           |
-| Negativ försvagning  | Tas bort   | Minskar  | Böter (K) vid fortkörning (S)         |
-|                      |            |          |                                       |
+### Topografisk analys {#topographic-analysis}
 
-Bestraffning/försvagning är i allmänhet mindre effektivt än förstärkning. Det ökar även risken för undvikande.
+I så _topografisk analys_ benämns och listas observerbara beteenden, som kan även kan vara inre beteenden (observerbara av individen). Analysen syftar till att ge infallsvinklar för terapi genom förståelse av beteendets funktion och samspelet mellan beteende och omgivning. Beteenden kan kategoriseras som överskott eller underskott. Vid överskott är beteendet är problematiskt (avviker från det normala, ger lidande eller nedsatt funktion, medför risker, är ej i linje med personens målsättningar) pga överskott i fråga om frekvens, duration, intensitet eller att beteendet förekommer i ett sammanhang där det blir problematiskt. Underskott kan definieras på liknande vis. Ofta kan ett beteende benämnas som både över- och underskott, tex kan undvikande vara ett underskott av en vissa ktivitet eller överskott av att låta bli aktiviteten. Gällande just undvikande är en tumregel att beskriva det som underskott för att tydligare belysa vad som kan göras åt problemet. För vissa beteenden räcker det att de förekommer en gång för att de skall betraktas som överskott (tex självskada). Vid beskrivning av beteenden bör man sträva efter att vara konkret. Beskriva gärna med verb. Abstraktioner och ensidigt fokus på diagnoser eller att betrakta problemen som en integrerad del av individen snarare än påverkbara mekanismer kan komma ivägen för behandling.
 
-Primära förstärkare är obetingade stimuli som har grundläggande betydelse för människor, tex mat, sex, behaglig kroppstemperatur. Generaliserade förstärkare är fexibla företeelser som kan representera flera olika primära förstärkare. Exempelvis pengar som kan signalera tillgång till mat, nöjen etc.
-
-Förstärkare i kliniska sammanhang: Sök konsekvenser i den sociala kontexten och affektreglering. Ofta är beteendets funktion undvikande.
-
-Vid depression kan försvagning/bestraffning vara en framträdande mekanism. Om tex umgänge med barnen ger skuld kan det leda till att beteendet minskar. Detta samverkar med negativ förstärkning så att undvikande beteende förstärks genom att skuldkänslorna tas bort.
-
-Modellinlärning: Inlärning genom observation av andras beteende.
-
-Regelstyrt beteende: Ett beteende som är språkligt formulerat som instruktion. Kan fungera som diskriminativt stimulus, tex trafikskylt.
-
-Stimuluskontroll: Att systematiskt arrangera situationer som påverkar sannolikheten för ett visst beteende. Tex att inte lägga sig förrän man är sömnig.
-
-Relationsrespons: Teori om att människans språk är associarat till att kunna skapa relationer mellan företeelser. Exempelvis metaforer. Genom sådana relationer kan företeelser få en stimulusfunktion trots att de inte varit del av den ursprungliga uplevelsen. Detta inverkar bland annat på uppskjutande av belöning och förmågan att avstå omedelbar behovstillfreddställelse, tex kan en bakelse ha en relationell koppling till övervikt vilket gör att tanken om övervikt kan vägas in som konsekvens. "Tänk om", att ta ut saker i förskott.
-
-Teckenekonomi innebär att konkreta beteenden ersätts med symbolisk förstärkare (tecken) som kan bytas in mot något önskvärt, liknande lönearbete.
-
-## Att beskriva beteende
-
-### Topografisk analys
-
-I topografisk analys benämns och listas observerbara beteenden. Dessa kan vara inre (observerbara av individen) eller yttre (observerbara av omgivningen). Analysen syftar till att ge infallsvinklar för terapi. Den topografiksa (yttre) beskrivningen kan göra att vi förstår beteendets funktion och samspelet mellan beteende och omgivning. 
-
-Vid beskrivning av beteenden bör man sträva efter att konkretisera och gärna beskriva med verb. Abstraktioner och ensidigt fokus på diagnoser eller att betrakta problemen som en integrerad del av individen kan komma ivägen för behandling.
-
-Beteenden kan kategoriseras som överskott eller underskott. Vid överskott är beteendet är problematiskt (avviker från det normala, ger lidande eller nedsatt funktion, medför risker, ej i linje med personens målsättningar) pga överskott i fråga om frekvens, duration, intensitet eller att de uppträder i kontext där det ställer till problem. På liknande vis kan underskott definieras. Ofta kan ett beteende benämnas som både över- och underskott, tex undvikande. Gällande just undvikande bör det dock beskrivas i termer av underskott för att bli mer konkret. För vissa beteenden räcker det att de förekommer en gång för att de skall betraktas som överskott (tex självskada). 
-
-Exempel: Per upplever (inre beteende) att han rodnar lätt och stammar. Han undviker därför att prata med kollegorna på jobbet (yttre underskott) och när han väl sagt något oroar han sig mycket (inre överskott) för vad andra kan ha tyckt om det han sade. Grubblar, ältar, isolerar sig, upplever meningslöshet.
-
-Vid problembeskrivning: Beskriv hur problemet utvecklats. Vilka beteenden fanns i barndomen, under skoltiden etc?
+> Exempel: Jocke upplever (inre beteende) att han ofta säger dumma saker när han försöker prata med kollegorna på after work. När han väl sagt någonting oroar han sig (inre överskott) för vad de andra tyckte om det han sade. Han grubblar och ältar över detta. Följden blir att han undviker sociala sammanhang med kollegorna, vilket leder till isolering och bidrar till en känsla av meningslöshet.
 
 **** Att observera beteende
 
@@ -124,5 +113,95 @@ bettendetest: Utför och kartlägg.
 
 Att skilja på undvikande och avledning: Titta på beteendets funktion.
 
+Vid problembeskrivning: Beskriv hur problemet utvecklats. Vilka beteenden fanns i barndomen, under skoltiden etc?
 
 
+*** Behandlingsprinciper
+
+**** Praktiska tips
+
+- Skapa förutsättning som ökar sannolikheten för aktivering av naturliga/befintliga förstärkare i patientens liv.
+- Bredda beteendereportoaren med adekvata färdigheter.
+- Träna förmågan till diskriminering.
+- Öka språklig kontroll av stimuli och konsekvenser.
+- Ändra relationsrespons, "att tänka om".
+- Identifiera och påverka etablerande omständigheter.
+- Mål och problem bör furmuleras tydligt i ord.
+
+- Behandlingsframgång förutsätter att det som övas kan tillämpas utanför behandlingsrummet. Detta förutsätter i sin tur generalisering. Målsättningen bör vara att förstärka beteenden som sätter patienten i kontakt med naturliga förstärkare i livet. Verkligeheten är terapeutens bästa vän.
+
+- Använd beteendeanalys på själva terapin, vilka beteenden har patienten? Antecenddent och konsekvens? Påverkar det terapin?
+- Identifera egna (terapeutens) beteenden. Diskriminera de beteenden som fungerar för patienten, undvik tex bestraffande beteenden (påstridighet kan tex vara ett sådant).
+- uppmuntra själviakttagelse, efterfråga vad patienten kan iaktta. Kan innebära att patienten upptäcker nya möjligheter, upplever förändringar i affekt.
+
+
+**** Problemlösning
+
+- Betona att det är ens egna beteenden och konsekvenser av dessa som man bör ta ansvar för, inte andras beteende. Försök att kontrollera andras beteende är ett stimulus för motkontroll dvs beteenden som motsätter sig kontrollförsöket, kan leda till spiral. 
+- Uppmuntra personen att själv se och beskriva vilka möjligheter hen har för att ändra sitt beteende. Även dåliga alternativ kan listas (tex att säga upp sig).
+- Benämn att poängen är inte att bara lösa ett konkret problem, utan att öva upp sin problemlösningsfärdighet.
+- Problemlösningsfärdighet: Att generera olika alternativ och inte låsa sig vid ett.
+
+Beteendekontrakt (ABC s 205, Maglieri 2003):
+1. Tydlig överenskommelse om mål.
+2. Försäkrar sig om att alla inblandade har tillgång till att följa processen mot dessa mål och utvärdera framgång.
+3. Beskriver vad som krävs av dem som kontraktet omfattar.
+4. Tydligt att alla inblandade varit aktiva i hur det är formulerat.
+
+**** Självskada på avdelningen
+
+- Kan upprätthållas genom negativ förstärkning (minskning av desperation) och positiv förstärkning (tröstande respons från andra). :eget:
+
+- Identifiera förstärkare av det skadliga beteendet (tex dramatiska åtgärder efter självskada) och minska dessa.
+- Att dra tillbaks alla förstärkare (tex uppmärksamhet) är oerhört svårt och riskerar orsaka kompensatorisk intensifiering av beteendet.
+- Medvetandegör att patienten har legitima anspråk på basala förstärkare, tex omtanke, inflytande.
+- Arrangera en miljö som inte förstärker destruktiva beteenden.
+- Benämn att det handlar om att ta ansvar för sitt eget beteende och dess konsekvenser på omgivningen, snarare än att ta över ansvar för andras beteende.
+- Ge uppmärksamhet jämnt fördelat över tid, inte som respons på skadliga beteenden.
+- Självskada följs av neutralt bemötande. Avstå drastiska åtgärder och omprövningar av behandlingen i anslutning till självskada.
+- Diferentiell förstärkning av vissa beteenden: Definiera ett antal beteenden som kommer att förstärkas selektivt. Man kan göra en överenskommelse med patienten om beteenden som kommer att efterföljas av något som patienten eftersträvar, då formulerat positivt. 
+
+
+**** Social färdighetsträning
+
+Modellinlärning den mest effektiva metoden (ABC s 195, Rosenberg 1989). Gruppverksamhet att rekommendera. Gruppen erbjuder modeller som är lättare att identifiera sig med än vårdpersonal.
+
+Hjälper patienten att utveckla basala färdigheter:
+- Att tala om för omgivningen att man behöver hjälp
+- Att säga sin mening klart och tydligt
+- Att med ord uttrycka önskemål och invänta svar
+
+**** Exponering
+
+Har starkt empiriskt stöd, Barlow 2002
+
+- Beteenden som styr av konsekvenser (operanter) spelar en central roll, tex undvikande.
+- Effekterna av exponering kan beskrivas både med respondent inlärning (utsläckning) och operant inlärning (bryta undvikande). :eget:
+
+- Patienten förmås successivt närma sig det som väcker negativ affekt och stannar kvar så att utsläckning kan ske.
+- Undvikande gör att utsläckning inte kan ske, det upprätthålls av negativ förstärkning (borttagande av obehag).
+- I frånvaro av undvikande kan ominlärning ske. (Craske 2008) :eget:
+- Nya konsekvenser ökar beteendereportoaren. Responsutvidgning? 
+- Även relationsinramning har betydselse. Känslor och inre beteenden (tex hjärtklappning) som uppträder i den situation (tex samtal) som är besvärlig för patienten kan leda till formulering av tankar såsom "nu märker alla att jag mår dåligt", vilka genom exponering kan leda till omformulering, tex "nu har jag hjärtklappning och då kommer tanken ...".  :eget:
+
+Ifrågasättandet av verbala konstruktioner och hur de stämmer med andra verbala konstruktioner och fenomen är ett kraftfullt sätt att hjälpa människor att tänka nytt. Gäller även andra edukativa inslag såsom att ge information om vad som händer i kroppen när man blir rädd. Ett knep är även att diskriminera tankar som tankar. Underlättas av att patienten förmås observera sig själv och utforska vilken funktion de ine responserna har.
+
+- Identifiera gemensam faktor som ofta finns i olika situationer, tex inre fenomen (affekter, kroppsliga sensationer). Dessa fenomen är centrala.
+- Introceptiv exponering innebär att patienten utsätts för dessa kroppsliga fenomen (tex yrsel, overklighetskänslor) eller tankar som väcker obehag.
+- Tumregel: Låt exponeringsprocessen vara gradvis, förlängd, upprepad.
+
+Förutsättningar:
+1. Tid att stanna i situationen tills rädslan avtar naturligt och inte som resultat av flykt.
+2. Upprepa förloppet inom kort tid, dvs flera gånger i veckan.
+3. Exponering sker i olika situationer, eftersom generaliseing inte är självklar mellan olika sammanhang.
+
+**** Generalisering
+
+- Nytt beteende som övas i samtalsrummet måste gereneraliseras till världen utanför för att ha effekt. Beteenden kan aktualiseras i relation till terapeuten.
+- Sträva efter att förstärka alternativa beteenden som sätter patienten i kontakt med naturligt förekommande förstärkning om patienten agerade på samma sätt i livet.
+- Genom att uppmuntra patienten att iaktta sitt beteende och dess konsekvenser kan hen upptäcka nya möjligheter för alternativa beteenden, uppleva förändring i affekt och klara av att göra saker som fungerar bättre. :eget:
+- En utmaning är att generalisera den kontext som etableras i det terapeutiska samtalet till livet utanför. Om patienten kan fås att pröva alternativa responser än exempelvis negativa tankar kan livet erbjuda naturliga förstärkare genom att patienten får nya och kanske belönande erferenheter. :eget:
+
+**** Beteendeaktivering
+
+Beteendeaktivering vid depression motsvarar exponering vid ångesttillstånd (Martell 2001). Ökad aktivering öppnar möjligheter för nya konsekvenser som ifall de är belönande kan hjälpa till att bryta det passiva beteendet. :eget:
