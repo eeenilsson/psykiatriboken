@@ -1,0 +1,37 @@
+* Introduktion
+
+Instruktioner och principer för skrivandet av psykiatriboken.
+
+* Innehåll
+
+- Endast egna formuleringar, för att undvika oavsiktlig plagiering. Om stycken klipps in var tydlig med att sätta inom cittattecken.
+
+* Form
+
+- Begrepp bör definieras språkligt och med ett exempel innan de används i mer komplicerade sammanhang.
+
+- Kursivering och fetstil: Kursivera nya begrepp vid första förekomesten (i varje kapitel?). Fetstil förbehålls interna referenser.
+
+* Interna referenser
+
+Tabeller
+
+Figurer
+
+Andra avsnitt
+
+* Tabeller
+
+vilken r syntax?
+spara data som csv
+
+* Figurer
+
+Lokalisering av bilder
+r vs sparad png
+
+Helst svg? Direkt från svg?
+
+* Animationer
+
+Endast om byte till html.

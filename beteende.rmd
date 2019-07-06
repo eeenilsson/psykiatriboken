@@ -1,0 +1,128 @@
+# Beteendepsykologi
+
+Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan tillämpas för att analysera, förstå och beskriva beteende.
+
+## Grundläggande begrepp
+
+B = Beteende
+F = Funktion
+
+Funktionell kontextualism: 1 B har olika F i olika kontext.
+Funktionellt ekvivalens: Olika B har samma F.
+Topografiska aspekter: Beteendets yttre form.
+Funktionella aspekter: Beteendets funktion.
+
+Inre beteende: Observerbart av inividen. 
+Yttre beteenden: Observerbart av omgivningen.
+
+## Respondent inlärning
+
+Respondent inlärning innebär att en företeelse får en betydelse det inte haft tidigare, exempelvis när en klocka ringer strax innan en hund får äta kommer klockan med tiden få betydelsen att det är dags för mat och utlösa ett beteende kopplat till ätande (tex ökad salivation). Respondent inlärning kallas också betingning. Betingningen kräver att stimulus (maten och klockan) kommer före responsen (salivation). Inlärningen blir starkare med antalet upprepningar, samt vid kortare tidsintervall mellan stimulus och respons. I detta exempel är maten ett "obetingat stimulus" som är kopplat till den obetingade responsen (salivation). Klockan är till en början ett neutralt stimulus som med tiden blir ett betingat stimulus som kan utlösa en betingad respons (salivation). Schematiskt kan detta beskrivas enligt nedan, där situation 1 är före- och situation 2 efter att enlärning skett.
+
+### Exempel på respondent inlärning
+
+Situation 1, före inlärning: Neutralt stimulus förekommer tillsammans med obetingat stimulus som leder till obetingad respons.
+
+Situation 2, efter inlärning: Det neutrala stimulus har blivit ett betingat stimulus som kan utlösa betingad respons, liknande situation 1.
+
+> **Situation 1:**
+> Obetingat stimulus => Obetingad respons
+> Neutralt stimulus
+
+> **Situation 2:**
+> Betingat stimulus => Betingad respons
+
+>**Exempel, Pavlovs hund:**
+> Mat => Salivation
+> Klocka
+
+Betingning av andra ordningen är när ett nytt neutralt stimuli i närvaro av den betingade situationen blir ett nytt betingat stimuli. generalisering är när stimuli som liknar BS också börjar utlösa samma respons. Motsatt är diskriminering när ett liknande stimuli inte utlöser responsen.
+
+Utsläckning av den betingade responsen kräver exponering där responsen uteblir.
+
+Introceptiv betingning: Inre stimuli ger betingad respons. En tanke kan uppträda som betingat stimuli, det kan även vara en betingad respons.
+
+Paniksyndrom:
+Panikattack (OS) => rädsla (OR)
+Hjärtklappning (NS)
+
+Sömnsvårigheter:
+Insomni => Ältar
+Sängen
+
+Tvångssyndrom:
+Kollade jag spisen? => oro
+Står vid ytterdörren
+
+Människor är predisponerade så att vissa beteenden lättare lärs in, sk förberedd inlärning.
+
+## Basala affekter
+
+- Glädje
+- Ledsenhet
+- Ilska
+- Rädsla
+- Äckel
+
+## Operant inlärning
+
+Inlärning via handlande och konsekvenser. Vår erfarenhet etablerar viss relation mellan agerande och konsekvens. Konsekvenserna ökar eller minskar sannolikeheten för att ett visst beteende upprepas.
+
+Utgå från beteendet som antingen förstärks (ökar) eller försvagas/bestraffas (minskar). Bestraffning i detta sammanhang är en konsekvens som mminskar sannolikheten för att beteendet upprepas. Den styrande konsekvensen är "positiv" (något läggs till) eller "negativ" (något tas bort).
+
+
+| Operant betingning   | Konsekvens | Beteende | Situation                             |
+|----------------------+------------+----------+---------------------------------------|
+| Positiv förstärkning | Läggs till | Ökar     | Godis när läxorna är gjorda           |
+| Negativ förstärkning | Tas bort   | Ökar     | Ta på en tröja (K) när man fryser (S) |
+|                      |            |          |                                       |
+| Positiv försvagning  | Läggs till | Minskar  | Skäll för att komma försent           |
+| Negativ försvagning  | Tas bort   | Minskar  | Böter (K) vid fortkörning (S)         |
+|                      |            |          |                                       |
+
+Bestraffning/försvagning är i allmänhet mindre effektivt än förstärkning. Det ökar även risken för undvikande.
+
+Primära förstärkare är obetingade stimuli som har grundläggande betydelse för människor, tex mat, sex, behaglig kroppstemperatur. Generaliserade förstärkare är fexibla företeelser som kan representera flera olika primära förstärkare. Exempelvis pengar som kan signalera tillgång till mat, nöjen etc.
+
+Förstärkare i kliniska sammanhang: Sök konsekvenser i den sociala kontexten och affektreglering. Ofta är beteendets funktion undvikande.
+
+Vid depression kan försvagning/bestraffning vara en framträdande mekanism. Om tex umgänge med barnen ger skuld kan det leda till att beteendet minskar. Detta samverkar med negativ förstärkning så att undvikande beteende förstärks genom att skuldkänslorna tas bort.
+
+Modellinlärning: Inlärning genom observation av andras beteende.
+
+Regelstyrt beteende: Ett beteende som är språkligt formulerat som instruktion. Kan fungera som diskriminativt stimulus, tex trafikskylt.
+
+Stimuluskontroll: Att systematiskt arrangera situationer som påverkar sannolikheten för ett visst beteende. Tex att inte lägga sig förrän man är sömnig.
+
+Relationsrespons: Teori om att människans språk är associarat till att kunna skapa relationer mellan företeelser. Exempelvis metaforer. Genom sådana relationer kan företeelser få en stimulusfunktion trots att de inte varit del av den ursprungliga uplevelsen. Detta inverkar bland annat på uppskjutande av belöning och förmågan att avstå omedelbar behovstillfreddställelse, tex kan en bakelse ha en relationell koppling till övervikt vilket gör att tanken om övervikt kan vägas in som konsekvens. "Tänk om", att ta ut saker i förskott.
+
+Teckenekonomi innebär att konkreta beteenden ersätts med symbolisk förstärkare (tecken) som kan bytas in mot något önskvärt, liknande lönearbete.
+
+## Att beskriva beteende
+
+### Topografisk analys
+
+I topografisk analys benämns och listas observerbara beteenden. Dessa kan vara inre (observerbara av individen) eller yttre (observerbara av omgivningen). Analysen syftar till att ge infallsvinklar för terapi. Den topografiksa (yttre) beskrivningen kan göra att vi förstår beteendets funktion och samspelet mellan beteende och omgivning. 
+
+Vid beskrivning av beteenden bör man sträva efter att konkretisera och gärna beskriva med verb. Abstraktioner och ensidigt fokus på diagnoser eller att betrakta problemen som en integrerad del av individen kan komma ivägen för behandling.
+
+Beteenden kan kategoriseras som överskott eller underskott. Vid överskott är beteendet är problematiskt (avviker från det normala, ger lidande eller nedsatt funktion, medför risker, ej i linje med personens målsättningar) pga överskott i fråga om frekvens, duration, intensitet eller att de uppträder i kontext där det ställer till problem. På liknande vis kan underskott definieras. Ofta kan ett beteende benämnas som både över- och underskott, tex undvikande. Gällande just undvikande bör det dock beskrivas i termer av underskott för att bli mer konkret. För vissa beteenden räcker det att de förekommer en gång för att de skall betraktas som överskott (tex självskada). 
+
+Exempel: Per upplever (inre beteende) att han rodnar lätt och stammar. Han undviker därför att prata med kollegorna på jobbet (yttre underskott) och när han väl sagt något oroar han sig mycket (inre överskott) för vad andra kan ha tyckt om det han sade. Grubblar, ältar, isolerar sig, upplever meningslöshet.
+
+Vid problembeskrivning: Beskriv hur problemet utvecklats. Vilka beteenden fanns i barndomen, under skoltiden etc?
+
+**** Att observera beteende
+
+Debut (När? Var? Utlösande faktorer?), förlopp, duration, intensitet, associerade symtom. Frekvens? Finns något som minskar beteendet? Konsekvenser? Hur (gör något annat samtidigt? Vad händer efteråt? Associerade känslor och tankar?)
+
+Om ett överskottsbeteende är sällsynt kan man istället kartlägga motsvarand eunderskottsbeteende, alternativt ett associerat beteende (tex drogbruk vid våldsbeteende).
+
+Att observera sitt eget beteende är en intervention i sig. Mätreaktivitet är ett relaterat fenomen.
+
+bettendetest: Utför och kartlägg.
+
+Att skilja på undvikande och avledning: Titta på beteendets funktion.
+
+
+
