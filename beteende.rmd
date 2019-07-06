@@ -1,6 +1,8 @@
-# Beteendepsykologi
+# Beteendepsykologi (#behavioural-psychology)
 
 Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan tillämpas för att analysera, förstå och beskriva beteende. Först beskrivs olika teorier om hur inlärning fungerar genom association (avsnitt \@ref(respondent-conditioning)) respektive konsekvenser (avsnitt \@ref(operant-conditioning)), därefter hur beteenden kan karläggas i så kallad topografisk analys \@ref(topographic-analysis), med syfte att ringa in kliniska problemområden att arbeta med under behandling.
+
+Se även kapitel \@ref(behavioural-psychology) för hur de beteendepsykologiska principer som beskrivs här tillämpas inom kognitiv beteendeterapi.
 
 ## Grundläggande begrepp
 
@@ -14,6 +16,8 @@ Funktionella aspekter: Beteendets funktion.
 
 Inre beteende: Observerbart av inividen. 
 Yttre beteenden: Observerbart av omgivningen.
+
+Konsekvenser aka operanter aka förstärkare
 
 ## Respondent inlärning {#respondent-conditioning}
 
@@ -75,6 +79,8 @@ Bestraffning/försvagning är i allmänhet mindre effektivt än förstärkning o
 
 _Primära förstärkare_ är obetingade stimuli som har grundläggande betydelse, tex mat, sex eller behaglig kroppstemperatur. _Generaliserade förstärkare_ är fexibla företeelser som kan representera flera primära förstärkare. Ett exempel på detta är pengar, som kan innebära tillgång till mat, nöjen etc. 
 
+_Undvikande_ upprätthålls av negativ förstärkning (borttagande av obehag).
+
 ## Fördjupning och andra teorier om inlärning
 
 I teroier om _relationsrespons_ tänker man sig att människans språk är associarat till att kunna skapa relationer mellan företeelser, exempelvis metaforer. Genom sådana relationer kan företeelser få en stimulusfunktion trots att de inte varit del av en tidigare eftarenhet. Beteendet kan då bli som om det utlöstes av ett annat stimulus än det som faktiskt är för handen. Detta har bland annat betydelse för förmågan att uppskjutan belöning. Låt säga att du lärt dig att socker leder till ohälsa. Då finns en relation mellan sötsaker och ohälsa som gör att du väljer bort en kaka till kaffet trots att den smakat gott vid tidigare tillfällen. Relationsrespons kan på ett liknande sätt innebära att man tar ut saker i förskott, "tänk om...".
@@ -91,117 +97,40 @@ _Modellinlärning_ innebär inlärning genom observation av andras beteende.
 - Rädsla
 - Äckel
 
+## Kartläggning och beskrivning av beteenden
 
-## Beskrivning och kartläggning av beteenden
+I _topografisk analys_ benämns och listas huvudsakliga problemområden, ofta i form av analys av överskott respektive underskott av inre respektive yttre beteenden. Varje enskilt beteende kan beskrivas mer i detalj, exempelvis i fråga om frekvens och duration (se **Tabell**). I _funktionell analys_ zoomar man in på varje enskilt beteende och beskriver det i inlärningspsykologiska termer (respondent och operant inlärning). Vid beskrivning av beteenden bör man sträva efter att vara konkret. Beskriva gärna med verb. Abstraktioner och ensidigt fokus på diagnoser eller att betrakta problemen som en integrerad del av individen snarare än påverkbara mekanismer kan komma ivägen för behandling.
 
+**Tabell:** Aspekter av beteende som kan beskrivas
+
+- Debut (När? Var? Utlösande faktorer?)
+- Förlopp
+- Duration
+- Intensitet
+- Associerade symtom, känslor och tankar
+- Hur utförs beteendet: Gör personen något annat samtidigt?
+- Frekvens
+- Finns något som minskar beteendet? 
+- Konsekvenser av beteendet 
+- Vad händer efteråt? 
+
+Inför psykoterapeuti med KBT görs en _fallkonceptualisering_ (aka beteendeanalys, problemanalys) med både topografisk- och funktionell analys. Där beskrivs även hur problemen utvecklats, vilka beteenden som fanns i barndomen, under skoltiden etc. Vidmakthållande faktorer, resurser och hinder kartläggs och analyseras. En _problemihierarki_ kan göras ("Vilket av dessa problem skulle vara till störst nytta för dig att komma till bukt med?"), där problemen rangordnas i en lista. Exempel på metoder som kan hjälpa till vid informationsinhämtning visas i **Tabell**.
+
+**Tabell:** Metoder för informationsinhämtning
+
+- Anamnes: När mådde du som sämst? Vad gjorde du när du inte mådde bra?
+- Dagbok: Situation, känsla, vad gjorde jag.
+- Beteendetest: Utför och kartlägg. Tex gå till affären, skriv ner hur det känns i kroppen.
+- Bedömningsinstrument (?): MINI, SCID, screeningformulär.
 
 ### Topografisk analys {#topographic-analysis}
 
-I så _topografisk analys_ benämns och listas observerbara beteenden, som kan även kan vara inre beteenden (observerbara av individen). Analysen syftar till att ge infallsvinklar för terapi genom förståelse av beteendets funktion och samspelet mellan beteende och omgivning. Beteenden kan kategoriseras som överskott eller underskott. Vid överskott är beteendet är problematiskt (avviker från det normala, ger lidande eller nedsatt funktion, medför risker, är ej i linje med personens målsättningar) pga överskott i fråga om frekvens, duration, intensitet eller att beteendet förekommer i ett sammanhang där det blir problematiskt. Underskott kan definieras på liknande vis. Ofta kan ett beteende benämnas som både över- och underskott, tex kan undvikande vara ett underskott av en vissa ktivitet eller överskott av att låta bli aktiviteten. Gällande just undvikande är en tumregel att beskriva det som underskott för att tydligare belysa vad som kan göras åt problemet. För vissa beteenden räcker det att de förekommer en gång för att de skall betraktas som överskott (tex självskada). Vid beskrivning av beteenden bör man sträva efter att vara konkret. Beskriva gärna med verb. Abstraktioner och ensidigt fokus på diagnoser eller att betrakta problemen som en integrerad del av individen snarare än påverkbara mekanismer kan komma ivägen för behandling.
+I _topografisk analys_ benämns och listas observerbara beteenden, som kan även kan vara inre beteenden (observerbara av individen) och inkludera reaktioner och tankar. Analysen syftar till att ge infallsvinklar för terapi genom förståelse av beteendets funktion och samspelet mellan beteende och omgivning. Beteenden kan kategoriseras som överskott eller underskott. Vid överskott är beteendet är problematiskt (avviker från det normala, ger lidande eller nedsatt funktion, medför risker, är ej i linje med personens målsättningar) pga överskott i fråga om frekvens, duration, intensitet eller att beteendet förekommer i ett sammanhang där det blir problematiskt. Underskott kan definieras på liknande vis. Ofta kan ett beteende benämnas som både över- och underskott, tex kan undvikande vara ett underskott av en vissa aktivitet eller överskott av passivitet. Gällande just undvikande är en tumregel att beskriva det som underskott för att tydligare belysa vad som kan göras åt problemet. För vissa beteenden räcker det att de förekommer en gång för att de skall betraktas som överskott (tex självskada). 
 
 > Exempel: Jocke upplever (inre beteende) att han ofta säger dumma saker när han försöker prata med kollegorna på after work. När han väl sagt någonting oroar han sig (inre överskott) för vad de andra tyckte om det han sade. Han grubblar och ältar över detta. Följden blir att han undviker sociala sammanhang med kollegorna, vilket leder till isolering och bidrar till en känsla av meningslöshet.
 
-**** Att observera beteende
-
-Debut (När? Var? Utlösande faktorer?), förlopp, duration, intensitet, associerade symtom. Frekvens? Finns något som minskar beteendet? Konsekvenser? Hur (gör något annat samtidigt? Vad händer efteråt? Associerade känslor och tankar?)
-
-Om ett överskottsbeteende är sällsynt kan man istället kartlägga motsvarand eunderskottsbeteende, alternativt ett associerat beteende (tex drogbruk vid våldsbeteende).
+Tips: Om ett överskottsbeteende är sällsynt (och därför svårt att observera och beskriva i detalj) kan man istället kartlägga motsvarande underskottsbeteende, alternativt ett associerat beteende (tex drogbruk vid våldsbeteende).
 
 Att observera sitt eget beteende är en intervention i sig. Mätreaktivitet är ett relaterat fenomen.
 
-bettendetest: Utför och kartlägg.
-
 Att skilja på undvikande och avledning: Titta på beteendets funktion.
-
-Vid problembeskrivning: Beskriv hur problemet utvecklats. Vilka beteenden fanns i barndomen, under skoltiden etc?
-
-
-*** Behandlingsprinciper
-
-**** Praktiska tips
-
-- Skapa förutsättning som ökar sannolikheten för aktivering av naturliga/befintliga förstärkare i patientens liv.
-- Bredda beteendereportoaren med adekvata färdigheter.
-- Träna förmågan till diskriminering.
-- Öka språklig kontroll av stimuli och konsekvenser.
-- Ändra relationsrespons, "att tänka om".
-- Identifiera och påverka etablerande omständigheter.
-- Mål och problem bör furmuleras tydligt i ord.
-
-- Behandlingsframgång förutsätter att det som övas kan tillämpas utanför behandlingsrummet. Detta förutsätter i sin tur generalisering. Målsättningen bör vara att förstärka beteenden som sätter patienten i kontakt med naturliga förstärkare i livet. Verkligeheten är terapeutens bästa vän.
-
-- Använd beteendeanalys på själva terapin, vilka beteenden har patienten? Antecenddent och konsekvens? Påverkar det terapin?
-- Identifera egna (terapeutens) beteenden. Diskriminera de beteenden som fungerar för patienten, undvik tex bestraffande beteenden (påstridighet kan tex vara ett sådant).
-- uppmuntra själviakttagelse, efterfråga vad patienten kan iaktta. Kan innebära att patienten upptäcker nya möjligheter, upplever förändringar i affekt.
-
-
-**** Problemlösning
-
-- Betona att det är ens egna beteenden och konsekvenser av dessa som man bör ta ansvar för, inte andras beteende. Försök att kontrollera andras beteende är ett stimulus för motkontroll dvs beteenden som motsätter sig kontrollförsöket, kan leda till spiral. 
-- Uppmuntra personen att själv se och beskriva vilka möjligheter hen har för att ändra sitt beteende. Även dåliga alternativ kan listas (tex att säga upp sig).
-- Benämn att poängen är inte att bara lösa ett konkret problem, utan att öva upp sin problemlösningsfärdighet.
-- Problemlösningsfärdighet: Att generera olika alternativ och inte låsa sig vid ett.
-
-Beteendekontrakt (ABC s 205, Maglieri 2003):
-1. Tydlig överenskommelse om mål.
-2. Försäkrar sig om att alla inblandade har tillgång till att följa processen mot dessa mål och utvärdera framgång.
-3. Beskriver vad som krävs av dem som kontraktet omfattar.
-4. Tydligt att alla inblandade varit aktiva i hur det är formulerat.
-
-**** Självskada på avdelningen
-
-- Kan upprätthållas genom negativ förstärkning (minskning av desperation) och positiv förstärkning (tröstande respons från andra). :eget:
-
-- Identifiera förstärkare av det skadliga beteendet (tex dramatiska åtgärder efter självskada) och minska dessa.
-- Att dra tillbaks alla förstärkare (tex uppmärksamhet) är oerhört svårt och riskerar orsaka kompensatorisk intensifiering av beteendet.
-- Medvetandegör att patienten har legitima anspråk på basala förstärkare, tex omtanke, inflytande.
-- Arrangera en miljö som inte förstärker destruktiva beteenden.
-- Benämn att det handlar om att ta ansvar för sitt eget beteende och dess konsekvenser på omgivningen, snarare än att ta över ansvar för andras beteende.
-- Ge uppmärksamhet jämnt fördelat över tid, inte som respons på skadliga beteenden.
-- Självskada följs av neutralt bemötande. Avstå drastiska åtgärder och omprövningar av behandlingen i anslutning till självskada.
-- Diferentiell förstärkning av vissa beteenden: Definiera ett antal beteenden som kommer att förstärkas selektivt. Man kan göra en överenskommelse med patienten om beteenden som kommer att efterföljas av något som patienten eftersträvar, då formulerat positivt. 
-
-
-**** Social färdighetsträning
-
-Modellinlärning den mest effektiva metoden (ABC s 195, Rosenberg 1989). Gruppverksamhet att rekommendera. Gruppen erbjuder modeller som är lättare att identifiera sig med än vårdpersonal.
-
-Hjälper patienten att utveckla basala färdigheter:
-- Att tala om för omgivningen att man behöver hjälp
-- Att säga sin mening klart och tydligt
-- Att med ord uttrycka önskemål och invänta svar
-
-**** Exponering
-
-Har starkt empiriskt stöd, Barlow 2002
-
-- Beteenden som styr av konsekvenser (operanter) spelar en central roll, tex undvikande.
-- Effekterna av exponering kan beskrivas både med respondent inlärning (utsläckning) och operant inlärning (bryta undvikande). :eget:
-
-- Patienten förmås successivt närma sig det som väcker negativ affekt och stannar kvar så att utsläckning kan ske.
-- Undvikande gör att utsläckning inte kan ske, det upprätthålls av negativ förstärkning (borttagande av obehag).
-- I frånvaro av undvikande kan ominlärning ske. (Craske 2008) :eget:
-- Nya konsekvenser ökar beteendereportoaren. Responsutvidgning? 
-- Även relationsinramning har betydselse. Känslor och inre beteenden (tex hjärtklappning) som uppträder i den situation (tex samtal) som är besvärlig för patienten kan leda till formulering av tankar såsom "nu märker alla att jag mår dåligt", vilka genom exponering kan leda till omformulering, tex "nu har jag hjärtklappning och då kommer tanken ...".  :eget:
-
-Ifrågasättandet av verbala konstruktioner och hur de stämmer med andra verbala konstruktioner och fenomen är ett kraftfullt sätt att hjälpa människor att tänka nytt. Gäller även andra edukativa inslag såsom att ge information om vad som händer i kroppen när man blir rädd. Ett knep är även att diskriminera tankar som tankar. Underlättas av att patienten förmås observera sig själv och utforska vilken funktion de ine responserna har.
-
-- Identifiera gemensam faktor som ofta finns i olika situationer, tex inre fenomen (affekter, kroppsliga sensationer). Dessa fenomen är centrala.
-- Introceptiv exponering innebär att patienten utsätts för dessa kroppsliga fenomen (tex yrsel, overklighetskänslor) eller tankar som väcker obehag.
-- Tumregel: Låt exponeringsprocessen vara gradvis, förlängd, upprepad.
-
-Förutsättningar:
-1. Tid att stanna i situationen tills rädslan avtar naturligt och inte som resultat av flykt.
-2. Upprepa förloppet inom kort tid, dvs flera gånger i veckan.
-3. Exponering sker i olika situationer, eftersom generaliseing inte är självklar mellan olika sammanhang.
-
-**** Generalisering
-
-- Nytt beteende som övas i samtalsrummet måste gereneraliseras till världen utanför för att ha effekt. Beteenden kan aktualiseras i relation till terapeuten.
-- Sträva efter att förstärka alternativa beteenden som sätter patienten i kontakt med naturligt förekommande förstärkning om patienten agerade på samma sätt i livet.
-- Genom att uppmuntra patienten att iaktta sitt beteende och dess konsekvenser kan hen upptäcka nya möjligheter för alternativa beteenden, uppleva förändring i affekt och klara av att göra saker som fungerar bättre. :eget:
-- En utmaning är att generalisera den kontext som etableras i det terapeutiska samtalet till livet utanför. Om patienten kan fås att pröva alternativa responser än exempelvis negativa tankar kan livet erbjuda naturliga förstärkare genom att patienten får nya och kanske belönande erferenheter. :eget:
-
-**** Beteendeaktivering
-
-Beteendeaktivering vid depression motsvarar exponering vid ångesttillstånd (Martell 2001). Ökad aktivering öppnar möjligheter för nya konsekvenser som ifall de är belönande kan hjälpa till att bryta det passiva beteendet. :eget:
