@@ -1,6 +1,6 @@
 # Beteendepsykologi {#behavioural-psychology}
 
-Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan tillämpas för att analysera, förstå och beskriva beteende. Först beskrivs olika teorier om hur inlärning fungerar genom association (avsnitt \@ref(respondent-conditioning)) respektive konsekvenser (avsnitt \@ref(operant-conditioning)), därefter hur beteenden kan karläggas i så kallad topografisk analys \@ref(topographic-analysis), med syfte att ringa in kliniska problemområden att arbeta med under behandling.
+Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan tillämpas för att analysera, förstå och beskriva beteende. Först beskrivs olika teorier om hur inlärning fungerar genom association (avsnitt \@ref(respondent-conditioning)) respektive konsekvenser (avsnitt \@ref(operant-conditioning)), därefter hur beteenden kan kartläggas (avsnitt \@ref(behaviour-description)), med syfte att ringa in kliniska problemområden att arbeta med under behandling.
 
 Se även kapitel \@ref(behavioural-psychology) för hur de beteendepsykologiska principer som beskrivs här tillämpas inom kognitiv beteendeterapi.
 
@@ -23,16 +23,16 @@ Konsekvenser aka operanter aka förstärkare
 
 Respondent inlärning innebär att en företeelse får en betydelse det inte haft tidigare, exempelvis när en klocka ringer strax innan en hund får äta kommer klockan med tiden och utlösa ett beteende kopplat till ätande (tex ökad salivation). Respondent inlärning kallas också betingning och associationsinlärning. Betingningen kräver att stimulus (maten och klockan) kommer före responsen (salivation). Inlärningen blir starkare med antalet upprepningar, samt vid kortare tidsintervall mellan stimulus och respons. I detta exempel är maten ett _obetingat stimulus_ som är kopplat till den _obetingade responsen_ (salivation). Klockan är till en början ett _neutralt stimulus_ som med tiden blir ett _betingat stimulus_ som kan utlösa en _betingad respons_ (salivation). Schematiskt kan detta beskrivas enligt nedan, där situation 1 är före- och situation 2 efter att inlärning skett. 
 
-**Exempel på respondent inlärning**
+### Exempel på respondent inlärning
 
-> **Situation 1 (ursprunglig situation):**
+**Situation 1 (ursprunglig situation):**
 > Obetingat stimulus (OS) => Obetingad respons (OR)
 > Neutralt stimulus (NS)
 
-> **Situation 2 (betingad situation):**
+**Situation 2 (betingad situation):**
 > Betingat stimulus (BS) => Betingad respons (BR)
 
->**Exempel, Pavlovs hund:**
+**Exempel, Pavlovs hund:**
 > Mat (OS) => Salivation (OR)
 > Klocka (BS)
 
@@ -44,17 +44,17 @@ Inre stimuli (exempelvis känslan av snabbare hjärtfrekvens) kan kopplas till b
 
 _Förberedd inlärning_ innebär att människor är predisponerade så att vissa beteenden lättare lärs in.
 
-**Kliniska exempel på respondent inlärning**
+### Kliniska exempel på respondent inlärning
 
-> **Paniksyndrom:**
+**Paniksyndrom:**
 > Panikattack (OS) => rädsla (OR)
 > Hjärtklappning (NS)
 
-> **Sömnsvårigheter:**
+**Sömnsvårigheter:**
 > Insomni => Ältande
 > Sängen
 
-> **Tvångssyndrom:**
+**Tvångssyndrom:**
 > Kollade jag spisen? => oro
 > Står vid ytterdörren
 
@@ -97,7 +97,7 @@ _Modellinlärning_ innebär inlärning genom observation av andras beteende.
 - Rädsla
 - Äckel
 
-## Kartläggning och beskrivning av beteenden
+## Kartläggning och beskrivning av beteenden {#behaviour-description}
 
 I _topografisk analys_ benämns och listas huvudsakliga problemområden, ofta i form av analys av överskott respektive underskott av inre respektive yttre beteenden. Varje enskilt beteende kan beskrivas mer i detalj, exempelvis i fråga om frekvens och duration (se **Tabell**). I _funktionell analys_ zoomar man in på varje enskilt beteende och beskriver det i inlärningspsykologiska termer (respondent och operant inlärning). Vid beskrivning av beteenden bör man sträva efter att vara konkret. Beskriva gärna med verb. Abstraktioner och ensidigt fokus på diagnoser eller att betrakta problemen som en integrerad del av individen snarare än påverkbara mekanismer kan komma ivägen för behandling.
 
