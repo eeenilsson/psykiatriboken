@@ -90,7 +90,7 @@ kable(x, "latex",
       escape=FALSE
       )%>%
     footnote(
-        general= make_rows(foot),
+##        general= make_rows(foot),
         general_title = "",
         ##footnote_as_chunk=TRUE, 
         escape=FALSE) 
@@ -105,7 +105,7 @@ kable(x, "latex",
 
 ## Behandling
 
-Snabbt isättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abé2015].
+Snabbt isättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abe2015].
 
 Diskutera antidepressivas roll. Relatera till tid i mani/depression?
 
@@ -148,7 +148,7 @@ x%>%
 ##                 valign = "top")%>%
     ## kable_styling(latex_options="striped",position = "center",full_width = F)%>%
     footnote(
-        general= make_rows(foot),
+##        general= make_rows(foot),
         general_title = "",
         ##footnote_as_chunk=TRUE, 
         escape=FALSE)

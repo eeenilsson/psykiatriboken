@@ -1,4 +1,4 @@
-# Kognitiv betendeterapi (#cbt)
+# Kognitiv betendeterapi {#cbt}
 
 I detta kapitel beskrivs översiktligt principer för utförandet av kognitiv betendeterapi (KBT), inklusive metoder som kan användas samt tips för tillämpning vid specifika problem såsom ångestsjukdomar, depression och självskada. [Alt beskriv behandlingsprinciper för KBT integrerat i kapitlen om sjukdomar?]
 
@@ -40,9 +40,9 @@ Självskada kan upprätthållas av både negativ förstärkning (minskning av de
 
 En metod som kan användas är diferentiell förstärkning av vissa beteenden. Då definieras ett antal beteenden som kommer att förstärkas selektivt. Man kan göra en överenskommelse med patienten om beteenden som kommer att efterföljas av något som patienten eftersträvar (ex permission), då formulerat positivt. 
 
-Se även social färdighetsträning i avsnitt \ref(social-skills).
+Se även social färdighetsträning i avsnitt \@ref(social-skills).
 
-## Social färdighetsträning (#social-skills)
+## Social färdighetsträning {#social-skills}
 
 Modellinlärning den mest effektiva metoden (ABC s 195, Rosenberg 1989). Gruppverksamhet att rekommendera. Gruppen erbjuder modeller som är lättare att identifiera sig med än vårdpersonal.
 

@@ -1,4 +1,4 @@
-# Beteendepsykologi (#behavioural-psychology)
+# Beteendepsykologi {#behavioural-psychology}
 
 Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan tillämpas för att analysera, förstå och beskriva beteende. Först beskrivs olika teorier om hur inlärning fungerar genom association (avsnitt \@ref(respondent-conditioning)) respektive konsekvenser (avsnitt \@ref(operant-conditioning)), därefter hur beteenden kan karläggas i så kallad topografisk analys \@ref(topographic-analysis), med syfte att ringa in kliniska problemområden att arbeta med under behandling.
 

@@ -104,6 +104,6 @@ cap <- labs(
 
 p + ti + ax + cap
 
-ggsave("fig-antipsychotics-dosing-interval.pdf", device = pdf())
+## ggsave("fig-antipsychotics-dosing-interval.pdf", device = pdf())
 
 ## p + ax

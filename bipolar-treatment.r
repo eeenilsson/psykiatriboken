@@ -64,7 +64,7 @@ tmp2%>%
         phase, show
     ) -> tbl
 
-
+## tbl <- tbl%>%group_by()
 
 ## write_csv(
 ##     data.frame(

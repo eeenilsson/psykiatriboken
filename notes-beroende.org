@@ -56,7 +56,7 @@ TODO: Beskriv förklaringar till ovanstående utifrån neurobiologi?
 
 ** Synaptic targets: Chronic alcohol actions 
 
-Ref \cite{Roberto2017}
+Ref [@Roberto2017]
 
 Note: Har sammanfattats i texten.
 

@@ -53,7 +53,7 @@ makestack <- function(x){
 source('../functions/fix.names.R')
 source('../functions/query_label.r')
 source('../functions/query.abbrev.r')
-source('../functions/make_rows.r')
+## source('../functions/make_rows.r')
 source('../functions/make_namedlist.r')
 source('../functions/fix_pval.r')
 
