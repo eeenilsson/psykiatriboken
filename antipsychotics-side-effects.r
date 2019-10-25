@@ -3,9 +3,9 @@ require(tidyverse)
 source('../functions/query_label.r')
 source('varnames.r')
 
-antipsychotics <- read_csv('../psykiatri_st/antipsychotics-annotated.csv')
+antipsychotics <- read_csv('../notes/antipsychotics-annotated.csv')
 
-antipsychotics%>%   
+antipsychotics%>%
     filter(select == 1) -> antipsychotics
 
 side_effects <- names(antipsychotics[9:15])
@@ -35,7 +35,7 @@ tmp%>%
 
 p <- ggplot(aes(x = drug, y = level+1, fill = drug), data = tmp)
 
-    
+
 ## p1 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, effect %in% c("sedation", "weight_gain", "prolactin")))
 
 ## p2 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, !(effect %in% c("sedation", "weight_gain", "prolactin"))))
