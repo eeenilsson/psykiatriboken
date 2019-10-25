@@ -47,13 +47,13 @@ Se även social färdighetsträning i avsnitt \@ref(social-skills).
 Modellinlärning den mest effektiva metoden (ABC s 195, Rosenberg 1989). Gruppverksamhet att rekommendera. Gruppen erbjuder modeller som är lättare att identifiera sig med än vårdpersonal.
 
 Hjälper patienten att utveckla basala färdigheter:
-- Att tala om för omgivningen att man behöver hjälp
-- Att säga sin mening klart och tydligt
-- Att med ord uttrycka önskemål och invänta svar
+- Att tala om för omgivningen att man behöver hjälp.
+- Att säga sin mening klart och tydligt.
+- Att med ord uttrycka önskemål och invänta svar.
 
 ## Exponering
 
-Exponering är en behandlingsmetod vid ångesttillstånd (ref Barlow 2002). Den utgår från att beteenden som styr av konsekvenser, exempelvis undvikande, spelar en central roll. Effekterna av exponering kan beskrivas både med respondent inlärning (utsläckning) och operant inlärning (bryta undvikande). Metoden innebär att patienten successivt närmar sig det som väcker negativa känslor och stannar kvar i situationen, vilket leder till _utsläckning_ av beteendet. I frånvaro av undvikande kan ominlärning ske (ref Craske 2008). Exponeringsprocessen bör vanligen vara gradvis, utdragen och upprepad. Genom att få tillgång till nya konsekvenser av ett beteende ökar beteendereportoaren [= Responsutvidgning?], vilket i sin tur kan öppna situationer som är naturliga förstärkare av önskade beteenden. 
+Exponering är en behandlingsmetod vid ångesttillstånd (ref Barlow 2002). Den utgår från att beteenden som styrs av konsekvenser, exempelvis undvikande, spelar en central roll. Effekterna av exponering kan beskrivas både med respondent inlärning (utsläckning) och operant inlärning (bryta undvikande). Metoden innebär att patienten successivt närmar sig det som väcker negativa känslor och stannar kvar i situationen, vilket leder till _utsläckning_ av beteendet. I frånvaro av undvikande kan ominlärning ske (ref Craske 2008). Exponeringsprocessen bör vanligen vara gradvis, utdragen och upprepad. Genom att få tillgång till nya konsekvenser av ett beteende ökar beteendereportoaren [= Responsutvidgning?], vilket i sin tur kan öppna situationer som är naturliga förstärkare av önskade beteenden. 
 
 Även relationsinramning har betydselse. Känslor och inre beteenden (tex hjärtklappning) som uppträder i den situation (tex samtal) som är besvärlig för patienten kan leda till formulering av tankar såsom "nu märker alla att jag mår dåligt", vilka genom exponering kan leda till omformulering, tex "nu har jag hjärtklappning och då kommer tanken ...".
 
