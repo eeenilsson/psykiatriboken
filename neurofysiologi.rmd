@@ -124,12 +124,16 @@ imageName <- "basal_ganglia_coronal.svg"
 imageDir <- "../dropbox/images/psychiatry/"
 imagePath <- paste(imageDir, imageName, sep="")
 newNamePdf <- paste(gsub("\\..*","",imageName), ".pdf", sep = "")
+newNamePng <- paste(gsub("\\..*","",imageName), ".png", sep = "")
 
 ## convert svg in path to pdf in local directory
 rsvg_pdf(imagePath, newNamePdf)
+rsvg_png(imagePath, newNamePdf)
 
 ## include as graphic
 include_graphics(newNamePdf)
+
+include_graphics(newNamePng)
 
 ## write to format via bitmap
 ## bitmap <- rsvg(imagePath)
