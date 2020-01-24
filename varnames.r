@@ -5,6 +5,8 @@ common_varnames <- c(
 
 ## table column labels
     'var' = "Variable",
+    'line' = "Line",
+    'hand' = "Hand",
     'level' = "Category",
     'n' = "N",
     'count_valid' = "Valid n",

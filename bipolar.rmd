@@ -30,7 +30,7 @@ Diagnosen bipolär sjukdom typ I kan ställas om personen haft en eller flera ma
 
 Notera att snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet). Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter, exempelvis vidlyftiga projekt inom områden där personen saknar specifik kompetens. Minskat sömnbehov innebär att personen känner sig utvilad trots minskad sömntid. Uppblåst självförtroende kan vara av vanföreställningskaraktär.
 
-Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell \@ref(tab:bipolar-symptoms)**. Uppsnabbat tal är karakteristiskt.
+Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell \@ref(tab:bipolar-symptoms)** [@Cassidy1998]. Uppsnabbat tal är karakteristiskt.
 
 ```{r bipolar-symptoms} 
 
@@ -83,19 +83,23 @@ x <- tbl
 
 foot <- paste0("Resultaten är summerade från tre olika studier där respektive symtom efterfrågades vid totalt ", min(tmp$n), " till ", max(tmp$n), " bipolära episoder beroende på vilka studier som inkluderade kartläggning av symtomet.")
 
-kable(x, "latex",
-      align = c("l", rep('c', times = ncol(x))),
-      caption = "Symtom vid bipolär episod av manisk eller blandad typ",
-      booktabs=TRUE,
-      escape=FALSE
-      )%>%
-    footnote(
-##        general= make_rows(foot),
-        general_title = "",
-        ##footnote_as_chunk=TRUE, 
-        escape=FALSE) 
+kable(x,
+      caption = "Symtom vid bipolär episod av manisk eller blandad typ")%>%
+    footnote(paste(foot),             
+             general_title = "")
 
-
+## latex version
+## kable(x, "latex",
+##       align = c("l", rep('c', times = ncol(x))),
+##       caption = "Symtom vid bipolär episod av manisk eller blandad typ",
+##       booktabs=TRUE,
+##       escape=FALSE
+##       )%>%
+##     footnote(
+## ##        general= make_rows(foot),
+##         general_title = "",
+##         ##footnote_as_chunk=TRUE, 
+##         escape=FALSE) 
 
 ## ref [@Cassidy1998], aggregate of this and two other studies summarised in the same paper. Mixed and manic episodes aggregated.
 ## TODO: Översätt symtomen
@@ -117,41 +121,51 @@ Andra antipsykotiska läkemedel än kvetiapin (tex aripiprazol, olanzapin) är i
 
 Litium kombineras vid underhållsbehandling eller mani i första hand med vissa antipsykotiska läkemedel. Vid depression rekommenderas dock i första hand kombination med valproat, ssri eller bupropion.
 
+**Tabell \@ref(tab:bipolar-treatment)** visar behandlingsalternativ i olika faser vid bipolär sjukdom [@Yatham2013].
 
 ```{r  bipolar-treatment} 
 
-source('bipolar-treatment.r')
+source('bipolar-treatment-htm.r')
 tbl$drug <- query_label(tbl$drug, varnames)
 colnames(tbl) <- query_label(colnames(tbl), varnames)
 
 x <- tbl
 abbr <- query.abbrev(tbl, abbreviations)
 abbr <- paste0(paste(names(abbr), abbr, sep = ", "), collapse = "; ")
-foot <- paste0("Tabellen visar första- och andrahandsalternativ (kursiv stil). Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: ", abbr, ".")
+foot <- paste0("Tabellen visar första- och andrahandsalternativ. Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: ", abbr, ".")
+
+## 2:a hands alternativ kursiv stil i latexversionen
 
 ## Ref: CANMAT, Yatham 2013.
 
-x%>%
-    mutate_all(linebreak)%>%
-    kable("latex",
-      align = c("l", rep('c', times = ncol(x))),
-      caption = "Behandling vid bipolär sjukdom typ 1",      
-      booktabs=TRUE,
-      escape=FALSE      
-      )%>%
-    ## kable_styling(hline_after = T)%>%
-    row_spec(1: nrow(x), hline_after = T) %>%
-    row_spec(0, bold = T) %>%
-    ## row_spec(3, bold = T, color = "white", background = "blue")%>%
-##     column_spec(1:ncol(x),
-## ##                width = "3cm",
-##                 valign = "top")%>%
-    ## kable_styling(latex_options="striped",position = "center",full_width = F)%>%
-    footnote(
-##        general= make_rows(foot),
-        general_title = "",
-        ##footnote_as_chunk=TRUE, 
-        escape=FALSE)
+kable(x,
+      caption = "Behandling vid bipolär sjukdom typ 1")%>%
+    footnote(paste(foot),
+             general_title = "")
+
+## Latex version
+## x%>%
+##     group_by()%>%
+##     mutate_all(linebreak)%>%
+##     kable("latex",
+##       align = c("l", rep('c', times = ncol(x))),
+##       caption = "Behandling vid bipolär sjukdom typ 1",      
+##       booktabs=TRUE,
+##       escape=FALSE      
+##       )%>%
+##     ## kable_styling(hline_after = T)%>%
+##     row_spec(1: nrow(x), hline_after = T) %>%
+##     row_spec(0, bold = T) %>%
+##     ## row_spec(3, bold = T, color = "white", background = "blue")%>%
+## ##     column_spec(1:ncol(x),
+## ## ##                width = "3cm",
+## ##                 valign = "top")%>%
+##     ## kable_styling(latex_options="striped",position = "center",full_width = F)%>%
+##     footnote(
+## ##        general= make_rows(foot),
+##         general_title = "",
+##         ##footnote_as_chunk=TRUE, 
+##         escape=FALSE)
     
     ## kable_styling(bootstrap_options = c("striped", "hover"))
 

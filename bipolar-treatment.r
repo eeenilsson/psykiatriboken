@@ -31,7 +31,7 @@ tmp%>%
         adj = paste(ifelse(length(na.omit(sign))==0 & length(na.omit(adjunct)) != 0, "+", ifelse(length(na.omit(adjunct))!=0, na.omit(sign), "mono")), paste(na.omit(substr(adjunct, 1, 2)), collapse = "/"))
     )%>%
     group_by(phase)%>%
-    complete(drug, line)-> tmp2
+    tidyr::complete(drug, line)-> tmp2
 
 tmp2%>%
     mutate(

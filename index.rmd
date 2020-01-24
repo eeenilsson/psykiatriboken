@@ -1,4 +1,5 @@
 ---
+title: Psykiatriboken
 bibliography: [../bibliography/bibliography.bib,../dropbox/research/library/bibliography-recent.bib]
 csl: ../bibliography/oxford-scimed.csl
 ---
@@ -25,7 +26,7 @@ csl: ../bibliography/oxford-scimed.csl
 <!-- See: http://pandoc.org/MANUAL.html -->
 <!-- See latex font catalgue: http://www.tug.dk/FontCatalogue/ -->
 
-```{r global_options, include=FALSE}
+```{r global-options, include=FALSE}
 
 ## set global options for knitr
 knitr::opts_chunk$set(echo=FALSE,
