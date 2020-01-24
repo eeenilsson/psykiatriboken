@@ -131,9 +131,7 @@ rsvg_pdf(imagePath, newNamePdf)
 rsvg_png(imagePath, newNamePng)
 
 ## include as graphic
-include_graphics(newNamePdf)
-
-include_graphics(newNamePng)
+include_graphics(newNamePng) ## Note: In latex .pdf will replace .png automatically (see global options)
 
 ## write to format via bitmap
 ## bitmap <- rsvg(imagePath)
@@ -145,19 +143,18 @@ include_graphics(newNamePng)
 ``` 
 
 1. Dorsala striatum (nuleus lenticulare)
-1.1 Nucleus caudatus (CN, sv. _svanskärnan_)
-1.2 Putamen (Put, sv _yttre skalkärnan_)
-1.3 Globus pallidus
-1.3.1 Internal (medial) segment (GPi)
-1.3.2 External (lateral) segment (GPe)
+  1.1 Nucleus caudatus (CN, sv. _svanskärnan_)
+  1.2 Putamen (Put, sv _yttre skalkärnan_)
+  1.3 Globus pallidus
+    1.3.1 Internal (medial) segment (GPi)
+    1.3.2 External (lateral) segment (GPe)
 2. Ventrala striatum
-1.1 Nucleus accumbens (Acb, sv. _accumbenskärnan_)
-1.1 Olfactory tubercle
-
+  1.1 Nucleus accumbens (Acb, sv. _accumbenskärnan_)
+  1.1 Olfactory tubercle
 3. Ventrala pallidum
 4. Substantia nigra(a)
-4.1 Pars compacta (SNc)
-4.2 Pars reticulata (SNr)
+  4.1 Pars compacta (SNc)
+  4.2 Pars reticulata (SNr)
 5. Subthalamic nucleus(a) (STN, sv. _subtalamuskärnan_)
 6. Pedunculopontine nucleus(a)
 

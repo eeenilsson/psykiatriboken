@@ -115,11 +115,13 @@ Diskutera antidepressivas roll. Relatera till tid i mani/depression?
 
 Litium längre tid till återfall.
 
-Som monoterapi ingår litium och kvetiapin som förstahandsval i alla faser av bipolär sjukdom. Valproat som monoterapi är förstahandsval för underhållsbehandling och maniska skov men för depressiva episoder främst i kombination med litium eller vissa antidepressiva. Bland förstahandsvalen är litium troligen det mest effektiva (?).
+Litium eller kvetiapin kan i monoterapi användas som förstahandsval i alla faser av bipolär sjukdom. Valproat som monoterapi är förstahandsval för underhållsbehandling och maniska skov men för depressiva episoder främst i kombination med litium eller vissa antidepressiva. Bland förstahandsvalen är litium troligen det mest effektiva (?).
 
 Andra antipsykotiska läkemedel än kvetiapin (tex aripiprazol, olanzapin) är i monoterapi förstahandsval som underhållsbehandling och vid akut mani. För behandling av depressiva episoder saknar dock aripiprazol tydlig indikation emedan olanzapin i denna situation bör kombineras med fluoxetin.
 
 Litium kombineras vid underhållsbehandling eller mani i första hand med vissa antipsykotiska läkemedel. Vid depression rekommenderas dock i första hand kombination med valproat, ssri eller bupropion.
+
+Överväg om ett preparat som lämpar sig för underhållsbehandling kan användas även i den akuta fasen. Ett hinder kan dock vara svårighet att diskutera behandlingsalternativen med patienten.
 
 **Tabell \@ref(tab:bipolar-treatment)** visar behandlingsalternativ i olika faser vid bipolär sjukdom [@Yatham2013].
 

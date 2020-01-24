@@ -30,6 +30,13 @@ common_varnames <- c(
     'pval' = "P-value",
     'p_chisq' = "P-value",
     'key' = "Variable",
+    'alternative' = "Alternativ",
+    'item' = "Nr",
+    'drug' = "Läkemedel",
+    'strength' = "Styrka",
+    'dose' = "Dos",
+    'route' = "Adm",
+    'maximum_dose_24h' = "Maxdos/24h",
 
     ## statistical notation
     'mean' = "M",

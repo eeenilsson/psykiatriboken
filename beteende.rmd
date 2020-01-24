@@ -4,16 +4,20 @@ Kapitlet innehåller en introduktion till beteendepsykologin och hur denna kan t
 
 Se även kapitel \@ref(behavioural-psychology) för hur de beteendepsykologiska principer som beskrivs här tillämpas inom kognitiv beteendeterapi.
 
-## Grundläggande begrepp
+## Begrepp
 
-B = Beteende
-F = Funktion
+Förkortningar: B = Beteende, F = Funktion.
 
-Funktionell kontextualism: 1 B har olika F i olika kontext.
+Funktionell kontextualism: Ett B har olika F i olika kontext.
+
 Funktionellt ekvivalens: Olika B har samma F.
+
 Topografiska aspekter: Beteendets yttre form.
+
 Funktionella aspekter: Beteendets funktion.
+
 Inre beteende: Observerbart av individen. 
+
 Yttre beteenden: Observerbart av omgivningen.
 
 Konsekvenser aka operanter aka förstärkare
@@ -96,7 +100,7 @@ _Modellinlärning_ innebär inlärning genom observation av andras beteende.
 - Ilska
 - Glädje
 
-ÄRLIG
+MINNESRAMSA: ÄRLIG
 
 ## Kartläggning och beskrivning av beteenden {#behaviour-description}
 
@@ -115,7 +119,7 @@ I _topografisk analys_ benämns och listas huvudsakliga problemområden, ofta i 
 - Konsekvenser av beteendet 
 - Vad händer efteråt? 
 
-Inför psykoterapeuti med KBT görs en _fallkonceptualisering_ (aka beteendeanalys, problemanalys) med både topografisk- och funktionell analys. Där beskrivs även hur problemen utvecklats, vilka beteenden som fanns i barndomen, under skoltiden etc. Vidmakthållande faktorer, resurser och hinder kartläggs och analyseras. En _problemihierarki_ kan göras ("Vilket av dessa problem skulle vara till störst nytta för dig att komma till bukt med?"), där problemen rangordnas i en lista. Exempel på metoder som kan hjälpa till vid informationsinhämtning visas i **Tabell**.
+Inför psykoterapi med KBT görs en _fallkonceptualisering_ (aka beteendeanalys, problemanalys) med både topografisk- och funktionell analys. Där beskrivs även hur problemen utvecklats, vilka beteenden som fanns i barndomen, under skoltiden etc. Vidmakthållande faktorer, resurser och hinder kartläggs och analyseras. En _problemihierarki_ kan göras ("Vilket av dessa problem skulle vara till störst nytta för dig att ändra?"), där problemen rangordnas i en lista. Exempel på metoder som kan hjälpa till vid informationsinhämtning visas i **Tabell**.
 
 **Tabell:** Metoder för informationsinhämtning
 
@@ -126,11 +130,13 @@ Inför psykoterapeuti med KBT görs en _fallkonceptualisering_ (aka beteendeanal
 
 ### Topografisk analys {#topographic-analysis}
 
-I _topografisk analys_ benämns och listas observerbara beteenden, som kan även kan vara inre beteenden (observerbara av individen) och inkludera reaktioner och tankar. Analysen syftar till att ge infallsvinklar för terapi genom förståelse av beteendets funktion och samspelet mellan beteende och omgivning. Beteenden kan kategoriseras som överskott eller underskott. Vid överskott är beteendet problematiskt (avviker från det normala, ger lidande eller nedsatt funktion, medför risker, är ej i linje med personens målsättningar) pga överskott i fråga om frekvens, duration, intensitet eller att beteendet förekommer i ett sammanhang där det blir problematiskt. Underskott kan definieras på liknande vis. Ofta kan ett beteende benämnas som både över- och underskott, tex kan undvikande sägas vara ett underskott av en vissa aktivitet eller överskott av passivitet. Gällande just undvikande är en tumregel att beskriva det som underskott för att tydligare belysa vad som kan göras åt problemet. För vissa beteenden räcker det att de förekommer en gång för att de skall betraktas som överskott (tex självskada). 
+I _topografisk analys_ benämns och listas observerbara beteenden, som kan även kan vara inre beteenden (observerbara av individen) och inkludera reaktioner och tankar. Analysen syftar till att ge infallsvinklar för terapi genom förståelse av beteendets funktion och samspelet mellan beteende och omgivning. 
+
+Ett beteende kan kategoriseras som överskott eller underskott. Vid överskott är beteendet problematiskt (avviker från det normala, ger lidande eller nedsatt funktion, medför risker, är ej i linje med personens målsättningar) pga överskott i fråga om frekvens, duration, intensitet eller att beteendet förekommer i ett sammanhang där det blir problematiskt. Underskott kan definieras på liknande vis. Ofta kan ett beteende benämnas som både över- och underskott, tex kan undvikande sägas vara ett underskott av en vissa aktivitet eller överskott av passivitet. Gällande undvikande beteenden är en tumregel att beskriva dessa som underskott för att tydligare belysa vad som kan göras åt problemet (exemplevis _underskott_ på att ta sociala kontakter snarare än överskott på att undvika dessa). För vissa beteenden räcker det att de förekommer en enda gång för att de skall betraktas som överskott (tex självskada). 
 
 > Exempel: Jocke upplever att han ofta säger dumma saker när han försöker prata med kollegorna på after work. När han väl sagt någonting oroar han sig (inre överskott) för vad de andra tyckte om det han sade. Han grubblar och ältar över detta. Följden blir att han undviker sociala sammanhang med kollegorna (yttre underskott), vilket leder till isolering och bidrar till en känsla av meningslöshet.
 
-Tips: Om ett överskottsbeteende är sällsynt (och därför svårt att observera och beskriva i detalj) kan man istället kartlägga motsvarande underskottsbeteende, alternativt ett associerat beteende (tex drogbruk vid våldsbeteende).
+Om ett överskottsbeteende är sällsynt (och därför svårt att observera och beskriva i detalj) kan man istället kartlägga motsvarande underskottsbeteende, alternativt ett associerat beteende (tex drogbruk vid våldsbeteende).
 
 Att observera sitt eget beteende är en intervention i sig. Mätreaktivitet är ett relaterat fenomen.
 
