@@ -6,6 +6,10 @@ Riskbedömning
 
 Epidemiologi
 
+
+Terminologi: Agitation vs agression, sedering vs lugnande.
+
+
 ## Agiterad eller agressiv patient
 
 Principen är minimum av tvångsåtgärder för att uppnå lugn. Undvik översedering eftersom det försvårar bedömningen och möjligheten att samtala. Målinriktad farmakoterapi.
@@ -18,7 +22,7 @@ Riskafaktorer (se farlighetsbedömning, föreläsning SPF 2020)
 
 ### Behandlingsprinciper
 
-De läkemedel som används är främst benzodiazepiner (lorazepam), antipsykotiska läkemedel (haloperidol) och antihistaminer (prometazin).
+De läkemedel som används är främst benzodiazepiner (lorazepam), antipsykotiska läkemedel (haloperidol) och antihistaminer (prometazin). Peroral behandling kan övervägas om personen tar emot läkemedel frivilligt.
 
 Om intoxikation är orsak till agitationen är benzodiazepiner att föredra.
 
