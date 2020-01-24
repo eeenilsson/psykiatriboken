@@ -128,7 +128,7 @@ newNamePng <- paste(gsub("\\..*","",imageName), ".png", sep = "")
 
 ## convert svg in path to pdf in local directory
 rsvg_pdf(imagePath, newNamePdf)
-rsvg_png(imagePath, newNamePdf)
+rsvg_png(imagePath, newNamePng)
 
 ## include as graphic
 include_graphics(newNamePdf)

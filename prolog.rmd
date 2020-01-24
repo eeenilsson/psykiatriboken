@@ -1,5 +1,9 @@
-# Inledning
+# Prolog
 
-Nnnnn
+Målsättningarna med denna bok är att:
 
-ord med _italic_ förklaras i ordlistan
+1. Ge en orienterade introduktion till respektive ämnesområde.
+2. Fungera som en uppslagsbok för klinisk psykiatrisk verksamhet.
+3. Ge hänvisningar till källor och fördjupningsmaterial.
+
+_kursiverade_ ord förklaras i ordlistan (kapitel \@ref(ordlista)).
