@@ -1,0 +1,76 @@
+# Agressivitet och agitation
+
+Fysiologi
+
+Riskbedömning
+
+Epidemiologi
+
+## Agiterad eller agressiv patient
+
+Principen är minimum av tvångsåtgärder för att uppnå lugn. Undvik översedering eftersom det försvårar bedömningen och möjligheten att samtala. Målinriktad farmakoterapi.
+
+### Bedömning
+
+Gradera grad av agitation: Oro < verbala hot < overt aggression
+
+Riskafaktorer (se farlighetsbedömning, föreläsning SPF 2020)
+
+### Behandlingsprinciper
+
+De läkemedel som används är främst benzodiazepiner (lorazepam), antipsykotiska läkemedel (haloperidol) och antihistaminer (prometazin).
+
+Om intoxikation är orsak till agitationen är benzodiazepiner att föredra.
+
+En strategi kan vara att ge både lugnande och antipsykotiska preparat i de flesta fall, men att anpassa dosen av respektive utifrån genes.
+
+### Peroral behandling
+
+?Peroral behandling: Olanzapin 10-20 mg + a. Stesolid 10-20 mg po, b. Lergigan 50 mg eller c. Nozinan 50 mg.
+
+### Intramuskulär injektion
+
+**Tabell \@ref(tab:rapid-tranquilization)** visar två alternativ för akut lugnande injektion. Antingen ges A1 + A2 eller så ges B.
+
+```{r rapid-tranquilization } 
+
+x <- read_csv('../notes/rapid_tranquilization.csv')
+names(x) <- query_label(names(x), varnames)
+kable(x,
+      caption = "Alternativ för akut lugnande injektion")
+
+``` 
+
+Behandlingen utvärderas efter 20-30 minuter. Om effekt ses men den bedöms otillräcklig upprepas samma medicinering. Vid avsaknad av effekt, byt strategi och ge det alternativ (A eller B) som inte har prövats.
+
+Överväg inj biperiden (Akineton) 5mg/ml, 1ml, när haloperidol >10mg
+
+När mer långvarig sedering krävs: Haloperidol 10 mg + prometazin 50 mg + Cisordinol acutard 50 mg/ml, 1-3 ml. Vid otillräcklig effekt addera lorazepam 2-4 mg. Maxdos cisordinol ackumulerad dos 400 mg.
+
+Tabell: Ekvipotens benzodiazepiner
+
+#### Rational
+
+Prometazin + haloperidol är mer effektivt än enbart haloperidol och medför mindre risk för akuta motoriska biverkningar.
+
+Lorazepam är lika effektivt som haloperidol + prometazin (?)
+
+#### Injektionsteknik
+
+Prometazin, Eftersom prometazin har vävnadsretande egenskaper måste läkemedlet injiceras djupt i muskeln (1-2 cm in i muskeln) för att undvika risk för subkutan injektion. Bruten stickkanal.
+
+Doser över 2 ml bör övervägas att delas upp på två injektioner pga risk för smärta och högt tryck i den injicerade muskeln vilket kan leda till att injektionsvätska pressas ut.Subkutan injektionsteknik där huden ”nyps ihop” ska inte användas.Om patienten under lång tid fått t.ex. depåinjektioner, undvik att injicera akut lugnande injektion vid samma injektionsställe. Injicera långsamt, idealt ca 1 ml/10 sek för att maximera upptag i muskeln.
+
+#### Övervakning efter akut lugnande injektion
+
+Efter given akut lugnande injektion:
+- Sjuksköterska/skötare övervakar och journalför under tre timmar: puls, blodtryck, andningsfrekvens, O2-saturation, temp, vakenhetsgrad, extrapyramidala biverkningar.
+- Läkare beslutar om ev. utökad övervakningsintervall. 
+- Effekt utvärderas efter 20-30 min för beslut om ev. ytterligare åtgärd.
+
+### Ref
+
+The Psychopharmacology of Agitation Consensus Statement\cite{@Wilson:2012}.
+
+SBU Hantering av hot och våld inom psykiatri – förebyggande åtgärder
+
