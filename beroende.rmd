@@ -9,6 +9,10 @@ Detta kapitel innehåller:
 - Specifikt om olika missbrukspreparat.
 
 
+<!-- Att läsa: Konceptualisering av beroende: Toward a Syndrome Model of Addiction: -->
+<!-- Multiple Expressions, Common Etiology [@Shaffer2004] -->
+
+
 ## Epidemiologi
 
 ## Konceptualisering
@@ -101,6 +105,62 @@ Mekanismerna bakom alkoholrelaterad hjärnskada är endast delvis kända. Alkoho
 Suicidrisk mm
 
 ## Att diagnosticera beroendesjukdomar
+
+### Klinisk bild
+
+Beroendesyndrom karakteriseras av följande:
+
+- *Drogsug:* En stark önskan att ta substansen.
+- *Upptagenhet:* Upptagenhet med att använda substansen, vilket visar sig genom: a) att andra betydelsefulla glädjeämnen eller intressen minskar till förmån för substansbruket eller b) att mycket tiden går åt till att få tag på-, inta substansen, eller återhämta sig från dess effekter.
+- *Kontrollförlust:* Försämrad kontroll över intag i fråga om att avstå, avsluta eller att begränsa mängden. Kan gälla mängden vid ett visst tillfälle eller att intaget sker över längre tid än vad som var tänkt. Kan även yttra sig som misslyckade försök att dra ner intaget eller fortsatt bruk trots en ständig önskan att minska bruket.
+- *Fortsatt bruk trots konsekvenser:* Fortsatt bruk av substansen trots medvetenhet om skadliga konsekvenser (sociala konsekvenser; misslyckanden i skola, hem eller arbete; fysisk eller psykisk ohälsa; bruk i farliga situationer).
+- *Abstinens:* Abstinenssyndrom som uppträder när substansbruket minskas eller avbryts, alternativt att samma eller andra substanser används för att undvika abstinenssymtomen. (se ICD-10 F10.3 och F10.4)
+- *Tolerans:* Antingen att doserna måste ökas i betydande grad för att uppnå effekt eller att samma dos ger en avsevärt mindre effekt.
+
+
+Sug
+Tidsåtgång
+Försakelse
+KOntrollförlust
+Fortsatt bruk
+Abstinens
+Tolerans
+
+1. Kompulsion
+- Drogsug
+- Svårighet att begränsa intag (större mängd eller längre perioder än tänkt)
+
+
+DSM5: 
+
+A. A problematic pattern of alcohol use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12-month period:
+
+1. Alcohol is often taken in larger amounts or over a longer period than was intended.
+
+2. There is a persistent desire or unsuccessful efforts to cut down or control alcohol use.
+
+3. A great deal of time is spent in activities necessary to obtain alcohol, use alcohol, or recovôr from its effects.
+
+4. Craving, or a strong desire or urge to use alcohol.
+
+5. Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home.
+
+6. Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol.
+
+7. Important social, occupational, or recreational activities are given up or reduced because of alcohol use.
+
+8. Recurrent alcohol use in situations in which it is physically hazardous.
+
+9. Alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol.
+
+10. Tolerance, as defined by either of the following:a. A need for markedly increased amounts of alcohol to achieve intoxication or desired effect.
+b. A markedly diminished effect with continued use of the same amount of alcohol.
+
+11. Withdrawal, as manifested by either of the following:a. The characteristic withdrawal syndrome for alcohol (refer to Criteria A and B of the criteria set for alcohol withdrawal, pp. 499-500).
+b. Alcohol (or a closely related substance, such as a benzodiazepine) is taken to relieve or avoid withdrawal symptoms.
+
+
+
 
 ## Skattningsformulär
 
