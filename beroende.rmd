@@ -194,3 +194,82 @@ Skildringar
 
 ## Sammanfattning
 
+## Läkemedelsassisterad rehabilitering vid opioidberoende
+
+Utgår från FASS, LARO-boken från Uppsala \cite{Eriksson2020} mm
+
+Inför insättning:
+- Är utredningen komplett? Kontrollera att blodprover,  EKG  och  somatiskt  status är utfört. En aktuell drogscreening i urin skall finnas.
+- Finns sidomissbruk? Patienten skall inte ha ett pågående bruk av alkohol eller bensodiazepiner.
+- Överväg interaktioner: tex läkemedel för behandling av HIV eller HCV, benzo, mm.
+
+Buprenorfin med naloxon används som förstahandspreparat.
+
+### Buprenorfin (med naloxon)
+
+Buprenorfin är en partiell agonist med stark receptorbindning. Det kan därför utlösa abstinens. För patienter som är beroende av heroin eller kortverkande opioider ska första dosen med buprenorfin därför tas först när tecken på abstinens uppträder, men inte tidigare än 6 timmar senaste intag av opioider. Eftersom metadon har lång halveringstid skall de som tar metadon först minska metadondosen till maximalt 30 mg/dag och buprenorfin sedan startas minst 24 timmar efter senaste dosen [@Fass2020].
+
+#### Initiering av buprenorfin med naloxon
+
+| Dag | Dos      | Notering                                      |
+| 1   | 4 mg     | Ev 4 mg ytterligare på em om abstinenssymtom? |
+| 2   | 8 mg     |                                               |
+| 3-7 | 12 mg    | Kvarstanna på 12 mg tom dag 7                 |
+| -   | 12-16 mg | Öka 2 mg var 3:e dag till 16 mg               |
+| -   | 16 mg    | Kvarstanna på 16 mg i minst en vecka          |
+| -   | 16-24 mg | Öka 2 mg var 3:e dag till 24 mg               |
+| -   |          |                                               |
+
+Dosen ökas endast om patienten [har abstinenssymtom eller sug?] och är opåverkad av droger eller av opiatbehandlingen vid utdelningstillfället. Efter 14 dagar på stabil dos inträder "underhållsfas", då läkarbesök årligen (halvårsvis vid 24 mg) eller vid dosändring.
+
+Majoriteten av patienter kommer att rapportera god effekt i dosintervallet 12-24 mg. Om patienten inte blir stabiliserad på 16 (24?) mg skall inneliggande observation övervägas för bedömning om byte till metadon. 
+
+**Kontraindiktioner:** 
+- Kortare än 24h efter metadon.
+- Svår leverfunktionsnedsättning. 
+- Försiktighet rekommenderas vid dosering av patienter med avancerad njurinsufficiens (kreatininclearance < 30 ml/min)
+
+**Labbprover:** 
+- Inför start: Leverfunktionstester samt hepatitserologi
+- Därefter: Monitorera leverfunktion var 6e månad? Oftare vid hepatit?
+
+##### Biverkningar
+
+Vanligen övergående: Illamående, kräkningar, sedering (ge minsta effektiva dos, trappa ner efter några år), huvudvärk.
+
+Kan bli varaktigt: Förstoppning. Kostråd. Laxantia, tex laktulos.
+
+Patienter som står på kombinationspreparatet buprenorfin och naloxon klagar i högre utsträckning på värk i magen och huvudvärk som inte passerar med mindre än att man byter till ett rent buprenorfinpreparat. Vidare har vi sett några enstaka överkänslighetsreaktioner.
+
+Om biverkningar är så svåra att det kommer att inverka menligt på vardagen får man överväga byte till metadon
+
+##### Byte till metadon
+
+Övergång till metadon: Vid otillräcklig effekt (drogsug etc) av 16 mg buprenorfin (?). Överväg dock först kringliggande psykosociala faktorer.
+
+Om biverkningar är så svåra att det kommer att inverka menligt på vardagen får man överväga byte till metadon
+
+Om patienten inte blir stabiliserad på 24 mg skall inneliggande observation övervägas för bedömning om byte till metadon.
+
+##### Byte till monobuprenorfin
+
+Patienter  som  byter  till  preparat  utan  naloxon  skall  vara  stabila och  ha  prövat  kombinationsberedningen med sidoeffekter som inte kan fördras över tid.
+
+##### Nedtrappning efter mångårig behandling
+
+- Ett skäl kan vara illamående
+- Vaksamhet för drogsug
+
+Avslut: Oftast livslång behandling. Försök till avslut kan göras, oftast på patientens initiativ.
+
+##### Utdelning
+
+Påverkad patient: Bedömningen görs av erfaren sjuksköterska, läkare om patienten ej kan ta hand om sig. Inget läkemedel ges, men patienten uppmanas återkomma nästa dag. LVM-anmälan övervägs vid grav påverkan.
+
+Missad medicindelning:
+- Patienter i underhållsfas besöms av sjuksköterska före utdelning, läkare om 4 eller fler dagar missats. 
+- Vid längre uppehåll än en dag bör omstartsdosen minskas (för att undvika överdosering?): Ifall två dagar missats ges 4 mg lägre, ifall tre dagar missats 8 mg lägre (max 12 mg/d), med upptitrering 4 mg per dag därefter. Om 4-7 dagar missats halveras dosen (max 8 mg/d) med upptitrering på 5 dagar.
+- Patienter i initieringsfas som missat 4-7 dagar skall bedömas av läkare avseende avslut i programmet.
+ - Patienter (i initierings- eller underhållsfas) som missat mer än sju dagar skall avslutas på ordinationslistan och bedömas av läkare om fortsatt LARO eller avslut samt ställningstagande till LVM-anmälan. Om patienten skall återinsättas sker upptitrering enligt vanlig initieringsfas.
+
+
