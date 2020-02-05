@@ -211,26 +211,37 @@ Buprenorfin är en partiell agonist med stark receptorbindning. Det kan därför
 
 #### Initiering av buprenorfin med naloxon
 
-| Dag | Dos      | Notering                                      |
-| 1   | 4 mg     | Ev 4 mg ytterligare på em om abstinenssymtom? |
-| 2   | 8 mg     |                                               |
-| 3-7 | 12 mg    | Kvarstanna på 12 mg tom dag 7                 |
-| -   | 12-16 mg | Öka 2 mg var 3:e dag till 16 mg               |
-| -   | 16 mg    | Kvarstanna på 16 mg i minst en vecka          |
-| -   | 16-24 mg | Öka 2 mg var 3:e dag till 24 mg               |
-| -   |          |                                               |
+<!-- | Dag | Dos      | Notering                                      | -->
+<!-- | 1   | 4 mg     | Ev 4 mg ytterligare på em om abstinenssymtom? | -->
+<!-- | 2   | 8 mg     |                                               | -->
+<!-- | 3-7 | 12 mg    | Kvarstanna på 12 mg tom dag 7                 | -->
+<!-- | -   | 12-16 mg | Öka 2 mg var 3:e dag till 16 mg               | -->
+<!-- | -   | 16 mg    | Kvarstanna på 16 mg i minst en vecka          | -->
+<!-- | -   | 16-24 mg | Öka 2 mg var 3:e dag till 24 mg               | -->
+<!-- | -   |          |                                               | -->
+
+```{r buprenorphin-start } 
+
+kable(read.csv('../notes/buprenorphin_start.csv'))
+
+``` 
 
 Dosen ökas endast om patienten [har abstinenssymtom eller sug?] och är opåverkad av droger eller av opiatbehandlingen vid utdelningstillfället. Efter 14 dagar på stabil dos inträder "underhållsfas", då läkarbesök årligen (halvårsvis vid 24 mg) eller vid dosändring.
 
 Majoriteten av patienter kommer att rapportera god effekt i dosintervallet 12-24 mg. Om patienten inte blir stabiliserad på 16 (24?) mg skall inneliggande observation övervägas för bedömning om byte till metadon. 
 
 **Kontraindiktioner:** 
+
 - Kortare än 24h efter metadon.
+
 - Svår leverfunktionsnedsättning. 
+
 - Försiktighet rekommenderas vid dosering av patienter med avancerad njurinsufficiens (kreatininclearance < 30 ml/min)
 
 **Labbprover:** 
+
 - Inför start: Leverfunktionstester samt hepatitserologi
+
 - Därefter: Monitorera leverfunktion var 6e månad? Oftare vid hepatit?
 
 ##### Biverkningar
