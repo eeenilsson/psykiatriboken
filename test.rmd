@@ -1,0 +1,38 @@
+---
+name: "Name of the questionnaire here"
+slug: "examplequestionnaire"
+redirect_url: "http://www.example.com"
+show_progress: false
+step_navigation: true
+steps_are_sequential: true
+success_message: "Thanks for completing this questionnaire."
+---
+
+~~~{}
+This the simplest type of 'question' - an instruction. No responses will be collected here.
+~~~
+
+
+```{r}
+library(flextable)
+library(magrittr)
+cnam <-  c("Påstående", "Instämmer i hög grad", "Instämmer delvis", "Varken instämmer eller instämmer inte", "Instämmer inte helt", "Instämmer inte alls"
+)
+df <- data.frame(rbind(c("Jag är trött", rep(" x ", length(cnam)-1))))
+names(df) <- cnam
+
+## df <- data.frame(x = 1:10, y = 11:20)
+
+df %>% regulartable() %>% autofit() %>% 
+    width(width=4)%>%
+    align(., align = "center", part = "all")
+
+## df %>% regulartable() %>% autofit() %>% 
+## width(j=~x,width=1) %>% width(j=~y,width=1)
+
+```
+
+
+
+
+

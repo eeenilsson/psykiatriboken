@@ -29,6 +29,7 @@ bookdown::gitbook:
       scroll_highlight: yes
       before: null
       after: null
+    toc_depth: 3
     toolbar:
       position: fixed
     edit : null
@@ -48,4 +49,5 @@ bookdown::gitbook:
       vk: no
       all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
     info: yes
+  keep_tex: true
 

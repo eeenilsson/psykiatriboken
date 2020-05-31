@@ -194,7 +194,9 @@ Skildringar
 
 ## Sammanfattning
 
-## Läkemedelsassisterad rehabilitering vid opioidberoende
+# Behandling av beroendesyndrom
+
+## Läkemedelsassisterad rehabilitering vid opioidberoende (LARO)
 
 Utgår från FASS, LARO-boken från Uppsala \cite{Eriksson2020} mm
 
@@ -209,7 +211,7 @@ Buprenorfin med naloxon används som förstahandspreparat.
 
 Buprenorfin är en partiell agonist med stark receptorbindning. Det kan därför utlösa abstinens. För patienter som är beroende av heroin eller kortverkande opioider ska första dosen med buprenorfin därför tas först när tecken på abstinens uppträder, men inte tidigare än 6 timmar senaste intag av opioider. Eftersom metadon har lång halveringstid skall de som tar metadon först minska metadondosen till maximalt 30 mg/dag och buprenorfin sedan startas minst 24 timmar efter senaste dosen [@Fass2020].
 
-#### Initiering av buprenorfin med naloxon
+#### Initiering av buprenorfin med naloxon {-}
 
 <!-- | Dag | Dos      | Notering                                      | -->
 <!-- | 1   | 4 mg     | Ev 4 mg ytterligare på em om abstinenssymtom? | -->
@@ -244,17 +246,23 @@ Majoriteten av patienter kommer att rapportera god effekt i dosintervallet 12-24
 
 - Därefter: Monitorera leverfunktion var 6e månad? Oftare vid hepatit?
 
-##### Biverkningar
+##### Biverkningar {-}
 
-Vanligen övergående: Illamående, kräkningar, sedering (ge minsta effektiva dos, trappa ner efter några år), huvudvärk.
+Illamående: Vanligen övergående.
 
-Kan bli varaktigt: Förstoppning. Kostråd. Laxantia, tex laktulos.
+Kräkningar: Vanligen övergående.
+
+Sedering: Vanligen övergående [?]. Ge minsta effektiva dos. Trappa ner efter några år.
+
+Huvudvärk: Vanligen övergående.
+
+Förstoppning: Kan bli varaktigt. Kostråd. Laxantia, tex laktulos.
 
 Patienter som står på kombinationspreparatet buprenorfin och naloxon klagar i högre utsträckning på värk i magen och huvudvärk som inte passerar med mindre än att man byter till ett rent buprenorfinpreparat. Vidare har vi sett några enstaka överkänslighetsreaktioner.
 
 Om biverkningar är så svåra att det kommer att inverka menligt på vardagen får man överväga byte till metadon
 
-##### Byte till metadon
+##### Byte till metadon {-}
 
 Övergång till metadon: Vid otillräcklig effekt (drogsug etc) av 16 mg buprenorfin (?). Överväg dock först kringliggande psykosociala faktorer.
 
@@ -262,18 +270,18 @@ Om biverkningar är så svåra att det kommer att inverka menligt på vardagen f
 
 Om patienten inte blir stabiliserad på 24 mg skall inneliggande observation övervägas för bedömning om byte till metadon.
 
-##### Byte till monobuprenorfin
+##### Byte till monobuprenorfin {-}
 
 Patienter  som  byter  till  preparat  utan  naloxon  skall  vara  stabila och  ha  prövat  kombinationsberedningen med sidoeffekter som inte kan fördras över tid.
 
-##### Nedtrappning efter mångårig behandling
+##### Nedtrappning efter mångårig behandling {-}
 
 - Ett skäl kan vara illamående
 - Vaksamhet för drogsug
 
 Avslut: Oftast livslång behandling. Försök till avslut kan göras, oftast på patientens initiativ.
 
-##### Utdelning
+##### Utdelning {-}
 
 Påverkad patient: Bedömningen görs av erfaren sjuksköterska, läkare om patienten ej kan ta hand om sig. Inget läkemedel ges, men patienten uppmanas återkomma nästa dag. LVM-anmälan övervägs vid grav påverkan.
 

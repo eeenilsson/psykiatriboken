@@ -1,0 +1,109 @@
+# Skattningsskalor
+
+Vad skall mätas? 
+
+Symtom, beteende, subjektiva upplevelser, relationer, attityder
+
+Är en skattningsskala en lämplig mätmetod?
+
+Syfte: 
+
+- Screening: Bör ha hög sensitivitet
+- Diagnos
+- Mäta förändring
+
+Vad skall mätas: Om subjektiv upplevelse och denna tros kunna förstås och beskrivas av patienten, kan ett frågeformulär användas. Om upplevelsen är svår att beskriva för patienten kan tex en strukturerad intervju vara av värde, 
+
+Bedömarskattning eller självadministrerad?
+- Strukturerade skalor med tränade bedömare tenderar att ha bättre reliabilitet.
+- Självskattning kan reducera bias om läkaren har kännedom om en behandling som getts?
+- Självskattning och bedömarskattning har generellt god överensstämmelse.
+
+Psykiatriska symtom har ofta en yttre och inre (dold) manifestation
+
+MMSE
+MoCa
+MADRS
+CGI
+AIMS?
+Bush-Francis?
+CAM-ICU
+COWS
+CIWA
+AUDIT
+DUDUT
+HCL 32
+YMRS
+HAD
+BPRS ?
+PANSS
+SCID I
+SCID II
+MINI
+Y-BOCS
+SAD?
+WAIS
+
+## Teori
+
+Polytomous Rasch model: https://en.wikipedia.org/wiki/Polytomous_Rasch_model
+
+Item response theory, https://en.wikipedia.org/wiki/Item_response_theory
+
+Validitet: "Validity refers to how well a tool measures what it intends to measure.", "Validity is concerned with different aspects of the measurement process.", "Types of validity include content validity, predictive validity, and construct validity."
+
+Reliabilitet: Cronbachs alpha (intern reliabilitet)
+
+Accuracy
+
+Precision
+
+Sensitivitet
+
+Specificitet
+
+Pre-test och post test probability (ie PPV NPV)
+
+
+Theory of Summated Rating Scales In: Summated Rating Scale Construction Little Green Book By: Paul E. Spector Published: 1992 , https://home.ubalt.edu/tmitch/645/articles/Summated%20Rating%20Scales.pdf
+
+"A good summated rating scale is both reliable and valid. Reliability will be considered in two ways. First, test-retest reliability means that a scale yields consistent measurement over time. Assuming that the construct of interest does not change, each subject should get about the same score upon repeated testings. Second, internal-consistency reliabilitymeans that multiple items, designed to measure the same construct, will intercorrelate with one another. It is possible that a scale demonstrates only one of these types of reliability."
+
+## Creating likert scale document
+
+https://signalbox.readthedocs.io/en/latest/questionnaires.html
+
+```{r test } 
+
+pacman::p_load(knitr, rmarkdown)
+
+setwd('../psykiatriboken/')
+install.packages('flextable')
+render('test.rmd', "html_document")
+
+?render
+
+``` 
+
+
+Instämmer i hög gradInstämmer delvisVarken instämmer eller instämmer inteInstämmer inte heltInstämmer inte alls
+
+CRAN likert : https://cran.r-project.org/web/packages/likert/index.html
+
+
+## Terminologi
+
+Informant: Vanligen patienten eller en anhörig.
+
+Datatyp: Binär, ordinal (ex likert), kategorisk, intervall, 
+
+"An interval scale is similar to ordinal in that the response options can be ordered and ranked. But the key difference here is that the response options are numeric, hence the distance between the intervals is quantifiable (i.e. 4 is one unit greater than 3). An important distinction with interval scales compared to ordinal is that the focus shifts from the labels to the numbers, as it's the numeric values that indicate the magnitude of difference. " [https://analythical.com/blog/types-of-rating-scales]
+
+Typer av skalor:
+Kategorisk: Ja/nej
+Visuell analog skala 0-10
+Likert: Inga symtom, mila, måttliga, svåra, mycket svåra
+
+# Resurser
+
+Bok: Rating scales in Psychiatry [@Tyrer2007]

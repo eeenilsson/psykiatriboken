@@ -4,7 +4,6 @@ bibliography: [../bibliography/bibliography.bib,../dropbox/research/library/bibl
 csl: ../bibliography/oxford-scimed.csl
 ---
 
-
 <!-- halftime: -->
 <!-- geometry: "left=2.3cm, right=2.3cm, top=2.3cm, bottom=2.3cm" -->
 <!-- classoption: oneside -->
@@ -64,7 +63,26 @@ source('../functions/fix_pval.r')
 source('varnames.r')
 source('abbreviations.r')
 
+
 ```
+
+
+```{r number-sections, results='asis'}
+
+## reads out the toc_depth YAML option and then prints some lines of CSS to simply hide all elements of class .header-section-number that belong to a heading greater than toc_depth.
+## https://stackoverflow.com/questions/47124299/rmarkdown-section-numbering-depth-for-html-documents
+
+## Not working
+
+## numbering_depth <- 3
+## sel <- paste0("h",(numbering_depth+1):10, collapse = " > span, ")
+## cat(paste0("<style>",
+##            sel, 
+##            " > .header-section-number { display: none; } </style>"))
+
+
+```
+
 
 ```{r load-data } 
 
