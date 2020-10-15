@@ -1,5 +1,6 @@
 ### Psykiatriboken
 ## Main script
+setwd('../psykiatriboken/')
 
 ## Sys.setlocale("LC_ALL","Swedish")
 ## options(encoding = "utf-8")

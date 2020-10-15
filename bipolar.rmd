@@ -24,13 +24,17 @@ Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt so
 
 Blandad episod av mani med samtidiga depressiva inslag förekommer. Vid sådan episod är dysfori, ångest, skuldkänslor, suicidtankar och irritabilitet vanligare medan man vid ren manisk episod oftare observerat grandiositet, eufori och talträngdhet [@Cassidy1998].
 
-Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåga. Minsta varaktigheten är då fyra dagar. Om psykotiska symtom föreligger eller om symtomen leder till sjukhusinläggning räknas episoden som mani. Beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
+Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåga, vilket är den huvudsakliga skillnaden jämfört med mani. Minsta varaktigheten är då fyra dagar. Om psykotiska symtom föreligger eller om symtomen leder till sjukhusinläggning räknas episoden som mani. Beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
 
 Diagnosen bipolär sjukdom typ I kan ställas om personen haft en eller flera maniska episoder under sin livstid, oavsett om depressiva episoder förekommit. Om hypomani förkommit men aldrig mani, samt minst en depression, ställs diagnosen bipolär sjukdom typ II.
 
 Notera att snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet). Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter, exempelvis vidlyftiga projekt inom områden där personen saknar specifik kompetens. Minskat sömnbehov innebär att personen känner sig utvilad trots minskad sömntid. Uppblåst självförtroende kan vara av vanföreställningskaraktär.
 
-Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell \@ref(tab:bipolar-symptoms)** [@Cassidy1998]. Uppsnabbat tal är karakteristiskt.
+Bipolär sjukdom typ I kan karakteriseras vidare exemplevis baserat på svårighetsgrad (mild, måttlig, svår med/utan psykos), grad av remission (partiell eller full remission), förlopp ("rapid cycling" innebär 4 eller fler episoder under 12 månader), och typ av pågående episod (mani, hypomani, depression, blandad). 
+
+<!-- Ett förlopp med många lindriga hypomanier och lindriga depressioner under minst två år kan beskrivas som "cyklotymi". -->
+
+Förekomsten av olika symtom hos personer med bipolär diagnos som vårdas inneliggande i samband med en manisk eller blandad episod visas i **Tabell \@ref(tab:bipolar-symptoms)** [@Cassidy1998].
 
 ```{r bipolar-symptoms} 
 
@@ -173,7 +177,9 @@ kable(x,
 
 
 ``` 
- 
+
+### Litium
+
 
 ## Psykotiska symtom vid bipolär sjukdom
 

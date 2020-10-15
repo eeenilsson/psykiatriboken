@@ -9,6 +9,10 @@ Detta kapitel innehåller:
 - Specifikt om olika missbrukspreparat.
 
 
+<!-- Att läsa: Konceptualisering av beroende: Toward a Syndrome Model of Addiction: -->
+<!-- Multiple Expressions, Common Etiology [@Shaffer2004] -->
+
+
 ## Epidemiologi
 
 ## Konceptualisering
@@ -102,6 +106,62 @@ Suicidrisk mm
 
 ## Att diagnosticera beroendesjukdomar
 
+### Klinisk bild
+
+Beroendesyndrom karakteriseras av följande:
+
+- *Drogsug:* En stark önskan att ta substansen.
+- *Upptagenhet:* Upptagenhet med att använda substansen, vilket visar sig genom: a) att andra betydelsefulla glädjeämnen eller intressen minskar till förmån för substansbruket eller b) att mycket tiden går åt till att få tag på-, inta substansen, eller återhämta sig från dess effekter.
+- *Kontrollförlust:* Försämrad kontroll över intag i fråga om att avstå, avsluta eller att begränsa mängden. Kan gälla mängden vid ett visst tillfälle eller att intaget sker över längre tid än vad som var tänkt. Kan även yttra sig som misslyckade försök att dra ner intaget eller fortsatt bruk trots en ständig önskan att minska bruket.
+- *Fortsatt bruk trots konsekvenser:* Fortsatt bruk av substansen trots medvetenhet om skadliga konsekvenser (sociala konsekvenser; misslyckanden i skola, hem eller arbete; fysisk eller psykisk ohälsa; bruk i farliga situationer).
+- *Abstinens:* Abstinenssyndrom som uppträder när substansbruket minskas eller avbryts, alternativt att samma eller andra substanser används för att undvika abstinenssymtomen. (se ICD-10 F10.3 och F10.4)
+- *Tolerans:* Antingen att doserna måste ökas i betydande grad för att uppnå effekt eller att samma dos ger en avsevärt mindre effekt.
+
+
+Sug
+Tidsåtgång
+Försakelse
+KOntrollförlust
+Fortsatt bruk
+Abstinens
+Tolerans
+
+1. Kompulsion
+- Drogsug
+- Svårighet att begränsa intag (större mängd eller längre perioder än tänkt)
+
+
+DSM5: 
+
+A. A problematic pattern of alcohol use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12-month period:
+
+1. Alcohol is often taken in larger amounts or over a longer period than was intended.
+
+2. There is a persistent desire or unsuccessful efforts to cut down or control alcohol use.
+
+3. A great deal of time is spent in activities necessary to obtain alcohol, use alcohol, or recovôr from its effects.
+
+4. Craving, or a strong desire or urge to use alcohol.
+
+5. Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home.
+
+6. Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol.
+
+7. Important social, occupational, or recreational activities are given up or reduced because of alcohol use.
+
+8. Recurrent alcohol use in situations in which it is physically hazardous.
+
+9. Alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol.
+
+10. Tolerance, as defined by either of the following:a. A need for markedly increased amounts of alcohol to achieve intoxication or desired effect.
+b. A markedly diminished effect with continued use of the same amount of alcohol.
+
+11. Withdrawal, as manifested by either of the following:a. The characteristic withdrawal syndrome for alcohol (refer to Criteria A and B of the criteria set for alcohol withdrawal, pp. 499-500).
+b. Alcohol (or a closely related substance, such as a benzodiazepine) is taken to relieve or avoid withdrawal symptoms.
+
+
+
+
 ## Skattningsformulär
 
 ### AUDIT
@@ -133,4 +193,102 @@ Faulkner
 Skildringar
 
 ## Sammanfattning
+
+# Behandling av beroendesyndrom
+
+## Läkemedelsassisterad rehabilitering vid opioidberoende (LARO)
+
+Utgår från FASS, LARO-boken från Uppsala \cite{Eriksson2020} mm
+
+Inför insättning:
+- Är utredningen komplett? Kontrollera att blodprover,  EKG  och  somatiskt  status är utfört. En aktuell drogscreening i urin skall finnas.
+- Finns sidomissbruk? Patienten skall inte ha ett pågående bruk av alkohol eller bensodiazepiner.
+- Överväg interaktioner: tex läkemedel för behandling av HIV eller HCV, benzo, mm.
+
+Buprenorfin med naloxon används som förstahandspreparat.
+
+### Buprenorfin (med naloxon)
+
+Buprenorfin är en partiell agonist med stark receptorbindning. Det kan därför utlösa abstinens. För patienter som är beroende av heroin eller kortverkande opioider ska första dosen med buprenorfin därför tas först när tecken på abstinens uppträder, men inte tidigare än 6 timmar senaste intag av opioider. Eftersom metadon har lång halveringstid skall de som tar metadon först minska metadondosen till maximalt 30 mg/dag och buprenorfin sedan startas minst 24 timmar efter senaste dosen [@Fass2020].
+
+#### Initiering av buprenorfin med naloxon {-}
+
+<!-- | Dag | Dos      | Notering                                      | -->
+<!-- | 1   | 4 mg     | Ev 4 mg ytterligare på em om abstinenssymtom? | -->
+<!-- | 2   | 8 mg     |                                               | -->
+<!-- | 3-7 | 12 mg    | Kvarstanna på 12 mg tom dag 7                 | -->
+<!-- | -   | 12-16 mg | Öka 2 mg var 3:e dag till 16 mg               | -->
+<!-- | -   | 16 mg    | Kvarstanna på 16 mg i minst en vecka          | -->
+<!-- | -   | 16-24 mg | Öka 2 mg var 3:e dag till 24 mg               | -->
+<!-- | -   |          |                                               | -->
+
+```{r buprenorphin-start } 
+
+kable(read.csv('../notes/buprenorphin_start.csv'))
+
+``` 
+
+Dosen ökas endast om patienten [har abstinenssymtom eller sug?] och är opåverkad av droger eller av opiatbehandlingen vid utdelningstillfället. Efter 14 dagar på stabil dos inträder "underhållsfas", då läkarbesök årligen (halvårsvis vid 24 mg) eller vid dosändring.
+
+Majoriteten av patienter kommer att rapportera god effekt i dosintervallet 12-24 mg. Om patienten inte blir stabiliserad på 16 (24?) mg skall inneliggande observation övervägas för bedömning om byte till metadon. 
+
+**Kontraindiktioner:** 
+
+- Kortare än 24h efter metadon.
+
+- Svår leverfunktionsnedsättning. 
+
+- Försiktighet rekommenderas vid dosering av patienter med avancerad njurinsufficiens (kreatininclearance < 30 ml/min)
+
+**Labbprover:** 
+
+- Inför start: Leverfunktionstester samt hepatitserologi
+
+- Därefter: Monitorera leverfunktion var 6e månad? Oftare vid hepatit?
+
+##### Biverkningar {-}
+
+Illamående: Vanligen övergående.
+
+Kräkningar: Vanligen övergående.
+
+Sedering: Vanligen övergående [?]. Ge minsta effektiva dos. Trappa ner efter några år.
+
+Huvudvärk: Vanligen övergående.
+
+Förstoppning: Kan bli varaktigt. Kostråd. Laxantia, tex laktulos.
+
+Patienter som står på kombinationspreparatet buprenorfin och naloxon klagar i högre utsträckning på värk i magen och huvudvärk som inte passerar med mindre än att man byter till ett rent buprenorfinpreparat. Vidare har vi sett några enstaka överkänslighetsreaktioner.
+
+Om biverkningar är så svåra att det kommer att inverka menligt på vardagen får man överväga byte till metadon
+
+##### Byte till metadon {-}
+
+Övergång till metadon: Vid otillräcklig effekt (drogsug etc) av 16 mg buprenorfin (?). Överväg dock först kringliggande psykosociala faktorer.
+
+Om biverkningar är så svåra att det kommer att inverka menligt på vardagen får man överväga byte till metadon
+
+Om patienten inte blir stabiliserad på 24 mg skall inneliggande observation övervägas för bedömning om byte till metadon.
+
+##### Byte till monobuprenorfin {-}
+
+Patienter  som  byter  till  preparat  utan  naloxon  skall  vara  stabila och  ha  prövat  kombinationsberedningen med sidoeffekter som inte kan fördras över tid.
+
+##### Nedtrappning efter mångårig behandling {-}
+
+- Ett skäl kan vara illamående
+- Vaksamhet för drogsug
+
+Avslut: Oftast livslång behandling. Försök till avslut kan göras, oftast på patientens initiativ.
+
+##### Utdelning {-}
+
+Påverkad patient: Bedömningen görs av erfaren sjuksköterska, läkare om patienten ej kan ta hand om sig. Inget läkemedel ges, men patienten uppmanas återkomma nästa dag. LVM-anmälan övervägs vid grav påverkan.
+
+Missad medicindelning:
+- Patienter i underhållsfas besöms av sjuksköterska före utdelning, läkare om 4 eller fler dagar missats. 
+- Vid längre uppehåll än en dag bör omstartsdosen minskas (för att undvika överdosering?): Ifall två dagar missats ges 4 mg lägre, ifall tre dagar missats 8 mg lägre (max 12 mg/d), med upptitrering 4 mg per dag därefter. Om 4-7 dagar missats halveras dosen (max 8 mg/d) med upptitrering på 5 dagar.
+- Patienter i initieringsfas som missat 4-7 dagar skall bedömas av läkare avseende avslut i programmet.
+ - Patienter (i initierings- eller underhållsfas) som missat mer än sju dagar skall avslutas på ordinationslistan och bedömas av läkare om fortsatt LARO eller avslut samt ställningstagande till LVM-anmälan. Om patienten skall återinsättas sker upptitrering enligt vanlig initieringsfas.
+
 
