@@ -58,6 +58,10 @@ source('antipsychotics-side-effects.r', print.eval=TRUE)
 
 ``` 
 
+### Dosering
+
+Måldos bör vara minsta effektiva dos (se tabell). 
+
 ### FGA vs SGA
 
 Effectiveness of Antipsychotic Drugs in Patients with Chronic Schizophrenia lieberman [@Lieberman2005].
