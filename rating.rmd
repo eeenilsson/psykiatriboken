@@ -73,15 +73,29 @@ Theory of Summated Rating Scales In: Summated Rating Scale Construction Little G
 
 https://signalbox.readthedocs.io/en/latest/questionnaires.html
 
-```{r test } 
+```{r example-likert} 
 
-pacman::p_load(knitr, rmarkdown)
+## pacman::p_load(knitr, rmarkdown)
+## setwd('../psykiatriboken/')
+## render('test.rmd', "html_document")
 
-setwd('../psykiatriboken/')
-install.packages('flextable')
-render('test.rmd', "html_document")
+library(flextable)
+library(magrittr)
+cnam <-  c("Påstående", "Instämmer i hög grad", "Instämmer delvis", "Varken instämmer eller instämmer inte", "Instämmer inte helt", "Instämmer inte alls"
+)
+df <- data.frame(rbind(c("Jag är trött", rep(" x ", length(cnam)-1))))
+names(df) <- cnam
 
-?render
+## df <- data.frame(x = 1:10, y = 11:20)
+
+df %>% regulartable() %>% autofit() %>% 
+    width(width=4)%>%
+    align(., align = "center", part = "all")
+
+## df %>% regulartable() %>% autofit() %>% 
+## width(j=~x,width=1) %>% width(j=~y,width=1)
+
+
 
 ``` 
 
