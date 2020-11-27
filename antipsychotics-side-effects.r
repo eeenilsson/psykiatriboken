@@ -40,7 +40,6 @@ p <- ggplot(aes(x = drug, y = level+1, fill = drug), data = tmp)
 
 ## p2 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, !(effect %in% c("sedation", "weight_gain", "prolactin"))))
 
-
 ## base
 p + geom_bar(position="dodge", stat="identity") + facet_grid(rows = vars(effect)) +
     labs(y = "Risk level (1, very low; 2, low; 3, moderate; 4, high)", x = "Antipsychotic") -> p

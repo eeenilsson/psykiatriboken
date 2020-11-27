@@ -16,9 +16,29 @@
 
 Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
 
+### Effektivitet {#antidepressant-efficacy}
+
+Ciprianis studie
+
+Lägre efficacy hos äldre, se \@ref(depression-elderly).
+
+### Svårbehandlad depression
+
+STAR-D
+
+CANMAT
+
+Kombinara antidepressiva? Tilltalande kanske men verkar inte fungera i praktiken.
+
 ### Biverkningar
 
-**Hyperhidros** (svettningar) förekommer som kolinerg biverkan av exempelvis duloxetin. Kan behandlas med oxybutynin (off-label), som enligt NICE har effekt mot svettningarna och kan  i sin tur vara associerat med antikolinerga biverkningar såsom muntorrhet, urinretention och förstoppning (https://www.nice.org.uk/advice/es10/resources/hyperhidrosis-oxybutynin-pdf-1158108623557). Okybutynin är kontraindicerat vid galukom, vissa gastrointestinala sjukdomar, urinretention och myastenia gravis.
+**Hyperhidros** (svettningar) förekommer som kolinerg biverkan av exempelvis duloxetin. Kan behandlas med oxybutynin (off-label), som enligt NICE har effekt mot svettningarna och kan  i sin tur vara associerat med antikolinerga biverkningar såsom muntorrhet, urinretention och förstoppning (https://www.nice.org.uk/advice/es10/resources/hyperhidrosis-oxybutynin-pdf-1158108623557). Oxybutynin är kontraindicerat vid galukom, vissa gastrointestinala sjukdomar, urinretention och myastenia gravis.
+
+**Ökad blödningsrisk** hos medel som hämmar serotonintransportören, dvs SSRI, beroende på att denna finns även i blodplättarna. Bör tas hänsyn till om patienten tar antikoagulantia eller trombocythämmare.
+
+**QT-tidsförlängning** som kan leda till ventrikelarytmi av typen Torsade de Point. Se socialstyrelsens dokument om TdP [@socialstyrelsen2019tdp].
+
+
 
 ## SSRI vid graviditet och amning {#ssri-pregnancy}
 
@@ -316,7 +336,7 @@ Malhi & Berk, 2012: http://www.ncbi.nlm.nih.gov/pubmed/22265701□the therapeuti
 
 Greater efficacy of concentrations (>0.6 mmol/L)
 - is of greater necessity for acute mania 
-- and, to a lesser extent, for maintenancecomes at a cost in terms of tolerability, 
+- and, to a lesser extent, for maintenance comes at a cost in terms of tolerability, 
 
 whereas lower plasma concentrations 
 - that might be adequate for depression prophylaxis 
@@ -340,8 +360,7 @@ ER tablets must be swallowed whole. Lithium can be taken with meals to avoid GI 
 
 ### Monitorering
 
-(P-Li och TSH var 4:e mån och årligen dessutom: P-Kreatinin, P-Ca, PAlbumin,
-P-glukos, BT och vikt).
+(P-Li och TSH var 4:e mån och årligen dessutom: P-Kreatinin, P-Ca, PAlbumin, P-glukos, BT och vikt).
 
 Mätning av litiumkoncentration görs lämpligast 12 tim efter en dos. Vid singeldos är 24 tim bättre.
 
@@ -366,9 +385,69 @@ Om inga skäl talar emot delegation av Litiuminställning ska läkaren:
 2. Därefter höjs Litihionitdosen vid behov med 1 tablett per vecka om S-Litium ej uppnått målkoncentrationen.
 Gränsvärden bör diskuteras med ansvarig läkare innan dosjustering. Dostitreringen är avslutad när patienten haft S-Litium inom målkoncentrationen tre provtagningar i rad med cirka en veckas mellanrum.  När målkoncentrationen uppnåtts ska patienten bokas för ett återbesök till ansvarig läkare för uppföljning och utvärdering av behov av ytterligare medicinska och pedagogiska/psykologiska behandlingsinsatser.
 
-
 https://bpac.org.nz/magazine/2007/february/pdfs/bpj3_lithium_pages16-27_pf.pdf
 
 Pharmacokineticsof  LithiumJose de Leon, Utförlig föreläsning om Litium: https://inhn.org/fileadmin/user_upload/User_Uploads/INHN/Jose_de_Leon/29._Pharmacokinetics_of_lithium/De_Leon_1_-_29_Pharmacokinetics_of_lithium-_June_16__2016.pdf
+
+
+## Arytmirisk
+
+Se: Läkemedel som kan orsaka allvarliga rubbningar i hjärtats rytm - Fokus på förskrivning av antidepressiva och antipsykotiska läkemedel till äldre [@socialstyrelsen2019tdp].
+
+TdP1-2 kolla riskfaktorer
+
+Crediblemeds har lista på QTT-förlängande läkemedel
+
+Ziprasidon QTT-förlängande, även kvetiapin.
+
+Pacher Cardiovascular Side Effects of New Antidepressants and Antipsychotics: New Drugs, old Concerns? 2004
+
+
+## Antikolinerga biverkningar av antipsykotiska läkemedel
+
+Se Bokkapitel [@Gardner2010chapter1] i boken Antipsychotics and their side effects.
+
+**Figur \@ref(fig:antipsychotics-anticholinergic)** visar en jämförelse av antikolinerg effekt för olika antipsykotiska läkemedel. Andra psykofarmaka med klinisk antikolinerg effekt inkluderar hydroxyzin, alimemazin (?), prometazin, paroxetin, tricykliska antidepressiva, och förstås biperiden [@Gardner2010chapter1].
+
+
+```{r antipsychotics-anticholinergic, fig.cap = "Antikolinerga effekter av antipsykotiska läkemedel [@Gardner2010chapter1]" } 
+
+tbl <- fread('../notes/antipsychotics_anticholinergic.csv')
+
+tbl <- tbl[,c("antipsychotic", "clinical_anticholinergic", "binding_affinity")]
+
+tbl <- setorder(tbl, -clinical_anticholinergic)
+
+tbl[["antipsychotic"]] <- as.factor(query_label(tbl[["antipsychotic"]], varnames))
+
+tbl[["antipsychotic"]] <- ordered(tbl[["antipsychotic"]], levels = tbl[["antipsychotic"]])
+
+p <- ggplot(aes(x = antipsychotic, y = clinical_anticholinergic, fill = antipsychotic), data = tbl)
+
+## cbp1 <- c("#999999", "#E69F00", "#56B4E9", "#009E73",
+##           "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+##     scale_fill_manual(values=cbp1)
+    ## scale_fill_brewer(palette="Set1")
+
+p + geom_bar(position="dodge", stat="identity") + coord_flip() +
+    theme_classic(base_size = 12) +
+    xlab("Antipsykotiskt läkemedel") +
+    ylab("Klinisk antikolinerg effekt") +
+    theme(legend.position = "none")
+
+## scale_fill_gradient(low = "green", high = "red")
+## kable(tbl, format = "markdown")
+
+``` 
+ 
+Se även Stahl Clin Psychiatry 2003 Psychopharmacology of Ziprasidone \cite{Stahl2003} som innehåller figurer med olika antipsykotiska läkemedels bindingsprofiler.
+
+Amitriptylin antikolinergt och sedarande, nortriptylin är dess metabolit som saknar dessa egenskaper.
+
+## Inverkan på kramptröskel
+
+The Impact of Psychoactive Drugs on Seizures and Antiepileptic Drugs \cite{Habibi2016}
+
+Se tabell i Maudsley. Risperidon samam effekt som placebo på kramptröskeln.
 
 
