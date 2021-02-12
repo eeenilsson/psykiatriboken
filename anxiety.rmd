@@ -1,0 +1,49 @@
+# Ångest
+
+## Ångestsyndrom hos barn
+
+Tre relaterade ångestsyndromen hos barn är generaliserat ångestsyndrom, social ångest och separationsångest. Förekomsten av dessa medför ökad risk för liknande problem, samt tillkomst av depression och drog/alkoholberoende [@Wehry2015].
+
+Spontan remission förekommer, men oftast är besvären persisterande med varierande svårighetsgrad över tid. De ändrar ibland karaktär under utvecklingsåren och senare under livet. Faktorer kopplade till sämre prognos är kvinnligt kön, högre ålder, förstagradssläkting med ångestsyndrom, högre symtomnivå vid diagnos, och flera samtidiga ångestsyndrom. Bra familjefungerande kan vara skyddande [@Wehry2015].
+
+ Både psykoterapi (tex KBT) och läkemedel (SSRI inklusive sertralin, paroxetin och fluoxetin; SNRI inklusive venlafaxin, TCA) har effekt. Kombinationsbehandling med läkemedel och psykoterapi har i vissa studier varit mer effektivt än endera. Atomoxetin har effekt mot ångest vid samtidig ADHD. Buspiron har ej visat effekt mot ångest hos barn, ej heller bensodiazepiner. Optimal dosering och behandlingslängd är okänd [@Wehry2015].
+
+Spence Children’s Anxiety Scale kan användas för screening, stöd för diagnostik, och att följa behandlingseffekt. En svensk version finns på sfbup.
+
+Se Assessment and Treatment of Anxiety Disorders in Children and Adolescents Anna M. Wehry [@Wehry2015] 
+
+<!-- ## Epidemiology -->
+
+<!-- 20% av barn och unga har ångestsyndrom. Associerat med ökad risk för senare problem inkl ångestsyndrom, drogberoende, och depression. -->
+
+<!--  Ofta samsjuklighet mellan social ångest, generaliserad ångest, och separationsångest. Kan ses som en "triad" med liknande utveckling, respons på farmakologisk och psykoterpaeutisk behandling. -->
+
+<!-- Spontan remission förekommer, men vanligen persisterande med uppgång och nedgång och att bevsären ändrar karaktär under utvecklingen och senare under livet. -->
+
+<!-- Faktorer associerade m sämre prognos: Högre ålder, förstagradssläkting m ångestsyndrom, högre symtomnivå vid diagnos, flera komorbiditeter. -->
+
+<!-- Faktorer associerade m bättre prognos: Manligt kön, bättre familjefungerande, -->
+
+<!-- ## Neurobiology -->
+
+<!-- Flera nätverk och strukturer implicerade. Amygdala, cingulate cortex, och VLPFC kan ha ventrala roller.  -->
+
+<!-- ## Rating scales -->
+
+<!-- Several well-studied child self-report screening measures for anxiety exist and may be used in patients >8 years of age. First, the Multidimensional Anxiety Scale for Children [33], and the Screen for Child Anxiety and Related Emotional Disorders (SCARED) [34], and the Spence Children’s Anxiety Scale (SCAS) [35] were developed to be sensitive and specific for assessing anxiety in youth and are useful in clinical practice to monitor treatment progress [36]. The Preschool Anxiety Scale is a parent report adapted from the SCAS that was developed for screening for anxiety in young children (ages 2.5 to 6.5). The SCARED and SCAS are available online/free access. Second, the Pediatric Anxiety Rating Scale, which is frequently utilized as a primary or secondary outcome measure in psychopharmacologic trials of youth, is a clinician-rated measure used to assess the severity of anxiety symptoms and change over time [37]. Third, with regard to social phobia or social anxiety, the Social Anxiety Scale, the Social Worries Questionnaire, and the social phobia subscale of SCARED are brief screening measures for social phobia/social anxiety symptoms. Fourth, a set of novel dimensional anxiety scales was recently generated during the DSM revision process to support clinical decision-making and monitoring treatment progress (www.psychiatry.org/dsm5). These self-rated scales can be used for children aged 11 or older and comprise the core constructs of fear and anxiety together with cognitive, physical and behavioral symptoms in a consistent and brief way, using a common template for each of the anxiety disorders -->
+
+<!-- Dimensional scales, se: https://onlinelibrary.wiley.com/doi/full/10.1002/mpr.1369 -->
+
+<!-- Skattningsskalor SFBUP (SCAS): http://www.sfbup.se/vard/skattningsskalor/ -->
+
+<!-- ## Treatment -->
+
+<!-- In a large, multisite study of youth with moderate to severe GAD, SoP and SAD, the Child/Adolescent Anxiety Multimodal Study (CAMS), 488 children and adolescents (aged 7-17 years) were randomized to one of three treatment groups (sertraline monotherapy, cognitive behavioral therapy [CBT], or sertraline + CBT) for 12 weeks [7]. In terms of clinical improvement and symptom severity, all treatment groups were superior to placebo (24%), and the combination therapy (sertraline + CBT) was significantly more efficacious (81%) than either group treated with either medication (55%) or CBT (60%) alone. the naturalistic 6-year follow-up study of this sample (n=288) revealed that these treatment effects were durable and sustained, with remission rates of 48.8%, 51.9%, and 45.8% for combination therapy, sertraline only, and CBT only, respectively.  Alternatively, nearly half of the acute responders relapsed during the follow-up period. -->
+
+<!-- Social Effectiveness Therapy for Children (SET-C) versus fluoxetine or placebo in children and adolescents aged 7-17 with social phobia (n=122). SET-C was more effective than placebo on primary outcome measures and specific symptom measures. Additionally, SET-C was superior to fluoxetine in terms of rate of treatment response (79% versus 36.4%, p<0.001), lack of posttreatment diagnosis, and higher end-state functioning [39].  -->
+
+<!-- SSRI (inkl Sertralin, fluoxetin) och SNRI (venlafaxin, paroxetin mm), och TCA har effekt. -->
+
+<!-- Atomoxetine has been evaluated in youth with ADHD and a co-occurring anxiety disorders (SAD, GAD and/or SoP; PARS score ≥15) in a 12-week, multicenter, double-blind, placebo-controlled study [70]. Patients (aged 8-17 years, mean age: 12.0±3.0 years, N=176) were treated with atomoxetine which was titrated to 1.8 mg/kg/day (mean dose: 1.3 mg/kg/day). Reductions in both anxiety and ADHD symptoms were observed with atomoxetine treatment and this SNRI was well-tolerated, although decreased appetite was more frequently observed in atomoxetine-treated patients -->
+
+<!-- Relatedly, few studies have examined optimal “dosing” of either psychotherapeutic or psychopharmacologic treatments and little is known regarding next-step interventions for youth with anxiety disorders, who do not response to initial evidence-based strategies. Finally, the optimal duration of treatment for pediatric patients with anxiety disorders is generally unknown, with both psychopharmacolgic and psychotherapeutic studies being frequently focused on short-term, acute effects. -->

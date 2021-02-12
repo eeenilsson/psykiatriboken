@@ -44,13 +44,13 @@ Kombinara antidepressiva? Tilltalande kanske men verkar inte fungera i praktiken
 
 Barn vilkas mammor använt SSRI under förlossning får oftare för tidig födsel, lägre födslovikt, autism och ADHD [@Sujan2017]. Detta kan bero på att depression är genetiskt kopplat till dessa tillstånd, vilket innebär att mammor som är deprimerade oftare har en genetisk uppsättning som också är förknippat med ADHD eller autism. Det kan också bero på att depressionen i sig är skadlig för barnet. En annan tänkbar förklaring är att de läkemedel som ges vi depression påverkar fostret.
 
-Potentiella risker skiljer med SSRI-behandling sig åt mellan olika delar av graviditeten. Exempelvis befaras att vissa SSRI under tidig graviditet kan öka risken för medfött hjärtfel. Riskökningen är dock liten. SSRI-behandling under senare delen av graviditeten kan ge utsättningssymptom hos barnet och eventuellt öka risken för pulmonell hypertension (hos barnet). 
+Potentiella risker med SSRI-behandling skiljer sig åt mellan olika delar av graviditeten. Exempelvis befaras att vissa SSRI under tidig graviditet kan öka risken för medfött hjärtfel. Riskökningen är dock liten. SSRI-behandling under senare delen av graviditeten kan ge utsättningssymptom hos barnet och eventuellt öka risken för pulmonell hypertension hos barnet. 
 
-Angående risken för ADHD och autism har en stor svensk studie visat att det inte föreligger någon ökad risk för autism eller ADHD [@Sujan2017]. Man såg även att om barnets pappa använde antidepressiva, eller om mamman använt antidepressiva _före_ graviditeten ökade risken för ADHD och autism, vilket talar för att det är familjefaktorer snarare än läkemedlen som orsakar den ökade risken för dessa tillstånd.
+Angående risken för ADHD och autism har en stor svensk studie visat att det inte föreligger någon ökad risk för autism eller ADHD [@Sujan2017]. Man såg även att om barnets pappa använde antidepressiva, eller om mamman använt antidepressiva _före_ graviditeten, ökade risken för ADHD och autism, vilket talar för att det är familjefaktorer snarare än läkemedlen som orsakar den ökade risken för dessa tillstånd.
 
 I praktiken får de små riskerna vägas mot behovet av behandling. De SSRI som anses medföra lägst risker för barnet (fluoxetin, citalopram ?) bör ges.
 
-Mycket litet av läkemedlen finns i bröstmjölken. Som försiktighetsåtgärd rekommenderas inte SSRI under amning, men riskerna är troligen mycket små och får vägas mot behovet.
+Mycket litet av läkemedlen finns i bröstmjölken. Som försiktighetsåtgärd avråds från SSRI under amning, men riskerna är troligen mycket små och får vägas mot behovet.
 
 Sertralin anses säkert både vid graviditet och amning.
 
@@ -402,8 +402,27 @@ Ziprasidon QTT-förlängande, även kvetiapin.
 
 Pacher Cardiovascular Side Effects of New Antidepressants and Antipsychotics: New Drugs, old Concerns? 2004
 
+## Antikolinerga biverkningar
 
-## Antikolinerga biverkningar av antipsykotiska läkemedel
+### Antikolinerga biverkningar av antipsykotiska läkemedel
+
+Acetylkolin är en signalsubstans i hjärnan och perifera nervsystemet. I hjärnan är acetylkolin inblandat i minne och inlärning. I andra organ ger kolinerga signaler muskelkontraktion [@Riedel1995].
+
+```{r table-anticholinergic-symtoms} 
+
+tbl <- fread('../notes/anticholinergic_symtoms.csv', header=TRUE)
+tbl <- tbl[,1:3]
+tbl_cns <- tbl[location=="cns",]
+tbl_pns <- tbl[location=="pns",]
+
+kable(tbl_cns[,-1])
+kable(tbl_pns[,-1])
+
+``` 
+
+Ett flertal läkemedel har antikolinerga effekter, vilket i CNS kan ge konfusion och minnesproblem. Äldre är mer känsliga för dessa effekter.
+
+Läkemedel som saknar farmakodynamisk effekt på muskarinreceptorer kan ändå ha en pseudoantikolinerg effekt via effekter histamin H1 och alfa1-adrenerga receptorer (tex trazodon, fluvoxamin) [@Riedel1995]. 
 
 Se Bokkapitel [@Gardner2010chapter1] i boken Antipsychotics and their side effects.
 
@@ -443,6 +462,10 @@ p + geom_bar(position="dodge", stat="identity") + coord_flip() +
 Se även Stahl Clin Psychiatry 2003 Psychopharmacology of Ziprasidone \cite{Stahl2003} som innehåller figurer med olika antipsykotiska läkemedels bindingsprofiler.
 
 Amitriptylin antikolinergt och sedarande, nortriptylin är dess metabolit som saknar dessa egenskaper.
+
+### Antikolinerga effekter av antidepressiva
+
+Främst är det de tricykliska antidepresisva som har betydande anikolinerga effekter. Inom gruppen TCA skiljer sig läkemedlen åt. Amitriptyline och doxepin har starka antikolinerga effekter, emedan tex nortriptylin har en något mindre antikolinerg effekt [@Riedel1995]. 
 
 ## Inverkan på kramptröskel
 

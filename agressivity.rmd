@@ -63,12 +63,15 @@ Lorazepam är lika effektivt som haloperidol + prometazin (?)
 
 Prometazin, Eftersom prometazin har vävnadsretande egenskaper måste läkemedlet injiceras djupt i muskeln (1-2 cm in i muskeln) för att undvika risk för subkutan injektion. Bruten stickkanal.
 
-Doser över 2 ml bör övervägas att delas upp på två injektioner pga risk för smärta och högt tryck i den injicerade muskeln vilket kan leda till att injektionsvätska pressas ut.Subkutan injektionsteknik där huden ”nyps ihop” ska inte användas.Om patienten under lång tid fått t.ex. depåinjektioner, undvik att injicera akut lugnande injektion vid samma injektionsställe. Injicera långsamt, idealt ca 1 ml/10 sek för att maximera upptag i muskeln.
+- Doser över 2 ml kan delas upp på två injektioner pga risk för smärta och högt tryck i den injicerade muskeln som kan leda till att injektionsvätska pressas ut. 
+- Undvik att använda subkutan injektionsteknik där huden ”nyps ihop”.
+- Om patienten under lång tid fått upprepade injektioner, undvik att injicera akut lugnande injektion vid samma injektionsställe. 
+- Injicera långsamt, ca 1 ml/10 sek, för att maximera upptag i muskeln.
 
 #### Övervakning efter akut lugnande injektion
 
 Efter given akut lugnande injektion:
-- Sjuksköterska/skötare övervakar och journalför under tre timmar: puls, blodtryck, andningsfrekvens, O2-saturation, temp, vakenhetsgrad, extrapyramidala biverkningar.
+- Sjuksköterska/skötare övervakar och journalför under tre timmar: Puls, blodtryck, andningsfrekvens, O2-saturation, temp, vakenhetsgrad, extrapyramidala biverkningar.
 - Läkare beslutar om ev. utökad övervakningsintervall. 
 - Effekt utvärderas efter 20-30 min för beslut om ev. ytterligare åtgärd.
 
