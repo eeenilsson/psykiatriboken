@@ -40,67 +40,11 @@ LRV kan ses som en avgränsing av personens relativa mänskliga rättigheter (sk
 
 Förutom de fall där en person dömts till rättspsykiatrisk vård bedrivs sådan vård även även när en person som är anhållen, häktad eller intagen på kriminalvårdsanstalt behöver psykiatrisk vård som inte kan tillgodoses där personen är frihetsberövad. 
 
-Sådan vård kan bedrivas på frivillig grund (enligt HSL) eller genom tvångsvård. För tvångsvård skrivs ett vårdintyg enligt LRV 5 § och rutan 2b används istället för rutan 2a i blanketten. Därmed behöver det i sådana fall inte finnas ett oundgängligt behov av vård. Övriga kriterier för psykiatrisk tvångsvård (APS och att personen motsätter sig vård) behöver vara uppfyllda. Om personen redan vårdas inneliggande enligt HSL kan intagningsbeslut fattas utan föregående vårdintyg (LRV 5 §)<!-- Eftersom personen redan är frihetsberövad - vi är en slags frihetsberövande -->. Vid pågående vård enligt LPT övergår vården automatiskt till LRV (LRV 4 §).<!-- Om vårdintyg skrivits men intagningsbeslut ej fattats och personen blir häktad, enligt vilken paragraf skall då intagningsbeslutet fattas? -->
+Sådan vård kan bedrivas på frivillig grund (enligt HSL) eller genom tvångsvård. För tvångsvård skrivs ett vårdintyg enligt LRV 5 § och rutan 2b används istället för rutan 2a i blanketten. Därmed behöver det i sådana fall inte finnas ett oundgängligt behov av vård. Övriga kriterier för psykiatrisk tvångsvård (APS och att personen motsätter sig vård) behöver vara uppfyllda. Om personen redan vårdas inneliggande enligt HSL kan intagningsbeslut fattas utan föregående vårdintyg (LRV 5 §)<!-- Eftersom personen redan är frihetsberövad - vi är en slags frihetsberövande -->. Vid pågående vård enligt LPT övergår vården automatiskt till LRV (LRV 4 §). Om intagningsbeslut ännu ej fattats görs det med det aktuella vårdintyget (något nytt behöver ej göras).<!-- Om vårdintyg skrivits men intagningsbeslut ej fattats och personen blir häktad, enligt vilken paragraf skall då intagningsbeslutet fattas? -->
 
 Akut tvångsvård enligt LRV upphör omedelbart när frihetsberövandet upphör (§15 LRV). Detta gäller även tvångsvård där vårdintyg och intagningsbeslut gjorts. Då görs en LPT 14 § bedömning av chefsöverläkaren, där intagningsbeslut kan fattas utan föregående vårdintyg, och utan att farlighetskriteriet behöver vara uppfyllt (de vanliga kriterierna för LPT gäller). När det gäller tidsfrister för ansökan till förvaltningsrätten motsvarar detta LPT 11 § (konvertering).
 
 Kriminalvården beslutar om säkerheten för den som är anhållen, häktad eller intagen på kriminalvårdsanstalt. Alternativen blir då: Vård på den plats där personen är frihetsberövad, allmänpsykiatrisk avdelning med häktespersonal på plats, flytt till rättspsykiatrisk avdelning, eller öppenvård med vistelse i häktet.
-
-## Rättspsykiatrisk undersökning (RPU)
-
-Personen vistas på en utredningsenhet vid rättsmedicinalverket under en period. Utredningen görs utifrån observationer under vistelsen och olika källor. Sådana källor kan vara handlingar i brottsmål, uppgifter från socialkontor och häkte, journaluppgifter, och kontakt med anhöriga om pesonen tillåter.
-
-Olika yrkesgrupper gör delutredningar (medicinsk-psykiatrisk utredning, socialutredning, psykologutredning, omvårdnadsutredning) som ligger till grund för ett rättspsykiatriskt utlåtande som är utformat enligt rättsmedicinalverkets föreskrifter (HSLF-FS 2015:31) och utfärdas av en specialist i rättspsykiatri.
-
-Undersökningen skall besvara domstolens frågeställningar som kan vara om APS förelåg vid gärningen respektive undersökningen, samt om personen till följd av APS saknat förmåga att inse gärningens innebörd eller att anpassa sitt handlande efter sådan insikt och om det därmed finns medicinska förutsättningar att överlämna honom till RPV. Man rekommenderar även huruvida den rättspsykiatriska vården bör ges med SUP. Man kan även uttala sig om huruvida det till följd av den psykiska störningen finns risk för återfall i brottslighet av allvarligt slag.
-
-## Rättspsykiatrisk vård efter dom
-
-Den rättspsykiatriska vården (att jämföra med rättspsykiatrisk utredning) startar efter att domen vunnit laga kraft. Det är en icke tidsbestämd påföljd. Fyra månader efter att domen vunnit laga kraft ansöker chefsöverläkaren om fortsatt vård (med SUP enligt LRV §16a, utan SUP enligt §12a). Fortsatt LRV prövas efter chefsöverläkarens ansökan i förvaltningsrätten var 6:e månad.
-
-<!-- Diagnoser se notes/rpv_huvuddiagnos.csv -->
-
-Syftet med vården är att förbättra patientens tillstånd och samhällsskydd genom inkapacitering och att minska risken för återfall i brottslighet. 
-
-### Vårdens innehåll
-
-Första 1-6 m: Utredning, Missbruk, HCR-20, Patientteam, Medicinering, Gå ut med personal
-
-Följande 1-12 m: Till Rehabiliteringsavd, Frigång, Permissioner, Psykologbedömning, Neuropsykiatrisk utredning
-
-Därefter: Aktivering, Sysselsättning, Veckoschema, Missbruksfrihet, Brottsbearbetning, Boende (vanligen LSS, stödboende)
-
-I Rättspsykiatrisk öppenvård: Behandlingshem, särskilt boende, lägenhet.
-
-### Friförmåner
-
-Under den rättspsykiatriska vården kan patienten ges friförmåner såsom frigång på området och permissioner utanför detsamma.
-
-För rättspsykiatrisk vård med SUP måste chefsöverläkaren ansöka om permissioner och Frigång (LRV §10a). Utan SUP beslutar chöl om friförmåner och kan själv besluta att LRV skall upphöra (§16a ?).
-
-Prognos grovt: 1/3 bättre inom ett år, 1/3 längre tid, 1/3 "aldrig".
-
-## Annan rättpsykiatrisk öppenvård
-
-Förutom de personer som dömts till RPV kan den rättspsykiatriska öppenvården även ta hand om personer från frivård eller kriminalanstalt som dömts med föreskrift om behandling av missbruk eller psykiska, ofta i kombination med återkommande våldskriminalitet. Dessa kan även vårdas inom allmänpsykiatrin. Frivården har då föreskrivit regler och kan ge sankioner om dessa bryts. Den prioriterade målsättningen inom sådan rättspsykiatrisk öppenvård är vanligen våldsriskreduktion.
-
-Ibland tar den rättspsykiatriska vården även hand om patienter från psykiatrin som har psykisk sjukdom, personlighetsstörning eller substansberoende med våldsbeteende. Detta är frivillig vård, där patienten ibland motiveras av att man annars måste avsluta kontakterna med allmänpsykiatrin och kanske gå miste om viss behandling.
-
-
-## Allvarlig psykisk störning
-
-Hit räknas väsentligen psykoser och psykosliknande tillstånd med minskad förmåga till verklighetsprövning.
-
-Psykosliknande tillstånd med minskad förmåga till verklighetsprövning kan förekomma vid tex hjärnskada, intellektuell funktionsnedsättning, demens, konfusion, och svår autism. Själva diagnosen räcker inte, utan det krävs också en påtaglig beteendestörning till följd av tillståndet.
-
-Vid antisocialt personlighetssyndrom, psykopati, pedofili, och sexuell sadism kan gärningarna vara mycket stötande men personen döms vanligen ej till rättspsykiatrisk vård eftersom personen har bevarad verklighetsprövning (vanligen får de ej heller något ångestpåslag vid gärningen).
-
-Vid psykossjukdom, bipolär sjukdom, psykotisk eller suicidal depression, svår autism, och svåra tvångssyndrom blir det vanligen RPV.
-
-Notera att det för fortsatt rättspsykiatrisk vård endast krävs en psykisk störning som ej behöver vara av allvarlig grad. Ett exempel är drogberoende med upprepade återfall, där APS ej uppfylls mellan återfallen.
-
-Resonemang om vad som räknas som en APS återfinns i [regeringens proposition (1990/91:58), Psykiatrisk
-tvångsvård m.m., särskilt sid. 82-87](https://www.riksdagen.se/sv/dokument-lagar/dokument/proposition/om-psykiatrisk-tvangsvard-mm_GE0358/html). Dock har praxis i vissa fall förändrats. Exempelvis krävs vanligen en högre grad av suicidalitet än vad som beskrivs i propositionen för att APS skall anses föreligga.
 
 ## Paragraf 7-undersökning {#paragraf-sju}
 
@@ -117,6 +61,61 @@ I vissa fall kan rätten begära en sk "vård-sjua". Personen kan då efter en p
 Se [rättsmedicinalverkets webbplats.](https://www.rmv.se/verksamheter/rattspsykiatri/paragraf-7-undersokning/)
 
  <!-- [TODO: Riktlinje för intyget? Behövs subspec rp?] -->
+
+## Rättspsykiatrisk undersökning (RPU)
+
+Personen vistas på en utredningsenhet vid rättsmedicinalverket under en period. Utredningen görs utifrån observationer under vistelsen och olika källor. Sådana källor kan vara handlingar i brottsmål, uppgifter från socialkontor och häkte, journaluppgifter, och kontakt med anhöriga om pesonen tillåter.
+
+Olika yrkesgrupper gör delutredningar (medicinsk-psykiatrisk utredning, socialutredning, psykologutredning, omvårdnadsutredning) som ligger till grund för ett rättspsykiatriskt utlåtande som är utformat enligt rättsmedicinalverkets föreskrifter (HSLF-FS 2015:31) och utfärdas av en specialist i rättspsykiatri.
+
+Undersökningen skall besvara domstolens frågeställningar som kan vara om APS förelåg vid gärningen respektive undersökningen, samt om personen till följd av APS saknat förmåga att inse gärningens innebörd eller att anpassa sitt handlande efter sådan insikt och om det därmed finns medicinska förutsättningar att överlämna honom till RPV. Man rekommenderar även huruvida den rättspsykiatriska vården bör ges med SUP. Man kan även uttala sig om huruvida det till följd av den psykiska störningen finns risk för återfall i brottslighet av allvarligt slag.
+
+## Rättspsykiatrisk vård efter dom
+
+Den rättspsykiatriska vården (att jämföra med rättspsykiatrisk utredning) startar efter att domen vunnit laga kraft. Det är en icke tidsbestämd påföljd. Fyra månader efter att domen vunnit laga kraft ansöker chefsöverläkaren om fortsatt vård (med SUP enligt LRV §16a, utan SUP enligt §12a). Fortsatt LRV prövas efter chefsöverläkarens ansökan i förvaltningsrätten var 6:e månad. Notera att det för fortsatt rättspsykiatrisk vård endast krävs en psykisk störning som ej behöver vara av allvarlig grad. Ett exempel är drogberoende med upprepade återfall, där APS ej uppfylls mellan återfallen.
+
+<!-- Diagnoser se notes/rpv_huvuddiagnos.csv -->
+
+Syftet med vården är att förbättra patientens tillstånd och samhällsskydd genom inkapacitering och att minska risken för återfall i brottslighet. 
+
+### Vårdens innehåll
+
+Ett vanligt förlopp är enligt följande.
+
+**De första 1-6 månaderna**: Utredning, Missbruk, HCR-20, Patientteam, Medicinering, Gå ut med personal
+
+**Följande 1-12 m:** Till Rehabiliteringsavd, Frigång, Permissioner, Psykologbedömning, Neuropsykiatrisk utredning
+
+**Därefter:** Aktivering, Sysselsättning, Veckoschema, Missbruksfrihet, Brottsbearbetning, Boende (vanligen LSS, stödboende)
+
+**Därefter, i rättspsykiatrisk öppenvård:** Behandlingshem, särskilt boende, lägenhet.
+
+### Friförmåner
+
+Under den rättspsykiatriska vården kan patienten ges friförmåner såsom frigång på området och permissioner utanför detsamma.
+
+För rättspsykiatrisk vård med SUP måste chefsöverläkaren ansöka om permissioner och Frigång (LRV §10a). Utan SUP beslutar chöl om friförmåner och kan själv besluta att LRV skall upphöra (§16a ?).
+
+Prognos grovt: 1/3 bättre inom ett år, 1/3 längre tid, 1/3 "aldrig".
+
+## Annan rättpsykiatrisk öppenvård
+
+Förutom de personer som dömts till RPV kan den rättspsykiatriska öppenvården även ta hand om personer från frivård eller kriminalanstalt som dömts med föreskrift om behandling av missbruk eller psykiska problem och som haft återkommande våldskriminalitet. Frivården har då föreskrivit regler och kan ge sankioner om dessa bryts. Den prioriterade målsättningen inom sådan rättspsykiatrisk öppenvård är vanligen våldsriskreduktion.
+
+Ibland tar rättspsykiatriska vårdenheter även hand om patienter från övriga psykiatrin som har psykisk sjukdom, personlighetsstörning eller substansberoende med våldsbeteende. Detta är frivillig vård, där patienten ibland motiveras av att man annars måste avsluta kontakterna med allmänpsykiatrin och kanske gå miste om viss behandling.
+
+
+## Allvarlig psykisk störning
+
+Hit räknas väsentligen psykoser och psykosliknande tillstånd med minskad förmåga till verklighetsprövning.
+
+Psykosliknande tillstånd med minskad förmåga till verklighetsprövning kan förekomma vid tex hjärnskada, intellektuell funktionsnedsättning, demens, konfusion, och svår autism. Själva diagnosen räcker inte, utan det krävs också en påtaglig beteendestörning till följd av tillståndet.
+
+Vid antisocialt personlighetssyndrom, psykopati, pedofili, och sexuell sadism kan gärningarna vara mycket stötande men personen döms vanligen ej till rättspsykiatrisk vård eftersom personen har bevarad verklighetsprövning (vanligen får de ej heller något ångestpåslag vid gärningen).
+
+Vid psykossjukdom, bipolär sjukdom, psykotisk eller suicidal depression, svår autism blir det vanligen dom till RPV snarare än fängelse.
+
+Resonemang om vad som räknas som en APS återfinns i [regeringens proposition (1990/91:58), Psykiatrisk tvångsvård m.m., särskilt sid. 82-87](https://www.riksdagen.se/sv/dokument-lagar/dokument/proposition/om-psykiatrisk-tvangsvard-mm_GE0358/html). Dock har praxis i vissa fall förändrats. Exempelvis krävs vanligen en högre grad av suicidalitet än vad som beskrivs i propositionen för att APS skall anses föreligga.
 
 ## Riskbedömning
 
@@ -214,5 +213,7 @@ JURIS Online, betaltjänst, http://www.juris.se/web/page.aspx?refid=10
 Lawline, gratis tjänst, https://lawline.se/
 
 Regeringens proposition 1990/91:58 om psykiatrisk tvångsvård mm (resonemang om allvarlig psykisk störning främst s82-102) https://www.riksdagen.se/sv/dokument-lagar/dokument/proposition/om-psykiatrisk-tvangsvard-mm_GE0358
+
+
 
 

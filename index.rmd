@@ -45,6 +45,8 @@ pacman::p_load(tidyverse,
                svglite,
                data.table)
 
+## detach(package:plyr) ## to avoid conflict w dplyr
+
 ## themes
 source('../functions/theme_polar.r')
 
