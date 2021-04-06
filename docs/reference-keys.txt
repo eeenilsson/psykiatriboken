@@ -163,8 +163,10 @@ minnesproblem
 kardiovaskulära-biverkningar
 ect-method
 den-elektriska-stimuleringen
+tillförd-strömdos
 pulsbredd
 elektrodplacering
+monitorering-under-ect-behandling
 behandlingsintervall-och-seriens-längd
 indexserien
 antal-behandlingar-per-vecka
