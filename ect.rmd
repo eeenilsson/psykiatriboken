@@ -1,10 +1,15 @@
 # Elektrokonvulsiv terapi
 
+Text
+
+[@Pearce2008]
+
+
 ## Inledning {#ect-introduction}
 
 Under 1700-talet användes kamfer (utvunnet av bark från kamferträdet _Cinnamomum camphora_) för att inducera kramper i syfte att bota mani och psykos [@Pearce2008]. Detta prövades igen på 1930-talet [@Gazdag2009]. Den första krampbehandlingen med elektricitet genomfördes 1938 [@Cerletti2018].
 
-Elektrokonvulsiv terapi (ECT) verkar genom att ett generaliserat krampanfall orsakas när ström leds genom hjärnan under några sekunder. Det epileptiska anfallet avslutar sig själv efter 30-60 sek. Behandlingen sker med läkemedel som ger muskelrelaxation under narkos [@spf2014ect].
+Elektrokonvulsiv terapi (ECT) verkar genom att ett generaliserat krampanfall orsakas när ström leds genom hjärnan under några sekunder. Det epileptiska anfallet avslutar sig själv efter 30-60 sek. Behandlingen sker med läkemedel som ger muskelrelaxation under narkos [@spf2014ect]. Sederingen görs främst för att muskelrelaxationen skall tolereras.
 
 <!-- London medical Journal 1785 William Oliver -->
 <!-- Historik: "Spontaneous fits of epilepsy were, in the mid-eighteenth century, thought to be antagonistic to psychosis (now called ‘alternative psychosis’), so artificially induced fits might similarly protect from mental illness. In the first edition of his book, Experimentum nascens de remedio specifico sub signo specifico in mania virorum (fig. 2) [4], Auenbrugger described his treatment of psychotic patients suffering from mania, with camphor, which has epileptogenic properties [5]. He was not the first to attempt treatment of psychoses by such means. In the 16th century in Switzerland, Paracelsus had induced seizures with camphor to treat psychosis [6]. Dr. Robert Whytt described similar treatment in 1751 in his book Observations on the Nature, Cause, and Cure of Those Disorders Which Are Commonly Called Nervous, Hypochondriac or Histeric [7]. Dr. William Oliver, in 1785, reported in The London Medical Gazette the histories of 2 patients to whom he had given oral camphor to induce fits." [https://www.karger.com/Article/FullText/109581] -->
@@ -151,29 +156,70 @@ ECT ges vanligen först som "indexserie", dvs att behandlingen ges tills symtomf
 
 ### Den elektriska stimuleringen
 
+Att det epilepsianfall som utlöses av ECT är generaliserat är viktigt för behandlingseffekten. Icke-generaliserade anfall har mindre terapeutisk effekt [@spf2014ect].
+
 Kramptröskeln är individuall och beror av faktorer som ålder, kön, medicinering och sjukdom [@spf2014ect]. Denna kan titreras fram, men för att förkorta tiden i narkos börjar man i praktiken med en strömdos baserad på en teoretisk beräkning.
 
-Tillförd strömdos, sk "ladningsdos", mäts i coulomb (C) och beräknas som strömstyrka (A) x tid (s). Tid är här pulsbredd (s) x antal pulser per sekund (Hz) x total stimuleringstid (s). Detta innebär i praktiken att ca 10% av total stimuleringstid är aktiv stimulering med tillförsel av elektrisk ström.
+Tillförd strömdos, sk "ladningsdos", mäts i coulomb (C) och beräknas som strömstyrka (A) x tid (s). Tid är här pulsbredd (s) x antal pulser per sekund (Hz) x total stimuleringstid (s). Detta innebär i praktiken att ca 10% av total stimuleringstid är aktiv stimulering med tillförsel av elektrisk ström. Notera att med bidirektionella pulser (vilket är standard), blir antalet pulser per sekund dubbla pulsfrekvensen.
 
-Kort pulsbredd (0.5-1 ms) är standard <!-- och ger mindre konfusion och amnesi än sinusvågform [ej konsekvent då pulsbredd och vågform ej är samma sak] --> [@spf2014ect]. Ultrakort (0.3 ms) är något mindre effektivt (mot depression?) men ger ännu mindre kognitiva biverkningar.
+**Lista:** Apparatvariabler och intervall
+- Strömstyrka: 0.8-0.9 A
+- Pulsbredd: 0.3-1 ms
+  - Ultrakort (ultra brief pulse): 0.3-0.5 ms
+  - Kort: 0.5-1.5 ms
+- Pulser per sekund: Ca 70 Hz = 140 pulser/sekund [Intervall?]
+- Total stimuleringstid: Ca 6 sek [Intervall?]
 
 > Exempel på beräkning av tillförd strömdos [@spf2014ect]: 0,8 A x [140 (antal pulser vid frekvens 70 Hz) x 0,5 x 10–3 (pulsbredd i sekunder) x 6 (total stimuleringstid i sekunder) s] = 0,8 A x 0,42 s = 0,336 As = 336 mC.
 
-Unilateral elektrodplacering (Right unilateral, RUL) är standard att börja med eftersom det minskar kognitiva biverkningar, men är mindre effektivt (mot depression eller för att uppnå kramp?). Vid uteblivet behandlingssvar efter 6-12 behandlingar kan bitemporal elektrodplacering övervägas, vilket ger snabbare effekt men större risk för kognitiva biverkningar.  [@spf2014ect]
+Med apparaturen "Thymatron" ställs dosen in i procent, där 200% är maximum och motsvarar 1000 mC. Strömstyrkan är alltid 900 mA och övriga variabler ställs in automatiskt av apparaten [efter att den uppmätt impedans?]. Med apparaturen "MECTA" anges variablerna separat.
 
-Sederingen görs för att muskelrelaxationen skall tolereras.
+Tips: Ha ej för bråttom att ge strömdosen. Ge behandlingen tidigast efter tre minuters sedering, då det antas vara lättare att utlösa krampanfallet i uppvakningsfasen. Om det epileptiska anfallet är svårutlöst, stimulera när sederingen börjar avta. <!-- i linköping tidigast efter 3 min,  awareness större vid insomning än uppvakning -->.
 
-Tips: Om det epileptiska anfallet är svårutlöst, stimulera när sederingen börjar avta, i linköping tidigast efter 3 min, awareness större vid insomning än uppvakning.
+#### Pulsbredd
 
-### Behandlingssekvens
+Bidirektionella pulser med kort pulsbredd (0.5-1 ms) är standard <!-- och ger mindre konfusion och amnesi än sinusvågform [ej konsekvent då pulsbredd och vågform ej är samma sak] --> [@spf2014ect]. 
 
-Vanligen ges behandlingen tre gånger per vecka under indexserien. Två gånger i veckan är lika effektivt och ger mindre kognitiva biverkningar, men också långsammare förbättring. Det behövs i medeltal 6-12 behandlingar för att behandla en depressiv episod.
+Ultrakort pulsbredd (0.3-0.5 ms) kräver lägre tillförd strömdos för att utlösa krampanfall, men ger i högre grad krampanfall som ej är helt generaliserade och lägre effektivitet i behandlingen. En potentiell fördel, som dock inte påvisats konsekvent, är minskade kognitiva biverkningar [@spf2014ect]
 
-Indexserie 2-3 ggr/vecka med 5-12 (M 7) behandlingar, eventuellt följt av fortsättningsserie upp till 6 mån utglesande, återfallsrisken lika som litium + nortiptylin.
+#### Elektrodplacering
 
-Underhållsbehandling med ECT ges ungefär en gång per månad.
+**Bitemporal elektrodplacering:** Elektroderna placeras bilateralt 3-4 cm ovan mittpunkten på en linje mellan tragus och yttre ögonvrån.
 
-Det finns ingen vetenskapligt befäst bortre gräns för antal behandlingar, och några hjärnskador ses ej på DT efter behandling, MEN epilepsi kan ge glios. Post-mortem studier fallbeskrivingar visar dock inga histologiska tecken på skada av ECT.
+**Unilateral elektrodplacering (right unilateral, RUL eller "placering enligt d'Elia"):** Ges över dominant hemisfär (vanligen höger sida både vid höger- och vänsterhänthet). Den högra elektroden placeras som vid bitemporal metod och den andra på vertex på samma sida (3 cm lateralt om medellinjen/sutura sagittalis i linje med tragus).
+
+**Bifrontal elektrodplacering:** Liknar bitemporal men är mindre undersökt och bör därför främst användas i forskningssammanhang.
+
+Unilateral placering kräver högre laddningsdos och ger längre tid till effekt (längre behandlingsserier), men minskar risken för akut konfusion och anterograd amnesi, jämfört med bilateral placering [@spf2014ect].
+
+Unilateral placering är standard i Sverige. Vid uteblivet behandlingssvar efter 6-12 behandlingar kan bitemporal elektrodplacering övervägas [@spf2014ect]. När snabb effekt är avgörande (exempelvis vid stuporös katatoni eller deliriös mani?) kan bitemporal metod vara att föredra.
+
+
+Notera att äldre apparatur använde sinusvågor som troligen gav minst 1.5 gånger större krampinducerande effekt [@spf2014ect], vilket kan ha betydelse vid värdering av tidigare forskning. 
+
+## Behandlingsintervall och seriens längd
+
+### Indexserien
+
+Vanligen ges behandlingen tre gånger per vecka under indexserien. Två gånger i veckan är lika effektivt och ger mindre kognitiva biverkningar, men också långsammare förbättring. Det behövs i medeltal 5-12 (M 7) behandlingar för att behandla en depressiv episod.
+
+### Antal behandlingar per vecka
+
+Vanligast är tre behandlingar per vecka med totalt 4-12 behandlingstillfällen. Vid tillstånd som ökar risken för konfusion (tex hög ålder) kan 1-2 behandlingar per vecka vara att föredra. Vid akuta livshotande tillstånd kan behandlineg ges dagligen och glesas ut när de mest mest akuta symtomen har hävts.
+
+### Fortsättnings-ECT
+
+Indexserien ibland förlängas med "fortsättnings-ECT" under max sex månader med glesare intervall, vars syfte är att bibehålla behandlingssvar och förebygga återfall. Återfallsrisken med fortsättningsbehandling är den samma som vid behandling med litium och nortiptylin.
+
+ECT ges en gång per vecka till en gång per månad i upp till sex månader, där gradvis utglesning är en metod som använts.
+
+Om symtom återkommer kan tätare behandling eller ny indexserie övervägas. Vid partiell respons eller snabbt återinsjuknande (några dagar) bör man överväga att avsluta behandlingen.
+
+### Underhålls-ECT
+
+Med syfte att förebygga återkommande sjukdomsskov kan behandlingen förlängas bortom sex månader efter indexserien. Vanligen ges då ECT varannan till var fjärde vecka, ibland en gång per vecka. Intervallet anpassas beroende på tolerans och effekt. Behandlingen bör utvärderas regelbundet men någon bortre gräns för antalet behandlingar finns ej.
+
+Det finns ingen vetenskapligt befäst bortre gräns för antal behandlingar, och några hjärnskador ses ej på DT efter behandling, MEN epilepsi kan ge glios. Post-mortem studier fallbeskrivingar visar dock inga histologiska tecken på skada av ECT. [Pia Nordanskog, Kurs]
 
 ### Samtidig läkemedelsbehandling
 
@@ -198,6 +244,7 @@ Kan försvåra induktion av kramp och bör därför minskas eller sättas ut.
 #### Antiepileptika
 
 Om dessa används för psykiatriska diagnoser bör de sättas ut eller sänkas. Vid epilepsi bör de hållas oförändrade, varvid man istället kan behöva höja stimulusintensiteten och ge ECT med bilateral elektrodplacering.
+
 
 ## Uppföljning och utvärdering av behandlingen
 
@@ -234,3 +281,5 @@ American Psychiatric Association (2001). A task force report on the practice of 
 include_graphics('../dropbox/images/psychiatry/rheobase_chronaxie.png')
 
 ``` 
+
+
