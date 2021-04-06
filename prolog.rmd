@@ -6,4 +6,4 @@ Målsättningarna med denna bok är att:
 2. Fungera som en uppslagsbok för kliniskt arbete.
 3. Ge hänvisningar till källor och fördjupningsmaterial.
 
-_kursiverade_ ord förklaras i ordlistan (kapitel \@ref(ordlista)).
+_Kursiverade_ ord förklaras i ordlistan (kapitel \@ref(ordlista)).

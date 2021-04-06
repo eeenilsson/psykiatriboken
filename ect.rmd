@@ -1,9 +1,5 @@
 # Elektrokonvulsiv terapi
 
-Text
-
-[@Pearce2008]
-
 
 ## Inledning {#ect-introduction}
 
@@ -144,7 +140,8 @@ ECT ger fysiologisk belastning på hjärtat. Den elektriska stimuleringen ger pa
 
 ECT ges vanligen först som "indexserie", dvs att behandlingen ges tills symtomfrihet inträder, vanligen tre gånger per vecka vid totalt 4-12(-20) tillfällen beroende på behandlingssvar. Om effekten varit tydlig kan indexserien ibland förlängas med "fortsättnings-ECT" under max sex månader med glesare intervall, vars syfte är att bibehålla behandlingssvar och förebygga återfall. Därefter kan även "underhålls-ECT" ges, där syftet är att förrebygga återkommande sjukdomsskov [@spf2014ect].
 
-**Lista:** Variabler vid stimuleringstillfället som kan ha betydelse för behandlingseffekt.
+**Lista**. Variabler vid stimuleringstillfället som kan ha betydelse för behandlingseffekt.
+
 - Elektrodplacering
 - Laddningsdos
   - Stimuleringstid
@@ -158,23 +155,41 @@ ECT ges vanligen först som "indexserie", dvs att behandlingen ges tills symtomf
 
 Att det epilepsianfall som utlöses av ECT är generaliserat är viktigt för behandlingseffekten. Icke-generaliserade anfall har mindre terapeutisk effekt [@spf2014ect].
 
-Kramptröskeln är individuall och beror av faktorer som ålder, kön, medicinering och sjukdom [@spf2014ect]. Denna kan titreras fram, men för att förkorta tiden i narkos börjar man i praktiken med en strömdos baserad på en teoretisk beräkning.
+#### Tillförd strömdos
+
+Kramptröskeln är individuell och beror av faktorer som ålder, kön, medicinering och sjukdom [@spf2014ect]. Denna kan titreras fram, men för att förkorta tiden i narkos börjar man i praktiken med en strömdos baserad på en teoretisk beräkning som vanligen utläses från en tabell som beror på apparatur och där ålder och kön tas med som variabler.
+
+Vid första behandlingen utgår man från den rekommenderade strömdosen och gör modifikationer utifrn tex ålder, medicinering, den psykiska sjukdomens sårighetsgrad mm. Utvärdera tidigare strömdos vid varje behandlingstillfälle och justera fortlöpande.
+
+**Lista**. Variabler som har betydelse för kramptröskeln [@Cerletti2018].
+
+- Kön: Män har högre kramptröskel.
+- Ålder: Högre ålder ger högre impedans och därmed behov av högre laddningsdos
+- Medicinering: Olika läkemdel kan höa eller sänka kramptröskeln.
+- Typ av anestesi.
+- Tidpunkt för stimulering i relation till narkosdjup
+- Tillståndets svårighetsgrad
+- Elektrodplacering
+
+> **Tips**. Ge behandlingen tidigast efter tre minuters sedering, då det antas vara lättare att utlösa krampanfallet i uppvakningsfasen än insomningsfasen. Om det epileptiska anfallet är svårutlöst, stimulera när sederingen börjar avta. <!-- i linköping tidigast efter 3 min,  awareness större vid insomning än uppvakning -->.
 
 Tillförd strömdos, sk "ladningsdos", mäts i coulomb (C) och beräknas som strömstyrka (A) x tid (s). Tid är här pulsbredd (s) x antal pulser per sekund (Hz) x total stimuleringstid (s). Detta innebär i praktiken att ca 10% av total stimuleringstid är aktiv stimulering med tillförsel av elektrisk ström. Notera att med bidirektionella pulser (vilket är standard), blir antalet pulser per sekund dubbla pulsfrekvensen.
 
-**Lista:** Apparatvariabler och intervall
+> **Exempel**. Beräkning av tillförd strömdos. 0,8 A x [140 (antal pulser vid frekvens 70 Hz) x 0,5 x 10^-3 (pulsbredd i sekunder) x 6 (total stimuleringstid i sekunder) s] = 0,8 A x 0,42 s = 0,336 As = 336 mC. Exemplet är hämtat från [@spf2014ect].
+
+Med apparaturen "Thymatron" ställs dosen in i procent, där 200% är maximum och motsvarar 1000 mC. Strömstyrkan är alltid 900 mA och övriga variabler ställs in automatiskt av apparaten [efter att den uppmätt impedans?]. Med apparaturen "MECTA" anges variablerna separat.
+
+**Lista**. Apparatvariabler och intervall.
+
 - Strömstyrka: 0.8-0.9 A
 - Pulsbredd: 0.3-1 ms
   - Ultrakort (ultra brief pulse): 0.3-0.5 ms
   - Kort: 0.5-1.5 ms
-- Pulser per sekund: Ca 70 Hz = 140 pulser/sekund [Intervall?]
-- Total stimuleringstid: Ca 6 sek [Intervall?]
+- Pulser per sekund: 70 Hz (ger 140 pulser/sekund)
+  - Kan vara mellan 30-120 Hz
+- Total stimuleringstid: 4-6 sek vid pulsbredd 0.5-1 ms
 
-> Exempel på beräkning av tillförd strömdos [@spf2014ect]: 0,8 A x [140 (antal pulser vid frekvens 70 Hz) x 0,5 x 10–3 (pulsbredd i sekunder) x 6 (total stimuleringstid i sekunder) s] = 0,8 A x 0,42 s = 0,336 As = 336 mC.
-
-Med apparaturen "Thymatron" ställs dosen in i procent, där 200% är maximum och motsvarar 1000 mC. Strömstyrkan är alltid 900 mA och övriga variabler ställs in automatiskt av apparaten [efter att den uppmätt impedans?]. Med apparaturen "MECTA" anges variablerna separat.
-
-Tips: Ha ej för bråttom att ge strömdosen. Ge behandlingen tidigast efter tre minuters sedering, då det antas vara lättare att utlösa krampanfallet i uppvakningsfasen. Om det epileptiska anfallet är svårutlöst, stimulera när sederingen börjar avta. <!-- i linköping tidigast efter 3 min,  awareness större vid insomning än uppvakning -->.
+Notera att äldre apparatur använde sinusvågor som troligen gav minst 1.5 gånger större krampinducerande effekt [@spf2014ect], vilket kan ha betydelse vid värdering av tidigare forskning. 
 
 #### Pulsbredd
 
@@ -195,7 +210,40 @@ Unilateral placering kräver högre laddningsdos och ger längre tid till effekt
 Unilateral placering är standard i Sverige. Vid uteblivet behandlingssvar efter 6-12 behandlingar kan bitemporal elektrodplacering övervägas [@spf2014ect]. När snabb effekt är avgörande (exempelvis vid stuporös katatoni eller deliriös mani?) kan bitemporal metod vara att föredra.
 
 
-Notera att äldre apparatur använde sinusvågor som troligen gav minst 1.5 gånger större krampinducerande effekt [@spf2014ect], vilket kan ha betydelse vid värdering av tidigare forskning. 
+#### Monitorering under ECT-behandling
+
+EEG-elektroder sätts bifrontalt och på nyckelbenet. EKG-övervakning och pulsoximeter (för kontinuerlig monitorering av puls och saturation) kopplas. Blodtryck registreras före och efter behandling. Maxpuls under behandlingen registreras.
+
+- Observera den motoriska krampens mönster
+- EEG-aktivitet
+- Kardiovaskulär respons
+- Postiktalt mentalt tillstånd
+
+**Lista**. Variabler för bedömning krampens kvalitet [grad av generalisering?]
+
+- Tid för motorisk aktivitet (> 20–30 sekunder).
+- Tid för epileptisk aktivitet (upp till 10–20 sekunder längre än motorisk aktivitet).
+- Kvaliteten på det motoriska anfallet (tecknen begränsas av muskelrelaxantia men kan ofta observeras)
+  - Initial tonisk fas 
+  - Successivt övergående i en symmetrisk tonisk-klonisk fas
+  - Avslutas distalt till proximalt med avtagande frekvens
+  - Notera eventuell sidoskillnad
+- Kvaliteten på EEG-mönstret
+  - Rekryteringsfas
+  - En fas med intensiv epileptisk aktivitet som successivt förlångsammas
+  - Övergår i mer långsamma vågor. Dessa upphör distinkt 
+  - och övergår i en postiktal suppression (ett rakt streck på EEG).
+- Kardiovaskulär respons
+  - pulsstegring under krampanfallet och
+  - blodtrycksstegring efter anfallet (bägge kan hämmas av beta-
+receptorblockerare).
+- Postiktal dåsighet och gradvis återhämtning av orienteringen.
+
+
+
+
+
+
 
 ## Behandlingsintervall och seriens längd
 
