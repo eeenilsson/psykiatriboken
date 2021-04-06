@@ -139,6 +139,9 @@ antikolinerga-biverkningar
 antikolinerga-biverkningar-av-antipsykotiska-läkemedel
 antikolinerga-effekter-av-antidepressiva
 inverkan-på-kramptröskel
+beskrivning-av-vissa-läkemedel
+beskrivning-av-biverkningar
+psykofarmakologi-tdp
 elektrokonvulsiv-terapi
 ect-introduction
 ect-indications

@@ -32,11 +32,7 @@ Kombinara antidepressiva? Tilltalande kanske men verkar inte fungera i praktiken
 
 ### Biverkningar
 
-**Hyperhidros** (svettningar) förekommer som kolinerg biverkan av exempelvis duloxetin. Kan behandlas med oxybutynin (off-label), som enligt NICE har effekt mot svettningarna och kan  i sin tur vara associerat med antikolinerga biverkningar såsom muntorrhet, urinretention och förstoppning (https://www.nice.org.uk/advice/es10/resources/hyperhidrosis-oxybutynin-pdf-1158108623557). Oxybutynin är kontraindicerat vid galukom, vissa gastrointestinala sjukdomar, urinretention och myastenia gravis.
-
-**Ökad blödningsrisk** hos medel som hämmar serotonintransportören, dvs SSRI, beroende på att denna finns även i blodplättarna. Bör tas hänsyn till om patienten tar antikoagulantia eller trombocythämmare.
-
-**QT-tidsförlängning** som kan leda till ventrikelarytmi av typen Torsade de Point. Se socialstyrelsens dokument om TdP [@socialstyrelsen2019tdp].
+Antidessiva kan ge tex hyperhidros (antikolinerg effekt), ökad blödningsrisk (SSRI), QT-tidsförlängning. Se avsnittet biverkningar.
 
 
 
@@ -195,8 +191,7 @@ Litium används främst vid bipolärt syndrom typ I men även vid bipolärt synd
 
 En fördel med litium är att det finns lång klinisk erfarenhet och att biverkningarna kan ses som lindriga jämfört med alternativen (tex antipsykotiska medel). Vid bipolärt syndrom typ I är litium det enda läkemedlet med dokumenterad effekt på både den maniska (stark dokumentation) och depressiva fasen (svagare dokumentation), både som akutbehandling och profylax, samt det enda läkemedlet med vetenskapligt stöd för antisuicidal effekt. Litiumbehandling kräver monitorering med blodprover var 4:e till 6:e månad.
 
-7. Verkningsmekanismen oklar. Sannolik mekanism är att Litium uppreglerar gener som kodar för
-cellskyddande proteiner och celltillväxt så att hjärncellerna blir fler, starkare och mer stabila (den neuroprotektiva hypotesen).
+Verkningsmekanismen oklar. Sannolik mekanism är att Litium uppreglerar gener som kodar för cellskyddande proteiner och celltillväxt så att hjärncellerna blir fler, starkare och mer stabila (den neuroprotektiva hypotesen).
 
 ### Historik
 
@@ -212,7 +207,7 @@ Personer med täta depressiva skov liknar bipolärt syndrom i fråga om heredite
 
 Cykloid psykos kan vara indikation för litium
 
-2. Li har fått ökat vetenskapligt stöd för behandling av bipolär sjukdom på senare år, bland annat när det använts som jämförelseläkemedel i långtidsstudierna av lamotrigin. Används också som tilläggsbehandling för unipolär depression, för att förebygga cycloid psykos och provas ibland mot borderlinetillstånd och patologisk impulsivitet.
+Li har fått ökat vetenskapligt stöd för behandling av bipolär sjukdom på senare år, bland annat när det använts som jämförelseläkemedel i långtidsstudierna av lamotrigin. Används också som tilläggsbehandling för unipolär depression, för att förebygga cycloid psykos och provas ibland mot borderlinetillstånd och patologisk impulsivitet.
 
 Senast (2010) som Socialstyrelsen rekommenderade något vad gäller bipolär sjukdom. För att förebygga återfall efter en manisk eller depressiv episod bör hälso-och sjukvården erbjuda: läkemedelsbehandling med litium (prioritet 1); läkemedelsbehandling med tillägg av psykologisk behandling med KBT (prioritet 2); patientutbildning (prioritet 3) och närståendeutbildning (prioritet 3) som komplement till återfallsförebyggande läkemedelsbehandling
 
@@ -230,7 +225,7 @@ Tabell med vanlighetsgrad
 - Kan ge biverkningar: diarré, tremor, törst, viktuppgång och i vissa fall kognitiv nedsättning (lindrig).
 - Toxisk i höga koncentrationer (uttorkning, njursjukdomar, feber, överdosering).
 
-6. Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l. 1,5-2,5 mmol/l ger lindrig– måttlig intoxikation med symtom av slöhet, tremor, yrsel, sluddrigt tal, diarré, muskelryckningar. Koncentrationer därutöver ger allvarlig intoxikation med risk för konfusion, agitation, njurskador, hallucinationer, kramper, koma och hjärtrytmrubbningar. För att undvika intoxikation ska alla patienter instrueras att tillfälligt utsätta Litium under några dagar vid risk för intorkning eller minskad njurfunktion (dvs hög feber, njursjukdom, svår diarré, vattenbrist). De ska instrueras att aldrig ta andra mediciner utan att fått dessa ordinerade av läkare som känner till att de tar Litium (paracetamol går bra).
+Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l. 1,5-2,5 mmol/l ger lindrig– måttlig intoxikation med symtom av slöhet, tremor, yrsel, sluddrigt tal, diarré, muskelryckningar. Koncentrationer därutöver ger allvarlig intoxikation med risk för konfusion, agitation, njurskador, hallucinationer, kramper, koma och hjärtrytmrubbningar. För att undvika intoxikation ska alla patienter instrueras att tillfälligt utsätta Litium under några dagar vid risk för intorkning eller minskad njurfunktion (dvs hög feber, njursjukdom, svår diarré, vattenbrist). De ska instrueras att aldrig ta andra mediciner utan att fått dessa ordinerade av läkare som känner till att de tar Litium (paracetamol går bra).
 
 2.5-3.0 mEq/L potentially dangerous evenin the absence of toxic symptoms  [@Deleon2016presentation]
 
@@ -257,11 +252,9 @@ Eliminering av litium via njurarna påverkas av:
 
 - Interaktion med vissa läkemedel
 
-
-3. Linjärt doskoncentrationssamband, d v s, dubbel dos ger dubbel koncentration.
+Linjärt doskoncentrationssamband, d v s, dubbel dos ger dubbel koncentration.
 
 Lithium clearance may also change independently of the glomerular filtration rate. It decreases for example during dehydration (water deficiency) and low sodium intake, pathological conditions with edema formation, treatment with diuretics, anti-hypertensive drugs, or non-steroid anti-inflammatory drugs. It increases during treatment with some vasodilating drugs. Thomsen och Schou
-
 
 Litiumkinetiken i njurarna är enlig följande:
 1. Andel som filtreras över glomerulära basalmembranet: 100%
@@ -283,7 +276,6 @@ peak plasma concentration at 1.0-2.0 hours for standard-release dosage forms, an
 ### Dosering i praktiken
 
 - Halvera litiumdos inför ECT (minskar risk för postiktal konfusion).
-
 - Interagerar med antiflogistika, tiaziddiuretika (ökar s-Li) och vissa hypertonimediciner (BBL, ACEi, CCB kan alla vara problematiska).
 - Koffein ökar eliminationen (rekommendera ett stabilt intag)
 - Känslig för försämrad njurfunktion.
@@ -317,8 +309,6 @@ Mania: up to 1.2 (Hiemke et al. 2012) ; 0.6–1.2 (Lexicomp, 2015); 0.8–2.0 (S
 Underhållsbehandling (icke-äldre):  
 
 Depression, augmentation: 0.6–0.9 (Boschr et al., 2014)
-
-
 
 Self- or hetero-aggressive behavior in adults with ID: 0.7-1.0 (Wickman & Reed,1
 
@@ -473,4 +463,115 @@ The Impact of Psychoactive Drugs on Seizures and Antiepileptic Drugs \cite{Habib
 
 Se tabell i Maudsley. Risperidon samam effekt som placebo på kramptröskeln.
 
+
+## Beskrivning av vissa läkemedel
+
+**Biperiden** (Akineton^&reg;): Centralt verkande antikolinergt läkemedel. Peroralt ges 1-2(–4) mg 1–4 gånger dagligen. Vid parenteral medicinering (akut dystoni) ges 2.5–5 mg intramuskulärt eller långsamt intravenöst. Vid behov kan dosen upprepas efter 30 minuter. Försiktighet till äldre, vid prostatahypertrofi, förhöjd krampbenägenhet, och takykardi.
+
+## Beskrivning av biverkningar
+
+**Hyperhidros** (svettningar) förekommer som kolinerg biverkan av exempelvis duloxetin. Kan behandlas med oxybutynin (off-label), som enligt NICE har effekt mot svettningarna och kan  i sin tur vara associerat med antikolinerga biverkningar såsom muntorrhet, urinretention och förstoppning (https://www.nice.org.uk/advice/es10/resources/hyperhidrosis-oxybutynin-pdf-1158108623557). Oxybutynin är kontraindicerat vid galukom, vissa gastrointestinala sjukdomar, urinretention och myastenia gravis.
+
+**Ökad blödningsrisk** hos medel som hämmar serotonintransportören, dvs SSRI, beroende på att denna finns även i blodplättarna. Bör tas hänsyn till om patienten tar antikoagulantia eller trombocythämmare.
+
+**QT-tidsförlängning** kan orsakas av olika läkemedelsgrupper såsom vissa antibiotika, antidepressiva, och antipsykotiska läkemedel. Det kan leda till ventrikelarytmi av typen Torsade de Point. Se [crediblemeds.org](https://crediblemeds.org/) för riskklassificering av olika läkemedel avseende arytmirisk. Se även socialstyrelsens dokument om TdP [@socialstyrelsen2019tdp]. Ett [QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446) kan användas för att avgöra när QT-tiden är riskabelt förlängd. Se avsnitt \@ref(psykofarmakologi-tdp) för mer information om arytmirisk. 
+
+### TdP {#psykofarmakologi-tdp}
+
+Olika psykotropa läkemedel medför varierande risk för Torsade de Point (TdP), vilket är en allvarlig arytmi.
+
+Några riskfaktorer för TdP [@socialstyrelsen2019tdp]:
+
+- Ålder > 65 år
+- Kvinna
+- Samtidig annat TdP-preparat
+- Interaktion som ökar plasmakoncentrationen
+- Hjärtsjukdom
+- Njur- eller leversjukdom
+- Elektrolytrubbningar
+  - Hypokalemi, hypomagnesemi eller hypocalcemi.
+  - Diuretika kan ge lågt kalium; PPI kan ge lågt magnesium.
+
+Om två eller fler riskfaktorer föreligger rekommenderas EKG före och efter insättning [@socialstyrelsen2019tdp]. Om QTc > 459 mm (alternativt använd [ett  QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446)) bör man välja icke-TdP-läkemedel.
+
+Läkemedel kan klassificeras utifrån risken att de orsakar TdP i sk TdP-klasser:
+- Fastställd risk för hjärtarytmi – TdP 1 
+- Misstänkt risk för hjärtarytmi – TdP2
+- Fastställd risk i vissa situationer för hjärtarytmi – TdP 3
+- Utan känd risk - TdP 0
+
+Observera att TdP1 betecknar högre risk än TdP3 men att TdP0 betyder ingen känd risk. Se [crediblemeds.org](https://crediblemeds.org/) för listor med riskklassificering av olika läkemedel.
+
+För personer som använder TdP-klassade läkemedel bör elektrolyter kontrolleras vid tex diarre och vid användning av diuretika eller protonpumpshämmare.
+
+TODO: Dubbelkolla dessa tabeller. 
+
+```{r tdp-prepare } 
+pacman::p_load(data.table)
+source('../functions/first.up.r')
+## TdP klassificering
+tbl <- fread('../notes/tdp_classes.csv')
+tbl$drug <- as.factor(tbl$drug)
+tbl[["tdp_class"]] <- factor(tbl[["tdp_class"]], ordered = TRUE, levels = c("1", "2", "3", "0"))
+tbl <- tbl[, .(drug_class, drug, tdp_class)]
+## tbl_antidepressant <- tbl[drug_class == "antidepressant"]
+## setkey(tbl_antidepressant, tdp_class)
+tbl[["drug"]] <- first.up(tbl[["drug"]])
+
+## antidepressiva
+tbl_antidepressant <- tbl[drug_class == "antidepressant" & tdp_class != "0", .(drug, tdp_class)]
+## names(tbl_antidepressant) <- c("Läkemedel", "TdP-klass")
+note_antidepressant <- paste0(
+    "Följende läkemedel är klassade som TdP0: ",
+    paste(tolower(tbl[drug_class == "antidepressant" & tdp_class == "0", .(drug)][[1]]), collapse = ", "),
+    "."
+)
+
+## antipsykotiska läkemedel
+tbl_antipsychotic <- tbl[drug_class == "antipsychotic" & tdp_class != "0", .(drug, tdp_class)]
+## names(tbl_antipsychotic) <- c("Läkemedel", "TdP-klass")
+note_antipsychotic <- paste0(
+    "Följende läkemedel är klassade som TdP0: ",
+    paste(tolower(tbl[drug_class == "antipsychotic" & tdp_class == "0", .(drug)][[1]]), collapse = ", "),
+    "."
+)
+
+## tbl <- tbl[, .(drug, tdp_class, or_death_65plus)]
+## tbl<- na.omit(tbl)
+## plot(tbl$tdp_class, tbl$or_death_65plus)
+
+lst <- list(tbl_antidepressant[tdp_class==1][[1]],
+            tbl_antidepressant[tdp_class==2][[1]],
+            tbl_antidepressant[tdp_class==3][[1]])
+table_antidepressant <- data.frame(sapply(lst, "length<-", max(lengths(lst))))
+names(table_antidepressant) <- c("Tdp1", "Tdp2", "Tdp3")
+
+lst <- list(tbl_antipsychotic[tdp_class==1][[1]],
+            tbl_antipsychotic[tdp_class==2][[1]],
+            tbl_antipsychotic[tdp_class==3][[1]])
+table_antipsychotic <- data.frame(sapply(lst, "length<-", max(lengths(lst))))
+names(table_antipsychotic) <- c("Tdp1", "Tdp2", "Tdp3")
+
+## se även presentationer/äldrepsykiatri
+
+``` 
+
+Tabell: TdP-klassificering av antidepressiva
+```{r table-tdp-antidepressant } 
+
+knitr::kable(table_antidepressant)
+
+``` 
+ 
+`r note_antidepressant ` Data är från 2020 och kan vara inaktuell när ny kunskap tillkommer.
+ 
+Tabell: TdP-klassning av antipsykotiska
+
+```{r table-tdp-antipsychotics } 
+
+kable(table_antipsychotic)
+
+``` 
+ 
+`r  note_antipsychotic` Data är från 2020 och kan vara inaktuell när ny kunskap tillkommer.
 

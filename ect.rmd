@@ -2,15 +2,21 @@
 
 ## Inledning {#ect-introduction}
 
-Elektrokonvulsiv terapi (ECT) verkar genom att ett generaliserat krampanfall induceras när ström leds genom hjärnan. Det epileptiska anfallet avslutar sig själv efter 30-60 sek.
+Under 1700-talet användes kamfer (utvunnet av bark från kamferträdet _Cinnamomum camphora_) för att inducera kramper i syfte att bota mani och psykos [@Pearce2008]. Detta prövades igen på 1930-talet [@Gazdag2009]. Den första krampbehandlingen med elektricitet genomfördes 1938 [@Cerletti2018].
+
+Elektrokonvulsiv terapi (ECT) verkar genom att ett generaliserat krampanfall orsakas när ström leds genom hjärnan under några sekunder. Det epileptiska anfallet avslutar sig själv efter 30-60 sek. Behandlingen sker med läkemedel som ger muskelrelaxation under narkos [@spf2014ect].
 
 <!-- London medical Journal 1785 William Oliver -->
 <!-- Historik: "Spontaneous fits of epilepsy were, in the mid-eighteenth century, thought to be antagonistic to psychosis (now called ‘alternative psychosis’), so artificially induced fits might similarly protect from mental illness. In the first edition of his book, Experimentum nascens de remedio specifico sub signo specifico in mania virorum (fig. 2) [4], Auenbrugger described his treatment of psychotic patients suffering from mania, with camphor, which has epileptogenic properties [5]. He was not the first to attempt treatment of psychoses by such means. In the 16th century in Switzerland, Paracelsus had induced seizures with camphor to treat psychosis [6]. Dr. Robert Whytt described similar treatment in 1751 in his book Observations on the Nature, Cause, and Cure of Those Disorders Which Are Commonly Called Nervous, Hypochondriac or Histeric [7]. Dr. William Oliver, in 1785, reported in The London Medical Gazette the histories of 2 patients to whom he had given oral camphor to induce fits." [https://www.karger.com/Article/FullText/109581] -->
 
+<!-- 2007 Leopold Auenbrugger Camphor-Induced Epilepsy Pearce -->
+<!-- Paracelsus, von den Krankheiten so der Vernunft berauben  -->
 
 ## Indikationer {#ect-indications}
 
-Rekommenderas som förstahandsbehandling vid svår (unipolär eller bipolär) depression med psykos, post-partum psykos, cycloid psykos, katatoni, och malignt neuroleptikasyndrom. Kan övervägas som förstahandsbehandling vid svår depression utan psykos, manisk episod med eller utan psykos, och post-partum depression. Behandlingen har mindre effekt vid medelsvår depression och då är upplevda biverkningar värre. Vid svårbehandlad depression (> 6 mån farmaka utan effekt) 45% svarar på ECT (jfr psykotisk depression enstaka episod där ca 80-90% svarar på ECT (Petrides et al 2001, Kellner et al 2006). ECT hjälper sannolikt inte vid depression med samtidigt personlighetssyndrom.
+Rekommenderas som förstahandsbehandling vid svår (unipolär eller bipolär) depression med psykos, post-partum psykos, cycloid psykos, katatoni (oavsett bakomliggande diagnos), och malignt neuroleptikasyndrom. Kan övervägas som förstahandsbehandling vid svår depression utan psykos, manisk episod med eller utan psykos, och post-partum depression [@spf2014ect]. Vid malign katatoni eller deliriös mani kan ECT ha en snabb och livräddande effekt [@spf2014ect]. De olika indikationerna beskrivs mer i detalj nedan.
+
+### Kontraindikationer och riskvärdering
 
 Några absoluta kontraindikationer finns inte. Intrakraniellt tryck ökar, men konsensus är att ECT är säkert vid små solitära tumörer som inte ger masseffekt, ödem eller ökat intrakraniellt tryck. Vid nylig ischemisk stroke är komplikationsrisken låg. 
 
@@ -57,6 +63,16 @@ Socialstyrelsen avråder från ECT vid ålder < 12 år. Övervägs dock vid exci
 <!-- - Ångestsyndrom -->
 <!-- - (Schizofreni) -->
 
+### Depression
+
+Behandlingen har mindre effekt vid medelsvår depression och då är upplevda biverkningar värre. Vid svårbehandlad depression (> 6 mån farmaka utan effekt) svarar 45% på ECT (jfr psykotisk depression enstaka episod där ca 80-90% svarar på ECT (Petrides et al 2001, Kellner et al 2006). ECT hjälper sannolikt inte vid depression med samtidigt personlighetssyndrom.
+
+Vid svår depression återfaller hälften inom ett år, vilket kan ske snabbt [@spf2014ect]. Detta motiverar tät uppföljning under första året.
+
+#### Återfallsförebyggande behandling
+
+Antidepressivt läkemedel i kombination med litium är förstahandsval <!-- om depression återkommer ? -->[@spf2014ect].
+
 ### Unipolär depression
 
 Prediktorer för sämre behandlingseffekt: Mer långvarig depression, psykotiska symtom, utebliven effekt av läkemedel. [?] Personlighetssyndrom? Låg Ålder?
@@ -95,13 +111,17 @@ Risken för allvarliga biverkningar är ungefär 1 på 10 000 behandlingar och e
 
 Ökad risk med bilateral elektrodplacering, hög strömstyrka, otillräcklig oxygenering, förlängd kramptid. Högre ålder eller bakomliggande neurologisk sjukdom ger ökad risk för svårare och mer långvariga besvär. Vid delirium bör ECT-serien avbrytas och om besvären då fortsätter bör utredning av annan orsak (tex hjärntumör) göras.
 
+Åtgärder vid konfusion eller minnesproblem kan vara att ändra elektrodplacering (till unilateral om bitemporal använts?), strömdos, behandlingsintervall, anestesimetod och samtidig läkemedelsbehandling [på vilket sätt?] [@spf2014ect]. 
+
 ### Postiktal agitation
 
 Desorientering, motorisk rastlöshet, panik och agressivitet. Uppträder hos 5-10%. 
 
 ### Minnesproblem
 
-20% upplever minnesstörningar. Vanligast är anterograd amnesi. Även verbalt, ickeverbalt och autobiografiskt minne kan påverkas. Påverkar främst minnen somm ligger nära i tid till behandlingen. ”Det saknas säkra vetenskapliga belägg som kan konkludera ett samband mellan ECT och kvarstående minnesluckor för andra perioder än sjukdomsskovet och behandlingstiden."
+Omkring 20% av de som behandlas med ECT upplever minnesstörningar. Den effekt som kunnat mätas är anterograd amnesi, dvs förmågan att lagra in nya minnen, i upp till några veckor efter avslutad ECT. Förmågan till minnesinlagring återställs sedan. Minnesluckor kan dock kvarstå, vanligen belägna till perioden med sjukdomsskov och behandling [@spf2014ect]. Vissa patienter upplever fortsatta minnesproblem. Dock har man inte kunnat påvisa några skillnader i detta avseende mellan grupper som behandlats med ECT jämfört med kontroller [REF].
+
+<!-- 20% upplever minnesstörningar. Vanligast är anterograd amnesi. Även verbalt, ickeverbalt och autobiografiskt minne kan påverkas. Påverkar främst minnen somm ligger nära i tid till behandlingen. ”Det saknas säkra vetenskapliga belägg som kan konkludera ett samband mellan ECT och kvarstående minnesluckor för andra perioder än sjukdomsskovet och behandlingstiden." -->
 
 Prognos: Besvären går över efter < 6 månader efter behandling. Kvartående minnesstörningar efter 6 mån är inte att förvänta och bör utredas. Demens? Tänk även på att text bensodiazepiner och valproat påverkar minnet.
 
@@ -117,13 +137,29 @@ ECT ger fysiologisk belastning på hjärtat. Den elektriska stimuleringen ger pa
 
 ## Metod {#ect-method}
 
+ECT ges vanligen först som "indexserie", dvs att behandlingen ges tills symtomfrihet inträder, vanligen tre gånger per vecka vid totalt 4-12(-20) tillfällen beroende på behandlingssvar. Om effekten varit tydlig kan indexserien ibland förlängas med "fortsättnings-ECT" under max sex månader med glesare intervall, vars syfte är att bibehålla behandlingssvar och förebygga återfall. Därefter kan även "underhålls-ECT" ges, där syftet är att förrebygga återkommande sjukdomsskov [@spf2014ect].
+
+**Lista:** Variabler vid stimuleringstillfället som kan ha betydelse för behandlingseffekt.
+- Elektrodplacering
+- Laddningsdos
+  - Stimuleringstid
+  - Strömstyrka
+  - Pulsfrekvens
+  - Pulsbredd
+- Anestesimetod
+- Samtidig läkemedelsbehandling
+
 ### Den elektriska stimuleringen
 
-Strömmen konstant. Laddningsdos (C) = ström (A) x tid (s). Dos (milliCoulombs)
+Kramptröskeln är individuall och beror av faktorer som ålder, kön, medicinering och sjukdom [@spf2014ect]. Denna kan titreras fram, men för att förkorta tiden i narkos börjar man i praktiken med en strömdos baserad på en teoretisk beräkning.
 
-Unilateral elektrodplacering (Right unilateral, RUL) är standard att börja med eftersom det minskar kognitiva biverkningar, men är mindre effektivt (mot depression eller för att uppnå kramp?). Vid uteblivet behandlingssvar efter 6-12 behandlingar kan bilateral placering övervägas.
+Tillförd strömdos, sk "ladningsdos", mäts i coulomb (C) och beräknas som strömstyrka (A) x tid (s). Tid är här pulsbredd (s) x antal pulser per sekund (Hz) x total stimuleringstid (s). Detta innebär i praktiken att ca 10% av total stimuleringstid är aktiv stimulering med tillförsel av elektrisk ström.
 
-Kortpuls vågform (0.5-1 ms) är standard och ger mindre konfusion och amnesi än sinusvågform. Ultrakort (0.3 ms) är något mindre effektivt (mot depression?) men ger ännu mindre kognitiva biverkningar.
+Kort pulsbredd (0.5-1 ms) är standard <!-- och ger mindre konfusion och amnesi än sinusvågform [ej konsekvent då pulsbredd och vågform ej är samma sak] --> [@spf2014ect]. Ultrakort (0.3 ms) är något mindre effektivt (mot depression?) men ger ännu mindre kognitiva biverkningar.
+
+> Exempel på beräkning av tillförd strömdos [@spf2014ect]: 0,8 A x [140 (antal pulser vid frekvens 70 Hz) x 0,5 x 10–3 (pulsbredd i sekunder) x 6 (total stimuleringstid i sekunder) s] = 0,8 A x 0,42 s = 0,336 As = 336 mC.
+
+Unilateral elektrodplacering (Right unilateral, RUL) är standard att börja med eftersom det minskar kognitiva biverkningar, men är mindre effektivt (mot depression eller för att uppnå kramp?). Vid uteblivet behandlingssvar efter 6-12 behandlingar kan bitemporal elektrodplacering övervägas, vilket ger snabbare effekt men större risk för kognitiva biverkningar.  [@spf2014ect]
 
 Sederingen görs för att muskelrelaxationen skall tolereras.
 
@@ -131,7 +167,7 @@ Tips: Om det epileptiska anfallet är svårutlöst, stimulera när sederingen b�
 
 ### Behandlingssekvens
 
-Vanligen tre gånger per vecka. Två gånger i veckan lika effektivt och ger mindre kognitiva biverkningar, men långsammare förbättring. Det behövs i medeltal 6-12 behandlingar för att behandla en depressiv episod.  
+Vanligen ges behandlingen tre gånger per vecka under indexserien. Två gånger i veckan är lika effektivt och ger mindre kognitiva biverkningar, men också långsammare förbättring. Det behövs i medeltal 6-12 behandlingar för att behandla en depressiv episod.
 
 Indexserie 2-3 ggr/vecka med 5-12 (M 7) behandlingar, eventuellt följt av fortsättningsserie upp till 6 mån utglesande, återfallsrisken lika som litium + nortiptylin.
 
@@ -163,11 +199,38 @@ Kan försvåra induktion av kramp och bör därför minskas eller sättas ut.
 
 Om dessa används för psykiatriska diagnoser bör de sättas ut eller sänkas. Vid epilepsi bör de hållas oförändrade, varvid man istället kan behöva höja stimulusintensiteten och ge ECT med bilateral elektrodplacering.
 
+## Uppföljning och utvärdering av behandlingen
+
+Behanlingsmålet är i allmänhet symtomfrihet. Regelbundna skattningar med Clinical Global Impression (CGI) och Montgomery Åsberg Depression Rating Scale (MADRS) eller liknande skattningsskalor rekommenderas.
+
+Vid utebliven effekt bör förnyad diagnostisk bedömning göras.
+
+Vid kortvarig effekt - Undvik onbödig behandling eller ge underhållsbehandling?
+
+Eftersfråga och testa minnesproblem [Hur?]. Om problem kvarstår bortom några veckor efter behandlingens avslut bör fördjupad utredning göras [vad?]. Bedöm om kvarvarande psykiska besvär, samtidig läkemedelsbehandling eller kan vara bidragande. [? Överväg om demens, alkoholöverkonsumtion, hjärntumör etc? kan föreligga]. Vid minnessvårigheter som bedöms bero på kvaravarande psykiska besvär kan fortsatt ECT-behandling vara av värde.
+
+Uppföljning sex månader efter index-ECT rekommenderas [@spf2014ect].
+
+## Information till patient och anhöriga
+
+- Informera om förväntade minnesbesvär
 
 ## Resurser
 
-SPF Kliniska riktlinjer, ECT.
+SPF Kliniska riktlinjer, ECT [@spf2014ect].
 
+American Psychiatric Association (1978). Report on the task force on electroconvulsive therapy. Washington, DC, APA. [@apa1978ect]
 
+American Psychiatric Association (2001). A task force report on the practice of electroconvulsive therapy; recommendations for treatment, training and privileging. Washington DC, American Psychiatric Association (APA). [@apa2001ect]
 
+## Definitioner
 
+**Reobas och kronaxi** är mått på excitabiliteten i en cell eller vävnad (**Figur \@ref(fig:rheobase-chronaxie)**). Inom neurovetenskap är reobas den minsta amplitud av ström som vid oändlig duration (i praktiken ca 300 ms) utlöser depolarisation av cellmembranet. Kronaxi är den duration under vilken elektrisk ström med amplitud motsvarande dubbla reobasen måste appliceras för att utlösa depolarisation (i praktiken ca 0.2 ms).
+
+<!-- RESEARCH ARTICLEChronaxie Measurements in PatternedNeuronal Cultures from Rat HippocampusShani Stern -->
+
+```{r rheobase-chronaxie, fig.cap='Reobas och kronaxi.' }
+
+include_graphics('../dropbox/images/psychiatry/rheobase_chronaxie.png')
+
+``` 
