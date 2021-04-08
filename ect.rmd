@@ -212,14 +212,16 @@ Unilateral placering är standard i Sverige. Vid uteblivet behandlingssvar efter
 
 #### Monitorering under ECT-behandling
 
-EEG-elektroder sätts bifrontalt och på nyckelbenet. EKG-övervakning och pulsoximeter (för kontinuerlig monitorering av puls och saturation) kopplas. Blodtryck registreras före och efter behandling. Maxpuls under behandlingen registreras.
+EEG-elektroder sätts bifrontalt och på nyckelbenet. EKG-övervakning och pulsoximeter (för kontinuerlig monitorering av puls och saturation) kopplas, liksom blodtrycksmaschett. 
 
-- Observera den motoriska krampens mönster
-- EEG-aktivitet
-- Kardiovaskulär respons
-- Postiktalt mentalt tillstånd
+**Lista**. Parametrar som observeras och registreras under behandlingen:
 
-**Lista**. Variabler för bedömning krampens kvalitet [grad av generalisering?]
+- Blodtryck före och efter behandling.
+- Maxpuls under behandling
+- Den motoriska krampens mönster (förlopp, utbredning, symmetri, duration)
+- EEG-aktivitet (symmetri, krampens duration, postiktal suppression)
+
+**Lista**. Variabler för bedömning krampens kvalitet
 
 - Tid för motorisk aktivitet (> 20–30 sekunder).
 - Tid för epileptisk aktivitet (upp till 10–20 sekunder längre än motorisk aktivitet).
@@ -231,19 +233,13 @@ EEG-elektroder sätts bifrontalt och på nyckelbenet. EKG-övervakning och pulso
 - Kvaliteten på EEG-mönstret
   - Rekryteringsfas
   - En fas med intensiv epileptisk aktivitet som successivt förlångsammas
-  - Övergår i mer långsamma vågor. Dessa upphör distinkt 
-  - och övergår i en postiktal suppression (ett rakt streck på EEG).
-- Kardiovaskulär respons
-  - pulsstegring under krampanfallet och
-  - blodtrycksstegring efter anfallet (bägge kan hämmas av beta-
-receptorblockerare).
+  - Övergår i mer långsamma vågor. 
+  - Dessa upphör distinkt och övergår i en postiktal suppression (ett rakt streck på EEG).
+- Kardiovaskulär respons (kan hämmas av beta-
+receptorblockerare)
+  - pulsstegring under krampanfallet (> 120)
+  - Blodtrycksstegring efter anfallet 
 - Postiktal dåsighet och gradvis återhämtning av orienteringen.
-
-
-
-
-
-
 
 ## Behandlingsintervall och seriens längd
 
