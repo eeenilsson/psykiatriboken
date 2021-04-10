@@ -1,3 +1,4 @@
+
 # Psykofarmakologi
 
  Monitoring: [@Hiemke2018]
@@ -72,6 +73,12 @@ The CATIE and CUtLASS studies in schizophrenia: results and implications for cli
 
 Inga skillnader mellan grupperna (SGA vs FGA) i fråga om livskvalitet eller symtom.
 
+
+### Kombinationsbehandling
+
+Clozapin + aripiprazol?
+
+Andra kombinationer?
 
 ### Motoriska biverkningar av anipsykotiska läkemedel
 
