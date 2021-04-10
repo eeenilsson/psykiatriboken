@@ -5,7 +5,7 @@
 
 Under 1700-talet användes kamfer (utvunnet av bark från kamferträdet _Cinnamomum camphora_) för att inducera kramper i syfte att bota mani och psykos [@Pearce2008]. Detta prövades igen på 1930-talet [@Gazdag2009]. Den första krampbehandlingen med elektricitet genomfördes 1938 [@Cerletti2018].
 
-Elektrokonvulsiv terapi (ECT) verkar genom att ett generaliserat krampanfall orsakas när ström leds genom hjärnan under några sekunder. Det epileptiska anfallet avslutar sig själv efter 30-60 sek. Behandlingen sker med läkemedel som ger muskelrelaxation under narkos [@spf2014ect]. Sederingen görs främst för att muskelrelaxationen skall tolereras.
+Elektrokonvulsiv terapi (ECT) verkar genom att ett generaliserat krampanfall orsakas när ström leds genom hjärnan under några sekunder. Det epileptiska anfallet avslutar sig själv efter 30-60 sek. Behandlingen sker med läkemedel som ger muskelrelaxation under narkos [@spf2014ect].
 
 <!-- London medical Journal 1785 William Oliver -->
 <!-- Historik: "Spontaneous fits of epilepsy were, in the mid-eighteenth century, thought to be antagonistic to psychosis (now called ‘alternative psychosis’), so artificially induced fits might similarly protect from mental illness. In the first edition of his book, Experimentum nascens de remedio specifico sub signo specifico in mania virorum (fig. 2) [4], Auenbrugger described his treatment of psychotic patients suffering from mania, with camphor, which has epileptogenic properties [5]. He was not the first to attempt treatment of psychoses by such means. In the 16th century in Switzerland, Paracelsus had induced seizures with camphor to treat psychosis [6]. Dr. Robert Whytt described similar treatment in 1751 in his book Observations on the Nature, Cause, and Cure of Those Disorders Which Are Commonly Called Nervous, Hypochondriac or Histeric [7]. Dr. William Oliver, in 1785, reported in The London Medical Gazette the histories of 2 patients to whom he had given oral camphor to induce fits." [https://www.karger.com/Article/FullText/109581] -->
@@ -159,7 +159,7 @@ Att det epilepsianfall som utlöses av ECT är generaliserat är viktigt för be
 
 Kramptröskeln är individuell och beror av faktorer som ålder, kön, medicinering och sjukdom [@spf2014ect]. Denna kan titreras fram, men för att förkorta tiden i narkos börjar man i praktiken med en strömdos baserad på en teoretisk beräkning som vanligen utläses från en tabell som beror på apparatur och där ålder och kön tas med som variabler.
 
-Vid första behandlingen utgår man från den rekommenderade strömdosen och gör modifikationer utifrn tex ålder, medicinering, den psykiska sjukdomens sårighetsgrad mm. Utvärdera tidigare strömdos vid varje behandlingstillfälle och justera fortlöpande.
+Vid första behandlingen utgår man från den rekommenderade strömdosen och gör modifikationer utifrån tex ålder, medicinering, den psykiska sjukdomens svårighetsgrad mm. Utvärdera tidigare strömdos vid varje behandlingstillfälle och justera fortlöpande.
 
 **Lista**. Variabler som har betydelse för kramptröskeln [@Cerletti2018].
 
@@ -171,7 +171,7 @@ Vid första behandlingen utgår man från den rekommenderade strömdosen och gö
 - Tillståndets svårighetsgrad
 - Elektrodplacering
 
-> **Tips**. Ge behandlingen tidigast efter tre minuters sedering, då det antas vara lättare att utlösa krampanfallet i uppvakningsfasen än insomningsfasen. Om det epileptiska anfallet är svårutlöst, stimulera när sederingen börjar avta. <!-- i linköping tidigast efter 3 min,  awareness större vid insomning än uppvakning -->.
+> **Tips**. Ge behandlingen tidigast efter tre minuters sedering, då det antas vara lättare att utlösa krampanfallet i uppvakningsfasen än insomningsfasen. Om det epileptiska anfallet är svårutlöst, stimulera när sederingen börjar avta.
 
 Tillförd strömdos, sk "ladningsdos", mäts i coulomb (C) och beräknas som strömstyrka (A) x tid (s). Tid är här pulsbredd (s) x antal pulser per sekund (Hz) x total stimuleringstid (s). Detta innebär i praktiken att ca 10% av total stimuleringstid är aktiv stimulering med tillförsel av elektrisk ström. Notera att med bidirektionella pulser (vilket är standard), blir antalet pulser per sekund dubbla pulsfrekvensen.
 
@@ -241,6 +241,63 @@ receptorblockerare)
   - Blodtrycksstegring efter anfallet 
 - Postiktal dåsighet och gradvis återhämtning av orienteringen.
 
+### Checklista för ECT-administration
+
+Första behandlingen ges vanligen enligt standardinställningar:
+
+- Elektrodplacering: Unilateral
+- Pulsbredd: 0.5 ms
+- Frekvens: 70 Hz
+- Stimuleringstid: 4 s
+- Strömstyrka: 800 A
+
+= 224 mC
+
+Receptet modifieras utifrån tillståndet, exempelvis vid behov av snabb effekt kan man börja med bitemporal elektrodplacering eller högre strömdos. Vid kramp av otillräcklig kvalitet ges restimulering, varvid  man antingen byter från unilateral till bitemporal elektrodplacering eller höjer strömdosen till ungefär det dubbla genom att exempelvis förlänga pulsbredden till 0.7-1 s.
+
+Läkemedel som ges i samband med behandlingen är vanligen:
+
+- Glykopyrron (Robinul&reg;) 0.1 mg , antikolinergikum mot slem i luftvägarna, ges om slembildning varit ett problem vid första behandlingen.
+- Thiopental (Pentocur&reg;) 3-6 mg/kg, narkosmedel, vid ECT vanligen i det lägre doseringsintervallet.
+- Propolipid (Propofol&reg;) ca 2 mg/kg, narkosmedel, höjer kramptröskeln.
+- Celocurin (Suxametonium&reg;), 1 mg/kg, muskelrelaxerande, 0.3-0.8 mg/kg ger total avslappning under 5-10 minuter.
+
+#### Lista behandlingsförfarande
+
+Förberedelser:
+
+- Glykopyrron om detta skall ges
+- Analgetika om detta skall ges
+- Antihistamin om tidigare histaminerg reaktion på tiopental
+
+Vid start: 
+
+- Blodtryck och puls
+- Koppla EEG-elektroder
+- Klistra på namnetikett på EEG-remsan
+- Applicera elektrodgel på ECT-plattorna (grå höger, brun vänster, grön på nyckelbenet)
+- Lägg fram bettkudde
+- Preoxygenering
+
+Förlopp:
+
+1. Narkosmedel injiceras. Starta timer (= 0 s). Pausa larm.
+2. Narkosdjup kontrolleras. Frånvaro av motorisk aktivitet och verbal respons räcker. Vid osäkerhet kontrolleras blinkreflex.
+3. Muskelrelaxerande injiceras (vid 40 s om tiopental givits, 60 s om propolipid givits).
+4. Bettkudde appliceras.
+5. Kontrollera att fascikulationer från muskelrelaxerande har upphört och att bettkudde applicerats.
+6. Stimulera (vid 2 min 40 s om tiopental; 3 min om propolipid).
+7. Observera:
+  - Motorisk kramp: Utbredning, symmetri, duration (markera på EEG-remsan)
+  - Maxpuls
+8. Kontrollera EEG och bedöm krampens kvalitet.
+9. Blodtryck och puls vid avslut.
+
+Efter:
+
+- Observation och oxygenering
+- Dokumentation
+
 ## Behandlingsintervall och seriens längd
 
 ### Indexserien
@@ -296,7 +353,7 @@ Behanlingsmålet är i allmänhet symtomfrihet. Regelbundna skattningar med Clin
 
 Vid utebliven effekt bör förnyad diagnostisk bedömning göras.
 
-Vid kortvarig effekt - Undvik onbödig behandling eller ge underhållsbehandling?
+Vid kortvarig effekt - Undvik onödig behandling eller ge underhållsbehandling?
 
 Eftersfråga och testa minnesproblem [Hur?]. Om problem kvarstår bortom några veckor efter behandlingens avslut bör fördjupad utredning göras [vad?]. Bedöm om kvarvarande psykiska besvär, samtidig läkemedelsbehandling eller kan vara bidragande. [? Överväg om demens, alkoholöverkonsumtion, hjärntumör etc? kan föreligga]. Vid minnessvårigheter som bedöms bero på kvaravarande psykiska besvär kan fortsatt ECT-behandling vara av värde.
 
