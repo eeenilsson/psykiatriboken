@@ -1,5 +1,18 @@
 # Depression
 
+## Behandling
+
+Vilken behandling som rekommenderas i första hand beror vanligen på depressionens svårighetsgrad. Läkemedelsbehandling rekommenderas vid måttlig eller svår depressiv episod, och psykologisk behandling (psykoterapi, psykoedukation, självhjälp) vid lindrig depressiv episod [@Kennedy2016]. Det saknas stöd för att effekten av läkemedel skulle vara beroende av depressionens svårighetsgrad [REF] och läkemedelsbehandling kan vara ett alternativ även vid lindrig depression, exempelvis ifall patienten föredrar det. Likaså kan psykologisk behandling användas vid medelsvår depression om läkemedelsbehandling inte är aktuellt [?] [REF]. 
+
+Något om psykologisk behandling av depression. Beteendeaktivering.
+
+Lägg till Socialstyrelsens rekommendationer.
+
+## Läkemedelsbehandling
+
+Före läkemedelsbehandling bör en noggrann klinisk bedömning göras för att undersöka samsjuklighet (tex beroendesyndrom, personlighetssyndrom, ångestsyndrom) och differentialdiagnoser (tex bipolärt syndrom, ångestsyndrom) som kan ha betydelse för behandlingsval.
+
+
 Guidelines on Choice and Selection of Antidepressants for the Management of Depression [@guidelines_antidepressants2016].
 
 Backing into the future: pharmacological approaches to the management of resistant depression [@Cowen2017] "For patients who have failed to respond to two antidepressant trials, augmentation with atypical anti-psychotic drugs, speciﬁcally quetiapine and aripiprazole, has the best evidence for efﬁcacy, though older treatments such as lithium and triiodothyronine still have utility."
@@ -7,6 +20,65 @@ Backing into the future: pharmacological approaches to the management of resista
 Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder [@Cipriani2018] "In head-to-head studies, agomelatine, amitriptyline, escitalopram, mirtazapine, paroxetine, venlafaxine, and vortioxetine were more effective than other antidepressants"
 
 Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder [@Jakobsen2017].
+
+Effektstorlek [Ref Cipriani, Eriksson].
+
+### Val av första behandling
+
+Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det fins inga faktorer som kan använads för att förutsäga vilket läkemedel som fungerar bäst i en viss patientgrupp [@Kennedy2016]. Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vägas in. Vid psykotiska symtom rekommenderas samtidig behandling med antipsykotiskt läkemedel. Vid sömnstörning kan mirtazapin, och agomelatin vara att föredra. Duloxetin kan ha smärtlindrande effekt. Vid samsjuklighet med ångestsyndrom kan ett läkemedel som har indikation för detta med fördel användas.
+
+Vid start av behandling där patienten inte har någon pågående antidepressiv behandling sedan tidigare.
+
+Se tabeller i CANMAT [@Kennedy2016]
+
+Förstahandsalternativ:
+
+- SSRI
+- SNRI
+- Agomelatin
+- Bupropion
+- Mirtazapin
+
+### Uppföljning av behandlingseffekt
+
+Uppföljning efter nyinsättning rekommenderas efter två veckor, och därefter varje två till fyra veckor [@Kennedy2016]. Då utvärderas:
+
+- Tolerabilitet/Biverkningar
+- Säkerhet
+- Effekt på depressionssymtom
+
+För utvärdering av effekt bör skattning av depressionssymtom med tex MADRS eller MADRS-S ingå som en del av bedömningen. Därutöver kan tex funktionsnivå och motoriska symtom behöva vägas in.
+
+### Monitorering
+
+Inför start av behandling kan blodprover och EKG vara aktuellt, beroende på vilken behandling som planeras.
+
+Många antidepressiva läkemedel kan förläng QTT något. Vid riskfaktorer för Torsade de Point (TdP) rekommenderas EKG före behandling och en tid efter insättning. [TODO Se avsnitt TdP]
+
+## Antidepressiva
+
+Se även kapitel \@ref(psychopharmacology).
+
+Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
+
+### Effektivitet {#antidepressant-efficacy}
+
+Ciprianis studie [@Cipriani2018]
+
+Lägre efficacy hos äldre, se \@ref(depression-elderly).
+
+### Svårbehandlad depression
+
+STAR-D [@Howland2008a]
+
+CANMAT [@Kennedy2016]
+
+Kombinara antidepressiva? Tilltalande kanske men verkar inte fungera i praktiken.
+
+### Biverkningar
+
+Antidessiva kan ge tex hyperhidros (antikolinerg effekt), ökad blödningsrisk (SSRI), QT-tidsförlängning. Se avsnittet biverkningar.
+
 
 ## Depression i anslutning till förlossning
 
