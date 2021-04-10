@@ -64,7 +64,7 @@ Brain on drugs [@Volkow2015].
 
 Film om direct pathway: (Direct pathway, Khan academy)[https://www.khanacademy.org/science/health-and-medicine/nervous-system-diseases/parkinsons-disease/v/the-basal-ganglia-the-direct-pathway]	
 
-# Beroendets fysiologi
+## Beroendets fysiologi
 
 Egen sammanfattning efter kurs i beroendelära. TODO: Integrera resonemanget om dopamin ovan.
 
@@ -78,11 +78,11 @@ Vid långvarig droganvändning sker biologisk anpassing som motsvarar de psykolo
 
 Mekanismerna som beskrivs ovan har motsvarighet i neurokemiska förändringar. Vid nedsatt impulskontroll föreligger minskad signalering via GABA, serotonin, dopamin och opioidpeptider samt ökad aktivitet i HPA-axeln och NPY som behöver kompenseras. I det tvångsmässiga stadiet är förändringar i HPA-axeln och och Neuropeptid Y-aktivitet mest framträdande. Belöningssystemets roll har studerats i råttor via självadministrering av alkohol, där man bland annat funnit att drogrelaterade stimuli ökar dopaminfrisättningen hos personer med beroende (förväntan, betingning).  [@Koob2004]
 
-## Alkohol
+### Alkohol
 
 Dopamin och (ventrala?) striatum involverade i de positivt förstärkande effekterna av beroendeframkallande medel. Alkohol ger frisättning av dopamin i nucleus accumbens [@Boileau2003].
 
-### Neuroadaptation vid alkoholintag
+#### Neuroadaptation vid alkoholintag
 
 Alkoholintag har olika effekter vid intag jämfört med kroniskt eller ofta återkommande bruk. Alkohol interagerar med receptorer i olika signalsystem och ombyggnad av dessa system är associerat med toleransutveckling och abstinenssyndrom. Vid intag av alkohol hämmas glutamaterga (excitatoriska) nervsignaler, medan kroniskt alkoholintag istället ökar denna typ av signalering. I enlighet med den allostatiska modellen måste personen då inta alkohol för att återställa balans i glutamatsignaleringen. Liknande förändringar ses i hjärnans inhibitoriska system, dvs på signalsubstansen GABA och dess receptorer, där alkoholintag stimulerar systemet och kroniskt bruk troligen hämmar systemet (dock ses  olika effekter i olika delar av hjärnan). [@Roberto2017]
 
@@ -90,7 +90,7 @@ I det glutamaterga systemet finns flera typer av glutamatreceptorer (jonkanalern
 
 Även i GABA-systemet finns flera typer av receptorer (jonkanalerna GABAA-R och GABAC-R samt den G-proteinkopplade GABAB-R). Alkoholintag förstärker funktionen bland annat hos olika jonkanalreceptorer med "cys-loops", inklusive GABAA-R, strychnine-sensitive glycine receptor (GlyR), nicotinic acetylcholine receptor (nAChR) och serotonin 3 receptor (5-HT3), genom att öka sannolikheten för öppning av kanalen och/eller öka agonistaffiniteten. Alkohol har således en GABA-erg effekt och kroniskt alkoholintag påverkar GABA-receptorernas sammansättning (subehnhetskomposition) och -farmakologi. De exakta mekanismerna bakom de observerad effekterna av alkohol på GABA-receptorer är relativt okända, men hypotetiskt kan det röras sig om påverkan på endocytos, återvinning, nedbrytning, transport och syntes av receptorer och deras subenheter, samt fosforylering av GABAA-R och intracellulär signallering via second messengers. Adaptationen till kroniskt alkoholbruk skiljer sig i olika områden av hjärnan där cortex cerebri, hippocampus och amygdala identifierats som viktiga områden. GABAA-R adaptation tros vara av betydelse för toleransutveckling mot flera av alkoholens akuta effekter såsom anxiolys, sedation, ataxi, positiv förstärkning och tros vara förknippat med ökad krampbenägenhet vid alkoholabstinens. [@Roberto2017]
 
-### Alkoholrelaterad hjärnskada
+#### Alkoholrelaterad hjärnskada
 
 "Alkoholrelaterad hjärnskada" är ett paraplybegrepp som innefattar hjärnskador av olika karaktär och orsak. De toxiska effekterna av alkohol varierar mellan olika områden i hjärnan. Det vanligaste fyndet vid långvarigt och omfattande alkoholberoende är vitsubstansförlust. Andra tillstånd som kan ge neurologiska besvär wernicke-korsakoffs syndrom, central pontin myelinolys, pellagra-encefalopati, hepatisk encefalopati, förvärvad hepatocerebral degeneration och traumatiska hjärnskador. Dessa tillstånd kan ge upphov till bland annat kognitiva svårigheter (alltifrån lindrig kognitiv störning till demens), depression, exekutiva svårigheter, minnesproblem, motoriska svårigheter, död. [@Monte2014]
 

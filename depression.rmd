@@ -2,15 +2,15 @@
 
 Guidelines on Choice and Selection of Antidepressants for the Management of Depression [@guidelines_antidepressants2016].
 
-Backing into the future: pharmacological approaches to the management of resistant depression [@Cowen2017]: "For patients who have failed to respond to two antidepressant trials, augmentation with atypical anti-psychotic drugs, speciﬁcally quetiapine and aripiprazole, has the best evidence for efﬁcacy, though older treatments such as lithium and triiodothyronine still have utility."
+Backing into the future: pharmacological approaches to the management of resistant depression [@Cowen2017] "For patients who have failed to respond to two antidepressant trials, augmentation with atypical anti-psychotic drugs, speciﬁcally quetiapine and aripiprazole, has the best evidence for efﬁcacy, though older treatments such as lithium and triiodothyronine still have utility."
 
-Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder [@Cipriani2018]: "In head-to-head studies, agomelatine, amitriptyline, escitalopram, mirtazapine, paroxetine, venlafaxine, and vortioxetine were more effective than other antidepressants"
+Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder [@Cipriani2018] "In head-to-head studies, agomelatine, amitriptyline, escitalopram, mirtazapine, paroxetine, venlafaxine, and vortioxetine were more effective than other antidepressants"
 
 Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder [@Jakobsen2017].
 
 ## Depression i anslutning till förlossning
 
-Ungefär 5% av mödrar drabbas av depression under graviditet eller tiden efter förlossning [Ref: DSM5]. Enligt en stor finsk studie är dock incidensen av "Major depression" 0.8% under graviditet [@Räisänen2014]. Den dominerande riskfaktorn är tidigare depression, vilket ungefär hälften av de mödrar som drabbas har haft [@Räisänen2014]. Ofta föreligger även svår ångest och panikattacker. Psykotiska drag ses hos ungefär en på 1000 förlossningar. I DSM-5 kan depressionsdiagnosen anges som "with peripartum onset" om depressionen startat under graviditeten eller inom fyra veckor efter förlossning. Risken för återfall vid nästa graviditet är ungefär 40% [Ref: DSM5]. 
+Ungefär 5% av mödrar drabbas av depression under graviditet eller tiden efter förlossning [Ref DSM5]. Enligt en stor finsk studie är dock incidensen av "Major depression" 0.8% under graviditet [@Räisänen2014]. Den dominerande riskfaktorn är tidigare depression, vilket ungefär hälften av de mödrar som drabbas har haft [@Räisänen2014]. Ofta föreligger även svår ångest och panikattacker. Psykotiska drag ses hos ungefär en på 1000 förlossningar. I DSM-5 kan depressionsdiagnosen anges som "with peripartum onset" om depressionen startat under graviditeten eller inom fyra veckor efter förlossning. Risken för återfall vid nästa graviditet är ungefär 40% [Ref: DSM5]. 
 
 Barn vars mammor har depression kring förlossningen löper ökad risk för "failure to thrive", "attachement disorder" och försenad utveckling vid ett års ålder. Dessa besvär kan förebyggas genom att mammans besvär behandlas. Depresionen medför även risker för mamman, såsom minskad energi, sömnstörningar och försämrad anknytning till barnet, liksom ökad risk för självmord [@Langan2016].
 
@@ -22,13 +22,36 @@ Läkemedelsbehandling: Se avsnittet om SSRI vid graviditet och amning, \@ref(ssr
 
 Se antidepressants-pregnancy.csv
 
-
 Risk factors for and perinatal outcomes of major depression during pregnancy [@Räisänen2014]
 
-# Bipolär sjukdom
+## Depression hos äldre {#depression-elderly}
 
-Efficacy and Effectiveness of Lithium in the Long-Term Treatment of Bipolar Disorders: An Update 2018 [@Severus2018].
+Effekten av antidepressiva läkemedel är lägre i högre åldrar. **Figur \@ref(fig:fig-older-adults-antidepressants)** visar effekten av antidepressiv läkemedelsbehandling i olika åldersgrupper [@Tedeschini2011].  Andelen som uppnår respons minskar med stigande ålder. Skillnaden mellan antidepressiv behandling och placebo minskar också i de högre åldersgrupperna. Respons definierades här som 50% eller större reduktion av depressiva symtom enligt skattingsskalorna MADRS eller HDRS.
 
-Prediction Model of Serum Lithium Concentrations [@Yoshida2018]
+Någon skillnad i behandlingseffekt mellan olika grupper av antidepressiva (TCA, SSRI, och nyare ickeselektiva serotninåterupptagshämmare) har inte kunnat påvisas [@Bartels2003] <!-- [Note: Hur mycket är det studerat?] -->.
 
-Treatments for Acute Bipolar Depression: Meta-analyses of Placebo-controlled, Monotherapy Trials of Anticonvulsants, Lithium and Antipsychotics [@Selle2014].
+Den minskade effekten av antidepressiva hos äldre bör ställas mot en ökad risk för biverkningar [REF].
+
+```{r fig-older-adults-antidepressants, fig.cap = 'Effekt av antidepressiva läkemedel i olika åldersgrupper'} 
+## Se Tedeschini2011, Figure 3. Comparison (using analysis of variance) of Antidepressant and Placebo Response Rates in Younger Adult and Older Adult Patients. Clinical response was defined as a 50% or greater reduction in HDRS or MADRS scores, from baseline to endpoint, or a CGI-I score < 3 at the final visit. For consistency, the HDRS was chosen over the MADRS or CGI-I when response rates from multiple scales were reported. For studies that reported only CGI-based response rates, HDRS-based response rates were either obtained from the sponsor or imputed using the method of Walsh et al.
+## source('varnames.r')
+tbl <- data.table::fread('../notes/fig_data_tedeschini2011.csv')
+tbl[["age_category"]] <- query_label(tbl$age_category, varnames)
+tbl[["Behandling"]] <- as.factor(query_label(tbl$treatment, varnames))
+tbl[["age_category"]] <- factor(tbl[["age_category"]], levels = c("Vuxen < 66 år", "55+", "65+"))
+p <- ggplot(data=tbl, aes(x=age_category, y=response_rate, fill=Behandling)) +
+    scale_y_continuous(breaks = seq(0, 100, 10), limits = c(0,100))+
+    ylab("Respons på antidepressiv behandling (%)")+
+    xlab("Ålderskategori")+
+    geom_bar(stat="identity", position=position_dodge())+
+    theme_polar()
+p
+
+
+kable(tbl, format = "markdown")
+
+``` 
+
+### Resurser
+
+Bartels 2003 Evidence-based practices in geriatric mental health care: an overview of systematic reviews and meta-analyses [@Bartels2003]

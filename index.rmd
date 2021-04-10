@@ -42,7 +42,10 @@ pacman::p_load(tidyverse,
                ggplot2,
                kableExtra,
                rsvg,
-               svglite)
+               svglite,
+               data.table)
+
+## detach(package:plyr) ## to avoid conflict w dplyr
 
 ## themes
 source('../functions/theme_polar.r')
@@ -54,6 +57,7 @@ makestack <- function(x){
 
 source('../functions/fix.names.R')
 source('../functions/query_label.r')
+source('../functions/labelThis.r')
 source('../functions/query.abbrev.r')
 ## source('../functions/make_rows.r')
 source('../functions/make_namedlist.r')

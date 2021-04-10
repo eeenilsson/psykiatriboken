@@ -216,3 +216,10 @@ Image for presentation: 'light_and_dark.jpeg', see dropbox.
 - Canadian network for mood and anxiety treatments (canmat) and international society for bipolar disorders (isbd) collaborative update of canmat guidelines for the management of patients with bipolar disorder: update 2013 [@Yatham2013].
 
 - Svenska Psykiatriska Föreningen, 2014, Bipolär sjukdom - kliniska riktlinjer för utredning och behandling [@Spf2014].
+
+
+Efficacy and Effectiveness of Lithium in the Long-Term Treatment of Bipolar Disorders: An Update 2018 [@Severus2018].
+
+Prediction Model of Serum Lithium Concentrations [@Yoshida2018]
+
+Treatments for Acute Bipolar Depression: Meta-analyses of Placebo-controlled, Monotherapy Trials of Anticonvulsants, Lithium and Antipsychotics [@Selle2014].

@@ -12,6 +12,7 @@ require(knitr)
 require(rmarkdown)
 require(bookdown)
 library(kableExtra)
+detach(package:plyr)
 ## install.packages("kableExtra")
 ## install.packages("bookdown")
 ## install.packages("huxtable")
@@ -23,18 +24,11 @@ library(kableExtra)
 
 ## Render
 bookdown::render_book("index.rmd", "bookdown::gitbook")
-
-
 bookdown::render_book("index.rmd", "bookdown::pdf_book")
 bookdown::render_book("index.rmd", "bookdown::pdf_book", output_dir = "../dropbox")
 
-x
-
 ## Plot single pages
 source('antipsychotics-dosing-interval.r', encoding='utf-8')
-
-
-x
 
 ##render("presentation_beamer.rmd", "beamer_presentation") ## presentation
 ##render("public_defence_application_part1a.rmd", "pdf_document", encoding="UTF-8")
