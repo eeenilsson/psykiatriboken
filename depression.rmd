@@ -25,9 +25,57 @@ Effektstorlek [Ref Cipriani, Eriksson].
 
 ### Val av första behandling
 
-Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det fins inga faktorer som kan använads för att förutsäga vilket läkemedel som fungerar bäst i en viss patientgrupp [@Kennedy2016]. Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vägas in. Vid psykotiska symtom rekommenderas samtidig behandling med antipsykotiskt läkemedel. Vid sömnstörning kan mirtazapin, och agomelatin vara att föredra. Duloxetin kan ha smärtlindrande effekt. Vid samsjuklighet med ångestsyndrom kan ett läkemedel som har indikation för detta med fördel användas.
+Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det fins inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas [@Kennedy2016]:
 
-Vid start av behandling där patienten inte har någon pågående antidepressiv behandling sedan tidigare.
+- Samsjuklighet med tex ångestsyndrom
+- Psykotiska symtom
+- Respons på- och biverkningar av tidigare antidepressiv behandling
+- Potentiella interaktioner med befintlig läkemedelsbehandling
+- Förväntad biverkningsprofil
+  - Initial ångeststegring och försämrad sömn av SSRI <!-- TODO Beskriv alternativ -->
+  - Riskklassificering avseende arytmirisk (vid hög ålder, hjärt-kärlsjukdom mm) SE TdP-kapitlet
+- Enkelhet (antal doser, behov av monitorering)
+
+Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vägas in. Vid psykotiska symtom rekommenderas samtidig behandling med antipsykotiskt läkemedel. Vid sömnstörning kan mirtazapin, och agomelatin vara att föredra. Duloxetin kan ha smärtlindrande effekt. Vid samsjuklighet med ångestsyndrom kan ett läkemedel som har indikation för detta med fördel användas.
+
+Vid start av behandling där patienten inte har någon pågående antidepressiv behandling sedan tidigare kan exempelvis riktlinjerna från CANMAT tillämpas gällande förstahandsval (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-first)**)
+
+<!-- TODO: Förtydliga. Vad betyder egentligen första, andra och tredjehandsval i dett sammanhang? -->
+
+```{r depression-canmat-antidepressant-recommendation-first } 
+
+tbl <- fread('../notes/antidepressants_canmat_recommendation.csv')
+tbl <-
+    tbl[line==1, ]
+knitr::kable(tbl)
+
+``` 
+
+Även om man inte kunnat påvisa npgra statistiskt signifikanta skillnader i effekt mellan dessa preparat visade en stor metaanalys att vissa läkemedel tenderade att ge bättre respons och samtidigt god tolerabilitet [@Cipriani2018]. <!-- TODO lista dessa  -->En strategi kan vara att starta med någon av dessa om det inte föreligger andra faktorer som bör styra valet.
+
+Andrahandsval visas i (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-second)**)
+
+```{r depression-canmat-antidepressant-recommendation-second } 
+
+tbl <- fread('../notes/antidepressants_canmat_recommendation.csv')
+tbl <-
+    tbl[line==2, ]
+knitr::kable(tbl)
+
+``` 
+
+Tredjehandsval visas i (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-third)**)
+
+```{r depression-canmat-antidepressant-recommendation-third } 
+
+tbl <- fread('../notes/antidepressants_canmat_recommendation.csv')
+tbl <-
+    tbl[line==3, ]
+knitr::kable(tbl)
+
+``` 
+
+
 
 Se tabeller i CANMAT [@Kennedy2016]
 
