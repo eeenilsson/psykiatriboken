@@ -25,7 +25,7 @@ Effektstorlek [Ref Cipriani, Eriksson].
 
 ### Val av första behandling
 
-Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det fins inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas [@Kennedy2016]:
+Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det finns inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas [@Kennedy2016]:
 
 - Samsjuklighet med tex ångestsyndrom
 - Psykotiska symtom
@@ -36,7 +36,35 @@ Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av dep
   - Riskklassificering avseende arytmirisk (vid hög ålder, hjärt-kärlsjukdom mm) SE TdP-kapitlet
 - Enkelhet (antal doser, behov av monitorering)
 
+Vid samsjuklighet med ångestsyndrom eller 
+
 Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vägas in. Vid psykotiska symtom rekommenderas samtidig behandling med antipsykotiskt läkemedel. Vid sömnstörning kan mirtazapin, och agomelatin vara att föredra. Duloxetin kan ha smärtlindrande effekt. Vid samsjuklighet med ångestsyndrom kan ett läkemedel som har indikation för detta med fördel användas.
+
+viktnedgång
+
+**Framträdande ångest** vid en sepressiv episod kan defineras som förekomst minst två av följande: Känsla av att vara spänd, rastlöshet, koncentrationssvårigheter pga oro, rädsla för att något katastrofalt skall inträffa eller känsla av att man kommer att tappa kontrollen över sig själv. I dessa fall, eller om det föreligger samsjuklighet med något ångestsyndrom rekommenderas ett antidepressivt medel som har visad effekt vid generaliserat ångestsyndrom [@Dsm2013]. Någon skillnad mellan grupperna SSRI, SNRI, och bupropion har inte påvisats i detta avseende [@Kennedy2016].
+
+**Katatoni** vid depression bör föranleda behandling med bensodiazepiner [@Kennedy2016] och/eller ECT [REF].
+
+Med **melankoliska drag** menas enligt DSM-5 antingen anhedoni eller minskad respons på sådant som normalt är lustfyllt, tillsammans med minst tre av följande: Depression som är värre på morgonen, tidigt morgonuppvaknande (minst två timmar tidigare än vanligt), observerbar psykomotorisk hämning eller agitation, betydande viktförlust eller anorexi, överdrivna eller omotiverade skuldkänslor. <!-- , eller nedstämt humör som är avgörande skiljt från det som förekommer vid en närståendes död. --> Man har studerat TCA och SNRI för denna typ av depression, men det har inte framkommit någon grund för att det skulle ha betydelse för preparatval [@Kennedy2016]. Inte heller vid **atypiska drag** har något antidepressivt medel visat sig mer effektivt [@Kennedy2016].
+
+Vid **depression med psykos** rekommenderas samtidig behandling med antidepressivt läkemedel och ett antipsykotiskt preparat [@Kennedy2016]. Hur länge den antipsykotiska behandlingen bör fortgå är okänt, men en tumregel kan vara 6-12 mån [REF Maudsley]. I dessa fall bör även ECT-behandling övervägas [REF]. 
+
+**Depression med blandade drag** förekommer vid bipolärt syndrom med samtidig mani eller hypomani, eller vid unipolär depression när hypomaniliknande symtom föreligger samtidigt som depressionen. Tecken på detta är förhöjt stämningsläge, grandiositet, talträngdhet, rusande tankar eller ideflykt, riskfyllt beteende, och minskat sömnbehov. I dessa fall finns visst stöd för monoterapi med lurasidon eller ziprasidon.
+
+Vid **säsongsbunden depression** har SSRI, bupropion, agomelatin, och moclobemid studerats, men några skillnader mellan antidepressiva har ej konstaterats.
+
+Vid **depression med kognitiv dysfunktion** finns visst stöd för att antidepressiva (vortioxetin, bupropion, duloxetin, SSRI, moclobemid) ger förbättring av kognitiva funktioner. Duloxetin och vortioxetin kan möjligen vara något mer effektivt i detta avseende, men data är osäkra.
+
+Vid **sömnstörning** kan ett medel med positiv eller neutral effekt på sömnen vara lämpligt, vilket dock bör vägas mot biverkningar (tex dagtrötthet) och behov av monitorering. Läkemedel som kan övervägas är agomelatin, mirtazapin, kvetiapin, och trazodon (ej registrerat i Sverige).
+
+Vid **depression med somatiska symtom** är det främst samtidig förekomst av smärta som har studerats. Läkemedel som kan övervägas i dessa fall är duloxetin eller annan SNRI. Vid uttalad orkeslöshet bupropion eller SSRI. Vid låg energinivå duloxetin. Notera dock att jämförande studier saknas.
+
+<!-- For patients to meet the criteria of the anxious distress specifier, they must have 2 of the following 5 symptoms across an episode: 1) feeling keyed up or tense, 2) feeling unusually restless, 3) difficulty concentrating because of worry, 4) fear that something awful might happen, and 5) a feeling that one might lose control of himself/herself.2 -->
+
+<!-- Anxious destress, Se https://www.ajmc.com/view/with-anxiety-common-in-depression-dsm-5-specifier-aids-screening -->
+
+<!-- TODO: Kommentera behandligseffekt vid dystymi -->
 
 Vid start av behandling där patienten inte har någon pågående antidepressiv behandling sedan tidigare kan exempelvis riktlinjerna från CANMAT tillämpas gällande förstahandsval (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-first)**)
 
@@ -51,9 +79,77 @@ knitr::kable(tbl)
 
 ``` 
 
-Även om man inte kunnat påvisa npgra statistiskt signifikanta skillnader i effekt mellan dessa preparat visade en stor metaanalys att vissa läkemedel tenderade att ge bättre respons och samtidigt god tolerabilitet [@Cipriani2018]. <!-- TODO lista dessa  -->En strategi kan vara att starta med någon av dessa om det inte föreligger andra faktorer som bör styra valet.
+Även om man inte kunnat påvisa några säkra skillnader i effekt mellan dessa preparat visade en stor metaanalys att vissa läkemedel tenderade att ge bättre respons och samtidigt god tolerabilitet [@Cipriani2018]. De läkemedel som tenderade att ligga bäst till avseende effekt och samtidigt ha god tolerabilitet (färre avslut av behandlingen) var agomelatin, escitalopram^*, venlafaxin^*, vortioxetin. Läkemedel med fördelaktig effekt men utan fördel avseende tolerabilitet var amitriptylin, mirtazapin^*, och paroxetin. Läkemedel med tendens till lägst effektivitet var fluoxetin, reboxetin, fluvoxamin och trazodon. Markeringen med asterisk^* visar de som också i CANMAT-guidelines konstateras ha visst stöd för bättre effekt (där anges också sertralin som ett medel som visat fördel avseende effekt).
 
-Andrahandsval visas i (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-second)**)
+```{r figure-cipriani, fig.cap = 'Forest plots of network meta-analysis of all trials for efficacy and acceptability'}
+
+## pacman::p_load(data.table, ggplot, tidyverse)
+
+## prepare
+dta <- fread('../notes/antidepressants_cipriani.csv')
+dta_response <- dta[outcome == 'response_rate', ]
+dta_response[, ci_aboveone := ci_lower > 1]
+dta_response <- dta_response[order(-or)]
+dta_response[, antidepressant := factor(antidepressant, levels = dta_response[, antidepressant])]
+dta_dropout <- dta[outcome == 'dropout_rate', ]
+dta_dropout[, ci_aboveone := ci_upper < 1]
+dta_dropout <- dta_dropout[order(or)]
+dta_dropout[, antidepressant := factor(antidepressant, levels = dta_dropout[, antidepressant])]
+
+## temp$variable <- query_label(temp$variable, varnames_temp)
+## temp$variable <- factor(temp$variable, levels = unique(temp$variable))
+## colors <- c("black", "white", "lightgrey", "darkgrey", "dimgray")
+## colors <- colors[1:nrow(temp)]
+## dots <- c(23,22,21,18,12)
+## dots <- dots[1:nrow(temp)]
+
+## Settings
+dots <- c(22)
+colors <- c("black", "lightgrey")
+breaks <- c(0.5, 1, 2.5)
+
+## Efficacy
+dta_response%>%
+    ggplot(aes(x=antidepressant, y=or)) -> p ## fill needed here for later dodge
+
+p + geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper),
+                  position=position_dodge(width = 0.8),                  
+                  width=.4) -> p
+
+p + geom_point(aes(fill = ci_aboveone),
+               size = 3.5,
+               pch = 22,
+               fill = "lightblue",
+               position=position_dodge(width = 0.8)) -> p
+
+p + geom_hline(yintercept=1, linetype='longdash') + scale_y_continuous(breaks=breaks, limits=c(0.4, 2.6)) + coord_flip() + theme_bw() + ylab("Odds ratio (95% Confidence Interval) for response") +  xlab("") + theme(legend.position="none") + theme(panel.grid = element_blank()) + theme(legend.title=element_blank())
+
+## Tolerability
+dta_dropout%>%
+    ggplot(aes(x=antidepressant, y=or)) -> p ## fill needed here for later dodge
+
+p + geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper),
+                  position=position_dodge(width = 0.8),                  
+                  width=.4) -> p
+
+p + geom_point(aes(fill = ci_aboveone),
+               size = 3.5,
+               pch = 22,
+##               fill = "lightblue",
+               position=position_dodge(width = 0.8)) -> p
+
+p + geom_hline(yintercept=1, linetype='longdash') + scale_y_continuous(breaks=breaks, limits=c(0.4, 2.6)) + coord_flip() + theme_bw() + ylab("Odds ratio (95% Confidence Interval) for dropout") +  xlab("") + theme(legend.position="none") + theme(panel.grid = element_blank()) + theme(legend.title=element_blank())
+
+##  scale_shape_manual(values = dots)-> p
+##+ scale_fill_manual(values = colors)
+
+``` 
+ 
+En strategi kan således vara att starta med escitalopram, venlafaxin, agomelatin (kräver monitorering av leverfunktion) eller vortioxetin (dyrt) om det inte föreligger andra faktorer som bör styra valet.
+
+Om patienten får biverkningar eller utebliven effekt kan ett annat förstahandsval provas.
+
+Andrahandsval enligt CANMAT visas i (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-second)**)
 
 ```{r depression-canmat-antidepressant-recommendation-second } 
 
@@ -64,7 +160,7 @@ knitr::kable(tbl)
 
 ``` 
 
-Tredjehandsval visas i (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-third)**)
+Tredjehandsval enligt CANMAT visas i (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-third)**)
 
 ```{r depression-canmat-antidepressant-recommendation-third } 
 
