@@ -384,3 +384,72 @@ include_graphics('../dropbox/images/psychiatry/rheobase_chronaxie.png')
 ``` 
 
 
+<!-- ## Forskning örebro -->
+
+<!-- Artiklar Axel Nordenskjölj apr 2021 -->
+
+<!-- ### Epidemiology -->
+
+<!-- Electroconvulsive Therapy in Sweden 2013 : Data From the National Quality Register for ECT	Nordanskog P, Hultén M, Landén M, Lundberg J, von Knorring L, Nordenskjöld A.	J ECT. 2015 Dec;31(4):263-7. doi: 10.1097/YCT.0000000000000243.	Nordanskog P	J ECT	2015  [@Nordanskog2015] -->
+
+<!-- ### Efficacy and predictors -->
+
+<!-- Improvement of postpartum depression and psychosis after electroconvulsive therapy: A population-based study with a matched comparison group	Rundgren S, Brus O, Båve U, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	J Affect Disord. 2018 Aug 1;235:258-264. doi: 10.1016/j.jad.2018.04.043. Epub 2018 Apr 9.	Rundgren S	J Affect Disord	2018  [@Rundgren2018] -->
+
+<!-- Electroconvulsive therapy in bipolar depression - effectiveness and prognostic factors	Popiolek K, Bejerot S, Brus O, Hammar Å, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	Acta Psychiatr Scand. 2019 Sep;140(3):196-204. doi: 10.1111/acps.13075.	Popiolek K	Acta Psychiatr Scand	2019  [@Popiolek2019] -->
+
+<!-- Rehospitalization of Postpartum Depression and Psychosis After Electroconvulsive Therapy: A Population-Based Study With a Matched Control Group	Rönnqvist I, Brus O, Hammar Å, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	J ECT. 2019 Dec;35(4):264-271. doi: 10.1097/YCT.0000000000000578.	Rönnqvist I	J ECT	2019 [@Ronnqvist2019] -->
+
+<!-- Improvement of cycloid psychosis following electroconvulsive therapy Holm J, Brus O, Båve U, Landen M, Lundberg J, Nordanskog P, von Knorring L, Nordenskjöld A.	Nord J Psychiatry. 2017 Aug;71(6):405-410. doi: 10.1080/08039488.2017.1306579. Epub 2017 Apr 3.	Holm J	Nord J Psychiatry	2017 [@Holm2017] -->
+
+<!-- Predictors of regained occupational functioning after electroconvulsive therapy (ECT) in patients with major depressive disorder--a population based cohort study	Nordenskjöld A, von Knorring L, Brus O, Engström I.	Nord J Psychiatry. 2013 Oct;67(5):326-33. doi: 10.3109/08039488.2012.745602. Epub 2012 Dec 11.	Nordenskjöld A	Nord J Psychiatry	2013  [@Nordenskjold2013] -->
+
+<!-- Self-assessed remission rates after electroconvulsive therapy of depressive disorders	Brus O, Cao Y, Gustafsson E, Hultén M, Landen M, Lundberg J, Nordanskog P, Nordenskjöld A.	Eur Psychiatry. 2017 Sep;45:154-160. doi: 10.1016/j.eurpsy.2017.06.015. Epub 2017 Jul 21.	Brus O	Eur Psychiatry	2017  [@Brus2017] -->
+
+<!-- Relapse risk after in-ward electroconvulsive therapy for acute polymorphic psychotic disorder Kalling S, Brus O, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	Nord J Psychiatry. 2021 Apr;75(3):201-206. doi: 10.1080/08039488.2020.1834617. Epub 2020 Oct 23.	Kalling S	Nord J Psychiatry	2021  [@Kalling2021] -->
+
+<!-- Continuation electroconvulsive therapy with pharmacotherapy versus pharmacotherapy alone for prevention of relapse of depression: a randomized controlled trial	Nordenskjöld A, von Knorring L, Ljung T, Carlborg A, Brus O, Engström I.	J ECT. 2013 Jun;29(2):86-92. doi: 10.1097/YCT.0b013e318276591f.	Nordenskjöld A	J ECT	2013 -->
+
+
+<!-- ### Side-effects -->
+
+<!-- Long-term subjective memory after electroconvulsive therapy R, Nordenskjöld A, Juréus A, Clements C, Joas E, Pålsson E, Landén M.	BJPsych Open. 2020 Mar 9;6(2):e26. doi: 10.1192/bjo.2020.9.	Sigström R	BJPsych Open	2020 -->
+
+<!-- The Incidence of Dental Fracturing in Electroconvulsive Therapy 2020 in Sweden	Göterfelt L, Ekman CJ, Hammar Å, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	J ECT. 2020 Sep;36(3):168-171. doi: 10.1097/YCT.0000000000000652.	Göterfelt L	J ECT	2020  [@Goterfelt2020] -->
+
+<!-- Less memory complaints with reduced stimulus dose during electroconvulsive therapy for depression	Kronsell A, Nordenskjöld A, Tiger M.	J Affect Disord. 2019 Dec 1;259:296-301. doi: 10.1016/j.jad.2019.08.064. Epub 2019 Aug 20.	Kronsell A	J Affect Disord	2019 -->
+
+<!-- Electroconvulsive Therapy in Depression: Improvement in Quality of Life Depending on Age and Sex Güney P, Ekman CJ, Hammar Å, Heintz E, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	J ECT. 2020 Dec;36(4):242-246. doi: 10.1097/YCT.0000000000000671.	Güney P	J ECT	2020  [@Guney2020] -->
+
+<!-- Subjective Memory Immediately Following Electroconvulsive Therapy	Brus O, Nordanskog P, Båve U, Cao Y, Hammar Å, Landén M, Lundberg J, Nordenskjöld A.	J ECT. 2017 Jun;33(2):96-103. doi: 10.1097/YCT.0000000000000377.	Brus O	J ECT	2017 -->
+
+<!-- Predictors of the short-term responder rate of Electroconvulsive therapy in depressive disorders--a population based study	Nordenskjöld A, von Knorring L, Engström I.	BMC Psychiatry. 2012 Aug 17;12:115. doi: 10.1186/1471-244X-12-115.	Nordenskjöld A	BMC Psychiatry	2012  [@Nordenskjold2012] -->
+
+<!-- Rehospitalization rate after continued electroconvulsive therapy--a retrospective chart review of patients with severe depression Nordenskjöld A, von Knorring L, Engström I.	Nord J Psychiatry. 2011 Feb;65(1):26-31. doi: 10.3109/08039488.2010.485327. Epub 2010 May 20.	Nordenskjöld A	Nord J Psychiatry	2011  [@Nordenskjold2011] -->
+
+<!-- Rehospitalization and suicide following electroconvulsive therapy for bipolar depression-A population-based register study	Popiolek K, Brus O, Elvin T, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	J Affect Disord. 2018 Jan 15;226:146-154. doi: 10.1016/j.jad.2017.09.030. Epub 2017 Sep 25.	Popiolek K	J Affect Disord	2018  [@Popiolek2018] -->
+
+<!-- Predictors of time to relapse/recurrence after electroconvulsive therapy in patients with major depressive disorder: a population-based cohort study	Nordenskjöld A, von Knorring L, Engström I.	Depress Res Treat. 2011;2011:470985. doi: 10.1155/2011/470985. Epub 2011 Nov 3.	Nordenskjöld A	Depress Res Treat	2011  [@Nordenskjold2011a] -->
+
+
+<!-- ### Other -->
+
+<!-- 'Treatment resistance' in electroconvulsive therapy (ECT) patients: time to move on	Kellner CH, Nordenskjöld A.	Acta Psychiatr Scand. 2019 Nov;140(5):490-491. doi: 10.1111/acps.13091.	Kellner CH	Acta Psychiatr Scand	2019 [@Kellner2019] -->
+<!-- <\!-- We question theutility of the concept of ‘treatment resistance’ for research andfor treatment selection for individual patients; we also haveconcerns about how it is interpreted by patients and their fami-lies -\-> -->
+
+<!-- ECT is superior to pharmacotherapy for the short-term treatment of medication-resistant inpatients with bipolar depression	Nordenskjöld A.	Evid Based Ment Health. 2015 Nov;18(4):118. doi: 10.1136/eb-2015-102069. Epub 2015 Sep 11.	Nordenskjöld A	Evid Based Ment Health	2015  [@Nordenskjold2015] -->
+<!-- REFERAT AV ANNAN ARTIKEL -->
+
+<!-- Lithium for suicide and readmission prevention after electroconvulsive therapy for unipolar depression: population-based register study	Brus O, Cao Y, Hammar Å, Landén M, Lundberg J, Nordanskog P, Nordenskjöld A.	BJPsych Open. 2019 May;5(3):e46. doi: 10.1192/bjo.2019.37.	Brus O	BJPsych Open	2019 -->
+
+<!-- Remission rate of transcranial magnetic stimulation compared with electroconvulsive therapy: a case-control study	Svensson AF, Khaldi M, Engström I, Matusevich K, Nordenskjöld A.	Nord J Psychiatry. 2018 Oct;72(7):471-476. doi: 10.1080/08039488.2018.1481998. Epub 2018 Oct 25.	Svensson AF	Nord J Psychiatry	2018 -->
+
+<!-- Effects of Hesel-coil deep transcranial magnetic stimulation for depression - a systematic review	Nordenskjöld A, Mårtensson B, Pettersson A, Heintz E, Landén M.	Nord J Psychiatry. 2016 Oct;70(7):492-7. doi: 10.3109/08039488.2016.1166263. Epub 2016 Apr 19.	Nordenskjöld A	Nord J Psychiatry	2016 -->
+
+<!-- Does lithium prevent relapse following successful electroconvulsive therapy for major depression? A systematic review and meta-analysis	Lambrichts S, Detraux J, Vansteelandt K, Nordenskjöld A, Obbels J, Schrijvers D, Sienaert P.	Acta Psychiatr Scand. 2021 Apr;143(4):294-306. doi: 10.1111/acps.13277. Epub 2021 Feb 9.	Lambrichts S	Acta Psychiatr Scand	2021 -->
+
+<!-- Genome-wide association study of patients with a severe major depressive episode treated with electroconvulsive therapy	Clements CC, Karlsson R, Lu Y, Juréus A, Rück C, Andersson E, Boberg J, Pedersen NL, Bulik CM, Nordenskjöld A, Pålsson E, Sullivan PF, Landén M.	Mol Psychiatry. 2021 Jan 22. doi: 10.1038/s41380-020-00984-0. Online ahead of print.	Clements CC	Mol Psychiatry	2021 -->
+
+<!-- The effect of anaesthetic dose on response and remission in electroconvulsive therapy for major depressive disorder: nationwide register-based cohort study	Kronsell A, Nordenskjöld A, Bell M, Amin R, Mittendorfer-Rutz E, Tiger M.	BJPsych Open. 2021 Mar 23;7(2):e71. doi: 10.1192/bjo.2021.31.	Kronsell A	BJPsych Open	2021 -->
+
+
