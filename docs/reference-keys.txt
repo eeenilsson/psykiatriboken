@@ -119,7 +119,9 @@ biverkningar-1
 ssri-pregnancy
 resurser-3
 antipsychotics
+dosering
 fga-vs-sga
+kombinationsbehandling
 motoriska-biverkningar-av-anipsykotiska-läkemedel
 tardiv-dyskinesi
 psykotropa-läkemedel-vid-leverpåverkan
@@ -167,6 +169,8 @@ tillförd-strömdos
 pulsbredd
 elektrodplacering
 monitorering-under-ect-behandling
+checklista-för-ect-administration
+lista-behandlingsförfarande
 behandlingsintervall-och-seriens-längd
 indexserien
 antal-behandlingar-per-vecka

@@ -1,4 +1,5 @@
-# Psykofarmakologi
+
+# Psykofarmakologi {#psychopharmacology}
 
  Monitoring: [@Hiemke2018]
 
@@ -11,30 +12,6 @@
 - Förstagradssläktingars respons på visst läkemedel
 
 - Följsamhet
-
-## Antidepressiva
-
-Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
-
-### Effektivitet {#antidepressant-efficacy}
-
-Ciprianis studie
-
-Lägre efficacy hos äldre, se \@ref(depression-elderly).
-
-### Svårbehandlad depression
-
-STAR-D
-
-CANMAT
-
-Kombinara antidepressiva? Tilltalande kanske men verkar inte fungera i praktiken.
-
-### Biverkningar
-
-Antidessiva kan ge tex hyperhidros (antikolinerg effekt), ökad blödningsrisk (SSRI), QT-tidsförlängning. Se avsnittet biverkningar.
-
-
 
 ## SSRI vid graviditet och amning {#ssri-pregnancy}
 
@@ -84,6 +61,10 @@ source('antipsychotics-side-effects.r', print.eval=TRUE)
 
 ``` 
 
+### Dosering
+
+Måldos bör vara minsta effektiva dos (se tabell). 
+
 ### FGA vs SGA
 
 Effectiveness of Antipsychotic Drugs in Patients with Chronic Schizophrenia lieberman [@Lieberman2005].
@@ -94,6 +75,12 @@ The CATIE and CUtLASS studies in schizophrenia: results and implications for cli
 
 Inga skillnader mellan grupperna (SGA vs FGA) i fråga om livskvalitet eller symtom.
 
+
+### Kombinationsbehandling
+
+Clozapin + aripiprazol?
+
+Andra kombinationer?
 
 ### Motoriska biverkningar av anipsykotiska läkemedel
 
