@@ -455,11 +455,7 @@ Vid kognitiva besvär som bedöms bero på ECT-behandlingen:
 Eftersfråga och testa minnesproblem [Hur?]. Om problem kvarstår bortom några veckor efter behandlingens avslut bör fördjupad utredning göras [vad?]. Bedöm om kvarvarande psykiska besvär, samtidig läkemedelsbehandling eller kan vara bidragande. [? Överväg om demens, alkoholöverkonsumtion, hjärntumör etc? kan föreligga]. Vid minnessvårigheter som bedöms bero på kvaravarande psykiska besvär kan fortsatt ECT-behandling vara av värde.
 
 
-<<<<<<< HEAD
-=======
 Vid kortvarig effekt - Undvik onödig behandling eller ge underhållsbehandling?
->>>>>>> a14c313fa05fb16658ba5e6ecc0c0d93749858a0
-
 
 Uppföljning sex månader efter index-ECT rekommenderas [@spf2014ect].
 
