@@ -104,6 +104,10 @@ Risker: Kardiovaskulär sjukdom.
 
 Återfallsrisken är ca 50% utan återfallsförebyggande behandling.
 
+<!-- efficacy and safety electroconvulsive lancet [@Uk2003] -->
+<!-- ontario rtms 2016 magnetic  [@Anderson2016] -->
+<!-- sackheim jama 2001 litiumprofylax -->
+
 ## Biverkningar {#ect-side-effects}
 
 Risken för allvarliga biverkningar är ungefär 1 på 10 000 behandlingar och en nylig genomgång av ca 100 000 behandlingar visade ingen ökad risk för död.

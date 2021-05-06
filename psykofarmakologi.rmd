@@ -190,13 +190,16 @@ Trautner om toxicitet
 
 ### Indikationer
 
-Personer med täta depressiva skov liknar bipolärt syndrom i fråga om hereditet, debutålder, atypiska symtom och profylaktisk respons på litium. [goodwin]
+Li har fått ökat vetenskapligt stöd för behandling av bipolär sjukdom på senare år, bland annat när det använts som jämförelseläkemedel i långtidsstudierna av lamotrigin. Används också som tilläggsbehandling för unipolär depression, för att förebygga cycloid psykos och provas ibland mot borderlinetillstånd och patologisk impulsivitet.
+
+Senast (2010) som Socialstyrelsen rekommenderade något vad gäller bipolär sjukdom. För att förebygga återfall efter en manisk eller depressiv episod bör hälso-och sjukvården erbjuda: läkemedelsbehandling med litium (prioritet 1); läkemedelsbehandling med tillägg av psykologisk behandling med KBT (prioritet 2); patientutbildning (prioritet 3) och närståendeutbildning (prioritet 3) som komplement till återfallsförebyggande läkemedelsbehandling.
+
+Litium kan även användas vid unipolär depression. Personer med täta depressiva skov liknar bipolärt syndrom i fråga om hereditet, debutålder, atypiska symtom och profylaktisk respons på litium [goodwin]. Det finns flera små randomiserade, kontrollerade och blindade studier av litiumprofylax mot recidiv av unipolär depression (totalt n = 229). De visade samantaget att 75 % fick recidiv med placebo och 36 % med litiumbehandling [@Bauer2013book]. Recidiverande depression kan således vara en indikation för profylaktisk litiumbehandling.
+
+Litium efter ECT.
 
 Cykloid psykos kan vara indikation för litium
 
-Li har fått ökat vetenskapligt stöd för behandling av bipolär sjukdom på senare år, bland annat när det använts som jämförelseläkemedel i långtidsstudierna av lamotrigin. Används också som tilläggsbehandling för unipolär depression, för att förebygga cycloid psykos och provas ibland mot borderlinetillstånd och patologisk impulsivitet.
-
-Senast (2010) som Socialstyrelsen rekommenderade något vad gäller bipolär sjukdom. För att förebygga återfall efter en manisk eller depressiv episod bör hälso-och sjukvården erbjuda: läkemedelsbehandling med litium (prioritet 1); läkemedelsbehandling med tillägg av psykologisk behandling med KBT (prioritet 2); patientutbildning (prioritet 3) och närståendeutbildning (prioritet 3) som komplement till återfallsförebyggande läkemedelsbehandling
 
 - Tecken på sämre effekt vid affektiva blandtillstånd (mixed state). (?)
 
