@@ -27,6 +27,8 @@ bookdown::render_book("index.rmd", "bookdown::gitbook")
 bookdown::render_book("index.rmd", "bookdown::pdf_book")
 bookdown::render_book("index.rmd", "bookdown::pdf_book", output_dir = "../dropbox")
 
+knitr::kable(data.frame(a = 1:10, b = 1:10), format = "markdown")
+
 ## Plot single pages
 source('antipsychotics-dosing-interval.r', encoding='utf-8')
 

@@ -136,18 +136,20 @@ Vid känd leversjukdom eller ASAT/ALAT > x3 kan Child-Pugh-klassifikationen vara
 Tabell: Child-Pugh klassifikationen
 
 | Poäng        | 1               | 2                | 3               |
-| Encefalopati | Ingen           | Grad 1–2         | Grad 3-4        |
+|:-------------|:---------------:|:----------------:|:---------------:|
+| Encefalopati | Ingen           | Grad 1-2         | Grad 3-4        |
 | Ascites      | Ingen           | Lätt             | Svår            |
 | Bilirubin*   | < 35 mikromol/L | 35-51 mikromol/L | > 51 mikromol/L |
 | Albumin      | > 35 g/L        | 28-35 g/L        | < 28 g/L        |
-| PK           | < 1,7           | 1,7–2,3          | > 2,3           |
-|              |                 |                  |                 |
+| PK           | < 1,7           | 1,7-2,3          | > 2,3           |
+
 			
 Tolkning: Child-Pugh A: 5-6 poäng; Child-Pugh B: 7-9 poäng; Child-Pugh C: 10-15 poäng. Femårsöverlevnaden är vid Child-Pugh A 80 %, Child-Pugh B 50 % och Child-Pugh C 35 %.
 			
 Bilirubin har andra gränser vid PBC: < 68 mikromol/L, 68–171 mikromol/L, respektive > 171 mikromol/L.
 
 | Child-Pugh gradering | Leversvikt | Dosering (% av standard) |
+|:---------------------|:----------:|:------------------------:|
 | A                    | Mild       | 75-100%                  |
 | B                    | Måttlig    | 25-50%                   |
 | C                    | Svår       | Konservativt, monitorera |
@@ -232,7 +234,7 @@ Lithium-induced CKD occurs mostly in patients who have been receiving lithium fo
 
 ### Farmakokinetik
 
-Litium är ett grundämne och metaboliseras inte. Det utsöndras till 95% i urinen (övrigt via svett och faeces). 
+Litium är ett grundämne och metaboliseras inte. Det utsöndras till 95% i urinen (övrigt via svett och faeces). Faktorer som påverkar exkretion och retention av natrium (tex blotryck, njurperfusion/reglering av afferenta arteriolerna) påverkar också eliminationen av litium. Detta är den viktigaste faktorn för variation över tid i litiumlimination för en viss individ. Efterson litium leder till polyuri finns en särskild risk för retention av natrium vid dehydrering. Koncentrationen i hjärnan är ungefär hälften av den i blodet, och är endast svagt korellerad till serumkoncentrationen. Litium uppvisar ett linjärt doskoncentrationssamband, d v s, dubbel dos ger dubbel koncentration. Toppkoncentration efter en dos uppnås för tablett med normal frisättning 1fter 1-2 tim och för tablett med långsam frisättning efter 4-5 tim. Biotillgängligheten är 80-100%, total clearance 10-40 mL/min och eliminationshalveringstiden 18-36 tim [@Grandjean2009]. Steady state uppnås efter ca fem dygn.
 
 Eliminering av litium via njurarna påverkas av:
 
@@ -240,135 +242,152 @@ Eliminering av litium via njurarna påverkas av:
 
 - Njurfunktion (GFR? Tubuli?)
 
-- Interaktion med vissa läkemedel
+- Interaktion med vissa läkemedel: NSAID, diuretika, ACE-hämmare.
 
-Linjärt doskoncentrationssamband, d v s, dubbel dos ger dubbel koncentration.
+- Eliminationen ökar mot slutet av graviditet
 
-Lithium clearance may also change independently of the glomerular filtration rate. It decreases for example during dehydration (water deficiency) and low sodium intake, pathological conditions with edema formation, treatment with diuretics, anti-hypertensive drugs, or non-steroid anti-inflammatory drugs. It increases during treatment with some vasodilating drugs. Thomsen och Schou
+- Dehydrering, hjärtsvikt, och lågt saltintag minskar utsöndringen.
+
+
+<!-- Lithium clearance may also change independently of the glomerular filtration rate. It decreases for example during dehydration (water deficiency) and low sodium intake, pathological conditions with edema formation, treatment with diuretics, anti-hypertensive drugs, or non-steroid anti-inflammatory drugs. It increases during treatment with some vasodilating drugs. Thomsen och Schou -->
+Vanligen mäts tolvtimmarsvärde, dvs litiumkoncentrationen tolv timmar efter en dos. Detta kan räknas om till ett uppskattat 24-tim värde (24 h värde x 1,6 = 12 h värde).
+
+<!-- Litiumkonc: Målvärde (12 h värden): 0,4 (0,8) - 0,8 (1,2) mmol/l. Antimaniskt skydd i högre ref intervall. -->
+
+<!-- Tar tid innan tillvänjning och effekt – Tålamod! (upp till två år) [Ref på det?] -->
 
 Litiumkinetiken i njurarna är enlig följande:
+
 1. Andel som filtreras över glomerulära basalmembranet: 100%
 2. Reabsorbtion i proximala tubuli: 80%
   - Blockeras av amilorid
   - Ökar av NSAID
 3. Elimineras: 20% (20–40 mL/min eller 1/5 GFR)
 
-Lithium nephrotoxicity revisited Grünfeld  [@Grunfeld2009]
-
-Faktorer som påverkar exkretion och retention av natrium (tex blotryck, njurperfusion/reglering av afferenta arteriolerna) påverkar också eliminationen av litium. Detta är den viktigaste faktorn för variation över tid i litiumlimination för en viss individ. Efterson litium leder till polyuri finns en särskild risk för retention av natrium vid dehydrering.
-
-Koncentrationen i hjärnan är ungefär hälften av den i blodet, och är endast svagt korellerad till serumkoncentrationen (?)
+Lithium nephrotoxicity revisited Grünfeld [@Grunfeld2009]
 
 Lithium: updated human knowledge using an evidence-based approach  [@Grandjean2009]
 
-peak plasma concentration at 1.0-2.0 hours for standard-release dosage forms, and 4-5 hours for sustained-release forms. Its bioavailability is 80-100%, its total clearance 10-40 mL/min and its elimination half-life is 18-36 hours. [@Grandjean2009]
+Pharmacokineticsof  LithiumJose de Leon, Utförlig föreläsning om Litium: https://inhn.org/fileadmin/user_upload/User_Uploads/INHN/Jose_de_Leon/29._Pharmacokinetics_of_lithium/De_Leon_1_-_29_Pharmacokinetics_of_lithium-_June_16__2016.pdf
+
 
 ### Dosering i praktiken
 
-- Halvera litiumdos inför ECT (minskar risk för postiktal konfusion).
+Gå igenom sjukhistoria, aktuell läkemedelsbehandling och labbprover för att utvärdera om det finns kontraindikationer eller komplicerande faktorer (t.ex. njursjukdom, tidigare biverkningar av litium, hjärtsjukdom).
+
+Informera patienten om biverkningar, interaktioner och symtom vid toxicitet.
+
+Målkoncentration (tolv timmar efter senaste dos): 0.5-0.69 mmol/L. S-Litium 0.4 kan ha profylaktisk effekt mot depression och upp till 0.8 är acceptabelt om ej biverkningar föreligger. Som pro Vid mani kan koncentration upp till 1.0 vara nödvändigt. Vaksamhet för litiumförgiftning vid nivåer över 1.3 mmol/l.
+
+Tag litiumprov tidigast sju dagar efter varje dosökning (men om S-Litium >0.7 nytt prov inom 3 dagar). Återbesök kan planeras ca tre dagar efter provtagning för dosjustering och kontroll av följsamhet och biverkningar. Om S-Litium >0.8 eller vid misstänka biverkningar kontaktas läkare för ställningstagande till dosjustering.
+
+Starta med Lithionit 42 mg 1+0+1. Ökning sker med en veckas intervall, med en eller två tabletters ökning per tillfälle beroende på litiumkoncentration.
+
+**Vid första uppföljning**, efter en veckas behandling
+
+- Om S-Litium <0.21 öka Lithionit till 2+0+2.
+- Om S-Litium 0.21-0.49 öka Lithionit till 2+0+1.
+- Om S-Litium 0.5-0.69 (upp till 0.8 kan tolereras) fortsätt oförändrat med 1+0+1.
+
+**Vid andra uppföljning**, efter ca två veckors behandling
+
+- Om S-Litium <0.30 öka dosen med ytterligare 2 tabletter/dygn (uppdelat morgon och kväll).
+- Om S-Litium 0.30-0.49 öka dosen med 1 tablett/dygn förutom om konc <0.4 och dosen är 2+0+2 då dosen höjs med 2 tabl/dygn (uppdelat morgon och kväll).
+- Nytt S-Litium tas efter en vecka och återbesök ca 3 dagar därefter.
+
+<!-- Vid akut mani: Litium högdos med snabb upptrappning tex: 3+3 tabl i 2d => 2+3 i 2d => 2+2 i 2d. Följ konc. Kan sättas ut om pat ej vill fortsätta m litium [ökar det återfallsrisken?]. Obs antimanisk effekt kräver högre målkonc. -->
+
+Vid akut mani kan litium ges med bolusdos för snabb upptrappning, tex 3+3 tabl i 2d => 2+3 i 2d => 2+2 i 2d. Följ litiumkoncentrationen. Obs att antimanisk effekt kräver högre målkoncentration. Kan sättas ut om pat ej vill fortsätta m litium. 
+
+**Fortsatta kontroller**
+
+En gång per vecka tills tre mätningar inom målintervall. Därefter utglesas till...
+
+**Tillfälliga dosjusteringar i särskilda situationer**
+
+- Halvera litiumdos inför ECT (minskar risk för postiktal konfusion), tex genom att hoppa över kvällsdosen dagen innan ECT.
 - Interagerar med antiflogistika, tiaziddiuretika (ökar s-Li) och vissa hypertonimediciner (BBL, ACEi, CCB kan alla vara problematiska).
 - Koffein ökar eliminationen (rekommendera ett stabilt intag)
 - Känslig för försämrad njurfunktion.
 
-Litium vid akut mani: Litium högdos med snabb upptrappning tex: 3+3 tabl i 2d => 2+3 i 2d => 2+2 i 2d. Följ konc. Kan sättas ut om pat ej vill fortsätta m litium. Obs antimanisk effekt kräver högre målkonc.
+### Mer om litiumkoncentration
 
-Litiumkonc: Målvärde (12 h värden): 0,4 (0,8) - 0,8 (1,2) mmol/l. Antimaniskt skydd i högre ref intervall.
-24 h värde x 1,6 = 12 h värde 
-T1/2 18-26 h, steady state 5 dygn
-Tar tid innan tillvänjning och effekt – Tålamod! (upp till två år) [Ref på det?]
+Det terapeutiska intervallet för litium är relativt väl etablerat, men någon tydlig konsensus finns inte. Högre Li-konc ger sannolikt bättre effekt upp till en viss gräns.
 
-4. Målkoncentration vid rutinmässig litiuminställning: 0,5-0.69 mmol/l. Kan behöva höjas till 0,8 i vissa fall och vid akut mani kan man behöva en koncentration på 1,0 mmol/l.
+<!-- Litiumkonc: Målvärde (12 h värden): 0,4 (0,8) - 0,8 (1,2) mmol/l. Antimaniskt skydd i högre ref intervall. -->
+<!-- 24 h värde x 1,6 = 12 h värde  -->
+<!-- T1/2 18-26 h, steady state 5 dygn -->
+<!-- Tar tid innan tillvänjning och effekt – Tålamod! (upp till två år) [Ref på det?] -->
 
 Lägre gräns: Under denna är en terpeutisk effekt osannolik.
 
 Övre gräns: Över denna är en ökning av den terapeutiska effekten osannolik och tolerabiliteten minskar.
 
-Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l
 
-Bipolär: Sträva efter litium i monoerapi
+<!-- Bipolär: Sträva efter litium i monoerapi -->
 
-Se: http://psykiatrisydvast.se/globalassets/verksamheter/psykiatri/psykiatri-sydvast/pdf-er/affektiva/litiumbehandling.pdf
+<!-- Se: http://psykiatrisydvast.se/globalassets/verksamheter/psykiatri/psykiatri-sydvast/pdf-er/affektiva/litiumbehandling.pdf -->
 
 
-5. Li-provtagning ska ske tidigast efter en veckas stabil dosering och 12 (+-1) timmar efter senast intagen dos, d v s, på morgonen innan morgondosen tagits.
+<!-- 5. Li-provtagning ska ske tidigast efter en veckas stabil dosering och 12 (+-1) timmar efter senast intagen dos, d v s, på morgonen innan morgondosen tagits. -->
 
-Eliminationen ökar mot slutet av graviditet.
+<!-- Mania: up to 1.2 (Hiemke et al. 2012) ; 0.6–1.2 (Lexicomp, 2015); 0.8–2.0 (Sproule 2002) => 0.6 - (0.8) till  1.2 - (2.0) EXTENDED release? -->
 
-Mania: up to 1.2 (Hiemke et al. 2012) ; 0.6–1.2 (Lexicomp, 2015); 0.8–2.0 (Sproule 2002) => 0.6 - (0.8) till  1.2 - (2.0) EXTENDED release?
+<!-- Underhållsbehandling (icke-äldre):   -->
 
-Underhållsbehandling (icke-äldre):  
+<!-- Depression, augmentation: 0.6–0.9 (Boschr et al., 2014) -->
 
-Depression, augmentation: 0.6–0.9 (Boschr et al., 2014)
+<!-- Self- or hetero-aggressive behavior in adults with ID: 0.7-1.0 (Wickman & Reed,1 -->
 
-Self- or hetero-aggressive behavior in adults with ID: 0.7-1.0 (Wickman & Reed,1
+<!-- Lithium References for Therapeutic Concentration Ranges: -->
 
-Lithium References for Therapeutic Concentration Ranges:
+<!-- Boschr et al., 2014:http://www.ncbi.nlm.nih.gov/pubmed/25467053 -->
+<!-- Grandjean & Aubry, 2009: http://www.ncbi.nlm.nih.gov/pubmed/19374461 -->
+<!-- Hiemke et al., 2012: http://www.ncbi.nlm.nih.gov/pubmed/22053351 -->
+<!-- Lexicomp: http://www.ncbi.nlm.nih.gov/pubmed/25467053http://www.amazon.com/Drug-Information-Handbook-Lexicomp/dp/1591953421/ref=sr_1_1?s=books&ie=UTF8&qid=1457718666&sr=1-1&keywords=drug+information+handbook -->
+<!-- Severus et al., 2008: http://www.ncbi.nlm.nih.gov/pubmed/18271901 -->
+<!-- Sproule, 2002:http://www.ncbi.nlm.nih.gov/pubmed/12126457 -->
+<!-- Wickman & Reed, 1987: http://www.ncbi.nlm.nih.gov/pubmed/3320183 -->
 
-Boschr et al., 2014:http://www.ncbi.nlm.nih.gov/pubmed/25467053
-Grandjean & Aubry, 2009: http://www.ncbi.nlm.nih.gov/pubmed/19374461
-Hiemke et al., 2012: http://www.ncbi.nlm.nih.gov/pubmed/22053351
-Lexicomp: http://www.ncbi.nlm.nih.gov/pubmed/25467053http://www.amazon.com/Drug-Information-Handbook-Lexicomp/dp/1591953421/ref=sr_1_1?s=books&ie=UTF8&qid=1457718666&sr=1-1&keywords=drug+information+handbook
-Severus et al., 2008: http://www.ncbi.nlm.nih.gov/pubmed/18271901
-Sproule, 2002:http://www.ncbi.nlm.nih.gov/pubmed/12126457
-Wickman & Reed, 1987: http://www.ncbi.nlm.nih.gov/pubmed/3320183
+<!-- Malhi & Berk, 2012: http://www.ncbi.nlm.nih.gov/pubmed/22265701□the therapeutic range is “reasonably well defined” (0.4–0.8 mmol/L).  -->
 
-Malhi & Berk, 2012: http://www.ncbi.nlm.nih.gov/pubmed/22265701□the therapeutic range is “reasonably well defined” (0.4–0.8 mmol/L). 
+<!-- Greater efficacy of concentrations (>0.6 mmol/L) -->
+<!-- - is of greater necessity for acute mania  -->
+<!-- - and, to a lesser extent, for maintenance comes at a cost in terms of tolerability,  -->
 
-Greater efficacy of concentrations (>0.6 mmol/L)
-- is of greater necessity for acute mania 
-- and, to a lesser extent, for maintenance comes at a cost in terms of tolerability, 
+<!-- whereas lower plasma concentrations  -->
+<!-- - that might be adequate for depression prophylaxis  -->
+<!-- - and ↓risks of long-term toxicity might not be optimal to ↓ mania recurrence. -->
 
-whereas lower plasma concentrations 
-- that might be adequate for depression prophylaxis 
-- and ↓risks of long-term toxicity might not be optimal to ↓ mania recurrence.
+<!-- Depression: 0.4-0.8 -->
+<!-- Mani: 0.6-1.0 -->
+<!-- Initiering: 0.6-0.8 -->
 
-Depression: 0.4-0.8
-Mani: 0.6-1.0
-Initiering: 0.6-0.8
+<!-- Egen tumregel: Sikta på 0.6 (vid initiering +- 0.1). Vid depression är -0.2 ok. Vid bipolärprofylax är +0.2 ok. Vid akut mani lägg på ytterligare +0.2 = 1.0. -->
 
-Egen tumregel: Sikta på 0.6 (vid initiering +- 0.1). Vid depression är -0.2 ok. Vid bipolärprofylax är +0.2 ok. Vid akut mani lägg på ytterligare +0.2 = 1.0.
+<!-- Malhi 2011 The lithiumeter: a measured approach -->
 
-Malhi 2011 The lithiumeter: a measured approach
+<!-- Litionit är en depottablett och innehåller litiumsulfat -->
 
-Litionit är en depottablett och innehåller litiumsulfat
+<!-- Many authors recommend a single daily dosing   with ER tablets to ↓ ADRs, as well as thepossibility of less risk of renal damage.Malhi & Tanious, 2011. Carter et al. 2013: http://www.ncbi.nlm.nih.gov/pubmed/24165107recommend starting a twice-a-day dosing pattern to establish the target dose and then switchingto a single daily dosing pattern. -->
 
-Many authors recommend a single daily dosing   with ER tablets to ↓ ADRs, as well as thepossibility of less risk of renal damage.Malhi & Tanious, 2011. Carter et al. 2013: http://www.ncbi.nlm.nih.gov/pubmed/24165107recommend starting a twice-a-day dosing pattern to establish the target dose and then switchingto a single daily dosing pattern.
+<!-- ER tablets must be swallowed whole. Lithium can be taken with meals to avoid GI upset -->
 
-ER tablets must be swallowed whole. Lithium can be taken with meals to avoid GI upset
-
-2013  How to initiate lithium therapy: a systematic review of dose estimation and level prediction methods Sienaert : "The most important distinction between the empirical titration method and the predictive methods appears to be the shorter time the latter need to achieve the targeted lithium level. The vast majority of predictive methods, however, show inconsistent or poor results or have not been replicated since their initial description. The empirical titration method, although not extensively studied, appears to be a time-honored method that can be recommended for use in daily clinical practice. "
+<!-- 2013  How to initiate lithium therapy: a systematic review of dose estimation and level prediction methods Sienaert : "The most important distinction between the empirical titration method and the predictive methods appears to be the shorter time the latter need to achieve the targeted lithium level. The vast majority of predictive methods, however, show inconsistent or poor results or have not been replicated since their initial description. The empirical titration method, although not extensively studied, appears to be a time-honored method that can be recommended for use in daily clinical practice. " -->
 
 ### Monitorering
 
-(P-Li och TSH var 4:e mån och årligen dessutom: P-Kreatinin, P-Ca, PAlbumin, P-glukos, BT och vikt).
+(P-Li och TSH var 4:e mån och årligen dessutom: P-Kreatinin, P-Ca, P-Albumin, P-glukos, BT och vikt).
 
-Mätning av litiumkoncentration görs lämpligast 12 tim efter en dos. Vid singeldos är 24 tim bättre.
-
-
-### INSTÄLLNING AV LITIUMDOS
-
-Ansvarig läkare har till uppgift att utreda patienten, meddela diagnos samt ordinera och initiera behandlingen med Litium. Detta innefattar:
-
-- Psykiatrisk bedömning med indikation för litiumbehandlingen.
-- Laboratoriescreening inför Litiuminsättning enligt mottagningens rutiner.
-- Genomgång av att det inte föreligger några komplicerande faktorer (t.ex. njursjukdom, tidigare biverkningar av litium, pågående psykiatriskt tillstånd som kräver speciell handläggning, hjärtsjukdom mm) som gör att Litiuminställningen inte bör delegeras.
-
-Om inga skäl talar emot delegation av Litiuminställning ska läkaren:
-
-1. Meddela diagnos, motivera patienten för behandling och initiera behandling med Lithionit 42 mg, 1+0+1.
-2. Tillse att S-Litium bestäms en vecka senare.
-3. Vidtala en specialutbildad sjuksköterska som ska ordna en återbesökstid för patienten cirka 10-14 dagar senare (så att provsvar på S-Litium föreligger).  Målkoncentration: 0,5-0,69 mmol/L. (S-Litium upp till 0,8 kan godtas om patienten ej har biverkningar).  Dosökningsschema:
-1. Vid första återbesök när patienten tagit T. Lithionit 42 mg 1+0+1 i minst 7 dagar.
-– Efterfråga compliance (hur har Du tagit dina Litiumtabletter?).  Efterfråga eventuella obehag (biverkningar?).  Om S-Litium är <0,21 höjs dosen Lithionit till 2+0+2.  Om S-Litium är 0,21-0,49 höjs dosen Lithionit till 2+0+1.  Om S-Litium 0,5-0,69 (upp till 0,8 kan tolereras) fortsätter man med dosen 1+0+1.  S-Litium tas en vecka senare och nytt återbesök bokas ca 3 dagar efter provtagningen (om SLitium >0,7 tas S-Litium inom 3 dagar).
-2. Vid andra återbesök:
-– Efterfråga compliance, eventuella biverkningar.  Om S-Litium är <0,30 höjs dosen med ytterligare 2 tabletter/dygn (uppdelat morgon och kväll).  Om S-Litium är 0,30-0,49 höjs dosen med 1 tablett/dygn förutom om konc <0,4 och dosen är 2+0+2 då dosen höjs med 2 tabl/dygn (uppdelat morgon och kväll).  Om S-Litium >0,8 eller om misstänka biverkningar föreligger kontaktas läkaren för ställningstagande till dosjustering.  Nytt S-Litium tas efter en vecka och återbesök ca 3 dagar därefter.
-2. Därefter höjs Litihionitdosen vid behov med 1 tablett per vecka om S-Litium ej uppnått målkoncentrationen.
-Gränsvärden bör diskuteras med ansvarig läkare innan dosjustering. Dostitreringen är avslutad när patienten haft S-Litium inom målkoncentrationen tre provtagningar i rad med cirka en veckas mellanrum.  När målkoncentrationen uppnåtts ska patienten bokas för ett återbesök till ansvarig läkare för uppföljning och utvärdering av behov av ytterligare medicinska och pedagogiska/psykologiska behandlingsinsatser.
+Mätning av litiumkoncentration görs lämpligast 12 tim efter en dos. Vid singeldos är dock 24 tim bättre.
 
 https://bpac.org.nz/magazine/2007/february/pdfs/bpj3_lithium_pages16-27_pf.pdf
 
-Pharmacokineticsof  LithiumJose de Leon, Utförlig föreläsning om Litium: https://inhn.org/fileadmin/user_upload/User_Uploads/INHN/Jose_de_Leon/29._Pharmacokinetics_of_lithium/De_Leon_1_-_29_Pharmacokinetics_of_lithium-_June_16__2016.pdf
+### Biverkningar
 
+### Toxicitet
+
+ Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l. 1,5-2,5 mmol/l ger lin-drig – måttlig intoxikation med symtom av slöhet, tremor, yrsel, sluddrigt tal, diarré, muskelryck-ningar. Koncentrationer därutöver ger allvarlig intoxikation med risk för konfusion, agitation, njur-skador, hallucinationer, kramper, koma och hjärtrytmrubbningar.
 
 ## Arytmirisk
 

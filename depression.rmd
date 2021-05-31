@@ -203,6 +203,8 @@ Se även kapitel \@ref(psychopharmacology).
 
 Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
 
+<!-- Dosintervall, Se Which antidepressant doses are optimal? Fredrik Hieronymus: https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30221-4/fulltext -->
+
 ### Effektivitet {#antidepressant-efficacy}
 
 Ciprianis studie [@Cipriani2018]
