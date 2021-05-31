@@ -565,3 +565,110 @@ kable(table_antipsychotic)
  
 `r  note_antipsychotic` Data är från 2020 och kan vara inaktuell när ny kunskap tillkommer.
 
+
+## Ketamin
+
+<!-- UpToDate: https://www.uptodate.com/contents/ketamine-and-esketamine-for-treating-unipolar-depression-in-adults-administration-efficacy-and-adverse-effects -->
+
+<!-- SBU:  [@Sbu2017ketamin]-->
+
+<!-- Caddy C, Amit BH, McCloud TL, Rendell JM, Furukawa TA, McShane R, Hawton K, Cipriani A. Ketamine and other glutamate receptor modulators for depression in adults. Cochrane Database of Systematic Reviews 2015, Issue 9. Art. No.: CD011612. DOI: 10.1002/14651858.CD011612.pub2. -->
+
+<!-- McCloud TL, Caddy C, Jochim J, Rendell JM, Diamond PR, Shuttleworth C, Brett D, Amit BH, McShane R, Hamadi L, Hawton K, Cipriani A. Ketamine and other glutamate receptor modulators for depression in bipolar disorder in adults. Cochrane Database of Systematic Reviews 2015, Issue 9. Art. No.: CD011611. -->
+
+<!-- A Consensus Statement on the Use of Ketamine in the Treatment of Mood Disorders. -->
+<!-- AU Sanacora G, Frye MA, McDonald W, Mathew SJ, Turner MS, Schatzberg AF, Summergrad P, Nemeroff CB, American Psychiatric Association (APA) Council of Research Task Force on Novel Biomarkers and Treatments  -->
+<!-- SO JAMA Psychiatry. 2017;74(4):399. [@Sanacora2017] -->
+
+
+Ketamin har använts sedan 1970-talet som narkosmedel och mot depression sedan 2000. Det är inte godkänd för behandling av depression i Sverige, varför förskrivningen sker "off-label". Ketamin är ett racemat av S-ketamin och R-ketamin. S-enantiomeren (esketamin) finns nu tillgänglig som nässpray, och har godkännade som behandling mot depression.
+
+De doser som ges vid depression (0.5 mg/kg iv över 40 minuter) ger ingen anestetisk effekt och de toppkoncentrationer som uppnås är ca tio gånger lägre än de som uppnås vid kirurgisk anestesi [@Sanacora2017]. Av 833 personer som getts ketamin i de doser som används vid depression upphörde tre personer att ge verbal kontakt under behandlingen, men alla var medicinskt stabila under behandlingen. 
+
+### Indikationer
+
+Engångsinjektion av ketamin har begränsat vetenskapligt stöd (ett antal mindre, heterogena studier med totalt n = 257 finns) vid unipolär svår, medelsvår, eller behandlingsresistent depression. Behandlingseffekten är snabbt inträdande, inom 24 tim, kan komma redan efter några timmar. Effekten håller i sig upp till en vecka. Det kan ges med eller utan annan samtidig antidepressiv behandling. Vid bipolär depression är underlaget otillräckligt. [@Sbu2017ketamin]
+
+Ketamin kan ges som upprepade infusioner, men detta har studerats i mindre omfattning.
+
+<!-- Singh JB, Fedgchin M, Daly EJ, De Boer P, Cooper K, Lim P,  Pinter  C,  et  al.  Double-blind,  randomized  placebo-con-trolled  dose-frequency  study  of  intravenous  ketamine  in  patients with treatment resistant depression. Am J Psychiatry 2016;173:816 -26 -->
+
+
+För ketamin finns visad effekt vid unipolär medelsvår eller svår depression. Det har i dessa sammanhang visats minska suicidtankar. 
+
+Ketamin kan även ha effekt vid svårbehandlad depression 
+
+### Biverkningar
+
+Typiska rapporterade  biverkningar  av  ketamin  är  övergående  och  omfattar [@Sbu2017ketamin]:
+
+- Dissociation
+- Koncentrationssvårigheter
+- Dimsyn
+- Yyrsel
+- Illamående
+- Muntorrhet
+- Huvudvärk
+
+Mer allvarliga  biverkningar  har  också  rapporterats [@Sbu2017ketamin]:
+
+- Takykardi-/bradykardi
+- Övergående Hypertension (M +20 mmHg, > 180/100 och HF > 100 hos 30%)
+- hypotension
+- Bradypne
+- Ventrikulära extraslag
+- Hallucinationer och  förvirring
+
+Ketamin  har även en missbrukspotential men doserna som används vid missbruk är betydligt högre.
+
+### Vetenskapligt stöd
+
+SBU sammanfattar en översiktsartikel från 2015: "Ketamin jämfört med placebo (fem studier). Engångsinjektion   av   ketamin   var   mer   effektiv   än  placebo  (mätt  som  respons):  inom  24  timmar  (oddskvot  (OR)  10,77  (95  %  konfidensintervall  (KI) 2,00 till 58,00); tre RCT; n=56), vid 72 tim-mar (OR 12,59 (95 % KI 2,38 till 66,73); tre RCT; n=56), samt upp till en vecka (OR 2,58 (95 % KI 1,08  till  6,16);  fyra  RCT;  n=131).  Effekten  avse-ende  respons  hade  försvunnit  efter  2  veckor  (OR  0,93 (95 % KI 0,31 till 2,83); en RCT; n=51)" [@Sbu2017ketamin]
+
+
+### Praktiskt genomförande av ketamininfusion
+
+
+#### Inför behandlingen
+
+- Utförlig diagnostisk bedömning för att fastställa aktuell diagnos och utvärdera förekomst av tidigare substansbrukssyndrom och psykossjukdom.
+
+- Mätning av symtomens svårighetsgrad för att kunna följa behandlingseffekt (tex MADRS-S).
+
+- Genomgång av tidigare antidepressiv läkemedelsbehandling för att dokumentera tidigare adekvata behandlingsförsök med antidepressiva läkemedel.
+
+- Genomgång av kroppslig samsjuklighet (tex kardiovaskulär sjukdom), allergier, och pågående läkemedelsbehandling för att värdera eventuella risker med behandlingen.
+
+- Genomgång av tidigare medicinsk och psykiatrisk sjukhistoria hos förstagradssläktingar rekommenderas. 
+
+- Urindrogscreening rekommenderas.
+
+- Inhämta skriftligt informerat samtycke där risker med behandlingen och det begränsade kunskaperna om behandlingen förmedlas, samt alternativ behandling diskuteras.
+
+Rekommendationer från [@Sanacora2017].
+
+#### Förutsättningar för behandling
+
+Möjlighet till övervakning av:
+
+- Blodtryck
+- Pulsoxymeter
+- EKG
+
+Möjlighet att ge behandling med
+
+- Syrgas
+- Läkemedel
+- Stöd till patienten
+- Fasthållning
+
+En plan bör finnas för hantering av förändrad kardiovaskulär funktion (tex HLR och transport till kardiologisk avdelning eller intensivvårdsavdelning).
+
+
+#### Administratrion av läkemedlet
+
+Ketamin hydroklorid 0.5 mg/kg per 40 minuter intravenös infusion är standard. Vid BMI > 30 kan dosering efter ideal kroppsvikt övervägas för att öka säkerheten.
+
+The standard operating procedure shouldcontainpredosingconsiderationscoveringthefollowing:(1)confir-mation of preprocedural evaluation and informed consent; (2) as-sessmentofbaselinevitalsigns,includingbloodpressure,heartrate,and oxygen saturation or end-tidal CO2; (3) criteria for acceptablebaseline vital signs before initiation of medication delivery (eBox 2in theSupplement); and (4) incorporation of a “time-out” proce-dure in which the name of the patient and correct dosing para-meters are confirmed.Standard operating procedures should also include specifi-cally defined ongoing assessments of patients’ physiological andmental status during the infusion process, including the following:(1) assessment of respiratory status (ie, oxygen saturation or end-tidal CO2); (2) assessment of cardiovascular function (blood pres-sure and heart rate, reported on a regular basis); (3) assessment ofthe level of consciousness (ie, Modified Observer’s Assessment ofAlertness/SedationScale30)orotherdocumentedassessmentofre-sponsiveness; and (4) delineation of criteria for stopping the infu-sion (eBox 3 in theSupplement) and a clear plan for managing car-diovascular or behavioral events during treatment.Immediateposttreatmentevaluations,assessments,andman-agement should ensure that the patient has returned to a level offunctionthatwillallowforsafereturntohisorhercurrentlivingen-vironment. 
+
+ensurethataresponsibleadultisavailabletotrans-port the patient home if the treatment is being administered on anoutpatient basis

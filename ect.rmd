@@ -372,7 +372,7 @@ Förlopp:
 6. Stimulera (vid 2 min 40 s om tiopental; 3 min om propolipid).
 7. Observera:
   - Motorisk kramp: Utbredning, symmetri, duration (markera på EEG-remsan)
-  - Maxpuls
+  - Maxpuls enligt ekg-monitor eller pulsoxymeter
 8. Kontrollera EEG och bedöm krampens kvalitet.
 9. Blodtryck och puls vid avslut.
 
@@ -380,7 +380,6 @@ Efter:
 
 - Observation och oxygenering
 - Dokumentation
->>>>>>> a14c313fa05fb16658ba5e6ecc0c0d93749858a0
 
 ## Behandlingsintervall och seriens längd
 
@@ -457,7 +456,6 @@ Vid kognitiva besvär som bedöms bero på ECT-behandlingen:
   - Värdera behandlingseffekt mot graden av biverkningar.
   
 Eftersfråga och testa minnesproblem [Hur?]. Om problem kvarstår bortom några veckor efter behandlingens avslut bör fördjupad utredning göras [vad?]. Bedöm om kvarvarande psykiska besvär, samtidig läkemedelsbehandling eller kan vara bidragande. [? Överväg om demens, alkoholöverkonsumtion, hjärntumör etc? kan föreligga]. Vid minnessvårigheter som bedöms bero på kvaravarande psykiska besvär kan fortsatt ECT-behandling vara av värde.
-
 
 Vid kortvarig effekt - Undvik onödig behandling eller ge underhållsbehandling?
 
