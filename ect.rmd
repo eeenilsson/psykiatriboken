@@ -19,7 +19,7 @@ Rekommenderas som förstahandsbehandling vid svår (unipolär eller bipolär) de
 
 ### Kontraindikationer och riskvärdering
 
-Några absoluta kontraindikationer finns inte. Intrakraniellt tryck ökar, men konsensus är att ECT är säkert vid små solitära tumörer som inte ger masseffekt, ödem eller ökat intrakraniellt tryck. Vid nylig ischemisk stroke är komplikationsrisken låg. 
+Några absoluta kontraindikationer finns inte. Intrakraniellt tryck ökar, men konsensus är att ECT är säkert vid små solitära tumörer som inte ger masseffekt, ödem eller ökat intrakraniellt tryck. Vid nylig ischemisk stroke är komplikationsrisken låg. [@spf2014ect]
 
 #### Hjärt-kärlsjukdom
 
@@ -29,9 +29,7 @@ ECT bör undvikas vid instabil eller allvarlig hjärt-kärlsjukdom samt inom fyr
 
 #### Sjukdom i CNS
 
-Ökad risk vid tillstånd med eller risk för ökat intrakraniellt tryck (t.ex. aneurysm med risk för ruptur, färsk stroke, vissa hjärntumörer). Det
-finns en viss ärftlighet för intrakraniella aneurysm varför heredi-
-tet för hjärnblödning bör ingå i anamnesen.
+Ökad risk vid tillstånd med eller risk för ökat intrakraniellt tryck (t.ex. aneurysm med risk för ruptur, färsk stroke, vissa hjärntumörer). Det finns en viss ärftlighet för intrakraniella aneurysm varför hereditet för hjärnblödning bör ingå i anamnesen.
 
 #### Samtidig läkemedelsbehandling
 
@@ -40,8 +38,7 @@ Teofyllin kan ge ökad risk för förlängd kramp och status epilepticus.
 #### Övriga tillstånd
 
 - Grav osteoporos.
-- Mycket dålig tandstatus som bör föranleda särskild omsorg att
-uppnå fullgod muskelrelaxering.
+- Mycket dålig tandstatus som bör föranleda särskild omsorg att uppnå fullgod muskelrelaxering.
 - Nedsatt lungfunktion såsom vid KOL, astma, pneumoni.
 - Glaukom.
 - Övriga tillstånd med förhöjd narkosrisk.
@@ -83,38 +80,36 @@ uppnå fullgod muskelrelaxering.
 
 ### Depression
 
-Remissionsgraden är 90% vid svår depression och 50% vid depression som ej svarat på antidepressiv behandling.
+<!-- I resonemanget Skilj på respons och remission? -->
 
-Behandlingen har mindre effekt vid medelsvår depression och då är upplevda biverkningar värre. Vid svårbehandlad depression (> 6 mån farmaka utan effekt) svarar 45% på ECT (jfr psykotisk depression enstaka episod där ca 80-90% svarar på ECT (Petrides et al 2001, Kellner et al 2006). ECT hjälper sannolikt inte vid depression med samtidigt personlighetssyndrom.
+Undernäring, utmattning och dehydrering till följd av depression stärker indikationen, liksom psykotiska symtom, eftersom behandlingseffekten av antidepressiva är lägre i dessa fall. Samsjuklighet med ångestsyndrom tycks inte påverka effekten av ECT. Dock bör tydliga depressiva symtom finnas för att ECT skall vara aktuellt. Vid bipolär depression är remissionsgraden är som vid unipolär depression. Vissa faktorer är i observationsstudier förknippade med bättre eller sämre effekt av ECT (se listorna nedan).
 
-Vid svår depression återfaller hälften inom ett år, vilket kan ske snabbt [@spf2014ect]. Detta motiverar tät uppföljning under första året.
+<!-- Remissionsgraden är 90% vid svår depression och 50% vid depression som ej svarat på antidepressiv behandling. -->
+
+Jämfört med svår depression har ECT mindre effekt vid medelsvår depression som också är förknippat med mer upplevda biverkningar. Vid svårbehandlad depression (> 6 mån farmaka utan effekt) svarar 45% på ECT jämfört med 90% vid svår depression eller depression med psykos [@Kellner2006;@Petrides2001].
+
+Återfallsrisken efter en ECT-serie är hög. Vid svår depression återfaller hälften inom ett år, vilket kan ske snabbt [@spf2014ect]. Detta motiverar tät uppföljning under första året och kan föranleda fortsättnings-ECT.
 
 Faktorer som är förknippade med särskilt god efekt av ECT [@Uk2003]:
 
 - Melankoliska drag
 - Uttalad psykomotorisk hämning
-- Psykotiska symtim
+- Psykotiska symtom [@vanDiermen2018]
+- Högre ålder [@vanDiermen2018]
+
+<!-- ect (predictor OR predict OR prediction) AN (remission OR response) AND (review OR meta) -->
+<!-- 85 hits, extracted [@vanDiermen2018;@Pinna2018] -->
 
 <!-- TODO: Read [@Uk2003] -->
 
-### Unipolär depression
+Faktorer som är förknippad med sämre effekt av ECT:
 
-Prediktorer för sämre behandlingseffekt: 
-
-- Mer långvarig depression, 
-- psykotiska symtom? 
+- Personlighetssyndrom (Något lägre responsandel och ökad återfallsrisk) [@Nordenskjold2012]
+- Mer långvarig depression
 - Utebliven effekt av läkemedel
-- Personlighetssyndrom: Något lägre responsandel och ökad återfallsrisk.
-- Beroendesyndrom: Något lägre responsandel och ökad återfallsrisk.
-- Låg Ålder?
-
-Undernäring, utmattning och dehydrering till följd av depression stärker indikationen, liksom psykotiska symtom, eftersom behandlingseffekten av antidepressiva då är lägre.
-
-Samsjuklighet med ångestsyndrom tycks inte påverka responsandel. Dock bör tydliga depressiva symtom finnas för att ECT skall vara aktuellt.
-
-### Bipolär depression
-
-Remissionsgraden är som vid unipolär depression.
+- Personlighetssyndrom: 
+- Beroendesyndrom (något lägre responsandel och ökad återfallsrisk)
+- Låg ålder
 
 ### Mani
 
@@ -150,6 +145,10 @@ Kan användas som förstahandsalternativ vid malignt neuroleptikasyndrom; svår 
 
 
 ## Effektivitet
+
+Verklig ECT är mer effektivt än simulerad ECT (Standardiserad effektstorlek -0.91, 95% CI -1.27 till -0.54) [@Uk2003]. Detta motsvarar ca 10 poängs förbättring på Hamilton depresssion rating scale (HDRS). ECT är även mer effektivt än läkemedelsbehandling, med ca 10 p skillnad på HDRS [@Uk2003]. Högre elektrisk dos och bilateral elektrodplacering ger bättre effekt på depressiva symtom, men kan vara förknippat med mer kognitiva biverkningar [@Uk2003].
+
+<!-- Cohens d = 0.2, 0.5 and 0.8 correspond to small, medium and large effects -->
 
 Återfallsrisken är ca 50% utan återfallsförebyggande behandling.
 
@@ -228,7 +227,7 @@ Att det epilepsianfall som utlöses av ECT är generaliserat är viktigt för be
 
 Kramptröskeln är individuell och beror av faktorer som ålder, kön, medicinering och sjukdom [@spf2014ect]. Denna kan titreras fram, men för att förkorta tiden i narkos börjar man i praktiken med en strömdos baserad på en teoretisk beräkning som vanligen utläses från en tabell som beror på apparatur och där ålder och kön tas med som variabler.
 
-Vid första behandlingen utgår man från den rekommenderade strömdosen och gör modifikationer utifrån tex ålder, medicinering, den psykiska sjukdomens svårighetsgrad mm. Utvärdera tidigare strömdos vid varje behandlingstillfälle och justera fortlöpande.
+Vid första behandlingen utgår man från den rekommenderade strömdosen och gör modifikationer utifrån tex ålder, medicinering, den psykiska sjukdomens svårighetsgrad mm. Alternativt ges en standardordination vid första behandlingen. Utvärdera tidigare strömdos vid varje behandlingstillfälle och justera fortlöpande.
 
 **Lista**. Variabler som har betydelse för kramptröskeln [@Cerletti2018].
 
@@ -421,7 +420,7 @@ TCA bör sättas ut pga risk för arytmi.
 
 Äldre fallrapporter väckte misstanke om att samtidig litiumbehandling kunde vara förknippat med ökad risk för förlängd kramptid, kognitiva biverkningar och långsammare uppvakning från anestesi. Senare studier har dock visat att samtidig litiumbehandling är säkert. 
 
-Tumregel: Håll litiumkoncentratione i den lägre delen av målintervallet.
+Tumregel: Håll litiumkoncentrationen i den lägre delen av målintervallet, eller hoppa över kvällsdosen dagen innan ECT.
 
 #### Bensodiazepiner
 
