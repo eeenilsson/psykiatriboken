@@ -9,9 +9,9 @@ Epidemiologi
 
 Terminologi: Agitation vs agression, sedering vs lugnande.
 
-Aggressia handlingar kan kategoriseras som psykotiska (drivs av vanföreställningar eller hallucinationer), impulsiva (opassande respons på verkliga stimuli) eller instrumentella (aka "predatoriska", "organiserade")  [@Meyer2020] (p26).
+Aggressia handlingar kan kategoriseras som psykotiska (drivs av vanföreställningar eller hallucinationer), impulsiva (opassande respons på verkliga stimuli) eller instrumentella (aka "predatoriska", "organiserade")  [@Meyer2020book] (p26).
 
-Hos kontinuerligt aggressiva personer med schizofreni inom rättspsykiatrisk vård är impulsiva agressionshadlingar vanligast (54%), följt av instrumentella (29%) och psykotiska (17%) [@Meyer2020].
+Hos kontinuerligt aggressiva personer med schizofreni inom rättspsykiatrisk vård är impulsiva agressionshadlingar vanligast (54%), följt av instrumentella (29%) och psykotiska (17%) [@Meyer2020book].
 
 
 ## Agiterad eller agressiv patient

@@ -392,7 +392,7 @@ https://bpac.org.nz/magazine/2007/february/pdfs/bpj3_lithium_pages16-27_pf.pdf
 
 ## Klozapin {#clozapine}
 
-Innehållet i detta avsnitt kommer huvudsaklineg från Clozapine Handbook [@Meyer2020].
+Innehållet i detta avsnitt kommer huvudsaklineg från Clozapine Handbook [@Meyer2020book].
 
 ### Inledning
 
@@ -506,6 +506,12 @@ Biverkningar förebyggas,  uppmärksammas, och behandlas.
 
 Förebygg genom att tex ge läkemedel mot förstoppning, utsättning av andra läkemedel som ger ökad risk för samma biverkningar (tex antikolinerga medel).
 
+#### Antikolinerga biverkningar av klozapin
+
+TODO: Något om farmakodynamiken vid olika M-receptorer.
+
+För mer om antikolinerga biverkningar, se **avsnitt \@ref(side-effects-anticholinergic)**.
+
 #### Sialorrhé
 
 Ökad salivproduktion är en tidig biverkan.
@@ -522,6 +528,9 @@ Vid akatisi kan byte till klozapin övervägas.
 
 Notera att Bazetts formel för beräkning av QTc överkorrigerar, så använd annan beräkningsmetod, tex QT-nomogram.
 
+
+
+
 ## Arytmirisk
 
 Se: Läkemedel som kan orsaka allvarliga rubbningar i hjärtats rytm - Fokus på förskrivning av antidepressiva och antipsykotiska läkemedel till äldre [@socialstyrelsen2019tdp].
@@ -534,7 +543,7 @@ Ziprasidon QTT-förlängande, även kvetiapin.
 
 Pacher Cardiovascular Side Effects of New Antidepressants and Antipsychotics: New Drugs, old Concerns? 2004
 
-## Antikolinerga biverkningar
+## Antikolinerga biverkningar {#side-effects-anticholinergic}
 
 ### Antikolinerga biverkningar av antipsykotiska läkemedel
 
@@ -779,7 +788,6 @@ SBU sammanfattar en översiktsartikel från 2015: "Ketamin jämfört med placebo
 
 
 ### Praktiskt genomförande av ketamininfusion
-
 
 #### Inför behandlingen
 
