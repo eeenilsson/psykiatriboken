@@ -389,6 +389,148 @@ https://bpac.org.nz/magazine/2007/february/pdfs/bpj3_lithium_pages16-27_pf.pdf
 
  Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l. 1,5-2,5 mmol/l ger lin-drig – måttlig intoxikation med symtom av slöhet, tremor, yrsel, sluddrigt tal, diarré, muskelryck-ningar. Koncentrationer därutöver ger allvarlig intoxikation med risk för konfusion, agitation, njur-skador, hallucinationer, kramper, koma och hjärtrytmrubbningar.
 
+
+## Klozapin {#clozapine}
+
+Innehållet i detta avsnitt kommer huvudsaklineg från Clozapine Handbook [@Meyer2020book].
+
+### Inledning
+
+En stor andel (20-30 %) av personer med schizofreni får otillräcklig respons på två eller fler försök till behandling med antipsykotiska läkemedel. Klozapin har då bättre chans att ge effekt (>40 % respons jämfört med <5 % för andra antipsykotiska medel) än att ytterligare försök med andra antipsykotiska medel. De som behandlas med klozapin har lägre mortalitet och mindre behov av sjukhusvård. Om behandlingen med klozapin fördröjs mer än tre år minskar sannolikheten för behandlingseffekt. Detta gör att klozapin bör övervägas tidigt i förloppet vid behandlingsresistent schizofreni. Vid behandlingsresistent schizofreni bör följsamhet till behandling först undersökas genom mätning av plasmakoncentrationer av läkemedlet och behandlingsresistens bör särskiljas från intolerabilitet pga biverkningar.
+
+Klozapin har även visad effekt mot: 
+
+- Psykogen polydipsi
+- Suicidalitet $\dag$ (här är det bättre än tex olanzapin)
+- Aggression $\dag$
+- Behandlingsresistent mani (i kombination med stämningsstabiliserande läkemedel)
+- Bipolärt syndrom utan psykos
+- Psykos vid Parkinsons sjukdom (i låg dos)
+
+$\dag$ Dessa effekter är oberoende av den antipsykotiska effekten.
+
+Klozapin medför risk för flera biverkningar, bland annat viktuppgång, men det är värt att notera att trots detta ger det lägre risk för död än andra alternativ.
+
+### Behandlingsresistent schizofreni
+
+Klarlägg om verklig behandlingsresistens föreligger:
+
+- Har två andra antipsykotiska preparat prövats i adekvat dos under adekvat tid?
+- Föreligger följsamhet till behndling (kontrollera serumkoncentration)
+- Föreligger biverkningar som förklarar vissa av personens kvarvarande symtom?
+
+Vid otillräcklig effekt av klozapin:
+
+1. Mät serumkoncentration vid upprepade tillfällen
+  - Fluktuationer > 50% föranleder misstanke om bristande följsamhet
+  - Serumkoncentrationen bör konsekvent ligga > 1070 nmol/L
+2. Optimera dosen
+  - Titrera till högre serumkoncentration (upp till 3057 nmol/L) förutsatt att intolerabla biverkningar saknas
+  - Höj dosen med 2-3 veckors mellanrum
+3. Lägg till ECT-behandling
+4. Överväg tillägg av annat antipsykotiskt medel
+  - Vinsten med detta är osäker och effektstorleken låg (0.24)
+  - Välj preparat utifrån biverkningsprofil, eftersom någon skillnad mellan olika preparat ej kunnat visas (tex är aripiprazol lika effektivt som haloperidol i detta sammanhang).
+
+### Psykogen polydipsi
+
+Psykogen polydipsi förekommer hos ca 20% av sjukhusvårdade med kronisk psykossjukdom. Klozapin har visat mycket god effekt mot detta vid dosen 300 mg/dag (i små studier).
+
+### Aggressivitet
+
+Klozapin har effekt mot psykotisk aggressivitet (\@ref(aggression)) och effekten erhålls även om de psykotiska symtomen är oförändrade.
+
+### Behandlingsresistent mani
+
+Det finns vetanskapligt stöd för att kozapin har effekt vid mani som ej svarat på annan behandling. 
+
+### Psykos vid Parkinsons sjukdom
+
+Mer än 50% av personer med Parkinsons sjukdom drabbas av sk "Parkinson's disease psychosis" (PDP), som beror på förlust av serotonerga neuron i mesencephalon. Eftersom andra antipsykotiska medel orsakar motoriska problem för personer med Parkinsons sjukdom är klozapin att föredra, och är då effektivt i låga doser (medel kring 25 mg/d). Det kan även hjälpa mot levodopa-inducerade dyskinesier (med liknande dos).
+
+### Monitorering
+
+#### Baslinje
+
+Temperatur: Upp till 20% får benign feber under de första veckorna. Vid temp > 38 eftersök orsak och vänta med upptitrering.
+
+Hjärtfrekvens: Takycardi är en vanlig biverkan. Undersök om hypovolemi föreligger. Kontrollera ett ortostatiskt prov. Vänta med upptitrering.
+
+Blodtryck: Ortostatisk blodtryckreaktion är en vanlig biverkan. Undersök om hypovolemi föreligger. Kontrollera ett ortostatiskt prov vid yrsel. Vänta med upptitrering.
+
+Vikt och BMI: Viktuppgång är vanligt. Obesitas är dock ingen kontraindikation. Klozapin medför lägre mortalitet trots viktuppgång.
+
+Labbprover:
+
+- Blodstatus inklusive absolut neutrofilnivå
+- Njurfunktion (uteslut njursvikt, klozapin kan ge interstitiall nefrit)
+- Leverprover (uteslut leversvikt)
+- HBA1C (uteslut obehandlad diabetes mellitus)
+- Lipidstatus (uppmärksamma bla triglyceridtsegring som metabol riskfaktor)
+- EKG (QTT)
+- Buköversikt om anamnes på förstoppning (uteslut aktuell förstoppning)
+
+Anamnes: 
+
+- Rökning (påverkar klozapinkoncentrationen)
+- Epilepsi (kan föranleda profylax i första hand med valproat)
+- Förstoppning (måste behandlas före insättning av klozapin)
+- Hjärtstvikt (måste behandlas före insättning av klozapin)
+
+#### Monitorering under behandling
+
+#### Serumkoncentrationer
+
+Vid behandlingsresistent schizofreni anses 1070 nmol/L vara övre gräns för respons, dvs den nivå över vilken ytterligare effekt är osannolik, men upp till 3057 nmol/L kan provas.
+
+### Titrering
+
+Observera att ickerökare uppnär 50% högre koncentration än rökare vid samma dos.
+
+Trots en halveringstid på 9-17 tim är dosering till kvällen lika effektivt som uppdelade doser (metaboliten norklozapin har en halveringstid på 20 tim). Det är att föredra eftersom det minskar sedering dagtid.
+
+Tabell: Snabb titrering (för sjukhusvårdad person)
+| Dag | Rökare | Icke-rökare |
+|-----|--------|-------------|
+|     |        |             |
+|     |        |             |
+|     |        |             |
+Hela dosen kan ges till kvällen
+
+Tag plasmakoncentration 5-7 dagar efter att måldosen upnätts.
+
+
+### Biverkningar
+
+Biverkningar förebyggas,  uppmärksammas, och behandlas.
+
+Förebygg genom att tex ge läkemedel mot förstoppning, utsättning av andra läkemedel som ger ökad risk för samma biverkningar (tex antikolinerga medel).
+
+#### Antikolinerga biverkningar av klozapin
+
+TODO: Något om farmakodynamiken vid olika M-receptorer.
+
+För mer om antikolinerga biverkningar, se **avsnitt \@ref(side-effects-anticholinergic)**.
+
+#### Sialorrhé
+
+Ökad salivproduktion är en tidig biverkan.
+
+#### Motoriska biverkningar
+
+Klozapin medför låg risk för motoriska biverkningar. Det gäller även tex Kvetiapin, men detta läkemedel är ofördelaktigt avseende mortalitet och sjukhusinläggningar vid schizofreni.
+
+Vid tardiv dyskinesi kan VMAT2-hämmare vara att föredra framför byte av antipsykotiskt medel.
+
+Vid akatisi kan byte till klozapin övervägas.
+
+#### Kardiella biverkningar
+
+Notera att Bazetts formel för beräkning av QTc överkorrigerar, så använd annan beräkningsmetod, tex QT-nomogram.
+
+
+
+
 ## Arytmirisk
 
 Se: Läkemedel som kan orsaka allvarliga rubbningar i hjärtats rytm - Fokus på förskrivning av antidepressiva och antipsykotiska läkemedel till äldre [@socialstyrelsen2019tdp].
@@ -401,7 +543,7 @@ Ziprasidon QTT-förlängande, även kvetiapin.
 
 Pacher Cardiovascular Side Effects of New Antidepressants and Antipsychotics: New Drugs, old Concerns? 2004
 
-## Antikolinerga biverkningar
+## Antikolinerga biverkningar {#side-effects-anticholinergic}
 
 ### Antikolinerga biverkningar av antipsykotiska läkemedel
 
@@ -646,7 +788,6 @@ SBU sammanfattar en översiktsartikel från 2015: "Ketamin jämfört med placebo
 
 
 ### Praktiskt genomförande av ketamininfusion
-
 
 #### Inför behandlingen
 

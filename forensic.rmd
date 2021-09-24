@@ -119,9 +119,17 @@ Resonemang om vad som räknas som en APS återfinns i [regeringens proposition (
 
 ## Riskbedömning
 
-Vid RPU görs riskbedömning för att bedöma om LRV med med särskild utskrivningsprövning skall rekommenderas. Det görs också under LRV för att bedöma möjlighet till frigång, permission, öppenvård, och vårdavslut. Skattningsinstrument används, där standard är HCL-20 version 3.
+Vid RPU görs riskbedömning för att bedöma om LRV med med särskild utskrivningsprövning skall rekommenderas. Det görs också under LRV för att bedöma möjlighet till frigång, permission, öppenvård, och vårdavslut. Skattningsinstrument används, där standard är HCR-20 version 3.
 
 Det saknas evidens för att behandling inom rättspsykiatrisk vård är riskreducerande avseende återfall i våldsbrott. Det saknas även studier av rättspsykiatriska insatser och andra utfall. Behandling och bedömning i rättspsykiatrisk vård har kartlagts av SBU. Slutsatsen blir att man tillsvidare får använda de kliniska riktlinjer som finns och bedriva forskning. 
+
+SBU sammanfattar:
+
+>Riskbedömningar inom psykiatrin kan, bättre än slumpen, förutsäga manliga patienters framtida benägenhet att begå våldshandlingar i samhället (Evidensstyrka 2). Det saknas evidens för att metoderna ger tillförlitliga resultat för kvinnor. Riskbedömningarnas precision kan uttryckas som den andel av de bedömda som korrekt identifieras att senare utföra våldshandlingar. Granskningen visar att med det bästa forskningen hittills presterat, kan precisionen förväntas vara högst 70–75 procent. [@Sbu2005]
+
+>Riskbedömningarna kan förutsäga benägenheten att begå våldshand­lingar i samhället hos relevanta patienter både inom rättspsykiatrin (Evidensstyrka 3) och inom allmänpsykiatrin (Evidensstyrka 2). Detta gäller bedömningar av risken för våld på ett par års sikt. Det finns emellertid otillräckligt vetenskapligt underlag för riskbedöm­ningar med kortare tidsperspektiv, dvs inom dagar eller veckor efter det att patienten lämnat kliniken. [@Sbu2005]
+
+<!-- SBU. Riskbedömningar inom psykiatrin - kan våld i samhället förutsägas?. En systematisk litteraturöversikt. Stockholm: Statens beredning för medicinsk utvärdering (SBU); 2005. SBU-rapport nr 175. ISBN 91-85413-03-8. -->
 
 <!-- Se Behandling och bedömning i rättspsykiatrisk vård SBU Kartlägger, 264/2017 -->
 <!-- Läkemedelsbehandling inom rättspsykiatrisk vård, SBU Utvärderar, 286/2018 -->
