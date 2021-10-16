@@ -1,4 +1,4 @@
-rmd_files: ["index.rmd", "prolog.rmd", "agressivity.rmd", "beroende.rmd", "forensic.rmd", "depression.rmd", "bipolar.rmd", "anxiety.rmd", "neurofysiologi.rmd", "neuroendokrinologi.rmd", "psykofarmakologi.rmd", "ect.rmd", "beteende.rmd", "kbt.rmd", "epilog.rmd", "ordlista.rmd"]
+rmd_files: ["index.rmd", "prolog.rmd", "agressivity.rmd", "beroende.rmd", "forensic.rmd", "depression.rmd", "bipolar.rmd", "anxiety.rmd", "neurofysiologi.rmd", "neuroendokrinologi.rmd", "psykofarmakologi.rmd", "ect.rmd", "beteende.rmd", "kbt.rmd", "lpt.rmd", "epilog.rmd", "ordlista.rmd"]
 book_filename: psykiatriboken
 output_dir: docs
 delete_merged_file: true

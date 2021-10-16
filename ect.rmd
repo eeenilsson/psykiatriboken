@@ -483,6 +483,8 @@ American Psychiatric Association (1978). Report on the task force on electroconv
 
 American Psychiatric Association (2001). A task force report on the practice of electroconvulsive therapy; recommendations for treatment, training and privileging. Washington DC, American Psychiatric Association (APA). [@apa2001ect]
 
+[Blog om ECT](https://ectpsych.blogspot.com/) <!-- Charles Kelner -->
+
 ## Definitioner
 
 **Reobas och kronaxi** är mått på excitabiliteten i en cell eller vävnad (**Figur \@ref(fig:rheobase-chronaxie)**). Inom neurovetenskap är reobas den minsta amplitud av ström som vid oändlig duration (i praktiken ca 300 ms) utlöser depolarisation av cellmembranet. Kronaxi är den duration under vilken elektrisk ström med amplitud motsvarande dubbla reobasen måste appliceras för att utlösa depolarisation (i praktiken ca 0.2 ms).
