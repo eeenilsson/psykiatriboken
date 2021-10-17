@@ -89,6 +89,15 @@ depression-elderly
 resurser-1
 bipolär-sjukdom
 inledning-2
+från-goodwins-bok
+åtskiljnad-mellan-bipolär-och-unipolär-depression
+episodkarakteristika
+bipolär-ii
+utlösande-faktorer
+differentialdiagnostik-och-samsjuklighet
+sjukdomsbörda
+blandade-episoder
+bipoärt-spektrum
 diagnostik
 behandling-1
 litium
@@ -251,7 +260,7 @@ psykiatrisk-tvångsvård
 allvarlig-psykisk-störning-1
 vem-får-göra-vad
 äldrejuridik
-lpt-lagtext
+lpt-lagtext-med-sammanfattningar-och-kommentarer
 inledande-bestämmelser
 förutsättningar-för-tvångsvård
 intagning-för-tvångsvård

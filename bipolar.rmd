@@ -18,15 +18,15 @@ Manic Depressive Illness [@Goodwin2007]
 
 Emil Kraepelin beskrev manodepressiv sjukdom, där han inkluderade "periodiskt och cirkulärt vansinne", "enkel mani", huvudperten av melankoli, och "amenti" (konfusionellt vansinne). Beskrivningar av bipolaritet finns redan från antiken, där exempelvis Soranus av Efesos skrev att "Themisons följare, liksom många andra, anser melankoli vara en form av sjukdomen mani." (p3)
 
-Kraepelin delade in sinnessjukdom i två huvudgrupper, manodepressivt vansinne och dementia praecox (schizofreni), där den första gruppen kännetecknades av ett episodiskt förloppet, ett mer godartad prognos, och ärflighet för manodepressiv sjukdom. I motsats såg Bleuler dessa två grupper som del av ett spektrum och indelade manodepressiv sjukdom i undergrupper. Han använde bland annat begreppet "affektiv sjukdom". (p6 ff).
+Kraepelin delade in sinnessjukdom i två huvudgrupper, manodepressivt vansinne och dementia praecox (schizofreni), där den första gruppen kännetecknades av ett episodiskt förloppet, en mer godartad prognos, och ärflighet för manodepressiv sjukdom. I motsats såg Bleuler dessa två grupper som del av ett spektrum och indelade manodepressiv sjukdom i undergrupper. Han använde bland annat begreppet "affektiv sjukdom". (p6 ff).
 
 På 1950-talet föreslog Leonhard en indlningen i "bipolär" (för personer med depression och mani) och "monopolär" (återkommande depression). Man fann på 1960-talet att ärftlighet för bipolär sjukdom skiljde dessa två kategorier åt.
 
-Goodwin kritiserar att man i DSM-systemet fokuserar mer på polaritet än förlopp, och att den variant av unipolär depression som är frekvent återkommande därmed inte uppmärksammas (p8). I DSM kommer därför gruppen med "unipolär" depression att vara mer heterogen än tidigare indelningar. Tidigare krävdes för diagnos BP II (och I) mer strikt en affektiv episod med svårighet sådan att den krävde hospitalisering.
+Goodwin kritiserar att man i DSM-systemet fokuserar mer på polaritet än förlopp, och att den variant av unipolär depression som är frekvent återkommande därmed inte uppmärksammas (p8). I DSM kommer därför gruppen med "unipolär" depression att vara mer heterogen än tidigare indelningar. Tidigare krävdes för diagnos BP II (och I) mer strikt en affektiv episod med sådan svårighet att den krävde hospitalisering.
 
 ### Åtskiljnad mellan bipolär och unipolär depression
 
-Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med unipolär depression, av yngre debutålder (och smalare pldersintervall för debut), fler episoder, kortare epidoder, längre sömntid än vid unipolär depression, mer normal personlighet, högre förekomst av samtidigt substansbrukssyndrom, och mer humörvängningar mellan episoder. Bipolär depression är lika vanligt hos män som hos kvinnor. Bipolärt syndrom har starkare ärftlighet (både avseende konkordans mellan monozygota tvillingar och förekomst av bipolaritet hos förstagradssläktingar). (p9) Det bör noteras att heterogeniteten är stor inom respektiva grupp (bipolär respektive unipolär depression).
+Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med unipolär depression, av yngre debutålder (och smalare åldersintervall för debut), fler episoder, kortare epidoder, längre sömntid än vid unipolär depression, mer normal personlighet, högre förekomst av samtidigt substansbrukssyndrom, och mer humörvängningar mellan episoder. Bipolär depression är lika vanligt hos män som hos kvinnor. Bipolärt syndrom har starkare ärftlighet (både avseende konkordans mellan monozygota tvillingar och förekomst av bipolaritet hos förstagradssläktingar). (p9) Det bör noteras att heterogeniteten är stor inom respektiva grupp (bipolär respektive unipolär depression).
 
 Vid bipolärt syndrom ses på gruppnivå ökad förekomst av depression höst/vinter och mani under vår/sommar. 
 
@@ -88,8 +88,6 @@ Spektrum även inom mani
 1/3 av de med cyklotymi och liknande besvär utvecklar bipolärt syndrom 
 
 Notera att om spektrumbegreppet drivs för långt blir det meningslöst och riskerar att beteckna det normala som patologiskt.
-
-
 
 
 
