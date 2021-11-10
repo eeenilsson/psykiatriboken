@@ -33,7 +33,7 @@ tmp%>%
 ## tmp%>%
 ##     filter(!effect %in% c("qtt")) -> tmp
 
-p <- ggplot(aes(x = drug, y = level+1, fill = drug), data = tmp)
+p <- ggplot(aes(x = drug, y = level+0, fill = drug), data = tmp)
 
 
 ## p1 <- ggplot(aes(x = drug, y = level+1, fill = drug), data = subset(tmp, effect %in% c("sedation", "weight_gain", "prolactin")))
@@ -42,7 +42,9 @@ p <- ggplot(aes(x = drug, y = level+1, fill = drug), data = tmp)
 
 ## base
 p + geom_bar(position="dodge", stat="identity") + facet_grid(rows = vars(effect)) +
-    labs(y = "Risk level (1, very low; 2, low; 3, moderate; 4, high)", x = "Antipsychotic") -> p
+    labs(y = "Risk level (0, very low; 1, low; 2, moderate; 3, high)", x = "Antipsychotic") -> p
+
+    ## labs(y = "Risk level (1, very low; 2, low; 3, moderate; 4, high)", x = "Antipsychotic") -> p
 
 
 ## all 4

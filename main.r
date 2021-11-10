@@ -8,7 +8,7 @@ setwd('../psykiatriboken/')
 ## options(encoding = "latin-1")
 
 ## Packages
-install.packages("pacman")
+## install.packages("pacman")
 pacman::p_load(knitr, rmarkdown, bookdown, kableExtra)
 detach(package:plyr)
 ## install.packages("kableExtra")
