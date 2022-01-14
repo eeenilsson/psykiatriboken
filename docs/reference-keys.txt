@@ -83,6 +83,9 @@ monitorering
 antidepressiva
 antidepressant-efficacy
 svårbehandlad-depression
+kombinationsbehandling
+dos-respons
+effekt-på-enskilda-depressionssymtom
 biverkningar-1
 depression-i-anslutning-till-förlossning
 depression-elderly
@@ -137,7 +140,7 @@ resurser-3
 antipsychotics
 dosering
 fga-vs-sga
-kombinationsbehandling
+kombinationsbehandling-1
 motoriska-biverkningar-av-anipsykotiska-läkemedel
 tardiv-dyskinesi
 psykotropa-läkemedel-vid-leverpåverkan
