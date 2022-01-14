@@ -201,11 +201,11 @@ Många antidepressiva läkemedel kan förläng QTT något. Vid riskfaktorer för
 
 Se även kapitel \@ref(psychopharmacology).
 
-Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
-
 <!-- Dosintervall, Se Which antidepressant doses are optimal? Fredrik Hieronymus: https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30221-4/fulltext -->
 
 ### Effektivitet {#antidepressant-efficacy}
+
+Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis
 
 Ciprianis studie [@Cipriani2018]
 
@@ -217,7 +217,32 @@ STAR-D [@Howland2008a]
 
 CANMAT [@Kennedy2016]
 
-Kombinara antidepressiva? Tilltalande kanske men verkar inte fungera i praktiken.
+### Kombinationsbehandling
+
+<!-- Combining Antidepressants in Acute Treatment of Depression: A Meta-Analysis of 38 Studies Including 4511 Patients  [@Henssler2016] -->
+
+Studier av kombinationsbehandling med två antidepressiva vid svårbehandlad depression har visat motstridiga resultat. I metaanalyser som använder strikta inklusionskriterier blir underlaget för litet för att avgöra om kombinationsbehandling är mer effektivt än monoterapi  [@Rocha2012;@LopesRocha2013]. I en metaanlys med bredare inklusionskriterier (n = 4511 patienter) var kombinationsbehandling bättre än monoterapi (SMD 0.29; 95% CI 0.16 to 0.42) utan att fler avslutade bahandlingen i förtid (OR 0.90; 95% CI 0.53 to 1.53). Dock var de inkluderade studierna heterogena (I2 = 63%), och det förelåg tecken till måttlig publikationsbias (fail-safe N for an effect of 0.1:44) [@Henssler2016]. Man fann vidare att kombinationer med monoaminåterupptagshämmare (SSRI, SNRI, och TCA) och presynaptiska a-2 blockerande antidepressiva (tex mirtazapin) möjligen var mer effektivt än andra kombinationer (SMD 0.47; 95% CI 0.24 to 0.71, jämfört med SMD 0.17; 95% CI 0.02 to 0.32, P = 0.03). CANMAT-riktlinjerna rekommenderar i första hand tillägg av ett atypiskt antipsykotiskt medel (aripiprazol, kvetiapin eller risperidon) vid svårbehandlad depression (dvs där man provat minst två antidepressiva i monoterapi), emedan tillägg av ett ytterligare antidepressivt medel rekommenderas i andra- (bupropion, mirtazapin) eller tredje hand (andra antidepressiva) [@Kennedy2016].
+
+<!-- Combination of a monoamine reuptake inhibitor (SSRI, SNRI, and TCA) with an antagonist of the presynaptic α2-autoreceptor (mianserin, mirtazapine, and trazodone) (13 studies) resulted in a statistically, significantly higher effect than other combinations (24 studies) (SMD 0.47; 95% CI 0.24 to 0.71, compared with SMD 0.17; 95% CI 0.02 to 0.32, P = 0.03). Restriction of this analysis to randomized, double-blind studies only consolidated the finding (SMD 0.54; 95% CI 0.29 to 0.79 [10 studies], compared with SMD 0.04; 95% CI –0.27 to 0.35 [8 studies]; P = 0.01); I2 = 47%) -->
+
+<!-- The combination of Effexor (venlafaxine) and Remeron (mirtazapine) has been dubbed “California Rocket Fuel” by Stephen Stahl (see page 290 of his Essential Psychopharmacology, 2nd Edition) because of the multiple ways the combination boosts various neurotransmitter systems. The STAR-D study found that this combination outperformed the MAOI Parnate (tranylcypromine), though the difference was not statistically significant (McGrath PJ et al., Am J Psychiatry 2006; 163(9): 1531-1541). Psychiatrists in Ireland recently reported on a series of 32 patients with refractory depression who were given this combination. The response rate, based on the Clinical Global Impression Scale, was 44% at four weeks and 50% at eight weeks. Most patients who responded were on Effexor XR at 225 mg/day or higher and Remeron 30 mg to 45 mg HS. In terms of side effects, 12% of patients reported moderate to severe weight gain and another 12% reported at least moderate sedation (Hannan N et al., J Psychopharm 2007;21(2):161-164). -->
+
+### Dos-respons
+
+I en metaanalys (n = 19364 patienter) såg man att effektiviteten för SSRI ökade i intervallet 20-40 mg fluoxetinekvivalenter, men att den däröver planade ut eller minskade. Tolerabiliteten (mätt som drop-outs) minskade vid högre doser i hela dosintervallet. För venlafaxin ökade effektiviteten upp till 75-150 mg och däröver sågs endast liten vinst med högre dos. För mirtazapin ökade effektiviteten upp till 30 mg och minskade vid högre doser. För både venlafaxin och mirtazapin bedömdes optimum ligga i lägre delen av de rekommenderade intervallen [@Furukawa2019]. Effektiviteten planar således ut vid 30–40 mg citalopram, 10–15 mg escitalopram, 20–30 mg fluoxetine, 20–30 mg paroxetine, och 75–100 mg sertraline, 30 mg mirtazapin, och 375 mg venlafaxin [@Hieronymus2019].
+
+Ekvivalenter som användes var (avrundat): fluoxetin 20, escitalopram 10, citalopram 20, paroxetin 20, sertralin 50, vanlafaxin 75, mirtazapin 25.
+
+Sammanfattningsvis är låga till måttliga doser av SSRI optimala, se även  [@Dold2017].
+
+<!-- Optimal dose of selective serotonin reuptake inhibitors, venlafaxine, and mirtazapine in major depression: a systematic review and dose-response meta-analysis  [@Furukawa2019] -->
+
+ 
+<!-- Hieronymos Erikssons studier -->
+
+### Effekt på enskilda depressionssymtom
+
+
 
 ### Biverkningar
 
