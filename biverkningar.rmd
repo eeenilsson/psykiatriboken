@@ -8,7 +8,7 @@
 
 ## Arytmi
 
-**QT-tidsförlängning** som kan leda till ventrikelarytmi av typen Torsade de Point. Se socialstyrelsens dokument om TdP [@socialstyrelsen2019tdp].
+**QT-tidsförlängning** som kan leda till ventrikelarytmi av typen Torsade de Point. Se socialstyrelsens dokument om TdP [@Socialstyrelsen2019tdp].
 
 Kontrollera kalium och magnesium, särskilt om samtidig diuretika- eller PPI-behandling.
 

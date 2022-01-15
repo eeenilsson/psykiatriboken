@@ -64,6 +64,16 @@ Identifiera komorbiditet: Substansbruk, obesitas, thyroideasjukdom, ångesttills
 
 Identifiera hypomanier hos personer med återkommande depression. Deprimerade patienter har ofta svårt att själva identifiera tidigare hypomanier, varför anhöriganamnes kan vara till god hjälp.
 
+#### Schizofreni vs manisk psykos
+
+Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani är det möjligen vanligare med talträngdhet, pressat tal, grandiositet, kombinatoriskt och överinklusivt tänkande, tankeflykt, tangentialitet, derailment och loss of goal. Vid schizofreni är tankefattighet, minskad talproduktion, och lägre komplexitet i talet vanligare. Skillnaderna kan konceptualiseras som att man vid schizofreni ser mer oordnat innehåll emedan det vid mani är mer tankestrukturen som är störd. Vid mani kan mer lekfullhet och humor ses i talet. Vid mani kan temat för det personen säger skifta, emedan personer med schizofreni kan ha svårigheter att elaborera överhuvud taget. Tankestörning vid bipolärt syndrom kan kvarstå i remission. [@Goodwin2007, p45ff]
+
+### Psykos vid bipolärt syndrom
+
+Ungefär en tredjedel av personer med bipolärt syndrom har någon gång upplevt ett eller flera psykotiska symtom [@Goodwin2007, p53ff], och detta kan vara vanligare vid tidig debut. Om ärftlighet finns för mani eller är risken för psykos större. Vid schizofreni är vanföreställningarna ofta desamma över lång tid, emedan de vid mani (och bipolär depression) är mer skiftande, och kan komma och gå under en dag. Vid mani är vanföreställningarna ofta kopplade till patientens grandiositet. Religiösa vanföreställningar är vanligast, följt av politiska (framför allt hos män) och sexuella teman. En femtedel av personer med bipolärt syndrom har upplevt hallucinationer under depression eller mani och de är vanligen hörselhallucinationer tematiskt kopplade till det stämningsläge och de vanföreställninger personen har. Vanligen inser personen att andra inte upplever dessa hallucinationer samtidigt. Anklagande röster är mer vanligt vid schizofreni.
+
+Tidig debut med psykotisk depression är kopplat till ökad risk för senare manisk episod. Stämningsinkongruenta psykotiska symtom är förknippat med sämre prognos.  [@Goodwin2007, p53ff]. 
+
 ### Sjukdomsbörda
 
 Depression är den främsta sjukdomsbördan vid bipolärt syndrom.

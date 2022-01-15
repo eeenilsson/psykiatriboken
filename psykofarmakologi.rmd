@@ -533,7 +533,7 @@ Notera att Bazetts formel för beräkning av QTc överkorrigerar, så använd an
 
 ## Arytmirisk
 
-Se: Läkemedel som kan orsaka allvarliga rubbningar i hjärtats rytm - Fokus på förskrivning av antidepressiva och antipsykotiska läkemedel till äldre [@socialstyrelsen2019tdp].
+Se: Läkemedel som kan orsaka allvarliga rubbningar i hjärtats rytm - Fokus på förskrivning av antidepressiva och antipsykotiska läkemedel till äldre [@Socialstyrelsen2019tdp].
 
 TdP1-2 kolla riskfaktorer
 
@@ -625,13 +625,13 @@ Se tabell i Maudsley. Risperidon samam effekt som placebo på kramptröskeln.
 
 **Ökad blödningsrisk** hos medel som hämmar serotonintransportören, dvs SSRI, beroende på att denna finns även i blodplättarna. Bör tas hänsyn till om patienten tar antikoagulantia eller trombocythämmare.
 
-**QT-tidsförlängning** kan orsakas av olika läkemedelsgrupper såsom vissa antibiotika, antidepressiva, och antipsykotiska läkemedel. Det kan leda till ventrikelarytmi av typen Torsade de Point. Se [crediblemeds.org](https://crediblemeds.org/) för riskklassificering av olika läkemedel avseende arytmirisk. Se även socialstyrelsens dokument om TdP [@socialstyrelsen2019tdp]. Ett [QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446) kan användas för att avgöra när QT-tiden är riskabelt förlängd. Se avsnitt \@ref(psykofarmakologi-tdp) för mer information om arytmirisk. 
+**QT-tidsförlängning** kan orsakas av olika läkemedelsgrupper såsom vissa antibiotika, antidepressiva, och antipsykotiska läkemedel. Det kan leda till ventrikelarytmi av typen Torsade de Point. Se [crediblemeds.org](https://crediblemeds.org/) för riskklassificering av olika läkemedel avseende arytmirisk. Se även socialstyrelsens dokument om TdP [@Socialstyrelsen2019tdp]. Ett [QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446) kan användas för att avgöra när QT-tiden är riskabelt förlängd. Se avsnitt \@ref(psykofarmakologi-tdp) för mer information om arytmirisk. 
 
 ### TdP {#psykofarmakologi-tdp}
 
 Olika psykotropa läkemedel medför varierande risk för Torsade de Point (TdP), vilket är en allvarlig arytmi.
 
-Några riskfaktorer för TdP [@socialstyrelsen2019tdp]:
+Några riskfaktorer för TdP [@Socialstyrelsen2019tdp]:
 
 - Ålder > 65 år
 - Kvinna
@@ -643,7 +643,7 @@ Några riskfaktorer för TdP [@socialstyrelsen2019tdp]:
   - Hypokalemi, hypomagnesemi eller hypocalcemi.
   - Diuretika kan ge lågt kalium; PPI kan ge lågt magnesium.
 
-Om två eller fler riskfaktorer föreligger rekommenderas EKG före och efter insättning [@socialstyrelsen2019tdp]. Om QTc > 459 mm (alternativt använd [ett  QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446)) bör man välja icke-TdP-läkemedel.
+Om två eller fler riskfaktorer föreligger rekommenderas EKG före och efter insättning [@Socialstyrelsen2019tdp]. Om QTc > 459 mm (alternativt använd [ett  QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446)) bör man välja icke-TdP-läkemedel.
 
 Läkemedel kan klassificeras utifrån risken att de orsakar TdP i sk TdP-klasser:
 - Fastställd risk för hjärtarytmi – TdP 1 
