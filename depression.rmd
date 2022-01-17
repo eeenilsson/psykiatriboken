@@ -227,18 +227,49 @@ Studier av kombinationsbehandling med två antidepressiva vid svårbehandlad dep
 
 <!-- The combination of Effexor (venlafaxine) and Remeron (mirtazapine) has been dubbed “California Rocket Fuel” by Stephen Stahl (see page 290 of his Essential Psychopharmacology, 2nd Edition) because of the multiple ways the combination boosts various neurotransmitter systems. The STAR-D study found that this combination outperformed the MAOI Parnate (tranylcypromine), though the difference was not statistically significant (McGrath PJ et al., Am J Psychiatry 2006; 163(9): 1531-1541). Psychiatrists in Ireland recently reported on a series of 32 patients with refractory depression who were given this combination. The response rate, based on the Clinical Global Impression Scale, was 44% at four weeks and 50% at eight weeks. Most patients who responded were on Effexor XR at 225 mg/day or higher and Remeron 30 mg to 45 mg HS. In terms of side effects, 12% of patients reported moderate to severe weight gain and another 12% reported at least moderate sedation (Hannan N et al., J Psychopharm 2007;21(2):161-164). -->
 
-### Dos-respons
+### Dosering av antidepressiva
 
-I en metaanalys (n = 19364 patienter) såg man att effektiviteten för SSRI ökade i intervallet 20-40 mg fluoxetinekvivalenter, men att den däröver planade ut eller minskade. Tolerabiliteten (mätt som drop-outs) minskade vid högre doser i hela dosintervallet. För venlafaxin ökade effektiviteten upp till 75-150 mg och däröver sågs endast liten vinst med högre dos. För mirtazapin ökade effektiviteten upp till 30 mg och minskade vid högre doser. För både venlafaxin och mirtazapin bedömdes optimum ligga i lägre delen av de rekommenderade intervallen [@Furukawa2019]. Effektiviteten planar således ut vid 30–40 mg citalopram, 10–15 mg escitalopram, 20–30 mg fluoxetine, 20–30 mg paroxetine, och 75–100 mg sertraline, 30 mg mirtazapin, och 375 mg venlafaxin [@Hieronymus2019].
+I en metaanalys (n = 19364 patienter) såg man att effektiviteten för SSRI ökade i intervallet 20-40 mg fluoxetinekvivalenter, men att den däröver planade ut eller minskade. Tolerabiliteten (mätt som drop-outs) minskade vid högre doser i hela dosintervallet. För venlafaxin ökade effektiviteten upp till 75-150 mg och däröver sågs endast liten vinst med högre dos. För mirtazapin ökade effektiviteten upp till 30 mg och minskade vid högre doser. För både venlafaxin och mirtazapin bedömdes optimum ligga i lägre delen av de rekommenderade intervallen [@Furukawa2019]. Effektiviteten planar således ut vid 30–40 mg citalopram, 10–15 mg escitalopram, 20–30 mg fluoxetin, 20–30 mg paroxetin, och 75–100 mg sertralin, 30 mg mirtazapin, och 375 mg venlafaxin [@Hieronymus2019].
 
 Ekvivalenter som användes var (avrundat): fluoxetin 20, escitalopram 10, citalopram 20, paroxetin 20, sertralin 50, vanlafaxin 75, mirtazapin 25.
 
 Sammanfattningsvis är låga till måttliga doser av SSRI optimala, se även  [@Dold2017].
 
 <!-- Optimal dose of selective serotonin reuptake inhibitors, venlafaxine, and mirtazapine in major depression: a systematic review and dose-response meta-analysis  [@Furukawa2019] -->
-
  
 <!-- Hieronymos Erikssons studier -->
+
+<!-- Berney Dose-response relationship of recent antidepressants in the short-term treatment of depression [@Berney2005] -->
+
+Maudsley Prescribing Guidelines in Psychiatry påtalar att det finns minimalt med vetenskapligt stöd för att öka dosen av ett SSRI när man tittar på totalpoängen för HDRS, men att det möjligen kan påverka symtomet nedstämt humör positivt. Visst stöd finns för att dosökning av escitalopram, venlafaxin och tricykliska kan vara fördelaktigt [@Maudsley2018, p265].
+
+Tabell doseringsrekommendationer
+
+Startdos, maxdos, max effektiv dos, optimal dos
+
+Tabell UpToDate: https://www.uptodate.com/contents/image?imageKey=PC%2F53818&topicKey=PSYCH%2F1725&source=see_link
+
+<!-- Dose-response relationship of duloxetine in placebo-controlled clinical trials in patients with major depressive disorder bech [@Bech2006] -->
+
+max effektiv dos = där effektvinstan planar ut, optimal dos = balans mellan effekt och biverkningar
+
+<!-- Se notes/antidepressant_dosing.csv och antidepressant_dosing_uptodate.csv -->
+
+<!-- christensen Vortioxetine 20 mg/day in patients with major depressive disorder: updated analysis of efficacy, safety, and optimal timing of dose adjustment [@Christensen2021] -->
+
+### Switching
+
+### Vid biverkningar
+
+Byte till annan klass har inget vetenskapligt stöd men är logiskt. Byte inom SSRI-klassen kan fungera. 
+
+### Vid icke-respons
+
+Icke-respons efter 2-6 veckor förutsäger senare icke-respons. Byt efter 3-4 veckor vid helt utebliven effekt [@Maudsley2018, p265]. Om viss förbättring sker bör utvärdering ske efter ytterligare 3-4 veckor.
+
+Byte inom klass har visst stöd, men byte till annan klass stöds också av en del studier [@Maudsley2018, p265]. Byte till annat antidepressivt preparat har inte något säkert vetenskapligt stöd, möjligen undantaget byte till vortioxetin, och kombinationsbehandling eller tillägg av ett atypiskt antipsykotiskt medel har bättre stöd [@Maudsley2018, p265].
+
+STAR-D
 
 ### Effekt på enskilda depressionssymtom
 
@@ -296,3 +327,20 @@ kable(tbl, format = "markdown")
 ### Resurser
 
 Bartels 2003 Evidence-based practices in geriatric mental health care: an overview of systematic reviews and meta-analyses [@Bartels2003]
+
+FDA Prescription Drug Labeling Resources Link (https://www.fda.gov/drugs/laws-acts-and-rules/prescription-drug-labeling-resources)
+
+FDA https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm
+
+### Bupropion 
+
+<!-- Review of the Pharmacology and Clinical Profileof Bupropion, an Antidepressantand Tobacco Use Cessation Agent dwoskin  [@Dwoskin2006] -->
+
+<!-- RESCRIBING INFORMATION 1  -->
+<!-- WELLBUTRIN XL™ 2  -->
+<!-- (bupropion hydrochloride extended-release tablets)  [@Fda2013] -->
+<!-- Note: innehåller frekvens biverkningar vs placebo -->
+
+Calvi 2021 Antidepressant Drugs Effects on Blood Pressure  [@Calvi2021]
+
+Liothyronine for Depression: A Review and Guidance for Safety Monitoring touma  [@Touma2017]

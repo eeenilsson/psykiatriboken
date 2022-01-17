@@ -646,6 +646,7 @@ Några riskfaktorer för TdP [@Socialstyrelsen2019tdp]:
 Om två eller fler riskfaktorer föreligger rekommenderas EKG före och efter insättning [@Socialstyrelsen2019tdp]. Om QTc > 459 mm (alternativt använd [ett  QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446)) bör man välja icke-TdP-läkemedel.
 
 Läkemedel kan klassificeras utifrån risken att de orsakar TdP i sk TdP-klasser:
+
 - Fastställd risk för hjärtarytmi – TdP 1 
 - Misstänkt risk för hjärtarytmi – TdP2
 - Fastställd risk i vissa situationer för hjärtarytmi – TdP 3
