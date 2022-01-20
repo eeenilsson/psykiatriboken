@@ -8,3 +8,7 @@ Epidemiologi
 Hypnagoga hallucinationer
 
 ## Parasomnier 
+
+## Läkemedelsbehandling
+
+Se **avsnitt \@ref(sleep-meds)
