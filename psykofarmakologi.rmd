@@ -534,18 +534,21 @@ The half-lives of the ‘short- and intermediate-acting’ benzodiazepines range
 
 #### Bensodiazepinliknande medel
 
+Preparat: Zolpidem, eszopiklon.
+
 Dessa medel liknar bensodiazepiner men har en annan kemisk struktur. De har något smalare effekt än bensodiazepiner gällande bindning till olika GABA-A-receptorer.
 
 Notera att zolpidem ej har visad effekt för att upprätthålla sömn (sleep maintainance), endast insomning, emedan eszopiklon har evidens för både insomning och upprätthållande av sömn.
 
-Zolpidem binder till typer av GABA-A-receptorer som också är kopplade till kognition och motorik. Eszopiklon binder till typer av GABA-A-receptorer som i mindre utsträckning ger motorisk hämning och i större utsträckning muskelavslappning, anxiolys, och möjligen antidepressiv effekt. I kliniska studier motsvaras detta av en positiv effekt på ångest, depression och smärta.
+Zolpidem binder till typer av GABA-A-receptorer som förutom sömn också är kopplade till kognition och motorik. Eszopiklon binder till typer av GABA-A-receptorer som i mindre utsträckning ger motorisk hämning och i större utsträckning muskelavslappning, anxiolys, och möjligen antidepressiv effekt. I kliniska studier motsvaras detta av en positiv effekt på ångest, depression och smärta.
 
-Zolpidem, eszopiklon.
+Zolpidem saknar andningshämmande effekt upp till 10 mg och har en mild sådan effekt vid 20 mg.
 
+Benso Biverkningar: Rebound insomnia, sömngång
 
 #### Melatoninreceptoragonister
 
-Melatonin, ramelteon
+Preparat: Melatonin, ramelteon
 
 #### Ickeselektiva antihistaminer
 
