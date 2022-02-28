@@ -1,7 +1,8 @@
-
 # Psykofarmakologi {#psychopharmacology}
 
  Monitoring: [@Hiemke2018]
+
+<!-- Dosering olika psykotropa: https://www.bdct.nhs.uk/wp-content/uploads/2016/12/Drug-Formulary-Psychotropics.pdf -->
 
 ## Allmänna principer
 
@@ -12,6 +13,14 @@
 - Förstagradssläktingars respons på visst läkemedel
 
 - Följsamhet
+
+## Cytokromer
+
+CYP2D6
+
+CYP3A4
+
+Se  [@Kryger2017] avsnitt om TCA
 
 ## SSRI vid graviditet och amning {#ssri-pregnancy}
 
@@ -38,6 +47,30 @@ Identification and Management of Peripartum Depression [@Langan2016]
 NHS patient recommendations: https://www.nhs.uk/conditions/ssri-antidepressants/considerations/#pregnancy
 
 Associations of Maternal Antidepressant Use During the First Trimester of Pregnancy With Preterm Birth, Small for Gestational Age, Autism Spectrum Disorder, and Attention-Deficit/Hyperactivity Disorder in Offspring [@Sujan2017]
+
+## Antidepressiva läkemedel {#antidepressant-meds}
+
+Se tabell 42-1 (farmakokinetik), 42-2 (receptorbindning) och 42-3 (polysomnografiska effekter) i [@Kryger2017].
+
+### Tricykliska antidepressiva
+
+Tertiära tricykliska medel (imipramine, clomipramine, trimipramine, amitriptyline, butriptyline, doxepin, dosulepin) är mer sederande än sekundära (nortriptyline, protriptyline, and desipramine) tricykliska medel  [@Kryger2017]. Tertiära TCA har relativt sett mer effekt på SERT och sekundära mer på NET.
+
+Omkring 7% av befolkningen har en variant av CYP2D6 som leder till långsammare metabolism av tricykliska medel och därmed ger upp till 30-faldig ökning av plasmakonentrationen. Högre ålder medför minskad metabolisering via CYP3A4 samt minskad renal clearance.
+
+### Bupropion 
+
+<!-- Review of the Pharmacology and Clinical Profileof Bupropion, an Antidepressantand Tobacco Use Cessation Agent dwoskin  [@Dwoskin2006] -->
+
+<!-- RESCRIBING INFORMATION 1  -->
+<!-- WELLBUTRIN XL™ 2  -->
+<!-- (bupropion hydrochloride extended-release tablets)  [@Fda2013] -->
+<!-- Note: innehåller frekvens biverkningar vs placebo -->
+
+Calvi 2021 Antidepressant Drugs Effects on Blood Pressure  [@Calvi2021]
+
+Liothyronine for Depression: A Review and Guidance for Safety Monitoring touma  [@Touma2017]
+
 
 ## Antipsykotiska läkemedel {#antipsychotics}
 
@@ -82,10 +115,18 @@ Clozapin + aripiprazol?
 
 Andra kombinationer?
 
+<<<<<<< HEAD
 ### Switching
 
 Se tabell på [psychiatrinet](https://wiki.psychiatrienet.nl/wiki/Main_Page).
 
+=======
+
+### Vissa äldre antipsykotiska medel
+
+Promethazine is listed as one of the drugs of highest anticholinergic activity in a study of anticholinergenic burden, including long-term cognitive impairment. Dosering vid illamående 12.5-25 mg var 4-6 tim, vid sederig 25-50 mg. 
+	
+>>>>>>> 4aaa1c1ac213dc21f97651c6f50832317d708164
 ### Motoriska biverkningar av anipsykotiska läkemedel
 
 Tidsförlopp
@@ -503,6 +544,152 @@ Hela dosen kan ges till kvällen
 
 Tag plasmakoncentration 5-7 dagar efter att måldosen upnätts.
 
+### Sömnmedel {#sleep-meds}
+
+<!-- Se notes/sleep-meds_pharmacodynamics.csv -->
+<!-- APA textbook of psychopharm -->
+
+Se även avsnittet om sömn \@ref(sleep-physiology).
+
+Två typer av system kan sägas vara av betydelse för farmakodynamiken hos sömnmedel: System som främjar vakenhet (hypokretin/orexin, noradrenalin, histamin, acetylkolin, serotonin, dopamin) och system som främjar sömn (GABA, adenosin, galanin, melatonin). Den kliniska effekten av sömnmedel är inte alltid direkt kopplad till farmakodynamiska egenskaper såsom tid till maximal koncentration, delvis beroende på att de olika systemen (tex histamin, melatonin) är olika aktiva under dygnet och att faramkologisk påverkan på dessa således kan ha olika effekt beroende på när den infaller. Om vakenhetsfrämjande system har hög aktivitet kan effekten av att påverka en enskild receptortyp vara otillräcklig. ett exempel är histaminblockad om noradrenalinsystemet är starkt aktiverat eller dagtid då hypokretin/orexinsystemet är aktivt.
+
+Om annan referens ej ges är informationen från Kryger [@Kryger2017].
+
+Se tabell 53-2 i [@Schatzberg2017] som sammanfattar olika sömnmedels egenskaper.
+
+European guideline for the diagnosis and treatment of insomnia https://onlinelibrary.wiley.com/doi/full/10.1111/jsr.12594
+
+<!-- TODO: Gör en tabell med receptorprofil, en med farmakokinetik, och en med effekt på insomning etc. se notes/sleep-meds_pharmacodynamics.csv -->
+
+#### Bensodiazepiner som sömnmedel
+
+Bensodiazepiner påverkar alla de områden i hjärnan som reglerar sömn och vakenhet. De binder fyra typer av GABA-A-receptorer och har en bred GABA-modulerande, hämmande effekt på vakenhetsfrämjande system. 
+
+Kan vara lämpligt vid samtidiga ångestbesvär och kan ha en starkare insomningseffekt (sleep onset) jämfört med andra alternativ. Bensodiazepiner har effekt på insomning och upprätthållande av sömn, och ger en längre total sömntid, men långverkande preparat kanske endast ger insomning senare under natten.
+
+Tänk på att läkemedel med lång halveringstid ackumuleras och kan ge dagtrötthet och andra biverkningar vid upprepad användning, och att halveringstiden kan vara längre hos äldre som har mer relativ andel kroppsfett.
+
+Biverkningar: Rebound insomnia, sömngång, kognition, amnesi, ataxi
+
+Toxicitet: Låg toxicitet, dock risk vid kombination med andra vakenhetssänkande eller andingshämmande medel.
+
+Beroende: Se The treatment of chronic insomnia: drug indications, chronic use and abuse liability. Summary of a 2001 New Clinical Drug Evaluation Unit meeting symposium mendelson  [@Mendelson2004]
+
+<!-- hypnotics versus benzodiazepines for the treatment of insomnia agravat, https://wchh.onlinelibrary.wiley.com/doi/epdf/10.1002/pnp.502 -->
+
+<!-- Zolpidem, par-ticularly the modified-release preparation,2 causes statistically significantly fewer awakenings, a greater ease of sleep onset and improved sleep time than temazapam.5 Similarly, studies comparing hypnotic properties found zopiclone (a cyclopyrrolone) is equal  to  or  superior  than  benzodiazepines.12Patients taking zopiclone reported better quality Progress in Neurology and Psychiatry I Vol. 22 Iss. 2 2018I27www.progressnp.comInsomnia treatmentIReviewand duration of sleep, less time taken to get to sleep, fewer awakenings and a greater ease of get-ting to sleep. These benefits (ie fewer adverse effects and rebound insomnia, less psychomotor impair-ment and much less residual impairment improving daytime functioning) outweigh the risks associated with zopiclone 
+
+The beneficial effects (NNT=13) of using hypnotics for insomnia are small compared with their risks of causing harm (NNH=6).
+
+All hypnotics have the ability to cause amnestic effects as they reduce sleep latency and block memory consolidation
+
+Both benzodiazepines and Z-drugs may cause res-piratory  depression,  however,  the  myorelaxant  effect is 10–40 times greater in benzodiazepines.
+
+The half-lives of the ‘short- and intermediate-acting’ benzodiazepines range from 6–17 hours so all have the potential to cause daytime problems;
+
+-->
+
+#### Bensodiazepinliknande medel
+
+Preparat: Zolpidem, eszopiklon.
+
+Dessa medel liknar bensodiazepiner men har en annan kemisk struktur. De har något smalare effekt än bensodiazepiner gällande bindning till olika GABA-A-receptorer.
+
+Notera att zolpidem ej har visad effekt för att upprätthålla sömn (sleep maintainance), endast insomning, emedan eszopiklon har evidens för både insomning och upprätthållande av sömn.
+
+Zolpidem binder till typer av GABA-A-receptorer som förutom sömn också är kopplade till kognition och motorik. Eszopiklon binder till typer av GABA-A-receptorer som i mindre utsträckning ger motorisk hämning och i större utsträckning muskelavslappning, anxiolys, och möjligen antidepressiv effekt. I kliniska studier motsvaras detta av en positiv effekt på ångest, depression och smärta.
+
+Zolpidem saknar andningshämmande effekt upp till 10 mg och har en mild sådan effekt vid 20 mg.
+
+Biverkningar: kognition, amnesi, ataxi 
+
+Beroende: Låg risk om ej tidigare beroendeproblematik. Se The treatment of chronic insomnia: drug indications, chronic use and abuse liability. Summary of a 2001 New Clinical Drug Evaluation Unit meeting symposium mendelson  [@Mendelson2004]
+
+#### Melatoninreceptoragonister
+
+Tillförsel av melatonin har minimal effekt på inomning, sömneffektivitet och sömnduration. Melatonin kan ha en större hypnotisk effekt när sömntrycket är lågt, tex dagtid då insöndringen av endogent melatonin är låg  [@Kryger2017].
+
+Det finns inget påvisat dos-responssamband för effekten av melatonin på sömn. 
+
+Ramelteon har hög affinitet för MT1-receptorn. Dess effekt på sömn fortgår efter längre behandling (6 månader eller mer).
+
+Agomelatin är en MT1/MT2-agonist och har positiva effekter på sömn hos deprimerade personer. 
+
+Preparat: Melatonin, ramelteon, agomelatin.
+
+#### Ickeselektiva antihistaminer
+
+Diphenhydramin, doxylamin.
+
+Litet forskning om dessa. Kan minska uppvaknanden och förbättre självrapporterad sömneffektivitet men ej sömnlatens, total sömntid eller polysomnografiska variabler.
+
+Kan vara fördelaktigt om problem med upprätthållande av sömn föreligger utan insomningssvårigheter. 
+
+Kan vara lämpliga för problem med uppvaknanden utan insomningsproblem, särskilt hos personer med allergiska besvär.
+
+Biverkningar: Dagtrötthet, antikolinerga biverkningar (se **avsnitt \@ref(side-effects-anticholinergic)**). Vissa patienter svarar paradoxalt med CNS-aktivering, rastlöshet, och ökad ångest. 
+
+#### Antidepressiva som sömnmedel
+
+Amitriptylin (antagonism mot noradrenalin, histamin, acetylkolin), doxepin, trimipramin, trazodon (antagonism mot noradrenalin, histamin, 5-HT-2), mirtazapin (histamin,  5-HT-2).
+
+Antidepressiva med blockerande effekt på åtminstone ett vakenhetsfrämjande system används off-label mot sömnsvårigheter, ofta i lägre dos än den som används mot depression. Det finns knapphändig data om risk-nytta vid sömnsvårigheter (med något undantag). 
+
+Se tabell 42-1 (farmakokinetik), 42-2 (receptorbindning) och 42-3 (polysomnografiska effekter) i [@Kryger2017].
+
+Tertiära tricykliska medel (imipramine, clomipramine, trimipramine, amitriptyline, butriptyline, doxepin, dosulepin) är mer sederande än sekundära (nortriptyline, protriptyline, and desipramine) tricykliska medel. Antagonism mot 5HT2C receptorsubtypen är associerat med ökad slow-wave-sömn. Sederande TCA har antagonism mot M1 och H1-receporer [@Kryger2017].
+
+Trazodon är ett tetracyklisk antidepressivt medel som ger svag hämning av SERT, blcokerar vissa serotoninreceptorer, har antihistaminerg aktivitet och blockerar till viss del alfa-1 och alfa-2-receptorer. Dess metabolit har 5HT2C agonistiska egenskaper. 
+
+
+#### Antipsykotiska som sömnmedel
+
+Främst olanzapin och kvetiapin. Effekt via blockad av histamin, noradrenalin, acetylkolin, 5-HT2, alfa-adrenerga receptorer, och dopamin. <!-- Deras effekter på 5-HT, H1, M1, och alfa-adrenerga receptorer kan påverka sömnen.  -->
+
+Det finns få studier av risk-nytta vid behandling av sömnproblem med antipsykotiska medel.
+
+Rekommenderas främst till patienter som samtidigt har ett annat tillstånd som kan behanlas med antipsykotiska medel. Kan provas vid behandlingsresistenta sömnproblem, men biverkningsrisken måste då vägas in.
+
+Små studier talar för att olanzapin förbättrar insomning och upprätthållande av sömn, och att kvetiapin förbättrar insomning och total sömntid. Dock finns motstridiga data.
+
+Olanzapin har maximal koncentration efter 1.5 tim och halveringstid kring 6 tim. Olanzapin har påvisade sömnförbättrande egenskaper hos friska och personer med schizofreni, depression, bipolär depression. 
+
+Kvetiapin 25 mg har påvisad effekt vid insomni.
+
+#### Andra
+
+Prazosin är en alfa-1-receptorblockerare som visat effekt på upprätthållande av sömn och mot mardrömmar.
+
+Valeriana: Många olika varianter. 
+
+Gaboxadol: GABA-A agonist. Dissociativa reaktioner har lett till att kliniska studier pausats. 
+
+Orexinantagonister: Suvorexant registrerat som läkemedel.
+
+Gamma-hydroxybutyrat (GHB): Kan användas mot kataplexi vid narkolepsi, och mot överdriven sömnighet. GHB kan ge sederande egenskaper initialt (på natten) och vakenhetsfrämjande effekt därefter (dagtid), men är endast utvärderat vid narkolepsi.
+
+
+#### KBT-I
+
+KBT mot sömnproblem
+
+### Bensodiazepiner
+
+<!-- Different Benzodiazepines Bind with Distinct Binding Modes to GABAA Receptors Elgarf  [@Elgarf2018] -->
+
+<!-- Different GABAA receptor subtypes mediate the anxiolytic, abuse-related, and motor effects of benzodiazepine-like drugs in primates rowlett  [@Rowlett2005] -->
+
+<!-- the predominant subtypes in the brain being those that contain α1-, α2-, α3-, and α5-subunits. -->
+
+<!-- results provide evidence in nonhuman primates that α1GABAA receptors do not play a key role in the anxiolytic and muscle-relaxant properties of benzodiazepine-type drugs; instead, these effects involve α2GABAA, α3GABAA, and/or α5GABAA subtypes. Our results also suggest that the α1GABAA receptor subtype might be critically involved in the subjective, sedative, and motor effects of benzodiazepine-type drugs. In contrast, stimulation of α1GABAA receptors is sufficient, but not necessary, for mediation of the abuse potential of these drugs -->
+
+<!-- griffin Benzodiazepine Pharmacology and Central Nervous System–Mediated Effects BENZODIAZEPINES IN CLINICAL PRACTICE  [@Griffin2013] -->
+
+Lis of bz https://en.wikipedia.org/wiki/List_of_benzodiazepines
+
+Anxiolytic vs sedative https://www.emcdda.europa.eu/publications/drug-profiles/benzodiazepines_en
+
+Drug Class Review Benzodiazepines in the Treatment of Anxiety Disorder https://medicaid.utah.gov/pharmacy/ptcommittee/files/Criteria%20Review%20Documents/2016/2016.11%20Benzodiazepines%20in%20Anxiety%20Drug%20Class%20Review.pdf
 
 ### Biverkningar av klozapin
 
@@ -660,7 +847,13 @@ Ziprasidon QTT-förlängande, även kvetiapin.
 
 Pacher Cardiovascular Side Effects of New Antidepressants and Antipsychotics: New Drugs, old Concerns? 2004
 
+<<<<<<< HEAD
 ### Antikolinerga biverkningar {#side-effects-anticholinergic}
+=======
+TCAs ökar hjärtfrekvensen. De har typ I antiarrytmiska egenskaper vilket kan ge breddökning av QRS, ökat PR och QT-intervall, och AV-block. De saknar effekt på myocardkontraktilitet och kan hämma ektopisk aktivitet i förmak och kammare  [@Kryger2017].
+
+## Antikolinerga biverkningar {#side-effects-anticholinergic}
+>>>>>>> 4aaa1c1ac213dc21f97651c6f50832317d708164
 
 #### Antikolinerga biverkningar av antipsykotiska läkemedel
 
@@ -723,7 +916,17 @@ Amitriptylin antikolinergt och sedarande, nortriptylin är dess metabolit som sa
 
 #### Antikolinerga effekter av antidepressiva
 
-Främst är det de tricykliska antidepresisva som har betydande anikolinerga effekter. Inom gruppen TCA skiljer sig läkemedlen åt. Amitriptyline och doxepin har starka antikolinerga effekter, emedan tex nortriptylin har en något mindre antikolinerg effekt [@Riedel1995]. 
+Främst är det de tricykliska antidepresisva som har betydande anikolinerga effekter. Inom gruppen TCA skiljer sig läkemedlen åt. Amitriptylin och doxepin har starka antikolinerga effekter, emedan tex nortriptylin har en något mindre antikolinerg effekt [@Riedel1995]. 
+
+## Biverkningar kopplade till andra receptorer
+
+Blockad av adrenerga receptorer kan ge ortostatisk hypotension och yrsel.
+
+Viktuppgång kopplat till blockad av histamin, 5-HT2C, och acetylkolin  [@Schatzberg2017, sleep].
+
+Blockad av histaminreceptorer: Sedering, viktuppgång. 
+
+Blockad av alfa-1-receptorer: Ortostatisk hypotension. 
 
 ### Inverkan på kramptröskel
 

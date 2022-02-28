@@ -333,15 +333,3 @@ FDA Prescription Drug Labeling Resources Link (https://www.fda.gov/drugs/laws-ac
 
 FDA https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm
 
-### Bupropion 
-
-<!-- Review of the Pharmacology and Clinical Profileof Bupropion, an Antidepressantand Tobacco Use Cessation Agent dwoskin  [@Dwoskin2006] -->
-
-<!-- RESCRIBING INFORMATION 1  -->
-<!-- WELLBUTRIN XL™ 2  -->
-<!-- (bupropion hydrochloride extended-release tablets)  [@Fda2013] -->
-<!-- Note: innehåller frekvens biverkningar vs placebo -->
-
-Calvi 2021 Antidepressant Drugs Effects on Blood Pressure  [@Calvi2021]
-
-Liothyronine for Depression: A Review and Guidance for Safety Monitoring touma  [@Touma2017]

@@ -1,10 +1,27 @@
-# Sömn
+# Sömn {#sleep-physiology}
 
 ## Inledning
 
 Epidemiologi
 
+## Modell för reglering av sömn och vakenhet
+
+NREM-sömn och vakenhet bestäms av interaktion ellan flera olika system. Vakenhet stimuleras av uppåtgående monoaminerga banor från hjärnstammen, histaminerga banor i bakre hypothalamus, och kolinerga banor från tegumentet i pons och basala delar av framhjärnan. Dessa stimuleras av orexin (hypokretin) och hämmas av GABA och galanin, via neuroner med ursprung i hypothalamus vars aktivitet i sin tur regleras av "dygnsklockan" och sömn-homeostas. Kognitiv och affektiva aktivitet påverkar detta via nedåtgående banor från cortex och andra områden i diencephalon, vilka också påverkas (direkt och indirekt via thalamus) av uppåtgående banor från vakenhetssystemen. Se Fig 42-1 i ref [@Kryger2017].
+
+<!-- Hjärnstam <--\-> Hypothalamus -->
+<!-- Hjärnstam --\-> Cortex -->
+<!-- Hjärnstam --\-> Thalamus -->
+<!-- Cortex --\-> Hypothalamus -->
+<!-- Cortex --\-> Thalamus -->
+<!-- Dygnsklockan --\-> Hjärnstam, hypothalamus -->
+
+## Diverse
 
 Hypnagoga hallucinationer
 
+
 ## Parasomnier 
+
+## Läkemedelsbehandling
+
+Se **avsnitt \@ref(sleep-meds)
