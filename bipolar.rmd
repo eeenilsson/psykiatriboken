@@ -99,13 +99,11 @@ Spektrum även inom mani
 
 Notera att om spektrumbegreppet drivs för långt blir det meningslöst och riskerar att beteckna det normala som patologiskt.
 
-
-
 ## Diagnostik
 
 Huvudkriteriet för diagnosen bipolär sjukdom är förekomst av mani (vid typ I) eller hypomani (vid typ II). Episoder med depression är inte obligat, men vanligt, och särskilt framträdande vid typ II.
 
-En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller irritabelt tillsammans med ökad energi eller _målinriktad aktivitet_.
+En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller irritabelt tillsammans med ökad energi eller _målinriktad aktivitet_. Mani bör misstänkas hs desorganiserad patient med psykomotorisk agitation  [@Goodwin2007, kap 17]. Differentialdiagnoser inkluderar drogpåverkan, delirium, och schizofreni.
 
 För att betraktas som en manisk episod krävs att förändringen i stämningsläge och aktivitet är ihållande (föreligger nästan varje dag och större delen av dagen) under en tydligt avgränsad period (dvs inte ett varaktigt beteende) som varar minst en vecka. Om besvären är så påtagliga att de leder till sjukhusinläggning kan perioden dock vara kortare (ingen nedre gräns) och ändå räknas som en manisk episod.
 
@@ -202,11 +200,157 @@ kable(x,
 
 ## Behandling
 
-Snabbt isättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abe2015].
+Olika faser av behandling kan konceptualiseras enligt följande [@Goodwin2007, kap 17]:
 
-Diskutera antidepressivas roll. Relatera till tid i mani/depression?
+- Akut behandling: Från epidodens början fram till klinisk respons eller remisson. Vanligen 6-12 veckor efter episodens debut.
+  - Akut behandling av hypomani/mani.
+  - Akut behandling av bipolär depression.
+- Fortsättningsbehandling: Från respons fram till den tidpunkt då spontan förbättring skulle ha förväntats utan behandling. Vid bipolär depression ca 6 månader, vid mani 4 månader (dock kan post-manisk depression inträffa).
+- Underhållsbehandling: Syftar till att minska antal och svårighetsgrad av nya episoder. Överlappar med både fortsättningsbehandling och profylax.
+
+Kartlägg episoden, om möjligt med hjälp av anhörig eller arbetskamrat:
+
+- Utlösande faktorer.
+- Tidiga varningstecken.
+- Duration.
+- Suicidrisk.
+- Alkohol och drobruk.
+
+Överväg differentialdiagnoser som drogutlöst psykos, andra organiska psykoser, demens, eller schizoaffektivt syndrom. 
+
+Karakterisera episoden. Föreligger en blandad episod? Rapid cycling?
+
+Behandling av blandad episod liknar mer den vid mani än den vid depression. Vid bipolär II finns mycket sparsamt med vetenskapliga studier som kan guida behandling, varför man får extrapolera från studier om bipolär I och kanske unipolär depression. Likaså vid samsjuklighet med andra psykiatriska tillstånd och vid bipolär depression. Det samma gäller för hypomani, där man får extrapolera från behandling av mani. Det är tänkbart att reduktion av hypomanier kan minska efterföljande depressiva episoder. 
+
+### Läkemedel vid bipolärt syndrom
+
+**Litium:** Har FDA-indikation för behandling av manisk episod och underhållsbehandling. Halveringstiden är 12 tim initialt men 24 tim vid steady state (efter ca 5 dagar). Kvoten dos/plasmakoncentration är högre vid pågående mani, yngre ålder, högre koppsvikt (ffa muskelmassa), och högre saltintag. Den påverkas även av njurfunktion, vätskeförlust, och samtidig medicinering. En systematisk litteraturgenomgång visade att 0.9 mmol/L är lägsta effektiva nivå vid mani, och att nivåer över 1.4 ej ger bättre effekt. Tänk på att mani medför lägre litiumnivå, varför dosen bör sänkas efter skovet med sikte på serumkoncentration 0.6-0.8 mmol/L [@Goodwin2007, kap 17]. Litium är lika effektivt som andra antimaniska läkemedel över en treveckorsperiod.
+
+Tidigare respons på litium förutsäger bättre respons under aktuell manisk episod, och sämre effekt av antiepileptiska läkemedel. Nivåer över 0.8 mmol/L mer effektiva vid mani än lägre nivåer.
 
 Litium längre tid till återfall.
+
+<!-- Combined Lithium and Electroconvulsive Therapy: Pharmacokinetic and Pharmacodynamic Interactions rudorfer  [@Rudorfer1987] -->
+
+**Valproat:**  De vanligaste biverkningarna är illamåend och trötthet. Påverkar metabolismen av flera andra läkemedel, bla lamotrigin. Vid akut mani krävs plasmakoncentration >45 mkg/ml för effekt och biverkningar blir problematiska vid nivå >125 mkg/ml. Snabb upptrappning (30 mg/kg d 1-2, 20 mg/kg d 3-10) kan ge snabbare effekt vid akut mani, men är likvärdig med olanzapin.
+
+**Lamotrigin:** Har FDA-indikation för behandling av bipolär depression. Preventivmedel kan minska lamotriginkoncentrationerna (men ej omvänt).
+
+**Olanzapin:** Olanzapin som tilläggsbehandling har visat likvärdig effekt vid akut mani respektive blandad episod.
+
+- Dosering vid akut mani: 2.5-5 mg var 6:e tim, kan totreras till 20 mg/d (dock visar vissa studier att 2.5-5mg kan vara tillräckligt).
+
+**Kvetiapin:**
+
+- Dosering vid akut mani: Starta med 100 mg/d, titrera till 400-800 mg/d.
+
+**Risperidon:**
+
+- Dosering vid akut mani: 1 mg vaje 6-8 tim, maxdos vanligen 6-8 mg/d.
+
+**Aripiprazol:** Samtidig behandling med bensodiazepin kan vara fördelaktigt för att undvika initial aktivering.
+
+- Dosering vid akut mani: Starta med 30 mg/d. Sänk till 15 mg/d vid biverkningar.
+
+**Lorazepam**:
+
+- Dosering vid akut mani: 1-2 mg (im el po) varje 2 tim. Samma för klonazepam.
+
+### Behandling av manisk episod
+
+Huvudsakliga behandlingsalternativ:
+
+- Litium
+- Valproat
+- Antipsyotiskt läkemedel
+- ECT (särskilt vid graviditet i första trimesetern)
+- Dessa kan ges i kombination.
+
+Litium, valproat, antipsykotiska medel (tex aripiprazol, olanzapin, risperidon, kvetiapin, ziprasidon i dosen 160 mg), och ECT har likvärdig effekt vid akut mani. Om monoterapi är otillräckligt, använd kombinationsbehandling med måttliga doser. Vid svår mani kan det även med behandling ta fyra veckor eller mer innan stämningsläget är stabilt. I återhämtningsfasen av mani är det vanligt med svängningar i stämningsläge och beteende, varför läkemedel med effekt mot depression, eller kombinationsbehandling, kan vara lämpligt. Snabbt insättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abe2015].
+
+<!-- Diskutera antidepressivas roll. Relatera till tid i mani/depression? -->
+Om antidepressiva används bör de kombineras med en "stämningsstabiliserare". Antidepressiva bör trappas ut (om inte flera utsättningsförsök redan misslyckats) [@Goodwin2007, kap 17].
+
+- Med litium eller valproat uppnår ca 50% respons (minst 50% reduktion av YMRS) efter tre veckor, jämfört med 25% för placebo. 
+- Litium är mer effektivt än valproat hos de som tidigare haft effekt av litium, och tvärtom. 
+- De med blandad episod/höga poäng på depressionsskattning, eller mer än tio tidigare affektiva episoder kan ha bättre effekt av valproat än litium. 
+- Tillägg av olanzapin/risperidon/kvetiapin (troligen samma för andra antipsykotiska medel) till litium eller valproat är bättre än placebo hos dem med ingen eller partiell respons. 
+- Tillägg av antipsykotiskt läkemedel till ECT mer effektivt än tillägg av placebo.
+- Antipsykotiska medel har snabbare effekt än litium hos patienter med rejält förhöjd aktivitetsnivå.
+- Aripiprazol (15-30 mg) har visat bättre effekt än haloperidol (10-15 mg/d) i en stor RCT, troligen pga mindre biverkningar.
+- Det är tveksamt om lamotrigin har effekt vid akut mani.
+- Högersidig rTMS ger mer förbättring av mani än vänstersidig (som används vid depression)
+
+Goodwin rekommenderar i sin bok "Manic-depressive illness" följande steg i behandlingen av akut mani där patienten ej har stämningsstabilserande behandling sedan innan:
+
+- Avsluta antidepressiva
+- Tillse god sömn med hypnotiska medel eller bensodiazepiner.
+- Starta något av:
+  - Vid eufori utan rapid cycling: Litium
+  - Vid blandad episod: Valproat
+  - Vid rapid cycling: Valproat
+- Vid psykotiska symtom, kombinera med antipsykotiskt läkemedel.
+
+Vid utebliven respons efter 4-5 dagar, överväg kombinationsbehandling (litium + valproat eller lamotrigin + antipsykotiskt läkemedel)
+
+Om patienten redan har stämningstabiliserande behandling (litium, valproat, lamotrigin):
+
+- Öka dosen av befintlig stämningsstabiliserare
+- Vid utebliven förbättring efter en vecka, något av:
+  - Lägg till ett antipsykotiskt läkemedel
+  - Lägg till litium eller valproat
+
+Vid utebliven respons efter 4-5 dagar, överväg kombinationsbehandling (litium + valproat eller lamotrigin + antipsykotiskt läkemedel).
+
+**Extrem hyperaktivitet:** Antipsykotiska läkemedel ger snabbast effekt. 
+
+**Agitation:** Intramuskulärt olanzapin har bättre effekt än im lorazepam vid manisk agitation [@Goodwin2007, kap 17].
+
+**Dehydrering:** Risk för dehydrering föreligger. Även risk för rhabdomyolys. Tillgodose vätskeintag.
+
+**Psykotiska symtom:** Antipsykotiska läkemedel har vanligen god effekt.
+
+**Blandad episod:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. För atienter som stabilserats med en kombination av litium och valproat har dessa läkemedel i monoterapi likvärdig (begränsad) effekt som underhållsbehandling [@Goodwin2007, kap 17].
+
+**Rapid cycling** (minst fyra episoder det senaste året): Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. Olanzapin har likvärdig effekt vid rapid cycling och icke-rapid cycling [@Goodwin2007, kap 17].
+
+**"Klassisk" mani** (eufori, grandiositet): Litium kan vara mer effektivt än valproat [@Goodwin2007, kap 17].
+
+### Behanling av bipolär depression
+
+Personer med ofta återkommande (en depression per två år), ärftlighet för mani, och tidig debut (tonår-tjugoårsåldern) delar många egenskaper med bipolärt syndrom (och ingick i Kraepelins definition av manodepressiv sjukdom). Liknande behandlingsprinciper kan därför övervägas för dessa. 
+
+Kartlägg (gärna med livslinje):
+
+- Prodromalsymtom (kognitiva besvär, sömn, diskreta psykomotoriska förändringar)
+- Symtomvariation under dagen
+- Premenstruella besvär
+- Post-partumbesvär
+- Säsongsvariation
+- Förvärring av affektiva symtom vid antidepressiv behandling
+- Drog och alkoholbruk
+- Följsamhet till behandling
+- Tidigare behandlingar (duration, dos, effekt, biverkningar)
+- Samsjuklighet: Thyroideasjukdom, ångestsyndrom
+
+Sparsamt beforskat. Kvetiapin eller kombinationen olanzapin/fluoxetin har FDA-godkännande.
+
+Patienter med bipolär depression svarar långsammare på behandling än de med mani. Residualsymtom är vanligt.
+
+Regelbunden fysisk konditionsträning är fördelaktig vid depression.
+
+
+
+Behandlingsförslag:
+
+- Använd litium och/eller lamotrigin
+- Behandla sömsvårigheter, ångest och agitation.
+- Vid BP I är litium lämpligt eftersom det också fungerar som underhållsbehandling.
+- Om patienten står på litium, överväg öka litiumkoncentrationen till >0.8.
+
+Antidepressiv effekt av litium kan komma efter 1-2 veckor men dröjer ofta 3-5 veckor.
+
+### Behandlingsalternativ i olika faser enligt CANMAT
 
 Litium eller kvetiapin kan i monoterapi användas som förstahandsval i alla faser av bipolär sjukdom. Valproat som monoterapi är förstahandsval för underhållsbehandling och maniska skov men för depressiva episoder främst i kombination med litium eller vissa antidepressiva. Bland förstahandsvalen är litium troligen det mest effektiva (?).
 
@@ -267,7 +411,9 @@ kable(x,
 
 ``` 
 
-### Litium
+### Biverkningar av läkemedel som används vid bipolärt syndrom
+
+De biverkningar som ä mest oroande för patienter är viktuppgång, kognitiv påverkan och sedering [@Goodwin2007, kap 17].
 
 
 ## Psykotiska symtom vid bipolär sjukdom
