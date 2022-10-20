@@ -54,7 +54,7 @@ Svårt att med säkerhet identifiera en episod med hypomani. Detta gör BPII-beg
 
 Ljus och temperatur kan påverka förlopp och uttryck
 
-Yttre stress kan utlösa episoder tidigt i förlopet, men senare tycks episoderna komma utan sådana faktorer.
+Yttre stress kan utlösa episoder tidigt i förloppet, men senare tycks episoderna komma utan sådana faktorer.
 
 ### Differentialdiagnostik och samsjuklighet
 
@@ -103,7 +103,7 @@ Notera att om spektrumbegreppet drivs för långt blir det meningslöst och risk
 
 Huvudkriteriet för diagnosen bipolär sjukdom är förekomst av mani (vid typ I) eller hypomani (vid typ II). Episoder med depression är inte obligat, men vanligt, och särskilt framträdande vid typ II.
 
-En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller irritabelt tillsammans med ökad energi eller _målinriktad aktivitet_. Mani bör misstänkas hs desorganiserad patient med psykomotorisk agitation  [@Goodwin2007, kap 17]. Differentialdiagnoser inkluderar drogpåverkan, delirium, och schizofreni.
+En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller irritabelt tillsammans med ökad energi eller _målinriktad aktivitet_. Mani bör misstänkas hos desorganiserad patient med psykomotorisk agitation  [@Goodwin2007, kap 17]. Differentialdiagnoser inkluderar drogpåverkan, delirium, och schizofreni.
 
 För att betraktas som en manisk episod krävs att förändringen i stämningsläge och aktivitet är ihållande (föreligger nästan varje dag och större delen av dagen) under en tydligt avgränsad period (dvs inte ett varaktigt beteende) som varar minst en vecka. Om besvären är så påtagliga att de leder till sjukhusinläggning kan perioden dock vara kortare (ingen nedre gräns) och ändå räknas som en manisk episod.
 
@@ -310,13 +310,13 @@ Vid utebliven respons efter 4-5 dagar, överväg kombinationsbehandling (litium 
 
 **Psykotiska symtom:** Antipsykotiska läkemedel har vanligen god effekt.
 
-**Blandad episod:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. För atienter som stabilserats med en kombination av litium och valproat har dessa läkemedel i monoterapi likvärdig (begränsad) effekt som underhållsbehandling [@Goodwin2007, kap 17].
+**Blandad episod:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. För patienter som stabilserats med en kombination av litium och valproat har dessa läkemedel i monoterapi likvärdig (begränsad) effekt som underhållsbehandling [@Goodwin2007, kap 17].
 
 **Rapid cycling** (minst fyra episoder det senaste året): Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. Olanzapin har likvärdig effekt vid rapid cycling och icke-rapid cycling [@Goodwin2007, kap 17].
 
 **"Klassisk" mani** (eufori, grandiositet): Litium kan vara mer effektivt än valproat [@Goodwin2007, kap 17].
 
-### Behanling av bipolär depression
+### Behandling av bipolär depression
 
 Personer med ofta återkommande (en depression per två år), ärftlighet för mani, och tidig debut (tonår-tjugoårsåldern) delar många egenskaper med bipolärt syndrom (och ingick i Kraepelins definition av manodepressiv sjukdom). Liknande behandlingsprinciper kan därför övervägas för dessa. 
 
@@ -338,8 +338,6 @@ Sparsamt beforskat. Kvetiapin eller kombinationen olanzapin/fluoxetin har FDA-go
 Patienter med bipolär depression svarar långsammare på behandling än de med mani. Residualsymtom är vanligt.
 
 Regelbunden fysisk konditionsträning är fördelaktig vid depression.
-
-
 
 Behandlingsförslag:
 

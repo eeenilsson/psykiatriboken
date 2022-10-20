@@ -847,13 +847,9 @@ Ziprasidon QTT-förlängande, även kvetiapin.
 
 Pacher Cardiovascular Side Effects of New Antidepressants and Antipsychotics: New Drugs, old Concerns? 2004
 
-<<<<<<< HEAD
 ### Antikolinerga biverkningar {#side-effects-anticholinergic}
-=======
-TCAs ökar hjärtfrekvensen. De har typ I antiarrytmiska egenskaper vilket kan ge breddökning av QRS, ökat PR och QT-intervall, och AV-block. De saknar effekt på myocardkontraktilitet och kan hämma ektopisk aktivitet i förmak och kammare  [@Kryger2017].
 
-## Antikolinerga biverkningar {#side-effects-anticholinergic}
->>>>>>> 4aaa1c1ac213dc21f97651c6f50832317d708164
+TCAs ökar hjärtfrekvensen. De har typ I antiarrytmiska egenskaper vilket kan ge breddökning av QRS, ökat PR och QT-intervall, och AV-block. De saknar effekt på myocardkontraktilitet och kan hämma ektopisk aktivitet i förmak och kammare  [@Kryger2017].
 
 #### Antikolinerga biverkningar av antipsykotiska läkemedel
 

@@ -32,7 +32,7 @@ Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av dep
 - Potentiella interaktioner med befintlig läkemedelsbehandling
 - Förväntad biverkningsprofil
   - Initial ångeststegring och försämrad sömn av SSRI <!-- TODO Beskriv alternativ -->
-  - Riskklassificering avseende arytmirisk (vid hög ålder, hjärt-kärlsjukdom mm) SE TdP-kapitlet
+  - Riskklassificering avseende arytmirisk (vid hög ålder, hjärt-kärlsjukdom mm) SE [TdP-kapitlet](#psykofarmakologi-tdp)
 - Enkelhet (antal doser, behov av monitorering)
 
 Vid samsjuklighet med ångestsyndrom eller 
@@ -74,11 +74,14 @@ Vid start av behandling där patienten inte har någon pågående antidepressiv 
 tbl <- fread('../notes/antidepressants_canmat_recommendation.csv')
 tbl <-
     tbl[line==1, ]
-knitr::kable(tbl)
+tbl <- tbl[,-1]
+knitr::kable(tbl, caption = "Förstahandsval enligt CANMAT")
 
 ``` 
 
-Även om man inte kunnat påvisa några säkra skillnader i effekt mellan dessa preparat visade en stor metaanalys att vissa läkemedel tenderade att ge bättre respons och samtidigt god tolerabilitet [@Cipriani2018]. De läkemedel som tenderade att ligga bäst till avseende effekt och samtidigt ha god tolerabilitet (färre avslut av behandlingen) var agomelatin, escitalopram^*, venlafaxin^*, vortioxetin. Läkemedel med fördelaktig effekt men utan fördel avseende tolerabilitet var amitriptylin, mirtazapin^*, och paroxetin. Läkemedel med tendens till lägst effektivitet var fluoxetin, reboxetin, fluvoxamin och trazodon. Markeringen med asterisk^* visar de som också i CANMAT-guidelines konstateras ha visst stöd för bättre effekt (där anges också sertralin som ett medel som visat fördel avseende effekt).
+Även om man inte kunnat påvisa några säkra skillnader i effekt mellan dessa preparat visade en stor metaanalys att vissa läkemedel tenderade att ge bättre respons och samtidigt god tolerabilitet [@Cipriani2018]. De läkemedel som tenderade att ligga bäst till avseende effekt och samtidigt ha god tolerabilitet (färre avslut av behandlingen) var agomelatin, escitalopram\*, venlafaxin\*, vortioxetin. Läkemedel med fördelaktig effekt men utan fördel avseende tolerabilitet var amitriptylin, mirtazapin\*, och paroxetin. Läkemedel med tendens till lägst effektivitet var fluoxetin, reboxetin, fluvoxamin och trazodon. 
+
+\*Markeringen med asterisk visar de som också i CANMAT-guidelines konstateras ha visst stöd för bättre effekt (där anges också sertralin som ett medel som visat fördel avseende effekt).
 
 ```{r figure-cipriani, fig.cap = 'Forest plots of network meta-analysis of all trials for efficacy and acceptability'}
 
@@ -155,7 +158,8 @@ Andrahandsval enligt CANMAT visas i (**Tabell \@ref(tab:depression-canmat-antide
 tbl <- fread('../notes/antidepressants_canmat_recommendation.csv')
 tbl <-
     tbl[line==2, ]
-knitr::kable(tbl)
+tbl <- tbl[,-1]
+knitr::kable(tbl, caption = "Andrahandvsal enligt CANMAT")
 
 ``` 
 
@@ -166,7 +170,11 @@ Tredjehandsval enligt CANMAT visas i (**Tabell \@ref(tab:depression-canmat-antid
 tbl <- fread('../notes/antidepressants_canmat_recommendation.csv')
 tbl <-
     tbl[line==3, ]
-knitr::kable(tbl)
+
+tbl <- tbl[,-1]
+knitr::kable(tbl, caption = "Tredjehandsval enligt CANMAT")
+
+
 
 ``` 
 
