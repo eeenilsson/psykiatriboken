@@ -505,7 +505,7 @@ kable(x,
 ### Biverkningar av läkemedel som används vid bipolärt syndrom
 
 De biverkningar som ä mest oroande för patienter är viktuppgång, kognitiv påverkan och sedering [@Goodwin2007, kap 17].
-
+P
 
 ## Psykotiska symtom vid bipolär sjukdom
 
