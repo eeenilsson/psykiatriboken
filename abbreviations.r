@@ -1,7 +1,8 @@
 ## abbreviations
 
 abbreviations <- c(
-    'Mdn' = "Median"    
+    'Mdn' = "Median",
+    'nd' = "No data"
 )
 
 

@@ -477,7 +477,7 @@ kable(x,
 
 Se [@Yatham2018]
 
-```{r hypophysis-organization, fig.cap='CANMAT 2018 Bipolar treatment.' }
+```{r bipolar-treatment-2018, fig.cap='CANMAT 2018 Bipolar treatment.' }
 
 include_graphics('../dropbox/images/psychiatry/canmat-bipolar-treatment-yatham2018.jpg')
 
@@ -519,24 +519,19 @@ include_graphics('../dropbox/images/psychiatry/canmat-bipolar-treatment-yatham20
 tbl <- fread('../notes/bipolar-treatment-yatham2018.csv')
 source('../functions/query_label.r')
 source('../functions/query.abbrev.r')
+source('../functions/first.up.r')
 source('varnames.r')
 source('abbreviations.r')
 pacman::p_load(kable)
 
-names(tbl)
-
 cols <- c("mania", "depression", "prevention_any", "prevention_mania", "prevention_depression" )
-
-
-
-tbl[4 , lapply(.SD, replacenumber), .SDcols = cols]
 
 tbl[is.na(tbl), ] <- 0  ## replace NA with 0
 
 replacenumber <- function(x){
     ## replace 4 with ++++ etc
-    if(x > 0){y <- paste0(rep("+", times = abs(x)), collapse = "")}else{
-    if(x < 0){y <- paste0(rep("-", times = abs(x)), collapse = "")}else{ if(x == 0) y <- paste0("nd")}                                                                  
+    if(x > 0){y <- paste0(rep("\\+", times = abs(x)), collapse = "")}else{
+    if(x < 0){y <- paste0(rep("\\-", times = abs(x)), collapse = "")}else{ if(x == 0) y <- paste0("nd")}                                                                  
 }    
     ## 
     return(y)
@@ -545,12 +540,13 @@ replacenumber <- function(x){
 replacenumber <- Vectorize(replacenumber)
 tbl[ , (cols) := lapply(.SD, replacenumber), .SDcols = cols]
 
+tbl[, medication := first.up(medication)]
+
 tbl1 <- tbl[line == 1, 2:7]
 tbl2 <- tbl[line == 2, 2:7]
 
 colnames(tbl1) <- query_label(colnames(tbl1), varnames)
 colnames(tbl2) <- query_label(colnames(tbl2), varnames)
-
 
 x <- tbl1
 
