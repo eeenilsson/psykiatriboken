@@ -65,7 +65,15 @@ common_varnames <- c(
     'mean' = "M",
     'sd' = "SD",
     'median' = "Mdn",
-    'iqi' = "IQI"
+    'iqi' = "IQI",
+
+    'prevention_any' = "Prevention båda",
+    'prevention_mania' = "Prevention mani",
+    'prevention_depression' = "Prevention depression",
+    'medication' = "Läkemedel",
+    'mania' = "Mani",
+    'depression' = "Depression"
+    
 
 )
 

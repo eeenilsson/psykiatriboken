@@ -512,6 +512,67 @@ include_graphics('../dropbox/images/psychiatry/canmat-bipolar-treatment-yatham20
   - Escitalopram
   - ...mfl
 
+### CANMAT 2018 Tabell
+
+```{r bipolar-treatment-yatham2018 } 
+
+tbl <- fread('../notes/bipolar-treatment-yatham2018.csv')
+source('../functions/query_label.r')
+source('../functions/query.abbrev.r')
+source('varnames.r')
+source('abbreviations.r')
+pacman::p_load(kable)
+
+names(tbl)
+
+cols <- c("mania", "depression", "prevention_any", "prevention_mania", "prevention_depression" )
+
+
+
+tbl[4 , lapply(.SD, replacenumber), .SDcols = cols]
+
+tbl[is.na(tbl), ] <- 0  ## replace NA with 0
+
+replacenumber <- function(x){
+    ## replace 4 with ++++ etc
+    if(x > 0){y <- paste0(rep("+", times = abs(x)), collapse = "")}else{
+    if(x < 0){y <- paste0(rep("-", times = abs(x)), collapse = "")}else{ if(x == 0) y <- paste0("nd")}                                                                  
+}    
+    ## 
+    return(y)
+}
+
+replacenumber <- Vectorize(replacenumber)
+tbl[ , (cols) := lapply(.SD, replacenumber), .SDcols = cols]
+
+tbl1 <- tbl[line == 1, 2:7]
+tbl2 <- tbl[line == 2, 2:7]
+
+colnames(tbl1) <- query_label(colnames(tbl1), varnames)
+colnames(tbl2) <- query_label(colnames(tbl2), varnames)
+
+
+x <- tbl1
+
+abbr <- query.abbrev(tbl1, abbreviations)
+abbr <- paste0(paste(names(abbr), abbr, sep = ", "), collapse = "; ")
+foot <- paste0("Tabellen visar förstahandsalternativ enligt CANMATs riktlinjer 2018. Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: ", abbr, ".")
+kable(x,
+      caption = "Förstahandsbehandling vid bipolär sjukdom")%>%
+    add_footnote(paste(foot))
+
+
+x <- tbl2
+abbr <- query.abbrev(tbl2, abbreviations)
+abbr <- paste0(paste(names(abbr), abbr, sep = ", "), collapse = "; ")
+foot <- paste0("Tabellen visar andrahandsalternativ enligt CANMATs riktlinjer 2018. Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: ", abbr, ".")
+kable(x,
+      caption = "Andrahandsbehandling vid bipolär sjukdom")%>%
+    add_footnote(paste(foot))
+
+``` 
+ 
+
 ### Biverkningar av läkemedel som används vid bipolärt syndrom
 
 De biverkningar som ä mest oroande för patienter är viktuppgång, kognitiv påverkan och sedering [@Goodwin2007, kap 17].
