@@ -198,6 +198,14 @@ Uppföljning efter nyinsättning rekommenderas efter två veckor, och därefter 
 
 För utvärdering av effekt bör skattning av depressionssymtom med tex MADRS eller MADRS-S ingå som en del av bedömningen. Därutöver kan tex funktionsnivå och motoriska symtom behöva vägas in.
 
+### Byte av antidepressiva
+
+Det finns ingen god vägledning huruvida byte inom eller mellan klasser skulle vara mer fördelaktigt. En strategi är därför att låta biverkningsproifilen avgöra. En metaanalys konstaterar:
+
+>  After a first SSRI, any switch within or between classes of antidepressants appears legitimate (second SSRI, novel dual-acting antidepressants, selective norepinephrine or nor-adrenergic/dopaminergic agents, or tricyclic anti-depressant or mianserin). No unequivocal evidence is available to prove an advantage of a between-class switch. [@Ruhe2006]
+
+För en praktisk vägledning hur doserna kan ned- och upptitreras vid byte se [Switching Antidepressants](https://wiki.psychiatrienet.nl/wiki/SwitchAntidepressants
+
 ### Monitorering
 
 Inför start av behandling kan blodprover och EKG vara aktuellt, beroende på vilken behandling som planeras.

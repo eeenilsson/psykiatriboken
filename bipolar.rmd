@@ -66,7 +66,7 @@ Identifiera hypomanier hos personer med återkommande depression. Deprimerade pa
 
 #### Schizofreni vs manisk psykos
 
-Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani är det möjligen vanligare med talträngdhet, pressat tal, grandiositet, kombinatoriskt och överinklusivt tänkande, tankeflykt, tangentialitet, derailment och loss of goal. Vid schizofreni är tankefattighet, minskad talproduktion, och lägre komplexitet i talet vanligare. Skillnaderna kan konceptualiseras som att man vid schizofreni ser mer oordnat innehåll emedan det vid mani är mer tankestrukturen som är störd. Vid mani kan mer lekfullhet och humor ses i talet. Vid mani kan temat för det personen säger skifta, emedan personer med schizofreni kan ha svårigheter att elaborera överhuvud taget. Tankestörning vid bipolärt syndrom kan kvarstå i remission. [@Goodwin2007, p45ff]
+Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani är det möjligen vanligare med talträngdhet, pressat tal, grandiositet, kombinatoriskt och överinklusivt tänkande, tankeflykt, tangentialitet, derailment och loss of goal. Vid schizofreni är tankefattighet, minskad talproduktion, och lägre komplexitet i talet vanligare. Skillnaderna kan konceptualiseras som att man vid schizofreni ser mer oordnat innehåll emedan det vid mani är mer tankestrukturen som är störd. Vid mani kan mer lekfullhet och humor noteras i talet. Vid mani kan temat för det personen säger skifta, emedan personer med schizofreni kan ha svårigheter att elaborera överhuvud taget. Tankestörning vid bipolärt syndrom kan kvarstå i remission. [@Goodwin2007, p45ff]
 
 ### Psykos vid bipolärt syndrom
 
@@ -196,7 +196,7 @@ kable(x,
 ## TODO: Översätt symtomen
 
 
-``` 
+```
 
 ## Behandling
 
@@ -332,6 +332,8 @@ Kartlägg (gärna med livslinje):
 - Följsamhet till behandling
 - Tidigare behandlingar (duration, dos, effekt, biverkningar)
 - Samsjuklighet: Thyroideasjukdom, ångestsyndrom
+- Nyinsatta läkemedel
+- Thyroideastatus
 
 Sparsamt beforskat. Kvetiapin eller kombinationen olanzapin/fluoxetin har FDA-godkännande.
 
@@ -348,7 +350,66 @@ Behandlingsförslag:
 
 Antidepressiv effekt av litium kan komma efter 1-2 veckor men dröjer ofta 3-5 veckor.
 
+#### CANMAT rekommendation 2018
+
+> First‐line options for bipolar I depression include quetiapine, lurasidone plus lithium or divalproex, lithium, lamotrigine, lurasidone, or adjunctive lamotrigine. While medications that have been shown to be effective for the acute phase should generally be continued for the maintenance phase in bipolar I disorder, there are some exceptions (such as with antidepressants); and available data suggest that lithium, quetiapine, divalproex, lamotrigine, asenapine, and aripiprazole monotherapy or combination treatments should be considered first‐line for those initiating or switching treatment during the maintenance phase. [@Yatham2018]
+
+
+> clinical experience and the results of many studies suggest that response to mood stabilizers and antipsychotics is similar in BDII and BDI, there are enough exceptions to suggest this should not be taken for granted.248, 405, 431 This is also the case for antidepressants, which may have a more favourable risk‐benefit ratio in BDII
+
+
+#### Antidepressiva läkemedel
+
+- Effektiviteten av AD ej etablerad för BP depression
+- Utlösande av maniskt skov av AD har demonstrerats i studier
+- Rekommenderas ej som monoterapi vid BP I
+- Otillräckliga data för rekommendation vid BP II
+  - Undvik vid blandad episod [@Yatham2018]
+- Bör endast övervägas vid svår depression eller då annan behandling har misslyckats 
+  - Då alltid i kombination med stämningsstabiliserare
+  - Bör sättas ut gradvis efter depressionsepisoden
+    - Fortsättningsbehandling endast för dem med tidig relaps
+
+<!-- #### Behandlingssteg BP typ I-depression enligt Goodwin -->
+
+<!-- 1. Lamotrigin + litium eller valproat -->
+<!-- 2. Om utebliven respons v 4 -->
+<!--   - Lägg till kvetiapin -->
+<!-- 3. Om utebliven respons v 6 -->
+<!--   - Byt kvetiapin till Olanzapin + fluoxetin -->
+<!-- 4. Om utebliven respons v 8 -->
+<!--   - Byt olanzapin/fluoxetin till bupropion eller SSRI -->
+<!-- 5. Om utebliven respons v 10 -->
+<!--   - ECT -->
+  
+<!-- #### Behandlingssteg BP typ II-depression enligt Goodwin -->
+
+<!-- <\!-- p752 -\-> -->
+
+<!-- 1. Starta lamotrigin (antidepressiv effekt redan vid 50 mg/d) -->
+<!--   - Vid svår depression (behov av snabb respons) överväg -->
+<!--     - ECT -->
+<!-- 	- Antidepressivt läkemedel + antimanisk stämningsstabiliserare -->
+<!--   - Vid psykos kombinera med atypiskt antipsykotiskt medel -->
+<!--   - Vid säsongsvariation exponera för starkt ljus på morgonen -->
+<!-- 2. Om ej respons vecka 4 -->
+<!--   - Antidepressivt läkemedel + antimanisk stämningsstabiliserare eller kvetiapin  -->
+<!-- 2. Om ej respons vecka 6 -->
+<!--   - Lamotrigin + Kvetiapin -->
+<!--   - Lamotrigin + Litium -->
+<!--   - Olanzapin + fluoxetin -->
+
+#### Augmentation med thyrodeahormon?
+
+- Kan vara av värde (även vid normala thyrodieaprover) hos...
+  - Kvinnor
+  - Rapid cycling
+  - TSH > 50:e percentilen av normalvärde
+- Använd T3 och gå med tiden över till T4
+
 ### Behandlingsalternativ i olika faser enligt CANMAT
+
+<!-- Uppdatering [@Yatham2018] -->
 
 Litium eller kvetiapin kan i monoterapi användas som förstahandsval i alla faser av bipolär sjukdom. Valproat som monoterapi är förstahandsval för underhållsbehandling och maniska skov men för depressiva episoder främst i kombination med litium eller vissa antidepressiva. Bland förstahandsvalen är litium troligen det mest effektiva (?).
 
@@ -359,6 +420,9 @@ Litium kombineras vid underhållsbehandling eller mani i första hand med vissa 
 Överväg om ett preparat som lämpar sig för underhållsbehandling kan användas även i den akuta fasen. Ett hinder kan dock vara svårighet att diskutera behandlingsalternativen med patienten.
 
 **Tabell \@ref(tab:bipolar-treatment)** visar behandlingsalternativ i olika faser vid bipolär sjukdom [@Yatham2013].
+
+<!-- Uppdatering: Canadian Network for Mood and Anxiety Treatments yatham 2018 -->
+
 
 ```{r  bipolar-treatment} 
 
@@ -409,6 +473,35 @@ kable(x,
 
 ``` 
 
+#### CANMAT 2018 akut BPII depression
+
+- I första hand kvetiapin (grad 1 evidens)
+- I andra hand
+  - Litium (idealt 0.8‐1.2 mEq/L)
+  - Lamotrigin
+  - Tillägg av bupropion
+  - Monoterapi bupropion, sertralin, venlafaxin
+  - ECT
+- I tredje hand
+  - Valproat
+  - Thyroideahormon
+  - Ziprasidon
+  - Ketamin
+  - ...med mera
+  
+#### CANMAT 2018 Underhållsbehandling BP II
+
+- I första hand
+  - Kvetiapin
+  - Litium
+  - Lamotrigin
+- Andra hand
+  - Venlafaxin
+- Tredje hand
+  - Valproat
+  - Escitalopram
+  - ...mfl
+
 ### Biverkningar av läkemedel som används vid bipolärt syndrom
 
 De biverkningar som ä mest oroande för patienter är viktuppgång, kognitiv påverkan och sedering [@Goodwin2007, kap 17].
@@ -456,3 +549,4 @@ Efficacy and Effectiveness of Lithium in the Long-Term Treatment of Bipolar Diso
 Prediction Model of Serum Lithium Concentrations [@Yoshida2018]
 
 Treatments for Acute Bipolar Depression: Meta-analyses of Placebo-controlled, Monotherapy Trials of Anticonvulsants, Lithium and Antipsychotics [@Selle2014].
+
