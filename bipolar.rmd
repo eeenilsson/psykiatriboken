@@ -473,6 +473,16 @@ kable(x,
 
 ``` 
 
+### CANMAT uppdatering 2018
+
+Se [@Yatham2018]
+
+```{r hypophysis-organization, fig.cap='CANMAT 2018 Bipolar treatment.' }
+
+include_graphics('../dropbox/images/psychiatry/canmat-bipolar-treatment-yatham2018.jpg')
+
+``` 
+
 #### CANMAT 2018 akut BPII depression
 
 - I första hand kvetiapin (grad 1 evidens)
@@ -505,7 +515,6 @@ kable(x,
 ### Biverkningar av läkemedel som används vid bipolärt syndrom
 
 De biverkningar som ä mest oroande för patienter är viktuppgång, kognitiv påverkan och sedering [@Goodwin2007, kap 17].
-P
 
 ## Psykotiska symtom vid bipolär sjukdom
 
