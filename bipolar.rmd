@@ -4,7 +4,8 @@
 
 Bipolärt syndrom innebär episoder med mani eller hypomani samt (i de flesta fall) återkommande depressioner. Vid mani föreligger både ökad aktivitet (eller -energi) och förändrat stämningsläge (förhöjt, expansivt eller irritabelt).
 
-Man brukar tala om ett "bipolärt spektrum" som har kontinuitet till normala variationer i humör, energi och beteende, men även spektrum inom bipolaritet (=svårighetsgrad?). Ca 1/3 av de med cyklotymi och liknande besvär utvecklar bipolärt syndrom. Notera att om spektrumbegreppet drivs för långt blir det meningslöst och riskerar att beteckna det normala som patologiskt  [@Goodwin2007].
+Man brukar tala om ett "bipolärt spektrum" som har kontinuitet till normala variationer i humör, energi och beteende, men även spektrum inom bipolaritet (=svårighetsgrad?). Ca 1/3 av de med cyklotymi (hypomana och depressiva perioder i minst två år utan att uppfylla de fulla kriterierna för egentlig depression, hypomani eller mani) och liknande besvär utvecklar bipolärt syndrom. Notera att om spektrumbegreppet drivs för långt blir det meningslöst och riskerar att beteckna det normala som patologiskt  [@Goodwin2007].
+
 
 <!-- TODO: Teorier om patofysiologi.  -->
 
@@ -123,7 +124,7 @@ Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt so
 - Ökad pratsamhet
 - _Tankeflykt_ eller en känsla av att tankarna rusar
 - Distraherbarhet (av yttre ovidkommande stimuli)
-- Ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt) eller psykomotorisk agitation
+- Ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt, ofta flera projekt samtidigt) eller psykomotorisk agitation
 - Överdrivet högriskbeteende (tex ekonomiskt, sexuellt). 
 
 Notera att snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet). Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter, exempelvis vidlyftiga projekt inom områden där personen saknar specifik kompetens. Minskat sömnbehov innebär att personen känner sig utvilad trots minskad sömntid. Uppblåst självförtroende kan vara av vanföreställningskaraktär.
@@ -150,7 +151,7 @@ Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåg
 
 #### Rapid cycling
 
-Minst fyra maniska eller depressiva episoder det senaste 12 månaderna.
+Minst fyra hypomaniska, maniska eller depressiva episoder (som uppfyller de fulla kriterierna) det senaste 12 månaderna. Episoder avgränsas av antingen symtomfrihet i minst två månader eller övergång till motsatt polaritet. 
 
 Associerat med substansbrukssyndrom, hypothyroidism, antidepressiva.
 
@@ -158,13 +159,114 @@ Har betydelse för val av behandling.
 
 Glöm ej undersöka thyroideastatus. 
 
-#### Blandad episod
+#### Med melankoliska drag
+
+Enligt DSM definieras detta när: 
+
+- Något av följande två drag föreligger under den svåraste delen av den aktuella episoden:
+  - Avsaknad av lust för nästan alla aktiviteter.
+  - Avsaknad av resons på lustfyllda stimuli (ingen känsla av förbättring nör något bra händer).
+- Minst tre av följande föreligger:
+  - Distinkt känsla av nedstämt humör karakteriserat av hopplöshet eller tomhet.
+  - Depression som regelbundet är värre på morgonen.
+  - Tidigt morgonuppvaknande (monst tvp tim tidigare än vanligt)
+  - Uttalad psykomotorisk hämning.
+  - Påtaglig anorexi eller viktförlust.
+  - Överdrivna eller omotiverade skuldkänslor.
+
+#### Med atypiska drag
+
+Specificeras enligt DSM när atypiska drag dominerar de flesta dagar under episoden.
+
+- Humöret ljusnar vid positiva händelser, samt minst två av:
+  - Påtaglig viktuppgång eller ökad aptit.
+  - Hypersomni.
+  - "Leaden paralysis" (tung, blyliknande känsla i arma och ben).
+  - Långvarigt mönster (ej endast under affektiva skov) av käslighet för interpersonellt avståndstagande som orsakar signifikant social eller yrkesmässig funktionsnedsättning.
+
+#### Med psykotiska drag
+
+När vanföreställningar eller hallucinationer föreligger under någon del av episoden.
+
+Stämningskongruenta psykotiska drag: under maniska episoder är samtliga vanföreställningar och hallucinationer överensstämmande med typiska maniska teman (grandiositet, osårbarhet etc), men kan även inkludera misstänksamhet eller paranoia, särskilt avseende ifrågasättande av personens förmågor.
+
+Sämningsinkongruenta psykotiska drag: Innehållet överensstämmer ej med episodens polaritet, eller det föreligger en blandning av stämningskongruenta och -inkongruenta teman.
+
+#### Med katatoni
+
+Uttalad motorisk störning (ökad, överdriven eller märklig motorisk aktivitet). Individen kan växla mellan minskad- och ökad aktivitet. Kan uppträda vid olika psykiatriska och neurologiska tillstånd samt orsakas av läkemedel.
+
+Vid bipolär mani eller depression skall symtomen föreligga under större delen av episoden för att specificeras som mani/depression med katatoni.
+
+Minst tre av:
+
+- Stupor (ingen psykomotorisk aktivitet, relaterar ej aktivt till omgivningen).
+-  Katalepsi (passiv induktion av en kropsställning som hålls mot gravitationen
+- Vaxig flexibilitet (diskret, jämnt motstånd mot positionering som utförs av undersökaren)
+- Mutism (ingen eller mkt liten verbal respons)
+- Negativism (motstånd eller ickerespins till instruktioner eller externa stimuli)
+- Posturing (spontant och aktivt upprätthållande av en kroppställning mot gravitation)
+- Mannerism (udda karikatyrer av normala handlingar)
+- Stereotypi (repetietiva, onormalt frekventa, icke-målinriktade rörelser)
+- Agitatioon som ej påverkas av yttre stimuli
+- Grimasering
+- Ekolali
+- Ekopraxi
+
+#### Med peripartumdebut
+
+Kriterier för hypomani, mani eller depression uppfylls under graviditet eller inom fyra veckor efter förlossning. Incidensen är 3-6%. Hälften av dessa börjar före förlossning.
+
+#### Episod med blandade drag {#episode-mixed}
 
 Vanligt med inslag av maniska symtom vid bipolär sjukdom i depressiv fas (70%) och vid MDD (25%). Depressiva symtom förekommer hos 10-30% vid mani [@Yatham2018]. 
 
 Blandad episod av mani med samtidiga depressiva inslag förekommer. Vid sådan episod är dysfori, ångest, skuldkänslor, suicidtankar och irritabilitet vanligare medan man vid ren manisk episod oftare observerat grandiositet, eufori och talträngdhet [@Cassidy1998].
 
-Vid MDD är psykomotorisk agitation och irritabilitet de vanligaste "maniska" symtomen ("Agiterad depression" eller "Depressive mixed state").
+Vid MDD är psykomotorisk agitation och irritabilitet de vanligaste "maniska" symtomen ("Agiterad depression" eller "Depressive mixed state"), vilket kan vara svårt att skilja från bipolär mani eller - blandad episod. Vid blandad hypoman episod kan patienten uppleva det som en depression med ökad energi eller irritabilitet.
+
+Enligt DSM definiera hypoman eller manisk episod med blandade drag enligt föjande:
+
+- Fulla kriterier för mani eller hypomani uppfyllda.
+- Mins tre av följande föreligger de flesta dagar under episoden, är en förändring jämfört med personens normala mående och kan observeras av andra:
+  - Framträdande dysfori eller nedstämdhet
+  - Minskat intresse för i stort sett alla aktiviteter.
+  - Psykomotorisk hämning som kan observeras av andra
+  - Utmattning eller energiförlust
+  - Känslor av värdelöshet eller omotiverad skuld
+  - Återkommande dödstankar, suicidtankar, -planer eller -försök.
+
+Depressiv episod med blandade drag:
+
+- Kriterier för MDD uppfyllda.
+- Mins tre av följande föreligger de flesta dagar under episoden, är en förändring jämfört med personens normala mående och kan observeras av andra:
+  - Förhöjd grundstämninig, expansivitet.
+  - Uppblåst självkänsla eller grandiositet.
+  - Mer pratsam än vanligt eller talträngdhet.
+  - Tankeflykt eller upplevelse av rusande tankar.
+  - Ökad energi eller målinriktad aktivitet.
+  - Ökat eller överdrivet riskbeteende (spenderande, sexuellt).
+  - Minskat sömnbehov.
+
+För de som uppfyller kriterier för både mani och MDD bör diagnosen manisk episod med blandade drag ställas.
+
+#### With axious distress
+
+<!-- With anxious distress: The presence of at least two of the following symptoms during the majority of days of the current or most recent episode of mania, hypomania, or depression: -->
+
+Minst två av följande föreligger de flesta dagar under episoden:
+
+- Känsla av spändhet.
+- Ovanligt rastlös.
+- Koncentrationssvårigheter pga oro.
+- Rädsla för att något hemskt skall hända.
+- Känsla av att personen kan förlora konrollen över sig själv.
+
+<!-- _Specify_ current severity: Mild: Two symptoms. Moderate: Three symptoms. -->
+<!-- Moderate-severe: Four or five symptoms. -->
+<!-- Severe: Four or five symptoms with motor agitation. -->
+
+Hög ångestnivå vid bipolär eller unipolär depression är associerat med ökad suicidrisk, längre sjukdomsduration, och sämre svar på beandling.
 
 ### Prevalens av olika symtom vid manisk eller blandad episod
 
@@ -282,6 +384,8 @@ Personer med frekvent återkommande (en depression per två år) unipolär depre
   - Högre förekomst av samtidigt substansbrukssyndrom
   - Migrän vanligare vid BP [@Romo-Nava2021]
 
+Depressiv episod med blandade drag (se avsnitt \@ref(episode-mixed)) är en riskfaktor för att utveckla BP I eller BPII (Ref: DSM-5).
+
 <!-- Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med unipolär depression, av yngre debutålder (och smalare åldersintervall för debut), fler episoder, kortare epidoder, längre sömntid än vid unipolär depression, mer normal personlighet, högre förekomst av samtidigt substansbrukssyndrom, och mer humörvängningar mellan episoder. Bipolär depression är lika vanligt hos män som hos kvinnor. Bipolärt syndrom har starkare ärftlighet (både avseende konkordans mellan monozygota tvillingar och förekomst av bipolaritet hos förstagradssläktingar). Det bör noteras att heterogeniteten är stor inom respektiva grupp (bipolär respektive unipolär depression) [@Goodwin2007, p9]. -->
 
 Mer framträdande vid unipolär depression: Ångest, somatiska symtom, normal aktivitetsnivå eller psykomotorisk agitation, minskad aptit, insomningssvårigheter, smärtkänslighet, viktförlust, senare debut (> 25 å), lägre depressionsduration (> 6m) [@Goodwin2007;@Yatham2018].
@@ -312,9 +416,14 @@ Har betydelse för differentialdiagnostik, prognos, behandlingsval, utredning oc
   - Antal och frekvens av tidigare episoder
   - Säsongsvariation
   - Post-partumbesvär
-  - Symtomvariation under dagen
   - Premenstruella besvär
   - Ljus och temperatur kan påverka förlopp och uttryck
+- Episodkarakteristika
+  - Symtomvariation under dagen
+  - Sömnbesvär, sömntid, dagtrötthet?
+  - Depressiva symtom vid mani (blandade drag?)
+  - Maniska symtom vid depression (blandade drag?)
+  - Ångest ("with axious distress" ?)
 - Prodromalsymtom/tidiga varningstecken (kognitiva besvär, sömn, diskreta psykomotoriska förändringar)
 - Utlösande faktorer
   - Nyinsatta läkemedel (kan vara utlösande faktorer)
@@ -337,6 +446,9 @@ Har betydelse för differentialdiagnostik, prognos, behandlingsval, utredning oc
 Samsjuklighet/riskbeteenden.
 
 Identifiera komorbiditet: Substansbruk, obesitas, thyroideasjukdom, ångesttillstånd, ätstörning, migrän.
+
+<!-- DSM: Co-occurring mental disorders are common, with the most frequent disorders being any anxiety disorder (e.g., panic attacks, social anxiety disorder [social phobia], specific phobia), occurring in approximately three-fourths of individuals; ADHD, any disruptive, im- pulse-control, or conduct disorder (e.g., intermittent explosive disorder, oppositional defiant disorder, conduct disorder), and any substance use disorder (e.g., alcohol use disorder) occur in over half of individuals with bipolar I disorder. Adults with bipolar I disorder have high rates of serious and/or untreated co-occurring medical conditions.  -->
+
 
 **Migrän**  är tre gånger vanligare vid BP än i befolkningen (Prevalens 30-50%) och båda tillstånden är associerade med "evening chronotype". Kombinationen BP + migrän är förknippat med tidigare debut av BP, fler episoder (ffa depression) och samsjuklighet (ökad förekomst av fibromyalgi, astma, psoriasis, ätstörning, ångest, substansbrukssyndrom, kardiovaskulär sjukdom och obesitas har beskrivits). Möjligen även ökad suicidalitet. Det finns ingen etablerad vetenskaplig grund för behandlingsval vid kombinationen av migrän och BP, men några aspekter kan beaktas. Betablockare som används som migränprofylax kan förvärra depressiva symtom. Triptaner kan öka risk för serotininsyndromet om det kombineras med antidepressiva. Valproat kan teoretiskt ha verkan mot båda tillstånden (off-label som migränprofylax). Topiramat kan också beaktas [@Romo-Nava2021; @Engmann2012].
 
@@ -382,6 +494,8 @@ Se [@Larson1988]
 
 ### Differentiera mot andra psykiatriska tillstånd {#differential-psychiatric}
 
+<!-- DSM: Generalized anxiety disorder, panic disorder, posttraumatic stress disorder, or other anxiety disorders. These disorders need to be considered in the differential diagnosis as either the primary disorder or, in some  -->
+
 #### Personlighetssyndrom
 
 Vid emotionellt instabilt personlighetssyndrom förekommer humörsvängningar i kombination med instabila relationer och växlande självbild, uttalad impulsivitet, rädsla för att bli övergiven. Eufori och långvariga perioder med god funktion är mycket ovanligt  [@Yatham2018].
@@ -396,7 +510,8 @@ Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani
 
 #### ADHD
 
-Text
+<!-- DSM: Attention-deficit/hyperactivity disorder. This disorder may be misdiagnosed as bipolar disorder, especially in adolescents and children. Many symptoms overlap with the symptoms of mania, such as rapid speech, racing thoughts, distractibihty, and less need for sleep. The "double counting" of symptoms toward both ADHD and bipolar disorder can be avoided if the clinician clarifies whether the symptom(s) represents a distinct episode. -->
+
 
 ### Psykos vid bipolärt syndrom
 
