@@ -35,7 +35,7 @@ På 1950-talet föreslog Leonhard en indlningen i "bipolär" (för personer med 
 Tabell Livstidsprevalens bipolärt spektrum [@Vieta2018;@Yatham2018]
 
 | Syndrom      | %   | kumulativt |
-|--------------|-----|------------|
+|:-------------|:---:|:----------:|
 | Bipolär I    | 0.6 | 0.6        |
 | Bipolär II   | 0.4 | 1.0        |
 | Subsyndromal | 1.4 | 2.4        |
@@ -51,7 +51,7 @@ _Heritabiliteten_ (förekomst som ej förklaras av slumpen) är ca 70 % (BPI ~ B
 **Tabell: Konkordans för tvillingpar** 
 
 | Typ  | Enäggs | Tvåäggs |
-|------|--------|---------|
+|:------|:------:|:-------:|
 | BPI  | 80 %   | 13 %    |
 | BPII | 78 %   | 31 %    |
 | MDD  | 54 %   | 24 %    |
@@ -188,8 +188,6 @@ Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med u
 
 Vid bipolärt syndrom ses på gruppnivå ökad förekomst av depression höst/vinter och mani under vår/sommar. 
 
-Det kan vara så att bipolär depression svarar sämre på antidepressiv läkemedelsbehandling, vilka också kan ha sämre profylaktisk effekt. 
-
 Personer med frekvent återkommande unipolär depression liknar den bipolära gruppen i flera avseenden, tex tidig debutålder, förekomst av mani i familjen, atypiska drag, och profylaktisk effekt av litium [@Goodwin2007, p 12]
 
 #### Episodkarakteristika
@@ -230,12 +228,9 @@ Höga poäng vanligt vid exempelvis emotionellt instabilt personlighetssyndrom  
   - Temporallob, hemisfärisk
 - Huntingtons sjukdom
 - Encefalit
-- mm
-  
-Se [@Larson1988]
-
-#### Kartlägg utlösande faktorer för mani
-
+- Multipel skleros
+- SLE
+- Cushing och Addison
 - Läkemedel
   - Drogbruk
   - Antidepressiva
@@ -244,15 +239,10 @@ Se [@Larson1988]
   - Elektrokonvulsiv behandling
   - Isoniazid (TB-behandling)
   - Klorokin (malaria/reumabeh)
-
-- Sjukdomar
-  - Multipel skleros
-  - Stroke
-  - SLE
-  - Cushing och Addison
   - Subklinisk hypothyreos
+- mm
 
-Ljus och temperatur kan påverka förlopp och uttryck. Yttre stress kan utlösa episoder tidigt i förloppet, men senare tycks episoderna komma utan sådana faktorer.
+Se [@Larson1988]
 
 ### Differentiera mot andra psykiatriska tillstånd
 
@@ -363,8 +353,6 @@ kable(x,
 
 ```
 
-
-
 ## Behandling
 
 Överväg differentialdiagnoser som drogutlöst psykos, andra organiska psykoser, demens, eller schizoaffektivt syndrom. 
@@ -397,9 +385,11 @@ Kartlägg (gärna med livslinje, med hjälp av anhöriga eller arbetskamrat):
 - Följsamhet till behandling
 - Tidigare behandlingar (duration, dos, effekt, biverkningar)
 - Samsjuklighet: Thyroideasjukdom, ångestsyndrom
-- Nyinsatta läkemedel
-- Thyroideastatus
+- Nyinsatta läkemedel (kan vara utlösande faktorer)
+- Thyroideastatus (subklinisk hypothyreos kan utlösa skov)
 - Suicidrisk
+
+Ljus och temperatur kan påverka förlopp och uttryck. Yttre stress kan utlösa episoder tidigt i förloppet, men senare tycks episoderna komma utan sådana faktorer.
 
 ### Läkemedel vid bipolärt syndrom
 
@@ -466,6 +456,8 @@ I återhämtningsfasen av mani är det vanligt med svängningar i stämningsläg
 
 #### Faktorer som kan påverka val av behandling
 
+<!-- Gå igenom Yatham 2018 -->
+
 **Tidigare respons på visst läkemedel**: Litium är mer effektivt än valproat hos de som tidigare haft effekt av litium, och tvärtom [@Goodwin2007].
 
 **Extrem hyperaktivitet:** Antipsykotiska läkemedel ger snabbast effekt. 
@@ -497,7 +489,7 @@ Behandla sömsvårigheter, ångest och agitation.
 
 Om patienten står på litium, överväg öka litiumkoncentrationen till >0.8.
 
-#### Antidepressiva läkemedel
+#### Antidepressiva läkemedel vid bipolärt syndrom
 
 Antidepressiva bör i allmänhet trappas ut (om inte flera utsättningsförsök redan misslyckats) [@Goodwin2007, kap 17]. Om antidepressiva används bör de kombineras med en "stämningsstabiliserare".
 
@@ -510,6 +502,8 @@ Antidepressiva bör i allmänhet trappas ut (om inte flera utsättningsförsök 
   - Då alltid i kombination med stämningsstabiliserare
   - Bör sättas ut gradvis efter depressionsepisoden
     - Fortsättningsbehandling endast för dem med tidig relaps
+
+<!-- Det kan vara så att bipolär depression svarar sämre på antidepressiv läkemedelsbehandling, vilka också kan ha sämre profylaktisk effekt.  -->
 
 <!-- #### Behandlingssteg BP typ I-depression enligt Goodwin -->
 
