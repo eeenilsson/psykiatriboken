@@ -1,0 +1,52 @@
+<!-- Ej aktuell pga uppdatering 2018 -->
+
+<!-- Uppdatering: Canadian Network for Mood and Anxiety Treatments yatham 2018 -->
+
+<!-- ```{r  bipolar-treatment}  -->
+
+<!-- source('bipolar-treatment-htm.r') -->
+<!-- tbl$drug <- query_label(tbl$drug, varnames) -->
+<!-- colnames(tbl) <- query_label(colnames(tbl), varnames) -->
+
+<!-- x <- tbl -->
+<!-- abbr <- query.abbrev(tbl, abbreviations) -->
+<!-- abbr <- paste0(paste(names(abbr), abbr, sep = ", "), collapse = "; ") -->
+<!-- foot <- paste0("Tabellen visar första- och andrahandsalternativ. Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: ", abbr, ".") -->
+
+<!-- ## 2:a hands alternativ kursiv stil i latexversionen -->
+
+<!-- ## Ref: CANMAT, Yatham 2013. -->
+
+<!-- kable(x, -->
+<!--       caption = "Behandling vid bipolär sjukdom typ 1")%>% -->
+<!--     footnote(paste(foot), -->
+<!--              general_title = "") -->
+
+<!-- ## Latex version -->
+<!-- ## x%>% -->
+<!-- ##     group_by()%>% -->
+<!-- ##     mutate_all(linebreak)%>% -->
+<!-- ##     kable("latex", -->
+<!-- ##       align = c("l", rep('c', times = ncol(x))), -->
+<!-- ##       caption = "Behandling vid bipolär sjukdom typ 1",       -->
+<!-- ##       booktabs=TRUE, -->
+<!-- ##       escape=FALSE       -->
+<!-- ##       )%>% -->
+<!-- ##     ## kable_styling(hline_after = T)%>% -->
+<!-- ##     row_spec(1: nrow(x), hline_after = T) %>% -->
+<!-- ##     row_spec(0, bold = T) %>% -->
+<!-- ##     ## row_spec(3, bold = T, color = "white", background = "blue")%>% -->
+<!-- ## ##     column_spec(1:ncol(x), -->
+<!-- ## ## ##                width = "3cm", -->
+<!-- ## ##                 valign = "top")%>% -->
+<!-- ##     ## kable_styling(latex_options="striped",position = "center",full_width = F)%>% -->
+<!-- ##     footnote( -->
+<!-- ## ##        general= make_rows(foot), -->
+<!-- ##         general_title = "", -->
+<!-- ##         ##footnote_as_chunk=TRUE,  -->
+<!-- ##         escape=FALSE) -->
+    
+<!--     ## kable_styling(bootstrap_options = c("striped", "hover")) -->
+
+
+<!-- ```  -->

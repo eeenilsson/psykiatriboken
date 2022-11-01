@@ -1,0 +1,30 @@
+<!-- Det kan vara så att bipolär depression svarar sämre på antidepressiv läkemedelsbehandling, vilka också kan ha sämre profylaktisk effekt.  -->
+
+<!-- #### Behandlingssteg BP typ I-depression enligt Goodwin -->
+
+<!-- 1. Lamotrigin + litium eller valproat -->
+<!-- 2. Om utebliven respons v 4 -->
+<!--   - Lägg till kvetiapin -->
+<!-- 3. Om utebliven respons v 6 -->
+<!--   - Byt kvetiapin till Olanzapin + fluoxetin -->
+<!-- 4. Om utebliven respons v 8 -->
+<!--   - Byt olanzapin/fluoxetin till bupropion eller SSRI -->
+<!-- 5. Om utebliven respons v 10 -->
+<!--   - ECT -->
+  
+<!-- #### Behandlingssteg BP typ II-depression enligt Goodwin -->
+
+<!-- <\!-- p752 -\-> -->
+
+<!-- 1. Starta lamotrigin (antidepressiv effekt redan vid 50 mg/d) -->
+<!--   - Vid svår depression (behov av snabb respons) överväg -->
+<!--     - ECT -->
+<!-- 	- Antidepressivt läkemedel + antimanisk stämningsstabiliserare -->
+<!--   - Vid psykos kombinera med atypiskt antipsykotiskt medel -->
+<!--   - Vid säsongsvariation exponera för starkt ljus på morgonen -->
+<!-- 2. Om ej respons vecka 4 -->
+<!--   - Antidepressivt läkemedel + antimanisk stämningsstabiliserare eller kvetiapin  -->
+<!-- 2. Om ej respons vecka 6 -->
+<!--   - Lamotrigin + Kvetiapin -->
+<!--   - Lamotrigin + Litium -->
+<!--   - Olanzapin + fluoxetin -->

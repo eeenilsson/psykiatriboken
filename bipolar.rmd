@@ -4,17 +4,9 @@
 
 Bipolärt syndrom innebär episoder med mani eller hypomani samt (i de flesta fall) återkommande depressioner. Vid mani föreligger både ökad aktivitet (eller -energi) och förändrat stämningsläge (förhöjt, expansivt eller irritabelt).
 
-Teorier om patofysiologi. 
+Man brukar tala om ett "bipolärt spektrum" som har kontinuitet till normala variationer i humör, energi och beteende, men även spektrum inom bipolaritet (=svårighetsgrad?). Ca 1/3 av de med cyklotymi och liknande besvär utvecklar bipolärt syndrom. Notera att om spektrumbegreppet drivs för långt blir det meningslöst och riskerar att beteckna det normala som patologiskt  [@Goodwin2007].
 
-### Bipolärt spektrum
-
-Spektrum-konceptet: Kontinuitet till normala variationer i humör, energi och beteende, men även spektrum inom bipolaritet (=svårighetsgrad?). Spektrum även inom mani. 1/3 av de med cyklotymi och liknande besvär utvecklar bipolärt syndrom. Notera att om spektrumbegreppet drivs för långt blir det meningslöst och riskerar att beteckna det normala som patologiskt  [@Goodwin2007].
-
-### Blandade episoder
-
-Vanligt med inslag av maniska symtom vid bipolär sjukdom i depressiv fas (70%) och vid MDD (25%). 
-
-Vid MDD är psykomotorisk agitation och irritabilitet de vanligaste "maniska" symtomen ("Agiterad depression" eller "Depressive mixed state"). 
+<!-- TODO: Teorier om patofysiologi.  -->
 
 ### Historik
 
@@ -65,6 +57,8 @@ Personer med täta depressiva skov liknar bipolärt syndrom i fråga om heredite
 
 Notation: Mönstret hos en individ med bipolärt syndrom kan vara övervägande svåra maniska skov, och mindre svåra depressioner, eller tvärtom, och kan noteras som Md respektide mD, där mD motsvarar ungefär bipolär II (emedan md kan motsvara cyclotymi) [@Goodwin2007]. 
 
+Tidig debut med psykotisk depression är kopplat till ökad risk för senare manisk episod. Stämningsinkongruenta psykotiska symtom är förknippat med sämre prognos, kan vara mer likt schizofreni [@Goodwin2007, p53ff]?
+
 <!-- Angst indelade Bipolära syndrom i Md och Dm där stor bokstav = hospitalisering. -->
 
 ##### Suicidrisk
@@ -110,35 +104,29 @@ Subsyndromalt 3 ggr vanligare än syndromalt
 
 Goodwin kritiserar att man i DSM-systemet fokuserar mer på polaritet än förlopp, och att den variant av unipolär depression som är frekvent återkommande därmed inte uppmärksammas (p8). I DSM kommer därför gruppen med "unipolär" depression att vara mer heterogen än tidigare indelningar. Tidigare krävdes för diagnos BP II (och I) mer strikt en affektiv episod med sådan svårighet att den krävde hospitalisering [@Goodwin2007, p8].
 
-Det är viktigt att identifiera eventuella hypomanier hos personer med återkommande depression. Observera att deprimerade patienter har ofta svårt att själva identifiera tidigare hypomanier, varför anhöriganamnes kan vara till god hjälp [@Goodwin2007].
-
-### Bipolär I vs Bipolär II
-
-Svårt att med säkerhet identifiera en episod med hypomani. Detta gör BPII-begreppet mer otydligt än BPI [@Goodwin2007].
-
-Bipolär II vs BP I depressiva episoder: BPI svårare, längre (? stämmer ej med tabell p 9) depressionsepisoder med mer psykotiska symtom och agitation/irritabilitet, och fler sjukhusinläggningar. BP II dock längre total tid i depression (mer frekventa depressiva episoder) [@Goodwin2007].
-
 ### Diagnostik enligt DSM
 
-Huvudkriteriet för diagnosen bipolär sjukdom är förekomst av mani (vid typ I) eller hypomani (vid typ II). Episoder med depression är inte obligat, men vanligt, och särskilt framträdande vid typ II.
+Huvudkriteriet för diagnosen bipolär sjukdom är förekomst av mani (vid typ I) eller hypomani (vid typ II). Episoder med depression är inte obligat, men vanligt, och särskilt framträdande vid typ II. Diagnosen bipolär sjukdom typ I kan ställas om personen haft en eller flera maniska episoder under sin livstid, oavsett om depressiva episoder förekommit. Om hypomani förkommit men aldrig mani, samt minst en depression, ställs diagnosen bipolär sjukdom typ II. Ett förlopp med många lindriga hypomanier och lindriga depressioner under minst två år kan beskrivas som "cyklotymi".
+
+Bipolär sjukdom typ I kan karakteriseras vidare exemplevis baserat på svårighetsgrad (mild, måttlig, svår med/utan psykos), grad av remission (partiell eller full remission), förlopp ("rapid cycling" innebär 4 eller fler episoder under 12 månader), och typ av pågående episod (mani, hypomani, depression, blandad). 
+
+#### Manisk episod
 
 En manisk episod innebär att stämningsläget är förhöjt, _expansivt_ eller irritabelt tillsammans med ökad energi eller _målinriktad aktivitet_. Mani bör misstänkas hos desorganiserad patient med psykomotorisk agitation  [@Goodwin2007, kap 17]. Differentialdiagnoser inkluderar drogpåverkan, delirium, och schizofreni.
 
 För att betraktas som en manisk episod krävs att förändringen i stämningsläge och aktivitet är ihållande (föreligger nästan varje dag och större delen av dagen) under en tydligt avgränsad period (dvs inte ett varaktigt beteende) som varar minst en vecka. Om besvären är så påtagliga att de leder till sjukhusinläggning kan perioden dock vara kortare (ingen nedre gräns) och ändå räknas som en manisk episod.
 
-Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt som förändringen i stämningsläge och -aktivitet): Uppblåst självförtroende eller _grandiositet_; minskat sömnbehov; ökad pratsamhet; _tankeflykt_ eller en känsla av att tankarna rusar; distraherbarhet (av yttre ovidkommande stimuli); ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt) eller psykomotorisk agitation; överdrivet högriskbeteende (tex ekonomiskt, sexuellt). 
+Dessutom krävs att tre eller fler av följande symtom föreligger (samtidigt som förändringen i stämningsläge och -aktivitet): 
 
-Blandad episod av mani med samtidiga depressiva inslag förekommer. Vid sådan episod är dysfori, ångest, skuldkänslor, suicidtankar och irritabilitet vanligare medan man vid ren manisk episod oftare observerat grandiositet, eufori och talträngdhet [@Cassidy1998].
-
-Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåga, vilket är den huvudsakliga skillnaden jämfört med mani. Minsta varaktigheten är då fyra dagar. Om psykotiska symtom föreligger eller om symtomen leder till sjukhusinläggning räknas episoden som mani. Beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
-
-Diagnosen bipolär sjukdom typ I kan ställas om personen haft en eller flera maniska episoder under sin livstid, oavsett om depressiva episoder förekommit. Om hypomani förkommit men aldrig mani, samt minst en depression, ställs diagnosen bipolär sjukdom typ II.
+- Uppblåst självförtroende eller _grandiositet_
+- Minskat sömnbehov
+- Ökad pratsamhet
+- _Tankeflykt_ eller en känsla av att tankarna rusar
+- Distraherbarhet (av yttre ovidkommande stimuli)
+- Ökat målinriktat beteende (tex på arbete, skola, socialt, sexuellt) eller psykomotorisk agitation
+- Överdrivet högriskbeteende (tex ekonomiskt, sexuellt). 
 
 Notera att snabba växlingar i humöret kan förekomma (tex mellan dysfori, eufori och irritabilitet). Ökat målinriktat beteende består ofta i överdrivet planerande av- och deltagande i flera aktiviteter, exempelvis vidlyftiga projekt inom områden där personen saknar specifik kompetens. Minskat sömnbehov innebär att personen känner sig utvilad trots minskad sömntid. Uppblåst självförtroende kan vara av vanföreställningskaraktär.
-
-Bipolär sjukdom typ I kan karakteriseras vidare exemplevis baserat på svårighetsgrad (mild, måttlig, svår med/utan psykos), grad av remission (partiell eller full remission), förlopp ("rapid cycling" innebär 4 eller fler episoder under 12 månader), och typ av pågående episod (mani, hypomani, depression, blandad). 
-
-<!-- Ett förlopp med många lindriga hypomanier och lindriga depressioner under minst två år kan beskrivas som "cyklotymi". -->
 
 Mani innebär sammanfattningsvis en tydligt avgränsad period med både... 
 
@@ -147,6 +135,7 @@ Mani innebär sammanfattningsvis en tydligt avgränsad period med både...
   - Förhöjt: Mår överdrivet bra.
   - Expansivt: Uppblåst självkänsla, överdrivna beteenden (tex entusiasm, vänlighet).
   - Irritabelt: Blir lätt irriterad eller arg.
+3. Ett antal andra symtom (enligt ovan) föreligger.
 
 - Stämningsläget och beteendet är:
   - Tydligt onormalt
@@ -155,125 +144,27 @@ Mani innebär sammanfattningsvis en tydligt avgränsad period med både...
     - ...men kan växla i karaktär (tex upprymd, arg, ångestfylld)
 	- Håller i sig en vecka eller mer med symtom större delen av tiden.
 
-### När misstänka bipolärt syndrom vid depressioner?
+#### Hypomani
 
-Personer med frekvent återkommande (en depression per två år) unipolär depression liknar den bipolära gruppen i flera avseenden (och ingick i Kraepelins definition av manodepressiv sjukdom), tex tidig debutålder, förekomst av mani i familjen, atypiska drag, och profylaktisk effekt av litium [@Goodwin2007, p 12]. Liknande behandlingsprinciper kan därför övervägas för dessa [@Yatham2018]. Tecken på bipolärt syndrom bör noggrannt efterfrågas vid depression och BP-diagnosen uteslutas innan diagnosen MDD ställs.
+Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåga, vilket är den huvudsakliga skillnaden jämfört med mani. Minsta varaktigheten är då fyra dagar. Om psykotiska symtom föreligger eller om symtomen leder till sjukhusinläggning räknas episoden som mani. Beteendet skall inte förklaras bättre av psykossjukdom eller vara en effekt av droger.
 
-#### Varningstecken [@Goodwin2007;@Yatham2018]
+#### Rapid cycling
 
-- Ärftlighet: Bipolärt syndrom hos syskon, föräldrar eller barn
-- Debut och förlopp
-  - Många (>4) eller tätt återkommande (en depression per två år) depressioner
-  - Kortare duration av depressiva episoder (< 6 mån) 
-  - Debutålder (<25 år): Vanligast 14-20 år, jämfört m vanligast ca 30-40 år vid unipolär depression. BP kan dock debutera när som helst under livet
-  - Vid bipolärt syndrom ses på gruppnivå ökad förekomst av depression höst/vinter och mani under vår/sommar
-- Symtom
-  - Psykotiska symtom (tex röster, vanföreställningar)
-  - Rusande tankar
-  - Atypisk depression (ökad sömn inklusive sömn dagtid, ökad aptit, "leaden paralysis")
-  - Under depression _ökad_ energi, _ökad_ aktivitet, eller _extrem_ irritabilitet 
-  - Psykomotorisk hämning eller - agitation
-  - Psykotiska symtom eller skuldkänslor av patologisk grad
-  - Instabilt humör/ humörsvängningar inom episoden [@Goodwin2007] och mer humörvängningar mellan episoder [@Yatham2018]
-- Utlösande faktorer
-  - Post-partum depression eller -psykos
-  - Reagerar med irritabilitet på antidepressiva
-- Samsjuklighet
-  - Mer normal personlighet vid BP
-  - Högre förekomst av samtidigt substansbrukssyndrom
-  - Migrän vanligare vid BP [@Romo-Nava2021]
+Minst fyra maniska eller depressiva episoder det senaste 12 månaderna.
 
-<!-- Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med unipolär depression, av yngre debutålder (och smalare åldersintervall för debut), fler episoder, kortare epidoder, längre sömntid än vid unipolär depression, mer normal personlighet, högre förekomst av samtidigt substansbrukssyndrom, och mer humörvängningar mellan episoder. Bipolär depression är lika vanligt hos män som hos kvinnor. Bipolärt syndrom har starkare ärftlighet (både avseende konkordans mellan monozygota tvillingar och förekomst av bipolaritet hos förstagradssläktingar). Det bör noteras att heterogeniteten är stor inom respektiva grupp (bipolär respektive unipolär depression) [@Goodwin2007, p9]. -->
+Associerat med substansbrukssyndrom, hypothyroidism, antidepressiva.
 
-Mer framträdande vid unipolär depression: Ångest, somatiska symtom, normal aktivitetsnivå eller psykomotorisk agitation, minskad aptit, insomningssvårigheter, smärtkänslighet, viktförlust, senare debut (> 25 å), lägre depressionsduration (> 6m) [@Goodwin2007;@Yatham2018].
+Har betydelse för val av behandling.
 
-### Screening för bipolärt syndrom vid misstanke 
+Glöm ej undersöka thyroideastatus. 
 
-MDQ är en screeningsskala för bipolärt syndrom. 
+#### Blandad episod
 
-- Den innehåller 13 frågor som besvaras med antingen ja eller nej. 
+Vanligt med inslag av maniska symtom vid bipolär sjukdom i depressiv fas (70%) och vid MDD (25%). Depressiva symtom förekommer hos 10-30% vid mani [@Yatham2018]. 
 
-- Vid mer än 7 ja-svar är det 70% sannolikhet att patienten lider av en bipolär – och inte unipolär – depression. 
+Blandad episod av mani med samtidiga depressiva inslag förekommer. Vid sådan episod är dysfori, ångest, skuldkänslor, suicidtankar och irritabilitet vanligare medan man vid ren manisk episod oftare observerat grandiositet, eufori och talträngdhet [@Cassidy1998].
 
-MDQ är enkel och går snabbt att använda.
-
-**Observera** att MDQ ger en statistisk sannolikhet, den ställer inte  diagnos! 
-
-Höga poäng vanligt vid exempelvis emotionellt instabilt personlighetssyndrom  [@Yatham2018].
-
-### Differentialdiagnostik vid mani
-
-#### Uteslut bakomliggande medicinsk åkomma
-
-Överväg särskilt vid debut av mani sent i livet.
-
-- Demens
-- Delirium
-- Läkemedel
-  - Tex kortikosteroider, levodopa, thyroxin
-- Hjärntumör
-  - Frontalt, diencefalon, hypothalamus
-- Epilepsi
-  - Temporallob
-- Stroke
-  - Temporallob, hemisfärisk
-- Huntingtons sjukdom
-- Encefalit
-- Multipel skleros
-- SLE
-- Cushing och Addison
-- Läkemedel
-  - Drogbruk
-  - Antidepressiva
-  - Kortikosteroider
-  - Androgener
-  - Elektrokonvulsiv behandling
-  - Isoniazid (TB-behandling)
-  - Klorokin (malaria/reumabeh)
-  - Subklinisk hypothyreos
-- mm
-
-Se [@Larson1988]
-
-### Differentiera mot andra psykiatriska tillstånd
-
-#### Personlighetssyndrom
-
-Vid emotionellt instabilt personlighetssyndrom förekommer humörsvängningar i kombination med instabila relationer och växlande självbild, uttalad impulsivitet, rädsla för att bli övergiven. Eufori och långvariga perioder med god funktion är mycket ovanligt  [@Yatham2018].
-
-Vid narcissistiskt personlighetssyndrom kan grandiositet föreligga, men är ej förknippat med humörförändringar eller funktionsnedsättning  [@Yatham2018].
-
-#### Differentiera manisk psykos vs schizofreni
-
-Psykotiska symtom utan framträdande affaktiva sytom talar för schizofreni, schizoaffektivt syndrom, eller vanföreställningssynrom. 
-
-Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani är det möjligen vanligare med talträngdhet, pressat tal, grandiositet, kombinatoriskt och överinklusivt tänkande, tankeflykt, tangentialitet, derailment och loss of goal. Vid schizofreni är tankefattighet, minskad talproduktion, och lägre komplexitet i talet vanligare. Skillnaderna kan konceptualiseras som att man vid schizofreni ser mer oordnat innehåll emedan det vid mani är mer tankestrukturen som är störd. Vid mani kan mer lekfullhet och humor noteras i talet. Vid mani kan temat för det personen säger skifta, emedan personer med schizofreni kan ha svårigheter att elaborera överhuvud taget. Tankestörning vid bipolärt syndrom kan kvarstå i remission. [@Goodwin2007, p45ff]
-
-#### ADHD
-
-Text
-
-### Samsjuklighet
-
-Samsjuklighet/riskbeteenden.
-
-Identifiera komorbiditet: Substansbruk, obesitas, thyroideasjukdom, ångesttillstånd, ätstörning, migrän.
-
-**Migrän**  är tre gånger vanligare vid BP än i befolkningen (Prevalens 30-50%) och båda tillstånden är associerade med "evening chronotype". Kombinationen BP + migrän är förknippat med tidigare debut av BP, fler episoder (ffa depression) och samsjuklighet (ökad förekomst av fibromyalgi, astma, psoriasis, ätstörning, ångest, substansbrukssyndrom, kardiovaskulär sjukdom och obesitas har beskrivits). Möjligen även ökad suicidalitet. Det finns ingen etablerad vetenskaplig grund för behandlingsval vid kombinationen av migrän och BP, men några aspekter kan beaktas. Betablockare som används som migränprofylax kan förvärra depressiva symtom. Triptaner kan öka risk för serotininsyndromet om det kombineras med antidepressiva. Valproat kan teoretiskt ha verkan mot båda tillstånden (off-label som migränprofylax). Topiramat kan också beaktas [@Romo-Nava2021; @Engmann2012].
-
-<!-- Bipolar Affective Disorder and Migraine engmann 2012  [@Engmann2012] -->
-
-<!-- Revisiting the bipolar disorder with migraine phenotype: Clinical features and comorbidity blom [@Romo-Nava2021] -->
-
-<!-- Kognition är nedsatt vid bipolär depression och .  -->
-
-### Psykos vid bipolärt syndrom
-
-Ungefär en tredjedel av personer med bipolärt syndrom har någon gång upplevt ett eller flera psykotiska symtom [@Goodwin2007, p53ff], och detta kan vara vanligare vid tidig debut. Om ärftlighet finns för mani eller är risken för psykos större. Vid schizofreni är vanföreställningarna ofta desamma över lång tid, emedan de vid mani (och bipolär depression) är mer skiftande, och kan komma och gå under en dag. Vid mani är vanföreställningarna ofta kopplade till patientens grandiositet. Religiösa vanföreställningar är vanligast, följt av politiska (framför allt hos män) och sexuella teman. En femtedel av personer med bipolärt syndrom har upplevt hallucinationer under depression eller mani och de är vanligen hörselhallucinationer tematiskt kopplade till det stämningsläge och de vanföreställninger personen har. Vanligen inser personen att andra inte upplever dessa hallucinationer samtidigt. Anklagande röster är mer vanligt vid schizofreni.
-
-Tidig debut med psykotisk depression är kopplat till ökad risk för senare manisk episod. Stämningsinkongruenta psykotiska symtom är förknippat med sämre prognos.  [@Goodwin2007, p53ff]. 
-
-Stämningsinkonguenta psykotiska symtom medför sämre prognos. Mer likt schizofreni? Olika vanligt/olika typer av psykotiska symtom vid depressiv vs manisk episod och BPI vs BPII.
+Vid MDD är psykomotorisk agitation och irritabilitet de vanligaste "maniska" symtomen ("Agiterad depression" eller "Depressive mixed state").
 
 ### Prevalens av olika symtom vid manisk eller blandad episod
 
@@ -354,120 +245,226 @@ kable(x,
 
 ```
 
-## Behandling
+#### Bipolär I vs Bipolär II
 
-Överväg differentialdiagnoser som drogutlöst psykos, andra organiska psykoser, demens, eller schizoaffektivt syndrom. 
+Svårt att med säkerhet identifiera en episod med hypomani. Detta gör BPII-begreppet mer otydligt än BPI [@Goodwin2007].
 
-Karakterisera episoden. Föreligger en blandad episod? Rapid cycling?
+Bipolär II vs BP I depressiva episoder: BPI svårare, längre (? stämmer ej med tabell p 9) depressionsepisoder med mer psykotiska symtom och agitation/irritabilitet, och fler sjukhusinläggningar. BP II dock längre total tid i depression (mer frekventa depressiva episoder) [@Goodwin2007].
 
-Olika faser av behandling kan konceptualiseras enligt följande [@Goodwin2007, kap 17]:
 
-- Akut behandling: Från episodens början fram till klinisk respons eller remisson. Vanligen 6-12 veckor efter episodens debut.
-  - Akut behandling av hypomani/mani.
-  - Akut behandling av bipolär depression.
-- Fortsättningsbehandling: Från respons fram till den tidpunkt då spontan förbättring skulle ha förväntats utan behandling. Vid bipolär depression ca 6 månader, vid mani 4 månader (dock kan post-manisk depression inträffa).
-- Underhållsbehandling: Syftar till att minska antal och svårighetsgrad av nya episoder. Överlappar med både fortsättningsbehandling och profylax.
+### När misstänka bipolärt syndrom vid depressioner?
 
-Behandling av blandad episod liknar mer den vid mani än den vid depression. Vid bipolär II finns mycket sparsamt med vetenskapliga studier som kan guida behandling, varför man får extrapolera från studier om bipolär I och kanske unipolär depression. Likaså vid samsjuklighet med andra psykiatriska tillstånd och vid bipolär depression. Det samma gäller för hypomani, där man får extrapolera från behandling av mani. Det är tänkbart att reduktion av hypomanier kan minska efterföljande depressiva episoder. 
+Det är viktigt att identifiera eventuella hypomanier hos personer med återkommande depression. Observera att deprimerade patienter har ofta svårt att själva identifiera tidigare hypomanier, varför anhöriganamnes samt anamnes från arbetskamrater kan vara till god hjälp [@Goodwin2007].
 
-### Kartläggning inför behandling
+Personer med frekvent återkommande (en depression per två år) unipolär depression liknar den bipolära gruppen i flera avseenden (och ingick i Kraepelins definition av manodepressiv sjukdom), tex tidig debutålder, förekomst av mani i familjen, atypiska drag, och profylaktisk effekt av litium [@Goodwin2007, p 12]. Liknande behandlingsprinciper kan därför övervägas för dessa [@Yatham2018]. Tecken på bipolärt syndrom bör noggrannt efterfrågas vid depression och BP-diagnosen uteslutas innan diagnosen MDD ställs.
 
-Kartlägg (gärna med livslinje, med hjälp av anhöriga eller arbetskamrat):
+#### Tecken på bipolär- snarare än unipolär depression [@Goodwin2007;@Yatham2018]
 
+- Ärftlighet: Bipolärt syndrom hos syskon, föräldrar eller barn
+- Debut och förlopp
+  - Många (>4) eller tätt återkommande (en depression per två år) depressioner
+  - Kortare duration av depressiva episoder (< 6 mån) 
+  - Debutålder (<25 år): Vanligast 14-20 år, jämfört m vanligast ca 30-40 år vid unipolär depression. BP kan dock debutera när som helst under livet
+  - Vid bipolärt syndrom ses på gruppnivå ökad förekomst av depression höst/vinter och mani under vår/sommar
+- Symtom
+  - Psykotiska symtom (tex röster, vanföreställningar)
+  - Rusande tankar
+  - Atypisk depression (ökad sömn inklusive sömn dagtid, ökad aptit, "leaden paralysis")
+  - Under depression _ökad_ energi, _ökad_ aktivitet, eller _extrem_ irritabilitet 
+  - Psykomotorisk hämning eller - agitation
+  - Psykotiska symtom eller skuldkänslor av patologisk grad
+  - Instabilt humör/ humörsvängningar inom episoden [@Goodwin2007] och mer humörvängningar mellan episoder [@Yatham2018]
+- Utlösande faktorer
+  - Post-partum depression eller -psykos
+  - Reagerar med irritabilitet på antidepressiva
+- Samsjuklighet
+  - Mer normal personlighet vid BP
+  - Högre förekomst av samtidigt substansbrukssyndrom
+  - Migrän vanligare vid BP [@Romo-Nava2021]
+
+<!-- Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med unipolär depression, av yngre debutålder (och smalare åldersintervall för debut), fler episoder, kortare epidoder, längre sömntid än vid unipolär depression, mer normal personlighet, högre förekomst av samtidigt substansbrukssyndrom, och mer humörvängningar mellan episoder. Bipolär depression är lika vanligt hos män som hos kvinnor. Bipolärt syndrom har starkare ärftlighet (både avseende konkordans mellan monozygota tvillingar och förekomst av bipolaritet hos förstagradssläktingar). Det bör noteras att heterogeniteten är stor inom respektiva grupp (bipolär respektive unipolär depression) [@Goodwin2007, p9]. -->
+
+Mer framträdande vid unipolär depression: Ångest, somatiska symtom, normal aktivitetsnivå eller psykomotorisk agitation, minskad aptit, insomningssvårigheter, smärtkänslighet, viktförlust, senare debut (> 25 å), lägre depressionsduration (> 6m) [@Goodwin2007;@Yatham2018].
+
+#### Screening för bipolärt syndrom vid misstanke 
+
+MDQ är en screeningsskala för bipolärt syndrom. 
+
+- Den innehåller 13 frågor som besvaras med antingen ja eller nej. 
+
+- Vid mer än 7 ja-svar är det 70% sannolikhet att patienten lider av en bipolär – och inte unipolär – depression. 
+
+MDQ är enkel och går snabbt att använda.
+
+**Observera** att MDQ ger en statistisk sannolikhet, den ställer inte  diagnos! 
+
+Höga poäng vanligt vid exempelvis emotionellt instabilt personlighetssyndrom  [@Yatham2018].
+
+### Kartläggning av förlopp, symtom mm
+
+Har betydelse för differentialdiagnostik, prognos, behandlingsval, utredning och behandling av samsjuklighet. Utförs gärna med livslinje, och med hjälp av anhöriga eller arbetskamrat.
+
+- Duration av aktuell och tidigare episoder
+- Svårighetsgrad av aktuell och tidigare episoder
+- Ärftlighet inklusive anhörigas respons på viss behandling
 - Förlopp
+  - Debutålder (första episod mani eller depression?)
   - Antal och frekvens av tidigare episoder
   - Säsongsvariation
+  - Post-partumbesvär
+  - Symtomvariation under dagen
+  - Premenstruella besvär
+  - Ljus och temperatur kan påverka förlopp och uttryck
 - Prodromalsymtom/tidiga varningstecken (kognitiva besvär, sömn, diskreta psykomotoriska förändringar)
 - Utlösande faktorer
-- Nyinsatta läkemedel (kan vara utlösande faktorer)
-- Thyroideastatus (subklinisk hypothyreos kan utlösa skov)
-- Förvärring av affektiva symtom vid antidepressiv behandling
-- Duration
-- Svårighetsgrad
-- Drog och alkoholbruk
-- Symtomvariation under dagen
-- Premenstruella besvär
-- Post-partumbesvär
-- Följsamhet till behandling: Har skovet att göra med att pågående behandling avslutats?
+  - Nyinsatta läkemedel (kan vara utlösande faktorer)
+  - Thyroideastatus (subklinisk hypothyreos kan utlösa skov)
+  - Förvärring av affektiva symtom vid antidepressiv behandling
+  - Livshändelser. Yttre stress kan utlösa episoder tidigt i förloppet, men senare tycks episoderna komma utan sådana faktorer.
+- Samsjuklighet
+  - Drog och alkoholbruk
+  - Thyroideasjukdom
+  - Ångestsyndrom
 - Tidigare behandlingar (duration, dos, effekt, biverkningar)
-- Samsjuklighet: Thyroideasjukdom, ångestsyndrom
+- Följsamhet till behandling: Har skovet att göra med att pågående behandling avslutats?
 - Suicidrisk
-
-Rapid cycling: Associerat med substansbrukssyndrom, hypothyroidism, antidepressiva. 
-
-Ljus och temperatur kan påverka förlopp och uttryck. Livshändelser kan vara utlösande. Yttre stress kan utlösa episoder tidigt i förloppet, men senare tycks episoderna komma utan sådana faktorer.
-
 - Bedöm förutsättningarna för följsamhet till behandlingsplan
 - Psykosocialt nätverk: Betydelse för bla avgörande om inneliggande eller poliklinisk behandling, behov av tät uppföljning
 - Funktionsnedsättning: Stor funktionsnedsättning kan föranleda mer aktiv behandling, evtuell sjukhusvård
 
-### Läkemedel vid bipolärt syndrom
+### Samsjuklighet
 
-**Litium:** Har FDA-indikation för behandling av manisk episod och underhållsbehandling (längre tid till återfall). Halveringstiden är 12 tim initialt men 24 tim vid steady state (efter ca 5 dagar). Kvoten dos/plasmakoncentration är högre vid pågående mani, yngre ålder, högre koppsvikt (ffa muskelmassa), och högre saltintag. Den påverkas även av njurfunktion, vätskeförlust, och samtidig medicinering. En systematisk litteraturgenomgång visade att 0.9 mmol/L är lägsta effektiva nivå vid mani, och att nivåer över 1.4 ej ger bättre effekt. Tänk på att mani medför lägre litiumnivå, varför dosen bör sänkas efter skovet med sikte på serumkoncentration 0.6-0.8 mmol/L [@Goodwin2007, kap 17]. Litium är lika effektivt som andra antimaniska läkemedel över en treveckorsperiod. Antidepressiv effekt av litium kan komma efter 1-2 veckor men dröjer ofta 3-5 veckor. Vid bipolär depression rekommenderas CANMAT målkoncentration 0.8-1.2 mM/L [@Yatham2018].
+Samsjuklighet/riskbeteenden.
 
-Tidigare respons på litium förutsäger bättre respons under aktuell manisk episod, och sämre effekt av antiepileptiska läkemedel. Nivåer över 0.8 mmol/L mer effektiva vid mani än lägre nivåer [@Goodwin2007].
+Identifiera komorbiditet: Substansbruk, obesitas, thyroideasjukdom, ångesttillstånd, ätstörning, migrän.
 
-Litium föredras framför valproat vid klassisk euforisk mani, få tidigare episoder, när manier har följts av depression, och vid hereditet för bipolärt syndrom (särskilt om släktingen svarat på litium)  [@Yatham2018].
+**Migrän**  är tre gånger vanligare vid BP än i befolkningen (Prevalens 30-50%) och båda tillstånden är associerade med "evening chronotype". Kombinationen BP + migrän är förknippat med tidigare debut av BP, fler episoder (ffa depression) och samsjuklighet (ökad förekomst av fibromyalgi, astma, psoriasis, ätstörning, ångest, substansbrukssyndrom, kardiovaskulär sjukdom och obesitas har beskrivits). Möjligen även ökad suicidalitet. Det finns ingen etablerad vetenskaplig grund för behandlingsval vid kombinationen av migrän och BP, men några aspekter kan beaktas. Betablockare som används som migränprofylax kan förvärra depressiva symtom. Triptaner kan öka risk för serotininsyndromet om det kombineras med antidepressiva. Valproat kan teoretiskt ha verkan mot båda tillstånden (off-label som migränprofylax). Topiramat kan också beaktas [@Romo-Nava2021; @Engmann2012].
 
-<!-- Combined Lithium and Electroconvulsive Therapy: Pharmacokinetic and Pharmacodynamic Interactions rudorfer  [@Rudorfer1987] -->
+<!-- Bipolar Affective Disorder and Migraine engmann 2012  [@Engmann2012] -->
 
-**Valproat:**  De vanligaste biverkningarna är illamåend och trötthet. Påverkar metabolismen av flera andra läkemedel, bla lamotrigin. Vid akut mani krävs plasmakoncentration >45 mkg/ml för effekt och biverkningar blir problematiska vid nivå >125 mkg/ml. Snabb upptrappning (30 mg/kg d 1-2, 20 mg/kg d 3-10) kan ge snabbare effekt vid akut mani, men är likvärdig med olanzapin.
+<!-- Revisiting the bipolar disorder with migraine phenotype: Clinical features and comorbidity blom [@Romo-Nava2021] -->
 
-Valproat är lika effektivt vid klassisk- och dysforisk mani. Rekommenderas för de som haft multipla tidigare episoder, framträdande irritabilitet, framträdande dysfori, samsjuklighet med substansbrukssyndrom, eller anamnes på trauma mot huvudet  [@Yatham2018]. Undvik till kvinnor i fertil ålder.
+<!-- Kognition är nedsatt vid bipolär depression och .  -->
 
-**Karbamazepin**: Faktorer som kan vara förnippade med respons på karbamazepin är anamanes på skalltrauma, samsjuklighet med ångest och substansbrukssyndrom, schizoaffektiv bld med stämningsnkongruenta vanföreställningar, ingen bipolär sjjukdom hos förstagradssläktingar [@Yatham2018].
+### Differentialdiagnostik vid mani
 
-**Lamotrigin:** Har FDA-indikation för behandling av bipolär depression. Preventivmedel kan minska lamotriginkoncentrationerna (men ej omvänt).
+#### Uteslut bakomliggande medicinsk åkomma {#mania-somatic-causes}
 
-- Dosering BP depression: Viss antidepressiv effekt redan vid 50 mg [@Goodwin2007]. CANMAT rekommenderar minst 200 mg/d [@Yatham2018].
+Överväg särskilt vid debut av mani sent i livet.
 
-**Olanzapin:** Olanzapin som tilläggsbehandling har visat likvärdig effekt vid akut mani respektive blandad episod.
+- Demens
+- Delirium
+- Läkemedel
+  - Tex kortikosteroider, levodopa, thyroxin
+- Hjärntumör
+  - Frontalt, diencefalon, hypothalamus
+- Epilepsi
+  - Temporallob
+- Stroke
+  - Temporallob, hemisfärisk
+- Huntingtons sjukdom
+- Encefalit
+- Multipel skleros
+- SLE
+- Cushing och Addison
+- Läkemedel
+  - Drogbruk
+  - Antidepressiva
+  - Kortikosteroider
+  - Androgener
+  - Elektrokonvulsiv behandling
+  - Isoniazid (TB-behandling)
+  - Klorokin (malaria/reumabeh)
+  - Subklinisk hypothyreos
+- mm
 
-- Dosering vid akut mani: 2.5-5 mg var 6:e tim, kan totreras till 20 mg/d (dock visar vissa studier att 2.5-5mg kan vara tillräckligt).
+Se [@Larson1988]
 
-**Kvetiapin:**
+### Differentiera mot andra psykiatriska tillstånd {#differential-psychiatric}
 
-- Dosering vid akut mani: Starta med 100 mg/d, titrera till 400-800 mg/d.
-- Dosering vid BP depression: Måldos 300mg. Doser över 300 mg ger ej bättre effekt. Lägre doser har ej studerats [@Yatham2018].
+#### Personlighetssyndrom
 
-**Risperidon:**
+Vid emotionellt instabilt personlighetssyndrom förekommer humörsvängningar i kombination med instabila relationer och växlande självbild, uttalad impulsivitet, rädsla för att bli övergiven. Eufori och långvariga perioder med god funktion är mycket ovanligt  [@Yatham2018].
 
-- Dosering vid akut mani: 1 mg vaje 6-8 tim, maxdos vanligen 6-8 mg/d.
+Vid narcissistiskt personlighetssyndrom kan grandiositet föreligga, men är ej förknippat med humörförändringar eller funktionsnedsättning  [@Yatham2018].
 
-**Aripiprazol:** Samtidig behandling med bensodiazepin kan vara fördelaktigt för att undvika initial aktivering. Aripiprazol (15-30 mg) har visat bättre effekt än haloperidol (10-15 mg/d) i en stor RCT, troligen pga mindre biverkningar.
+#### Differentiera manisk psykos vs schizofreni
 
-- Dosering vid akut mani: Starta med 30 mg/d. Sänk till 15 mg/d vid biverkningar.
+Psykotiska symtom utan framträdande affaktiva sytom talar för schizofreni, schizoaffektivt syndrom, eller vanföreställningssynrom. 
 
-**Lorazepam**:
+Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani är det möjligen vanligare med talträngdhet, pressat tal, grandiositet, kombinatoriskt och överinklusivt tänkande, tankeflykt, tangentialitet, derailment och loss of goal. Vid schizofreni är tankefattighet, minskad talproduktion, och lägre komplexitet i talet vanligare. Skillnaderna kan konceptualiseras som att man vid schizofreni ser mer oordnat innehåll emedan det vid mani är mer tankestrukturen som är störd. Vid mani kan mer lekfullhet och humor noteras i talet. Vid mani kan temat för det personen säger skifta, emedan personer med schizofreni kan ha svårigheter att elaborera överhuvud taget. Tankestörning vid bipolärt syndrom kan kvarstå i remission. [@Goodwin2007, p45ff]
 
-- Dosering vid akut mani: 1-2 mg (im el po) varje 2 tim. Samma för klonazepam.
+#### ADHD
 
-**ECT:** 
+Text
 
-Tillägg av antipsykotiskt läkemedel till ECT mer effektivt än tillägg av placebo.
+### Psykos vid bipolärt syndrom
 
-**rTMS:** 
+Ungefär en tredjedel av personer med bipolärt syndrom har någon gång upplevt ett eller flera psykotiska symtom [@Goodwin2007, p53ff], och detta kan vara vanligare vid tidig debut. Om ärftlighet finns för mani eller är risken för psykos större. Vid schizofreni är vanföreställningarna ofta desamma över lång tid, emedan de vid mani (och bipolär depression) är mer skiftande, och kan komma och gå under en dag. Vid mani är vanföreställningarna ofta kopplade till patientens grandiositet. Religiösa vanföreställningar är vanligast, följt av politiska (framför allt hos män) och sexuella teman. En femtedel av personer med bipolärt syndrom har upplevt hallucinationer under depression eller mani och de är vanligen hörselhallucinationer tematiskt kopplade till det stämningsläge och de vanföreställninger personen har. Vanligen inser personen att andra inte upplever dessa hallucinationer samtidigt. Anklagande röster är mer vanligt vid schizofreni.
 
-Ej första- eller andrahandsval. Högersidig rTMS ger mer förbättring av mani än vänstersidig (som används vid depression)
+Tidig debut med psykotisk depression är kopplat till ökad risk för senare manisk episod. Stämningsinkongruenta psykotiska symtom är förknippat med sämre prognos, kan vara mer likt schizofreni [@Goodwin2007, p53ff]?
+
+Olika vanligt/olika typer av psykotiska symtom vid depressiv vs manisk episod och BPI vs BPII.
+
+
+## Behandling
+
+Överväg differentialdiagnoser som drogutlöst psykos, andra organiska psykoser, demens, eller schizoaffektivt syndrom. Se avsnitt om somatiska orsaker till mani \@ref(mania-somatic-causes) och avsnitt \@ref(differential-psychiatric) om psykiatriska differentialdiagnoser.
+
+Karakterisera episoden avseende faktorer som kan påverka behandlingsval, se avsnitten för mani \@ref(treatment-factors-mania), depression \@ref(treatment-factors-mania) och underållsbehandling \@ref(treatment-factors-prevention). 
+
+<!-- Föreligger en blandad episod? Behandling av blandad episod liknar mer den vid mani än den vid depression. Rapid cycling? -->
+
+Olika faser av behandling kan konceptualiseras enligt följande [@Goodwin2007, kap 17]:
+
+**Akut behandling:** Från episodens början fram till klinisk respons eller remisson. Vanligen 6-12 veckor efter episodens debut. Indelas i akut behandling av hypomani/mani respektive akut behandling av bipolär depression samt akut behandling av blandad episod.
+
+**Fortsättningsbehandling:** Från respons fram till den tidpunkt då spontan förbättring skulle ha förväntats utan behandling. Vid bipolär depression ca 6 månader, vid mani 4 månader (dock kan post-manisk depression inträffa).
+
+**Underhållsbehandling:** Syftar till att minska antal och svårighetsgrad av nya episoder. Överlappar med både fortsättningsbehandling och profylax.
+
+Goodwin påpekar att många studier av "underhållsbehandling" endast täcker en relativt kort period efter ett bipolärt skov och att de därför kanske inte är tillämpbara för långtidsbehandling under flera år. Ofta används dock endast akut fas (mani eller depression) respektive underhållsbehandling (profylax, prevention) som definitioner.
+
+<!-- ### Behandlingsalternativ i olika faser enligt CANMAT -->
+
+<!-- Uppdatering [@Yatham2018] -->
+
+<!-- Litium eller kvetiapin kan i monoterapi användas som förstahandsval i alla faser av bipolär sjukdom. Valproat som monoterapi är förstahandsval för underhållsbehandling och maniska skov men för depressiva episoder främst i kombination med litium eller vissa antidepressiva. Bland förstahandsvalen är litium troligen det mest effektiva (?). -->
+
+<!-- Andra antipsykotiska läkemedel än kvetiapin (tex aripiprazol, olanzapin) är i monoterapi förstahandsval som underhållsbehandling och vid akut mani. För behandling av depressiva episoder saknar dock aripiprazol tydlig indikation emedan olanzapin i denna situation bör kombineras med fluoxetin. -->
+
+<!-- Litium kombineras vid underhållsbehandling eller mani i första hand med vissa antipsykotiska läkemedel. Vid depression rekommenderas dock i första hand kombination med valproat, ssri eller bupropion. -->
+
+### Val av behandling enligt CANMAT 2018
+
+Canadian Network for Mood and Anxiety Treatments (CANMAT) har publicerat omfattande riktlinjer för behandling av bipolärt syndrom  [@Yatham2018].
+
+**Tabell \@ref(tab:bipolar-treatment-mania-yatham2018)** visar behandlingsalternativ i olika faser vid bipolär sjukdom med första- och andrahandsalternativ vid mani [@Yatham2018]. **Tabell \@ref(tab:bipolar-treatment-depression-yatham2018)** första- och andrahandsalternativ vid akut bipolär depression [@Yatham2018]. **Tabell \@ref(tab:bipolar-treatment-prevention-yatham2018)** första- och andrahandsalternativ vid underhållsbehandling av bipolärt syndrom [@Yatham2018].
+
+Vissa behandlingar med god evidens (tex olanzapin) nedgraderas till andrahandsval på grund av sämre tolerabilitet eller större biverkningsproblem. 
+
+Tabellerna är hierarkiskt ordnade så att de läkemedel som står högre upp bör provas först. Alla förstahandsval bör prövas innan andrahandsval används. Särskilda skäl kan finnas att frångå hierarkin, såsom blandad episod, tidigare icke-respons till litium, och samsjuklighet med substansbrukssyndrom [@Yatham2018].
+
+Överväg om ett preparat som lämpar sig för underhållsbehandling kan användas även i den akuta fasen. Ett hinder kan dock vara svårighet att diskutera behandlingsalternativen med patienten.
 
 ### Behandling av manisk episod
 
 <!-- Diskutera antidepressivas roll. Relatera till tid i mani/depression? -->
 
-Med litium eller valproat uppnår ca 50% respons (minst 50% reduktion av YMRS) efter tre veckor, jämfört med 25% för placebo. Tillägg av olanzapin/risperidon/kvetiapin (troligen samma för andra antipsykotiska medel) till litium eller valproat är bättre än placebo hos dem med ingen eller partiell respons. 
+Med litium eller valproat uppnår ca 50% respons (minst 50% reduktion av YMRS) efter tre veckor, jämfört med 25% för placebo. Tillägg av olanzapin/risperidon/kvetiapin (troligen samma för andra antipsykotiska medel) till litium eller valproat är bättre än placebo hos dem med ingen eller partiell respons. [@Goodwin2007] 
 
 - Avsluta pågående antidepressiva läkemdel.
 - Tillse god sömn med hypnotiska medel eller bensodiazepiner.
-- Om patienten redan har stämningstabiliserande behandling (litium, valproat, lamotrigin) öka dosen av befintlig stämningsstabiliserare.
-- Välj behandling enligt tabellerna nedan.
 - Risk för dehydrering föreligger. Även risk för rhabdomyolys. Tillgodose vätskeintag.
+- Om patienten redan har stämningstabiliserande behandling (litium, valproat, lamotrigin) optimera dosen av befintlig stämningsstabiliserare.
+- Välj behandling enligt tabellerna nedan.
 - Vid utebliven respons efter 4-14 dagar, överväg kombinationsbehandling.
 
 CANMAT noterar att alla antimaniska läkemedel separerar från placebo inom en vecka, varför utebliven respons efter två veckor (och bidragande faktorer har uteslutits) bör byte- eller tillägg av behandling övervägas  [@Yatham2018]. Goodwin rekommenderar att man redan vid utebliven respons efter 4-5 dagar överväger kombinationsbehandling.
 
 I återhämtningsfasen av mani är det vanligt med svängningar i stämningsläge och beteende, varför läkemedel med effekt mot depression, eller kombinationsbehandling, kan vara lämpligt. Snabbt insättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abe2015].
 
-#### Faktorer som kan påverka val av behandling av maniskt skov
+#### Faktorer som kan påverka val av behandling av maniskt skov {#treatment-factors-mania}
 
 <!-- Gå igenom Yatham 2018 -->
 
@@ -479,205 +476,19 @@ I återhämtningsfasen av mani är det vanligt med svängningar i stämningsläg
 
 **Psykotiska symtom:** Det finns inget vetenskapligt stöd för att antipsykotiska medel i monoterapi eller som del av kombinationsbehandling är mer effektivt än andra alternativ, men klinisk erfarenhet indikerar att ett atypiskt antipsykotiskt medel bör ingå i behandlingen vid stämningsinkongruenta psykotiska symtom (dvs annat än grandiosa vanföreställningar). Likaså när schizoaffektivt syndrom kan misstänkas.  [@Yatham2018]
 
-**Blandad episod:** Depressiva symtom förekommer hos 10-30% vid mani [@Yatham2018]. Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. För patienter som stabilserats med en kombination av litium och valproat har dessa läkemedel i monoterapi likvärdig (begränsad) effekt som underhållsbehandling [@Goodwin2007, kap 17]. Valproat eller atypiska antipsykotiska har vetenskapligt stöd och ofta behövs kombinationsbehandling  [@Yatham2018].  - De med blandad episod/höga poäng på depressionsskattning, eller mer än tio tidigare affektiva episoder kan ha bättre effekt av valproat än litium [@Goodwin2007]. 
+**Blandad episod:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. För patienter som stabilserats med en kombination av litium och valproat har dessa läkemedel i monoterapi likvärdig (begränsad) effekt som underhållsbehandling [@Goodwin2007, kap 17]. Valproat eller atypiska antipsykotiska har vetenskapligt stöd och ofta behövs kombinationsbehandling  [@Yatham2018].  - De med blandad episod/höga poäng på depressionsskattning, eller mer än tio tidigare affektiva episoder kan ha bättre effekt av valproat än litium [@Goodwin2007]. 
 
-**Rapid cycling** (minst fyra episoder det senaste året): Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. Olanzapin har likvärdig effekt vid rapid cycling och icke-rapid cycling [@Goodwin2007, kap 17]. Hypothyroidism, substansbruk, och antidepressiva är associerade med rapid cycling och bör adresseras  [@Yatham2018]. Val av behandling bör göras utifrån effekt i underhållsfasen, ofta behövs kombinationsbehandling  [@Yatham2018].
+**Rapid cycling:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. Olanzapin har likvärdig effekt vid rapid cycling och icke-rapid cycling [@Goodwin2007, kap 17]. Hypothyroidism, substansbruk, och antidepressiva är associerade med rapid cycling och bör adresseras  [@Yatham2018]. Relativ effekt av viss behandling har ej studerats. Val av behandling bör göras utifrån effekt i underhållsfasen, ofta behövs kombinationsbehandling  [@Yatham2018].
+
+- Avsluta eventuella antidepressiva. Även kombinationen AD + stämningsstabiliserare bör undvikas.
+- Lithium, valproat, olanzapine, och kvetiapin har liknande effekt i underhållsfas vid rapid cycling emedan lamotrigin ej skiljer sig från placebo.
+- Särskilt viktigt att undvika drog/alkoholbruk
 
 **"Klassisk" mani** (eufori, grandiositet, frånvaro av depressiva symtom, utan rapid cycling): Litium kan vara mer effektivt än valproat [@Yatham2018;@Goodwin2007, kap 17].
 
 **Anxious distress**: Vanligt och förutsäger sämre prognos (svårare maniska symtom, längre tid till remission). Valproat, kvetiapin, och olanzapine kan vara fördelaktigt pga anxiolytisk effekt, liksom karbamazepin [@Yatham2018].
 
 **Biverkningsprofil:** De biverkningar som är mest oroande för patienter är viktuppgång, kognitiv påverkan och sedering [@Goodwin2007, kap 17].
-
-
-
-### Behandling av bipolär depression
-
-Sparsamt beforskat. Kvetiapin eller kombinationen olanzapin/fluoxetin har FDA-godkännande.
-
-Patienter med bipolär depression svarar långsammare på behandling än de med mani. Residualsymtom är vanligt och bör behandlas.
-
-Regelbunden fysisk konditionsträning är fördelaktig vid depression.
-
-Behandla sömsvårigheter, ångest och agitation.
-
-Om patienten står på litium, överväg öka litiumkoncentrationen till >0.8.
-
-Rekommendera patienten att begränsa nikotin, koffein och alkohol, samt förstås avstå drogbruk.
-
-Erbjud psykosociala insatser och psykoedukation för att förbättra följsamhet, minska residualsymtom, identifiera återfall, återfå funktionsförmåga och minska suicidalt beteende.
-
-Kvetiapin + litium har ej studerats avseende effekt vid bipolär depression, men kan övervägas när något av dessa läkemedel redan används.
-
-Tidig förbättring (inom 2v) är en hygglig prediktor för respons, emedan utebliven förbättring är en mer robust prediktor för icke-respons. Detta kan beaktas vid byte av behandling. Undantaget är lamotrigin, som kräver långsam titrering. [@Yatham2018]
-
-#### Faktorer som kan påverka val av behandling av depressivt skov
-
-**Behov av snabb respons**: Pga svår depression, suicidalitet, dehydrering. 
-
-- Av förstahandvalen har kvetiapin och lurasidon visat separation från placebo efter en vecka.
-- Av förstahandvalen har olanzapin + fluoxetin och kariprazin visat separation från placebo efter en vecka.
-- ECT och ketamin kan även övervägas.
-
-**Nedsatt kognition och psykomotorisk hämning:**
-
-- Viss evidens att lamotrigin kan ha ökad effektivitet.
-
-**Tidigare respons på visst läkemedel**: Tidigare respons på antidepressiva kan föranleda att sådana övervägs i kombination med antimaniskt läkemedel.
-
-**Hög ångestnivå:** "Anxious distress". Förutsäger mer ihållande depression samt mer suicidtankar.
-
-- Kvetiapin samt olanzapin-fluoxetin mer effektivt än placebo  [@Yatham2018].
-- Anxiolytisk effekt av valproat, risperidon, och lamotrigin är begränsad  [@Yatham2018].
-
-**Blandad episod:** Associerat till svårare depressiva symtom, ökad förekomst av substansbrukssyndrom, och kardiovaskulär sjukdom. Ofta behövs kombinationsbehandling. Atypiska antipsykotiska medel har visat en klass-effekt vid blandad episod.
-
-- Olanzapin + fluoxetin, asenapin, och lurasidon har visad effekt.
-- Undvik antidepressiva
-
-**Melankoliska drag:** Relativ effekt av viss behandling har ej studerats. Klinsikerfarenhet talar för att ECT är effektivt [@Yatham2018].
-
-**Psykotiska symtom:** Både stämningskongruenta- och inkongruenta. Relativ effekt av viss behandling har ej studerats. Klinsikerfarenhet talar för att ECT samt antipsykotiska medel är effektivt [@Yatham2018].
-
-**Rapid cycling:** Glöm ej undersöka thyroideastatus. Relativ effekt av viss behandling har ej studerats. val av behandling kan styras av behov i underhållsfasen.
-
-- Avsluta eventuella antidepressiva. Även kombinationen AD + stämningsstabiliserare bör undvikas.
-- Lithium, valproat, olanzapine, och kvetiapin har liknande effekt i underhållsfas vid rapid cycling emedan lamotrigin ej skiljer sig från placebo.
-- Särskilt viktigt att undvika drog/alkoholbruk
-
-#### Antidepressiva läkemedel vid bipolärt syndrom
-
-Antidepressiva bör i allmänhet undvikas [@Yatham2018] (särskilt vid anamnes på blandade episoder, rapid cycling, eller förstås hypomani/mani som utlösts av antidepressiva). Pågående andidepressiv behandling bör trappas ut (om inte flera utsättningsförsök redan misslyckats) [@Goodwin2007, kap 17], särskilt vid mani/hypomani eller om depression uppträder trots pågående antidepressiv behandling [@Yatham2018]. Uttrappning eller byte av AD bör göras gradvis. Om antidepressiva används bör de kombineras med en "stämningsstabiliserare". Antidepressiva som monoterapi bör EJ användas vid bipolär depression [@Yatham2018].
-
-- Effektiviteten av AD ej etablerad för BP depression
-- Utlösande av maniskt skov av AD har demonstrerats i studier
-- Rekommenderas ej som monoterapi vid BP I
-- Otillräckliga data för rekommendation vid BP II
-  - Undvik vid blandad episod [@Yatham2018]
-- Bör endast övervägas vid svår depression eller då annan behandling har misslyckats 
-  - Då alltid i kombination med stämningsstabiliserare
-  - Bör sättas ut gradvis efter depressionsepisoden
-    - Fortsättningsbehandling endast för dem med tidig relaps
-
-<!-- Det kan vara så att bipolär depression svarar sämre på antidepressiv läkemedelsbehandling, vilka också kan ha sämre profylaktisk effekt.  -->
-
-<!-- #### Behandlingssteg BP typ I-depression enligt Goodwin -->
-
-<!-- 1. Lamotrigin + litium eller valproat -->
-<!-- 2. Om utebliven respons v 4 -->
-<!--   - Lägg till kvetiapin -->
-<!-- 3. Om utebliven respons v 6 -->
-<!--   - Byt kvetiapin till Olanzapin + fluoxetin -->
-<!-- 4. Om utebliven respons v 8 -->
-<!--   - Byt olanzapin/fluoxetin till bupropion eller SSRI -->
-<!-- 5. Om utebliven respons v 10 -->
-<!--   - ECT -->
-  
-<!-- #### Behandlingssteg BP typ II-depression enligt Goodwin -->
-
-<!-- <\!-- p752 -\-> -->
-
-<!-- 1. Starta lamotrigin (antidepressiv effekt redan vid 50 mg/d) -->
-<!--   - Vid svår depression (behov av snabb respons) överväg -->
-<!--     - ECT -->
-<!-- 	- Antidepressivt läkemedel + antimanisk stämningsstabiliserare -->
-<!--   - Vid psykos kombinera med atypiskt antipsykotiskt medel -->
-<!--   - Vid säsongsvariation exponera för starkt ljus på morgonen -->
-<!-- 2. Om ej respons vecka 4 -->
-<!--   - Antidepressivt läkemedel + antimanisk stämningsstabiliserare eller kvetiapin  -->
-<!-- 2. Om ej respons vecka 6 -->
-<!--   - Lamotrigin + Kvetiapin -->
-<!--   - Lamotrigin + Litium -->
-<!--   - Olanzapin + fluoxetin -->
-
-#### Augmentation med thyrodeahormon?
-
-- Kan vara av värde (även vid normala thyrodieaprover) hos...
-  - Kvinnor
-  - Rapid cycling
-  - TSH > 50:e percentilen av normalvärde
-- Använd T3 och gå med tiden över till T4
-
-### Behandlingsalternativ i olika faser enligt CANMAT
-
-<!-- Uppdatering [@Yatham2018] -->
-
-<!-- Litium eller kvetiapin kan i monoterapi användas som förstahandsval i alla faser av bipolär sjukdom. Valproat som monoterapi är förstahandsval för underhållsbehandling och maniska skov men för depressiva episoder främst i kombination med litium eller vissa antidepressiva. Bland förstahandsvalen är litium troligen det mest effektiva (?). -->
-
-<!-- Andra antipsykotiska läkemedel än kvetiapin (tex aripiprazol, olanzapin) är i monoterapi förstahandsval som underhållsbehandling och vid akut mani. För behandling av depressiva episoder saknar dock aripiprazol tydlig indikation emedan olanzapin i denna situation bör kombineras med fluoxetin. -->
-
-<!-- Litium kombineras vid underhållsbehandling eller mani i första hand med vissa antipsykotiska läkemedel. Vid depression rekommenderas dock i första hand kombination med valproat, ssri eller bupropion. -->
-
-Överväg om ett preparat som lämpar sig för underhållsbehandling kan användas även i den akuta fasen. Ett hinder kan dock vara svårighet att diskutera behandlingsalternativen med patienten.
-
-**Tabell \@ref(tab:bipolar-treatment-mania-yatham2018)** visar behandlingsalternativ i olika faser vid bipolär sjukdom med första- och andrahandsalternativ vid mani [@Yatham2018]. **Tabell \@ref(tab:bipolar-treatment-depression-yatham2018)** första- och andrahandsalternativ vid akut bipolär depression [@Yatham2018].
-
-> First‐line options for bipolar I depression include quetiapine, lurasidone plus lithium or divalproex, lithium, lamotrigine, lurasidone, or adjunctive lamotrigine. While medications that have been shown to be effective for the acute phase should generally be continued for the maintenance phase in bipolar I disorder, there are some exceptions (such as with antidepressants); and available data suggest that lithium, quetiapine, divalproex, lamotrigine, asenapine, and aripiprazole monotherapy or combination treatments should be considered first‐line for those initiating or switching treatment during the maintenance phase. [@Yatham2018]
-
-<!-- Uppdatering: Canadian Network for Mood and Anxiety Treatments yatham 2018 -->
-
-<!-- ```{r  bipolar-treatment}  -->
-
-<!-- source('bipolar-treatment-htm.r') -->
-<!-- tbl$drug <- query_label(tbl$drug, varnames) -->
-<!-- colnames(tbl) <- query_label(colnames(tbl), varnames) -->
-
-<!-- x <- tbl -->
-<!-- abbr <- query.abbrev(tbl, abbreviations) -->
-<!-- abbr <- paste0(paste(names(abbr), abbr, sep = ", "), collapse = "; ") -->
-<!-- foot <- paste0("Tabellen visar första- och andrahandsalternativ. Kolumnerna mani respektive depression avser behandling av akuta episoder. Förkortningar: ", abbr, ".") -->
-
-<!-- ## 2:a hands alternativ kursiv stil i latexversionen -->
-
-<!-- ## Ref: CANMAT, Yatham 2013. -->
-
-<!-- kable(x, -->
-<!--       caption = "Behandling vid bipolär sjukdom typ 1")%>% -->
-<!--     footnote(paste(foot), -->
-<!--              general_title = "") -->
-
-<!-- ## Latex version -->
-<!-- ## x%>% -->
-<!-- ##     group_by()%>% -->
-<!-- ##     mutate_all(linebreak)%>% -->
-<!-- ##     kable("latex", -->
-<!-- ##       align = c("l", rep('c', times = ncol(x))), -->
-<!-- ##       caption = "Behandling vid bipolär sjukdom typ 1",       -->
-<!-- ##       booktabs=TRUE, -->
-<!-- ##       escape=FALSE       -->
-<!-- ##       )%>% -->
-<!-- ##     ## kable_styling(hline_after = T)%>% -->
-<!-- ##     row_spec(1: nrow(x), hline_after = T) %>% -->
-<!-- ##     row_spec(0, bold = T) %>% -->
-<!-- ##     ## row_spec(3, bold = T, color = "white", background = "blue")%>% -->
-<!-- ## ##     column_spec(1:ncol(x), -->
-<!-- ## ## ##                width = "3cm", -->
-<!-- ## ##                 valign = "top")%>% -->
-<!-- ##     ## kable_styling(latex_options="striped",position = "center",full_width = F)%>% -->
-<!-- ##     footnote( -->
-<!-- ## ##        general= make_rows(foot), -->
-<!-- ##         general_title = "", -->
-<!-- ##         ##footnote_as_chunk=TRUE,  -->
-<!-- ##         escape=FALSE) -->
-    
-<!--     ## kable_styling(bootstrap_options = c("striped", "hover")) -->
-
-
-<!-- ```  -->
-
-### CANMAT uppdatering 2018
-
-Se [@Yatham2018]
-
-```{r bipolar-treatment-2018, fig.cap='CANMAT 2018 Bipolar treatment.' }
-
-include_graphics('../dropbox/images/psychiatry/canmat-bipolar-treatment-yatham2018.jpg')
-
-``` 
-
-### Behandlingar enligt CANMAT 2018
-
-Vissa behandlingar med god evidens (tex olanzapin) nedgraderas till andrahandsval på grund av sämre tolerabilitet eller större biverkningsproblem. Tabellerna är hierarkiskt ordnade så att de läkemedel som står högre upp bör provas först. Alla förstahandsval bör prövas innan andrahandsval används. Särskilda skäl kan finnas att frångå hierarkin, såsom blandad episod, tidigare icke-respons till litium, och samsjuklighet med substansbrukssyndrom [@Yatham2018].
 
 ```{r bipolar-treatment-mania-yatham2018 } 
 
@@ -733,6 +544,95 @@ kable(x,
 
 Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på behandlingen). Särskilt vid behov av snabb respons (uttalad mani) kan kombinationsbehandling vara att föredra. Väg in patientens villighet att ta kombinationsbehandling.  [@Yatham2018]
 
+### Behandling av bipolär depression
+
+Sparsamt beforskat. Kvetiapin eller kombinationen olanzapin/fluoxetin har FDA-godkännande.
+
+Patienter med bipolär depression svarar långsammare på behandling än de med mani. Residualsymtom är vanligt och bör behandlas.
+
+- Regelbunden fysisk konditionsträning är fördelaktig vid depression.
+
+- Behandla sömsvårigheter, ångest och agitation.
+
+- Rekommendera patienten att begränsa nikotin, koffein och alkohol, samt förstås avstå drogbruk.
+
+- Erbjud psykosociala insatser och psykoedukation för att förbättra följsamhet, minska residualsymtom, identifiera återfall, återfå funktionsförmåga och minska suicidalt beteende.
+
+Om patienten står på litium, överväg öka litiumkoncentrationen till >0.8.
+
+Kvetiapin + litium har ej studerats avseende effekt vid bipolär depression, men kan övervägas när något av dessa läkemedel redan används.
+
+Tidig förbättring (inom 2v) är en hygglig prediktor för respons, emedan utebliven förbättring är en mer robust prediktor för icke-respons. Detta kan beaktas vid byte av behandling. Undantaget är lamotrigin, som kräver långsam titrering. [@Yatham2018]
+
+#### Faktorer som kan påverka val av behandling av depressivt skov {#treatment-factors-depression}
+
+**Behov av snabb respons**: Pga svår depression, suicidalitet, dehydrering. 
+
+- Av förstahandvalen har kvetiapin och lurasidon visat separation från placebo efter en vecka.
+- Av förstahandvalen har olanzapin + fluoxetin och kariprazin visat separation från placebo efter en vecka.
+- ECT och ketamin kan även övervägas.
+
+**Nedsatt kognition och psykomotorisk hämning:**
+
+- Viss evidens att lamotrigin kan ha ökad effektivitet.
+
+**Tidigare respons på visst läkemedel**: Tidigare respons på antidepressiva kan föranleda att sådana övervägs i kombination med antimaniskt läkemedel.
+
+**Hög ångestnivå:** "Anxious distress". Förutsäger mer ihållande depression samt mer suicidtankar.
+
+- Kvetiapin samt olanzapin-fluoxetin mer effektivt än placebo  [@Yatham2018].
+- Anxiolytisk effekt av valproat, risperidon, och lamotrigin är begränsad  [@Yatham2018].
+
+**Blandad episod:** Associerat till svårare depressiva symtom, ökad förekomst av substansbrukssyndrom, och kardiovaskulär sjukdom. Ofta behövs kombinationsbehandling. Atypiska antipsykotiska medel har visat en klass-effekt vid blandad episod.
+
+- Olanzapin + fluoxetin, asenapin, och lurasidon har visad effekt.
+- Undvik antidepressiva
+
+**Melankoliska drag:** Relativ effekt av viss behandling har ej studerats. Klinsikerfarenhet talar för att ECT är effektivt [@Yatham2018].
+
+**Psykotiska symtom:** Både stämningskongruenta- och inkongruenta. Relativ effekt av viss behandling har ej studerats. Klinsikerfarenhet talar för att ECT samt antipsykotiska medel är effektivt [@Yatham2018].
+
+**Rapid cycling:** Glöm ej undersöka thyroideastatus. Relativ effekt av viss behandling har ej studerats. val av behandling kan styras av behov i underhållsfasen.
+
+- Avsluta eventuella antidepressiva. Även kombinationen AD + stämningsstabiliserare bör undvikas.
+- Lithium, valproat, olanzapine, och kvetiapin har liknande effekt i underhållsfas vid rapid cycling emedan lamotrigin ej skiljer sig från placebo.
+- Särskilt viktigt att undvika drog/alkoholbruk
+
+#### Antidepressiva läkemedel vid bipolärt syndrom
+
+Antidepressiva bör i allmänhet undvikas [@Yatham2018] (särskilt vid anamnes på blandade episoder, rapid cycling, eller förstås hypomani/mani som utlösts av antidepressiva). Pågående andidepressiv behandling bör trappas ut (om inte flera utsättningsförsök redan misslyckats) [@Goodwin2007, kap 17], särskilt vid mani/hypomani eller om depression uppträder trots pågående antidepressiv behandling [@Yatham2018]. Uttrappning eller byte av AD bör göras gradvis. Om antidepressiva används bör de kombineras med en "stämningsstabiliserare". Antidepressiva som monoterapi bör EJ användas vid bipolär depression [@Yatham2018].
+
+- Effektiviteten av AD ej etablerad för BP depression
+- Utlösande av maniskt skov av AD har demonstrerats i studier
+- Rekommenderas ej som monoterapi vid BP I
+- Otillräckliga data för rekommendation vid BP II
+  - Undvik vid blandad episod [@Yatham2018]
+- Bör endast övervägas vid svår depression eller då annan behandling har misslyckats 
+  - Då alltid i kombination med stämningsstabiliserare
+  - Bör sättas ut gradvis efter depressionsepisoden
+    - Fortsättningsbehandling endast för dem med tidig relaps
+
+#### Augmentation med thyrodeahormon?
+
+- Kan vara av värde (även vid normala thyrodieaprover) hos...
+  - Kvinnor
+  - Rapid cycling
+  - TSH > 50:e percentilen av normalvärde
+- Använd T3 och gå med tiden över till T4
+
+> First‐line options for bipolar I depression include quetiapine, lurasidone plus lithium or divalproex, lithium, lamotrigine, lurasidone, or adjunctive lamotrigine. While medications that have been shown to be effective for the acute phase should generally be continued for the maintenance phase in bipolar I disorder, there are some exceptions (such as with antidepressants); and available data suggest that lithium, quetiapine, divalproex, lamotrigine, asenapine, and aripiprazole monotherapy or combination treatments should be considered first‐line for those initiating or switching treatment during the maintenance phase. [@Yatham2018]
+
+<!-- ### CANMAT uppdatering 2018 -->
+
+<!-- Se [@Yatham2018] -->
+
+<!-- ```{r bipolar-treatment-2018, fig.cap='CANMAT 2018 Bipolar treatment.' } -->
+
+<!-- include_graphics('../dropbox/images/psychiatry/canmat-bipolar-treatment-yatham2018.jpg') -->
+
+<!-- ```  -->
+
+
 ```{r bipolar-treatment-depression-yatham2018 } 
 
 setorder(tbl, hierarchy_depression)
@@ -768,7 +668,7 @@ ECT bör övervägas hos bahandlingsrefraktära patienter och när snabb respons
 
 Ketamin har visat god och snabb effekt vid BP depression, men studierna är små. Kan övervägas vid behov av snabb respons.
 
-### Underhållsbehandling
+### Underhållsbehandling {#treatment-factors-prevention}
 
 Riskfaktorer för återfall  [@Yatham2018]:
 
@@ -786,6 +686,7 @@ Upp till 50% av patienter tar ej läkemedlen som de förskrivits. Detta kan leda
 Tillägga av psykosocial behandling till läkemedel reducerar återfall med ca 15% [@Yatham2018].
 
 Faktorer associerade med lägre följsamhet [@Yatham2018]:
+
 - Sociodemografiska: Manligt kön, yngre ålder, låg utbildningsgrad, ensamstående
 - Psykologiska: Bristande insikt, bristande medvetenhet om sjukdom, negativ attityd till behandling, rädsla för biverkningar, missnöje med livet, låg kognitiv funktion
 - Komorbiditet: Alkohol- eller cannabisbruk, OCD.
@@ -825,8 +726,58 @@ kable(x,
 
 ``` 
 
+### Läkemedel vid bipolärt syndrom
+
+**Litium:** Har FDA-indikation för behandling av manisk episod och underhållsbehandling (längre tid till återfall). Halveringstiden är 12 tim initialt men 24 tim vid steady state (efter ca 5 dagar). Kvoten dos/plasmakoncentration är högre vid pågående mani, yngre ålder, högre koppsvikt (ffa muskelmassa), och högre saltintag. Den påverkas även av njurfunktion, vätskeförlust, och samtidig medicinering. En systematisk litteraturgenomgång visade att 0.9 mmol/L är lägsta effektiva nivå vid mani, och att nivåer över 1.4 ej ger bättre effekt. Tänk på att mani medför lägre litiumnivå, varför dosen bör sänkas efter skovet med sikte på serumkoncentration 0.6-0.8 mmol/L [@Goodwin2007, kap 17]. Litium är lika effektivt som andra antimaniska läkemedel över en treveckorsperiod. Antidepressiv effekt av litium kan komma efter 1-2 veckor men dröjer ofta 3-5 veckor. Vid bipolär depression rekommenderas CANMAT målkoncentration 0.8-1.2 mM/L [@Yatham2018].
+
+Tidigare respons på litium förutsäger bättre respons under aktuell manisk episod, och sämre effekt av antiepileptiska läkemedel. Nivåer över 0.8 mmol/L mer effektiva vid mani än lägre nivåer [@Goodwin2007].
+
+Litium föredras framför valproat vid klassisk euforisk mani, få tidigare episoder, när manier har följts av depression, och vid hereditet för bipolärt syndrom (särskilt om släktingen svarat på litium)  [@Yatham2018].
+
+<!-- Combined Lithium and Electroconvulsive Therapy: Pharmacokinetic and Pharmacodynamic Interactions rudorfer  [@Rudorfer1987] -->
+
+**Valproat:**  De vanligaste biverkningarna är illamåend och trötthet. Påverkar metabolismen av flera andra läkemedel, bla lamotrigin. Vid akut mani krävs plasmakoncentration >45 mkg/ml för effekt och biverkningar blir problematiska vid nivå >125 mkg/ml. Snabb upptrappning (30 mg/kg d 1-2, 20 mg/kg d 3-10) kan ge snabbare effekt vid akut mani, men är likvärdig med olanzapin.
+
+Valproat är lika effektivt vid klassisk- och dysforisk mani. Rekommenderas för de som haft multipla tidigare episoder, framträdande irritabilitet, framträdande dysfori, samsjuklighet med substansbrukssyndrom, eller anamnes på trauma mot huvudet  [@Yatham2018]. Undvik till kvinnor i fertil ålder.
+
+**Karbamazepin**: Faktorer som kan vara förnippade med respons på karbamazepin är anamanes på skalltrauma, samsjuklighet med ångest och substansbrukssyndrom, schizoaffektiv bld med stämningsnkongruenta vanföreställningar, ingen bipolär sjjukdom hos förstagradssläktingar [@Yatham2018].
+
+**Lamotrigin:** Har FDA-indikation för behandling av bipolär depression. Preventivmedel kan minska lamotriginkoncentrationerna (men ej omvänt).
+
+- Dosering BP depression: Viss antidepressiv effekt redan vid 50 mg [@Goodwin2007]. CANMAT rekommenderar minst 200 mg/d [@Yatham2018].
+
+**Olanzapin:** Olanzapin som tilläggsbehandling har visat likvärdig effekt vid akut mani respektive blandad episod.
+
+- Dosering vid akut mani: 2.5-5 mg var 6:e tim, kan totreras till 20 mg/d (dock visar vissa studier att 2.5-5mg kan vara tillräckligt).
+
+**Kvetiapin:**
+
+- Dosering vid akut mani: Starta med 100 mg/d, titrera till 400-800 mg/d.
+- Dosering vid BP depression: Måldos 300mg. Doser över 300 mg ger ej bättre effekt. Lägre doser har ej studerats [@Yatham2018].
+
+**Risperidon:**
+
+- Dosering vid akut mani: 1 mg vaje 6-8 tim, maxdos vanligen 6-8 mg/d.
+
+**Aripiprazol:** Samtidig behandling med bensodiazepin kan vara fördelaktigt för att undvika initial aktivering. Aripiprazol (15-30 mg) har visat bättre effekt än haloperidol (10-15 mg/d) i en stor RCT, troligen pga mindre biverkningar.
+
+- Dosering vid akut mani: Starta med 30 mg/d. Sänk till 15 mg/d vid biverkningar.
+
+**Lorazepam**:
+
+- Dosering vid akut mani: 1-2 mg (im el po) varje 2 tim. Samma för klonazepam.
+
+**ECT:** 
+
+Tillägg av antipsykotiskt läkemedel till ECT mer effektivt än tillägg av placebo.
+
+**rTMS:** 
+
+Ej första- eller andrahandsval. Högersidig rTMS ger mer förbättring av mani än vänstersidig (som används vid depression)
 
 ### Bipolär typ II - behandling
+
+Vid bipolär II finns mycket sparsamt med vetenskapliga studier som kan guida behandling, varför man får extrapolera från studier om bipolär I och kanske unipolär depression. Likaså vid samsjuklighet med andra psykiatriska tillstånd och vid bipolär depression. Det samma gäller för hypomani, där man får extrapolera från behandling av mani. Det är tänkbart att reduktion av hypomanier kan minska efterföljande depressiva episoder. 
 
 > Clinical experience and the results of many studies suggest that response to mood stabilizers and antipsychotics is similar in BDII and BDI, there are enough exceptions to suggest this should not be taken for granted. This is also the case for antidepressants, which may have a more favourable risk‐benefit ratio in BDII.
 
