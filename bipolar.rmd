@@ -54,6 +54,11 @@ Mani återkommer hos 90 %. Depression är den främsta sjukdomsbördan vid bipol
 
 Nästan alla med BP behöver förebyggande behandling för att minska antal skov, residualsymtom, och återhämta funktionsnivå och livskvalitet. Med behandling får ca 19-25%% ett återfall vaje år, jämfört med 23%­40% för dem med placebobehandling [@Yatham2018].
 
+<!-- Factors associated with overall good prognosis of BD include -->
+<!-- good treatment adherence, lack of early adversity, intermediate age -->
+<!-- at onset, good social support, and the absence of spontaneous rapid -->
+<!-- cycling406,407 or features of a personality disorder. [@Yatham2018] -->
+
 Personer med täta depressiva skov liknar bipolärt syndrom i fråga om hereditet, debutålder, atypiska symtom och profylaktisk respons på litium.
 
 Notation: Mönstret hos en individ med bipolärt syndrom kan vara övervägande svåra maniska skov, och mindre svåra depressioner, eller tvärtom, och kan noteras som Md respektide mD, där mD motsvarar ungefär bipolär II (emedan md kan motsvara cyclotymi) [@Goodwin2007]. 
@@ -266,7 +271,7 @@ Minst två av följande föreligger de flesta dagar under episoden:
 <!-- Moderate-severe: Four or five symptoms. -->
 <!-- Severe: Four or five symptoms with motor agitation. -->
 
-Hög ångestnivå vid bipolär eller unipolär depression är associerat med ökad suicidrisk, längre sjukdomsduration, och sämre svar på beandling.
+Hög ångestnivå vid bipolär eller unipolär depression är associerat med ökad suicidrisk, längre sjukdomsduration, och sämre svar på behandling.
 
 ### Prevalens av olika symtom vid manisk eller blandad episod
 
@@ -579,6 +584,8 @@ CANMAT noterar att alla antimaniska läkemedel separerar från placebo inom en v
 
 I återhämtningsfasen av mani är det vanligt med svängningar i stämningsläge och beteende, varför läkemedel med effekt mot depression, eller kombinationsbehandling, kan vara lämpligt. Snabbt insättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abe2015].
 
+Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på behandlingen). Särskilt vid behov av snabb respons (uttalad mani) kan kombinationsbehandling vara att föredra. Väg in patientens villighet att ta kombinationsbehandling.  [@Yatham2018]
+
 #### Faktorer som kan påverka val av behandling av maniskt skov {#treatment-factors-mania}
 
 <!-- Gå igenom Yatham 2018 -->
@@ -632,8 +639,11 @@ replacenumber <- Vectorize(replacenumber)
 tbl[ , (cols) := lapply(.SD, replacenumber), .SDcols = cols]
 tbl[, medication := first.up(medication)]
 
-tbl1 <- tbl[line_mania == 1, 7:12]
-tbl2 <- tbl[line_mania == 2, 7:12]
+
+tbl_mania <- tbl[line_mania != 0, ]
+
+tbl1 <- tbl_mania[line_mania == 1, 7:12]
+tbl2 <- tbl_mania[line_mania == 2, 7:12]
 
 colnames(tbl1) <- query_label(colnames(tbl1), varnames)
 colnames(tbl2) <- query_label(colnames(tbl2), varnames)
@@ -656,8 +666,6 @@ kable(x,
     add_footnote(paste(foot))
 
 ``` 
-
-Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på behandlingen). Särskilt vid behov av snabb respons (uttalad mani) kan kombinationsbehandling vara att föredra. Väg in patientens villighet att ta kombinationsbehandling.  [@Yatham2018]
 
 ### Behandling av bipolär depression
 
@@ -737,6 +745,11 @@ Antidepressiva bör i allmänhet undvikas [@Yatham2018] (särskilt vid anamnes p
 
 > First‐line options for bipolar I depression include quetiapine, lurasidone plus lithium or divalproex, lithium, lamotrigine, lurasidone, or adjunctive lamotrigine. While medications that have been shown to be effective for the acute phase should generally be continued for the maintenance phase in bipolar I disorder, there are some exceptions (such as with antidepressants); and available data suggest that lithium, quetiapine, divalproex, lamotrigine, asenapine, and aripiprazole monotherapy or combination treatments should be considered first‐line for those initiating or switching treatment during the maintenance phase. [@Yatham2018]
 
+ECT bör övervägas hos bahandlingsrefraktära patienter och när snabb respons är viktigt (svår depresssion, hög suicidrisk, katatoni, psykotisk depression).
+
+Ketamin har visat god och snabb effekt vid BP depression, men studierna är små. Kan övervägas vid behov av snabb respons.
+
+
 <!-- ### CANMAT uppdatering 2018 -->
 
 <!-- Se [@Yatham2018] -->
@@ -752,10 +765,10 @@ Antidepressiva bör i allmänhet undvikas [@Yatham2018] (särskilt vid anamnes p
 
 setorder(tbl, hierarchy_depression)
 
-tbl <- tbl[line_depression != 0, ]
+tbl_depression <- tbl[line_depression != 0, ]
 
-tbl1 <- tbl[line_depression == 1, 7:12]
-tbl2 <- tbl[line_depression == 2, 7:12]
+tbl1 <- tbl_depression[line_depression == 1, 7:12]
+tbl2 <- tbl_depression[line_depression == 2, 7:12]
 
 colnames(tbl1) <- query_label(colnames(tbl1), varnames)
 colnames(tbl2) <- query_label(colnames(tbl2), varnames)
@@ -778,10 +791,6 @@ kable(x,
     add_footnote(paste(foot))
 
 ``` 
-
-ECT bör övervägas hos bahandlingsrefraktära patienter och när snabb respons är viktigt (svår depresssion, hög suicidrisk, katatoni, psykotisk depression).
-
-Ketamin har visat god och snabb effekt vid BP depression, men studierna är små. Kan övervägas vid behov av snabb respons.
 
 ### Underhållsbehandling {#treatment-factors-prevention}
 
@@ -810,14 +819,19 @@ Faktorer associerade med lägre följsamhet [@Yatham2018]:
 - Sjukdomskarakteristika: Blandad episod, rapid cycling, vanföreställningar och hallucinationer, högre svårighetsgrad, BDI-diagnos, fler episoder.
 - Behandingsrelaterade faktorer: Biverkningar, bristande effekt, användning av antidepressiva, låga doser.
 
+Atypiska antipsykotiska är profylaktiska mot maniska episoder men profylaktiska effekt mot depressioner är osäker. När kombination av ett antipsykotiskt medel med litium eller valproat vid akut mani förebygger fortsättningsbahandling med antipsykotiskt medel relaps under sex månader, men fortsatt behanling därefter har osäker effekt. Därför bör behandling med antipsykotska medel omvärderas efter sex månader med tanke på biverkningsrisk och osäker effekt  [@Yatham2018].
+
+>If therapy with one or a combination of the first-­line agents at optimal doses is inadequate or not tolerated, the next step is to switch to or add on an alternate first-line agent  [@Yatham2018]. 
+
+
 ```{r bipolar-treatment-prevention-yatham2018 } 
 
 setorder(tbl, hierarchy_prevention)
 
-tbl <- tbl[line_prevention != 0, ]
+tbl_prevention <- tbl[line_prevention != 0, ]
 
-tbl1 <- tbl[line_depression == 1, 7:12]
-tbl2 <- tbl[line_depression == 2, 7:12]
+tbl1 <- tbl_prevention[line_prevention == 1, 7:12]
+tbl2 <- tbl_prevention[line_prevention == 2, 7:12]
 
 colnames(tbl1) <- query_label(colnames(tbl1), varnames)
 colnames(tbl2) <- query_label(colnames(tbl2), varnames)
@@ -848,6 +862,8 @@ kable(x,
 Tidigare respons på litium förutsäger bättre respons under aktuell manisk episod, och sämre effekt av antiepileptiska läkemedel. Nivåer över 0.8 mmol/L mer effektiva vid mani än lägre nivåer [@Goodwin2007].
 
 Litium föredras framför valproat vid klassisk euforisk mani, få tidigare episoder, när manier har följts av depression, och vid hereditet för bipolärt syndrom (särskilt om släktingen svarat på litium)  [@Yatham2018].
+
+ > Patients who respond well to lithium treatment usually have an episodic remitting pre-treatment clinical course, a family history of BD (especially BD responsive to lithium), low rates of comorbidity (especially anxiety and substance abuse disorders), and a pattern of mania-depression­euthymia in biphasic episodes, as well as a typical clinical presentation. Responsiveness may also be a familial trait, with a study showing that patients who have a lithium-­responsive relative have a 67% likelihood of also being lithium responsive, versus 35% of those without a responsive relative. [@Yatham2018]
 
 <!-- Combined Lithium and Electroconvulsive Therapy: Pharmacokinetic and Pharmacodynamic Interactions rudorfer  [@Rudorfer1987] -->
 
