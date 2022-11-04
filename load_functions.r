@@ -1,0 +1,6 @@
+source('../functions/query_label.r')
+source('../functions/query.abbrev.r')
+source('../functions/first.up.r')
+source('varnames.r')
+source('abbreviations.r')
+pacman::p_load(kable)

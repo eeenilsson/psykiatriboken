@@ -377,7 +377,7 @@ Personer med frekvent återkommande (en depression per två år) unipolär depre
   - Psykotiska symtom (tex röster, vanföreställningar)
   - Rusande tankar
   - Atypisk depression (ökad sömn inklusive sömn dagtid, ökad aptit, "leaden paralysis")
-  - Under depression _ökad_ energi, _ökad_ aktivitet, eller _extrem_ irritabilitet 
+  - Under depression _ökad_ energi, _ökad_ aktivitet, eller _extrem_ irritabilitet [@Goodwin2007;@Benazzi2005]
   - Psykomotorisk hämning eller - agitation
   - Psykotiska symtom eller skuldkänslor av patologisk grad
   - Instabilt humör/ humörsvängningar inom episoden [@Goodwin2007] och mer humörvängningar mellan episoder [@Yatham2018]
@@ -440,6 +440,7 @@ Har betydelse för differentialdiagnostik, prognos, behandlingsval, utredning oc
   - Thyroideasjukdom
   - Ångestsyndrom
 - Tidigare behandlingar (duration, dos, effekt, biverkningar)
+- Tidigare skalltrauma
 - Följsamhet till behandling: Har skovet att göra med att pågående behandling avslutats?
 - Suicidrisk
 - Bedöm förutsättningarna för följsamhet till behandlingsplan
@@ -515,8 +516,7 @@ Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani
 
 #### ADHD
 
-<!-- DSM: Attention-deficit/hyperactivity disorder. This disorder may be misdiagnosed as bipolar disorder, especially in adolescents and children. Many symptoms overlap with the symptoms of mania, such as rapid speech, racing thoughts, distractibihty, and less need for sleep. The "double counting" of symptoms toward both ADHD and bipolar disorder can be avoided if the clinician clarifies whether the symptom(s) represents a distinct episode. -->
-
+Symtom vid bipolärt syndrom och ADHD överlappar till hög grad (tex rusande tankar, snabbt tal, distraherbarhet, minskat sömnbehov). Upp till 20% av personer med BP uppfyller kriterier för ADHD och tvärtom [@Yatham2018]. För att särskilja dessa bör symtomens episodiska karaktär vid BP klarläggas.
 
 ### Psykos vid bipolärt syndrom
 
@@ -584,7 +584,7 @@ CANMAT noterar att alla antimaniska läkemedel separerar från placebo inom en v
 
 I återhämtningsfasen av mani är det vanligt med svängningar i stämningsläge och beteende, varför läkemedel med effekt mot depression, eller kombinationsbehandling, kan vara lämpligt. Snabbt insättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abe2015].
 
-Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på behandlingen). Särskilt vid behov av snabb respons (uttalad mani) kan kombinationsbehandling vara att föredra. Väg in patientens villighet att ta kombinationsbehandling.  [@Yatham2018]
+Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på behandlingen). Särskilt vid behov av snabb respons (uttalad mani, suicidrisk) kan kombinationsbehandling vara att föredra. Likaså om tidigare partiell respons (akut eller i i underhållsfas) på monoterapi. Väg in patientens villighet att ta kombinationsbehandling.  [@Yatham2018]
 
 #### Faktorer som kan påverka val av behandling av maniskt skov {#treatment-factors-mania}
 
@@ -598,7 +598,7 @@ Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på 
 
 **Psykotiska symtom:** Det finns inget vetenskapligt stöd för att antipsykotiska medel i monoterapi eller som del av kombinationsbehandling är mer effektivt än andra alternativ, men klinisk erfarenhet indikerar att ett atypiskt antipsykotiskt medel bör ingå i behandlingen vid stämningsinkongruenta psykotiska symtom (dvs annat än grandiosa vanföreställningar). Likaså när schizoaffektivt syndrom kan misstänkas.  [@Yatham2018]
 
-**Blandad episod:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. För patienter som stabilserats med en kombination av litium och valproat har dessa läkemedel i monoterapi likvärdig (begränsad) effekt som underhållsbehandling [@Goodwin2007, kap 17]. Valproat eller atypiska antipsykotiska har vetenskapligt stöd och ofta behövs kombinationsbehandling  [@Yatham2018].  - De med blandad episod/höga poäng på depressionsskattning, eller mer än tio tidigare affektiva episoder kan ha bättre effekt av valproat än litium [@Goodwin2007]. 
+**Blandad episod:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. För patienter som stabilserats med en kombination av litium och valproat har dessa läkemedel i monoterapi likvärdig (begränsad) effekt som underhållsbehandling [@Goodwin2007, kap 17]. Valproat eller atypiska antipsykotiska har vetenskapligt stöd och ofta behövs kombinationsbehandling  [@Yatham2018]. De med blandad episod/höga poäng på depressionsskattning, eller mer än tio tidigare affektiva episoder kan ha bättre effekt av valproat än litium [@Goodwin2007]. 
 
 **Rapid cycling:** Valproat i monoterapi kan möjligen vara mer effektivt än litium i monoterapi, men den studie som visat det begränsas av att många av patienterna ej svarat på litium vid tidigare behandling. Olanzapin har likvärdig effekt vid rapid cycling och icke-rapid cycling [@Goodwin2007, kap 17]. Hypothyroidism, substansbruk, och antidepressiva är associerade med rapid cycling och bör adresseras  [@Yatham2018]. Relativ effekt av viss behandling har ej studerats. Val av behandling bör göras utifrån effekt i underhållsfasen, ofta behövs kombinationsbehandling  [@Yatham2018].
 
@@ -610,17 +610,16 @@ Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på 
 
 **Anxious distress**: Vanligt och förutsäger sämre prognos (svårare maniska symtom, längre tid till remission). Valproat, kvetiapin, och olanzapine kan vara fördelaktigt pga anxiolytisk effekt, liksom karbamazepin [@Yatham2018].
 
+**Behov av snabb respons:** Kombinera litium eller valproat med atypiskt antipsykotiskt medel [@Yatham2018].
+
 **Biverkningsprofil:** De biverkningar som är mest oroande för patienter är viktuppgång, kognitiv påverkan och sedering [@Goodwin2007, kap 17].
+
+
 
 ```{r bipolar-treatment-mania-yatham2018 } 
 
 tbl <- fread('../notes/bipolar-treatment-yatham2018.csv')
-source('../functions/query_label.r')
-source('../functions/query.abbrev.r')
-source('../functions/first.up.r')
-source('varnames.r')
-source('abbreviations.r')
-pacman::p_load(kable)
+source('load_functions.r')
 
 cols <- c("mania", "depression", "prevention_any", "prevention_mania", "prevention_depression" )
 
@@ -639,11 +638,16 @@ replacenumber <- Vectorize(replacenumber)
 tbl[ , (cols) := lapply(.SD, replacenumber), .SDcols = cols]
 tbl[, medication := first.up(medication)]
 
+tbl[, features_mania := gsub("\\+", "\\\\+", features_mania)]
+tbl[, features_depression := gsub("\\+", "\\\\+", features_depression)]
+tbl[, features_prevention := gsub("\\+", "\\\\+", features_prevention)]
 
 tbl_mania <- tbl[line_mania != 0, ]
 
-tbl1 <- tbl_mania[line_mania == 1, 7:12]
-tbl2 <- tbl_mania[line_mania == 2, 7:12]
+cols_mania <- c("medication", "mania", "depression", "prevention_any", "prevention_mania", "prevention_depression", "features_mania")
+
+tbl1 <- tbl_mania[line_mania == 1, ..cols_mania]
+tbl2 <- tbl_mania[line_mania == 2, ..cols_mania]
 
 colnames(tbl1) <- query_label(colnames(tbl1), varnames)
 colnames(tbl2) <- query_label(colnames(tbl2), varnames)
@@ -767,8 +771,10 @@ setorder(tbl, hierarchy_depression)
 
 tbl_depression <- tbl[line_depression != 0, ]
 
-tbl1 <- tbl_depression[line_depression == 1, 7:12]
-tbl2 <- tbl_depression[line_depression == 2, 7:12]
+cols_depression <- c("medication", "mania", "depression", "prevention_any", "prevention_mania", "prevention_depression", "features_depression")
+
+tbl1 <- tbl_depression[line_depression == 1, ..cols_depression]
+tbl2 <- tbl_depression[line_depression == 2, ..cols_depression]
 
 colnames(tbl1) <- query_label(colnames(tbl1), varnames)
 colnames(tbl2) <- query_label(colnames(tbl2), varnames)
@@ -830,8 +836,10 @@ setorder(tbl, hierarchy_prevention)
 
 tbl_prevention <- tbl[line_prevention != 0, ]
 
-tbl1 <- tbl_prevention[line_prevention == 1, 7:12]
-tbl2 <- tbl_prevention[line_prevention == 2, 7:12]
+cols_prevention <- c("medication", "mania", "depression", "prevention_any", "prevention_mania", "prevention_depression", "features_prevention")
+
+tbl1 <- tbl_prevention[line_prevention == 1, ..cols_prevention]
+tbl2 <- tbl_prevention[line_prevention == 2, ..cols_prevention]
 
 colnames(tbl1) <- query_label(colnames(tbl1), varnames)
 colnames(tbl2) <- query_label(colnames(tbl2), varnames)
@@ -869,15 +877,21 @@ Litium föredras framför valproat vid klassisk euforisk mani, få tidigare epis
 
 <!-- Combined Lithium and Electroconvulsive Therapy: Pharmacokinetic and Pharmacodynamic Interactions rudorfer  [@Rudorfer1987] -->
 
-Underhållsbehandling: Konsensus målkoncentration (dalvärde 12 tim +- 1 tim efter senaste dos, även vid singeldosering) 0.60-0.80 mmol/L. Kan reduceras till 0.40-0.60 mmol/L vid god effekt men dålig tolerans. Kan ökas till  0.80-1.00 mmol/L  vid otillräcklig respons och god tolerans. Nivåer över 1-1.2 mmol/L (ingen konsensus) bör ej överskridas [@Nolen2019]. 
+Vid akut mani kan litium ges med bolusdos för snabb upptrappning, tex 3+3 tabl i 2d => 2+3 i 2d => 2+2 i 2d. Följ litiumkoncentrationen (orienterande prov efter två dagar). Obs att antimanisk effekt kräver högre målkoncentration. Kan sättas ut om pat ej vill fortsätta m litium.
 
-Engångsdosering till kvällen kan eventuellt öka följsamhet, reducera polyuri och medföra mindre påverkan på njurarna, utan försämrad effektivitet [@Carter2013;Bowen1991].
+Underhållsbehandling: Konsensus målkoncentration (dalvärde 12 tim +- 1 tim efter senaste dos, även vid singeldosering) 0.60-0.80 mmol/L. Kan reduceras till 0.40-0.60 mmol/L vid god effekt men dålig tolerans. Kan ökas till  0.80-1.00 mmol/L vid otillräcklig respons och god tolerans. Nivåer över 1-1.2 mmol/L (ingen konsensus) bör ej överskridas [@Nolen2019]. Nivåer > 0.8 mmol/L kan vara av värde för dem som främst har maniska episoder, men sannolikt ej för andra, och är förknippat med ökad risk för biverkningar, rnal toxicitet, och minskad följsamhet [@Severus2008].
+
+Engångsdosering till kvällen kan eventuellt öka följsamhet, reducera polyuri och medföra mindre påverkan på njurarna, utan försämrad effektivitet [@Carter2013;@Bowen1991].
 
  <!-- Studies have shown that once-a-day lithium at night, compared with multiple daily doses, lowers urine volume and other symptoms of the lithium-induced diabetes insipidus-like syndrome  [@Bowen1991]. -->
  
  <!-- Trials examining renal biopsy results also found that multiple daily doses were associated with more pathological changes to the kidneys -->
 
 <!-- Another possible advantage of giving the whole dose at night is that the kidneys filter lithium more slowly at night. The net effect is that you only need 80% of the daily divided doses when changing patients to a once-nightly regimen. -->
+
+<!-- severus What is the optimal serum lithium level in the long-term treatment of bipolar disorder [@Severus2008] -->
+
+[$\ExternalLink$ Patientinformation litium](https://www.internetmedicin.se/material/Litiumbeh.pdf)
 
 **Valproat:**  De vanligaste biverkningarna är illamåend och trötthet. Påverkar metabolismen av flera andra läkemedel, bla lamotrigin. Vid akut mani krävs plasmakoncentration >45 mkg/ml för effekt och biverkningar blir problematiska vid nivå >125 mkg/ml. Snabb upptrappning (30 mg/kg d 1-2, 20 mg/kg d 3-10) kan ge snabbare effekt vid akut mani, men är likvärdig med olanzapin.
 
@@ -901,16 +915,24 @@ Dosering vid mani:
 
 **Lamotrigin:** Har FDA-indikation för behandling av bipolär depression. Preventivmedel kan minska lamotriginkoncentrationerna (men ej omvänt).
 
-- Dosering BP depression: Viss antidepressiv effekt redan vid 50 mg [@Goodwin2007]. CANMAT rekommenderar minst 200 mg/d [@Yatham2018].
+- Dosering BP depression: Viss antidepressiv effekt redan vid 50 mg [@Goodwin2007]. CANMAT rekommenderar minst 200 mg/d [@Yatham2018]. Långsam titrering för att undvika hudbiverkningar. Allvarliga hudreaktioner är ovanligt.
+- Trappas upp gradvis för att minska risken för hudutslag.
+- I monoterapi och frånvaro av andra läkemedel som påverkar metabolismen av lamotrigin starta 25 mg/d i två veckor. Uptitrera gradvis till 200 mg enligt FASS.
+
+Vid godartade hudutslag kan läkemedlet stoppas för att sedan återintroduceras med lägre startdos (5-12.5 mg/d, alt 25 mg vad) och långsammare titrering. Godartade utslag karakteriseras av: Som värst inom några dagar och lägger sig efter 10-14 dagar; prickigt, icke-konfluerande, ej ömmande; frånvaro av systemiska symtom (tex feber, lymfadenopati, allmänpåverkan); involverar ej mukösa membran (mun, läppar, ögon), normala labbprover (blodstatus, leverstatus, kreatinin, urinsticka). Utslag som uppträder inom 5 dagar är troligen ej läkemedelsrelaterade  [@Lorberg2009]. 
 
 **Olanzapin:** Olanzapin som tilläggsbehandling har visat likvärdig effekt vid akut mani respektive blandad episod.
 
-- Dosering vid akut mani: 2.5-5 mg var 6:e tim, kan totreras till 20 mg/d (dock visar vissa studier att 2.5-5mg kan vara tillräckligt).
+- Dosering vid akut mani: 2.5-5 mg var 6:e tim, kan titreras till 20 mg/d (dock visar vissa studier att 2.5-5mg kan vara tillräckligt).
 
 **Kvetiapin:**
 
-- Dosering vid akut mani: Starta med 100 mg/d, titrera till 400-800 mg/d.
-- Dosering vid BP depression: Måldos 300mg. Doser över 300 mg ger ej bättre effekt. Lägre doser har ej studerats [@Yatham2018].
+- Tablett tas: 
+  - Mani: Doseras två gånger dagligen. Total dygnsdos under de fyra första terapidagarna är 100 mg (dag 1), 200 mg (dag 2), 300 mg (dag 3) och 400 mg (dag 4). Kan ökas med 200 mg till max 800 mg/d.
+  - BP depression: Doseras en gång dagligen. Total dygnsdos för de fyra första dagarna är 50 mg (dag 1), 100 mg (dag 2), 200 mg (dag 3) och 300 mg (dag 4).
+- Depottablett tas (minst 1 tim före måltid):
+  - Mani: Startdosen är 300 mg dag 1 och 600 mg dag 2.
+  - BP depression: Den totala dygnsdosen för de 4 första dagarna är 50 mg (dag 1), 100 mg (dag 2), 200 mg (dag 3) och 300 mg (dag 4). Måldos 300 mg. Doser över 300 mg ger ej bättre effekt. Lägre doser har ej studerats [@Yatham2018].
 
 **Risperidon:**
 

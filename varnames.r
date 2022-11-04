@@ -72,7 +72,10 @@ common_varnames <- c(
     'prevention_depression' = "Prevention depression",
     'medication' = "Läkemedel",
     'mania' = "Mani",
-    'depression' = "Depression"
+    'depression' = "Depression",
+    'features_mania' = "Särskilt vid",
+    'features_depression' = "Särskilt vid",
+    'features_prevention' = "Särskilt vid"    
     
 
 )
