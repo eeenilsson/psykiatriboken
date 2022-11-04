@@ -115,18 +115,14 @@ Clozapin + aripiprazol?
 
 Andra kombinationer?
 
-<<<<<<< HEAD
 ### Switching
 
 Se tabell på [psychiatrinet](https://wiki.psychiatrienet.nl/wiki/Main_Page).
-
-=======
 
 ### Vissa äldre antipsykotiska medel
 
 Promethazine is listed as one of the drugs of highest anticholinergic activity in a study of anticholinergenic burden, including long-term cognitive impairment. Dosering vid illamående 12.5-25 mg var 4-6 tim, vid sederig 25-50 mg. 
 	
->>>>>>> 4aaa1c1ac213dc21f97651c6f50832317d708164
 ### Motoriska biverkningar av anipsykotiska läkemedel
 
 Tidsförlopp
@@ -270,12 +266,12 @@ Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l. 1,
 
 #### Effekter på njuren
 
-Renal lithium toxicity is characterized by increased water and sodium diuresis, which can result in mild dehydration, hyperchloremic metabolic acidosis and renal tubular acidosis. The concentrating defect and natriuretic effect develop within weeks of lithium initiation.  [@Grunfeld2009]
+> Renal lithium toxicity is characterized by increased water and sodium diuresis, which can result in mild dehydration, hyperchloremic metabolic acidosis and renal tubular acidosis. The concentrating defect and natriuretic effect develop within weeks of lithium initiation.  [@Grunfeld2009]
 
 
 #### Kronisk njursvikt
 
-Lithium-induced CKD occurs mostly in patients who have been receiving lithium for more than 10–20years; occasionally, renal insufficiency develops earlier (within 10years of lithium initiation)  [@Grunfeld2009]
+> Lithium-induced CKD occurs mostly in patients who have been receiving lithium for more than 10–20years; occasionally, renal insufficiency develops earlier (within 10years of lithium initiation)  [@Grunfeld2009]
 
 ### Farmakokinetik
 
@@ -914,7 +910,7 @@ Amitriptylin antikolinergt och sedarande, nortriptylin är dess metabolit som sa
 
 Främst är det de tricykliska antidepresisva som har betydande anikolinerga effekter. Inom gruppen TCA skiljer sig läkemedlen åt. Amitriptylin och doxepin har starka antikolinerga effekter, emedan tex nortriptylin har en något mindre antikolinerg effekt [@Riedel1995]. 
 
-## Biverkningar kopplade till andra receptorer
+#### Biverkningar kopplade till andra receptorer
 
 Blockad av adrenerga receptorer kan ge ortostatisk hypotension och yrsel.
 
@@ -924,12 +920,44 @@ Blockad av histaminreceptorer: Sedering, viktuppgång.
 
 Blockad av alfa-1-receptorer: Ortostatisk hypotension. 
 
+### Hudbiverkningar
+
+**Lamotrigin:** Incidensen av allvarliga hudbiverkningar (toxisk epidermal nekrolys och Steven-Johnssons syndrom) är 0.3-1% och lägre (0.02%) vid långsam titrering [@Yatham2018]. Vid godartade hudutslag (uppträder hos 10%) kan läkemedlet stoppas för att sedan återintroduceras med lägre startdos (5-12.5 mg/d, alt 25 mg vad) och långsammare titrering. Godartade utslag karakteriseras av: Som värst inom några dagar och lägger sig efter 10-14 dagar; prickigt, icke-konfluerande, ej ömmande; frånvaro av systemiska symtom (tex feber, lymfadenopati, allmänpåverkan); involverar ej mukösa membran (mun, läppar, ögon), normala labbprover (blodstatus, leverstatus, kreatinin, urinsticka). Utslag som uppträder inom 5 dagar är troligen ej läkemedelsrelaterade  [@Lorberg2009]. 
+
+**Karbamazepin:** Kan orsaka SJS men extremt låg incidens. Uppträder i så fall vanligen inom åtta veckor [@Yatham2018].
+
+**Valproat:** Hudbiverkningar enligt ovan förekommer, men ectremt låg risk  [@Yatham2018].
+
+**Litium:** Hudbiverkningar hos 3-45% beroende på kriterier. Acne, psoriasis, eksem, håravfall, hidradenitis suppurativa, nageldystrofi, lesioner i mukösa membran [@Yatham2018].
+
 ### Inverkan på kramptröskel
 
-The Impact of Psychoactive Drugs on Seizures and Antiepileptic Drugs \cite{Habibi2016}
+ECT kan vara antikonvulsivt [@Maudsley2018]. Beakta möjliga interaktioner med antiepileptiska medel [@Habibi2016].
 
-Se tabell i Maudsley. Risperidon samam effekt som placebo på kramptröskeln.
+<!-- The Impact of Psychoactive Drugs on Seizures and Antiepileptic Drugs \cite{Habibi2016} -->
 
+#### Antidepressiva [@Maudsley2018]
+
+- Låg risk vid epilepsi: SSRI (beakta dock interaktioner, överväg escitalopram), mirtazapin.
+- Sannolikt låg risk (begränsade data): Agomelatin, duloxetin, vortioxetin, MAOi.
+- Måttlig risk: Litium, vanlafaxin.
+- Högre risk: Bupropion, TCA.
+
+#### Antipsykotiska [@Maudsley2018]
+
+- Låg risk: Aripiprazol, ziprasidon, haloperidol, flupentixol, fluphenazin, risperidon.
+- Sannolikt låg risk (begränsade data): Asenapi, brexipiprazol, kariprazin, lurasidon.
+- Måttlig risk: Olanzapin, kvetiapin.
+- Högre risk: Klozapin (använd med försiktighet), klorpromazin, loxepin
+
+Risperidon samma effekt som placebo på kramptröskeln.
+
+Försiktighet (undvik?) med depotinjektioner då de ej kan avslutas snabbt.
+
+#### ADHD-läkemedel [@Maudsley2018]
+
+- Låg risk: Metylfenidat
+- Sannolikt låg risk (begränsade data): Amfetaminer, atomoxetin.
 
 ## Beskrivning av vissa läkemedel
 
@@ -945,6 +973,44 @@ Se tabell i Maudsley. Risperidon samam effekt som placebo på kramptröskeln.
 
 ### TdP {#psykofarmakologi-tdp}
 
+```{r tdp-qtt-clinical-factors } 
+
+## TdP occh QTT kliniska faktorer från https://crediblemeds.org/ndfa_list
+
+## tbl <- fread('../notes/qtt_tdp.csv')
+
+## x <- tbl[qtt_clinical_association == "Yes" & qtt_evidence_quality != "Low" & tdp_clinical_association == "Yes", .(clinical_factor)]
+
+## x <- tbl[qtt_clinical_association == "Yes" & qtt_evidence_quality != "Low" & tdp_clinical_association == "Yes", .(clinical_factor)]
+
+
+## tbl[tdp_clinical_association == "Yes" & tdp_evidence_quality != "Very Low" & tdp_evidence_quality != "Low", .(clinical_factor)]
+
+## paste(unlist(x), collapse = ", ")
+
+## cols <- c("Clinical Factor", "Clinical Association with Increased QT", 	"Quality of Evidence for Assoc. with Increased QT",
+## "Clinical Association with TdP", "Quality of Evidence for Assoc. with TdP", "Pubmed Search Link", "select")
+
+tbl <- fread('../notes/qt_nomogram.csv')
+
+p <- ggplot(data=tbl, aes(x=hr, y=qt)) +
+  geom_line() +
+    theme_bw() +
+   ## + ylim(200, 600) +
+    scale_y_continuous(
+        breaks = seq(200, 600, by = 100),
+  ##      minor_breaks = seq(200, 600, by = 50),
+        limits = c(200, 600)
+    ) +
+        scale_x_continuous(
+        breaks = seq(20, 160, by = 20),
+        minor_breaks = seq(20, 160, by = 10),
+        limits = c(20, 160)
+    ) + xlab("Hjärtfrekvens (bpm)") + ylab("QT-tid (msek)")
+
+
+``` 
+ 
 Olika psykotropa läkemedel medför varierande risk för Torsade de Point (TdP), vilket är en allvarlig arytmi.
 
 Några riskfaktorer för TdP [@Socialstyrelsen2019tdp]:
@@ -954,29 +1020,43 @@ Några riskfaktorer för TdP [@Socialstyrelsen2019tdp]:
 - Samtidig annat TdP-preparat
 - Interaktion som ökar plasmakoncentrationen
 - Hjärtsjukdom
+  - Aortastenos [@Woosley2022]
+  - Bradycardi, AV-block [@Woosley2022]
 - Njur- eller leversjukdom
+- Endokrin sjukdom
+  - Hypothyroidism [@Woosley2022]
+  - Hypoparathyroidism [@Woosley2022]
 - Elektrolytrubbningar
   - Hypokalemi, hypomagnesemi eller hypocalcemi.
   - Diuretika kan ge lågt kalium; PPI kan ge lågt magnesium.
+- Övrigt
+  - D-vitaminbrist [@Woosley2022]
+  - Överdrivet lakritsintag [@Woosley2022]
 
 Om två eller fler riskfaktorer föreligger rekommenderas EKG före och efter insättning [@Socialstyrelsen2019tdp]. Om QTc > 459 mm (alternativt använd [ett  QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446)) bör man välja icke-TdP-läkemedel.
 
+```{r qt-nomogram, out.width = '75%', fig.cap = 'QT-nomogram'} 
+
+p
+
+``` 
+**Figur:** QT-nomogram. Para ihop QTT med hjärtfrekvens. Om de är över linjen föreligger risk för TdP.
+
 Läkemedel kan klassificeras utifrån risken att de orsakar TdP i sk TdP-klasser:
 
-- Fastställd risk för hjärtarytmi – TdP 1 
-- Misstänkt risk för hjärtarytmi – TdP2
-- Fastställd risk i vissa situationer för hjärtarytmi – TdP 3
-- Utan känd risk - TdP 0
+- Fastställd risk för hjärtarytmi: TdP 1 
+- Misstänkt risk för hjärtarytmi: TdP2
+- Fastställd risk i vissa situationer för hjärtarytmi: TdP 3
+- Utan känd risk: TdP 0. Kan innebära att risken är okänd pga att data saknas.
 
 Observera att TdP1 betecknar högre risk än TdP3 men att TdP0 betyder ingen känd risk. Se [crediblemeds.org](https://crediblemeds.org/) för listor med riskklassificering av olika läkemedel.
 
 För personer som använder TdP-klassade läkemedel bör elektrolyter kontrolleras vid tex diarre och vid användning av diuretika eller protonpumpshämmare.
 
-TODO: Dubbelkolla dessa tabeller. 
+<!-- TODO: Dubbelkolla dessa tabeller.  -->
 
 ```{r tdp-prepare } 
-pacman::p_load(data.table)
-source('../functions/first.up.r')
+
 ## TdP klassificering
 tbl <- fread('../notes/tdp_classes.csv')
 tbl$drug <- as.factor(tbl$drug)

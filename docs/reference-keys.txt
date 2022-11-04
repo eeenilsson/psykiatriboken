@@ -19,6 +19,7 @@ fig:neoroendocrine-neuron-glandular-cells
 fig:antipsychotics-dosing-interval
 fig:antipsychotics-side-effects
 fig:antipsychotics-anticholinergic
+fig:qt-nomogram
 fig:rheobase-chronaxie
 prolog
 aggression
@@ -208,7 +209,9 @@ antipsychotics
 dosering
 fga-vs-sga
 kombinationsbehandling-1
+switching-1
 vissa-äldre-antipsykotiska-medel
+motoriska-biverkningar-av-anipsykotiska-läkemedel
 tardiv-dyskinesi
 psykotropa-läkemedel-vid-leverpåverkan
 anpassning-av-läkemedelsdoser
@@ -267,7 +270,11 @@ side-effects-anticholinergic
 antikolinerga-biverkningar-av-antipsykotiska-läkemedel
 antikolinerga-effekter-av-antidepressiva
 biverkningar-kopplade-till-andra-receptorer
+hudbiverkningar
 inverkan-på-kramptröskel
+antidepressiva-maudsley2018
+antipsykotiska-maudsley2018
+adhd-läkemedel-maudsley2018
 beskrivning-av-vissa-läkemedel
 beskrivning-av-biverkningar
 psykofarmakologi-tdp

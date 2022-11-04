@@ -185,7 +185,9 @@ ADHD in approximately half of children with the combined presentation and about 
 ## Läkemedel för ADHD {#adhd-medication}
 
 ```{r figure-adhd-medication-profiles } 
-pacman::p_load(data.table, ggplot2)
+
+## pacman::p_load(data.table, ggplot2)
+
 tbl <- fread('../notes/adhd-medication-profiles.csv')
 tbl[["ref"]] <- NULL
 names(tbl) <- gsub("_.*", "", names(tbl))
