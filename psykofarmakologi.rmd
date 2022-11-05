@@ -14,13 +14,107 @@
 
 - Följsamhet
 
-## Cytokromer
+### Likheter bland de flesta antidepressiva
 
-CYP2D6
+- Lipofila
+- Snabb absorbtion
+  - Maximal plasmakoncentration efter 2-3 tim
+- Binds i hög grad till plasmaproteiner
+- Hepatisk metabolism till metaboliter
+- Renal elimination av metaboliter
+- Hämmar minst en av CYParna
 
-CYP3A4
+```{r antidepressant-affinity, out.width = '75%', fig.cap = 'Antidepressiva läkemedels affinitet till vissa receptorer' } 
 
-Se  [@Kryger2017] avsnitt om TCA
+source('../notes/antidepressants-monoaminergic-affinity.r') 
+
+``` 
+ 
+
+## Metabolism av psykotropa läkemedel
+
+<!-- Pharmacokinetics and pharmacodinamics of psychotropic drugs: effect of sex Marazziti  [@Marazziti2013] -->
+
+Metabolismen av de flesta psykotropa läkemdel påverkas av cytokrom P450-systemet, samt andra enzymer och transportproteiner. Individuella skillnader i dessa (polymorfismer) kan påverka läkemedlens metabolism och interaktioner mellan läkemedel som påverkar (indeucerar, hämmar, eller metaboliseras av-) dessa system. Dock finns inte vetenskapligt stöd för att analys av individuella variationer i tex CYP-450 enzymer har någon klinisk användning. En delförklaring kan vara att de flesta läkemedel metaboliseras av flera CYPar. 
+
+<!-- CYP2D6 -->
+
+<!-- CYP3A4 -->
+
+För antidepressiva finns inte vetenskapligt stöd för att genotypning av CYP-450-enzymer skulle ha någon kliniska användbarhet. Det finns ej någor klart påvisat samband mellan CYP-genotyp och serumkoncentrationer, ej heller något klart påvisat samband mellan CYP-genotyp och effekt eller biverkningar [@Egapp2007]. Se [@Kryger2017] avsnitt om TCA.
+
+**Rökning** kan påverka metabolismen av psykotropa läkemedel. Exempelvis reduceras nivåerna av agomelatin, vissa bensodiazepiner, klozapin, duloxetin, haloperidol, olanzapin, och TCA [@Maudsley2018, p754].
+
+**Alkohol** kan påverka metabolismen av psykotropa läkemedel. Exempelvis kan nivåerna av aripiprazol, bensodiazepiner, klozapin, haloperidol, mirtazapin, kvetapin, risperidon, TAC och venlafaxin initialt bli högre pga kompetetiv metabolism med alkohol via CYP3A4. Induktion av detta enzym pga alkohol (kvarstår veckor efter avslutat alkoholintag) kan därefter leda till ökad metabolism av dessa läkemedel med minskad behandlingsffekt som följd [@Maudsley2018, p755]. 
+
+## Mätning av plasmakoncentrationer
+
+### Antidepressiva
+
+Det finns inte något vetenskapligt stöd för att definiera ett "terapeutiskt fönster" som kan tillämpas på individnivå. En möjlig orsak till detta är metodologiska problem i des tudier som gjorts (suboptimala mätmetoder, bristande följsamhet hos vissa, olika genes till depression, svårt att definiera respons pga olikheter i  symtom, måttlig efficacy för AD - stora material krävs).
+
+Trots olikheter mellan individer avseende metabolism av lökemedel saknas för antidepressiva läkemedel för ett samband mellan plasmakoncentration och respons [@Hiemke2019]. Mätning av serumkoncentrationer kan möjligen ha ett värde vid icke-respons, biverkningar vid normala doser, misstanke om låg följsamhet, interaktioner och vid graviditet (nivåerna av SSRI kan minska). Extremt låga eller -höga koncentrationer kan då möjligen vara vägledande (tex sertralin < 10 ng/mL kanske reducerad effekt?, sertralin > 150 ng/mL kanske ökad risk för toxicitet?), men terapeutiska referensintervall saknas. Vid behandling med TCA kan koncentrationsbestämning ibland vara av värde för att undvika toxiska nivåer [@Risch1981]. För en diskussion se [@Bengtsson2004].
+
+Möjligen kan mätning av förändring i serumkoncentration över tid på individnivå vara användbart i vissa fall [@Bengtsson2004].
+
+```{r antidepressant-monitoring-individual, out.width = '75%', fig.cap = 'Mätning av serumkoncentration av antidepressiva medel över tid hos en individ. Uppföljande prov (12v) jämförs med baslinjeprov (4v).' } 
+
+include_graphics('../dropbox/images/psychiatry/concentration_response_individual_bengtsson2004.png') 
+
+```
+
+### Antipsykotiska medel
+
+Situationer där mätning av plasmakoncentrationer kan ha värde  [@Schoretsanitis2020a]:
+
+1. Uncertain adherence to antipsychotics38
+2. No clinical response within established therapeutic dose ranges
+3. Symptom recurrence or relapse during maintenance treatment
+4. Adverse drug reactions (ADRs)
+5. Combination treatment with medication(s) with inducing or inhibiting properties
+6. Genetic peculiarities for the pathways involved in the metabolism of antipsychotics (the prevalence of specific genetic variants affecting drug metabolism may vary highly in different ethnic groups, eg, Caucasian versus Asian, middle Eastern vs the rest of the world)
+7. Patients with abnormally high or low body weight or body mass index
+8. Pregnant or lactating patients
+9. Child or adolescent patients
+10. Elderly patients
+11. Patients with intellectual disabilities
+12. Forensic patients or court mandated individuals as the treatment of this patient subgroup presents special challenges that underscore the need for tracking and mitigating nonadherence
+13. Patients with pharmacokinetically relevant comorbidities, such as hepatic or renal dysfunction and severe cardiovascular disease (affecting hepatic and renal blood flow)
+14. Patients with acute or chronic inflammatory conditions and infections
+15. Postoperative care for patients undergoing restrictive gastrointestinal resection or bariatric surgery
+16. Switching between the original preparation and generic forms of antipsychotics due to potential therapeutic equivalence differences, as well as related adherence aspects
+17. Switching between oral antipsychotics and LAIs
+18. Pharmacovigilance programs
+19. Research
+
+<!-- > Regarding plasma levels related to therapeutic effects, optimal concentrations have been established for clozapine (350-600 ng/mL), risperidone (20-60 ng/mL), and olanzapine (20-80 ng/mL) but not for the other new antipsychotics. Studies that included analyses of drug levels in blood reported mean concentrations of 68 ng/mL for quetiapine and 317 ng/mL for amisulpride under therapeutic doses of the antipsychotic drugs. [@Hiemke2004] -->
+
+<!-- Blood Levels to Optimize Antipsychotic Treatment in Clinical Practice: A Joint Consensus Statement of the American Society of Clinical Psychopharmacology and the Therapeutic Drug Monitoring Task Force of the Arbeitsgemeinschaft für Neuropsychopharmakologie und Pharmakopsychiatrie  [@Schoretsanitis2020a] -->
+
+
+
+```{r tdm-antipsychotics-table, caption = 'Therapeutic reference ranges for antipsychotic medications where TDM is recommended (level 1) and for antipsychotic available as LAI'} 
+
+tbl <- fread('../notes/tdm_antopsychotic_levels_schoretsanitis2020a.csv')
+
+colnames <- c("Drugs and active metabolite", "Therapeutic reference range (ng/mL)", "Laboratory alert level (ng/mL)")
+
+names(tbl) <- colnames
+
+knitr::kable(tbl)
+
+``` 
+
+Mätning av koncentration görs före morgondosen av läkemedlet vid steady-state (efter 4-5 halveringstider). Se [@Schoretsanitis2020a] för tabell med fler AP, halveringstider mm.
+
+
+### Läkemedel vid bipolärt syndrom
+
+För vissa läkemedel som används vid bipolärt syndrom finns ett värde i att mäta plasmakoncentrationer. Se avsnitt \@ref(medications-bipolar) och för litium avsnitt \@ref(lithium).
+
+## Individuella skillnader i effekt av olika antidepressiva?
+
+Det finns flera teoretiska argument för att olika individer skulle kunna svara olika väl på antidepressiv behandling (polymorfismer i CYP-systemet, polymorfismer receptorer; skillnader i -neuroanatomi, symtom, svårighetsgrad, samsjuklighet, kön, ålder, och genes). Klinisk erfarenhet tycks också underbygga detta. Trots det har man i vetenskapliga studier ej kunnat påvisa att någon enskild faktor förutsäger respons på visst antidepressivt läkemedel.
 
 ## SSRI vid graviditet och amning {#ssri-pregnancy}
 
@@ -42,6 +136,21 @@ Recognizing and Treating Peripartum Depression [@Liebermann2012]
 
 Identification and Management of Peripartum Depression [@Langan2016]
 
+Alla SSRI utsöndras i bröstmjölk (fallande ordning) [@Ulit2018]:
+- Fluoxetin
+- Citalopram/escitalopram
+- Paroxetin
+- Sertralin
+  - Sällan > 8ng/ml serumkonc. Högst 3% av moderns viktjusterade dygnsdos
+  - Försumbar effekt på serotonintransport hos barnet
+- Fluvoxamin
+- Möjligen ackumulering hos vissa barn
+- Symtom som kan förekomma (risken anses liten): 
+  - Skrikighet, sömnproblem, oro, myoklonus
+  - Inga belägg för byte av behandling
+  - Vid nyinsättning ge SSRI med låg passage till bröstmjölk
+
+
 ### Resurser
 
 NHS patient recommendations: https://www.nhs.uk/conditions/ssri-antidepressants/considerations/#pregnancy
@@ -51,6 +160,35 @@ Associations of Maternal Antidepressant Use During the First Trimester of Pregna
 ## Antidepressiva läkemedel {#antidepressant-meds}
 
 Se tabell 42-1 (farmakokinetik), 42-2 (receptorbindning) och 42-3 (polysomnografiska effekter) i [@Kryger2017].
+
+### Finns dos-respons?
+
+- Effektiviteten för SSRI ökar i intervallet 20-40 mg fluoxetinekvivalenter
+  - Däröver planar ut eller **minskar** [@Hieronymus2019;@Furukawa2019]
+  - Induktion av metabolism, saturation av receptorer, biverkningar
+- Tolerabilitet minskar (fler drop-outs) vid ökande doser i hela dosintervallet [@Hieronymus2019] 
+- Det finns minimalt vetenskapligt stöd för att öka dosen av ett SSRI när man tittar på totalpoängen för HDRS.
+  - Kan påverka symtomet nedstämt humör positivt
+- Sammanfattningsvis är låga till måttliga doser av SSRI optimala  [@Dold2017].
+- Terminologi:
+  - "Minsta effektiva dos": Sämre effekt under denna
+  - "Maximal effektiv dos": Där effektvinsten planar ut, "respons maximum"
+  - "Optimal dos": Balans mellan effekt och biverkningar
+
+**Tabell \@ref(antidepressant-dose-effective)** nedan visar minsta effektiva dos (sämre effekt under denna) och högsta effektiva dos (ej ökad effekt öve denna) för olik antidepressiva [@Maudsley2018;@Berney2005;@Bech2006;@Furukawa2019;@Christensen2021]. 
+
+```{r antidepressant-dose-effective, out.width = '75%', fig.cap = 'Minsta effektiva dos och dos som ger maximal respons för antidepressiva läkemedel. Asterisk* = Möjligen finns dos-respons upp till respons maximum.'} 
+
+tbl <- fread('../notes/antidepressant_dosing.csv')
+tbl <- tbl[select ==1, .(antidepressant, minimum_effective_dose, dose_response_above_med, dose_response_max)]
+tbl[minimum_effective_dose != dose_response_max, antidepressant := paste0(antidepressant, "*")]
+tbl <- tbl[!is.na(minimum_effective_dose), ]
+tbl <- tbl[, dose_response_above_med := NULL]
+names(tbl) <- c("Läkemedel", "Min effektiv dos", "Respons maximum")
+kable(tbl)
+
+``` 
+
 
 ### Tricykliska antidepressiva
 
@@ -74,7 +212,7 @@ Liothyronine for Depression: A Review and Guidance for Safety Monitoring touma  
 
 ## Antipsykotiska läkemedel {#antipsychotics}
 
-D2 occupancy 65% optimum.
+Klinisk effekt av antipsyotiska läkemedel har påvisats vid 65-90% bindinng till D2-receptrorn och risken för motoriska biverkningar ökar vid en bindningsgrad på 80% (vilket ses vid ungefär 6 mg/d för risperidon, 30 mg/d för olanzapin, och 160 mg/d för ziprasidone). D2 occupancy optimum kan vara 65% [@Farde1988]. 
 
 Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazole: a retrospective, cohort study [@Jukic2019].
 
@@ -196,6 +334,26 @@ Bilirubin har andra gränser vid PBC: < 68 mikromol/L, 68–171 mikromol/L, resp
 | C                    | Svår       | Konservativt, monitorera |
 
 Sammanfattningsvis innebär detta att vid kände leversvikt eller AST/ALT > x3 men frånvaro av ascites, hypoalbuminemi och med normalt bilirubin och PK, kan 75-100% av normaldosen användas.
+
+#### Vid leverscikt undvik läkemedel med...
+
+- Komplex metabolism eller aktiva metaboliter skapas i levern
+  - Tex amitriptylin, imipramin, venlafaxin, bupropion
+- Lång T1/2  eller slow-release (oförutsägbar faramkokinetik)
+  - Tex fluoxetin
+- Hög grad förstapassage-metabolism
+  - TCA, venlafaxin, sertralin
+- Hög grad proteinbindning
+  - Fluoxetin
+- Högst risk för leverpåverkan 
+  - Imipramin, amitriptylin, duloxetin, bupropion, agomelatin, venlafaxin
+  - Mirtazapin ger sämre lever-prognos? [@Shaheen2021]
+- Risk för allvarlig toxicitet (dock ovanligt) 
+  - Duloxetin
+
+Exempel på dosering escitalopram (dubblad halveringstid vid cirrhos) är att starta lågt (5 mg) i två veckor och ej överskrida 10 mg, duloxetin starta 10 mg och tritrera gradvis till 20 mg (40 mg?) [@Uptodate2022].
+
+Referenser [@Voican2014;@Telles2017]
 
 ### Leverpåverkan från psykotropa läkemedel
 
@@ -1006,7 +1164,7 @@ p <- ggplot(data=tbl, aes(x=hr, y=qt)) +
         breaks = seq(20, 160, by = 20),
         minor_breaks = seq(20, 160, by = 10),
         limits = c(20, 160)
-    ) + xlab("Hjärtfrekvens (bpm)") + ylab("QT-tid (msek)")
+    ) + xlab("Hjärtfrekvens (bpm)") + ylab("QT-tid (ms)")
 
 
 ``` 
@@ -1033,14 +1191,13 @@ Några riskfaktorer för TdP [@Socialstyrelsen2019tdp]:
   - D-vitaminbrist [@Woosley2022]
   - Överdrivet lakritsintag [@Woosley2022]
 
-Om två eller fler riskfaktorer föreligger rekommenderas EKG före och efter insättning [@Socialstyrelsen2019tdp]. Om QTc > 459 mm (alternativt använd [ett  QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446)) bör man välja icke-TdP-läkemedel.
+Om två eller fler riskfaktorer föreligger rekommenderas EKG före och efter insättning [@Socialstyrelsen2019tdp]. Om QTc > 459 mm (alternativt använd [ett  QT-nomogram](https://www.researchgate.net/figure/QT-nomogram-QT-HR-pairs-are-plotted-and-if-they-are-above-the-line-they-are_fig1_272517446)) bör man välja icke-TdP-läkemedel. QT-nomogrammet kan vara mer förlåtande.
 
-```{r qt-nomogram, out.width = '75%', fig.cap = 'QT-nomogram'} 
+```{r qt-nomogram, out.width = '75%', fig.cap = 'QT-nomogram. Para ihop QTT med hjärtfrekvens. Om intersektionen är över linjen föreligger risk för TdP.'} 
 
 p
 
-``` 
-**Figur:** QT-nomogram. Para ihop QTT med hjärtfrekvens. Om de är över linjen föreligger risk för TdP.
+```
 
 Läkemedel kan klassificeras utifrån risken att de orsakar TdP i sk TdP-klasser:
 

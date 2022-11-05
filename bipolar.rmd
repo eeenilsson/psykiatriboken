@@ -99,7 +99,7 @@ p
 
 ``` 
  
-Subsyndromalt 3 ggr vanligare än syndromalt
+Subsyndromalt 3 ggr vanligare än syndromalt.
 
 #### Sjukdomsbörda i samhället
 
@@ -879,7 +879,7 @@ kable(x,
 
 ``` 
 
-### Läkemedel vid bipolärt syndrom
+### Läkemedel vid bipolärt syndrom {#medications-bipolar}
 
 **Litium:** Har FDA-indikation för behandling av manisk episod och underhållsbehandling (längre tid till återfall). Halveringstiden är 12 tim initialt men 24 tim vid steady state (efter ca 5 dagar). Kvoten dos/plasmakoncentration är högre vid pågående mani, yngre ålder, högre koppsvikt (ffa muskelmassa), och högre saltintag. Den påverkas även av njurfunktion, vätskeförlust, och samtidig medicinering. En systematisk litteraturgenomgång visade att 0.9 mmol/L är lägsta effektiva nivå vid mani, och att nivåer över 1.4 ej ger bättre effekt. Tänk på att mani medför lägre litiumnivå, varför dosen bör sänkas efter skovet med sikte på serumkoncentration 0.6-0.8 mmol/L [@Goodwin2007, kap 17]. Litium är lika effektivt som andra antimaniska läkemedel över en treveckorsperiod. Antidepressiv effekt av litium kan komma efter 1-2 veckor men dröjer ofta 3-5 veckor. Vid akut bipolär depression rekommenderas CANMAT målkoncentration 0.8-1.2 mM/L [@Yatham2018].
 

@@ -16,6 +16,7 @@ fig:mesolimbic-pathway
 fig:hypophysis-organization
 fig:neuroendocrine-tuberoinfundibular-system
 fig:neoroendocrine-neuron-glandular-cells
+fig:antidepressant-monitoring-individual
 fig:antipsychotics-dosing-interval
 fig:antipsychotics-side-effects
 fig:antipsychotics-anticholinergic
@@ -144,7 +145,7 @@ treatment-factors-depression
 antidepressiva-läkemedel-vid-bipolärt-syndrom
 augmentation-med-thyrodeahormon
 treatment-factors-prevention
-läkemedel-vid-bipolärt-syndrom
+medications-bipolar
 bipolär-typ-ii---behandling
 canmat-2018-akut-bpii-depression
 canmat-2018-underhållsbehandling-bp-ii
@@ -199,10 +200,17 @@ neuroendokrinologi
 resurser-2
 psychopharmacology
 allmänna-principer
-cytokromer
+likheter-bland-de-flesta-antidepressiva
+metabolism-av-psykotropa-läkemedel
+mätning-av-plasmakoncentrationer
+antidepressiva-1
+antipsykotiska-medel
+läkemedel-vid-bipolärt-syndrom
+individuella-skillnader-i-effekt-av-olika-antidepressiva
 ssri-pregnancy
 resurser-3
 antidepressant-meds
+finns-dos-respons
 tricykliska-antidepressiva
 bupropion
 antipsychotics
@@ -215,6 +223,7 @@ motoriska-biverkningar-av-anipsykotiska-läkemedel
 tardiv-dyskinesi
 psykotropa-läkemedel-vid-leverpåverkan
 anpassning-av-läkemedelsdoser
+vid-leverscikt-undvik-läkemedel-med
 leverpåverkan-från-psykotropa-läkemedel
 lithium
 historik-1
@@ -361,3 +370,4 @@ gemensamma-bestämmelser-om-vården
 resurser-5
 epilog
 ordlista
+referenser-2
