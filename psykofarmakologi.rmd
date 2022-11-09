@@ -175,7 +175,7 @@ Se tabell 42-1 (farmakokinetik), 42-2 (receptorbindning) och 42-3 (polysomnograf
   - "Maximal effektiv dos": Där effektvinsten planar ut, "respons maximum"
   - "Optimal dos": Balans mellan effekt och biverkningar
 
-**Tabell \@ref(antidepressant-dose-effective)** nedan visar minsta effektiva dos (sämre effekt under denna) och högsta effektiva dos (ej ökad effekt öve denna) för olik antidepressiva [@Maudsley2018;@Berney2005;@Bech2006;@Furukawa2019;@Christensen2021]. 
+**Tabell \@ref(tab:antidepressant-dose-effective)** nedan visar minsta effektiva dos (sämre effekt under denna) och högsta effektiva dos (ej ökad effekt öve denna) för olik antidepressiva [@Maudsley2018;@Berney2005;@Bech2006;@Furukawa2019;@Christensen2021]. 
 
 ```{r antidepressant-dose-effective, out.width = '75%', fig.cap = 'Minsta effektiva dos och dos som ger maximal respons för antidepressiva läkemedel. Asterisk* = Möjligen finns dos-respons upp till respons maximum.'} 
 
@@ -216,21 +216,48 @@ Klinisk effekt av antipsyotiska läkemedel har påvisats vid 65-90% bindinng til
 
 Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazole: a retrospective, cohort study [@Jukic2019].
 
-Figur \@ref(fig:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel. Intervallet som visas är mellan minsta effektiva dos och högsta effektiva dos med måldosen som punktestimat och maxdosen i rött. Inom klamrar anges dosen i milligram: [minsta effektiva dos, måldos, högsta effektiva dos]. Källa: Maudsley och FASS.
+Tabell \@ref(tab:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel [@Maudsley2018;@Fass2020].
 
-```{r antipsychotics-dosing-interval, fig.cap = "Doseringsintervall för antipsykotiska läkemedel" } 
+```{r antipsychotics-dosing-interval } 
+getwd()
+source('varnames.r')
+antipsychotics <- read_csv('../notes/antipsychotics-annotated.csv')
 
-source('antipsychotics-dosing-interval.r', print.eval=TRUE)
+antipsychotics%>%
+    filter(select == 1) -> antipsychotics
+
+antipsychotics%>%
+    select(drug, dose_effective_min, dose_effective_target, dose_effective_limit, dose_max)%>%
+    filter(!drug %in% c("Perphenazine", "Zuclopenthixol"))-> tmp
+
+tmp$drug <- tolower(tmp$drug)
+tmp$drug <- query_label(tmp$drug, varnames)
+
+tmp <- tmp[order(tmp$dose_effective_min),]
+
+names(tmp) <- c("Läkemedel", "Minsta effektiva dos", "Måldos", "Max effektiv dos", "Maxdos" )
+
+knitr::kable(tmp, align = c('lcccc'), caption = 'Doseringsintervall för antipsykotiska läkemedel. Minsta effektiva dos är den dos under vilken effekten sannolikt är begränsad. Max effektiv dos är den dos över vilken ytterligare effekt ej kan förväntas.')
 
 ``` 
+
+
+<!-- Figur \@ref(fig:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel. Intervallet som visas är mellan minsta effektiva dos och högsta effektiva dos med måldosen som punktestimat och maxdosen i rött. Inom klamrar anges dosen i milligram: [minsta effektiva dos, måldos, högsta effektiva dos]. Källa: Maudsley och FASS. -->
+
+<!-- ```{r antipsychotics-dosing-interval, fig.cap = "Doseringsintervall för antipsykotiska läkemedel" }  -->
+
+<!-- source('antipsychotics-dosing-interval.r', print.eval=TRUE) -->
+
+<!-- ```  -->
+
 
 Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Mång av biverkningarna är dosberoende. Källa: Maudsley.
 
-```{r antipsychotics-side-effects, fig.cap = "Relativ risk för biverkningar av antipsykotiska läkemedel" } 
+```{r antipsychotics-side-effects, fig.cap = "Relativ risk för biverkningar av antipsykotiska läkemedel", out.width = "75%"}
 
 source('antipsychotics-side-effects.r', print.eval=TRUE)
 
-``` 
+```
 
 ### Dosering
 
@@ -600,13 +627,13 @@ En stor andel (20-30 %) av personer med schizofreni får otillräcklig respons p
 Klozapin har även visad effekt mot: 
 
 - Psykogen polydipsi
-- Suicidalitet $\dag$ (här är det bättre än tex olanzapin)
-- Aggression $\dag$
+- Suicidalitet (här är det bättre än tex olanzapin)
+- Aggression
 - Behandlingsresistent mani (i kombination med stämningsstabiliserande läkemedel)
 - Bipolärt syndrom utan psykos
 - Psykos vid Parkinsons sjukdom (i låg dos)
 
-$\dag$ Dessa effekter är oberoende av den antipsykotiska effekten.
+Dessa effekter är oberoende av den antipsykotiska effekten.
 
 Klozapin medför risk för flera biverkningar, bland annat viktuppgång, men det är värt att notera att trots detta ger det lägre risk för död än andra alternativ.
 
@@ -647,9 +674,7 @@ Det finns vetanskapligt stöd för att kozapin har effekt vid mani som ej svarat
 
 Mer än 50% av personer med Parkinsons sjukdom drabbas av sk "Parkinson's disease psychosis" (PDP), som beror på förlust av serotonerga neuron i mesencephalon. Eftersom andra antipsykotiska medel orsakar motoriska problem för personer med Parkinsons sjukdom är klozapin att föredra, och är då effektivt i låga doser (medel kring 25 mg/d). Det kan även hjälpa mot levodopa-inducerade dyskinesier (med liknande dos).
 
-### Monitorering
-
-#### Baslinje
+### Kontroller vid baslinje
 
 Temperatur: Upp till 20% får benign feber under de första veckorna. Vid temp > 38 eftersök orsak och vänta med upptitrering.
 
@@ -676,27 +701,151 @@ Anamnes:
 - Förstoppning (måste behandlas före insättning av klozapin)
 - Hjärtstvikt (måste behandlas före insättning av klozapin)
 
-#### Monitorering under behandling
+### Monitorering under behandling
 
-#### Serumkoncentrationer
+Prolaktin ökar ej av klozapin [@Kar2016].
 
-Vid behandlingsresistent schizofreni anses 1070 nmol/L vara övre gräns för respons, dvs den nivå över vilken ytterligare effekt är osannolik, men upp till 3057 nmol/L kan provas.
+<!-- The side effects have been found as potential reasons -->
+<!-- for clozapine discontinuation, which include: neutropenia -->
+<!-- or agranulocytosis, thrombocytopenia, electrocardiogram -->
+<!-- (ECG) changes, QTc prolongation, tachycardia, atrial -->
+<!-- flutter, myocarditis, cardiomyopathy, fever, syncope, dia- -->
+<!-- betes mellitus, diabetic ketoacidosis, diabetic hyper- -->
+<!-- osmolar coma, neuroleptic malignant syndrome, ileus, -->
+<!-- liver enzyme elevation and seizure.1  [@Kar2016] -->
+
+Vid hospitalisering pga somatisk sjukdom (särskil infektion) reducera dosen med 50%.
 
 ### Titrering
 
-Observera att ickerökare uppnär 50% högre koncentration än rökare vid samma dos.
+Observera att ickerökare uppnär 50% högre koncentration än rökare vid samma dos. Rökning har därför betydelse för hur snabbt läkemedlet titreras.
 
-Trots en halveringstid på 9-17 tim är dosering till kvällen lika effektivt som uppdelade doser (metaboliten norklozapin har en halveringstid på 20 tim). Det är att föredra eftersom det minskar sedering dagtid.
+Hela dosen kan ges till kvällen (up till 500 mg?). Trots en halveringstid på 9-17 tim är dosering till kvällen lika effektivt som uppdelade doser (metaboliten norklozapin har en halveringstid på 20 tim). Det är att föredra eftersom det minskar sedering dagtid. 
 
-Tabell: Snabb titrering (för sjukhusvårdad person)
-| Dag | Rökare | Icke-rökare |
-|-----|--------|-------------|
-|     |        |             |
-|     |        |             |
-|     |        |             |
-Hela dosen kan ges till kvällen
 
-Tag plasmakoncentration 5-7 dagar efter att måldosen upnätts.
+```{r clozapine-dosing } 
+
+tbl <- fread('../notes/clozapine_dosing.csv')
+
+cols <- c("dose_inpatient_smoker", "dose_outpatient_smoker")
+tbl[ , (cols) := lapply(.SD, roundtable), .SDcols = cols]
+
+tbl_inpatient <- tbl[select_inpatient == 1, c("day", "dose_inpatient_smoker", "dose_inpatient_nonsmoker")]
+names(tbl_inpatient) <- c("Dag", "Dosering rökare", "Dosering ickerökare")
+
+tbl_outpatient <- tbl[select_outpatient == 1, c("day", "dose_outpatient_smoker", "dose_outpatient_nonsmoker")]
+names(tbl_outpatient) <- c("Dag", "Dosering rökare", "Dosering ickerökare")
+
+``` 
+
+Tabell \@ref(tab:clozapine-dosing-inpatient) visar dosering med snabb upptitrering, som kan användas vid inneliggande vård.
+
+
+```{r clozapine-dosing-inpatient } 
+
+knitr::kable(tbl_inpatient, align = c('lcc'), caption = 'Snabb titrering av klozapin (för sjukhusvårdade)')
+
+``` 
+
+Tabell \@ref(tab:clozapine-dosing-outpatient) visar dosering med normal upptitrering, lämpligt vid poliklinik behandling.
+
+```{r clozapine-dosing-outpatient } 
+
+knitr::kable(tbl_outpatient, align = c('lcc'), caption = 'Titrering av klozapin (för icke-sjukhusvårdade)')
+
+``` 
+
+Fortsatt titrering (50 mg per dosökning) styrs av klinisk respons (utvärderas 2-3 v efter dosändring) och plasmakoncentrationer. Tag första plasmakoncentration (dalvärde) 5-7 dagar efter att måldosen upnåtts. Notera at norklozapin ej uppnår steady state förrän efter en månad, varför monitorering av norklozapin blir meningsfull först när patienten stått på klozapin ett tag.
+
+### Serumkoncentrationer
+
+Det finns en stor variation mellan individer i metabolismen av klozapin. Monitorering av serumkoncentrationer används därför för att styra doseringen. Detta mäts som dalvärde vid steady-state (5-7 dagar stabil dosering), helst 12 tim (+- 2 tim) efter kvällsdosen, före morgondosen vid tvådosförfarande. Förskjutning med upp till 4 tim förändrar inte värdena påtagligt. Viktigt att ta vid samma tidpunkt mellan olika mätningar, så om en patient har svårt att ta provet ett visst klockslag kan det vara att föredra att det tas tex 14 tim efter dos varje gång.
+
+De flesta biverkningar är relaterade till dos eller plasmakoncentration av klozapin (inklusive kramper, slöhet, hypersalivering, takycardi och minskad tarmmotilitet) och kan minskas av långsam upptitrering eller dosreduktion. Neutropeni och agranulocytos är ej dosberoende biverkningar.
+
+Variation över tid hos en individ med stabil dosering kan variera med ca 30% varför upprepade mätningar är av värde för att styra dosering. Fluktuationer > 50% kan signallera bristande följsamhet.
+
+Terapeutisk koncentration anses vara 350–600 ng/ml klozapin, 100-600 ng/ml norklozapin och > 450 ng/ml klozapin + norklozapin. Vissa har effekt på lägre nivåer emedan andra behöver högre nivåer. Toxiska nivåer > 1200 ng/ml (3668 nmol/L). Vid behandlingsresistent schizofreni anses 1070 ng/ml (3057 nmol/L) vara övre gräns för respons, dvs den nivå över vilken ytterligare effekt är osannolik. referensvärden baseras i studier vanligen på dalvärden vid dosering två gånger per dygn (12-h värde). Tolerabilteten minskar vid nivåer 700-1000 ng/ml (2140-3057 mmol/L). Klinisk respons på viss terapeutisk nivå kan komma efter 17 (SD 14, range 2-56) dagar. Nivå klozapin är bättre korellerade med klinisk effekt än summan klozapin + norklozapin.
+
+Tabell \@ref(tab:clozapine-plasma-level) visar terapeutiska intervaller för klozapin. Konvertering mellan standardenheter och SI-enheter kan göras enligt följande: klozapin (nmol/L) x 0.33 = ng/mL, norklozapin (nmol/L) x 0.31 = ng/mL.
+
+```{r clozapine-plasma-level, caption = 'Terapeutiska koncentrationer av klozapin.' } 
+
+## ## ng/ml to nmol/L multiply by:
+## ng_nm <- 0.32683
+
+## ## from nmol/L to ng/ml
+## nm_ng <- 3.057
+
+## 1200 * nm_ng
+
+tbl <- fread('../notes/clozapine_concentrations.csv')
+tbl[, substance := "Klozapin"]
+tbl[, unit := gsub("_", "/", unit)]
+names(tbl) <- query_label(names(tbl), varnames)
+
+knitr::kable(tbl)
+
+## , caption = 'Terapeutiska nivåer av klozapin.'
+
+```
+
+**Koncentrationsstyrd dosjustering:**
+
+Se [@Schoretsanitis2020a].
+
+- Om behandlingseffekten är otillräcklig och biverkningarna tolerabla, öka dosen om plasmakoncentrationen <600 ng/ml.
+  - Långsam ökning vid konc > 350 ng/ml
+  - Vid ökning som ger plasmakonc > 600 ng/ml överväg atiepileptiskt profylax
+- Stanna vid tillräcklig behandlingseffekt (även om plasmakonc är subterapeutisk) och fortsätt monitorera koncentrationerna.
+- Vid intolerabla biverkningar kan man vänta och se om de bättras spontant.
+  - Vid samtidig plasmakonc > 600 ng/ml rekommenderas dock direkt långsam minskning av dosen.
+
+**Metaboliska kvoten klozapin/norklozapin:** Norklozapin (terapeutiskt intervall 100-600 ng/ml) mäts främst för att följa metaboliska ration (MR) clozapin/norklozapin (som påverkas av CYP 1A2 - aktivitet). Kvoten bör ligga konstant över tid (förutsatt att provtagning är vid samma tidpunkt på dygnet plusminus 2 tim). Om den förändras kan det bero på att en inducerare (tex rökning, karbamazepin, omeprazol, ger MR <1.0) eller hämmare (tex ciprofloxacin, ger MR >2) av CYP1A2 tillkommit, eller vid infektioner (höjer kvoten till >3.0, range 1.4-8.6). Ickerökare med snabb metabolism via CYP1A2 har medelvärde för kvoten = 1.32. Dosändring ändrar ej kvoten (utom vid överdosering som kan ge saturation av CYP1A2). Metabolism via 2D6, 2C19 och 3A4 sker också. En förhöjd kvot > 2.5 kan bero på inkomplett absorbtion av klozapin eller att metabolismen av klozapin blivit saturerad (för hög dos för individen eller interaktion enligt ovan). En kvot <0.5 kan indikera bristande förljsamhet inom de senaste 24 timmarna.
+
+Tobaksrökning inducerar metabolismen av klozapin. Koffein hämmar CYP-1A2 och ökar således plasmakoncentrationen (minskar med upp till 50 % efter ett femdagars uppehåll i kaffedrickande). Tabell \@ref(tab:clozapine-metabolism-inducers) visar exempel på läkemedel mm som inducerar eller inhiberar metabolisman av klozapin via CYP-1A2.
+
+```{r clozapine-metabolism-inducers } 
+
+source('../notes/tableCompoundCyp.r')
+dta <- fread('../notes/cyp-database.csv')
+tbl <- tableCompoundCyp("clozapine", dta)
+
+knitr::kable(tbl$body, caption = tbl$cap)
+``` 
+`r tbl$footer ` 
+
+### Biverkningar av klozapin
+
+Klozapin är en antagonist för histamin-1-receptorn (sedering och viktuppgång), alfa-1-receptorn (ortosatatism) och muskarinreceptorerna M1 och M3 (ger förstoppning). Det är en agonist (?) för M1-M5 (siallorrhe).
+
+Biverkningar förebyggas,  uppmärksammas, och behandlas.
+
+Förebygg genom att tex ge läkemedel mot förstoppning, utsättning av andra läkemedel som ger ökad risk för samma biverkningar (tex antikolinerga medel).
+
+#### Antikolinerga biverkningar av klozapin
+
+TODO: Något om farmakodynamiken vid olika M-receptorer.
+
+För mer om antikolinerga biverkningar, se **avsnitt \@ref(side-effects-anticholinergic)**.
+
+##### Sialorrhé
+
+Ökad salivproduktion är en tidig biverkan.
+
+##### Motoriska biverkningar
+
+Klozapin medför låg risk för motoriska biverkningar. Det gäller även tex Kvetiapin, men detta läkemedel är ofördelaktigt avseende mortalitet och sjukhusinläggningar vid schizofreni.
+
+Vid tardiv dyskinesi kan VMAT2-hämmare vara att föredra framför byte av antipsykotiskt medel.
+
+Vid akatisi kan byte till klozapin övervägas.
+
+##### Kardiella biverkningar
+
+Notera att Bazetts formel för beräkning av QTc överkorrigerar, så använd annan beräkningsmetod, tex QT-nomogram.
+
+
 
 ### Sömnmedel {#sleep-meds}
 
@@ -843,35 +992,7 @@ Lis of bz https://en.wikipedia.org/wiki/List_of_benzodiazepines
 
 Anxiolytic vs sedative https://www.emcdda.europa.eu/publications/drug-profiles/benzodiazepines_en
 
-Drug Class Review Benzodiazepines in the Treatment of Anxiety Disorder https://medicaid.utah.gov/pharmacy/ptcommittee/files/Criteria%20Review%20Documents/2016/2016.11%20Benzodiazepines%20in%20Anxiety%20Drug%20Class%20Review.pdf
-
-### Biverkningar av klozapin
-
-Biverkningar förebyggas,  uppmärksammas, och behandlas.
-
-Förebygg genom att tex ge läkemedel mot förstoppning, utsättning av andra läkemedel som ger ökad risk för samma biverkningar (tex antikolinerga medel).
-
-#### Antikolinerga biverkningar av klozapin
-
-TODO: Något om farmakodynamiken vid olika M-receptorer.
-
-För mer om antikolinerga biverkningar, se **avsnitt \@ref(side-effects-anticholinergic)**.
-
-##### Sialorrhé
-
-Ökad salivproduktion är en tidig biverkan.
-
-##### Motoriska biverkningar
-
-Klozapin medför låg risk för motoriska biverkningar. Det gäller även tex Kvetiapin, men detta läkemedel är ofördelaktigt avseende mortalitet och sjukhusinläggningar vid schizofreni.
-
-Vid tardiv dyskinesi kan VMAT2-hämmare vara att föredra framför byte av antipsykotiskt medel.
-
-Vid akatisi kan byte till klozapin övervägas.
-
-##### Kardiella biverkningar
-
-Notera att Bazetts formel för beräkning av QTc överkorrigerar, så använd annan beräkningsmetod, tex QT-nomogram.
+ Drug Class Review Benzodiazepines in the Treatment of Anxiety Disorder https://medicaid.utah.gov/pharmacy/ptcommittee/files/Criteria%20Review%20Documents/2016/2016.11%20Benzodiazepines%20in%20Anxiety%20Drug%20Class%20Review.pdf
 
 
 

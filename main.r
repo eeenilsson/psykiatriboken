@@ -10,7 +10,9 @@ setwd('../psykiatriboken/')
 ## Packages
 ## install.packages("pacman")
 pacman::p_load(knitr, rmarkdown, bookdown, kableExtra)
-detach(package:plyr)
+if("plyr" %in% (.packages())){
+  detach("package:plyr", unload=TRUE) 
+}
 ## install.packages("kableExtra")
 ## install.packages("bookdown")
 ## install.packages("huxtable")

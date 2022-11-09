@@ -56,10 +56,13 @@ common_varnames <- c(
     'quetiapine' = "Kvetiapin",
     'fluphenazine' = "Flufenazin",
     'flupenthixol' = "Flupentixol",
+    'flupentixol' = "Flupentixol",
     'haloperidol' = "Haloperidol",
     'risperidone' = "Risperidon",
     'aripiprazole' = "Aripiprazol",
     'ziprasidone' = "Ziprasidon",
+    'lurasidone' = "Lurasidon",
+    'cariprazine' = "Kariprazin",
     
     ## statistical notation
     'mean' = "M",
@@ -75,7 +78,14 @@ common_varnames <- c(
     'depression' = "Depression",
     'features_mania' = "Särskilt vid",
     'features_depression' = "Särskilt vid",
-    'features_prevention' = "Särskilt vid"    
+    'features_prevention' = "Särskilt vid",
+    'substance' = "Substans",
+    'unit' = "Enhet",
+    'therapeutic_lower' = "Nedre terapeutisk nivå",
+    'therapeutic_upper' = "Övre terapeutisk nivå",
+    'therapeutic_max' = "Maximal terapeutisk nivå",
+    'toxic' = "Toxisk nivå"
+
     
 
 )
