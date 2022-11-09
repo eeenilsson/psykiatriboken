@@ -47,7 +47,7 @@ common_varnames <- c(
     'binding_affinity' = "Affinitet (Ki)",
 
     ## svenska namn
-    'clozapine' = "Clozapin",
+    'clozapine' = "Klozapin",
     'thioridazine' = "Thioridazin",
     'chlorpromazine' = "Klorpromazin",
     'methotrimeprazine' = "Metotrimeprazin",

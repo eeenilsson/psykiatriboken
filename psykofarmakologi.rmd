@@ -93,7 +93,7 @@ Situationer där mätning av plasmakoncentrationer kan ha värde  [@Schoretsanit
 
 
 
-```{r tdm-antipsychotics-table, caption = 'Therapeutic reference ranges for antipsychotic medications where TDM is recommended (level 1) and for antipsychotic available as LAI'} 
+```{r tdm-antipsychotics-table, cap = 'Therapeutic reference ranges for antipsychotic medications where TDM is recommended (level 1) and for antipsychotic available as LAI'} 
 
 tbl <- fread('../notes/tdm_antopsychotic_levels_schoretsanitis2020a.csv')
 
@@ -101,7 +101,7 @@ colnames <- c("Drugs and active metabolite", "Therapeutic reference range (ng/mL
 
 names(tbl) <- colnames
 
-knitr::kable(tbl)
+knitr::kable(tbl, align = c('lcc'))
 
 ``` 
 
@@ -137,6 +137,7 @@ Recognizing and Treating Peripartum Depression [@Liebermann2012]
 Identification and Management of Peripartum Depression [@Langan2016]
 
 Alla SSRI utsöndras i bröstmjölk (fallande ordning) [@Ulit2018]:
+
 - Fluoxetin
 - Citalopram/escitalopram
 - Paroxetin
@@ -177,7 +178,7 @@ Se tabell 42-1 (farmakokinetik), 42-2 (receptorbindning) och 42-3 (polysomnograf
 
 **Tabell \@ref(tab:antidepressant-dose-effective)** nedan visar minsta effektiva dos (sämre effekt under denna) och högsta effektiva dos (ej ökad effekt öve denna) för olik antidepressiva [@Maudsley2018;@Berney2005;@Bech2006;@Furukawa2019;@Christensen2021]. 
 
-```{r antidepressant-dose-effective, out.width = '75%', fig.cap = 'Minsta effektiva dos och dos som ger maximal respons för antidepressiva läkemedel. Asterisk* = Möjligen finns dos-respons upp till respons maximum.'} 
+```{r antidepressant-dose-effective, out.width = '75%'} 
 
 tbl <- fread('../notes/antidepressant_dosing.csv')
 tbl <- tbl[select ==1, .(antidepressant, minimum_effective_dose, dose_response_above_med, dose_response_max)]
@@ -185,7 +186,7 @@ tbl[minimum_effective_dose != dose_response_max, antidepressant := paste0(antide
 tbl <- tbl[!is.na(minimum_effective_dose), ]
 tbl <- tbl[, dose_response_above_med := NULL]
 names(tbl) <- c("Läkemedel", "Min effektiv dos", "Respons maximum")
-kable(tbl)
+kable(tbl, align = c('lcc'), caption = 'Minsta effektiva dos och dos som ger maximal respons för antidepressiva läkemedel. Asterisk* = Möjligen finns dos-respons upp till respons maximum.')
 
 ``` 
 
@@ -219,7 +220,7 @@ Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazo
 Tabell \@ref(tab:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel [@Maudsley2018;@Fass2020].
 
 ```{r antipsychotics-dosing-interval } 
-getwd()
+
 source('varnames.r')
 antipsychotics <- read_csv('../notes/antipsychotics-annotated.csv')
 
@@ -237,10 +238,12 @@ tmp <- tmp[order(tmp$dose_effective_min),]
 
 names(tmp) <- c("Läkemedel", "Minsta effektiva dos", "Måldos", "Max effektiv dos", "Maxdos" )
 
-knitr::kable(tmp, align = c('lcccc'), caption = 'Doseringsintervall för antipsykotiska läkemedel. Minsta effektiva dos är den dos under vilken effekten sannolikt är begränsad. Max effektiv dos är den dos över vilken ytterligare effekt ej kan förväntas.')
+knitr::kable(tmp, align = c('lcccc'), caption = 'Doseringsintervall för antipsykotiska läkemedel.')
 
 ``` 
+Måldos bör i allmänhet vara vara minsta effektiva dos för att minimera biverkningar. Minsta effektiva dos är den dos under vilken effekten sannolikt är begränsad. Max effektiv dos är den dos över vilken ytterligare effekt ej kan förväntas. Dessa doseringar gäller vid psykos. Vid depression och bipolärt syndrom kan andra måldoser gälla.
 
+Se \@ref(tab:tdm-antipsychotics-table) för mätning av serumkoncentrationer av antipsykotiska läkemedel.
 
 <!-- Figur \@ref(fig:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel. Intervallet som visas är mellan minsta effektiva dos och högsta effektiva dos med måldosen som punktestimat och maxdosen i rött. Inom klamrar anges dosen i milligram: [minsta effektiva dos, måldos, högsta effektiva dos]. Källa: Maudsley och FASS. -->
 
@@ -251,19 +254,279 @@ knitr::kable(tmp, align = c('lcccc'), caption = 'Doseringsintervall för antipsy
 <!-- ```  -->
 
 
-Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Mång av biverkningarna är dosberoende. Källa: Maudsley.
+Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Många av biverkningarna är dosberoende. Källa: Maudsley.
 
-```{r antipsychotics-side-effects, fig.cap = "Relativ risk för biverkningar av antipsykotiska läkemedel", out.width = "75%"}
+```{r antipsychotics-side-effects, fig.cap = "Relativ risk för biverkningar av antipsykotiska läkemedel", out.width = "95%"}
 
 source('antipsychotics-side-effects.r', print.eval=TRUE)
 
 ```
 
-### Dosering
+### Motoriska biverkningar
 
-Måldos bör vara minsta effektiva dos (se tabell). 
+- Dosberoende
+  - Smalt terapeutiskt intervall
+- Anses vanligare med FGA
+  - ...men doseringen har stor betydelse
+- Mindre vanligt med:
+  - Klozapin, olanzapin, kvetiapin
+  - Aripiprazol
+ 
+Riskfaktorer:
 
-### FGA vs SGA
+- Drogbruk (dystoni, akatisi, TD)
+- Alkohol (akatisi)
+- Ålder, kön
+
+Referens [@Maudsley2018]
+
+<!-- Se tabell UpToDate för biv profil m olika läkemedel: https://www.uptodate.com/contents/second-generation-antipsychotic-medications-pharmacology-administration-and-side-effects/print -->
+
+Tabell: Ungefärlig incidens av motoriska biverkningar
+
+| Biverkan         | %     | Debut                     |
+|------------------|-------|---------------------------|
+| Akut dystoni     | 0.4   | t-d. 50% inom 48h, 95% 5d |
+| Katatoni         | 0.005 | t-d                       |
+| MNS              | 0.002 | t-d                       |
+| Parkinsonism     | 10    | d-m. 50% inom 1m, 90% 3m  |
+| Akatisi          | 30    | d-m. 50% inom 1m, 90% 3m  |
+| Tardiv dyskinesi | 24    | m-år. 5% per år           |
+| Tardiv dystoni   | 2     |                           |
+
+Ungefärlig incidens vid användning av första generationens antipsykotiska medel. Debut räknas från tiden för start eller dosökning av ett antipsykotiskt läkemedel. Förkortningar: t, timmar; d, dagar; m, månader
+
+Förekommer även utan AP, vid obehandlad schizofreni: Dystoni 1%, dyskinesi 9% (vid längre duration), parkinsonism 8% (17% vid längre duration), akatisi 11%
+
+#### (Akut) Dystoni
+
+Muskelspasm i någon kroppsdel
+
+- Kontinuerlig eller intermittent
+- Oftast nacke, huvud, och bål
+- Kan vara smärtsam
+- Duration sek-tim; 24-48 tim efter avslut
+- Debut 95% inom 5d
+
+Exempel:
+
+  - Oculogyrus (ögonen dras uppåt)
+  - Torticollis (huvud och nacke dras åt sidan)
+  - Dysfagi (sväljsvårigheter)
+  - Dysartri (sluddrigt tal, talsvårighet)
+  - Trismus (grimasering) $\rightarrow$ tungan ut
+  - Blefarospasm (hopknipna ögon)
+
+<!-- Prevalens: 5-10%. Ovanligt hos äldre. Dosberoende (?). Sällan med klozapin. -->
+<!-- Debut: minuter (om im eller iv) - timmar - år -->
+
+Riskfaktorer:
+
+  - Ung man
+  - Ingen tidigare AP-behandling
+  - Högpotenta AP (tex haloperidol)
+
+
+#### Katatoni
+
+- Symtom
+  - Muskelrigiditet
+  - Orörlighet
+  - Mutism
+  - Strirrande blick
+  - mm
+- Variant: Exciterad katatoni
+  - Psykomotorisk agitation
+- Förlopp
+  - Debut inom tim-dagar
+  - Kan fluktuera
+- Skattning: Bush-Francis
+
+### Malignt neuroleptikasyndrom
+
+Kombination som (hos 70%) uppträder i följande ordning:
+
+1. Förändrat mentalt status (82%)
+    - Konfusion, delirium, katatoni, mutism
+	- Senare stupor, koma
+2. Muskelstelhet
+    - Generaliserad
+    - Ofta mkt uttalad
+3. Feber > 38 (87%)
+    - Ev ej lika vanligt vid SGA
+4. Autonom dysfunktion
+    - Takycardi (88%)
+    - Labilt eller högt blodtryck
+    - Takypné (73%)
+
+Debut inom tim-dagar. Dessa symtom enskilt kan förekomma som biverkan av AP, men kombinationen  talar för NMS. Om >1 av dessa symtom, överväg NMS.
+
+#### Parkinsonism
+
+Vanliga symtom:
+
+<!-- [$\ExternalLink$](./parkinsonism-gait.mkv) -->
+<!-- From https://www.youtube.com/watch?v=pUL0Amkq4Ok -->
+<!-- https://loader.to/en25/1080p-video-downloader.html -->
+
+- Bradykinesi
+  - Svårt starta rörelser
+  - Långsamma rörelser
+  - Utslätat ansiktsuttryck
+  - Monoton röst
+  - Kort steglängd <!-- Hör detta till bradykinesi? -->
+  - Minskad medrörelse armar <!-- Hör detta till bradykinesi? -->
+- Postural tremor, "långsam" (3-6 Hz)
+- Ökad muskeltonus (rigiditet, kugghjulsfenomen)
+- Dysfagi (sväljsvårigheter), salivering
+- Debuterar efter dagar-veckor-månader
+  <!-- - 50 % debuterar inom 1 mån -->
+  <!-- - 90 % debuterar inom 3 mån -->
+- Skattningsskala: Simpson-Angus
+
+
+#### Tardiv dyskinesi
+
+Symtom:
+
+<!-- [$\ExternalLink$](./tardive-dyskinesia.mkv) -->
+
+<!-- Från: https://www.youtube.com/watch?v=FUr8ltXh1Pc -->
+
+- Vanligast med rörelser kring munnen, tungan
+  - Smackande, tuggande
+  - Utstickande tunga
+- Andra kroppsdelar
+  - Choreatoida handrörelser, "pianospel", "pillertrillande"
+  - Ryckiga rörelser i nacke, händer, höfter, ben
+<!-- - Juckande höftrörelser -->
+- Kan ge svårigheter med tal, matintag, andning
+<!-- - Koppling till kognitiva svårigheter -->
+- Kan förvärras av stress
+- Gradvis debut efter 3 månader eller mer
+- Reversibelt hos 50%, oftast _inte helt_ reversibelt
+- Skattning: Abnormal Involuntary Movements Scale (AIMS)
+
+Riskfaktorer:
+
+- Äldre kvinna
+- Affektiv sjukdom
+- EPS tidigt under behandlingen
+
+#### Akatisi
+
+Kan även uppträda när AP _sätts ut_ eller reduceras
+
+- Inre känsla av rastlöshet
+  - Ofta i benen
+  - ...eller hela kroppen
+  - Svårt att sitta stilla, trampar med fötterna, gungar fot till fot
+  - Ofta mycket obehagligt
+- Kan ge avvikande rörelsemönster 
+<!-- [$\ExternalLink$](./akathisie-oratie.m4a) -->
+<!-- Från: https://bewegingsstoornissenindepsychiatrie.nl/acathisie/?lang=en -->
+- Vanligen debut inom två veckor
+  - Kan uppträda några dagar efter start av behandling
+  - 50 % debuterar inom 1 mån
+  - 90 % debuterar inom 3 mån
+- Skattningsskala: Barnes Akathisia Scale
+<!-- - Vissa AP medför lägre risk -->
+<!--   - FGA > aripiprazol > risperidon > olanzapin > kvatiapin > klozapin -->
+
+#### Behandling av motoriska biverkningar
+
+| Biverkan         | Sätt ut | Reducera | Byt | Antikolinergikum |
+|------------------|---------|----------|-----|------------------|
+| Dystoni          | Ja      | Nej      | Ja  | God effekt       |
+| Parkinsonism     | (Ja)    | Ja       | Ja  | Har effekt       |
+| Akatisi          | (Ja)    | Ja       | Ja  | EJ effekt        |
+| Tardiv dyskinesi | Ja      | Nej      | Ja  | Kan försämra     |
+
+Antikolinerga läkemedel: Biperiden (akineton)
+
+- Dystoni: Effekt inom 5 min för iv, inom 20 för im
+- Parkinsonism: **Begränsad tid**, ompröva var 3:e mån, **ej nattetid**
+
+\footlineextra{\simplecite{Maudsley2018}}
+
+##### Ytterligare behandling
+
+Dystoni:
+
+- ECT, (rTMS?)
+- Botulinumtoxin
+
+Akatisi:
+
+- Propranolol 30-80 mg/d
+- Klonazepam (låg dos)
+- 5-HT antagonister
+  - tex mirtazapin, diphenhydramin, cyproheptadin
+- Sätt ut SSRI (kan ge akatisi, kan påverka metabolism av AP)
+
+Tardiv dyskinesi:
+
+- Sätt ut antikolinerga läkemedel
+<!-- - Byt till AP med mindre benägenhet för TD (dock motstridiga data) -->
+<!--   - Klozapin, kvetiapin mest sannolikt hjälpsamt -->
+- Valbenazin, deutetrabenazin [finns ej i Sverige?]
+- Klonazepam
+- Ginkgo biloba?
+
+Ref [@Maudsley2018]
+
+
+### Olika typer av antipsykotiska läkemedel
+
+Gemensamt: Alla blockerar dopamin-2-receptorn
+
+- Vissa blockerar (& aktiverar) den _partiellt_
+  - Tex aripiprazol, kariprazin, norklozapin
+- Olika stark bindning till D2-receptorn, tex:
+  - Aripiprazol = stark
+  - Klozapin = svag
+- Olika snabb dissociation från D2-receptorn
+  - Kvetiapin = snabb
+
+Skiljer: Effekt på andra receptorer
+
+- Antikolinerga effekter
+- Antihistaminerga effekter
+- Anti alfa-adrenerga effekter
+- Effekt på serotoninreceptorer
+  - 5HT2C inversa agonister: Klozapin, olanzapin, risperidon
+  - 5HT2C partiell agonist: Aripiprazol
+- Effekt på andra dopaminreceptorer
+
+Framför allt andra generationens AP har effekt på flera receptorer.
+
+#### "Första generationen" aka "Typiska"
+
+- **Haloperidol** (Haldol)
+- **Perfenazin** (_Trilafon_)
+- **Zuklopentixol** (Clopixol, _Cisordinol Depot_)
+- **Flupentixol** (Fluanxol, _Fluanxol Depot_)
+- **Klorprotixen** (Truxal)
+
+_kursiv_ = Depotinjektion, ges men några veckors mellanrum
+
+#### "Andra generationen" aka "Atypiska"
+
+- **Klozapin** (Leponex)
+- **Risperidon** (Risperdal, _Risperdal Consta_, _Risolept Consta_)
+- **Paliperidon** (Invega, _Trevicta_, _Xeplion_)
+- **Ziprasidon** (Zeldox)
+- **Olanzapin** (Zyprexa, _Zypadhera_)
+- **Kvetiapin** (Quetiapin, Seroquel, depottablett)
+- **Lurasidon** (Latuda)
+
+#### Partiella agonister
+
+- **Aripiprazol**: Abilify, _Abilify Maitena_
+- **Kariprazin**: Reagila
+
+
+#### Se referenser
 
 Effectiveness of Antipsychotic Drugs in Patients with Chronic Schizophrenia lieberman [@Lieberman2005].
 
