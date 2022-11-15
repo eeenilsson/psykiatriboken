@@ -166,23 +166,50 @@ ADHD in approximately half of children with the combined presentation and about 
 
 ## Behandling
 
-### Läkmedel
+## Läkemedel för ADHD {#adhd-medication}
 
 ```{r adhd-medication-one } 
 
 ## pacman::p_load(data.table)
 
-## tbl <- fread('../notes/adhd-medicinering_curated.csv', encoding="Latin-1")
+tbl <- fread('../notes/adhd-medicinering_curated.csv', encoding="Latin-1")
 
-## tbl <- tbl[, .(step, label, substance, adult_indication)]
-
-## tbl[adult_indication == 1 & step ==1, .(label, duration)]
 
 ## Tabellen behöver anpassas för inläsning
 
+## tbl 1 kinetics
+
+tbl1 <- tbl[, .(label, substance, mix_immediate_delayed, peak, halflife)]
+tbl1 <- tbl1[!is.na(halflife), ]
+names(tbl1) <- c("Handelsnamn", "Substans", "Mix omedelbar/fördröjd", "Topp (tim)", "T 1/2")
+
+## tbl 2
+
+tbl2 <-  tbl[, .(label, substance, dose_start, titration, dose_target, dose_max)]
+
+names(tbl2) <- c("Handelsnamn", "Substans", "Start", "Titrering" , "Måldos", "Maxdos")
+
+## tbl[adult_indication == 1 & step ==1, .(label, duration)]
+
 ``` 
- 
-## Läkemedel för ADHD {#adhd-medication}
+
+**Tabell \@ref(table-adhd-farmacokinetics)** visar farmakokinetiska egenskaper hos olika läkemedel mot ADHD.
+
+```{r table-adhd-farmacokinetics, caption = "Tabell farmakokinetik ADHD-läkemedel" } 
+
+knitr::kable(tbl1, align = "llccc")
+
+``` 
+
+**Tabell \@ref(table-adhd-dosing)** visar dosering för olika läkemedel mot ADHD.
+
+```{r table-adhd-dosing, caption = "Tabell dosering ADHD-läkemedel" } 
+
+knitr::kable(tbl2, align = "llccc")
+
+``` 
+
+
 
 ```{r figure-adhd-medication-profiles } 
 

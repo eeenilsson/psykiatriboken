@@ -342,7 +342,7 @@ Riskfaktorer:
   - Kan fluktuera
 - Skattning: Bush-Francis
 
-### Malignt neuroleptikasyndrom
+#### Malignt neuroleptikasyndrom
 
 Kombination som (hos 70%) uppträder i följande ordning:
 
@@ -412,6 +412,13 @@ Riskfaktorer:
 - Äldre kvinna
 - Affektiv sjukdom
 - EPS tidigt under behandlingen
+
+<!-- Rational Antipsychotic Choice: Weighing the Risk of Tardive Dyskinesia and Metabolic Syndrome -->
+
+<!-- Carbon M, Hsieh CH, Kane JM, Correll CU. Tardive Dyskinesia Prevalence in the Period of Second-Generation Antipsychotic Use: A Meta-Analysis. J Clin Psychiatry. 2017 -->
+
+<!-- Is the comparison FGA vs SGA valid? -->
+
 
 #### Akatisi
 
@@ -545,26 +552,8 @@ Andra kombinationer?
 
 ### Switching
 
-Se tabell på [psychiatrinet](https://wiki.psychiatrienet.nl/wiki/Main_Page).
+Se tabell på [psychiatrinet](https://wiki.psychiatrienet.nl/wiki/Main_Page).	
 
-### Vissa äldre antipsykotiska medel
-
-Promethazine is listed as one of the drugs of highest anticholinergic activity in a study of anticholinergenic burden, including long-term cognitive impairment. Dosering vid illamående 12.5-25 mg var 4-6 tim, vid sederig 25-50 mg. 
-	
-### Motoriska biverkningar av anipsykotiska läkemedel
-
-Tidsförlopp
-
-Behandling
-
-
-### Tardiv dyskinesi
-
-Rational Antipsychotic Choice: Weighing the Risk of Tardive Dyskinesia and Metabolic Syndrome
-
-Carbon M, Hsieh CH, Kane JM, Correll CU. Tardive Dyskinesia Prevalence in the Period of Second-Generation Antipsychotic Use: A Meta-Analysis. J Clin Psychiatry. 2017
-
-Is the comparison FGA vs SGA valid?
 
 ## Psykotropa läkemedel vid leverpåverkan
 
@@ -1385,9 +1374,10 @@ Ziprasidon QTT-förlängande, även kvetiapin.
 
 Pacher Cardiovascular Side Effects of New Antidepressants and Antipsychotics: New Drugs, old Concerns? 2004
 
+TCAs ökar hjärtfrekvensen. De har typ I antiarrytmiska egenskaper vilket kan ge breddökning av QRS, ökat PR och QT-intervall, och AV-block. De saknar effekt på myocardkontraktilitet och kan hämma ektopisk aktivitet i förmak och kammare  [@Kryger2017].
+
 ### Antikolinerga biverkningar {#side-effects-anticholinergic}
 
-TCAs ökar hjärtfrekvensen. De har typ I antiarrytmiska egenskaper vilket kan ge breddökning av QRS, ökat PR och QT-intervall, och AV-block. De saknar effekt på myocardkontraktilitet och kan hämma ektopisk aktivitet i förmak och kammare  [@Kryger2017].
 
 #### Antikolinerga biverkningar av antipsykotiska läkemedel
 
@@ -1410,6 +1400,8 @@ Ett flertal läkemedel har antikolinerga effekter, vilket i CNS kan ge konfusion
 Läkemedel som saknar farmakodynamisk effekt på muskarinreceptorer kan ändå ha en pseudoantikolinerg effekt via effekter histamin H1 och alfa1-adrenerga receptorer (tex trazodon, fluvoxamin) [@Riedel1995]. 
 
 Se Bokkapitel [@Gardner2010chapter1] i boken Antipsychotics and their side effects.
+
+>Promethazine is listed as one of the drugs of highest anticholinergic activity in a study of anticholinergenic burden, including long-term cognitive impairment. Dosering vid illamående 12.5-25 mg var 4-6 tim, vid sederig 25-50 mg. 
 
 **Figur \@ref(fig:antipsychotics-anticholinergic)** visar en jämförelse av antikolinerg effekt för olika antipsykotiska läkemedel. Andra psykofarmaka med klinisk antikolinerg effekt inkluderar hydroxyzin, alimemazin (?), prometazin, paroxetin, tricykliska antidepressiva, och förstås biperiden [@Gardner2010chapter1].
 

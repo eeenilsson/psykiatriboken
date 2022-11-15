@@ -15,6 +15,7 @@ common_varnames <- c(
     'atrisk' = "At risk, n",
     'or' = "Crude OR (95% CI)",
     'or_adj1' = "Adjusted OR (95% CI)",
+    'adjustment' = "Adjustment",
     'ip' = "IP, %",
     'rr' = "RR, ratio",
     'rd'  = "RD, %",

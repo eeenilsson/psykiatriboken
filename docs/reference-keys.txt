@@ -171,7 +171,6 @@ functional-consequences-of-attention-deficithyperactivity-disorder
 differential-diagnosis
 comorbidity
 behandling-2
-läkmedel
 adhd-medication
 sleep-physiology
 inledning-3
@@ -234,9 +233,6 @@ partiella-agonister
 se-referenser
 kombinationsbehandling-1
 switching-1
-vissa-äldre-antipsykotiska-medel
-motoriska-biverkningar-av-anipsykotiska-läkemedel
-tardiv-dyskinesi-1
 psykotropa-läkemedel-vid-leverpåverkan
 anpassning-av-läkemedelsdoser
 vid-leverscikt-undvik-läkemedel-med
