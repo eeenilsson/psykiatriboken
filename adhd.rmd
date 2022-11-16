@@ -186,30 +186,30 @@ names(tbl1) <- c("Handelsnamn", "Substans", "Mix omedelbar/fördröjd", "Topp (t
 ## tbl 2
 
 tbl2 <-  tbl[, .(label, substance, dose_start, titration, dose_target, dose_max)]
-
+tbl2 <- tbl2[!is.na(dose_start), ]
 names(tbl2) <- c("Handelsnamn", "Substans", "Start", "Titrering" , "Måldos", "Maxdos")
 
 ## tbl[adult_indication == 1 & step ==1, .(label, duration)]
 
 ``` 
 
-**Tabell \@ref(table-adhd-farmacokinetics)** visar farmakokinetiska egenskaper hos olika läkemedel mot ADHD.
+**Tabell \@ref(tab:table-adhd-farmacokinetics)** visar farmakokinetiska egenskaper hos olika läkemedel mot ADHD.
 
-```{r table-adhd-farmacokinetics, caption = "Tabell farmakokinetik ADHD-läkemedel" } 
+```{r table-adhd-farmacokinetics } 
 
-knitr::kable(tbl1, align = "llccc")
-
-``` 
-
-**Tabell \@ref(table-adhd-dosing)** visar dosering för olika läkemedel mot ADHD.
-
-```{r table-adhd-dosing, caption = "Tabell dosering ADHD-läkemedel" } 
-
-knitr::kable(tbl2, align = "llccc")
+knitr::kable(tbl1, align = "llccc", caption = "Tabell farmakokinetik ADHD-läkemedel")
 
 ``` 
 
+**Tabell \@ref(tab:table-adhd-dosing)** visar dosering för olika läkemedel mot ADHD.
 
+```{r table-adhd-dosing } 
+
+knitr::kable(tbl2, align = "llccc", caption = "Tabell dosering ADHD-läkemedel")
+
+``` 
+
+Figuren nedan visar ungefärlig relativ koncentration av olika läkmedel mot ADHD.
 
 ```{r figure-adhd-medication-profiles } 
 
@@ -233,14 +233,11 @@ p <- p + geom_smooth(method="auto", se=FALSE, fullrange=FALSE, span = 0.2) +
     theme_bw()
 p <- p + theme(legend.position = c(0.8, 0.8))
 
-
-pdf("adhd_medicinering_profiler.pdf")
 p
-dev.off()
 
-
-
-
+## pdf("adhd_medicinering_profiler.pdf")
+## p
+## dev.off()
 
 ``` 
  

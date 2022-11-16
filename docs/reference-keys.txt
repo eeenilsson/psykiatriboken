@@ -9,6 +9,8 @@ tab:bipolar-symptoms
 tab:bipolar-treatment-mania-yatham2018
 tab:bipolar-treatment-depression-yatham2018
 tab:bipolar-treatment-prevention-yatham2018
+tab:table-adhd-farmacokinetics
+tab:table-adhd-dosing
 fig:direct-indirect-pathway
 fig:original-basal-ganglia-model
 fig:image-basal-ganglia-coronal
