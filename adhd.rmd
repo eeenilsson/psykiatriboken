@@ -1,121 +1,155 @@
 # ADHD {#adhd}
 
-Från DSM-5:
+Kärnsymtomen vid diagnostik enligt DSM-5 är hållande problem med ouppmärksamhet och/eller hyperaktivitet och impulsivitet. Kan indelas i huvudakligen ouppmärksam eller huvudsakligen hyperaktiv typ.
 
-### Diagnostic Criteria 
+Med impulsivitet avses förhastade handlingar som görs utan eftertanke och innebär hög risk för skada för individen (tex korsa gatan utan att se sig för). Det kan avspegla en önskan om omdelebar belöning eller oförmåga att skjuta upp belöning. Det kan manifestera sig som socialt inkräktande beteende och att göra viktiga beslut utan att överväga långtidskonsekvenserna.
 
-A. A persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development, as characterized by (1) and/or (2):
+Symtomen skall vara funktionsnedsättande och flera symtom skall ha förelegat före 12 års ålder och i mer än en kontext (hemma, skola, arbete). De skall ej förklaras bättre av annan psykisk sjukdom.
 
-1. Inattention: Six (or more) of the following symptoms have persisted for at least 6 months to a degree that is inconsistent with developmental level and that negatively impacts directly on social and academic/occupational activities:
+Associerade symtom kan vara låg tolerans för frustration, irritabilitet, humörsvängningar. Kognitiva svårigheter (uppmärksamhet, minne, exekutiva funktioner) kan föreligga.
 
-Note: The symptoms are not solely a manifestation of oppositional behavior, defiance, hostility, or failure to understand tasks or instructions. For older adolescents and adults (age 17 and older), at least five symptoms are required.
-a. Often fails to give close attention to details or makes careless mistakes in schoolwork, at work, or during other activities (e.g., overlooks or misses details, work is inaccurate).
-b. Often has difficulty sustaining attention in tasks or play activities (e.g., has difficulty remaining focused during lectures, conversations, or lengthy reading).
-c. Often does not seem to listen when spoken to directly (e.g., mind seems elsewhere, even in the absence of any obvious distraction).
-d. Often does not follow through on instructions and fails to finish schoolwork, chores, or duties in the workplace (e.g., starts tasks but quickly loses focus and is easily sidetracked).
-e. Often has difficulty organizing tasks and activities (e.g., difficulty managing sequential tasks; difficulty keeping materials and belongings in order; messy, disorganized work; has poor time management; fails to meet deadlines).
-f. Often avoids, dislikes, or is reluctant to engage in tasks that require sustained mental effort (e.g., schoolwork or homework; for older adolescents and adults, preparing reports, completing forms, reviewing lengthy papers).
-g. Often loses things necessary for tasks or activities (e.g., school materials, pencils, books, tools, wallets, keys, papenwork, eyeglasses, mobile telephones).
-h. Is often easily distracted by extraneous stimuli (for older adolescents and adults, may include unrelated thoughts).
-i. Is often forgetful in daily activities (e.g., doing chores, running errands; for older adolescents and adults, returning calls, paying bills, keeping appointments).
+Prevalensen är ca 5\% av barn och 2.5\% av vuxna. Hos vissa barn förvärras tillståndet med antisociala beteenden. Motorisk hyperaktivitet minskar vanligen i ungdomen och vuxen ålder.
 
-2. Hyperactivity and impuisivity: Six (or more) of the following symptoms have persisted for at least 6 months to a degree that is inconsistent with developmental level and that negatively impacts directly on social and academic/occupational activities: 
+Gradering av svårighet:
 
-Note: The symptoms are not solely a manifestation of oppositional behavior, defiance, hostility, or a failure to understand tasks or instructions. For older adolescents and adults (age 17 and older), at least five symptoms are required.
-a. Often fidgets with or taps hands or feet or squirms in seat.
-b. Often leaves seat in situations when remaining seated is expected (e.g., leaves his or her place in the classroom, in the office or other workplace, or in other situations that require remaining in place).
-c. Often runs about or climbs in situations where it is inappropriate. (Note: In adolescents or adults, may be limited to feeling restless.)d. Often unable to play or engage in leisure activities quietly.
-e. Is often “on the go,” acting as if “driven by a motor” (e.g., is unable to be or uncomfortable being still for extended time, as in restaurants, meetings; may be experienced by others as being restless or difficult to keep up with).
-f. Often talks excessively.
-g. Often blurts out an answer before a question has been completed (e.g., completes people’s sentences; cannot wait for turn in conversation).
-h. Often has difficulty waiting his or her turn (e.g., while waiting in line).
-i. Often interrupts or intrudes on others (e.g., butts into conversations, games, or activities; may start using other people’s things without asking or receiving permission; for adolescents and adults, may intrude into or take over what others are doing).
+- Mild: Inga eller få symtom uöver de som krävs för diagnos.
+- Svår: Många symtom utöver de som krävs för diagnos, eller flera symtom som är särskilt uttalade, eller påtaglig funktionsnedsättning.
+- Måttlig: mellan mild och svår.
 
-B. Several inattentive or hyperactive-impulsive symptoms were present prior to age 12 years.
+**Ouppmärksamhet**. Fem av, skall föreligga ofta:
 
-C. Several inattentive or hyperactive-impulsive symptoms are present in two or more settings (e.g., at home, school, or work; with friends or relatives; in other activities).
+- Svårt att hålla uppmärksamhet på detaljer, gör slarvfel.
+- Svårighet att bibehålla uppärksamhet (tex fokus under lektion, konversation eller läsning).
+- Verkar inte lyssna under samtal.
+- Följer ej instruktioner och klarar ej att slutföra skolarbete, arbetsuppgifter etc.
+- Svårt att oranisera uppgifter, missar deadlines, desorganiserat arbete.
+- Undviker eller ogillar uppgifter som kräver ihållande ansträngning.
+- Tappar bort saker (skolmaterial, plånbok, nycklar etc).
+- Distraheras av yttre stimuli.
+- Glömsk i dagliga aktiviteter (missar möten, betala räkninger etc).
 
-D. There is clear evidence that the symptoms interfere with, or reduce the quality of, social, academic, or occupational functioning.
+**Hyperaktivitet**. Fem av nedanstående, skall föreligga ofta:
 
-E. The symptoms do not occur exclusively during the course of schizophrenia or another psychotic disorder and are not better explained by another mental disorder (e.g., mood disorder, anxiety disorder, dissociative disorder, personality disorder, substance intoxication or withdrawal).
+- Plockar med händerna eller vrider sig på stolen.
+- Lämnar situationer där man förväntas förbli sittande.
+- Springer runt eller klättrar i olämpliga situationer (hus ungdomar och vuxna kan det vara begränsat till en känsla av rastlöshet).
+- Är "på gång", svårt att vara stilla längre tid.
+- Talar överdrivet mycket.
+- Häver ur sig svaret innan en fråga ställts färdigt (kan inte vänta på sin tur i samtal).
+- Svårigheter att vänta på sin tur (tex vid kö).
+- Avbryter eller inkräktar på andra (tex använder andras saker utan att fråga om lov).
 
-_Specify_ whether:
+<!-- Från DSM-5: -->
 
-314.01 (F90.2) Combined presentation: If both Criterion A1 (inattention) and Criterion A2 (hyperactivity-impulsivity) are met for the past 6 months.
+<!-- ### Diagnostic Criteria  -->
 
-314.00 (F90.0) Predominantly inattentive presentation: If Criterion A1 (inattention) is met but Criterion A2 (hyperactivity-impulsivity) is not met for the past 6 months.
+<!-- A. A persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development, as characterized by (1) and/or (2): -->
 
-314.01 (F90.1) Predominantly hyperactive/impulsive presentation: If Criterion A2 (hyperactivity-impulsivity) is met and Criterion A1 (inattention) is not met for the past 6 months.
+<!-- 1. Inattention: Six (or more) of the following symptoms have persisted for at least 6 months to a degree that is inconsistent with developmental level and that negatively impacts directly on social and academic/occupational activities: -->
 
-_Specify_ if:in partial remission: When full criteria were previously met, fewer than the full criteria have been met for the past 6 months, and the symptoms still result in impairment in social, academic, or occupational functioning.
+<!-- Note: The symptoms are not solely a manifestation of oppositional behavior, defiance, hostility, or failure to understand tasks or instructions. For older adolescents and adults (age 17 and older), at least five symptoms are required. -->
+<!-- a. Often fails to give close attention to details or makes careless mistakes in schoolwork, at work, or during other activities (e.g., overlooks or misses details, work is inaccurate). -->
+<!-- b. Often has difficulty sustaining attention in tasks or play activities (e.g., has difficulty remaining focused during lectures, conversations, or lengthy reading). -->
+<!-- c. Often does not seem to listen when spoken to directly (e.g., mind seems elsewhere, even in the absence of any obvious distraction). -->
+<!-- d. Often does not follow through on instructions and fails to finish schoolwork, chores, or duties in the workplace (e.g., starts tasks but quickly loses focus and is easily sidetracked). -->
+<!-- e. Often has difficulty organizing tasks and activities (e.g., difficulty managing sequential tasks; difficulty keeping materials and belongings in order; messy, disorganized work; has poor time management; fails to meet deadlines). -->
+<!-- f. Often avoids, dislikes, or is reluctant to engage in tasks that require sustained mental effort (e.g., schoolwork or homework; for older adolescents and adults, preparing reports, completing forms, reviewing lengthy papers). -->
+<!-- g. Often loses things necessary for tasks or activities (e.g., school materials, pencils, books, tools, wallets, keys, papenwork, eyeglasses, mobile telephones). -->
+<!-- h. Is often easily distracted by extraneous stimuli (for older adolescents and adults, may include unrelated thoughts). -->
+<!-- i. Is often forgetful in daily activities (e.g., doing chores, running errands; for older adolescents and adults, returning calls, paying bills, keeping appointments). -->
 
-_Specify_ current severity:Mild: Few, if any, symptoms in excess of those required to make the diagnosis are present, and symptoms result in no more than minor impairments in social or occupational functioning.
+<!-- 2. Hyperactivity and impuisivity: Six (or more) of the following symptoms have persisted for at least 6 months to a degree that is inconsistent with developmental level and that negatively impacts directly on social and academic/occupational activities:  -->
 
-Moderate: Symptoms or functional impairment between “mild” and “severe” are present.
+<!-- Note: The symptoms are not solely a manifestation of oppositional behavior, defiance, hostility, or a failure to understand tasks or instructions. For older adolescents and adults (age 17 and older), at least five symptoms are required. -->
+<!-- a. Often fidgets with or taps hands or feet or squirms in seat. -->
+<!-- b. Often leaves seat in situations when remaining seated is expected (e.g., leaves his or her place in the classroom, in the office or other workplace, or in other situations that require remaining in place). -->
+<!-- c. Often runs about or climbs in situations where it is inappropriate. (Note: In adolescents or adults, may be limited to feeling restless.)d. Often unable to play or engage in leisure activities quietly. -->
+<!-- e. Is often “on the go,” acting as if “driven by a motor” (e.g., is unable to be or uncomfortable being still for extended time, as in restaurants, meetings; may be experienced by others as being restless or difficult to keep up with). -->
+<!-- f. Often talks excessively. -->
+<!-- g. Often blurts out an answer before a question has been completed (e.g., completes people’s sentences; cannot wait for turn in conversation). -->
+<!-- h. Often has difficulty waiting his or her turn (e.g., while waiting in line). -->
+<!-- i. Often interrupts or intrudes on others (e.g., butts into conversations, games, or activities; may start using other people’s things without asking or receiving permission; for adolescents and adults, may intrude into or take over what others are doing). -->
 
-Severe: Many symptoms in excess of tliose required to mal<e tlie diagnosis, or several symptoms that are particularly severe, are present, or the symptoms result in marked impairment in social or occupational functioning.
+<!-- B. Several inattentive or hyperactive-impulsive symptoms were present prior to age 12 years. -->
 
-### Diagnostic Features 
+<!-- C. Several inattentive or hyperactive-impulsive symptoms are present in two or more settings (e.g., at home, school, or work; with friends or relatives; in other activities). -->
 
-The essential feature of attention-deficit/hyperactivity disorder (ADHD) is a persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development. Inattention manifests behaviorally in ADHD as wandering off task, lacking persistence, having difficulty sustaining focus, and being disorganized and is not due to defiance or lack of comprehension. Hyperactivity refers to excessive motor activity (such as a child running about) when it is not appropriate, or excessive fidgeting, tapping, or talkativeness. In adults, hyperactivity may manifest as extreme restlessness or wearing others out with their activity. Impulsivity refers to hasty actions that occur in the moment without forethought and that have high potential for harm to the individual (e.g., darting into the street without looking). Impulsivity may reflect a desire for immediate rewards or an inability to delay gratification. Impulsive behaviors may manifest as social intrusiveness (e.g., interrupting others excessively) and/or as making important decisions without consideration of long-term consequences (e.g., taking a job without adequate information).
+<!-- D. There is clear evidence that the symptoms interfere with, or reduce the quality of, social, academic, or occupational functioning. -->
 
-ADHD begins in childhood. The requirement that several symptoms be present before age 12 years conveys the importance of a substantial clinical presentation during childhood. At the same time, an earlier age at onset is not specified because of difficulties in establishing precise childhood onset retrospectively. Adult recall of childhood symptoms tends to be unreliable, and it is beneficial to obtain ancillary information.
+<!-- E. The symptoms do not occur exclusively during the course of schizophrenia or another psychotic disorder and are not better explained by another mental disorder (e.g., mood disorder, anxiety disorder, dissociative disorder, personality disorder, substance intoxication or withdrawal). -->
 
-Manifestations of the disorder must be present in more than one setting (e.g., home and school, work). Confirmation of substantial symptoms across settings typically cannot be done accurately without consulting informants who have seen the individual in those settings. Typically, symptoms vary depending on context within a given setting. Signs of the disorder may be minimal or absent when the individual is receiving frequent rewards for appropriate behavior, is under close supervision, is in a novel setting, is engaged in especially interesting activities, has consistent external stimulation (e.g., via electronic screens), or is interacting in one-on-one situations (e.g., the clinician's office).
+<!-- _Specify_ whether: -->
 
-### Associated Features Supporting Diagnosis 
+<!-- 314.01 (F90.2) Combined presentation: If both Criterion A1 (inattention) and Criterion A2 (hyperactivity-impulsivity) are met for the past 6 months. -->
 
-Mild delays in language, motor, or social development are not specific to ADHD but often cooccur. Associated features may include low frustration tolerance, irritability, or mood lability. 
+<!-- 314.00 (F90.0) Predominantly inattentive presentation: If Criterion A1 (inattention) is met but Criterion A2 (hyperactivity-impulsivity) is not met for the past 6 months. -->
 
-Even in the absence of a specific learning disorder, academic or work performance is often impaired. Inattentive behavior is associated with various underlying cognitive processes, and individuals with ADHD may exhibit cognitive problems on tests of attention, executive function, or memory, although these tests are not sufficiently sensitive or specific to serve as diagnostic indices. By early adulthood, ADHD is associated with an increased risk of suicide attempt, primarily when comorbid with mood, conduct, or substance use disorders.
+<!-- 314.01 (F90.1) Predominantly hyperactive/impulsive presentation: If Criterion A2 (hyperactivity-impulsivity) is met and Criterion A1 (inattention) is not met for the past 6 months. -->
 
-No biological marker is diagnostic for ADHD. As a group, compared with peers, children with ADHD display increased slow wave electroencephalograms, reduced total brain volume on magnetic resonance imaging, and possibly a delay in posterior to anterior cortical maturation, but these findings are not diagnostic. In the uncommon cases where there is a known genetic cause (e.g Fragile X syndrome, 22qll deletion syndrome), the 
+<!-- _Specify_ if:in partial remission: When full criteria were previously met, fewer than the full criteria have been met for the past 6 months, and the symptoms still result in impairment in social, academic, or occupational functioning. -->
 
-ADHD presentation should still be diagnosed.
+<!-- _Specify_ current severity:Mild: Few, if any, symptoms in excess of those required to make the diagnosis are present, and symptoms result in no more than minor impairments in social or occupational functioning. -->
 
-### Prevalence 
+<!-- Moderate: Symptoms or functional impairment between “mild” and “severe” are present. -->
 
-Population surveys suggest that ADHD occurs in most cultures in about 5\% of children and about 2.5\% of adults.
+<!-- Severe: Many symptoms in excess of tliose required to mal<e tlie diagnosis, or several symptoms that are particularly severe, are present, or the symptoms result in marked impairment in social or occupational functioning. -->
 
-### Development and Course 
+<!-- ### Diagnostic Features  -->
 
-Many parents first observe excessive motor activity when the child is a toddler, but symptoms are difficult to distinguish from highly variable normative behaviors before age 4 years. ADHD is most often identified during elementary school years, and inattention becomes more prominent and impairing. The disorder is relatively stable through early adolescence, but some individuals have a worsened course with development of antisocial behaviors. In most individuals with ADHD, symptoms of motoric hyperactivity become less obvious in adolescence and adulthood, but difficulties with restlessness, inattention, poor planning, and impulsivity persist. A substantial proportion of children with ADHD remain relatively impaired into adulthood.
+<!-- The essential feature of attention-deficit/hyperactivity disorder (ADHD) is a persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development. Inattention manifests behaviorally in ADHD as wandering off task, lacking persistence, having difficulty sustaining focus, and being disorganized and is not due to defiance or lack of comprehension. Hyperactivity refers to excessive motor activity (such as a child running about) when it is not appropriate, or excessive fidgeting, tapping, or talkativeness. In adults, hyperactivity may manifest as extreme restlessness or wearing others out with their activity. Impulsivity refers to hasty actions that occur in the moment without forethought and that have high potential for harm to the individual (e.g., darting into the street without looking). Impulsivity may reflect a desire for immediate rewards or an inability to delay gratification. Impulsive behaviors may manifest as social intrusiveness (e.g., interrupting others excessively) and/or as making important decisions without consideration of long-term consequences (e.g., taking a job without adequate information). -->
 
-In preschool, the main manifestation is hyperactivity. Inattention becomes more prominent during elementary school. During adolescence, signs of hyperactivity (e.g., running and climbing) are less common and may be confined to fidgetiness or an inner feeling of jitteriness, restlessness, or impatience. In adulthood, along with inattention and restlessness, impulsivity may remain problematic even when hyperactivity has diminished.
+<!-- ADHD begins in childhood. The requirement that several symptoms be present before age 12 years conveys the importance of a substantial clinical presentation during childhood. At the same time, an earlier age at onset is not specified because of difficulties in establishing precise childhood onset retrospectively. Adult recall of childhood symptoms tends to be unreliable, and it is beneficial to obtain ancillary information. -->
 
-### Risk and Prognostic Factors 
+<!-- Manifestations of the disorder must be present in more than one setting (e.g., home and school, work). Confirmation of substantial symptoms across settings typically cannot be done accurately without consulting informants who have seen the individual in those settings. Typically, symptoms vary depending on context within a given setting. Signs of the disorder may be minimal or absent when the individual is receiving frequent rewards for appropriate behavior, is under close supervision, is in a novel setting, is engaged in especially interesting activities, has consistent external stimulation (e.g., via electronic screens), or is interacting in one-on-one situations (e.g., the clinician's office). -->
 
-Temperamental. ADHD is associated with reduced behavioral inhibition, effortful control, or constraint; negative emotionality; and/or elevated novelty seeking. These traits may predispose some children to ADHD but are not specific to the disorder.
+<!-- ### Associated Features Supporting Diagnosis  -->
 
-Environmental. Very low birth weight (less than 1,500 grams) conveys a two- to threefold risk for ADHD, but most children with low birth weight do not develop ADHD. Although ADHD is correlated with smoking during pregnancy, some of this association reflects common genetic risk. A minority of cases may be related to reactions to aspects of diet. There may be a history of child abuse, neglect, multiple foster placements, neurotoxin exposure (e.g., lead), infections (e.g., encephalitis), or alcohol exposure in utero. Exposure to environmental toxicants has been correlated with subsequent ADHD, but it is not known whether these associations are causal.
+<!-- Mild delays in language, motor, or social development are not specific to ADHD but often cooccur. Associated features may include low frustration tolerance, irritability, or mood lability.  -->
 
-Genetic and physiological. ADHD is elevated in the first-degree biological relatives of individuals with ADHD. The heritability of ADHD is substantial. While specific genes have been correlated with ADHD, they are neither necessary nor sufficient causal factors. 
+<!-- Even in the absence of a specific learning disorder, academic or work performance is often impaired. Inattentive behavior is associated with various underlying cognitive processes, and individuals with ADHD may exhibit cognitive problems on tests of attention, executive function, or memory, although these tests are not sufficiently sensitive or specific to serve as diagnostic indices. By early adulthood, ADHD is associated with an increased risk of suicide attempt, primarily when comorbid with mood, conduct, or substance use disorders. -->
 
-Visual and hearing impairments, metabolic abnormalities, sleep disorders, nutritional deficiencies, and epilepsy should be considered as possible influences on ADHD symptoms.
+<!-- No biological marker is diagnostic for ADHD. As a group, compared with peers, children with ADHD display increased slow wave electroencephalograms, reduced total brain volume on magnetic resonance imaging, and possibly a delay in posterior to anterior cortical maturation, but these findings are not diagnostic. In the uncommon cases where there is a known genetic cause (e.g Fragile X syndrome, 22qll deletion syndrome), the ADHD presentation should still be diagnosed. -->
 
-ADHD is not associated with specific physical features, although rates of minor physical anomalies (e.g., hypertelorism, highly arched palate, low-set ears) may be relatively elevated. Subtle motor delays and other neurological soft signs may occur. (Note that marked co-occurring clumsiness and motor delays should be coded separately [e.g., developmental coordination disorder].)
 
-Course modifiers. Family interaction patterns in early childhood are unlikely to cause 
+<!-- ### Development and Course  -->
 
-ADHD but may influence its course or contribute to secondary development of conduct problems.
+<!-- Many parents first observe excessive motor activity when the child is a toddler, but symptoms are difficult to distinguish from highly variable normative behaviors before age 4 years. ADHD is most often identified during elementary school years, and inattention becomes more prominent and impairing. The disorder is relatively stable through early adolescence, but some individuals have a worsened course with development of antisocial behaviors. In most individuals with ADHD, symptoms of motoric hyperactivity become less obvious in adolescence and adulthood, but difficulties with restlessness, inattention, poor planning, and impulsivity persist. A substantial proportion of children with ADHD remain relatively impaired into adulthood. -->
 
-### Culture-Related Diagnostic Issues 
+<!-- In preschool, the main manifestation is hyperactivity. Inattention becomes more prominent during elementary school. During adolescence, signs of hyperactivity (e.g., running and climbing) are less common and may be confined to fidgetiness or an inner feeling of jitteriness, restlessness, or impatience. In adulthood, along with inattention and restlessness, impulsivity may remain problematic even when hyperactivity has diminished. -->
 
-Differences in ADHD prevalence rates across regions appear attributable mainly to different diagnostic and methodological practices. However, there also may be cultural variation in attitudes toward or interpretations of children's behaviors. Clinical identification rates in the United States for African American and Latino populations tend to be lower than for Caucasian populations. Informant symptom ratings may be influenced by cultural group of the child and the informant, suggeshng that culturally appropriate practices are relevant in assessing ADHD.
+<!-- ### Risk and Prognostic Factors  -->
 
-### Gender-Related Diagnostic Issues 
+<!-- Temperamental. ADHD is associated with reduced behavioral inhibition, effortful control, or constraint; negative emotionality; and/or elevated novelty seeking. These traits may predispose some children to ADHD but are not specific to the disorder. -->
 
-ADHD is more frequent in males than in females in the general population, with a ratio of approximately 2:1 in children and 1.6:1 in adults. Females are more likely than males to present primarily with inattentive features.
+<!-- Environmental. Very low birth weight (less than 1,500 grams) conveys a two- to threefold risk for ADHD, but most children with low birth weight do not develop ADHD. Although ADHD is correlated with smoking during pregnancy, some of this association reflects common genetic risk. A minority of cases may be related to reactions to aspects of diet. There may be a history of child abuse, neglect, multiple foster placements, neurotoxin exposure (e.g., lead), infections (e.g., encephalitis), or alcohol exposure in utero. Exposure to environmental toxicants has been correlated with subsequent ADHD, but it is not known whether these associations are causal. -->
 
-### Functional Consequences of Attention-Deficit/Hyperactivity Disorder 
+<!-- Genetic and physiological. ADHD is elevated in the first-degree biological relatives of individuals with ADHD. The heritability of ADHD is substantial. While specific genes have been correlated with ADHD, they are neither necessary nor sufficient causal factors.  -->
 
-ADHD is associated with reduced school performance and academic attainment, social rejection, and, in adults, poorer occupational performance, attainment, attendance, and higher probability of unemployment as well as elevated interpersonal conflict. Children with ADHD are significantly more likely than their peers without ADHD to develop conduct disorder in adolescence and antisocial personality disorder in adulthood, consequently increasing the likelihood for substance use disorders and incarceration. The risk of subsequent substance use disorders is elevated, especially when conduct disorder or antisocial personality disorder develops. Individuals with ADHD are more likely than peers to be injured. Traffic accidents and violations are more frequent in drivers with ADHD. 
+<!-- Visual and hearing impairments, metabolic abnormalities, sleep disorders, nutritional deficiencies, and epilepsy should be considered as possible influences on ADHD symptoms. -->
 
-There may be an elevated likelihood of obesity among individuals with ADHD.
+<!-- ADHD is not associated with specific physical features, although rates of minor physical anomalies (e.g., hypertelorism, highly arched palate, low-set ears) may be relatively elevated. Subtle motor delays and other neurological soft signs may occur. (Note that marked co-occurring clumsiness and motor delays should be coded separately [e.g., developmental coordination disorder].) -->
 
-Inadequate or variable self-application to tasks that require sustained effort is often interpreted by others as laziness, irresponsibility, or failure to cooperate. Family relationships may be characterized by discord and negative interactions. Peer relationships afe often disrupted by peer rejection, neglect, or teasing of the individual with ADHD. On average, individuals with ADHD obtain less schooling, have poorer vocational achievement, and have reduced intellectual scores than their peers, although there is great variability. In its severe form, the disorder is markedly impairing, affecting social, familial, and scholastic/occupational adjustment.
+<!-- Course modifiers. Family interaction patterns in early childhood are unlikely to cause  -->
 
-Academic deficits, school-related problems, and peer neglect tend to be most associated with elevated symptoms of inattention, whereas peer rejection and, to a lesser extent, accidental injury are most salient with marked symptoms of hyperactivity or impulsivity.
+<!-- ADHD but may influence its course or contribute to secondary development of conduct problems. -->
+
+<!-- ### Culture-Related Diagnostic Issues  -->
+
+<!-- Differences in ADHD prevalence rates across regions appear attributable mainly to different diagnostic and methodological practices. However, there also may be cultural variation in attitudes toward or interpretations of children's behaviors. Clinical identification rates in the United States for African American and Latino populations tend to be lower than for Caucasian populations. Informant symptom ratings may be influenced by cultural group of the child and the informant, suggeshng that culturally appropriate practices are relevant in assessing ADHD. -->
+
+<!-- ### Gender-Related Diagnostic Issues  -->
+
+<!-- ADHD is more frequent in males than in females in the general population, with a ratio of approximately 2:1 in children and 1.6:1 in adults. Females are more likely than males to present primarily with inattentive features. -->
+
+<!-- ### Functional Consequences of Attention-Deficit/Hyperactivity Disorder  -->
+
+<!-- ADHD is associated with reduced school performance and academic attainment, social rejection, and, in adults, poorer occupational performance, attainment, attendance, and higher probability of unemployment as well as elevated interpersonal conflict. Children with ADHD are significantly more likely than their peers without ADHD to develop conduct disorder in adolescence and antisocial personality disorder in adulthood, consequently increasing the likelihood for substance use disorders and incarceration. The risk of subsequent substance use disorders is elevated, especially when conduct disorder or antisocial personality disorder develops. Individuals with ADHD are more likely than peers to be injured. Traffic accidents and violations are more frequent in drivers with ADHD.  -->
+
+<!-- There may be an elevated likelihood of obesity among individuals with ADHD. -->
+
+<!-- Inadequate or variable self-application to tasks that require sustained effort is often interpreted by others as laziness, irresponsibility, or failure to cooperate. Family relationships may be characterized by discord and negative interactions. Peer relationships afe often disrupted by peer rejection, neglect, or teasing of the individual with ADHD. On average, individuals with ADHD obtain less schooling, have poorer vocational achievement, and have reduced intellectual scores than their peers, although there is great variability. In its severe form, the disorder is markedly impairing, affecting social, familial, and scholastic/occupational adjustment. -->
+
+<!-- Academic deficits, school-related problems, and peer neglect tend to be most associated with elevated symptoms of inattention, whereas peer rejection and, to a lesser extent, accidental injury are most salient with marked symptoms of hyperactivity or impulsivity. -->
 
 ### Differential Diagnosis 
 
