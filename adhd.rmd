@@ -51,22 +51,53 @@ Vid depressiva episoder kan oförmåga att fokusera uppträda, men föreligger e
 
 Vid bipolärt syndrom kan ökad aktivitet, nedsatt koncentration och impulsivitet förekomma, men uppträder då episodiskt och tillsammans med andra bipolära symtom (förhöjd grundstämning, grandiositet etc). Bipolärt syndrom är ovanligt före tonåren.
 
-Substansbrukssyndrom. Tydliga symtom som vid ADHD före sustansbruket började bör föreligga för att ADHD-diagnos skall ställas.
+Substansbrukssyndrom. Tydliga symtom som vid ADHD före substansbruket började bör föreligga för att ADHD-diagnos skall ställas.
 
 ## Samsjuklighet
 
 Trotssyndrom och uppförandestöring vanligt. Substansbrukssynbdrom, ångestsyndrom och depression är något vanligare vid ADHD än i allmänna befolkningen, men uppträder endast hos en minoritet. Annan samsjuklighet som förekommer är tex antosocial personlighetsstörning, OCD, autism.
 
+## Bedömning inför läkemedelsbehandling
+
+Innan behandling med läkemedel för ADHD: 
+
+- Gå igenom diagnoskriterier och se att de fortfarande uppfylls.
+- Psykiatrisk samsjuklighet
+- Nuvarande arbete/skola
+- Riskbedömning avseende substansbruk och "drug diversion"
+- Omvårdnadsbehov
+- Medicinsk anamnes, kontraindikationer
+- Nuvarande medicinering
+- Länngd vikt.
+- Puls, blodtryck
+- Auskultation av hjärta och lungor
+
+### Ökad kardiell risk vid...
+
+- Medfött hjärtfel eller tidigare hjärtkirurgi
+- Plötslig hjärtdöd hos förstagradssläkting < 40 åå
+- Andfåddhet vid ansträngning
+- Svimning under ansträngning eller vid plötsliga ljud eller rädsla
+- Hjärtklappning som är regelbunden, startar och stoppar plötsligt. Enstaka extraslag behöver ej utredas.
+- Kardiell bröstsmärta
+- Tecken till hjärtsvikt
+- Biljud vid auskultation av hjärtat
+- Hypertoni (?)
+- Läkemedelsbehandling som ökar arytmirisk
+
+Om något av ovanstående föreligger, tag EKG och överväg kardiologkonsult.
+
 ## Läkemedel för ADHD {#adhd-medication}
 
-Elvanse är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat provas. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället.
+Elvanse är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat provas. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008]. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället.
 
-Omkring 70% svarar på behandling och förbätrar både symtom på ouppmärksamhet och hyperaktivitet [@Kolar2008]. Läkemedlen blockerar återupptag av noradrenalin och dopamin och amfetamin ökar frisättningen av dopamin. Metylfenidat ökar frisättningen av noradrenalin i delar av hjärnan [@Kolar2008].
+Omkring 70% svarar på behandling och förbättrar både symtom på ouppmärksamhet och hyperaktivitet [@Kolar2008]. Läkemedlen blockerar återupptag av noradrenalin och dopamin och amfetamin ökar frisättningen av dopamin. Metylfenidat ökar frisättningen av noradrenalin i delar av hjärnan [@Kolar2008].
 
 Vanliga biverkningar är insomni, illamående, anorexi, minskad aptit, viktförlust, huvudvärk, irritabilitet, humörsvängningar, buksmärta, ökad puls, förhöjt blodtryck. Kan även ge tics. I ovanliga fall kramper, psykos, hepatotoxicitet. Många biverkningar minskar över tid. Vissa biverkningar, tex irritabilitet, som uppträder sent på dagen kan bero på rebound-fenomen och föranleda extra dos av CS på eftermiddagen. Samma gäller för insomni.
 
 Atomoxtin (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. Bupropion är kan användas som andrhandsval mot ADHD-symtom [@Kolar2008].
 
+Se [NICE Guidelines för läkemedelsbehandling av ADHD](https://www.nice.org.uk/guidance/ng87/chapter/Recommendations#medication).
 
 ```{r adhd-medication-one } 
 
@@ -74,12 +105,10 @@ Atomoxtin (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D
 
 tbl <- fread('../notes/adhd-medicinering_curated.csv', encoding="Latin-1")
 
-
-## Tabellen behöver anpassas för inläsning
-
 ## tbl 1 kinetics
 
 tbl1 <- tbl[, .(label, substance, mix_immediate_delayed, peak, halflife)]
+tbl1[, mix_immediate_delayed := gsub("_", "/", mix_immediate_delayed)]
 tbl1 <- tbl1[!is.na(halflife), ]
 names(tbl1) <- c("Handelsnamn", "Substans", "Mix omedelbar/fördröjd", "Topp (tim)", "T 1/2")
 
@@ -101,7 +130,7 @@ knitr::kable(tbl1, align = "llccc", caption = "Tabell farmakokinetik ADHD-läkem
 
 ``` 
 
-**Tabell \@ref(tab:table-adhd-dosing)** visar dosering för olika läkemedel mot ADHD. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008].
+**Tabell \@ref(tab:table-adhd-dosing)** visar dosering för olika läkemedel mot ADHD.
 
 ```{r table-adhd-dosing } 
 
