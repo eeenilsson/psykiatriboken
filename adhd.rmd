@@ -115,6 +115,13 @@ läkarbedömning.
 
 Arbetsterapeutisk bedömning genomförs vid behov
 
+När tillräcklig information inhämtats bör utredningsteamet sammanfatta utredningen och ta ställning till följande:
+- art och grad av symtom och funktionsnedsättning inom olika livsområden
+- om dessa motsvarar diagnoskriterier (för ett eller flera tillstånd)
+- eventuell tilläggsproblematik/psykiatrisk samsjuklighet
+- eventuellt behov av ytterligare kompletterande undersökningar
+- preliminär åtgärdsplan som sedan behöver diskuteras med patienten och eventuellt med närstående
+
 ### Bedömningssamtalsmall
 
 Genomförs i första hand av psykiater och i andra hand av psykolog.
@@ -149,14 +156,22 @@ Innan behandling med läkemedel för ADHD:
 
 - Gå igenom diagnoskriterier och se att de fortfarande uppfylls.
 - Psykiatrisk samsjuklighet
+  - Ätstörning eller anorexi, aktuell vikt
+  - Tics eller andra ofrivilliga rörelser
+- Tidigare psykosepisoder, ångest, mani eller hypomani, depression och suicidalitet
 - Nuvarande arbete/skola
-- Riskbedömning avseende substansbruk och "drug diversion"
+- Riskbedömning avseende substansbruk och "drug diversion", kriminalitet
 - Omvårdnadsbehov
 - Medicinsk anamnes, kontraindikationer
+  - Förekomst av epilepsi och glaukom
+  - Kardiovaskulär eller cerebrovaskulär sjuklighet, hereditet för plötslig död eller ventrikulär arytmi
 - Nuvarande medicinering
 - Längd vikt.
 - Puls, blodtryck
 - Auskultation av hjärta och lungor
+- Samtidig behandling med andra läkemedel. 
+- Kvinnor i fertil ålder ska ha säkert preventivmedel.
+- Symtomskattning
 
 ### Ökad kardiell risk vid...
 
@@ -173,7 +188,44 @@ Innan behandling med läkemedel för ADHD:
 
 Om något av ovanstående föreligger, tag EKG och överväg kardiologkonsult.
 
+## Uppföljning
+
+- Baslinje: Blodtryck, puls, biverkningsformulär och ASRS
+- Två veckor efter insättning eller dosökning: Blodtryck, puls, biverkningsformulär och ASRS.
+- Återbesök hos läkare efter fyra veckor till sex veckor efter första besöket.
+- Sexmånaderskontroll efter optimerad dostitering: provtagning (ASAT, ALAT, Na, K, krea, CDT
+och peth och urindrogscreening ), kontroll av puls och blodtryck hos sjuksköterska. Kiralt
+amfetamin-urinprov om patienten står på Elvanse och/eller Attentin/Metamina
+(lisdexamfetamin/dexamfetamin). Skattning av behandlingseffekt (ASRS) och eventuella
+biverkningar (se biverkningsformulär) får också göras hos sjuksköterska i samband med
+sexmånaderskontrollen.
+- Vid stabil och okomplicerad behandling, kontroll därefter, två gånger per år hos sjuksköterska
+med kontroll av blodtryck, puls, vikt samt skattning av behandlingseffekt (ASRS) och eventuella
+biverkningar (se biverkningsformulär). Det är viktigt med en individuell bedömning.
+- Årskontrollprover/undersökningar: ASAT, ALAT, Na, K, krea CDT och peth och
+urindrogscreening, puls, blodtryck och EKG. Kiralt amfetaminurinprov vid behov.
+- Årsbesök hos läkare en gång/år. Det är viktigt med en individuell bedömning.
+- Fortlöpande bedömning av behovet av fortsatt medicinering hos specialistläkare i psykiatri.
+
+## Särskild observans
+
+Missbruk: Vid samtidig ADHD och missbruk eller beroendesyndrom bör behandling av båda tillstånden ske inom beroendevården. Missbruket bör vara under kontroll innan läkemedelsbehandling av ADHD påbörjas. Vid skadligt bruk av alkohol och narkotika bör risken vägas med nyttan av medicinering.  Regelbunden medicinhämtning veckovis eller tätare kan övervägas för riskpatienter.
+
+Hjärtsjukdom: Vid anamnes för kardiovaskulär eller cerebrovaskulär sjuklighet, alternativt hereditet för plötslig död eller ventrikulär arytmi, ta EKG och rådgör med kardiolog inför eventuell läkemedelsbehandling.  Centralstimulantia och atomoxetin tenderar i kliniska prövningar att öka hjärtfrekvensen och att ge en marginell blodtryckshöjning på gruppnivå. Den kliniska relevansen av dessa fynd är oklar, men det är ändå viktigt att följa puls och blodtryck regelbundet då enstaka patienter kan reagera med kliniskt betydelsefulla förhöjningar. ACE-hämmare/AT2-blockerare/ betablockerare/calciumblockerarekan då behövas i tillägg och sådana frågor bör diskuteras med kardiolog och patienten kan med fördel remitteras till primärvården för bedömning och ställningstagande till behandling av det eventuella höga blodtrycket.  
+
+Psykossjukdom: Obehandlad psykossjukdom innebär en absolut kontraindikation för behandling med centralstimulantia. Tidigare, övergående missbruksinducerade psykoser är inte kontraindikation men bör föranleda försiktighet.  
+
+Depression: Centralstimulantia och atomoxetin ska ges med försiktighet till patienter med svår depression, svår ångest eller aktuella suicidtankar, eftersom risk för försämring av dessa tillstånd finns.  Samexisterande tillstånd bör vara optimalt stabiliserade innan ADHD-läkemedel insättes.  
+
+Bipolär sjukdom: För behandling med centralstimulantia eller atomoxetin vid bipolär sjukdom krävs att patienten först har en väl inställd behandling med stämningsstabiliserande läkemedel. Även då krävs försiktighet och tätare kontroller av ADHD-medicinering eftersom dessa preparat kan försämra den bipolära sjukdomen.  
+
+Epilepsi: Vid behandling av vuxna med epilepsi, hjärnskada eller CNS-sjukdom bör försiktighet iakttas vid behandling med centralstimulantia och atomoxetin. Samråd gärna med neurolog.  
+
+Tics: Centralstimulerande läkemedel kan öka eller utlösa motoriska och verbala tics och dyskinesier. I vissa fall bör detta motivera en dosreduktion eller ett avbrytande av behandling. Ibland kan istället minskade tics ses vid behandling med centralstimulantia.
+
 ## Läkemedel för ADHD {#adhd-medication}
+
+Metylfenidat är förstahandsval för barn, ungdomar och vuxna enligt lokala vårdprogrammet. Rekommendationsgrad A enligt läkemedelsverket 2016.
 
 Lisdexamfetamin (Elvanse) är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat (Concerta) provas. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008]. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället. Dexamfetamin kan användas om den längre durationen hos föstahandsvalen ej tolereras.
 
@@ -257,3 +309,22 @@ p
 ``` 
  
 
+## Psykopedagogiska insatser
+
+Syftar till att ge kunskap om vad diagnosen innebär och hur svårigheterna kan påverka den vardagliga situationen.  Patient med ny ADHD-diagnos, kallas till två gruppinformationsträffar med sina närstående, där de får psykoedukation om sin diagnos och mottagningens behandlingsinsatser. De får sedan möjlighet att anmäla intresse till den behandlingsinsats som de önskar. Individuell bedömning och ställningstagande till åtgärd av dem som har svårt med gruppmöten.
+
+## Psykologisk behandling
+
+Psykiatrin erbjuder psykoterapi för personer med ADHD-problematik i form av färdighetsträning i grupp. Terapin ger patienter kunskap om deras individuella svårigheter och funktionsnedsättning och ska ge patienter verktyg för att utveckla förmågor och färdigheter som bidrar till förändring i patientens vardag.
+
+## Arbetsterapeutiska behandlingsinsatser
+
+Arbetsterapeuten arbetar med insatser tillsammans med patienten som förbättrar patientens förmåga och utförande i dagliga livets aktiviteter, inom hemliv, arbete/studier och fritid. De arbetsterapeutiska insatserna kan ges både individuellt och/eller i grupp (Ha koll).  Hjälper patienter att skapa strategier och struktur i vardagen och med anpassning av miljön genom att skapa rutiner och regelbundna vanor, veckoplanering och scheman, tidsplanering, checklistor, rutiner och förutsättningar för ordning i hemmet.  Förskriver kognitiva hjälpmedel och rekommenderar produkter från öppna marknaden till stöd för daglig struktur, minne, planering, tidsuppfattning och start/avslut av aktivitet.  Instruktion, träning och uppföljning i att genomföra och bibehålla strategier och använda hjälpmedel.  Se bilaga.
+
+## Kuratorsbehandling
+
+Kuratorn vägleder patienten i frågor som rör ekonomi, bostad, studier, arbete/sysselsättning och familj.  Kurator kan även vara en länk och samordna insatser i kontakt med habilitering, försäkringskassa, arbetsförmedling och kommunens stödresurser så som socialpsykiatri, socialtjänst etc. De kan vid behov initiera och delta vid SIP-möten.  Utöver detta kan kurator erbjuda ett begränsat antal samtal som krisstöd och/eller familje- /anhörigsamtal.
+
+## Vårdplan
+
+Fast vårdkontakt ansvarar för att sådan upprättas. Vårdplanen modifieras allteftersom och utifrån patientens behov. Den ansvarige läkaren involveras i upprättande av vårdplanen.
