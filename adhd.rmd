@@ -110,17 +110,17 @@ NF5-15*
 
 Bedömningssamtalet bör följa rubrikerna i bedömningsmallen. Utgår från screeningresultat. Utförs i första hand av ansvarig psykiater och i andra hand av ansvarig psykolog. Vid bedömning är det viktigt att säkerställa drogfrihet (även pågående medicinering som kan påverka patientens kognition bör utvärderas) inför en eventuell efterföljande utredning då det kan tänkas inverka på utredningsresultatet. I dessa fall kan anhörigintervjuer vara lämplig utgångspunkt tills dess att drogfrihet säkerställs.
 
-- Avvikande/höga alkoholvärden kräver en noggrann alkoholanamnes och
+Var observant på vilket tillstånd patienten befinner sig i och vilka andra faktorer som kan antas inverka på bedömningen, t.ex. pågående livskris, depression, pågående beroendeproblematik, psykotiska symtom, PTSD, GAD etc. Avvikande/höga alkoholvärden kräver en noggrann alkoholanamnes och
 läkarbedömning.
 
-Var observant på vilket tillstånd patienten befinner sig i och vilka andra faktorer som kan antas inverka på bedömningen, t.ex. pågående livskris, depression, pågående beroendeproblematik, psykotiska symtom, PTSD, GAD etc.
+Arbetsterapeutisk bedömning genomförs vid behov
 
-Bedömningssamtalsmall (som hjälpmedel)
+### Bedömningssamtalsmall
 
 Genomförs i första hand av psykiater och i andra hand av psykolog.
 
 - Syfte och patientens egen problembeskrivning
-- Aktuell social situation
+- Aktuell social situation inklusive arbete eller studier
 - Psykiatrisk problematik- aktuell och tidigare
 - Ärftlighet
 - Syfte och patientens egen problembeskrivning
@@ -137,7 +137,8 @@ Genomförs i första hand av psykiater och i andra hand av psykolog.
 - Sammanfattande bedömning
 - Fortsatt åtgärd
 
-- Somatiskt status inklusive nervstatus
+- Somatisk anamnes med fokus på ökad kardiell risk (se avsnittet nedan)
+- Somatiskt status inklusive nervstatus, auskultation av hjärta och lungor
 - Blodprover: ASAT, ALAT, Hb, LPK, TPK, Na, K, krea, CDT och peth, TSH, T4, p-glukos och HbA1c.
 
 Var observant på vilket tillstånd patienten befinner sig i och vilka andra faktorer som kan antas inverka på bedömningen, t.ex. pågående livskris, depression, pågående beroendeproblematik, psykotiska symtom, PTSD, GAD etc.
@@ -180,7 +181,7 @@ Omkring 70% svarar på behandling och förbättrar både symtom på ouppmärksam
 
 Vanliga biverkningar är insomni, illamående, anorexi, minskad aptit, viktförlust, huvudvärk, irritabilitet, humörsvängningar, buksmärta, ökad puls, förhöjt blodtryck. Kan även ge tics. I ovanliga fall kramper, psykos, hepatotoxicitet. Många biverkningar minskar över tid. Vissa biverkningar, tex irritabilitet, som uppträder sent på dagen kan bero på rebound-fenomen och föranleda extra dos av CS på eftermiddagen. Samma gäller för insomni.
 
-Atomoxtin (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. Bupropion är kan användas som andrhandsval mot ADHD-symtom [@Kolar2008].
+Atomoxtin (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. Bupropion är kan användas som andrahandsval mot ADHD-symtom [@Kolar2008].
 
 Se [NICE Guidelines för läkemedelsbehandling av ADHD](https://www.nice.org.uk/guidance/ng87/chapter/Recommendations#medication).
 

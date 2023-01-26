@@ -140,7 +140,7 @@ mania-somatic-causes
 differential-psychiatric
 personlighetssyndrom
 differentiera-manisk-psykos-vs-schizofreni
-adhd
+bipolar-adhd
 psykos-vid-bipolärt-syndrom
 behandling-1
 val-av-behandling-enligt-canmat-2018
@@ -161,8 +161,15 @@ hcl-32
 resources
 ångest
 ångestsyndrom-hos-barn
+adhd
 differentialdiagnostik
 samsjuklighet-1
+bedömning-inför-mottagande-i-adhd-team-remisskrav
+screening-inom-psykiatrin
+aktuella-dokumentverktyg-för-screening-som-kan-användas-under-hela-utredningsförloppet
+bedömning-inom-psykiatrin
+bedömning-inför-läkemedelsbehandling
+ökad-kardiell-risk-vid
 adhd-medication
 sleep-physiology
 inledning-3
