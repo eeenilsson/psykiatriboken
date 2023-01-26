@@ -530,7 +530,7 @@ Psykotiska symtom utan framträdande affaktiva sytom talar för schizofreni, sch
 
 Förekomst av tankestörning är lika vanligt vid mani och schizofreni. Vid mani är det möjligen vanligare med talträngdhet, pressat tal, grandiositet, kombinatoriskt och överinklusivt tänkande, tankeflykt, tangentialitet, derailment och loss of goal. Vid schizofreni är tankefattighet, minskad talproduktion, och lägre komplexitet i talet vanligare. Skillnaderna kan konceptualiseras som att man vid schizofreni ser mer oordnat innehåll emedan det vid mani är mer tankestrukturen som är störd. Vid mani kan mer lekfullhet och humor noteras i talet. Vid mani kan temat för det personen säger skifta, emedan personer med schizofreni kan ha svårigheter att elaborera överhuvud taget. Tankestörning vid bipolärt syndrom kan kvarstå i remission. [@Goodwin2007, p45ff]
 
-#### ADHD
+#### ADHD {#bipolar-adhd}
 
 Symtom vid bipolärt syndrom och ADHD överlappar till hög grad (tex rusande tankar, snabbt tal, distraherbarhet, minskat sömnbehov). Upp till 20% av personer med BP uppfyller kriterier för ADHD och tvärtom [@Yatham2018]. För att särskilja dessa bör symtomens episodiska karaktär vid BP klarläggas.
 
@@ -657,6 +657,9 @@ tbl[, medication := first.up(medication)]
 tbl[, features_mania := gsub("\\+", "\\\\+", features_mania)]
 tbl[, features_depression := gsub("\\+", "\\\\+", features_depression)]
 tbl[, features_prevention := gsub("\\+", "\\\\+", features_prevention)]
+tbl[, features_mania := gsub("\\-", "\\\\-", features_mania)]
+tbl[, features_depression := gsub("\\-", "\\\\-", features_depression)]
+tbl[, features_prevention := gsub("\\-", "\\\\-", features_prevention)]
 
 tbl_mania <- tbl[line_mania != 0, ]
 

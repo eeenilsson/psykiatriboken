@@ -6,7 +6,7 @@ Tre relaterade ångestsyndromen hos barn är generaliserat ångestsyndrom, socia
 
 Spontan remission förekommer, men oftast är besvären persisterande med varierande svårighetsgrad över tid. De ändrar ibland karaktär under utvecklingsåren och senare under livet. Faktorer kopplade till sämre prognos är kvinnligt kön, högre ålder, förstagradssläkting med ångestsyndrom, högre symtomnivå vid diagnos, och flera samtidiga ångestsyndrom. Bra familjefungerande kan vara skyddande [@Wehry2015].
 
- Både psykoterapi (tex KBT) och läkemedel (SSRI inklusive sertralin, paroxetin och fluoxetin; SNRI inklusive venlafaxin, TCA) har effekt. Kombinationsbehandling med läkemedel och psykoterapi har i vissa studier varit mer effektivt än endera. Atomoxetin har effekt mot ångest vid samtidig ADHD. Buspiron har ej visat effekt mot ångest hos barn, ej heller bensodiazepiner. Optimal dosering och behandlingslängd är okänd [@Wehry2015].
+Både psykoterapi (tex KBT) och läkemedel (SSRI inklusive sertralin, paroxetin och fluoxetin; SNRI inklusive venlafaxin, TCA) har effekt. Kombinationsbehandling med läkemedel och psykoterapi har i vissa studier varit mer effektivt än endera. Atomoxetin har effekt mot ångest vid samtidig ADHD. Buspiron har ej visat effekt mot ångest hos barn, ej heller bensodiazepiner. Optimal dosering och behandlingslängd är okänd [@Wehry2015].
 
 Spence Children’s Anxiety Scale kan användas för screening, stöd för diagnostik, och att följa behandlingseffekt. En svensk version finns på sfbup.
 

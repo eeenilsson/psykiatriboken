@@ -57,6 +57,91 @@ Substansbrukssyndrom. Tydliga symtom som vid ADHD före substansbruket började 
 
 Trotssyndrom och uppförandestöring vanligt. Substansbrukssynbdrom, ångestsyndrom och depression är något vanligare vid ADHD än i allmänna befolkningen, men uppträder endast hos en minoritet. Annan samsjuklighet som förekommer är tex antosocial personlighetsstörning, OCD, autism.
 
+## Bedömning inför mottagande i ADHD-team (remisskrav)
+
+Gäller ADHD eller annan neuropsykiatrisk problematik.
+
+- Bedömning med fokus på aktuella symtom och funktionsnivå i vuxen ålder samt i barndomen
+- Screening förslagsvis med hjälp av (ASRS v 1.1, RAADS-14/AQ o eventuellt NF 5-15 förkortad version). 
+- Remisser från andra landstings specialistpsykiatri/kriminalvård ska inkludera senaste läkaranteckning, aktuell läkemedelslista samt ställningstagande till eventuellt missbruk/riskbruk. 
+- I de fall där det finns en tidigare fastställd neuropsykiatrisk diagnos ska den utredning som ligger till grund för diagnosen bifogas. 
+- Remisser internt, från andra vårdgrannar eller egenanmälningar hanteras på sedvanligt sätt (obs viktigt att den ev NP-utredningen bifogas).
+
+För att neuropsykiatrisk utredning ska bli aktuell ska patienten uppvisa symtom på autismspektrumtillstånd, ADHD eller intellektuell funktionsnedsättning eller på annat sätt inge misstankar om utvecklingsrelaterad funktionsnedsättning med debut i barndomen, samt ha signifikant lidande eller funktionsnedsättning inom minst två viktiga livsområden. Patienten själv ska också vilja
+genomgå utredning.
+
+## Screening inom psykiatrin
+
+Se Vårdprogram för neuropsykiatrisk utredning och behandling
+
+- Alltid i informerat samförstånd med patienten.
+- Patienten får fylla i screeninginstrument om de inte redan är besvarade (AUDIT, DUDIT, ASRS, WURS, AQ/RAADS-14). Detta kan med fördel fyllas i av patienten i hemmet.
+- Ansvarig psykolog inhämtar kontaktuppgifter till anhörig som kan delta i utredningen.
+- Anhöriga till patienten ombeds fylla i formulär NF5-15 i syfte att säkerställa symtom i barndomen samt involvera anhöriga inför en eventuell fortsatt utredning.
+- Medarbetare i utredningsteamet (vanligtvis psykolog) genomför en utförlig journalgranskning och genomgång av tidigare genomförda utredningar. Journalrekvisition samt patientens medgivande för det görs vid behov.
+- Utifrån detta tar psykologen tillsammans med patienten ställning till om det finns anledning att gå vidare med ett bedömningssamtal. Patienten får återkoppling på screeningsinstrument av ansvarig psykolog.
+- Drogscreening (amfetamin/ecstasy, cannabis, bensodiazepiner, opiater, metadon, oxikodon)och alkoholprov (CDT och peth) skall alltid genomföras innan fortsatt bedömning.
+
+### Aktuella dokument/verktyg för screening som kan användas under hela utredningsförloppet
+
+AUDIT*
+DUDIT*
+ASRS*
+NF5-15 förkortad version*
+AQ*/RAADS-14*
+
+Vid frågeställning autism
+IDA
+Ev. WAIS-bedömning
+RAADS – fullständig version*
+NF5-15*
+RCFT
+
+Vid frågeställning ADHD/ADD
+WAIS-bedömning
+WRASS*
+WURS*
+CPT 3
+DIVA*
+WRASS-anhörigversion
+NF5-15*
+
+## Bedömning inom psykiatrin
+
+Bedömningssamtalet bör följa rubrikerna i bedömningsmallen. Utgår från screeningresultat. Utförs i första hand av ansvarig psykiater och i andra hand av ansvarig psykolog. Vid bedömning är det viktigt att säkerställa drogfrihet (även pågående medicinering som kan påverka patientens kognition bör utvärderas) inför en eventuell efterföljande utredning då det kan tänkas inverka på utredningsresultatet. I dessa fall kan anhörigintervjuer vara lämplig utgångspunkt tills dess att drogfrihet säkerställs.
+
+- Avvikande/höga alkoholvärden kräver en noggrann alkoholanamnes och
+läkarbedömning.
+
+Var observant på vilket tillstånd patienten befinner sig i och vilka andra faktorer som kan antas inverka på bedömningen, t.ex. pågående livskris, depression, pågående beroendeproblematik, psykotiska symtom, PTSD, GAD etc.
+
+Bedömningssamtalsmall (som hjälpmedel)
+
+Genomförs i första hand av psykiater och i andra hand av psykolog.
+
+- Syfte och patientens egen problembeskrivning
+- Aktuell social situation
+- Psykiatrisk problematik- aktuell och tidigare
+- Ärftlighet
+- Syfte och patientens egen problembeskrivning
+- Graviditet/förlossning/tidig utveckling
+- Somatisk sjukhistoria från barndom till vuxen ålder inklusive olycksfall/infektioner
+- Läkemedel tidigare/aktuella
+- Droger, alkohol, övrigt missbruk
+- Utsatthet för våld
+- Psykiatrisk och somatisk differentialdiagnostik
+- Kriminalitet
+- Symtom och funktionsnedsättning i barndomen
+- Symtom och funktionsnedsättning i vuxen ålder
+- Psykisk status inklusive suicidrisk och våldsrisk vid behov
+- Sammanfattande bedömning
+- Fortsatt åtgärd
+
+- Somatiskt status inklusive nervstatus
+- Blodprover: ASAT, ALAT, Hb, LPK, TPK, Na, K, krea, CDT och peth, TSH, T4, p-glukos och HbA1c.
+
+Var observant på vilket tillstånd patienten befinner sig i och vilka andra faktorer som kan antas inverka på bedömningen, t.ex. pågående livskris, depression, pågående beroendeproblematik, psykotiska symtom, PTSD, GAD etc.
+
 ## Bedömning inför läkemedelsbehandling
 
 Innan behandling med läkemedel för ADHD: 
@@ -68,7 +153,7 @@ Innan behandling med läkemedel för ADHD:
 - Omvårdnadsbehov
 - Medicinsk anamnes, kontraindikationer
 - Nuvarande medicinering
-- Länngd vikt.
+- Längd vikt.
 - Puls, blodtryck
 - Auskultation av hjärta och lungor
 
@@ -89,7 +174,7 @@ Om något av ovanstående föreligger, tag EKG och överväg kardiologkonsult.
 
 ## Läkemedel för ADHD {#adhd-medication}
 
-Elvanse är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat provas. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008]. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället.
+Lisdexamfetamin (Elvanse) är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat (Concerta) provas. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008]. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället. Dexamfetamin kan användas om den längre durationen hos föstahandsvalen ej tolereras.
 
 Omkring 70% svarar på behandling och förbättrar både symtom på ouppmärksamhet och hyperaktivitet [@Kolar2008]. Läkemedlen blockerar återupptag av noradrenalin och dopamin och amfetamin ökar frisättningen av dopamin. Metylfenidat ökar frisättningen av noradrenalin i delar av hjärnan [@Kolar2008].
 
