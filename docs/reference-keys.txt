@@ -4,6 +4,7 @@ fig:figure-cipriani-1
 fig:figure-cipriani-2
 tab:depression-canmat-antidepressant-recommendation-second
 tab:depression-canmat-antidepressant-recommendation-third
+tab:antidepressant-augmentation
 fig:fig-older-adults-antidepressants
 tab:bipolar-symptoms
 tab:bipolar-treatment-mania-yatham2018
@@ -97,6 +98,7 @@ monitorering
 antidepressiva
 antidepressant-efficacy
 svårbehandlad-depression
+augmentationsbehandling
 kombinationsbehandling
 dosering-av-antidepressiva
 switching

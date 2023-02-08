@@ -228,9 +228,51 @@ Lägre efficacy hos äldre, se \@ref(depression-elderly).
 
 ### Svårbehandlad depression
 
-STAR-D [@Howland2008a]
+<!-- STAR-D [@Howland2008a] -->
 
 CANMAT [@Kennedy2016]
+
+#### Augmentationsbehandling 
+
+Se [@Taylor2020].
+
+```{r  antidepressant-augmentation} 
+
+tbl <- fread('../notes/antidepressant_augmentation.csv')
+kable(tbl, caption = "Augmentationsbehandling vid depression")
+
+``` 
+Atypiska antipsykotiska medel:
+
+> AAPs were first-line equivalents in NICE, specifically aripiprazole, olanzapine, quetiapine, and risperidone, though it was not clear that this list is exhaustive. NICE concluded that the evidence for clinical efficacy was “moderate” and cautioned that dropout and side-effect reports were more likely than for antidepressant monotherapy, particularly for quetiapine [@Taylor2020].
+
+Dosering: Aripiprazol 2–15 mg/d [@Taylor2020]. Kvetiapin 150–300 mg/d. Risperidon 1-3mg/d. Olanzapin 2.5–10 mg/d.
+
+Litium:
+
+> The BAP recommended lithium as a first-line augmenter but cautioned that most studies augmented TCAs and the association with side effects.
+
+> Litium 600–1200 mg/d, dosing 1-2x p/d, aiming for “therapeutic serum levels” (not specified). Målkonc (0.4-)0.6–0.8(-1.2) mmol/L. If tolerated and effective, treatment should continue for at least an acute phase (typically 4–8 wk). Lithium should be maintained in combination with an antidepressant for at least 1 y to prevent relapse, though little available evidence in continuation phase. Routine use of lithium monotherapy in continuation phase not recommended. Gradual withdrawal tapered over at least 3 mo if treatment has been >6 mo.  If symptoms reoccur, maintenance dose of antidepressant and lithium should be resumed.
+
+Lamotrigin:
+
+>BAP recommended lamotrigine as a second-line augmenter but stated that few studies support the use of anticonvulsants, citing trials showing limited efficacy. NICE did not recommend lamotrigine, carbamazepine, or valproate as they considered the evidence inadequate at the time of publication. TMAP offered the most comprehensive guidance for lamotrigine, recommending 25 mg/d for 2 weeks, increased to 50 mg/d for 2 weeks, then 100 mg/d for 1 week, with a maximum daily dose of 200 mg/d in the absence of enzyme inhibiting or inducing agents. TMAP did not discuss side effects but recommended that renal function and hepatic function tests should be conducted prior to lamotrigine treatment and repeated yearly if indicated. BAP recommended that lamotrigine should be continued for up to 1 year after remission, with long-term treatment considered for higher risk patients.
+
+Bupropion:
+
+>The MPG listed bupropion as a first-line augmenter for TRD, added to an SSRI. 150–300 mg/d.
+
+Buspiron:
+
+>The MPG listed buspirone as a second-line augmenter when added to an SSRI.
+
+Thyroideahormon:
+
+>TMAP recommended thyroid augmentation at both stage 1a and 2a of their algorithm. 25 mcg/d increased to 50 mcg/d after ~1 wk if response inadequate 
+
+Modafinil:
+
+>CANMAT recommended modafinil as a second-line adjunctive agent citing a meta-analysis of 4 MDD RCTs.
 
 ### Kombinationsbehandling
 
