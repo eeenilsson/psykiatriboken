@@ -1,5 +1,57 @@
 # Ångest
 
+## Läkemedelsbehandling
+
+Se [@Garakani2020]
+
+```{r anxiety-medications } 
+
+tbl <- fread('../notes/anxiety_medications.csv')
+## i stort sett alla som är godkända i EU är det också i USA
+
+## antidepressiva
+tbl1 <- tbl[type %in% c("ssri", "snri", "other_antidepressant", "tca", "maoi"), ]
+tbl1[tbl1 == "EU, USA"] <- "EU"
+tbl1[tbl1 == "USA"] <- "EU"
+tbl1[tbl1 == "EU"] <- "Ja"
+tbl1[, type := NULL]
+
+kable(tbl1, caption = "Antidepressiv medicinering med godkännande i EU eller USA mot ångestsyndrom")
+
+## antipsykotiska medel
+
+tbl1 <- tbl[type %in% c("antipsychotics"), ]
+
+## i stort sett alla som är godkända i EU är det också i USA
+tbl1[tbl1 == "EU, USA"] <- "EU"
+tbl1[tbl1 == "USA"] <- "EU"
+tbl1[tbl1 == "EU"] <- "Ja"
+tbl1[, type := NULL]
+
+kable(tbl1, caption = "Antipsykotisk medicinering med godkännande i EU eller USA mot ångestsyndrom")
+
+tbl1 <- tbl[type %in% c("other"), ]
+tbl1[tbl1 == "EU, USA"] <- "EU"
+tbl1[tbl1 == "USA"] <- "EU"
+tbl1[tbl1 == "EU"] <- "Ja"
+tbl1[, type := NULL]
+
+kable(tbl1, caption = "Annan medicinering med godkännande i EU eller USA mot ångestsyndrom")
+
+tbl1 <- tbl[type %in% c("benzodiazepines"), ]
+tbl1[tbl1 == "EU, USA"] <- "EU"
+tbl1[tbl1 == "USA"] <- "EU"
+tbl1[tbl1 == "EU"] <- "Ja"
+tbl1[, type := NULL]
+
+kable(tbl1, caption = "Bensodiazepiner med godkännande i EU eller USA mot ångestsyndrom")
+
+``` 
+
+Abbreviations: GAD: generalised anxiety disorder; MAOIs: monoamine oxidase inhibitors; OCD: obsessive compulsive disorder; PD: panic disorder; PTSD: post-traumatic stress disorder; SAD: social anxiety disorder. 
+
+>The off-label use of the listed antidepressants, antipsychotics and others that are not approved for any anxiety, trauma-related or obsessive disorder is supported by clinical studies, meta-analysis and more recent network meta-analysis [@Garakani2020].
+
 ## Ångestsyndrom hos barn
 
 Tre relaterade ångestsyndromen hos barn är generaliserat ångestsyndrom, social ångest och separationsångest. Förekomsten av dessa medför ökad risk för liknande problem, samt tillkomst av depression och drog/alkoholberoende [@Wehry2015].

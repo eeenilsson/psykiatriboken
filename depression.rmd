@@ -74,7 +74,7 @@ Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av dep
 
 Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vägas in. Vid psykotiska symtom rekommenderas samtidig behandling med antipsykotiskt läkemedel. Vid sömnstörning kan mirtazapin, och agomelatin vara att föredra. Duloxetin kan ha smärtlindrande effekt. Vid samsjuklighet med ångestsyndrom kan ett läkemedel som har indikation för detta med fördel användas.
 
-**Framträdande ångest** vid en sepressiv episod kan defineras som förekomst minst två av följande: Känsla av att vara spänd, rastlöshet, koncentrationssvårigheter pga oro, rädsla för att något katastrofalt skall inträffa eller känsla av att man kommer att tappa kontrollen över sig själv. I dessa fall, eller om det föreligger samsjuklighet med något ångestsyndrom rekommenderas ett antidepressivt medel som har visad effekt vid generaliserat ångestsyndrom [@Dsm2013]. Någon skillnad mellan grupperna SSRI, SNRI, och bupropion har inte påvisats i detta avseende [@Kennedy2016].
+**Framträdande ångest** vid en depressiv episod kan defineras som förekomst minst två av följande: Känsla av att vara spänd, rastlöshet, koncentrationssvårigheter pga oro, rädsla för att något katastrofalt skall inträffa eller känsla av att man kommer att tappa kontrollen över sig själv. I dessa fall, eller om det föreligger samsjuklighet med något ångestsyndrom rekommenderas ett antidepressivt medel som har visad effekt vid generaliserat ångestsyndrom [@Dsm2013]. Någon skillnad mellan grupperna SSRI, SNRI, och bupropion har inte påvisats i detta avseende [@Kennedy2016].
 
 #### Samsjuklighet och subtyp av depression
 

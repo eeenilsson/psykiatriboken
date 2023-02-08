@@ -10,6 +10,7 @@ tab:bipolar-symptoms
 tab:bipolar-treatment-mania-yatham2018
 tab:bipolar-treatment-depression-yatham2018
 tab:bipolar-treatment-prevention-yatham2018
+tab:anxiety-medications
 tab:table-adhd-farmacokinetics
 tab:table-adhd-dosing
 fig:direct-indirect-pathway
@@ -163,6 +164,7 @@ skattningsinstrument
 hcl-32
 resources
 ångest
+läkemedelsbehandling-2
 ångestsyndrom-hos-barn
 adhd
 differentialdiagnostik
@@ -187,7 +189,7 @@ inledning-3
 modell-för-reglering-av-sömn-och-vakenhet
 diverse
 parasomnier
-läkemedelsbehandling-2
+läkemedelsbehandling-3
 basal-ganglia
 striatum
 den-direkta-och-indirekta-banan
