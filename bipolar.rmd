@@ -274,17 +274,16 @@ För att kartlägga förloppet kan en sk "Life chart" använadas, tex med vägle
 
 Manualerna ovan är självskattningar och innehåller även instruktioner om hur svårighetsgrad av mani/depression med mera definieras.
 
-**Översättning till svenska:**
+**Egen översättning till svenska:**
 
 [Stämningsdagbok prospektiv](https://github.com/eeenilsson/psykiatriboken/blob/master/bipolar_life_chart_prospective.pdf)
 
-[Stämningsdagbok retrospektiv](bipolar_life_chart_retrospective.pdf)
+[Stämningsdagbok retrospektiv](https://github.com/eeenilsson/psykiatriboken/blob/master/bipolar_life_chart_retrospective.pdf)
 
-[Stämningsdagbok instruktioner](./bipolar_life_chart_prospective_manual.pdf)
+[Stämningsdagbok instruktioner](https://github.com/eeenilsson/psykiatriboken/blob/master//bipolar_life_chart_prospective_manual.pdf)
+
 
 <!-- [Stämningsdagbok instruktioner](./docs/bipolar_life_chart_prospective_manual.pdf) -->
-
-
 
 ### Prevalens av olika symtom vid manisk eller blandad episod
 
