@@ -132,6 +132,7 @@ med-katatoni
 med-peripartumdebut
 episode-mixed
 with-axious-distress
+life-chart
 prevalens-av-olika-symtom-vid-manisk-eller-blandad-episod
 bipolär-i-vs-bipolär-ii
 när-misstänka-bipolärt-syndrom-vid-depressioner

@@ -272,6 +272,9 @@ För att kartlägga förloppet kan en sk "Life chart" använadas, tex med vägle
 
 [Självrapporterad prospektiv Life chart, LCM - S/P](https://shc.uci.edu/sites/default/files/docs/NIMH.Mood_.Diary_.Pt_.Instructions.pdf)
 
+[Stämningsdagbok instruktioner](./bipolar_life_chart_prospective_manual.pdf)
+
+
 Manualerna ovan är självskattningar och innehåller även instruktioner om hur svårighetsgrad av mani/depression med mera definieras.
 
 
