@@ -276,11 +276,13 @@ Manualerna ovan är självskattningar och innehåller även instruktioner om hur
 
 **Översättning till svenska:**
 
-[Stämningsdagbok prospektiv](https://github.com/eeenilsson/psykiatriboken/bipolar_life_chart_prospective.pdf)
+[Stämningsdagbok prospektiv](https://github.com/eeenilsson/psykiatriboken/docs/bipolar_life_chart_prospective.pdf)
 
 [Stämningsdagbok retrospektiv](bipolar_life_chart_retrospective.pdf)
 
 [Stämningsdagbok instruktioner](./bipolar_life_chart_prospective_manual.pdf)
+
+<!-- [Stämningsdagbok instruktioner](./docs/bipolar_life_chart_prospective_manual.pdf) -->
 
 
 
