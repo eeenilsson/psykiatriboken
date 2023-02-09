@@ -65,13 +65,10 @@ Notation: Mönstret hos en individ med bipolärt syndrom kan vara övervägande 
 
 Tidig debut med psykotisk depression är kopplat till ökad risk för senare manisk episod. Stämningsinkongruenta psykotiska symtom är förknippat med sämre prognos, kan vara mer likt schizofreni [@Goodwin2007, p53ff]?
 
-<!-- Angst indelade Bipolära syndrom i Md och Dm där stor bokstav = hospitalisering. -->
 
 ##### Suicidrisk
 
 Suicidrisken är x 10-30 jämfört med befolkningen. ~ 1/3 gör su-försök under livstiden. ~ 10 % dör av suicid. Suicidrisk och funktionsnedsättning BP1 ~ BP2. Manligt kön, och suicid hos förstagradssläkting är prediktorer för suicid  [@Yatham2018]. Perioden under- (14% av suicid) och inom sex veckor (26%) efter sjukhusinläggning innebär ökad risk. > 70% av suicid och -försök sker under depressiva episoder, särskilt ökad risk vid blandade episoder. Det bör här beaktas att en manisk episod kan följas av en depressiv-. Förgiftning är den vanligaste suicidmetoden. [@Yatham2018]
-
-<!-- Life chart https://shc.uci.edu/sites/default/files/docs/NIMH.Mood_.Diary_.Pt_.Instructions.pdf -->
 
 #### Sjukdomsbörda för individen
 
@@ -156,13 +153,7 @@ Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåg
 
 #### Rapid cycling
 
-Minst fyra hypomaniska, maniska eller depressiva episoder (som uppfyller de fulla kriterierna) det senaste 12 månaderna. Episoder avgränsas av antingen symtomfrihet i minst två månader eller övergång till motsatt polaritet. 
-
-Associerat med substansbrukssyndrom, hypothyroidism, antidepressiva.
-
-Har betydelse för val av behandling.
-
-Glöm ej undersöka thyroideastatus. 
+Minst fyra hypomaniska, maniska eller depressiva episoder (som uppfyller de fulla kriterierna) det senaste 12 månaderna. Episoder avgränsas av antingen symtomfrihet i minst två månader eller övergång till motsatt polaritet. Är associerat med substansbrukssyndrom, hypothyroidism, antidepressiva. Förekomst av rapid cycling har betydelse för val av behandling. Glöm ej undersöka thyroideastatus. 
 
 #### Med melankoliska drag
 
@@ -272,6 +263,17 @@ Minst två av följande föreligger de flesta dagar under episoden:
 <!-- Severe: Four or five symptoms with motor agitation. -->
 
 Hög ångestnivå vid bipolär eller unipolär depression är associerat med ökad suicidrisk, längre sjukdomsduration, och sämre svar på behandling.
+
+### Life chart
+
+För att kartlägga förloppet kan en sk "Life chart" använadas, tex med vägledning av dessa manualer:
+
+[Självrapporterad retrospektiv Life chart, LCM - S/R](https://www.bipolarnews.org/pdfs/Patient%20Retrospective%20Manual.pdf)
+
+[Självrapporterad prospektiv Life chart, LCM - S/P](https://shc.uci.edu/sites/default/files/docs/NIMH.Mood_.Diary_.Pt_.Instructions.pdf)
+
+Manualerna ovan är självskattningar och innehåller även instruktioner om hur svårighetsgrad av mani/depression med mera definieras.
+
 
 ### Prevalens av olika symtom vid manisk eller blandad episod
 
