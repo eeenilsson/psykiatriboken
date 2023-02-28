@@ -150,6 +150,10 @@ Genomförs i första hand av psykiater och i andra hand av psykolog.
 
 Var observant på vilket tillstånd patienten befinner sig i och vilka andra faktorer som kan antas inverka på bedömningen, t.ex. pågående livskris, depression, pågående beroendeproblematik, psykotiska symtom, PTSD, GAD etc.
 
+[Checklista utvecklingsanamnes](https://kunskapsstodforvardgivare.se/download/18.79c9432717c118a78b44c7d9/1634134540895/checklista_utvecklingsanamnes_adhd.pdf)
+
+[Skattningsskalor](https://kunskapsstodforvardgivare.se/omraden/psykisk-halsa/skattningsskalor/skattningsskalor)
+
 ## Bedömning inför läkemedelsbehandling
 
 Innan behandling med läkemedel för ADHD: 
@@ -225,15 +229,19 @@ Tics: Centralstimulerande läkemedel kan öka eller utlösa motoriska och verbal
 
 ## Läkemedel för ADHD {#adhd-medication}
 
-Metylfenidat är förstahandsval för barn, ungdomar och vuxna enligt lokala vårdprogrammet. Rekommendationsgrad A enligt läkemedelsverket 2016.
+**Metylfenidat** är förstahandsval för barn, ungdomar och vuxna enligt lokala vårdprogrammet. Rekommendationsgrad A enligt läkemedelsverket 2016.
 
-Lisdexamfetamin (Elvanse) är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat (Concerta) provas. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008]. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället. Dexamfetamin kan användas om den längre durationen hos föstahandsvalen ej tolereras.
+**Lisdexamfetamin** (Elvanse) är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat (Concerta) provas. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008]. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället. Dexamfetamin kan användas om den längre durationen hos föstahandsvalen ej tolereras.
 
 Omkring 70% svarar på behandling och förbättrar både symtom på ouppmärksamhet och hyperaktivitet [@Kolar2008]. Läkemedlen blockerar återupptag av noradrenalin och dopamin och amfetamin ökar frisättningen av dopamin. Metylfenidat ökar frisättningen av noradrenalin i delar av hjärnan [@Kolar2008].
 
 Vanliga biverkningar är insomni, illamående, anorexi, minskad aptit, viktförlust, huvudvärk, irritabilitet, humörsvängningar, buksmärta, ökad puls, förhöjt blodtryck. Kan även ge tics. I ovanliga fall kramper, psykos, hepatotoxicitet. Många biverkningar minskar över tid. Vissa biverkningar, tex irritabilitet, som uppträder sent på dagen kan bero på rebound-fenomen och föranleda extra dos av CS på eftermiddagen. Samma gäller för insomni.
 
-Atomoxtin (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. Bupropion är kan användas som andrahandsval mot ADHD-symtom [@Kolar2008].
+**Atomoxtin** (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. Bupropion är kan användas som andrahandsval mot ADHD-symtom [@Kolar2008].
+
+>Atomoxetin (Strattera) kaps. 10, 18, 25, 40, 60 och 80 mg: är ett icke-narkotikaklassat läkemedel.  Preparatet kan användas om metylfenidat inte har tillräcklig effekt och/eller när det inte är lämpligt att använda centralstimulerande medel, t.ex. vid svåra tics, allvarlig sömnstörning, behov av effekt över hela dygnet, okontrollerat missbruk/risk för missbruk eller annan felaktig användning av centralstimulantia. Atomoxetin har inte satts i samband med missbruk (Läkemedelsverket, 2009).  Effekt uppnås efter ca 4-6 v. Atomoxetin kan kombineras med centralstimulantia och har visat god effekt vid insomningsproblem om det ges på kvällen.  (Vårdprogrem BC stockholm).
+
+>The initial therapeutic effects of atomoxetine usually take 1 to 4 weeks to become apparent.[5][25][26] A further 2 to 4 weeks may be required for the full therapeutic effects to be seen.[27][25] Incrementally increasing response may occur up to 1 year or longer.[26][28] The maximum recommended total daily dose in children and adolescents over 70 kg and adults is 100 mg (Wikipedia)
 
 Se [NICE Guidelines för läkemedelsbehandling av ADHD](https://www.nice.org.uk/guidance/ng87/chapter/Recommendations#medication).
 
@@ -289,11 +297,9 @@ tbl_long <- data.table::melt(tbl, id.vars = c("time"))
 ## curate
 tbl_long[, value_relative := value/max(value), by = .(variable)]
 
-tbl_long[, lty := "solid"]
-tbl_long[variable %in% c("methylphenidateimmediate", "methylphenidateextended"), lty := "dashed"]
-tbl_long$lty
-
-p <- ggplot(tbl_long, aes(x=time, y=value_relative, group=variable, color=variable, linetype = lty))
+p <- ggplot(tbl_long, aes(x=time, y=value_relative, group=variable, color=variable
+                        , linetype = (variable %in% c("methylphenidateimmediate", "methylphenidateextended")) 
+                          ))
 ## p + geom_line()
 klockslag <- c(paste0("0", as.character(7:9)), as.character(10:24),
                paste0("0", as.character(1:7)))
@@ -304,7 +310,8 @@ p <- p + geom_smooth(method="auto", se=FALSE, fullrange=FALSE, span = 0.2) +
     theme_bw()
 p <- p + theme(legend.position = c(0.8, 0.8))
 
-p + guides(lty = FALSE) + theme(panel.grid.minor = element_blank())
+p <- p + guides(lty = "none") + theme(panel.grid.minor = element_blank())
+p
 
 ## pdf("adhd_medicinering_profiler.pdf")
 ## p

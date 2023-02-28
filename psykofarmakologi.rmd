@@ -474,8 +474,8 @@ Akatisi:
 Tardiv dyskinesi:
 
 - Sätt ut antikolinerga läkemedel
-<!-- - Byt till AP med mindre benägenhet för TD (dock motstridiga data) -->
-<!--   - Klozapin, kvetiapin mest sannolikt hjälpsamt -->
+- Byt till AP med mindre benägenhet för TD (dock motstridiga data)
+  - Klozapin, kvetiapin mest sannolikt hjälpsamt
 - Valbenazin, deutetrabenazin [finns ej i Sverige?]
 - Klonazepam
 - Ginkgo biloba?
@@ -614,7 +614,7 @@ Bilirubin har andra gränser vid PBC: < 68 mikromol/L, 68–171 mikromol/L, resp
 
 Sammanfattningsvis innebär detta att vid kände leversvikt eller AST/ALT > x3 men frånvaro av ascites, hypoalbuminemi och med normalt bilirubin och PK, kan 75-100% av normaldosen användas.
 
-#### Vid leverscikt undvik läkemedel med...
+#### Vid leversvikt undvik läkemedel med...
 
 - Komplex metabolism eller aktiva metaboliter skapas i levern
   - Tex amitriptylin, imipramin, venlafaxin, bupropion
@@ -648,9 +648,9 @@ Risk för allvarlig toxicitet (dock ovanligt): Duloxetin, karbamazepin, valproat
 
 Antidepressant-induced liver injury: a review for clinicians voican 2014  [@Voican2014]
 
-"For safety reasons, when using an antidepressant as-sociated with a greater risk of hepatotoxicity (iproniazid,nefazodone, phenelzine, imipramine, amitriptyline, dulox-etine, bupropion, trazodone, tianeptine, or agomelatine) or prescribing an antidepressant for a patient with an un-derlying liver disease, regular monitoring of serum ALTshould be discussed, even though there is no formalrecommendation for such investigations. For agomelatine,assessment of liver function is recommended for all patientsbefore treatment and again after 3, 6, 12, and 24 weeks oftreatment (151). Nevertheless, further studies are neededboth to confirm the efficacy of follow-up liver function testsfor the early detection of DILI and to identify patients atgreater risk of DILI." [@Voican2014]
+"For safety reasons, when using an antidepressant associated with a greater risk of hepatotoxicity (iproniazid,nefazodone, phenelzine, imipramine, amitriptyline, duloxetine, bupropion, trazodone, tianeptine, or agomelatine) or prescribing an antidepressant for a patient with an underlying liver disease, regular monitoring of serum ALT should be discussed, even though there is no formalrecommendation for such investigations. For agomelatine, assessment of liver function is recommended for all patientsbefore treatment and again after 3, 6, 12, and 24 weeks oftreatment (151). Nevertheless, further studies are neededboth to confirm the efficacy of follow-up liver function testsfor the early detection of DILI and to identify patients atgreater risk of DILI." [@Voican2014]
 
-"antidepressants should be discontinued imme-diately in any patient with suspected DILI. It has beensuggested that these drugs should be promptly discon-tinued when serum ALT levels are.33ULN (or.53ULN,as recently suggested) (9) or if there is an unexplained increasein bilirubin levels to.23ULN. For patients with high baselineALT levels, drug discontinuation is recommended whenserum ALT levels are.3 times the baseline value." [@Voican2014]
+"antidepressants should be discontinued immediately in any patient with suspected DILI. It has beensuggested that these drugs should be promptly discontinued when serum ALT levels are x3 ULN (or x 5 ULN, as recently suggested) (9) or if there is an unexplained increasein bilirubin levels to x 3 ULN. For patients with high baseline ALT levels, drug discontinuation is recommended whenserum ALT levels are x 3 times the baseline value." [@Voican2014]
 
 ## Litium {#lithium}
 
@@ -664,7 +664,7 @@ Verkningsmekanismen oklar. Sannolik mekanism är att Litium uppreglerar gener so
 
 Cade testade litium på marsvin som skydd mot ureatoxicitet och noterade sedering som effekt.
 
-Trautner 1955 The excretion and retention of ingested lithium and its effect on the ionic balance of man [@Trautner1955]
+Trautner 1955 The excretion and retention of ingested lithium and its effect on the ionic balance of man [@Trautner1955].
 
 Trautner om toxicitet
 
@@ -680,12 +680,11 @@ Litium efter ECT.
 
 Cykloid psykos kan vara indikation för litium
 
+antisuicidal effekt.
 
-- Tecken på sämre effekt vid affektiva blandtillstånd (mixed state). (?)
+Tecken på sämre effekt vid affektiva blandtillstånd (mixed state). (?)
 
 Response to litium network https://rlink.eu.com/ bipolär
-
-antisuicidal effekt.
 
 ### Biverkningar
 
@@ -695,7 +694,7 @@ Tabell med vanlighetsgrad
 - Kan ge biverkningar: diarré, tremor, törst, viktuppgång och i vissa fall kognitiv nedsättning (lindrig).
 - Toxisk i höga koncentrationer (uttorkning, njursjukdomar, feber, överdosering).
 
-Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l. 1,5-2,5 mmol/l ger lindrig– måttlig intoxikation med symtom av slöhet, tremor, yrsel, sluddrigt tal, diarré, muskelryckningar. Koncentrationer därutöver ger allvarlig intoxikation med risk för konfusion, agitation, njurskador, hallucinationer, kramper, koma och hjärtrytmrubbningar. För att undvika intoxikation ska alla patienter instrueras att tillfälligt utsätta Litium under några dagar vid risk för intorkning eller minskad njurfunktion (dvs hög feber, njursjukdom, svår diarré, vattenbrist). De ska instrueras att aldrig ta andra mediciner utan att fått dessa ordinerade av läkare som känner till att de tar Litium (paracetamol går bra).
+Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1.3 mmol/l. 1.5-2.5 mmol/l ger lindrig– måttlig intoxikation med symtom av slöhet, tremor, yrsel, sluddrigt tal, diarré, muskelryckningar. Koncentrationer därutöver ger allvarlig intoxikation med risk för konfusion, agitation, njurskador, hallucinationer, kramper, koma och hjärtrytmrubbningar. För att undvika intoxikation ska alla patienter instrueras att tillfälligt utsätta Litium under några dagar vid risk för intorkning eller minskad njurfunktion (dvs hög feber, njursjukdom, svår diarré, vattenbrist). De ska instrueras att aldrig ta andra mediciner utan att fått dessa ordinerade av läkare som känner till att de tar Litium (paracetamol går bra).
 
 2.5-3.0 mEq/L potentially dangerous evenin the absence of toxic symptoms  [@Deleon2016presentation]
 
@@ -705,10 +704,11 @@ Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1,3 mmol/l. 1,
 
 > Renal lithium toxicity is characterized by increased water and sodium diuresis, which can result in mild dehydration, hyperchloremic metabolic acidosis and renal tubular acidosis. The concentrating defect and natriuretic effect develop within weeks of lithium initiation.  [@Grunfeld2009]
 
+> Long-term lithium therapy is associated with impairment of urinary concentrating ability in up to 50% of patients with polyuria of greater than 3 liters per 24 hours in 20% of patients (Boton et al. 1987). Such increased urine volume carries a potential risk to the patients because of sodium depletion, excessive fluid loss, or reduced intake. In 5 to 10% of patients, the impairment of urinary concentrating ability may be irreversible or only partly reversible upon lithium discontinuation [...] In contrast, glomerular function remains relatively unscathed. Johnson et al. (1984) found a mild-to-moderate decrease in 15% of patients, with a fall in glomerular filtration rate (GFR) correlated with age. They concluded that progressive impairment of glomerular and tubular function during lithium maintenance is related more to age, episodes of lithium intoxication, and concurrent drug administration, than it is to duration of lithium treatment  [@Johnson1998].
 
 #### Kronisk njursvikt
 
-> Lithium-induced CKD occurs mostly in patients who have been receiving lithium for more than 10–20years; occasionally, renal insufficiency develops earlier (within 10years of lithium initiation)  [@Grunfeld2009]
+> Lithium-induced CKD occurs mostly in patients who have been receiving lithium for more than 10–20years; occasionally, renal insufficiency develops earlier (within 10 years of lithium initiation)  [@Grunfeld2009]
 
 ### Farmakokinetik
 

@@ -1,7 +1,6 @@
 # Autism {#autism}
 
-## Epidemiologi 
-
+Se [kunskapsstöd](https://kunskapsstodforvardgivare.se/omraden/psykisk-halsa/regionala-vardprogram/autismspektrum)
 
 ## Kliniska tecken
 
@@ -11,28 +10,21 @@ Ofta överlapp mellan olika NP diagnoser
 
 ESSENCE, Gillberg  [@Gillberg2010] Föreläsning 
 
-#### Epidemiologi
+## Epidemiologi
 
-• ADHDs with or without ODD/CD (Oppositional/Conduct Problems) 5-7%
-• SLI/LD (Language Impairment/Disorder including antecedents of Dyslexia) 5%
+• ADHD med eller utan ODD/CD (Oppositional/Conduct Problems) 5-7%
+• SLI/LD (Språkstörning inklusive dyslexi) 5%
 • DCD (Developmental Coordination Disorder) 5%
-• ID (Intellectual Disability) 2%
-• Autisms/ASD with or without regression 1.2-1.4% (10-20% regression)
-• ARFID (Avoidant/Restrictive Food Intake Disorder) and many cases of anorexia/ASD and bulimia/ADHD
+• ID (Intellectuell dysfunktion) 2%
+• Autisms/ASD med eller utan regression 1.2-1.4% (10-20% regression)
+• ARFID (Avoidant/Restrictive Food Intake Disorder) och vanligt med anorexia/ASD och bulimi/ADHD
 • Tic Disorders/Tourette Syndrome/OCD (Obsessive Compulsive Disorder) 1%
-• Selective Mutism (EDA/PDA/ASD closely related?) 0.2-2%
+• Selectiv Mutism (EDA/PDA/ASD closely related?) 0.2-2%
 • RAD/DSED (Reactive Attachment Disorder, Disinhibited Social Engagement Disorder) 0.5-1.5%
 
-#### Konsekvenser
+## Konsekvenser
 
-Predictors of academic failure, other school adjustment problems, social exclusion, substance use, psychiatric
-disorders incl depression, anxiety, personality disorder, and eating disorders including ARFID, obesity, bulimia,
-and anorexia, “physical” health problems, accidents including road traffic accidents, empathy problems,
-antisocial lifestyle and criminality later in life, persistent autistic features “only”, early death (through accidents,
-criminality, substance abuse and physical health problems)
-
-
-
+Predictors of academic failure, other school adjustment problems, social exclusion, substance use, psychiatric disorders incl depression, anxiety, personality disorder, and eating disorders including ARFID, obesity, bulimia, and anorexia, “physical” health problems, accidents including road traffic accidents, empathy problems, antisocial lifestyle and criminality later in life, persistent autistic features “only”, early death (through accidents, criminality, substance abuse and physical health problems)
 
 Beröring
 
@@ -42,11 +34,160 @@ Inflexibilitet
 
 Fysiska tecken (ansikte)
 
+## Differentialdiagnos
+
+Följande differentialdiagnoser bör beaktas
+
+- Lindrig utvecklingsstörning: Kan ge liknande beteende, kan också förekomma samtidigt. Kartläggning av begåvning genom neuropsykologisk utredning.
+- Svår språkstörning: Logopedbedömning kan behövas.
+- ADHD: Vanligt med hyperaktivitet och impulsivitet hos små barn med autism. Personer med autismspektrumtillstånd kan uppfattas som uppmärksamhetsstörda på grund av benägenhet att fastna i detaljer, rikta uppmärksamheten mot annorlunda saker och svårigheter med att skifta fokus. ADHD kan ge sekundära svårigheter med socialt samspel på grund av kärnsymtomen.
+- Tourettes syndrom: Tics (plötsliga, kortvariga, ensidiga) kan vara svåra att skilja från stereotypier (rytmiska, långvariga, bilaterala eller involverar hela kroppen).
+- Tvångssyndrom (OCD): Vid OCD uppfattas tvångssymtom som besvärande av patienten, som vill bli av med symtomen. Upprepning och stereotypa beteenden vid autismspektrumtillstånd upplevs ofta som positiva av patienten, och är då snarare att betrakta som autistiska ritualer.
+- Social fobi: Liknande beteende med socialt undvikande. Patienter med social fobi har dock vanligen god mentaliseringsförmåga med känslighet för andras omdömen.
+- Depression: Kan vara svårt att differentiera på grund av mimikfattigdom, monotont röstläge och svårigheter att beskriva känslor vid autismspektrumtillstånd.
+- Ätstörningar: Ofta autistiska drag som förstärks av svält. För diagnos inom autismspektrum hos en patient med anorexi bör man avvakta normaliserad vikt.
+- Schizofreni: Liknande kognitiva brister; svårigheter med mentalisering och brister i exekutiva funktioner. Hallucinationer och/eller vanföreställningar är typiska symtom vid schizofreni. Vissa typer av tankestörningar, motoriska och negativa symtom kan finnas vid båda tillstånden. En viktig skillnad är förloppet; schizofreni har oftast en tydlig debut med distinkt funktionsnedsättning i tonår eller vuxen ålder, medan symtom vid autismspektrumtillstånd har funnits sedan tidig barndom. I enstaka fall kan båda tillstånden förekomma samtidigt. Jagstörning (Nylander, EASE) talar för psykos.
+- Psykopati: Innebär en normal förmåga till kognitiv empati (förmåga att förstå hur andra tänker och reagerar), men stora brister i affektiv empati (medkänsla). Personer med psykopati kan vara skickliga i att föra omgivningen bakom ljuset, till skillnad från personer med autismspektrumtillstånd som oftast är mycket sanningsenliga och dåliga på att manipulera andra. De flesta med psykopatisk personlighet har inte kontakt med psykiatri eller rättspsykiatri, men det förekommer att de söker psykiatrin om de har något att vinna på det. Vägledning för diagnostik ger främst den objektiva anamnesen, alltså anhörigas berättelse och journaluppgifter men också observation av kroppsspråk, mimik och beteende.
+
+Från [kunskapsstöd](https://kunskapsstodforvardgivare.se/omraden/psykisk-halsa/regionala-vardprogram/autismspektrum)
 
 
-### Differentiering mot psykossjukdom
+## Samsjuklighet
 
-Jagstörning (Nylander, EASE) talar för psykos
+Majoriteten av vuxna med autismspektrumtillstånd har minst en annan psykiatrisk diagnos. Andra utvecklingsrelaterade svårigheter kan finnas samtidigt med autismspektrumtillståndet.
 
-Debutålder
+- Lindrig utvecklingsstörning
+- Språkstörningar, specifika inlärningsproblem som dyslexi och dyskalkuli: kan kräva specifik träning och hjälpmedel. Bedöms av logoped.
+- ADHD: Kan behöva specifik behandling med bland annat läkemedel. I nu gällande diagnoskriterier anges att ADHD-diagnos inte kan ställas vid samtidigt autismspektrumtillstånd. Detta kommer att förändras i nästa upplaga av DSM.
+- Tics/Tourettes syndrom: ökad förekomst av motoriska och ibland även vokala tics
+- Tvångssyndrom (OCD), särskilt i form av symmetritvång och samlande, förekommer hos personer med autismspektrumtillstånd och kan behöva behandlas.
+- Ångestsyndrom: Innan behandling övervägs bör patientens livssituation kartläggas. Social ångest och socialt undvikande beteende kan bero på överkrav på socialt samspel. Krav på ömsesidig kommunikation kan framkalla stress, som i sin tur försämrar kommunikationsförmågan.
+- Affektiva sjukdomar: Dystymi, depression och bipolär sjukdom är förhållandevis vanligt. Depressioner är ofta atypiska, även depressiva psykoser förekommer. Ökad rutinbundenhet, självskadande och annat stereotypt beteende är vanliga symtom på depression hos patienter med autismspektrumtillstånd. Skattningsskalor för depression kan lämpa sig mindre väl i vissa fall, då innebörden av abstrakta begrepp kan vara svåra att förstå. Depressiva symtom kan vara sekundära till sociala och yrkesmässiga misslyckanden på grund av autismspektrumtillståndet.
+- Perceptionsavvikelser: Annorlunda varseblivning och tolkning av sinnesintryck. Vanligast med över- och underkänslighet vad gäller hörsel- och känselintryck. Kan ge upphov till problemskapande beteenden, stark stress och obehag men någon gång även till lustupplevelser och speciella förmågor.
+- Schizofreni: Kan i enstaka fall kan drabba personer med autismspektrumtillstånd. I nu gällande diagnoskriterier anges att diagnosen Aspergers syndrom inte kan ställas vid samtidig schizofreni. Detta kommer troligen att förändras i nästa upplaga av DSM.
+- Övriga psykoser och psykosliknande tillstånd: Kan ibland utlösas av svår stress, oftast i samband med förändringar i livssituationen. Återgång till bekanta rutiner kan ha god effekt.
+- Schizotypi och andra personlighetsstörningar: Symtomkriterier är ofta uppfyllda hos personer med autismspektrumtillstånd. Personlighetsstörningsdiagnos är dock sällan till någon praktisk nytta. Ett undantag är emotionellt instabil personlighetsstörning, som kan kräva specifik behandling.
+- Katatoni: Svårigheter med viljemässigt styrd motorik kan ibland ses vid autism som förlångsammade rörelser, ökad svarslatens, svårigheter att starta och stoppa, beroende av hjälp med igångsättning och ökad passivitet. Katatoni framträder särskilt vid stress och debuterar ofta i sena tonåren eller ung vuxenålder.
+- Ätstörningar: Selektivt val av föda och ospecifikt stört ätbeteende är mycket vanligt vid autismspektrumtillstånd. Problemen startar oftast i barndomen. De kliniska ätstörningarna, särskilt anorexia nervosa, är överrepresenterade.
+- Kroppslig sjukdom och hälsa: Förhöjd risk för epilepsi. Ofta svårigheter att söka hjälp för somatiska hälsoproblem. En del har annorlunda upplevelse av temperatur, smärta eller känsel och har svårt att beskriva symtom. Allergier, gastrointestinala besvär, smärttillstånd och hudåkommor är vanliga. Patienter med medfött syndrom (genetiskt eller sekundärt till skada) behöver ofta följas på grund av kroppsliga manifestationer som åtföljer syndromet, till exempel hjärt/kärlsjukdom.
+- Utmattningssyndrom: Sekundärt till autismspektrumtillståndet.
+- Missbruk: Mindre vanligt men förekommer. Oftast alkoholberoende; vanligast i gruppen med atypisk autism, minst vanligt vid Aspergers syndrom. Missbruket kan ibland vara relativt lätt att bryta om patienten erbjuds stöd och hjälp till ett meningsfullt sammanhang
 
+Från [kunskapsstöd](https://kunskapsstodforvardgivare.se/omraden/psykisk-halsa/regionala-vardprogram/autismspektrum)
+
+
+## Utredning
+
+[ASSQ](https://kunskapsstodforvardgivare.se/download/18.26e8250017c6f95090f81ec/1634134959260/ASSQ.pdf)
+
+[Exempel på frågeformulär som finns tillgängliga på svenska mm](https://kunskapsstodforvardgivare.se/download/18.79c9432717c118a78b44c86a/1633932668958/Frageformular_skattningsskalor.pdf)
+
+[Kunskapsstöd](https://kunskapsstodforvardgivare.se/omraden/psykisk-halsa/regionala-vardprogram/autismspektrum)
+
+
+### Psykiatrisk anamnes
+
+Medfödd eller tidigt förvärvad funktionsnedsättning utan tydligt insjuknande. Vid diagnosen autism kan symtom visa sig redan under småbarnsåren i form av avvikande beteende såsom kontaktsvårigheter, stereotypt beteende, svårigheter med sömn och mat samt att utvecklingen av förmågor såsom kommunikation och socialt samspel är försenad eller saknas. I vissa fall kan utvecklingssteg som redan har uppnåtts gå förlorade. Vid Aspergers syndrom eller atypisk autism kan svårigheterna bli tydliga först under skolåldern eller senare, då kraven på abstraktionsförmåga, flexibilitet och social ömsesidighet ökar. Förloppet är oftast kontinuerligt. Vid autism kan ibland ske en försämring under tonår eller vuxenliv, speciellt vid bristande stimulans och träning av funktioner. Vid Aspergers syndrom ses ofta en försenad men fortsatt utveckling av sociala och kommunikativa förmågor under hela livet.
+
+Anamnesen bör innefatta:
+
+- kontaktväg, kontaktorsak
+- patientens förväntningar på utredningen
+- uppväxt, tidigare sociala förhållanden
+- aktuella sociala förhållanden (notera om det finns minderåriga barn)
+- hereditet
+- utvecklingsanamnes (se nedan)
+- tidigare psykiatrisk anamnes
+- aktuella psykiatriska symtom och diagnoser
+- aktuella funktionsnedsättningar respektive starka sidor
+- tidigare somatisk anamnes
+- aktuella somatiska besvär och sjukdomar (inklusive syn- och hörselproblem)
+- alkohol- och droganamnes
+- tidigare utredningar och behandlingar
+- aktuella mediciner
+
+Utvecklingsanamnesen är av avgörande betydelse för diagnostiken och bör prioriteras. Kartlägg utvecklingen av grundläggande funktioner såsom motorik, aktivitetsnivå, språk, icke-verbal kommunikation, ömsesidig social interaktion, lek och intressen, uppmärksamhet, impulskontroll. Använd gärna konkreta och detaljerade frågor
+
+### Psykiskt status
+
+Psykiskt status
+
+Yttre/beteende: Ofta rutinbundenhet. Beteendet kan ibland inge misstanke om svårt tvångssyndrom, psykossjukdom eller utvecklingsstörning.
+
+Formell kontakt: Mer eller mindre tydliga avvikelser i kommunikation och socialt samspel. En del är tysta och tillbakadragna, i sällsynta fall mutistiska, andra är mycket verbala. Monolog kan föredras framför dialog. Bristfällig icke-verbal kommunikation är vanlig, inkluderade avvikande användning och timing av exempelvis ögonkontakt, gester och ansiktsuttryck. Språkbruk och röstläge kan ibland vara monotont, repetitivt och stereotypt. Samtalen utgår ofta från patientens egna intressen. Nyanser i språket och abstrakta resonemang kan vara svåra att förstå för patienten. Uttryck och liknelser kan tolkas konkret, bokstavligt. Ibland finns andra språkavvikelser, såsom ekolali eller att tala högt för sig själv.
+
+Emotionell kontakt: Kan ibland vara reserverad, avståndstagande eller påträngande, distanslös. Varierande grad av svårigheter att tolka emotionella stimuli kan finnas, liksom svårigheter med inlevelseförmågan i andras tankar, känslor och avsikter.
+
+Psykomotorik: Stereotypt, repetitivt rörelsemönster kan förekomma liksom hämmad, agiterad eller på annat sätt avvikande mimik och motorik.
+
+Grundstämning: Påverkas ej primärt.
+
+Affekter: Kan ibland uttryckas mindre tydligt.
+
+Tankeförlopp/kognition: Ofta avvikande, tendens att fokusera mer på detaljer än på helheten. Svårigheter att manipulera och integrera abstrakt information, särskilt sådant som rör socialt samspel. Särskilda domäner kan finnas med exceptionell kognitiv kapacitet.
+
+Psykostecken: Ibland auditiva, visuella eller sensoriska perceptionsstörningar, men ej regelrätta hallucinationer eller vanföreställningar.
+
+Suicidalitet: Suicidrisken kan vara förhöjd vid autism. Strukturerad suicidriskbedömning bör göras.
+
+Från [kunskapsstöd](https://kunskapsstodforvardgivare.se/omraden/psykisk-halsa/regionala-vardprogram/autismspektrum)
+
+Redan de inledande bedömningssamtalen ger möjlighet till observation av patientens förmåga till ömsesidig kontakt, tal och språk, mimik och kroppsspråk, eventuell motorisk rastlöshet, verbal hyperaktivitet, tecken på bristande uppmärksamhet, impulskontroll, minne, etc. [Se checklista för beteende i samtalssituationen][https://kunskapsstodforvardgivare.se/download/18.6fe427c017c7ecaf308bc9a/1634661958757/bilaga4_observationshjalpmedel.pdf]
+
+### Somatisk anamnes och status
+
+Det finns flera syften med att göra en noggrann somatisk bedömning - att utesluta somatisk genes till det avvikande beteendet, förbereda eventuell läkemedelsbehandling, söka ledtrådar avseende etiologi och hitta samtidiga tillstånd som behöver åtgärd (remittera eller hänvisa vidare vid behov). Eventuellt kan den somatiska anamnesen behöva kompletteras (se checklista för utvecklingsanamnes Pdf, 377.7 kB.). 
+
+Vid somatisk undersökning iakttas patientens förmåga att förstå och följa instruktioner, reaktion på fysisk närhet och kroppskontakt, samspel och kommunikation. 
+
+Notera särskilt i status:
+
+Allmäntillstånd: Tecken i fråga om kroppsbyggnad och eventuella yttre stigmata kan finnas på etiologiskt intressanta syndrom såsom kromosomavvikelser eller fetalt alkoholsyndrom.
+
+Neurologi: Utvidgat status bör göras. Inkludera undersökning av ögonmotorik och skelning, testa hörsel genom visktest från 5 meters håll. Beakta att olika funktionella domäner kan vara olika mycket drabbade. Undersök grov- och finmotorik samt notera talförmåga. Diskreta avvikelser (”soft signs”) kan finnas såsom bristande motorkoordination och ofrivilliga rörelser.
+
+Övrigt: Fullt status enligt vanliga rutiner, med särskild observans på hjärtstatus, blodtryck, tecken på missbruk, hygien och tandstatus.
+Provtagning
+
+Blodprov: Blod-, njur- och leverstatus, TSH, B12, folat, CDT samt elektrolyter inklusive calcium.
+
+Urinscreening för narkotika: Bör göras vid samtliga utredningar utom i de fall där användning helt kan uteslutas. Analys avseende dopningpreparat bör övervägas.
+
+För läkemedelsbehandlade patienter: Gå igenom läkemedelslistan, beakta särskilt preparat med kognitiva eller psykiska biverkningar.
+
+Genetisk utredning: Finns misstanke om genetisk avvikelse bör klinisk genetiker konsulteras för råd om provtagning.
+
+Hjärnavbildning och EEG: Överväg CT- eller MRI-undersökning av hjärnan vid tidigare outredda skalltrauman. Remittera för EEG vid misstanke om epilepsi.
+
+Från [kunskapsstöd](https://kunskapsstodforvardgivare.se/omraden/psykisk-halsa/regionala-vardprogram/autismspektrum)
+
+
+### Neuropsykologisk testning
+
+Görs av psykolog
+
+Lämpliga instrument att använda
+
+- Wechsler´s Adult Intelligence Scale-IV (WAIS-IV): Allmänintellektuell nivå.
+- Rey Complex Figure Test (RCFT): Visuospatial konstruktionsförmåga, visuospatialt minne.
+- Wechsler Memory Scale-IV (WMS-IV): Minne och inlärning.
+- Delis-Kaplan Executive Functions System (D-KEFS): Exekutiva funktioner.
+- Conner’s Continous Performance Test (CPT): Uppmärksamhet, impulsivitet och vigilans.
+- Adaptive Behavior Assessment System-II (ABAS-II): Tillgång till adaptiva färdigheter som möjliggör både självständighet och delaktighet i samhället.
+
+### Uppföljning
+
+Behandling följs upp efter 5-7 månader från behandlingsstart (avslutad basutredning), samt årsvis vid längre behandlingar, med EQ-5D och CGI-S. Dessutom görs syndromspecifik uppföljning enligt nedan.
+
+- Nytillkomna psykiatriska symtom, behov av behandling
+- Alkohol, narkotika, tobak.
+- Kost, motion, sömn
+- Revidera vårdplan:
+  - eventuell läkemedelsbehandling, recept
+  - psykologisk behandling
+  - kontakt med habiliteringen
+  - insatser från övrigt samhällsstöd
+  - berörda minderåriga
+  - behov av intyg
+	
+Till följd av de grundläggande svårigheterna vid autismspektrumtillstånd, ofta i kombination med olämplig miljö, olämpligt bemötande, alltför höga krav eller brist på meningsfull sysselsättning, kan problemskapande beteende uppstå. Detta kan ge anledning till kontakt med psykiatrin, även om patienten redan har kontakt med habiliteringen eller har ett boende med särskilt stöd. Det kan exempelvis handla om oro, agitation, våldsamhet, självskada, matvägran eller mutism, kanske i samband med en förändring av rutiner. Dessa situationer löses helst i ett samarbete mellan psykiatri, primärvård och habilitering och i dialog med övriga nätverket: anhöriga och kommunens personal samt personliga assistenter.

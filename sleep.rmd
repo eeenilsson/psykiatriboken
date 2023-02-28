@@ -22,6 +22,13 @@ Hypnagoga hallucinationer
 
 ## Parasomnier 
 
+## Sömnhygien
+
+[Sömndagbok](https://kunskapsstodforvardgivare.se/download/18.26e8250017c6f95090f8fa4/1634146276938/Soemndagbok20150316.pdf)
+
+[Sömnhygieniska råd](https://kunskapsstodforvardgivare.se/download/18.26e8250017c6f95090f8fa6/1634146336170/Somnhygieniska-rad.pdf)
+
 ## Läkemedelsbehandling
 
 Se **avsnitt \@ref(sleep-meds)
+
