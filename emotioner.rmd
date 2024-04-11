@@ -1,0 +1,62 @@
+# Känslor
+
+Känslor kan inbegripa både kroppsliga och mentala tillstånd som inbegriper olika delar såsom uttryck, upplevelse, fysiologisk respons, tankar, och beteende. Ur ett evolutionärt perspektiv kan känslornas tänkas vara av betydelse för  överlevnad, identifiering av hot, beslutsfattande, motivation, minnesförstärkning, och socialt samspel.
+
+För definitioner av "feeling", "emotion", "affect", etc se [@PaceSchott2019].
+
+## Kategorisering och beskrivning av känslor
+
+Forskning där man försökt särskilja olika "grundläggande känslor" har föreslagit tex:
+
+- Ilska
+- Äckel
+- Rädsla
+- Lycka
+- Ledsenhet
+- Överraskning
+- Att vara road
+- Vördnad
+- Nöjdhet
+- Åtrå
+- Skam
+- Smärta
+- Lättnad
+- Sympati
+
+Dessa kan delas in i positiva respektive negativa känslor och gradras efter intensitet. 
+
+\includegraphics[width=\textwidth]{../dropbox/images/images_open_source/plutchik-wheel.png} 
+
+Bild: Robert Plutchik's Wheel of Emotions
+
+Indelningen i grundläggande känslor är omdiskuterad och vissa teorier ser varje situation där en känsla uppstår som mer unik, med underliggande allmängiltiga psykologiska processer som valens och upphetsning (arousal) följt av konceptualisering (där yttre signaler integreras med tidigare efarenheter). Kontext, kulturella faktorer, och tidigare individuella erfarenheter har rimligen betydelse för hur känslor tolkas och uttrycks [@Guendem2022].
+
+## Känslouttryck och fysiologiska förändringar
+
+Ansiktsuttryck och fysiologiska förändringar kan vara resultat av känslor, men även fungera som sensoriska stimuli som ger upphov till känslor. Exempelvis kan en person som ombeds göra ett visst uttryck också får motsvarande känsla [@Guendem2022].
+
+Känslor kan vara förknipade med (orsaka- och påverkas av-) fysiologiska förändringar såsom [@Purves2001]:
+
+- Ökade eller minskad hjärtfrekvens
+- Blodflöde till huden (rodnad- resp blekhet)
+- Piloerektion (gåshud)
+- Svettning
+- Gastrointestinal aktivitet
+- Ytlig/djup andning
+
+- Förmodligen även röst och tal, muskulatur och hållning. Ögon? Gång
+
+Sensorium från muskler, hud och inre organ => ...
+Komplexa ytter stiumuli => Framhjärnan => Hypothalamus, area reticularis => Autonoma och somatiska motorkärnor
+
+Även endokrina systemet och immunsystemet kan involveras.
+
+## Av intresse
+
+"Omegatecknet", en omega-formad rynka mellan ögonbrynen, kan vara av värde vid depressionsdiagnostik och injektion av botulinumtoxin i detta område har visat effekt vid depression [@Saraf2019;@Finzi2014;@Chugh2018].
+
+<!-- Normal subjects who viewed unhappy imagery had an increase in both depressed mood and corrugator activity, two variables that are highly correlated (Teasdale and Bancroft, 1977). Facial electromyography has been shown to be a predictor of treatment outcome in depression (Carney et al., 1981, Greden et al., 1985). [@Finzi2014]-->
+
+Manipulating facial musculature with functional electrical stimulation as an intervention for major depressive disorder: a focused search of literature for a proposal [@Demchenko2023].
+
+Measuring tremor: https://www.nature.com/articles/s41598-022-08922-6

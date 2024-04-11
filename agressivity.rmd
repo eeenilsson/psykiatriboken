@@ -34,7 +34,11 @@ En strategi kan vara att ge både lugnande och antipsykotiska preparat i de fles
 
 ### Peroral behandling
 
-?Peroral behandling: Olanzapin 10-20 mg + a. Stesolid 10-20 mg po, b. Lergigan 50 mg eller c. Nozinan 50 mg.
+Tablett olanzapin 10-20 mg po + 
+
+a. Stesolid 10-20 mg po _eller_
+b. Prometazin 50 mg _eller_
+c. Levomepromazin 50 mg
 
 ### Intramuskulär injektion
 
@@ -55,7 +59,24 @@ Behandlingen utvärderas efter 20-30 minuter. Om effekt ses men den bedöms otil
 
 När mer långvarig sedering krävs: Haloperidol 10 mg + prometazin 50 mg + Cisordinol acutard 50 mg/ml, 1-3 ml. Vid otillräcklig effekt addera lorazepam 2-4 mg. Maxdos cisordinol ackumulerad dos 400 mg.
 
-Tabell: Ekvipotens benzodiazepiner
+Tabell: 
+
+```{r benzo_equipotency } 
+
+tbl <- fread('../notes/benzodiazepine_equipotency.csv')
+tbl <- tbl[sverige == 1, .(name, half_life, equivalent_mg_oral)]
+
+
+names(tbl) <- c("Namn", "T 1/2 (tim)", "Ekvivalent mg po")
+kable(tbl,
+      caption = "Ekvipotens benzodiazepiner")
+
+
+``` 
+Halveringstid i [klamrar] är haleringstid för den aktiva metaboliten.
+
+<!-- Although all benzodiazepines have similar actions, they are usually marketed as anxiolytics (a), hypnotics (h) or anticonvulsants (e) -->
+<!-- https://www.benzo.org.uk/bzequiv.htm -->
 
 #### Rational
 
