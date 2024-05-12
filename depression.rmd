@@ -76,6 +76,8 @@ Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vä
 
 **Framträdande ångest** vid en depressiv episod kan defineras som förekomst minst två av följande: Känsla av att vara spänd, rastlöshet, koncentrationssvårigheter pga oro, rädsla för att något katastrofalt skall inträffa eller känsla av att man kommer att tappa kontrollen över sig själv. I dessa fall, eller om det föreligger samsjuklighet med något ångestsyndrom rekommenderas ett antidepressivt medel som har visad effekt vid generaliserat ångestsyndrom [@Dsm2013]. Någon skillnad mellan grupperna SSRI, SNRI, och bupropion har inte påvisats i detta avseende [@Kennedy2016].
 
+<!-- Tabell farmakokinetik, indikationer, biverkningar mm: https://www.hse.ie/eng/services/publications/clinical-strategy-and-programmes/ssris-snris-for-the-treatment-of-depression.pdf -->
+
 #### Samsjuklighet och subtyp av depression
 
 **Katatoni** vid depression bör föranleda behandling med bensodiazepiner [@Kennedy2016] och/eller ECT [REF].
@@ -447,6 +449,39 @@ p
 kable(tbl, format = "markdown")
 
 ``` 
+
+## Antidepressivas effektivitet
+
+Effekten av SSRI och andra antidepressiva är välstuderad i kliniska prövningar och metaanalyser ger stöd för att de har en effekt mot pågående depression[@Cipriani2018]. Dock föreligger en publikationsbias som gjort att effektstorleken kan vara överdriven i publicerade studier[@Turner2008].
+
+<!-- Effektstorlek -->
+<!-- Behandlingstid -->
+<!-- Kombinationsbehandling -->
+<!-- Biverkningar -->
+
+I en studie av Turner et al [@Turner2008] sammanställdes data från publicerade och opublicerade studier av tolv olika antidepressiva vilka innefattade ca 12000 patienter. Opublicerade resultat erhölls via det register som Food and Drug Administration håller över kliniska prövningar. Slående var att negativa eller tveksamma resultat i stor utsträckning ej publicerades. 
+
+<!-- Av totalt 74 registrerade studier klassificerades resultaten som positiva (av FDA) för 38 (51%) av studierna och negativa (24 st) eller tveksamma (12 st) för 36 (49%) av studierna. Trettiosju av de 38 positiva studierna publicerades. Av de 36 negativa eller tveksamma studierna publicerades endast 14 st, och av dessa framställdes resultaten i 11 studier som positiva, trots att reultaten ej gav stöd för det. -->
+
+| Resultat | Genomförda | Publicerade | Publikation motsvarar ej resultat | N    |
+|----------|------------|-------------|-----------------------------------|------|
+| Positivt | 38         | 37          | 0                                 | 7155 |
+| Tveksamt | 12         | 6           | 6                                 | 2309 |
+| Negativt | 24         | 8           | 5                                 | 3100 |
+|----------|------------|-------------|-----------------------------------|------|
+Tabell: Antal genomförda och publicerade studier klassificerade efter FDAs värdeirng av positivt/negativt/tveksamt resultat.
+
+Effektstorleken var 0.37 (CI 0.33 till 0.41) för publicerade studier och 0.15 (CI 0.08 till 0.22) för opublicerade. Den sammanlagda effektstorleken för publicerade och opublicerade studier var 0.31. En effektstorlek på 0.2 kan betraktas som liten och 0.5 som medel (motsvarar 3 p förbättring på HAM-D och anges ibland som gränsen för "kliniskt signifikant").
+
+Det bör även noteras att placeboeffekten är framträdande vid behandling av depression (sannolikt även regression mot medelvärdet). Den ökar med antalet uppföljningsbesök i en studie och är mindre framträdande vid svårare depression[@Ioannidis2008].
+
+## Indikationer
+
+Vid olika tillstånd.
+
+Se notes/antidepressants-indications.csv
+
+Se European medical agency?
 
 ### Resurser
 

@@ -1,0 +1,117 @@
+# Botulinumtoxin mot depression
+
+## Bakgrund
+
+<!-- botulinum depression ca 400 hits pubmed -->
+Se [@Wollmer2022; @Demchenko2024]
+
+Korrugator- och procerusmusklerna är lokaliserade i ansiktets mellan och ovan ögonbrynen. De används vid uttryck av negativa känslor. Ansiktsuttryck kan i sin tur <!-- (troligen via proprioceptiv återkoppling)  -->förstärka upplevelsen av de känslor som uttrycks. Vid depression är aktiviteten i korrugatormusklerna ökad och en injektion av BoNT i korrugatormuskluaturen reducerar depressiva symtom med omkring 50%. Biverkningarna är få och övergående [@Wollmer2022].
+
+<!-- Injektion av botulinum toxin (BoNT) i ansiktet kan påverka hur känslor uppfattas och bearbetas.  -->
+
+Även när BoNT studerats vid behandling av andra indikationer än psykisk sjukdom (eller som kosmetisk behandling) har en positiv effekt mot samtidiga depressiva symtom liksom lägre incidens av depression noterats.
+
+## Metod
+
+Inklusionskriterier:
+
+- Diagnos depression enligt DSM-5.
+
+Exklusionskriterier:
+
+- Se FASS
+- Tidigare BoNT-behandling
+
+Randomisering:
+
+- Ratio 2:1 ?
+
+Behandling:
+
+Aktiv: Injektion av 40U (eller motsv) BoNT i korrugatormuskulaturen.
+
+<!-- "BoNT-induced paralysis should be complete, as a residual activity may suffice to sustain the proprioceptive feedback loop. Therefore, the BoNT doses applied in depression may exceed those used in cosmetic treatments to obtain the desired “natural look”" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9231293/ -->
+
+Placebo: Koksalt.
+
+Utfallsmått:
+
+MADRS-S
+HAM-D
+CGI-S
+
+Efter 8v.
+
+Per telefon för att behålla assessment blinding?
+
+Statistik:
+
+Linjär regresion på utfallsvariabeln. Justeras för baslinjevariabler (kön, ålder, svårighetsgrad/baslinjevärde) för ökad precision.
+
+
+Power-analys [@Schulze2021]. Senare studie (N ca 100): https://static1.squarespace.com/static/619e69307b82584151d39120/t/634352b5f913c26612305264/1665356471514/Botulinum+toxin+for+depression+RCT+China+2022+%282%29.pdf
+
+<!-- Sammanfatning av studier: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9231293/ -->
+
+```{r } 
+#| label: power-analysis
+
+pacman::p_load(pwr)
+
+setwd("../psykiatriboken/")
+
+## SMD Botox vs placeboi, see Shulze meta analysis:
+## 1.47 (1.27 to 1.67) 6w vs baseline
+## The results for the investigation of the difference between BTX and
+## placebo six weeks after treatment showed that subjects who received
+## BTX were significantly less depressed than participants who received
+## placebo (d = 0.63; 95% CI (0.27; 0.98))
+## MADRS M (SD at w 6) : 19.3 (11.79), vs 22.4 (9.68)
+
+## plot
+s <- pwr.t.test(d = 0.5, sig.level = 0.05, power = 0.8, type = c("two.sample"))
+d <- 0.5
+myfun <- function(d){
+    ## return n for d
+    pwr.t.test(d = d, sig.level = 0.05, power = 0.8, type = c("two.sample"))["n"][[1]]
+}
+d <- seq(0.2, 1.5, by =0.1)
+plot(d, sapply(d, myfun), xlab = "Cohens d detected with power = 0.8", ylab = "N required", main = "Power-analysis for botulinum toxin injection for tretament of depression")
+y <- 250
+x <- c(0.27, 0.63, 0.98) ## At 6w follow up (BoNT vs pbo)
+x <- c(0.47, 0.98, 1.49)## (d = 0.98; 95% CI (0.47; 1.49) 6w vs baseline (BoNT vs pbo)
+arrows(x[1], y, x[3], y, code=3, length=0.02, angle = 90, col = "red", lwd = 2)
+points(x[2], y, col = "red")
+text(x[2], 300, "Estimated SMD (95% CI) in meta analysis (Schulze 2021), BoNT vs placebo at 6 weeks (vs baseline)", col = "red")
+
+## Linear:
+## pwr.f2.test(u = 100, # u: degrees of freedom for numerator
+##             v = 100, # v: degrees of freedom for denominator
+##            ## f2 = 0.15,  # ES
+##             sig.level = 0.05,
+##             power = 0.8)
+## Cohen suggests f2 values of 0.02, 0.15, and 0.35 represent small, medium, and large effect sizes.
+## The number of degrees of freedom for the denominator is the total number of data values, minus the number of groups, or n - c.
+## The degrees of freedom in the numerator is g−1, where g is the number of groups; and the degrees of freedom in the denominator is n−g, where n is the total sample size across all groups
+
+## The following four quantities have an intimate relationship:
+##     sample size
+##     effect size
+##     significance level = P(Type I error) = probability of finding an effect that is not there
+##     power = 1 - P(Type II error) = probability of finding an effect that is there
+
+
+``` 
+
+ 
+
+<!-- BONT-A was most commonly injected into the glabellar area, with an average dose ranging between 37.75 U and 44.5 U in published studies and between 32.7 U and 41.3 U in unpublished trials -->
+
+<!-- korrugator kan tillsammans med frontalismuskeln ge upphov till det vid depression karakteristiska "omegatecknet" [@Wollmer2022] -->
+<!-- såsom ilska, rädsla, och ledsenhet.  -->
+
+<!-- "The glabellar region of the face contains the corrugator and procerus muscles. They are the mediators of frowning and thus play a key role in the facial expression of negative emotions, such as anger, fear, or sadness, which are highly prevalent in mental disorders like depression. Charles Darwin coined the term “grief muscles” for them." -->
+
+<!-- "Omegatecknet", en omega-formad rynka mellan ögonbrynen, kan vara av värde vid depressionsdiagnostik och injektion av botulinumtoxin i detta område har visat effekt vid depression [@Saraf2019;@Finzi2014;@Chugh2018]. -->
+
+<!-- Normal subjects who viewed unhappy imagery had an increase in both depressed mood and corrugator activity, two variables that are highly correlated (Teasdale and Bancroft, 1977). Facial electromyography has been shown to be a predictor of 
