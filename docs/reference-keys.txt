@@ -110,6 +110,8 @@ biverkningar-1
 behandlingslängd
 depression-i-anslutning-till-förlossning
 depression-elderly
+antidepressivas-effektivitet
+indikationer
 resurser-1
 bipolär-sjukdom
 inledning-2
@@ -266,7 +268,7 @@ vid-leversvikt-undvik-läkemedel-med
 leverpåverkan-från-psykotropa-läkemedel
 lithium
 historik-1
-indikationer
+indikationer-1
 biverkningar-2
 effekter-på-njuren
 kronisk-njursvikt
@@ -304,7 +306,7 @@ kbt-i
 bensodiazepiner
 bensodiazepiner-1
 ketamin
-indikationer-1
+indikationer-2
 biverkningar-4
 vetenskapligt-stöd
 praktiskt-genomförande-av-ketamininfusion
