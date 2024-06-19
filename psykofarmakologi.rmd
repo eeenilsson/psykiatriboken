@@ -652,6 +652,25 @@ Antidepressant-induced liver injury: a review for clinicians voican 2014  [@Voic
 
 "antidepressants should be discontinued immediately in any patient with suspected DILI. It has beensuggested that these drugs should be promptly discontinued when serum ALT levels are x3 ULN (or x 5 ULN, as recently suggested) (9) or if there is an unexplained increasein bilirubin levels to x 3 ULN. For patients with high baseline ALT levels, drug discontinuation is recommended whenserum ALT levels are x 3 times the baseline value." [@Voican2014]
 
+Se även [@TodorovicVukotic2021].
+
+Drug-induced liver injury (DILI) kan delas upp i två typer:
+
+1. Intrinsic DILI.
+
+- Dosberoende
+- Kort latens
+
+2. Idiosyncratic DILI
+
+- Ovanligare
+- Oftast ej dosberoende
+- Mer variation i manifestation, svårare
+
+
+<!-- is dose-dependent, typically has a short latency period and predictable disease course, and is reproducible in animal models. Idiosyncratic DILI is a severe liver injury occurring very rarely and usually is not dose-dependent. It is characterized by unpredictable disease course, more varied manifestations, and is not reproducible in animal models (Ye et al. 2018). Drugs that cause idiosyncratic DILI typically also cause a mild and asymptomatic liver injury—transient, asymptomatic elevations in serum alanine aminotransferase levels -->
+
+
 ## Litium {#lithium}
 
 Litium används främst vid bipolärt syndrom typ I men även vid bipolärt syndrom typ II och vid unipolär depression. Huruvida litiumbehandling har indikation vid olika tillstånd beror på  om det används som profylax eller som behandling av ett pågående skov, samt på episodens typ (mani eller depression).
