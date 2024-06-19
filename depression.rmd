@@ -124,9 +124,10 @@ knitr::kable(tbl, caption = "Förstahandsval enligt CANMAT")
 
 #### Effektivitet {#antidepressant-efficacy}
 
-Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis [@Cipriani2018]
+Effektiviteten av antidepressiva är omdiskuterad. Ett stort problem är publikationsbias, där negativa studier sällan publiceras. Värdering av effekt i tex metaanalyser bör därför inkludera opublicerade studier. Placeboeffekten (eller regression till medelvärdet) är dock betydande. Effektstorleken för antidepressiva är ~ 0.3 (motsvarar 2-3 poäng på MADRS eller 10% symtomreduktion jfr placebo). Lägre efficacy hos äldre, se \@ref(depression-elderly).
 
-Lägre efficacy hos äldre, se \@ref(depression-elderly).
+Se "Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis" [@Cipriani2018]
+
 
 ```{r figure-cipriani, fig.cap = 'Forest plots of network meta-analysis of all trials for efficacy and acceptability'}
 
@@ -396,9 +397,113 @@ Eriksson et al [@Hieronymus2018]
 
 ### Biverkningar
 
-Antidessiva kan ge tex hyperhidros (antikolinerg effekt), ökad blödningsrisk (SSRI), QT-tidsförlängning. Se avsnittet biverkningar.
+De vanligaste biverkningarna av SSRI är illamående, hosta, diarré, asteni, buksmärta, nervositet, dyspepsi, tremor, och sexuella problem.
 
-Bupropion ger mindre risk för sexuella biverkningar. Kontraindikation är förhöjd kramprisk.
+Antidessiva kan även ge tex hyperhidros (antikolinerg effekt), ökad blödningsrisk (SSRI), QT-tidsförlängning, hyponatremi, och osteoporos. En del påverkar även kramptröskeln. Se avsnittet "Biverkningar av psykofarmaka" i kapitlet om psykofarmakologi. 
+
+Det finns vissa skillnader mellan olika preparat. Tex ger bupropion, mirtazapin, agomelatin, och måttlig dos vortioxetin mindre risk för sexuella biverkningar och bupropion ger mindre viktuppgång (i medeltal minskad vikt).
+
+Nedan följer figurer som visar den relativa riskan för olika biverkningar och preparat jämfört med placebo [@Sinyor2020].
+
+#### Jämförelse biverkningar mellan preparat
+
+```{r biv-jfr, fig.cap="Jämförelse biverkningar." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/fig_antidepressants_sideffects.png")
+
+``` 
+
+#### Jämförelse biverkningar mot placebo
+
+Relativt vanliga biverkningar visas i figuren. Procentsiffran är förekomsten i placebogruppen. Fyllda cirklar innebär statistiskt signifikanta skillnader mot placebo i studien som data hämtats från[@Sinyor2020]. Cirkelns storlek motsvarar incidensen. Risk ration på x-axeln motsvara hur många gånger ökad (eller minskad) förekomst det är i behandlingsgruppen jämfört med placebo.
+
+Exempel: Tremor är ovanligt i placebogruppen (ca 1%) men ganska vanligt vid antidepressiv behandling (2-8%).
+
+```{r biv-1, fig.cap="Jämförelse vanliga biverkningar mot placebo[@Sinyor2020]." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/fig_antidepressant_sideffects_plot1.png")
+
+``` 
+
+Nästa figur visar biverkningar som totalt sett (i placebo- och behandlingsgrupperna) är något ovanligare.
+
+```{r biv-2, fig.cap="Jämförelse mindre vanliga biverkningar mot placebo[@Sinyor2020]." , out.width = '100%'}
+
+include_graphics("../dropbox/images/psychiatry/fig_antidepressant_sideffects_plot2.png")
+
+``` 
+
+#### Biverkningar av SSRI >5% diff vs placebo
+
+|Biverkan             | Placebo (%)| SSRI (%)| Skillnad|
+|:--------------------|-----------:|--------:|--------:|
+|Nausea               |           8|       21|       13|
+|Cough                |           3|       12|        9|
+|Diarrhea             |           7|       15|        8|
+|Asthenia             |           6|       13|        7|
+|Abdominal Pain       |           4|       11|        7|
+|Nervousness          |           6|       12|        6|
+|Dyspepsia            |           5|       11|        6|
+|Appetite  Decrease   |           2|        8|        6|
+|Tremor               |           1|        7|        6|
+|Ejaculation Disorder |           0|        5|        5|
+
+
+#### Viktförändring av olika antidepressiva
+
+```{r antidepressant-weight-gain, fig.cap="Jämförelse viktförändring[@Dent2012]." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/antidepressant-weight-gain.png")
+
+``` 
+
+OBS: Osäkra data för venlafaxin. Troligen ger det ej viktnedgång vid längre tids behandling.
+
+### Utsättningssymtom
+
+Utsättningssymtom vid avslut av antidepressiva är relativt vanligt. Grovt räknat kan man säga att 10% får utsättningssymtom vid byte från placebo till placebo, dubbelt så många med escitalopram, och tre gånger så många med paroxetin eller venlafaxin.
+
+Exempel på symtom är nervositet, ångest, sömnsvårigheter, svettningar, yrsel, irritabilitet, spändhet, illamående, och humörsvängningar. De varar oftast i 1-2 veckor (i ovanliga fall upp till ett år) och upphör snabbt vid återinsättning. Förekomsten kan troligen minskas genom gradvis uttrappning under någon eller några månader. Hyperbol nedtrappning kan övervägas.
+
+| Utsatt läkemedel | DESS +4p eller mer |
+|------------------|:------------------:|
+| Placebo          | 2-12%              |
+| Escitalopram     | 7-27%              |
+| Paroxetin        | 28-32%             |
+| Venlafaxin       | 32%                |
+
+Visar resultat av byte från aktiv behandling till placebo (eller från placebo till placebo)[@Baldwin2007]. Förkortningar: DESS, Discontinuation Emergent Signs and Symptoms (DESS) checklist.
+
+| DESSitem                 | Pbo | Esc5 | Esc10 | Esc20 | Par20 |
+|:-------------------------|:----|:-----|:------|:------|:------|
+| Nervousness or anxiety   | 8   | 9    | 14    | 21*   | 22*   |
+| Trouble sleeping         | 10  | 8    | 14    | 21*   | 24*   |
+| Sweating more than usual | 4   | 7    | 13*   | 13*   | 21*   |
+| Dizziness                | 7   | 10   | 12    | 27*   | 40*   |
+| Irritability             | 6   | 6    | 11    | 19*   | 23*   |
+| Feeling tense            | 7   | 9    | 10    | 18*   | 19*   |
+| Nausea                   | 2   | 2    | 8     | 15*   | 17*   |
+| Mood swings              | 4   | 3    | 8     | 12*   | 16*   |
+| Muscle tension           | 4   | 3    | 8     | 12*   | 16*   |
+| Sudden worsening of mood | 8   | 3    | 8     | 12    | 14    |
+| Confusion                | 4   | 4    | 8     | 10    | 17*   |
+| Headache                 | 8   | 5    | 7     | 13    | 14    |
+| Bouts of crying          | 2   | 3    | 6     | 13*   | 11*   |
+| Fatigue                  | 11  | 6    | 6     | 11    | 17    |
+| Diarrhoea                | 4   | 1    | 6     | 10    | 14*   |
+| Increased dreaming       | 5   | 6    | 5     | 16*   | 19*   |
+| Vivid dreams             | 4   | 5    | 5     | 15*   | 16*   |
+| Muscle aches             | 5   | 6    | 4     | 9     | 12    |
+| Agitation                | 5   | 4    | 4     | 8     | 14*   |
+| Shaking                  | 2   | 3    | 4     | 8*    | 11*   |
+| Feeling unreal           | 3   | 3    | 4     | 6     | 12*   |
+| Unsteady gait            | 2   | 2    | 4     | 5     | 15*   |
+| Blurred vision           | 1   | 3    | 2     | 2     | 14*   |
+
+Tabellen anger % symtom vid abrupt byte till placebo hos patienter med GAD[@Baldwin2007]. Asterisk anger signifikant skillnad mot placebo. N ca 130 per grupp.
+
+De flesta SSRI samt bupropion och mirtazapin har halveringstid 24-36 tim, fluoxetin 4-6 dagar. Venlafaxin 5 tim, duloxetin 12 tim.
+
 
 ### Behandlingslängd
 

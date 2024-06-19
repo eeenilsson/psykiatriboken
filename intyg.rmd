@@ -1,0 +1,156 @@
+# Intyg {#intyg}
+
+Vägledning om intyg för tandvårdsbidrag, körkort mm.
+
+## Tandvårdsstöd
+
+Det **statliga** tandvårdsstödet har tre delar:
+
+1. Allmänt tandvårdsbidrag (för alla, 3-600kr/å beroende på ålder)
+2. Särskilt tandvårdsbidrag (vid sjukdom/funktionsnedsättning, 600/halvår)
+3. Högkostnadsskydd (för alla, vid kostnader >3000/å).
+
+Det är bara det särskilda tandvårdsstödet som kan kräva läkarintyg. Patienten ska styrka att han eller hon behandlas med läkemedel som har muntorrhet som **biverkning enligt FASS** med ett läkarintyg eller ett utdrag från registret över köp av förskrivna läkemedel (läkemedelsförteckningen). Särskild blankett för läkarintyg finns [här](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/dokument-webb/blankett/blankett-lakarintyg-sarskilt-tandvardsbidrag-sosfs-2012-16-bilaga.pdf).
+
+Den som har vissa sjukdomar, funktionsnedsättningar eller ett stort behov av vård och omsorg kan få tandvårdsstöd **regionen** ("blått kort", "Tandvård vid långvarig sjukdom eller funktionsnedsättning (F)"). Patienten betalar då endast hälso- och sjukvårdsavgift för sin tandvård.
+
+Enligt 3 a § tandvårdsförordningen (1998:1338) omfattas följande sjukdomar och funktionsnedsättningar:
+
+- **Svår psykisk funktionsnedsättning**
+- Parkinsons sjukdom
+- Multipel skleros - MS
+- Cerebral pares
+- Reumatoid artrit
+- Systemisk lupus erythematosus SLE
+- Sklerodermi
+- Amyotrofisk lateralskleros - ALS
+- Orofacial funktionsnedsättning
+- Symtom som kvarstår sex månader efter det att personen har fått hjärninfarkt eller hjärnblödning (stroke)
+- Sällsynt diagnos med orofaciala symtom
+
+https://www.socialstyrelsen.se/kunskapsstod-och-regler/omraden/tandvard/
+
+För Svår psykisk funktionsnedsättning krävs att patienten har en svår till fullständig funktionsnedsättning eller aktivitetsbegränsning i nedanstående funktionstillstånd:
+
+- Kognitiva funktioner
+- Att företa en enstaka uppgift självständigt
+- Att klara daglig rutin
+- Att hantera psykologiska krav vid tandvårdsbesök
+- Att söka professionell hjälp och följa medicinska och andra hälsoråd
+- Att tillämpa kunskap
+
+Föreskrifter [här](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/foreskrifter-och-allmanna-rad/2012-12-12.pdf). Socialstyrelsens svenska version av WHO:s publikation [”Klassifikation av funktionstillstånd, funktionshinder och hälsa”](https://www.socialstyrelsen.se/statistik-och-data/klassifikationer-och-koder/icf/) kan ge ytterligare vägledning vid bedömningen.
+
+[Intygsblankett här](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/dokument-webb/blankett/blankett-lakarintyg-langvarig-sjukdom-funktionsnedsattning-tandvard-sosfs-2012-17-bilaga.pdf)
+
+Läkarintyget ska skickas till:
+Tandvårdsenheten
+Region Örebro län
+Box 1613
+701 16 Örebro
+
+Region örebro skriver: "Det är regionens tandvårdsenhet som bedömer om du har rätt till tandvårdsstödet. Bedömningen utgår inte bara ifrån vilken sjukdom eller funktionsnedsättning du har. Av läkarintyget ska även framgå om din sjukdom eller funktionsnedsättning påverkar din förmåga att sköta munhygienen eller att genomgå tandvårdsbehandling."
+
+[Länk](https://vardgivare.regionorebrolan.se/siteassets/media/tandvardsenheten/foldrar/tandvard-vid-langvarig-sjukdom-eller-funktionsnedsattning.pdf)
+
+## Körkort
+
+[TSFS 2010:125](https://www.transportstyrelsen.se/tsfs/tsfs%202010_125.pdf)
+
+Varje psykisk sjukdom och störning som yttrar sig i något av nedanstående ska bedömas från trafiksäkerhetssynpunkt:
+
+- Avvikande beteende
+- Förändrad impulskontroll
+- Uttalade brister i fråga om omdöme eller anpassningsförmåga
+- Dokumenterat riskabelt beteende i trafiken ska särskilt beaktas
+
+Följande punkter täcker bedömningen vid de flesta diagnoser:
+
+- Psykotiska symtom
+- Desorganiserat beteende
+- Kognitiv påverkan (gör MMT)
+- Impulskontroll
+- Koncentrationsförmåga
+- Uppmärksamhet: Vid nedsättning, pröva förmåga till delad uppmärksamhet och till uppmärksamhet över tid samt effekter av tidspress
+  - Stroop test? (fokuserad uppmärksamhet)
+  - Trail making test (delad uppmärksamhet): https://www.center-tbi.eu/files/approved-translations/Swedish/SWEDISH_TMT.pdf
+- Minnesstörning: Inhämta uppgifter från anhöriga
+- Omdöme: Vid omdömesdefekter bör läkaren försöka bedöma i vad mån dessa har betydelse för trafiksäkerheten.
+- Tvångsmässig fixering
+- Vid episodisk sjukdom: Antal, frekvens, längd på fria intervall, senaste episod, recidivfri observationstid
+- Personlighetsstörning: paranoid, schizotyp, antisocial, borderline och narcissistisk personlighetsstörning
+- Sjukdomsinsikt
+- Följsamhet till behandling (ev verifiering genom koncentrationsbestämning)
+- Behandlingseffekt
+- Genomgången LPT
+- Drogbruk, alkoholöverkonsumtion
+- Medelsvår utvecklingsstörning utgör hinder
+
+Bedömningen ska göras mot bakgrund av:
+
+- funktionsnedsättningens konsekvenser för det dagliga livet
+- förmågan att följa regler och förstå andras beteende i trafiken
+- kriminalitet
+
+### Riskbedömning
+
+Sjukdom och störning som bedöms innebära en trafiksäkerhetsrisk utgör hinder för innehav. Riskbedömningen ska göras mot bakgrund av:
+
+1. Sjukdomsinsikt,
+2. Genomgången eller pågående tvångsvård enligt lagen (1991:1128) om psykiatrisk tvångsvård eller lagen (1991:1129) om rättspsykiatrisk vård,
+3. Recidivfri observationstid,
+4. Överkonsumtion av alkohol eller bruk av annat medel som påverkar förmågan att köra motordrivet fordon,
+5. Behandlingsföljsamhet, samt
+6. Behandlingseffekt. Slutlig bedömning av behandlingsföljsamhet ska inte göras under pågående tvångsvård. Allmänna råd: Bedömning av följsamhet till läkemedelsbehandling bör verifieras genom bestämning av relevanta läkemedelskoncentrationer i blod.
+
+#### Vid psykos
+
+Vid schizofrena och andra psykotiska syndrom ska följande förhållanden särskilt uppmärksammas:
+
+1. vanföreställningar
+2. hallucinationer,
+3. vredesutbrott,
+4. desorganiserat beteende, samt
+5. kvarstående defekttillstånd efter aktiv sjukdomsfas.  Kvarstående kognitiv nedsättning ska bedömas enligt 10 kap.  
+
+Vid schizoaffektiva (cykloida) syndrom ska maniliknande symptom särskilt uppmärksammas. Bedömningen ska i dessa fall även göras enligt 4 § 
+
+Allmänna råd: Innehav bör inte medges förrän tidigast ett år efter senaste aktiva sjukdomsfas.
+
+#### Vid affektiva syndrom
+
+Vid affektiva syndrom ska manisk eller hypoman episod samt den ökande risken för recidiv efter upprepade sjukdomsepisoder särskilt beaktas.  Allmänna råd: Innehav bör inte medges förrän tidigast ett år efter senaste återfall i sjukdomen. Vid återfall endast i depressiv episod kan kortare observationstid godtas. Antalet återfall samt längden av intervallen mellan dessa bör redovisas.  
+
+#### Vid personlighetsstörning
+
+5 § Vid personlighetsstörning ska paranoid, schizotyp, antisocial, borderline och narcissistisk personlighetsstörning särskilt uppmärksammas.
+
+
+#### Vid utvecklingsstörning eller ADHD
+
+Allvarlig psykisk utvecklingsstörning utgör hinder för innehav (djupgående, svår eller måttlig mental retardation enligt DSM; grav, svår eller medelsvår psykisk utvecklingsstörning enligt ICD).
+
+Skall beaktas:
+
+- impulskontroll
+- koncentrationsförmåga
+- uppmärksamhet
+- omdöme
+- tvångsmässig fixering
+- behandlingseffekt och behandlingsföljsamhet skall särskilt beaktas.
+
+Bedömningen ska göras mot bakgrund av:
+
+- funktionsnedsättningens konsekvenser för det dagliga livet
+- förekomst av beroende, missbruk eller överkonsumtion av alkohol eller droger
+- förmågan att följa regler och förstå andras beteende i trafiken
+- kriminalitet
+
+Från kapitlet om demens, allmänna råd:
+
+- Vid hjärnskada och vid misstanke om kognitiva störningar bör ett enkelt test, t.ex. MMT, utföras.
+- Vid misstanke eller kännedom om minnesstörning bör kompletterande uppgifter om möjligt inhämtas från anhöriga.
+- Vid misstanke om störningar i uppmärksamhet bör sökandens förmåga till delad uppmärksamhet och till uppmärksamhet över tid samt effekter av tidspress prövas.
+- Vid omdömesdefekter bör läkaren försöka bedöma i vad mån dessa har betydelse för trafiksäkerheten.
+
+

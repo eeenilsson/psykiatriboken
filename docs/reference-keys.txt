@@ -5,6 +5,10 @@ fig:figure-cipriani-2
 tab:depression-canmat-antidepressant-recommendation-second
 tab:depression-canmat-antidepressant-recommendation-third
 tab:antidepressant-augmentation
+fig:biv-jfr
+fig:biv-1
+fig:biv-2
+fig:antidepressant-weight-gain
 fig:fig-older-adults-antidepressants
 tab:bipolar-symptoms
 tab:bipolar-treatment-mania-yatham2018
@@ -107,6 +111,11 @@ kombinationsbehandling
 dosering-av-antidepressiva
 effekt-på-enskilda-depressionssymtom
 biverkningar-1
+jämförelse-biverkningar-mellan-preparat
+jämförelse-biverkningar-mot-placebo
+biverkningar-av-ssri-5-diff-vs-placebo
+viktförändring-av-olika-antidepressiva
+utsättningssymtom
 behandlingslängd
 depression-i-anslutning-till-förlossning
 depression-elderly
@@ -408,6 +417,14 @@ intagningsbeslut
 tvångsvård-efter-beslut-av-rätten
 gemensamma-bestämmelser-om-vården
 resurser-5
+intyg
+tandvårdsstöd
+körkort
+riskbedömning-1
+vid-psykos
+vid-affektiva-syndrom
+vid-personlighetsstörning
+vid-utvecklingsstörning-eller-adhd
 epilog
 ordlista
 referenser-2
