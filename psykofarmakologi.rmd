@@ -14,22 +14,6 @@
 
 - Följsamhet
 
-### Likheter bland de flesta antidepressiva
-
-- Lipofila
-- Snabb absorbtion
-  - Maximal plasmakoncentration efter 2-3 tim
-- Binds i hög grad till plasmaproteiner
-- Hepatisk metabolism till metaboliter
-- Renal elimination av metaboliter
-- Hämmar minst en av CYParna
-
-```{r antidepressant-affinity, out.width = '75%', fig.cap = 'Antidepressiva läkemedels affinitet till vissa receptorer' } 
-
-source('../notes/antidepressants-monoaminergic-affinity.r') 
-
-``` 
- 
 
 ## Metabolism av psykotropa läkemedel
 
@@ -118,23 +102,105 @@ Det finns flera teoretiska argument för att olika individer skulle kunna svara 
 
 ## SSRI vid graviditet och amning {#ssri-pregnancy}
 
-Barn vilkas mammor använt SSRI under förlossning får oftare för tidig födsel, lägre födslovikt, autism och ADHD [@Sujan2017]. Detta kan bero på att depression är genetiskt kopplat till dessa tillstånd, vilket innebär att mammor som är deprimerade oftare har en genetisk uppsättning som också är förknippat med ADHD eller autism. Det kan också bero på att depressionen i sig är skadlig för barnet. En annan tänkbar förklaring är att de läkemedel som ges vi depression påverkar fostret.
+Barn vilkas mammor använt SSRI under förlossning får oftare för tidig födsel, lägre födslovikt, autism och ADHD [@Sujan2017]. Detta kan bero på att depression är genetiskt kopplat till dessa tillstånd, vilket innebär att mammor som är deprimerade oftare har en genetisk uppsättning som också är förknippat med ADHD eller autism. Det kan också bero på att depressionen i sig är skadlig för barnet. En annan tänkbar förklaring är att de läkemedel som ges vid depression påverkar fostret.
 
 Potentiella risker med SSRI-behandling skiljer sig åt mellan olika delar av graviditeten. Exempelvis befaras att vissa SSRI under tidig graviditet kan öka risken för medfött hjärtfel. Riskökningen är dock liten. SSRI-behandling under senare delen av graviditeten kan ge utsättningssymptom hos barnet och eventuellt öka risken för pulmonell hypertension hos barnet. 
 
 Angående risken för ADHD och autism har en stor svensk studie visat att det inte föreligger någon ökad risk för autism eller ADHD [@Sujan2017]. Man såg även att om barnets pappa använde antidepressiva, eller om mamman använt antidepressiva _före_ graviditeten, ökade risken för ADHD och autism, vilket talar för att det är familjefaktorer snarare än läkemedlen som orsakar den ökade risken för dessa tillstånd.
 
-I praktiken får de små riskerna vägas mot behovet av behandling. De SSRI som anses medföra lägst risker för barnet (fluoxetin, citalopram ?) bör ges.
+<!-- Recognizing and Treating Peripartum Depression [@Liebermann2012] -->
+
+<!-- Identification and Management of Peripartum Depression [@Langan2016] -->
+
+I praktiken får de små riskerna vägas mot behovet av behandling. Peripartum-depression är relativt vanligt[@Liebermann2012;Langan2016]. De SSRI som anses medföra lägst risker för barnet (fluoxetin, citalopram ?) bör ges och de som tros medföra något större risk (paroxetin, venlafaxin) undvikas. Psykoterapi bör prioriteras framför läkemedelsbehandling. Sertralin anses säkert både vid graviditet och amning.
 
 Mycket litet av läkemedlen finns i bröstmjölken. Som försiktighetsåtgärd avråds från SSRI under amning, men riskerna är troligen mycket små och får vägas mot behovet.
 
-Sertralin anses säkert både vid graviditet och amning.
-
 "Citalopram, escitalopram, and sertraline appear to be the safest selective serotonin reuptake inhibitors during pregnancy, whereas fluvoxamine, paroxetine, and sertraline are preferred in breastfeeding women because they lead to the lowest serum medication levels in breastfed infants." [@Langan2016]
 
-Recognizing and Treating Peripartum Depression [@Liebermann2012]
+| Tillstånd             | Utan antidepressiva | Med antidepressiva | Skillnad |
+|-----------------------|---------------------|--------------------|----------|
+| Missbildning          | 35 (45 om paus)     | 50                 | 15 (5)   |
+| Andningsbesvär        | 1                   | 3                  | 2        |
+| Graviditetsdepression | 200                 |                    |          |
+| Förbättras >50%       | 80                  | 100                | 20       |
 
-Identification and Management of Peripartum Depression [@Langan2016]
+<!-- | Förbättras helt       | 60                  | 80                 | 20       | -->
+
+Tabell: Av 1000 fullgångna graviditeter.
+
+Förenklat: Om man avstår antidepressiva hos 100 mammor med depression kommer 1 barn slippa missbidlning och 2 fler mammor fortsätta vara deprimerade efter 2-3 månader.
+
+Av 100 mammor som står på antidepressiva före graviditet och väljer att fortsätta får 20 återfall under graviditet, jämfört med 35 (CI 19-60) av de som väljer att avsluta. Det är osäkert om denna skillnad är statistiskt signifikant[@Bayrampour2020].
+
+### Risker för barnet
+
+Följande potentiella risker har identifierats: Missbildningar, persisterande pulmonell hypertension (andningsbesvär i anslutning till förlossningen), Poor adaptation, Premature birth, Intrauterine growth retardation, Neonatal adaptive syndrome
+
+Persisterande pulmonell hypertension: Risk utan AD 1.2/1000, med AD 3/1000, OR 2.1 (1.5-3).
+
+### Risker för mamman
+
+Depression prevalens 12% under andra och tredje trimestern.
+
+Prevalens depression vid graviditet ca 20%?. Post partum depression, prevalens 15%.
+
+Högre risk för preeklampsi och eklampsi vid depression.
+
+I en metaanalys[@Brown2021] (K=11, N=1016) fann man respons på SSRI hos 55%, jämfört med 43% med placebo (RR CI 0.97 to 1.66); remission 42% vs 27% (RR CI CI 0.99 to 2.41) och minskade symtom (SMD −0.30, CI −0.55 till −0.05).
+
+<!-- Meta‐analysis showed that there may be a benefit of SSRIs over placebo in response (55% versus 43%; pooled risk ratio (RR) 1.27, 95% confidence interval (CI) 0.97 to 1.66); remission (42% versus 27%; RR 1.54, 95% CI 0.99 to 2.41); and reduced depressive symptoms (standardised mean difference (SMD) −0.30, 95% CI −0.55 to −0.05; 4 studies, 251 women), at 5 to 12 weeks' follow‐up.  -->
+
+Se [@Gadot2015]
+
+<!-- | Tillstånd         | Ej deprimerad | Deprimerad | Utan AD | Med AD | -->
+<!-- |-------------------|---------------|------------|---------|--------| -->
+<!-- | Under graviditet  | 80            | 20         |         |        | -->
+<!-- | Efter förlossning | 80            | 20         |         |        | -->
+<!-- |                   |               |            |         |        | -->
+
+<!-- Major depressive disorder, also known as clinical depression, is common in women of childbearing age [4]. The prevalence of postpartum depression is 17%, while the incidence of prenatal depression is as high as 20% to 40%. Depression rates during pregnancy have been reported to be as high as 7.4% in the first trimester, 12.0-12.8% in the second and third trimesters, and even higher rates in the first year after delivery [1]. Women with a history of depression before pregnancy are especially at risk with high depression relapse rates during pregnancy [@Jahan] -->
+
+Avsluta antidepressiva? [@Bayrampour2020]
+Väljer att fortsätta : 19% relaps
+Väljer att avsluta: 54% relaps (ej högre om mild/måẗtlig depr?)
+Dock ej statistiskt säkerställd skillnad.
+
+## Antidepressiva under graviditet och missbildningar hos barnet
+
+I en analys av mer än 800.000 graviditeter (N = 848 786 pregnancies, 843 797 unexposed, 806 paused SSRI, 4 183 continued SSRI) [@JimenezSolem2012] fann man en liten riskökning vid antidepressiv behandling. Dock var risken hos de som pausade sin behandling under graviditet också troligen förhöjd (för litet antal fall för att avgöra säkert).
+
+Table: Risk of any major malformation in SSRI use
+
+| Group     | N      | Case,n | Incidens % | OR*                 |
+|-----------|--------|--------|------------|---------------------|
+| Unexposed | 843797 | 29703  | 3.5        | Ref                 |
+| Paused    | 806    | 36     | 4.5        | 1.27 (0.91 to 1.78) |
+| Continued | 4183   | 208    | 5.0        | 1.33 (1.16 to 1.53) |
+| Sum       | 848786 | 29947  | 3.5        | -                   |
+
+*Multivariable logistic regressions are adjusted for mother's age, parity, income, education, smoking and year of conception.
+
+Förenkling: Missbildning 3 på 100 födslar hos friska och 4-5 födslar hos ssri.
+
+Effekt AD: Av 100 deprimerade får 50 spontan förbättring eller placeboeffekt (jfr 60 m AD). NNT 9.
+
+Förenkling: Om vi behandlar 100 deprimerade mammor kommer...
+
+10 fler (CI 0-20 st) ha respons av AD jfr pbo och
+
+1-2 fler barn ha missbildningar och
+
+0.2 fler barn ha besvär med pulmonell hypertension efter förlossningen
+
+<!-- Paroxetine and venlafaxine may have higher risk than other AD. -->
+
+Andra psykofarmaka:
+
+- Kontraindicerade: Karbamazepin, Valproat
+- Kan användas: Olanzapin, Risperidon, Kvetiapin, Klozapin
+
+#### Utsöndring av SSRI i bröstmjölk
 
 Alla SSRI utsöndras i bröstmjölk (fallande ordning) [@Ulit2018]:
 
@@ -161,6 +227,27 @@ Associations of Maternal Antidepressant Use During the First Trimester of Pregna
 ## Antidepressiva läkemedel {#antidepressant-meds}
 
 Se tabell 42-1 (farmakokinetik), 42-2 (receptorbindning) och 42-3 (polysomnografiska effekter) i [@Kryger2017].
+
+### Likheter bland de flesta antidepressiva
+
+- Lipofila
+- Snabb absorbtion
+  - Maximal plasmakoncentration efter 2-3 tim
+- Binds i hög grad till plasmaproteiner
+- Hepatisk metabolism till metaboliter
+- Renal elimination av metaboliter
+- Hämmar minst en av CYParna
+
+### Olikheter i receptorprofil
+
+```{r antidepressant-affinity, out.width = '85%', fig.cap = 'Antidepressiva läkemedels affinitet till vissa receptorer', fig.fullwidth = TRUE} 
+
+include_graphics("../dropbox/images/psychiatry/fig_antidepressants_affinity.png")
+
+## source('../notes/antidepressants-monoaminergic-affinity.r') 
+
+``` 
+
 
 ### Finns dos-respons?
 
@@ -298,6 +385,21 @@ Ungefärlig incidens vid användning av första generationens antipsykotiska med
 
 Förekommer även utan AP, vid obehandlad schizofreni: Dystoni 1%, dyskinesi 9% (vid längre duration), parkinsonism 8% (17% vid längre duration), akatisi 11%
 
+#### Länkar till filmer med motoriska biverkningar
+
+[Film motoriska biverkningar ](https://www.youtube.com/watch?v=ucrV4ljDKuE)
+
+[Film motoriska biverkningar $\ExternalLink$](https://www.youtube.com/watch?v=2xfu-d_aYWs)
+
+[Parkinsonism $\ExternalLink$](https://www.youtube.com/watch?v=7SyTpEdhBLw)
+
+[Tremor vid parkinsonism $\ExternalLink$](https://www.youtube.com/watch?v=pUL0Amkq4Ok)
+
+[Tardiv dyskinesi $\ExternalLink$](https://www.youtube.com/watch?v=FUr8ltXh1Pc)
+
+<!-- NMS: https://www.youtube.com/watch?v=2NzgnPSRb4w -->
+<!-- SS: https://www.youtube.com/watch?v=I_HmHpS-rpA -->
+
 #### (Akut) Dystoni
 
 Muskelspasm i någon kroppsdel
@@ -363,6 +465,9 @@ Debut inom tim-dagar. Dessa symtom enskilt kan förekomma som biverkan av AP, me
 
 #### Parkinsonism
 
+\includegraphics[width=0.4\textwidth]{../dropbox/images/psychiatry/parkinson-face.jpg}
+
+
 Vanliga symtom:
 
 <!-- [$\ExternalLink$](./parkinsonism-gait.mkv) -->
@@ -376,7 +481,7 @@ Vanliga symtom:
   - Monoton röst
   - Kort steglängd <!-- Hör detta till bradykinesi? -->
   - Minskad medrörelse armar <!-- Hör detta till bradykinesi? -->
-- Postural tremor, "långsam" (3-6 Hz)
+- Postural tremor, "långsam" (3-6 Hz) 
 - Ökad muskeltonus (rigiditet, kugghjulsfenomen)
 - Dysfagi (sväljsvårigheter), salivering
 - Debuterar efter dagar-veckor-månader
@@ -407,11 +512,19 @@ Symtom:
 - Reversibelt hos 50%, oftast _inte helt_ reversibelt
 - Skattning: Abnormal Involuntary Movements Scale (AIMS)
 
-Riskfaktorer:
+Riskfaktorer[@Solmi2018]:
 
-- Äldre kvinna
-- Affektiv sjukdom
-- EPS tidigt under behandlingen
+- Ålder >50 (2-5 ggr ökad risk), kvinna (ffa äldre kvinnor)
+- Affektiv sjukdom (bipolär, äldre studier med FGA)
+- Intellektuell funktionsnedsättning
+- Diabetes mellitus
+- Alkoholbruk
+- Andra motoriska biverkningar (parkinsonism, akatisi, dystoni, låggradig dyskinesi)
+- Intermittent behandling
+- Första generationens antipsykotiska medel[@Stoklosa2011;@Carbon2018]
+  - Bland SGA kan aripiprazol och olanzapin medföra lägst risk.
+
+Risken för TD är ungefär 5% per år med FGA, hälften med SGA och kanske lägre än så med olanzapin eller aripiprazol.
 
 <!-- Rational Antipsychotic Choice: Weighing the Risk of Tardive Dyskinesia and Metabolic Syndrome -->
 
@@ -482,6 +595,40 @@ Tardiv dyskinesi:
 
 Ref [@Maudsley2018]
 
+
+
+### Metabola biverkningar
+
+"Marked differences exist between antipsychotics in terms of metabolic side-effects, with olanzapine and clozapine exhibiting the worst profiles and aripiprazole, brexpiprazole, cariprazine, lurasidone, and ziprasidone the most benign profiles."[@Pillinger2020]
+
+Incidensen av metabolt syndrom det första året med behanling är 10% (aripiprazol, ziprasidon, haloperidol, perfenazin) till 50% (olanzapin, risperidon, kvetiapin). 
+
+#### Metabola syndromet
+
+Medför särskilt ökad risk för typ 2 diabates och hjärt-kärlsjukdom.
+
+[Se internetmedicin](https://www.internetmedicin.se/endokrinologi-och-diabetologi/metabola-syndromet)
+
+Diagnosticeras om:
+
+1. Bukfetma
+
+- Hos kvinnor är midjemått > 80 cm, hos män > 94 cm.
+
+2. Samt minst 2 av följande:
+
+- Triglycerider > 1,7 mmol/l
+- HDL < 1,3 mmol/l för kvinnor, < 1,0 mmol/l för män
+- Blodtryck > 130/85 mm Hg eller blodtrycksbehandling
+- Faste-P-glukos > 5,6 mmol/l eller IGT (nedsatt glukostolerans) eller diabetes mellitus typ 2
+
+#### Åtgärder
+
+Rökstopp, kost, motion
+
+"Metformin may be effective in preventing weight gain (MD −4.03 kg, 95% CI −5.78 to −2.28; 4 studies, 131 participants; low‐certainty evidence); and BMI increase (MD −1.63 kg/m2, 95% CI −2.96 to −0.29; 5 studies, 227 participants; low‐certainty evidence)."[@Agarwal2022]
+
+Se även [@McIntyre2024].
 
 ### Olika typer av antipsykotiska läkemedel
 
@@ -650,7 +797,7 @@ Antidepressant-induced liver injury: a review for clinicians voican 2014  [@Voic
 
 "For safety reasons, when using an antidepressant associated with a greater risk of hepatotoxicity (iproniazid,nefazodone, phenelzine, imipramine, amitriptyline, duloxetine, bupropion, trazodone, tianeptine, or agomelatine) or prescribing an antidepressant for a patient with an underlying liver disease, regular monitoring of serum ALT should be discussed, even though there is no formalrecommendation for such investigations. For agomelatine, assessment of liver function is recommended for all patientsbefore treatment and again after 3, 6, 12, and 24 weeks oftreatment (151). Nevertheless, further studies are neededboth to confirm the efficacy of follow-up liver function testsfor the early detection of DILI and to identify patients atgreater risk of DILI." [@Voican2014]
 
-"antidepressants should be discontinued immediately in any patient with suspected DILI. It has beensuggested that these drugs should be promptly discontinued when serum ALT levels are x3 ULN (or x 5 ULN, as recently suggested) (9) or if there is an unexplained increasein bilirubin levels to x 3 ULN. For patients with high baseline ALT levels, drug discontinuation is recommended whenserum ALT levels are x 3 times the baseline value." [@Voican2014]
+"antidepressants should be discontinued immediately in any patient with suspected DILI. It has been suggested that these drugs should be promptly discontinued when serum ALT levels are x3 ULN (or x 5 ULN, as recently suggested) (9) or if there is an unexplained increasein bilirubin levels to x 3 ULN. For patients with high baseline ALT levels, drug discontinuation is recommended whenserum ALT levels are x 3 times the baseline value." [@Voican2014]
 
 Se även [@TodorovicVukotic2021].
 

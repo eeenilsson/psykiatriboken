@@ -24,6 +24,7 @@ fig:mesolimbic-pathway
 fig:hypophysis-organization
 fig:neuroendocrine-tuberoinfundibular-system
 fig:neoroendocrine-neuron-glandular-cells
+fig:antidepressant-affinity
 fig:antidepressant-monitoring-individual
 tab:antidepressant-dose-effective
 tab:antipsychotics-dosing-interval
@@ -256,6 +257,7 @@ tricykliska-antidepressiva
 bupropion
 antipsychotics
 motoriska-biverkningar
+länkar-till-filmer-med-motoriska-biverkningar
 akut-dystoni
 katatoni
 malignt-neuroleptikasyndrom
@@ -264,6 +266,9 @@ tardiv-dyskinesi
 akatisi
 behandling-av-motoriska-biverkningar
 ytterligare-behandling
+metabola-biverkningar
+metabola-syndromet
+åtgärder
 olika-typer-av-antipsykotiska-läkemedel
 första-generationen-aka-typiska
 andra-generationen-aka-atypiska

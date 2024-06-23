@@ -331,6 +331,8 @@ Atypiska antipsykotiska medel:
 
 Dosering: Aripiprazol 2–15 mg/d. Kvetiapin 150–300 mg/d. Risperidon 1-3mg/d. Olanzapin 2.5–10 mg/d [@Taylor2020]. Använd i första hand doser i lägre deen av intervallet.
 
+CANMAT uppdatering 2024[@Lam2024] rekommenderar tillägg av aripiprazol (2-10 mg) eller brexipiprazol (0.5-2 mg) i första hand; i andra hand bupropion, esketamin, ketamin, litium, olanzapin, kvetiapin, risperidon, kariprazin (1.5-3 mg), mirtazapin, modafinil, eller T3.
+
 Litium:
 
 > The BAP recommended lithium as a first-line augmenter but cautioned that most studies augmented TCAs and the association with side effects.
@@ -357,6 +359,22 @@ Thyroideahormon:
 
 Liotyronin 25 mkg/d, ökas till 50 mcg/d efter ~1 vecka vid otillräcklig respons. 
 
+Kontrollera TSH, T3, T4 vid start och efter 3 och 6 månader, därefter årligen. Målet är TSH i lägre normalintervallet och frånvaro av symtom på hypertyreos. Fritt T3 kan ligga i övre delen av referensintervallet. Bentäthetsmätning varje 2 år för postmenopausala kvinnor[@Touma2017].
+
+<!-- Guidelines for using T3 (adapted from Rosenthal 2011)40 -->
+
+<!--     Check TSH, free T3, and free T4 levels prior to initiating treatment. -->
+<!--     If TSH, free T3, and free T4 levels are abnormal, recheck labs to rule out laboratory error or transient stressors as causes. -->
+<!--     Start with 25mcg daily and titrate to 50mcg daily after at least one week (starting with 12.5mcg may be appropriate in older patients or those with medication sensitivities). -->
+<!--     Recheck thyroid indices at 3 months and then every 6 months, or at minimum annually. -->
+<!--     Goal TSH level is at least at the lower limit of the normal range or below in the absence of hyperthyroid symptoms. -->
+<!--     Free T3 level can be maintained at the upper limit of the normal range based on the severity of depressive symptoms and response to T3. -->
+<!--     Monitor bone density with densitometry every 2 years in postmenopausal women. -->
+<!--     Refer for evaluation of osteoporosis if bone density is declining. -->
+
+<!-- Touma https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5451035/ -->
+
+
 Modafinil:
 
 >CANMAT recommended modafinil as a second-line adjunctive agent citing a meta-analysis of 4 MDD RCTs.
@@ -379,7 +397,7 @@ I en metaanalys (n = 19364 patienter) såg man att effektiviteten för SSRI öka
 
 Ekvivalenter som användes var (avrundat): fluoxetin 20, escitalopram 10, citalopram 20, paroxetin 20, sertralin 50, venlafaxin 75, mirtazapin 25.
 
-Sammanfattningsvis är låga till måttliga doser av SSRI optimala, se även  [@Dold2017].
+Sammanfattningsvis är låga till måttliga doser av SSRI optimala, se även [@Dold2017].
 
 <!-- Optimal dose of selective serotonin reuptake inhibitors, venlafaxine, and mirtazapine in major depression: a systematic review and dose-response meta-analysis  [@Furukawa2019] -->
  
@@ -465,11 +483,14 @@ include_graphics("../dropbox/images/psychiatry/fig_antidepressant_sideffects_plo
 
 ```{r antidepressant-weight-gain, fig.cap="Jämförelse viktförändring[@Dent2012]." , out.width = '100%'} 
 
-include_graphics("../dropbox/images/psychiatry/antidepressant-weight-gain.png")
+knitr::include_graphics("../dropbox/images/psychiatry/antidepressant-weight-gain.png")
 
 ``` 
 
 OBS: Osäkra data för venlafaxin. Troligen ger det ej viktnedgång vid längre tids behandling.
+
+Man har spekulerat huruvida viktuppgång av antidepressiva är kopplat till effekt på en viss receptor (blockering av postsynaptiska adrenerga-, kolinerga-, histaminerga-, eller serotonerga receptorer) och en del talar för att det främst är antihistaminerg aktivitet som ger viktuppgång[@Salvi2016]. 
+
 
 ### Utsättningssymtom
 
