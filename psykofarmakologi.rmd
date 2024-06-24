@@ -129,7 +129,7 @@ Mycket litet av läkemedlen finns i bröstmjölken. Som försiktighetsåtgärd a
 
 Tabell: Av 1000 fullgångna graviditeter.
 
-Förenklat: Om man avstår antidepressiva hos 100 mammor med depression kommer 1 barn slippa missbidlning och 2 fler mammor fortsätta vara deprimerade efter 2-3 månader.
+Förenklat: Om man avstår antidepressiva hos 100 mammor med depression kommer 1 barn slippa missbildning och 10 fler mammor fortsätta vara deprimerade efter 2-3 månader.
 
 Av 100 mammor som står på antidepressiva före graviditet och väljer att fortsätta får 20 återfall under graviditet, jämfört med 35 (CI 19-60) av de som väljer att avsluta. Det är osäkert om denna skillnad är statistiskt signifikant[@Bayrampour2020].
 
@@ -202,7 +202,7 @@ Andra psykofarmaka:
 
 #### Utsöndring av SSRI i bröstmjölk
 
-Alla SSRI utsöndras i bröstmjölk (fallande ordning) [@Ulit2018]:
+Alla SSRI utsöndras i bröstmjölk (fallande ordning)[@Ulit2018]. Möjligen sker ackumulering hos vissa barn.
 
 - Fluoxetin
 - Citalopram/escitalopram
@@ -211,12 +211,12 @@ Alla SSRI utsöndras i bröstmjölk (fallande ordning) [@Ulit2018]:
   - Sällan > 8ng/ml serumkonc. Högst 3% av moderns viktjusterade dygnsdos
   - Försumbar effekt på serotonintransport hos barnet
 - Fluvoxamin
-- Möjligen ackumulering hos vissa barn
-- Symtom som kan förekomma (risken anses liten): 
-  - Skrikighet, sömnproblem, oro, myoklonus
-  - Inga belägg för byte av behandling
-  - Vid nyinsättning ge SSRI med låg passage till bröstmjölk
 
+Symtom som kan förekomma (risken anses liten): 
+
+- Skrikighet, sömnproblem, oro, myoklonus
+
+Inga belägg för byte av behandling. Vid nyinsättning ge SSRI med låg passage till bröstmjölk 
 
 ### Resurser
 

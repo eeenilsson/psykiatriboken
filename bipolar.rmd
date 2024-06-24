@@ -377,6 +377,69 @@ Det är viktigt att identifiera eventuella hypomanier hos personer med återkomm
 
 Personer med frekvent återkommande (en depression per två år) unipolär depression liknar den bipolära gruppen i flera avseenden (och ingick i Kraepelins definition av manodepressiv sjukdom), tex tidig debutålder, förekomst av mani i familjen, atypiska drag, och profylaktisk effekt av litium [@Goodwin2007, p 12]. Liknande behandlingsprinciper kan därför övervägas för dessa [@Yatham2018]. Tecken på bipolärt syndrom bör noggrannt efterfrågas vid depression och BP-diagnosen uteslutas innan diagnosen MDD ställs.
 
+Discriminating Between Bipolar Disorder and Major Depressive Disorder[@Voehringer2016]. Illness features more often observed in BD may include:
+
+| Symtom                                         | BD vs MDD |
+|------------------------------------------------|-----------|
+| Tension/fearfulness                            | BD > MDD  |
+| Cognitive impairment                           | BD > MDD  |
+| Psychomotor slowing or agitation               | BD > MDD  |
+| Atypical depressive features                   | BD > MDD  |
+| Depressive mixed states                        | BD > MDD  |
+| Irritability                                   | BD > MDD  |
+| Psychotic features                             | BD > MDD  |
+| Postpartum onset                               | BD > MDD  |
+| Early age at illness onset (ie, before age 25) | BD > MDD  |
+| Mood lability within episode                   | BD > MDD  |
+| Insomnia (late)                                | BD > MDD  |
+|------------------------------------------------|-----------|
+| Insomnia (initial)                             | MDD > BD  |
+| Appetite loss                                  | MDD > BD  |
+| Somatic complaints                             | MDD > BD  |
+| Pain sensitivity                               | MDD > BD  |
+|------------------------------------------------|-----------|
+| Från Goodwins lista                            | BD > MDD  |
+|------------------------------------------------|-----------|
+| Många episoder (>4) eller tätt (1 per 2å)      | BD > MDD  |
+| Kortare episoder <6m                           | BD > MDD  |
+| Höst/vinter -depression                        | BD > MDD  |
+| Ökad energi eller aktivitet under episod       | BD > MDD  |
+| Extrem irritabilitet under episod              | BD > MDD  |
+| Mer hurmörsvängningar mellan episoder          | BD > MDD  |
+| Irritabilitet/agotation av antidepressiva      | BD > MDD  |
+| Samsjuklighet migrän                           | BD > MDD  |
+| Rapid onset episode                            | BD > MDD  |
+| Ångest                                         | MDD > BD  |
+
+Allopurinol mot mani?[@Lu2021]
+
+```{r } 
+#| label: uricacid-bipolar
+
+dta <- data.frame(
+    category = factor(c("BD", "BD-M", "BD-D", "UD", "HC")),
+    n = c(119, 64, 55, 95, 180),
+    ua_m = c(354.02, 367.84, 337.93, 282.13, 296.27),
+    ua_sd = c(88.75, 92.92, 81.54, 77.98, 68.77)
+)
+dta%>%gplot(aes(y=ua_m, x = vategory))
+
+plot(dta$category, dta$ua_m, type="n")
+
+plot(NULL, xlim = c(1, length(dta$category)), ylim = c(0, max(dta$ua_m+dta$ua_sd)), xaxt="n", xlab = "Condition", ylab = "Urate (mean, SD)")
+
+points(1:5, dta$ua_m,
+    ylim=range(c(dta$ua_m-dta$ua_sd, dta$ua_m+dta$ua_sd)),
+    pch=19, xlab="Urate", ylab="Mean +/- SD",
+    main="Scatter plot with std.dev error bars"
+    )
+
+axis(1, at=1:5, labels=dta$category, las=1)
+# hack: we draw arrows but with very special "arrowheads"
+arrows(1:5, dta$ua_m-dta$ua_sd, 1:5, dta$ua_m+dta$ua_sd, length=0.05, angle=90, code=3)
+
+``` 
+
 #### Tecken på bipolär- snarare än unipolär depression [@Goodwin2007;@Yatham2018]
 
 - Ärftlighet: Bipolärt syndrom hos syskon, föräldrar eller barn
