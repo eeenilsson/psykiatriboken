@@ -370,14 +370,15 @@ Svårt att med säkerhet identifiera en episod med hypomani. Detta gör BPII-beg
 
 Bipolär II vs BP I depressiva episoder: BPI svårare, längre (? stämmer ej med tabell p 9) depressionsepisoder med mer psykotiska symtom och agitation/irritabilitet, och fler sjukhusinläggningar. BP II dock längre total tid i depression (mer frekventa depressiva episoder) [@Goodwin2007].
 
-
 ### När misstänka bipolärt syndrom vid depressioner?
 
 Det är viktigt att identifiera eventuella hypomanier hos personer med återkommande depression. Observera att deprimerade patienter har ofta svårt att själva identifiera tidigare hypomanier, varför anhöriganamnes samt anamnes från arbetskamrater kan vara till god hjälp [@Goodwin2007].
 
 Personer med frekvent återkommande (en depression per två år) unipolär depression liknar den bipolära gruppen i flera avseenden (och ingick i Kraepelins definition av manodepressiv sjukdom), tex tidig debutålder, förekomst av mani i familjen, atypiska drag, och profylaktisk effekt av litium [@Goodwin2007, p 12]. Liknande behandlingsprinciper kan därför övervägas för dessa [@Yatham2018]. Tecken på bipolärt syndrom bör noggrannt efterfrågas vid depression och BP-diagnosen uteslutas innan diagnosen MDD ställs.
 
-Discriminating Between Bipolar Disorder and Major Depressive Disorder[@Voehringer2016]. Illness features more often observed in BD may include:
+Discriminating Between Bipolar Disorder and Major Depressive Disorder[@Voehringer2016]. 
+
+Illness features more often observed in BD may include:
 
 | Symtom                                         | BD vs MDD |
 |------------------------------------------------|-----------|
@@ -411,6 +412,8 @@ Discriminating Between Bipolar Disorder and Major Depressive Disorder[@Voehringe
 | Rapid onset episode                            | BD > MDD  |
 | Ångest                                         | MDD > BD  |
 
+### Urat
+
 Allopurinol mot mani?[@Lu2021]
 
 ```{r } 
@@ -422,9 +425,8 @@ dta <- data.frame(
     ua_m = c(354.02, 367.84, 337.93, 282.13, 296.27),
     ua_sd = c(88.75, 92.92, 81.54, 77.98, 68.77)
 )
-dta%>%gplot(aes(y=ua_m, x = vategory))
 
-plot(dta$category, dta$ua_m, type="n")
+## plot(dta$category, dta$ua_m, type="n")
 
 plot(NULL, xlim = c(1, length(dta$category)), ylim = c(0, max(dta$ua_m+dta$ua_sd)), xaxt="n", xlab = "Condition", ylab = "Urate (mean, SD)")
 
@@ -646,6 +648,117 @@ Goodwin påpekar att många studier av "underhållsbehandling" endast täcker en
 
 <!-- Litium kombineras vid underhållsbehandling eller mani i första hand med vissa antipsykotiska läkemedel. Vid depression rekommenderas dock i första hand kombination med valproat, ssri eller bupropion. -->
 
+### Behandling enligt olika riktlinjer
+
+Olika internationella riktlinjer ger liknande rekommendationer som kan sammanfattas enligt följande[@Jeong2023]. Se även kommentar på CANMAT 2018[@Keramatian2023].
+
+Tre typer av läkemedel är grunden i behandlingen: 
+
+a. Litium
+b. Valproat
+c. Antipsykotiska medel: Kvetiapin eller olanzapin
+
+<!-- I alla faser (akut mani, akut depression, och underhållsbehandling) kan dessa ges i monoterapi eller kombination (a+c eller b+c följt av a+b+c vid otillräcklig effekt). -->
+
+**Monoterapi:** Litium, valproat, kvetiapin, och olanzapin  har gott stöd för effekt i alla faser (mani, depression, proyfylax). Valproat kan vara något sämre som profylax mot mani än de andra. 
+
+**Kombinationsbehandling:** Kvetiapin tillsammans med litium eller valproat har effekt i alla faser, men är kanske mindre effektivt vid akut depression.
+
+**Lamotrigin** i monoterapi har preventiv effekt mot depressioner och kanske litet effekt vid pågående depression. Det rekommenderas som kombinationsbehandling i en del riktlinjer, trots bristande underlag.
+
+<!-- Lamotrigin kan i vissa riktlinjer kan ingå som monoterapi eller i kombination. Det  har vetenskapligt stöd för prevention av depressioner och "any episode". Det fungerar inte vid akut mani men kan möjligen ha en viss effekt mot pågående bipolär depression. -->
+
+| Behandling   | Mani | Depr  | Prof  | Prof mani | Prof depr | Notering        |
+|--------------|------|-------|-------|-----------|-----------|-----------------|
+| Litium       | Ja   | Ja    | Ja    | Ja        | Ja        | Troligen bäst   |
+| Valproat     | Ja   | (Ja)  | Ja    | (Ja)      | Ja        | Vid alkoholism  |
+| Karbamazepin | Ja   | (Ja)  | Ja    | Ja        | Ja        | Interaktioner   |
+| Lamotrigin   | Nej  | (Ja)  | Ja    | Nej       | Ja        | Få biverkningar |
+| Kvetiapin    | Ja   | Ja    | Ja    | Ja        | Ja        | Metabola biv    |
+| Olanzapin    | Ja   | Ja    | Ja    | Ja        | Ja        | Metabola biv    |
+| Aripiprazol  | Ja   | Nej   | Ja    | Ja        | ?         | Akatisi         |
+| Li/va + Kvet | Ja   | (Ja)  | Ja    | Ja        | Ja        |                 |
+| Li/va + Ozp  | Ja   | ?     | (nja) | (nja)     | (nja)     |                 |
+| Li/va + Apz  | Ja   | (nja) | Ja    | Ja        | ?         |                 |
+
+Vid akut depression har kariprazin (monoterapi) och lurasidon (monoterapi eller med li/valproat) visad effekt. Aripiprazol (och en rad andra antipsykotiska medel) har effekt vid akut mani.
+
+Att överväga:
+
+- Vid svår mani bör kombinationsbehandling övervägas tidigt.
+
+- Vid psykos bör antipsykotiskt medel troligen ingå.
+
+- Vid svår depression eller vid mani som ej svarar på farmakologisk behandling överväg ECT.
+
+- Vid akut depression är det mindre vanligt att kombinationen litium + valproat rekommenderas. Istället rekommenderas ibland att kombinera med lamotrigin (upp till trippelbehandling Li/val + AP + LTG), trots svagt vetenskapligt stöd.
+
+- Vid depression kan antidepressiva läggas till i andra hand och i så fall tillsammans med li/val/ap. I tredje hand kan tex thyroideahormon, eller rTMS övervägas.
+
+- Vid blandad episod eller rapid cycling är evidensläget osäkert. Kan behandlas som mani men i första hand välja preparat som även används vid depression?
+
+#### Kan provas enligt någon riktlinje
+
+Annat att prova vid mani: Karbamazepin, Klozapin, Allopurinol, Li/Val + medroxyprogesterone, Val + celcoxib, rTMS, Tamoxifen
+
+Annat att prova vid akut depression: Li/val + (or modafinil or pramipexole), Li + pioglitazone, CLZ, Add buspirone or stimulant or thyroid hormone, ECT, rTMS, modafinil, eicosapentaenoic acid, rTMS, ketamine, light therapy/sleep deprivation, Levothyroxine, N-acetylcysteine, pramipexole, ARP, armodafinil
+
+<!-- #### Vilket antipsykotiskt läkemedel? -->
+
+<!-- Stämmer nog ej, kolla: -->
+<!-- - Antipsykotiska som rekommenderas vid både mani och depression: Aripiprazol (?), kvetiapin, kariprazin, (olanzapin) -->
+<!-- - Endast mani: Risperidon?, paliperidon, ziprasidon, haloperidol, asenapin -->
+<!-- - Endast depression: Lurasidon -->
+
+<!-- Antipsykotiska medel vilka anges som förstahandsval i mono- eller kombinationsbehandling (med Li eller Val) av depression i någon riktlinje[@Jeong2023]: ARP/QTP/OLZ/LUR/CAR (Ris vid psykotisk depr) -->
+
+<!-- Antipsykotiska medel vilka anges som förstahandsval i mono- eller kombinationsbehandling (med Li eller Val) av mani i någon riktlinje[@Jeong2023]: Aripiprazol, kvetiapin, risperidon, asenapin, kariprazin, paliperidon, (olanzapin), (haloperidol), (ziprasidon). De inom parentes är förstahandsval i vissa och andrahandsval i andra riktlinjer. -->
+
+### Behandling tumregler
+
+a. Litium (särskilt vid klassisk euforisk mani, få tidigare episoder, när manier har följts av depression, och vid hereditet för bipolärt syndrom, särskilt om släktingen svarat på litium)
+b. Valproat (ej till fertila kvinnor, kan föredras vid alkoholberoende)
+c. Antipsykotiska medel med effekt i alla faser (kvetiapin, olanzapin)
+d. Lamotrigin (främst evidens för prevention depression)
+e. Antidepressiva: Endast under depressiv episod
+
+1. Överväg litium. Har effekt i alla faser.
+2. Om litium är olämpligt kan valproat vara ett alternativ.
+3. Om snabb effekt behövs, lägg till ett AP med effekt i alla faser (kvetiapin, olanzapin, alt kanske aripiprazol)
+4. I andra hand: Trippelkombination, tillägg AD tillfälligt, ECT, rTMS, lamotrigin (mot depression)
+
+Aripiprazol ej ångestdämpande. Kombineras därför gärna med benso.
+
+#### Resonemang akut mani
+
+Metabola biverkningar ett mindre problem (om behandlingstid <4-6 veckor). Sedering och ångestdämpning kan vara en fördel.
+
+Tidigare obehandlad patient: Sikta på snabb insättning av litium med tillägg av kvetiapin vid psykos, svår mani, ångest, eller sömnsvårigheter. Trappa ut kvetiapin när målkonc litium uppnåtts. Blir biverkningarna av litium intolerabla kan man istället behålla kvetiapin.
+
+Ordination:
+
+- Litium: 3+3 i 2d => 2+3 i 2d => 2+2. Serumkonc dag 2-3 för vägledning.
+  - Målkonc 0.9 (0.8-1.2). 
+  - Tänk på att mani konsumerar litium, så sänkning behövs efteråt.
+- Kvetiapin: Depot 300 mg tn, dag 2 ges 600 mg. Kan ökas till 800 mg.
+- Zopiklon: 7.5 mg tn vb.
+- Agitation/ångest: Lorazepam 1-2 mg (po eller im) vb varannan timme.
+- Utebliven effekt efter 1-2 veckor: Halvera litium och ge ECT?
+
+<!-- Vid övervikt/kardovaskulär risk vore aripiprazol (profylax mani) + lamotrigin (profylax depression) logiskt, men visade ej effekt [@Carlson2012]. -->
+
+<!-- **Exempel akut mani:** -->
+
+<!-- Målsättning att prova preparat som kan fortsättas i underhållsfas. Vid svår mani kan annan strategi (tex olanzapin 5 mg var 6:e tim upp till 20 mg + beredskap för ECT?) behövas. -->
+
+<!-- Snabb insättning av litium: 3+3 i 2d => 2+3 i 2d => 2+2. -->
+
+<!-- Vid agitation, eller psykos: Tillägg aripiprazol 15-30 mg + vid ångest lorazepam 1-2 mg (po el im) varannan timme. -->
+
+<!-- Vid behov z-preparat för sömnen. -->
+
+<!-- Kvetiapin (depot 300 mg, vid mani måldos 600 mg dag 2) -->
+
 ### Val av behandling enligt CANMAT 2018
 
 Canadian Network for Mood and Anxiety Treatments (CANMAT) har publicerat omfattande riktlinjer för behandling av bipolärt syndrom  [@Yatham2018].
@@ -833,7 +946,7 @@ Antidepressiva bör i allmänhet undvikas [@Yatham2018] (särskilt vid anamnes p
   - Bör sättas ut gradvis efter depressionsepisoden
     - Fortsättningsbehandling endast för dem med tidig relaps
 
-#### Augmentation med thyrodeahormon?
+#### Augmentation med thyroideahormon?
 
 - Kan vara av värde (även vid normala thyrodieaprover) hos...
   - Kvinnor
@@ -973,7 +1086,7 @@ Litium föredras framför valproat vid klassisk euforisk mani, få tidigare epis
 
 Vid akut mani kan litium ges med bolusdos för snabb upptrappning, tex 3+3 tabl i 2d => 2+3 i 2d => 2+2 i 2d. Följ litiumkoncentrationen (orienterande prov efter två dagar). Obs att antimanisk effekt kräver högre målkoncentration. Kan sättas ut om pat ej vill fortsätta m litium.
 
-Underhållsbehandling: Konsensus målkoncentration (dalvärde 12 tim +- 1 tim efter senaste dos, även vid singeldosering) 0.60-0.80 mmol/L. Kan reduceras till 0.40-0.60 mmol/L vid god effekt men dålig tolerans. Kan ökas till  0.80-1.00 mmol/L vid otillräcklig respons och god tolerans. Nivåer över 1-1.2 mmol/L (ingen konsensus) bör ej överskridas [@Nolen2019]. Nivåer > 0.8 mmol/L kan vara av värde för dem som främst har maniska episoder, men sannolikt ej för andra, och är förknippat med ökad risk för biverkningar, rnal toxicitet, och minskad följsamhet [@Severus2008].
+Underhållsbehandling: Konsensus målkoncentration (dalvärde 12 tim +- 1 tim efter senaste dos, även vid singeldosering) 0.60-0.80 mmol/L. Kan reduceras till 0.40-0.60 mmol/L vid god effekt men dålig tolerans. Kan ökas till  0.80-1.00 mmol/L vid otillräcklig respons och god tolerans. Nivåer över 1-1.2 mmol/L (ingen konsensus) bör ej överskridas [@Nolen2019]. Nivåer > 0.8 mmol/L kan vara av värde för dem som främst har maniska episoder, men sannolikt ej för andra, och är förknippat med ökad risk för biverkningar, renal toxicitet, och minskad följsamhet [@Severus2008].
 
 Engångsdosering till kvällen kan eventuellt öka följsamhet, reducera polyuri och medföra mindre påverkan på njurarna, utan försämrad effektivitet [@Carter2013;@Bowen1991].
 
@@ -1020,7 +1133,7 @@ Monitorering:
 
 - Monitorering av serumnivåer kan göras för att kontrollera följsamhet och undvika toxisk nivå.
 
-**Lamotrigin:** Har FDA-indikation för behandling av bipolär depression. Preventivmedel kan minska lamotriginkoncentrationerna (men ej omvänt).
+**Lamotrigin:** Har FDA-indikation för behandling (prevention?) av bipolär depression. Preventivmedel kan minska lamotriginkoncentrationerna (men ej omvänt).
 
 - Dosering BP depression: Viss antidepressiv effekt redan vid 50 mg [@Goodwin2007]. CANMAT rekommenderar minst 200 mg/d [@Yatham2018]. Långsam titrering för att undvika hudbiverkningar. Allvarliga hudreaktioner är ovanligt.
 - Trappas upp gradvis för att minska risken för hudutslag.

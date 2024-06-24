@@ -75,7 +75,7 @@ Situationer där mätning av plasmakoncentrationer kan ha värde  [@Schoretsanit
 
 <!-- Blood Levels to Optimize Antipsychotic Treatment in Clinical Practice: A Joint Consensus Statement of the American Society of Clinical Psychopharmacology and the Therapeutic Drug Monitoring Task Force of the Arbeitsgemeinschaft für Neuropsychopharmakologie und Pharmakopsychiatrie  [@Schoretsanitis2020a] -->
 
-
+Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazole: a retrospective, cohort study [@Jukic2019].
 
 ```{r tdm-antipsychotics-table, cap = 'Therapeutic reference ranges for antipsychotic medications where TDM is recommended (level 1) and for antipsychotic available as LAI'} 
 
@@ -90,7 +90,6 @@ knitr::kable(tbl, align = c('lcc'))
 ``` 
 
 Mätning av koncentration görs före morgondosen av läkemedlet vid steady-state (efter 4-5 halveringstider). Se [@Schoretsanitis2020a] för tabell med fler AP, halveringstider mm.
-
 
 ### Läkemedel vid bipolärt syndrom
 
@@ -302,7 +301,15 @@ Liothyronine for Depression: A Review and Guidance for Safety Monitoring touma  
 
 Klinisk effekt av antipsyotiska läkemedel har påvisats vid 65-90% bindinng till D2-receptrorn och risken för motoriska biverkningar ökar vid en bindningsgrad på 80% (vilket ses vid ungefär 6 mg/d för risperidon, 30 mg/d för olanzapin, och 160 mg/d för ziprasidone). D2 occupancy optimum kan vara 65% [@Farde1988]. 
 
-Effect of CYP2D6 genotype on exposure and efficacy of risperidone and aripiprazole: a retrospective, cohort study [@Jukic2019].
+### Receptoraffinitet
+
+```{r bipolar-treatment-2018, fig.cap='Antipsykotiska läkemedels affinitet för olika receptorer.', fullwidth=TRUE}
+
+include_graphics('../dropbox/images/psychiatry/fig_antipsychotics_affinity.png')
+
+```
+
+### Doseringsintervall
 
 Tabell \@ref(tab:antipsychotics-dosing-interval) visar relativa doseringsintervall för några antipsykotiska läkemedel [@Maudsley2018;@Fass2020].
 
@@ -340,6 +347,8 @@ Se \@ref(tab:tdm-antipsychotics-table) för mätning av serumkoncentrationer av 
 
 <!-- ```  -->
 
+
+### Biverkningar översikt
 
 Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Många av biverkningarna är dosberoende. Källa: Maudsley.
 
@@ -629,6 +638,94 @@ Rökstopp, kost, motion
 "Metformin may be effective in preventing weight gain (MD −4.03 kg, 95% CI −5.78 to −2.28; 4 studies, 131 participants; low‐certainty evidence); and BMI increase (MD −1.63 kg/m2, 95% CI −2.96 to −0.29; 5 studies, 227 participants; low‐certainty evidence)."[@Agarwal2022]
 
 Se även [@McIntyre2024].
+
+### Hematologiska biverkningar
+
+Se [@Hall2003]
+
+Sällan kliniskt signifikanta.
+
+Is monitoring needed? https://pubmed.ncbi.nlm.nih.gov/31210059/
+
+Kan påverka alla tre cellinjer (röda blodkroppar, vita-, och trombocyter).
+
+<!-- Several mechanisms have been postulated in the development -->
+<!-- of agranulocytosis and aplasia [20-22]. These include: -->
+<!-- Non-immune mechanisms: -->
+<!-- • Bone marrow hypoplasia or suppression. This is due to an -->
+<!-- inhibitory effect on cell production by DNA synthesis and -->
+<!-- may involve folic acid deficiency. -->
+<!-- • Direct toxicity to the bone marrow. This is a sudden idio- -->
+<!-- syncratic effect or triggering of a presensitised marrow -->
+<!-- abnormality, such as glucose-6-phosphate dehydrogenase -->
+<!-- deficiency. -->
+<!-- Immune mechanisms: -->
+<!-- • Immune-mediated destruction of bone marrow precursors. -->
+
+
+
+| Tillstånd        | Incidens | Klozapin | Utredning |
+|------------------|----------|----------|-----------|
+| Anemi            |          |          |           |
+| Trombocytopeni   |          |          |           |
+| Neutropeni       | 1/10.000 | 1/50     |           |
+| Agranulocytos    |          |          |           |
+| Aplastisk anemi  |          |          |           |
+| Eosinofili       |          | 1/500    |           |
+| Trombocytos      |          |          |           |
+| Hemolytisk anemi |          |          |           |
+
+Neutropeni:
+
+- Incidens: 1/10 000 för phemotiaziner; 1/50 för klozapin
+- Åtgärd: Sätt ut läkemedlet och följ. Vid svår neutropeni eller infektion, akut omhändertagande.
+- Förlopp: Gradvis debut. Avklingar 3-4 v efter utsättning.
+- Uppföljning: Följ NEU 1 gång/vecka tills normaliserat
+
+Eosinofili:
+
+- Förlopp: Uppträder inom 4v från start
+- Risker: Hypereosinofila syndrom med organpåverkan
+- Åtgärd: Sätt ut läkemedlet
+
+Trombocytopeni:
+
+- Läkemedel: Fera olika neuroleptika, tex klorpromazin, prochlorperazine, thioridazin and klozapin
+- Allvarliga blödningar ses nästan bara vid TPK < 10
+
+Trombocytos:
+
+- Läkemedel: Klozapin
+
+Hemolytisk anemi:
+
+
+Anamnes:
+
+- Blödningshistoria: Näsblödning, Blodblåsor i munnen, Andra slemhinneblödningar, Hematuri, Melena, Menses - Menorragier, lung-/GI-/cerebrala blödningar
+- Autoimmun sjukdom
+- Helicobacter pylori
+- Hematologiska B-symtom? (feber, nattliga svettningar och viktnedgång)?
+- Naturläkemedel
+- Vaccinationer?
+- Alkoholöverkonsumtion?
+
+Status:
+
+- Hudblödningar. Petekier, pupura är konfluerande petekier. Vanligen på underbenen 
+- Munhåla/svalg. Petekier, blodblåsor.
+- Patologiskt förstorade lymfkörtlar
+- Buk: förstorad lever eller mjälte.
+
+Provtagning
+
+| Tillstånd      | Hb | TPK | LPK | MCV | Ret | LD | Hap | 5-part | Folat | B12 | Elstat | Lever | Thyr | Övr                                     |
+|----------------|----|-----|-----|-----|-----|----|-----|--------|-------|-----|--------|-------|------|-----------------------------------------|
+| Trombocytopeni | x  | x   | x   | x   | x   | x  | x   | x      | x     | x   | x      | x     | x    | ANA, PK, INR, Hcy, elfores, HP-serologi |
+|                |    |     |     |     |     |    |     |        |       |     |        |       |      |                                         |
+
+
+
 
 ### Olika typer av antipsykotiska läkemedel
 
