@@ -1,6 +1,6 @@
 # Psykofarmakologi {#psychopharmacology}
 
- Monitoring: [@Hiemke2018]
+Här beskrivs allmänna principer och särskilda psykofarmakologiska aspekter. Val av behandling vid olika diagnoser beskrivs istället i kapitlet för respektive diagnos.
 
 <!-- Dosering olika psykotropa: https://www.bdct.nhs.uk/wp-content/uploads/2016/12/Drug-Formulary-Psychotropics.pdf -->
 
@@ -32,6 +32,8 @@ För antidepressiva finns inte vetenskapligt stöd för att genotypning av CYP-4
 **Alkohol** kan påverka metabolismen av psykotropa läkemedel. Exempelvis kan nivåerna av aripiprazol, bensodiazepiner, klozapin, haloperidol, mirtazapin, kvetapin, risperidon, TAC och venlafaxin initialt bli högre pga kompetetiv metabolism med alkohol via CYP3A4. Induktion av detta enzym pga alkohol (kvarstår veckor efter avslutat alkoholintag) kan därefter leda till ökad metabolism av dessa läkemedel med minskad behandlingsffekt som följd [@Maudsley2018, p755]. 
 
 ## Mätning av plasmakoncentrationer
+
+Monitoring: [@Hiemke2018]
 
 ### Antidepressiva
 
@@ -95,13 +97,10 @@ Mätning av koncentration görs före morgondosen av läkemedlet vid steady-stat
 
 För vissa läkemedel som används vid bipolärt syndrom finns ett värde i att mäta plasmakoncentrationer. Se avsnitt \@ref(medications-bipolar) och för litium avsnitt \@ref(lithium).
 
-## Individuella skillnader i effekt av olika antidepressiva?
-
-Det finns flera teoretiska argument för att olika individer skulle kunna svara olika väl på antidepressiv behandling (polymorfismer i CYP-systemet, polymorfismer receptorer; skillnader i -neuroanatomi, symtom, svårighetsgrad, samsjuklighet, kön, ålder, och genes). Klinisk erfarenhet tycks också underbygga detta. Trots det har man i vetenskapliga studier ej kunnat påvisa att någon enskild faktor förutsäger respons på visst antidepressivt läkemedel.
 
 ## SSRI vid graviditet och amning {#ssri-pregnancy}
 
-Barn vilkas mammor använt SSRI under förlossning får oftare för tidig födsel, lägre födslovikt, autism och ADHD [@Sujan2017]. Detta kan bero på att depression är genetiskt kopplat till dessa tillstånd, vilket innebär att mammor som är deprimerade oftare har en genetisk uppsättning som också är förknippat med ADHD eller autism. Det kan också bero på att depressionen i sig är skadlig för barnet. En annan tänkbar förklaring är att de läkemedel som ges vid depression påverkar fostret.
+Barn vilkas mammor använt SSRI under förlossning får oftare för tidig födsel, lägre födslovikt, autism och ADHD [@Sujan2017]. Detta kan bero på att depression är genetiskt kopplat till dessa tillstånd, vilket innebär att mammor som är deprimerade oftare har en genetisk uppsättning som också är förknippat med ADHD eller autism. En annan delförklaring kan vara större förekomst av riskfaktorer såsom rökning och alkoholbruk. Det kan också bero på att depressionen i sig är skadlig för barnet. En annan tänkbar förklaring är att de läkemedel som ges vid depression påverkar fostret.
 
 Potentiella risker med SSRI-behandling skiljer sig åt mellan olika delar av graviditeten. Exempelvis befaras att vissa SSRI under tidig graviditet kan öka risken för medfött hjärtfel. Riskökningen är dock liten. SSRI-behandling under senare delen av graviditeten kan ge utsättningssymptom hos barnet och eventuellt öka risken för pulmonell hypertension hos barnet. 
 
@@ -111,26 +110,32 @@ Angående risken för ADHD och autism har en stor svensk studie visat att det in
 
 <!-- Identification and Management of Peripartum Depression [@Langan2016] -->
 
-I praktiken får de små riskerna vägas mot behovet av behandling. Peripartum-depression är relativt vanligt[@Liebermann2012;Langan2016]. De SSRI som anses medföra lägst risker för barnet (fluoxetin, citalopram ?) bör ges och de som tros medföra något större risk (paroxetin, venlafaxin) undvikas. Psykoterapi bör prioriteras framför läkemedelsbehandling. Sertralin anses säkert både vid graviditet och amning.
+I praktiken får de små riskerna vägas mot behovet av behandling. Peripartum-depression är relativt vanligt[@Liebermann2012;Langan2016]. De SSRI som anses medföra lägst risker för barnet (fluoxetin, escitalopram, citalopram, sertralin) bör ges och de som tros medföra något större risk (paroxetin, venlafaxin) undvikas. Psykoterapi bör prioriteras framför läkemedelsbehandling och ECT kan övervägas vid svår depression. Sertralin anses säkert både vid graviditet och amning.
 
 Mycket litet av läkemedlen finns i bröstmjölken. Som försiktighetsåtgärd avråds från SSRI under amning, men riskerna är troligen mycket små och får vägas mot behovet.
 
-"Citalopram, escitalopram, and sertraline appear to be the safest selective serotonin reuptake inhibitors during pregnancy, whereas fluvoxamine, paroxetine, and sertraline are preferred in breastfeeding women because they lead to the lowest serum medication levels in breastfed infants." [@Langan2016]
+> "Citalopram, escitalopram, and sertraline appear to be the safest selective serotonin reuptake inhibitors during pregnancy, whereas fluvoxamine, paroxetine, and sertraline are preferred in breastfeeding women because they lead to the lowest serum medication levels in breastfed infants." [@Langan2016]
 
-| Tillstånd             | Utan antidepressiva | Med antidepressiva | Skillnad |
-|-----------------------|---------------------|--------------------|----------|
-| Missbildning          | 35 (45 om paus)     | 50                 | 15 (5)   |
-| Andningsbesvär        | 1                   | 3                  | 2        |
-| Graviditetsdepression | 200                 |                    |          |
-| Förbättras >50%       | 80                  | 100                | 20       |
+Av mammor som står på antidepressiva före graviditet och väljer att fortsätta får 20% återfall under graviditet, jämfört med 35% (CI 19-60%) av de som väljer att avsluta. Det är osäkert om denna skillnad är statistiskt signifikant[@Bayrampour2020].
+
+För att illustrera risker och fördelar med antidepressiv behandling, se tabellen nedan som visar ett ungefärligt exempel på incidens av depression respektive missbildningar hos barnet för 1000 fullgångna graviditeter (siffrorna motsvarar antal individer):
+
+| Tillstånd               | Utan antidepressiva | Med antidepressiva | Skillnad |
+|-------------------------|---------------------|--------------------|----------|
+| Missbildning            | 35 (45 om paus)     | 50                 | 15 (5)   |
+| Andningsbesvär          | 1                   | 3                  | 2        |
+| Graviditetsdepression   | 200                 |                    |          |
+| Förbättras >50% inom 3m | 80                  | 100                | 20       |
+| Recidiv depression      | 200                 | 350                | 150      |
 
 <!-- | Förbättras helt       | 60                  | 80                 | 20       | -->
 
-Tabell: Av 1000 fullgångna graviditeter.
+Förenklat: Om man behandlar 100 mammor med graviditetsdepression kommer 10 fler att slippa depression och 1 ytterligare barn födas med en missbildning, jämfört med om man avstår behandling. Om man behåller profylaktisk behandling med antidepressiva hos 100 mammor kommer 15 fler (CI 0-40) att slippa depression och 1 ytterligare barn födas med en missbildning.
 
-Förenklat: Om man avstår antidepressiva hos 100 mammor med depression kommer 1 barn slippa missbildning och 10 fler mammor fortsätta vara deprimerade efter 2-3 månader.
+Andra psykofarmaka:
 
-Av 100 mammor som står på antidepressiva före graviditet och väljer att fortsätta får 20 återfall under graviditet, jämfört med 35 (CI 19-60) av de som väljer att avsluta. Det är osäkert om denna skillnad är statistiskt signifikant[@Bayrampour2020].
+- Kontraindicerade: Karbamazepin, Valproat.
+- Kan användas: Olanzapin, Risperidon, Kvetiapin, Klozapin.
 
 ### Risker för barnet
 
@@ -138,15 +143,43 @@ Följande potentiella risker har identifierats: Missbildningar, persisterande pu
 
 Persisterande pulmonell hypertension: Risk utan AD 1.2/1000, med AD 3/1000, OR 2.1 (1.5-3).
 
+#### Missbildningar hos barnet
+
+I en analys av mer än 800.000 graviditeter (N = 848 786 graviditeter, 843 797 icke-exponerade, 806 pausade SSRI, 4 183 fortsatte SSRI) [@JimenezSolem2012] fann man en liten riskökning vid antidepressiv behandling. Dock var risken hos de som pausade sin behandling under graviditet också troligen förhöjd (för litet antal fall för att avgöra säkert).
+
+Table: Risk of any major malformation in SSRI use
+
+| Group     | N      | Case,n | Incidens % | OR*                 |
+|-----------|--------|--------|------------|---------------------|
+| Unexposed | 843797 | 29703  | 3.5        | Ref                 |
+| Paused    | 806    | 36     | 4.5        | 1.27 (0.91 to 1.78) |
+| Continued | 4183   | 208    | 5.0        | 1.33 (1.16 to 1.53) |
+| Sum       | 848786 | 29947  | 3.5        | -                   |
+
+*Multivariabel logistisk regression justerad for ålder, paritet, inkomst, utbildning, rökning och konceptionsår.
+
+Förenklat: Missbildning 3 på 100 födslar hos friska och 4-5 födslar hos de som tar ssri.
+
+<!-- Effekt AD: Av 100 deprimerade får 50 spontan förbättring eller placeboeffekt (jfr 60 m AD). NNT 9. -->
+
+<!-- Förenkling: Om vi behandlar 100 deprimerade mammor kommer... -->
+
+<!-- 10 fler (CI 0-20 st) ha respons av AD jfr pbo och -->
+
+<!-- 1-2 fler barn ha missbildningar och -->
+
+<!-- 0.2 fler barn ha besvär med pulmonell hypertension efter förlossningen -->
+
+<!-- Paroxetine and venlafaxine may have higher risk than other AD. -->
+
+
 ### Risker för mamman
 
-Depression prevalens 12% under andra och tredje trimestern.
-
-Prevalens depression vid graviditet ca 20%?. Post partum depression, prevalens 15%.
+Depression prevalens 12% under andra och tredje trimestern. Totalt prevalens depression vid graviditet ca 20%?. Post partum depression prevalens 15%.
 
 Högre risk för preeklampsi och eklampsi vid depression.
 
-I en metaanalys[@Brown2021] (K=11, N=1016) fann man respons på SSRI hos 55%, jämfört med 43% med placebo (RR CI 0.97 to 1.66); remission 42% vs 27% (RR CI CI 0.99 to 2.41) och minskade symtom (SMD −0.30, CI −0.55 till −0.05).
+Effekt av antidepressiv behandling vid graviditetsdepression: I en metaanalys[@Brown2021] (K=11, N=1016) fann man respons på SSRI hos 55%, jämfört med 43% med placebo (RR CI 0.97 to 1.66); remission 42% vs 27% (RR CI CI 0.99 to 2.41) och minskade symtom (SMD −0.30, CI −0.55 till −0.05).
 
 <!-- Meta‐analysis showed that there may be a benefit of SSRIs over placebo in response (55% versus 43%; pooled risk ratio (RR) 1.27, 95% confidence interval (CI) 0.97 to 1.66); remission (42% versus 27%; RR 1.54, 95% CI 0.99 to 2.41); and reduced depressive symptoms (standardised mean difference (SMD) −0.30, 95% CI −0.55 to −0.05; 4 studies, 251 women), at 5 to 12 weeks' follow‐up.  -->
 
@@ -160,56 +193,22 @@ Se [@Gadot2015]
 
 <!-- Major depressive disorder, also known as clinical depression, is common in women of childbearing age [4]. The prevalence of postpartum depression is 17%, while the incidence of prenatal depression is as high as 20% to 40%. Depression rates during pregnancy have been reported to be as high as 7.4% in the first trimester, 12.0-12.8% in the second and third trimesters, and even higher rates in the first year after delivery [1]. Women with a history of depression before pregnancy are especially at risk with high depression relapse rates during pregnancy [@Jahan] -->
 
-Avsluta antidepressiva? [@Bayrampour2020]
-Väljer att fortsätta : 19% relaps
-Väljer att avsluta: 54% relaps (ej högre om mild/måẗtlig depr?)
-Dock ej statistiskt säkerställd skillnad.
+<!-- Avsluta antidepressiva? [@Bayrampour2020] -->
+<!-- Väljer att fortsätta : 19% relaps -->
+<!-- Väljer att avsluta: 54% relaps (ej högre om mild/måẗtlig depr?) -->
+<!-- Dock ej statistiskt säkerställd skillnad. -->
 
-## Antidepressiva under graviditet och missbildningar hos barnet
-
-I en analys av mer än 800.000 graviditeter (N = 848 786 pregnancies, 843 797 unexposed, 806 paused SSRI, 4 183 continued SSRI) [@JimenezSolem2012] fann man en liten riskökning vid antidepressiv behandling. Dock var risken hos de som pausade sin behandling under graviditet också troligen förhöjd (för litet antal fall för att avgöra säkert).
-
-Table: Risk of any major malformation in SSRI use
-
-| Group     | N      | Case,n | Incidens % | OR*                 |
-|-----------|--------|--------|------------|---------------------|
-| Unexposed | 843797 | 29703  | 3.5        | Ref                 |
-| Paused    | 806    | 36     | 4.5        | 1.27 (0.91 to 1.78) |
-| Continued | 4183   | 208    | 5.0        | 1.33 (1.16 to 1.53) |
-| Sum       | 848786 | 29947  | 3.5        | -                   |
-
-*Multivariable logistic regressions are adjusted for mother's age, parity, income, education, smoking and year of conception.
-
-Förenkling: Missbildning 3 på 100 födslar hos friska och 4-5 födslar hos ssri.
-
-Effekt AD: Av 100 deprimerade får 50 spontan förbättring eller placeboeffekt (jfr 60 m AD). NNT 9.
-
-Förenkling: Om vi behandlar 100 deprimerade mammor kommer...
-
-10 fler (CI 0-20 st) ha respons av AD jfr pbo och
-
-1-2 fler barn ha missbildningar och
-
-0.2 fler barn ha besvär med pulmonell hypertension efter förlossningen
-
-<!-- Paroxetine and venlafaxine may have higher risk than other AD. -->
-
-Andra psykofarmaka:
-
-- Kontraindicerade: Karbamazepin, Valproat
-- Kan användas: Olanzapin, Risperidon, Kvetiapin, Klozapin
-
-#### Utsöndring av SSRI i bröstmjölk
+### Utsöndring av SSRI i bröstmjölk
 
 Alla SSRI utsöndras i bröstmjölk (fallande ordning)[@Ulit2018]. Möjligen sker ackumulering hos vissa barn.
 
-- Fluoxetin
-- Citalopram/escitalopram
-- Paroxetin
-- Sertralin
+1. Fluoxetin
+2. Citalopram/escitalopram
+3. Paroxetin
+4. Sertralin
   - Sällan > 8ng/ml serumkonc. Högst 3% av moderns viktjusterade dygnsdos
   - Försumbar effekt på serotonintransport hos barnet
-- Fluvoxamin
+5. Fluvoxamin
 
 Symtom som kan förekomma (risken anses liten): 
 
@@ -276,7 +275,6 @@ kable(tbl, align = c('lcc'), caption = 'Minsta effektiva dos och dos som ger max
 
 ``` 
 
-
 ### Tricykliska antidepressiva
 
 Tertiära tricykliska medel (imipramine, clomipramine, trimipramine, amitriptyline, butriptyline, doxepin, dosulepin) är mer sederande än sekundära (nortriptyline, protriptyline, and desipramine) tricykliska medel  [@Kryger2017]. Tertiära TCA har relativt sett mer effekt på SERT och sekundära mer på NET.
@@ -292,10 +290,7 @@ Omkring 7% av befolkningen har en variant av CYP2D6 som leder till långsammare 
 <!-- (bupropion hydrochloride extended-release tablets)  [@Fda2013] -->
 <!-- Note: innehåller frekvens biverkningar vs placebo -->
 
-Calvi 2021 Antidepressant Drugs Effects on Blood Pressure  [@Calvi2021]
-
-Liothyronine for Depression: A Review and Guidance for Safety Monitoring touma  [@Touma2017]
-
+Antidepressant Drugs Effects on Blood Pressure  [@Calvi2021]
 
 ## Antipsykotiska läkemedel {#antipsychotics}
 
@@ -643,7 +638,37 @@ Se även [@McIntyre2024].
 
 Se [@Hall2003]
 
-Sällan kliniskt signifikanta.
+Sällan kliniskt signifikanta. 
+
+Mekanismer:
+
+1. Direkt benmärgshämning (toxicitet)
+2. Anikroppar mot hematopoetiska stamceller
+3. Destruktion av perifera celler
+
+Vanligast är neutropeni, eosinofili, trombocytopeni.
+
+<!-- Adverse events due to psychiatric drugs are rare but possibly severe (significant cases incidence 1–2/100 000, mortality rate 8–17%). These usually occur during initial stages of treatment and most commonly disappear with discontinuation, and are due to bone marrow direct toxicity, antibody formation aimed at hematopoietic precursors, or peripheral cell destruction.1 The most common events are neutropenia, eosinophilia, and thrombocytopenia (usually of low severity and easily resolved). Less commonly, but more severely, agranulocytosis or aplastic anemia might also occur. https://onlinelibrary.wiley.com/doi/full/10.1111/pcn.12781 -->
+
+<!-- In regards to the pharmacological class, antipsychotics and carbamazepine are mostly associated with agranulocytosis (<0.1%; higher risk with phenothiazines and clozapine); SSRI have been linked to platelet dysfunction and augmented bleeding risk -->
+
+<!-- Studentprojekt: -->
+
+<!-- Kartläggning av hematologiska biverkninga av psykotropa läkemedel -->
+<!-- Litteratursökning -->
+<!-- - Registerliknande studier? -->
+<!-- - Fallrapporter -->
+<!-- - Databaser för biverkningsrapportering -->
+<!-- - FASS -->
+<!-- Journaldata? -->
+<!-- Bakgrund: -->
+<!-- Om läkemedelsreaktioner (Typ A/B) -->
+<!-- Om hematologiska läkemedelsreaktioner (mekanismer, några kända läkemedel) -->
+<!-- Om de hematologiska tillstånd som kan uppstå -->
+<!-- Om monitorering -->
+
+
+Monitorering: Efter insättning/doshöjning, månad 3, 6, 12, därefter årligen (?)
 
 Is monitoring needed? https://pubmed.ncbi.nlm.nih.gov/31210059/
 
@@ -662,18 +687,17 @@ Kan påverka alla tre cellinjer (röda blodkroppar, vita-, och trombocyter).
 <!-- Immune mechanisms: -->
 <!-- • Immune-mediated destruction of bone marrow precursors. -->
 
-
-
-| Tillstånd        | Incidens | Klozapin | Utredning |
-|------------------|----------|----------|-----------|
-| Anemi            |          |          |           |
-| Trombocytopeni   |          |          |           |
-| Neutropeni       | 1/10.000 | 1/50     |           |
-| Agranulocytos    |          |          |           |
-| Aplastisk anemi  |          |          |           |
-| Eosinofili       |          | 1/500    |           |
-| Trombocytos      |          |          |           |
-| Hemolytisk anemi |          |          |           |
+| Tillstånd        | Incidens     | Klozapin | Utredning |
+|------------------|--------------|----------|-----------|
+| Anemi            |              |          |           |
+| Trombocytopeni   |              |          |           |
+| Neutropeni       | 1/10.000     | 1/50     |           |
+| Agranulocytos    | <1/1000      | 1/100?   |           |
+| Aplastisk anemi  |              |          |           |
+| Eosinofili       |              | 1/500    |           |
+| Trombocytos      |              |          |           |
+| Hemolytisk anemi |              |          |           |
+| Leukocytos       | 4/100 (risp) |          |           |
 
 Neutropeni:
 
@@ -699,6 +723,15 @@ Trombocytos:
 
 Hemolytisk anemi:
 
+- Fallrapporter: Kvetiapin, aripiprazol
+
+Pancytopeni:
+
+- Fall: Clozapine, quetiapine and risperidone
+
+TTP-HUS:
+
+Fall: Quetiapine
 
 Anamnes:
 
@@ -717,14 +750,25 @@ Status:
 - Patologiskt förstorade lymfkörtlar
 - Buk: förstorad lever eller mjälte.
 
-Provtagning
+Provtagning för utredning
 
-| Tillstånd      | Hb | TPK | LPK | MCV | Ret | LD | Hap | 5-part | Folat | B12 | Elstat | Lever | Thyr | Övr                                     |
-|----------------|----|-----|-----|-----|-----|----|-----|--------|-------|-----|--------|-------|------|-----------------------------------------|
-| Trombocytopeni | x  | x   | x   | x   | x   | x  | x   | x      | x     | x   | x      | x     | x    | ANA, PK, INR, Hcy, elfores, HP-serologi |
-|                |    |     |     |     |     |    |     |        |       |     |        |       |      |                                         |
+- Hb
+- TPK
+- LPK
+- MCV
+- Ret
+- LD: Lätt till måttligt förhöjt LD hos 50% av de med ITP. Significant elevations are seen in various malignancies, tissue necrosis, haemolytic anaemia, ineffective erythropoiesis, liver disease, nephrotic syndrome and muscular disorders
+- Haptoglobin: Hemolytisk anemi
+- 5-part
+- Folat
+- B12
+- Elstat
+- Lever
+- Thyr
+- Vid tromboctopeni: ANA, PK, INR, Hcy, elfores, HP-serologi
 
 
+https://onlinelibrary.wiley.com/doi/full/10.1111/bjh.16183
 
 
 ### Olika typer av antipsykotiska läkemedel
@@ -922,6 +966,25 @@ Litium används främst vid bipolärt syndrom typ I men även vid bipolärt synd
 En fördel med litium är att det finns lång klinisk erfarenhet och att biverkningarna kan ses som lindriga jämfört med alternativen (tex antipsykotiska medel). Vid bipolärt syndrom typ I är litium det enda läkemedlet med dokumenterad effekt på både den maniska (stark dokumentation) och depressiva fasen (svagare dokumentation), både som akutbehandling och profylax, samt det enda läkemedlet med vetenskapligt stöd för antisuicidal effekt. Litiumbehandling kräver monitorering med blodprover var 4:e till 6:e månad.
 
 Verkningsmekanismen oklar. Sannolik mekanism är att Litium uppreglerar gener som kodar för cellskyddande proteiner och celltillväxt så att hjärncellerna blir fler, starkare och mer stabila (den neuroprotektiva hypotesen).
+
+### Effekt av litium vid BD[@Ulrichsen2023]
+
+- 60% av patienter med mani eller depression förbättras (>50% reduktion)
+- 25% med blandad episod får positiv respons
+- 50% bibehåller remission (olika studielängd)
+
+Effektstorlek 1.7 för depression (0.8 RCT; 1.9 NRT)
+Effektstorlek 1.9 för mani (1.5 RCT; 3.5 NRT)
+
+<!-- Lithium was reportedly effective at both improving depression and mania (n = 37 studies) (Fig. 2(a)), with around two-thirds of participants improving their depression or mania scores by more than 50% (depression: 68%, n = 453, 14 studies; mania: 57%, n = 548, ten studies). -->
+
+#### Litium profylax RCT[@Severus2018]
+
+- Any episode: RR 0.66, 95% CI 0.53 to 0.82
+- Mani: RR 0.52, 95% CI 0.38 to 0.71
+- Depression: RR 0.78, 95% CI 0.59 to 1.03
+
+<!-- Maintainance BP comparison diffreent meds and combinations [@Kishi2021] -->
 
 ### Historik
 
@@ -1362,7 +1425,7 @@ Notera att Bazetts formel för beräkning av QTc överkorrigerar, så använd an
 
 
 
-### Sömnmedel {#sleep-meds}
+## Sömnmedel {#sleep-meds}
 
 <!-- Se notes/sleep-meds_pharmacodynamics.csv -->
 <!-- APA textbook of psychopharm -->
@@ -1379,7 +1442,7 @@ European guideline for the diagnosis and treatment of insomnia https://onlinelib
 
 <!-- TODO: Gör en tabell med receptorprofil, en med farmakokinetik, och en med effekt på insomning etc. se notes/sleep-meds_pharmacodynamics.csv -->
 
-#### Bensodiazepiner som sömnmedel
+### Bensodiazepiner som sömnmedel
 
 Bensodiazepiner påverkar alla de områden i hjärnan som reglerar sömn och vakenhet. De binder fyra typer av GABA-A-receptorer och har en bred GABA-modulerande, hämmande effekt på vakenhetsfrämjande system. 
 
@@ -1407,7 +1470,7 @@ The half-lives of the ‘short- and intermediate-acting’ benzodiazepines range
 
 -->
 
-#### Bensodiazepinliknande medel
+### Bensodiazepinliknande medel
 
 Preparat: Zolpidem, eszopiklon.
 
@@ -1423,7 +1486,7 @@ Biverkningar: kognition, amnesi, ataxi
 
 Beroende: Låg risk om ej tidigare beroendeproblematik. Se The treatment of chronic insomnia: drug indications, chronic use and abuse liability. Summary of a 2001 New Clinical Drug Evaluation Unit meeting symposium mendelson  [@Mendelson2004]
 
-#### Melatoninreceptoragonister
+### Melatoninreceptoragonister
 
 Tillförsel av melatonin har minimal effekt på inomning, sömneffektivitet och sömnduration. Melatonin kan ha en större hypnotisk effekt när sömntrycket är lågt, tex dagtid då insöndringen av endogent melatonin är låg  [@Kryger2017].
 
@@ -1435,7 +1498,7 @@ Agomelatin är en MT1/MT2-agonist och har positiva effekter på sömn hos deprim
 
 Preparat: Melatonin, ramelteon, agomelatin.
 
-#### Ickeselektiva antihistaminer
+### Ickeselektiva antihistaminer
 
 Diphenhydramin, doxylamin.
 
@@ -1447,7 +1510,7 @@ Kan vara lämpliga för problem med uppvaknanden utan insomningsproblem, särski
 
 Biverkningar: Dagtrötthet, antikolinerga biverkningar (se **avsnitt \@ref(side-effects-anticholinergic)**). Vissa patienter svarar paradoxalt med CNS-aktivering, rastlöshet, och ökad ångest. 
 
-#### Antidepressiva som sömnmedel
+### Antidepressiva som sömnmedel
 
 Amitriptylin (antagonism mot noradrenalin, histamin, acetylkolin), doxepin, trimipramin, trazodon (antagonism mot noradrenalin, histamin, 5-HT-2), mirtazapin (histamin,  5-HT-2).
 
@@ -1460,7 +1523,7 @@ Tertiära tricykliska medel (imipramine, clomipramine, trimipramine, amitriptyli
 Trazodon är ett tetracyklisk antidepressivt medel som ger svag hämning av SERT, blcokerar vissa serotoninreceptorer, har antihistaminerg aktivitet och blockerar till viss del alfa-1 och alfa-2-receptorer. Dess metabolit har 5HT2C agonistiska egenskaper. 
 
 
-#### Antipsykotiska som sömnmedel
+### Antipsykotiska som sömnmedel
 
 Främst olanzapin och kvetiapin. Effekt via blockad av histamin, noradrenalin, acetylkolin, 5-HT2, alfa-adrenerga receptorer, och dopamin. <!-- Deras effekter på 5-HT, H1, M1, och alfa-adrenerga receptorer kan påverka sömnen.  -->
 
@@ -1474,7 +1537,7 @@ Olanzapin har maximal koncentration efter 1.5 tim och halveringstid kring 6 tim.
 
 Kvetiapin 25 mg har påvisad effekt vid insomni.
 
-#### Andra
+### Andra
 
 Prazosin är en alfa-1-receptorblockerare som visat effekt på upprätthållande av sömn och mot mardrömmar.
 
@@ -1487,11 +1550,11 @@ Orexinantagonister: Suvorexant registrerat som läkemedel.
 Gamma-hydroxybutyrat (GHB): Kan användas mot kataplexi vid narkolepsi, och mot överdriven sömnighet. GHB kan ge sederande egenskaper initialt (på natten) och vakenhetsfrämjande effekt därefter (dagtid), men är endast utvärderat vid narkolepsi.
 
 
-#### KBT-I
+### KBT-I
 
 KBT mot sömnproblem
 
-### Bensodiazepiner
+## Bensodiazepiner
 
 <!-- Different Benzodiazepines Bind with Distinct Binding Modes to GABAA Receptors Elgarf  [@Elgarf2018] -->
 
@@ -1508,11 +1571,6 @@ Lis of bz https://en.wikipedia.org/wiki/List_of_benzodiazepines
 Anxiolytic vs sedative https://www.emcdda.europa.eu/publications/drug-profiles/benzodiazepines_en
 
  Drug Class Review Benzodiazepines in the Treatment of Anxiety Disorder https://medicaid.utah.gov/pharmacy/ptcommittee/files/Criteria%20Review%20Documents/2016/2016.11%20Benzodiazepines%20in%20Anxiety%20Drug%20Class%20Review.pdf
-
-
-
-
-## Bensodiazepiner
 
 Ekvivalenter, se konverteringsverktyg på [psychiatrinet](https://wiki.psychiatrienet.nl/wiki/Special:RunQuery/CalcBenzo)
 
@@ -1623,8 +1681,236 @@ The standard operating procedure shouldcontainpredosingconsiderationscoveringthe
 ensurethataresponsibleadultisavailabletotrans-port the patient home if the treatment is being administered on anoutpatient basis
 
 
-## Biverkningar av psykofarmaka
+## Lamotrigin
 
+Det vetenskapliga underlaget för behandling med lamotrigin besväras av betydande publikationbias[@NassirGhaemi2008], varför det är viktigt att väga in både publicerade och opublicerade data.
+
+Effekten av lamotrigin har studerats vid bipolära syndrom i alla faser (mani, depression, profylax) och positiva effekter har endast visats vid profylaktisk behandling och då endast mot depressioner. Någon profylaktisk effekt mot manier sågs ej men en eventuell effekt kan skymmas av att patienterna följdes till första episod, vilket oftas var depression, varför underlaget för att bedöma om det kan finnas en preventiv effekt mot manier troligen är för litet. Osäkra data  talar för att det kan finnas en viss effekt vid akut bipolär depression (negativa originalstudier men positiv effekt i senare analys av sammanslagna data och metaanalyser från dessa). Att lamotrigin saknar effekt vid akut mani och unipolär depression är tydligt (stora opublicerade negativa studier finns). Det har ej studerats som profylax mot unipolär depression. Vid EIPS sågs positiv effekt i en liten initial studie (N=28), men ingen effekt vid en senare större studie (N=276).
+
+Nedan följer en genomgång av det vetenskapliga underlaget.
+
+### Lamotrigin vid akut BP depression?
+
+I fem RCT (vara fyra opublicerade) studier sågs ingen skillnad mot placebo i någon enskild studie[@Calabrese2008]. En senare metaanalys av individdata från dessa fem studier (N = 1072)[@Geddes2009] visade dock en effekt (respons RR=1.27, 95% CI 1.09-1.47, P=0.002). Ungeär 10%-enheter fler fick respons med lamotrigin än med placebo (44% vs 35%) och effektstorleken på depressionens svårighetsgrad var liten (SMD -0.3 CI -0.51 till -0.1)[@Haenen2024].
+
+### Lamotrigin profylax vid bipolärt syndrom?
+
+De två studier på vilka FDA-indikationen grundas:
+
+- Calabrese 2003 (N=966, BP1 med nylig depr): Längre tid till depression (p=0.47) men ej mani [@Calabrese2003].
+- Bowden 2003 (N=175, BP1 nylig hypomani eller mani): Visade detsamma (p=0.02) [@Bowden2003].
+
+I studierna användes en run-in-fas ("enrichment design"): Endast de med stabil dos open-label lamotrigin vid v 8-16 samt CGI-S < 4 efter denna fas inkluderades i randomiseringen. Dvs studiepopulationen bestod av de som tolererat lamotrigin under "run-in"-fasen.
+
+Data från dessa två studier slogs ihop i en senare analys[@Goodwin2004].
+
+Resultaten från dessa två studier sammanfattas i tabellen nedan:
+
+| Studie         | N (Lam)   | Inklusion         | Utfall (tid) | p      |
+|----------------|-----------|-------------------|--------------|--------|
+| Calabrese 2003 | 463 (221) | BP1 nyl depr      | dep/man      | 0.013* |
+|                |           |                   | dep          | 0.047* |
+|                |           |                   | man          | 0.24   |
+| Bowden 2003    | 175 (59)  | BP1 nyl hypo/mani | dep/man      | 0.02*  |
+|                |           |                   | dep          | 0.02*  |
+|                |           |                   | man          | 0.28   |
+| Sammanslagna   | 471 (280) | BP1               | dep/man      | <0.001 |
+|                |           |                   | dep          | 0.009  |
+|                |           |                   | man          | 0.34   |
+
+N i tabellen = lamotrigin eller placebo. Ytterligare grupp med litium (N 121 resp 46).
+
+### Lamotrigin prevention BD episod
+
+```{r , fig.cap="Lamotrigin prevention av bipolär episod (mani eller depression)." , out.width = '100%'} 
+#| label: meta-plot-any
+knitr::include_graphics("../dropbox/images/psychiatry/lamotrigine_meta_plot_any.png")
+``` 
+
+~8 months incidence on placebo ~50%
+
+### Lamotrigin prevention BD depression
+
+```{r , fig.cap="Lamotrigin prevention av bipolär depression." , out.width = '100%'} 
+#| label: meta-plot-depression
+knitr::include_graphics("../dropbox/images/psychiatry/lamotrigine_meta_plot_depression.png")
+``` 
+
+~8 months incidence on placebo ~40%
+
+### Lamotrigin prevention BD mani
+
+```{r , fig.cap="Lamotrigin prevention av mani." , out.width = '100%'} 
+#| label: meta-plot-mania
+knitr::include_graphics("../dropbox/images/psychiatry/lamotrigine_meta_plot_mania.png")
+``` 
+
+~8 months incidence on placebo ~15%
+
+
+### Lamotrigin vid akut MDD
+
+<!-- A systematic search of MEDLINE found 4 published RCTs of the use of lamotrigine for MDD (see Table), all of which used lamotrigine as an add-on to an antidepressant. However, 2 of these studies included patients with bipolar disorder, making them potentially misleading. None of these RCTs found the addition of lamotrigine to the anti­depressant to be superior to the addition of placebo on the primary out-come measure. https://www.psychiatrictimes.com/view/lamotrigine-major-depressive-disorder-inappropriate -->
+
+| Studie       | N  | nBP | t   | Utfall | SMD (CI)            | p  |
+|--------------|----|-----|-----|--------|---------------------|----|
+| Normann 2002 | 40 | 7   | 9v  | HAM-D  |                     | NS |
+| Barbosa 2003 | 23 | 8   | 6v  | HAM-D  |                     | NS |
+| Santos 2008  | 34 | 0   | 8v  | MADRS  | -0.16 (-0.83, 0.52) | NS |
+| Barbee 2011  | 96 | 0   | 10v | MADRS  | 0.13 (-0.27, 0.53)  | NS |
+
+Samtliga studier var augmentation av antidepressiva vid depressiv episod. Ref[@Barbee2011; @Santos2008; @Barbosa2003; @Normann2002]. Se även [@Haenen2024].
+
+Tre opublicerade RCTer (N = 750) visade ingen effekt av lamotrigin i monoterapi vid akut MDD[@Reid2013].
+
+Det finns 6 kinesiska RCT (publicerade endast på kinesiska) varav 5 visar positiva resultat.
+
+<!-- Lamotrigine in the Treatment of Unipolar Depression with and Without Comorbidities: A Literature Review -->
+<!--     February 2012Psychiatric Quarterly 83(3):371-83 -->
+<!--     February 201283(3):371-83 -->
+
+### Lamotrigin profylax MDD
+
+Har ej hittat några studier på detta.
+
+### Sammanfattning lamotrigin vid affektiva syndrom
+
+| Indikation         | Effekt   | Underlag                  |
+|--------------------|----------|---------------------------|
+| Akut mani          | Ingen    | 2 stora opubl studier     |
+| Akut BP dep        | Möjligen | Blandade resultat         |
+| Profylax BP episod | Ja       |                           |
+| Profylax BP dep    | Ja       |                           |
+| Profylax mani      | Nej(?)   | För litet underlag        |
+| Akut MDD           | Ingen    | n ~ 1000, 3 opubl studier |
+| Svårbeh MDD        | Ingen    | n = 96                    |
+| Profylax MDD       | ?        | Studier saknas            |
+
+Se [@Goldberg2024;@Haenen2024;@Besag2021].
+
+<!-- Meta: [@Hashimoto2021]  Knepiga resultat -->
+
+<!-- Observationsstudier[@Fellendorf2023] -->
+
+<!-- - Akut mani: Två stora opublicerade studier visar ej effekt -->
+<!--   - Den gradvisa titreringen är en möjlig förklaring -->
+<!-- - Profylax mani: Bättre än placebo (33% reduktion av risken) -->
+<!-- - Akut BP depression: Sammantaget ingen eller möjligen liten effekt -->
+<!-- - Svårbehandlad depression: Ingen effekt (n = 96) -->
+
+<!-- - Östrogen indcerar metabolism. Valproat inhiberar. -->
+
+<!-- Se /notes/bipolar-drugs-approval.csv -->
+
+### Sammanfattning ungefärlig effektstorlek
+
+| Indikation   | Utfall     | Placebo | Lamotrigin | Diff |
+|--------------|------------|---------|------------|------|
+| Akut BPD*    | respons    | 35%     | 45%        | 10%  |
+| Mani         | respons    | NS      | NS         | 0    |
+| Profylax BP  | episod 8m  | 50%     | 40%        | 10%  |
+| Profylax BP  | depr 8m    | 40%     | 30%        | 10%  |
+| Profylax BP  | mani       | 15%     | 15%        | 0    |
+| Akut MDD     | respons    | NS      | NS         | 0    |
+| Sårbeh MDD*  | respons    | NS      | NS         | 0    |
+| Profylax MDD | depression | ?       | ?          | ?    |
+
+*Osäkra resultat.
+
+Dvs: Av 10 **med BP** som behandlas kommer 1 färre ha en depressiv episod inom 8 månader. Kanske fler över längre tid?
+
+### Guidelines lamotrigin vid BP
+
+| Indikation    | CANMAT | ISBD | BAP   | NICE  | WFSBP |
+|---------------|--------|------|-------|-------|-------|
+| Depression*   | 1/2    | 1/2  | Ja/Ja | Ja/Ja | Ja/?  |
+| Mani          |        |      |       | Nej   |       |
+| Profylax depr | 1/1    | 1/1  | Ja/Ja |       | 1/1   |
+
+Monoterapi BP1/BP2. *Invändning: Blandade resultat i studier och behov av gradvis titrering.
+
+### Lamotrigin vid EIPS
+
+<!-- - EIPS, BP, PTSD, ID, MDD, SUD etc. -->
+<!-- - En liten studide (n = 28) av EIPS visade postitv effekt MEN -->
+<!-- - Efterföljande större studie (n = 276) & metaanalys visade ingen effekt -->
+<!-- \footlineextra{\simplecite{Goldberg2024}} -->
+<!-- "Sudden or abrupt shifts of mood are considered to be a nonpathognomomic, transdiagnostic phenomenon that can occur across a wide range of syndromes other than bipolar disorder, including borderline personality disorder, posttraumatic stress disorder (PTSD), developmental disorders, major cognitive disorders, major depressive disorder, and substance use disorders, among others" -->
+
+```{r , fig.cap="Lamotrigin vs placebo vid EIPS (medel och CI), n = 276[@Crawford2018]." , out.width = '100%'} 
+#| label: lam-plot-eips
+knitr::include_graphics("../dropbox/images/psychiatry/lamotrigine_eips.png")
+``` 
+
+### Biverkningar av lamotrigin
+
+Ca 70% raporterar biverkningar[@Calabrese2003].
+
+- Samma omfattning som placebo.
+- Tex huvudvärk, illamående, sömnighet, yrsel, diarré, tremor.
+
+Ca 10% får hudutslag (5% m placebo)
+
+### Lamotrigin hudutslag
+
+<!-- - Stevens–Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN)  -->
+<!-- - Incidens hudutslag av lamotrigin: 2-10%, OR 0.99-2.41 jämfört m andra läkemedel [@Wang2015]. -->
+<!-- - Incidens hudutslag vid re-challenge 36% om inom 4v, annars 7%[@Besag2021]. -->
+<!-- - Incidens SJS 1/3000 (1/100 vid startdos 100 mg) -->
+
+| Behandling       | Utslag | Allvarligt utslag |
+|------------------|--------|-------------------|
+| Placebo          | 5%     |                   |
+| Lamotrigin       | 10%    | <0.1-0.3%         |
+| Re-challenge <4v | 36%    |                   |
+| Re challenge >4v | 7%     |                   |
+
+Se [@Besag2021;@Wang2015;@Hirsch2006].
+
+Risk för Stevens–Johnson syndrome (SJS) och toxic epidermal necrolysis (TEN): 3 på 10.000.
+
+Lamotriginorsakade utslag debut vanligen 5 d till 2 m efter start.
+
+Man kan försöka värdera om hudutslagen är godartade, men egentligen finns ingen tillförlitlig metod, varför rekommendationen är att alltid avsluta behandlingen och at eventuellt försöka återinsättning efter ett uppehåll på 6 månader, med mycket försiktig upptrappning.
+
+| Kliniska tecken                                                          | Poäng |
+|--------------------------------------------------------------------------|-------|
+| Exfoliation eller erythroderma (intensiv rodnad och svullnad av huden)   | 3     |
+| Purpura, ömhet, blåsbildning                                             | 1     |
+| Ansikte eller slemhinnor inblandade                                      | 1     |
+| Svullna lymfkörtlar                                                      | 1     |
+| Avvikande blodbild (tex eosinofili), eller stegrade levertransaminaser   | 1     |
+| Allmänsymtom (feber, sjukdomskänsla, ledvärk, meningism, halsont, hosta) | 1     |
+
+Table: Rating scale for dermatological drug eruptions
+
+0p = Benignt utslag. >2p akut bedömning (prednisolon 6 dagar nedtrappning?).
+
+
+### Lamotrigin titrering
+
+| Situation          | v1-2  | v3-4 | v5-6         | v7-8 | v9-10 | v11+ |
+|--------------------|-------|------|--------------|------|-------|------|
+| Normalt            | 25    | 50   | 100&rarr;200 | 200  |       |      |
+| Med valproat       | 12.5* | 25   | 50&rarr;100  | 100  |       |      |
+| Med karbamazepin** | 50    | 100  | 200&rarr;300 | 300  |       |      |
+| Rechallenge        | 5     | 10   | 15           | 20   | 25    | Norm |
+
+Tabell: Titrering lamotrigin
+
+(*) Ges som 25 mg vad. (**) Bör uppdelas på två doser vid 100mg+.
+
+Om uppehåll >5d börja om titrering.
+
+### Resurser lamotrigin
+
+[Lamotrigin patientinformation](https://www.psykiatrisydvast.se/4a85bc/globalassets/verksamheter/psykiatri/psykiatri-sydvast/pdf-er/affektiva/lamotrigin.pdf)
+
+[Psykiatri sydväst, Lamotrigin vid bipolär sjukdom](https://www.psykiatrisydvast.se/4a85bc/globalassets/verksamheter/psykiatri/psykiatri-sydvast/pdf-er/affektiva/lamotrigin-vid-bipolar-sjd.pdf)
+
+[Internetmedicin, läkemedelsreaktioner och hud](https://www.internetmedicin.se/hud-och-konssjukdomar/lakemedelsreaktioner-och-hud)
+
+## Vissa biverkningar av psykofarmaka
 ### Arytmirisk
 
 Se: Läkemedel som kan orsaka allvarliga rubbningar i hjärtats rytm - Fokus på förskrivning av antidepressiva och antipsykotiska läkemedel till äldre [@Socialstyrelsen2019tdp].
@@ -1699,7 +1985,7 @@ p + geom_bar(position="dodge", stat="identity") + coord_flip() +
 
 ``` 
  
-Se även Stahl Clin Psychiatry 2003 Psychopharmacology of Ziprasidone \cite{Stahl2003} som innehåller figurer med olika antipsykotiska läkemedels bindingsprofiler.
+Se även Stahl Clin Psychiatry 2003 Psychopharmacology of Ziprasidone[@Stahl2003] som innehåller figurer med olika antipsykotiska läkemedels bindingsprofiler.
 
 Amitriptylin antikolinergt och sedarande, nortriptylin är dess metabolit som saknar dessa egenskaper.
 
@@ -1760,7 +2046,7 @@ Försiktighet (undvik?) med depotinjektioner då de ej kan avslutas snabbt.
 
 **Biperiden** (Akineton^&reg;): Centralt verkande antikolinergt läkemedel. Peroralt ges 1-2(–4) mg 1–4 gånger dagligen. Vid parenteral medicinering (akut dystoni) ges 2.5–5 mg intramuskulärt eller långsamt intravenöst. Vid behov kan dosen upprepas efter 30 minuter. Försiktighet till äldre, vid prostatahypertrofi, förhöjd krampbenägenhet, och takykardi.
 
-## Beskrivning av biverkningar
+## Beskrivning av vissa biverkningar
 
 **Hyperhidros** (svettningar) förekommer som kolinerg biverkan av exempelvis duloxetin. Kan behandlas med oxybutynin (off-label), som enligt NICE har effekt mot svettningarna och kan  i sin tur vara associerat med antikolinerga biverkningar såsom muntorrhet, urinretention och förstoppning (https://www.nice.org.uk/advice/es10/resources/hyperhidrosis-oxybutynin-pdf-1158108623557). Oxybutynin är kontraindicerat vid galukom, vissa gastrointestinala sjukdomar, urinretention och myastenia gravis.
 

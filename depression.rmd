@@ -72,6 +72,8 @@ Effektstorlek [Ref Cipriani, Eriksson].
 
 ### Val av första behandling
 
+Det finns flera teoretiska argument för att olika individer skulle kunna svara olika väl på antidepressiv behandling (polymorfismer i CYP-systemet, polymorfismer receptorer; skillnader i -neuroanatomi, symtom, svårighetsgrad, samsjuklighet, kön, ålder, och genes). Klinisk erfarenhet tycks också underbygga detta. Trots det har man i vetenskapliga studier ej kunnat påvisa att någon enskild faktor förutsäger respons på visst antidepressivt läkemedel.
+
 Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det finns inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas [@Kennedy2016]:
 
 - Samsjuklighet med tex ångestsyndrom
@@ -389,6 +391,10 @@ Thyroideahormon:
 Liotyronin 25 mkg/d, ökas till 50 mcg/d efter ~1 vecka vid otillräcklig respons. 
 
 Kontrollera TSH, T3, T4 vid start och efter 3 och 6 månader, därefter årligen. Målet är TSH i lägre normalintervallet och frånvaro av symtom på hypertyreos. Fritt T3 kan ligga i övre delen av referensintervallet. Bentäthetsmätning varje 2 år för postmenopausala kvinnor[@Touma2017].
+
+Symtom på hyperthyreos: Nervositet, ångest, irritabilitet, överaktivitet, humörsvängningar, sömnsvårigheter, trötthet, värmeintolerans, muskelsvaghet, diarré, ökad miktionsfrekvens, ökad törst, klåda, minskad sexlust, palpitationer, finvågig tremor, svettning, röda handflator, lösa naglar, urticaria, håravfall, viktförlust med ökad aptit, röda eller torra ögon, illamående, feberkänsla, huvudvärk.
+
+Se Liothyronine for Depression: A Review and Guidance for Safety Monitoring touma  [@Touma2017]
 
 <!-- Guidelines for using T3 (adapted from Rosenthal 2011)40 -->
 

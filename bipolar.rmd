@@ -364,7 +364,7 @@ kable(x,
 
 ```
 
-#### Bipolär I vs Bipolär II
+### Bipolär I vs Bipolär II
 
 Svårt att med säkerhet identifiera en episod med hypomani. Detta gör BPII-begreppet mer otydligt än BPI [@Goodwin2007].
 
@@ -378,43 +378,78 @@ Personer med frekvent återkommande (en depression per två år) unipolär depre
 
 Discriminating Between Bipolar Disorder and Major Depressive Disorder[@Voehringer2016]. 
 
-Illness features more often observed in BD may include:
+Symtom som är vanligare vid bipolär depression[@Voehringer2016;@Goodwin2007;@Yatham2018]:
 
-| Symtom                                         | BD vs MDD |
-|------------------------------------------------|-----------|
-| Tension/fearfulness                            | BD > MDD  |
-| Cognitive impairment                           | BD > MDD  |
-| Psychomotor slowing or agitation               | BD > MDD  |
-| Atypical depressive features                   | BD > MDD  |
-| Depressive mixed states                        | BD > MDD  |
-| Irritability                                   | BD > MDD  |
-| Psychotic features                             | BD > MDD  |
-| Postpartum onset                               | BD > MDD  |
-| Early age at illness onset (ie, before age 25) | BD > MDD  |
-| Mood lability within episode                   | BD > MDD  |
-| Insomnia (late)                                | BD > MDD  |
-|------------------------------------------------|-----------|
-| Insomnia (initial)                             | MDD > BD  |
-| Appetite loss                                  | MDD > BD  |
-| Somatic complaints                             | MDD > BD  |
-| Pain sensitivity                               | MDD > BD  |
-|------------------------------------------------|-----------|
-| Från Goodwins lista                            | BD > MDD  |
-|------------------------------------------------|-----------|
-| Många episoder (>4) eller tätt (1 per 2å)      | BD > MDD  |
-| Kortare episoder <6m                           | BD > MDD  |
-| Höst/vinter -depression                        | BD > MDD  |
-| Ökad energi eller aktivitet under episod       | BD > MDD  |
-| Extrem irritabilitet under episod              | BD > MDD  |
-| Mer hurmörsvängningar mellan episoder          | BD > MDD  |
-| Irritabilitet/agotation av antidepressiva      | BD > MDD  |
-| Samsjuklighet migrän                           | BD > MDD  |
-| Rapid onset episode                            | BD > MDD  |
-| Ångest                                         | MDD > BD  |
+| Symtom                                                              | BD vs MDD |
+|---------------------------------------------------------------------|-----------|
+| Spändhet/rädsla                                                     | BD > MDD  |
+| Kognitiv nedsättning                                                | BD > MDD  |
+| Psykomotorisk hämning eller agitation                               | BD > MDD  |
+| Atypiska symtom (ökad sömn, öka aptit, "leaden paralysis")          | BD > MDD  |
+| Depressiva blandtillstånd                                           | BD > MDD  |
+| Ökad energi eller aktivitet under episod[@Goodwin2007;@Benazzi2005] | BD > MDD  |
+| (Extrem) irritabilitet[@Goodwin2007;@Benazzi2005]                   | BD > MDD  |
+| Irritabilitet/agitation av antidepressiva                           | BD > MDD  |
+| Psykotiska drag                                                     | BD > MDD  |
+| Skuldkänslor av patologisk grad                                     | BD > MDD  |
+| Rusande tankar                                                      | BD > MDD  |
+| Humörsvängningar inom episoden[@Goodwin2007]                        | BD > MDD  |
+| Mer humörsvängningar mellan episoder[@Yatham2018]                   | BD > MDD  |
+| Insomni (late)                                                      | BD > MDD  |
+| Många episoder (>4) eller tätt (1 per 2å)                           | BD > MDD  |
+| Snabb debut av episod                                               | BD > MDD  |
+| Kortare episoder (<6m)                                              | BD > MDD  |
+| Höst/vinter -depression*                                            | BD > MDD  |
+| Postpartumdepression                                                | BD > MDD  |
+| Tidig debutålder (<25 å)*                                           | BD > MDD  |
+| Ärftlighet (BP hos förstagradssläktingar)                           | BD > MDD  |
+| Samsjuklighet migrän[@Romo-Nava2021]                                | BD > MDD  |
+| Substansbrukssyndrom                                                | BD > MDD  |
+| Mer normal personlighet                                             | BD > MDD  |
 
-### Urat
+*Debutålder (<25 år) vanligast 14-20 år, jämfört m vanligast ca 30-40 år vid unipolär depression. BP kan dock debutera när som helst under livet. Vid bipolärt syndrom ses på gruppnivå ökad förekomst av depression höst/vinter och mani under vår/sommar.
 
-Allopurinol mot mani?[@Lu2021]
+Symtom som är vanligare vid unipolär depression[@Voehringer2016;@Goodwin2007;@Yatham2018]:
+
+| Symtom            | BD vs MDD |
+|-------------------|-----------|
+| Insomni (initial) | MDD > BD  |
+| Aptitförlust      | MDD > BD  |
+| Somatiska symtom  | MDD > BD  |
+| Smärtkänslighet   | MDD > BD  |
+| Ångest            | MDD > BD  |
+
+<!-- #### Tecken på bipolär- snarare än unipolär depression [@Goodwin2007;@Yatham2018] -->
+
+<!-- - Ärftlighet: Bipolärt syndrom hos syskon, föräldrar eller barn -->
+<!-- - Debut och förlopp -->
+<!--   - Många (>4) eller tätt återkommande (en depression per två år) depressioner -->
+<!--   - Kortare duration av depressiva episoder (< 6 mån)  -->
+<!--   - Debutålder (<25 år): Vanligast 14-20 år, jämfört m vanligast ca 30-40 år vid unipolär depression. BP kan dock debutera när som helst under livet -->
+<!--   - Vid bipolärt syndrom ses på gruppnivå ökad förekomst av depression höst/vinter och mani under vår/sommar -->
+<!-- - Symtom -->
+<!--   - Psykotiska symtom (tex röster, vanföreställningar) -->
+<!--   - Rusande tankar -->
+<!--   - Atypisk depression (ökad sömn inklusive sömn dagtid, ökad aptit, "leaden paralysis") -->
+<!--   - Under depression _ökad_ energi, _ökad_ aktivitet, eller _extrem_ irritabilitet [@Goodwin2007;@Benazzi2005] -->
+<!--   - Psykomotorisk hämning eller - agitation -->
+<!--   - Psykotiska symtom eller skuldkänslor av patologisk grad -->
+<!--   - Instabilt humör/ humörsvängningar inom episoden [@Goodwin2007] och mer humörvängningar mellan episoder [@Yatham2018] -->
+<!-- - Utlösande faktorer -->
+<!--   - Post-partum depression eller -psykos -->
+<!--   - Reagerar med irritabilitet på antidepressiva -->
+<!-- - Samsjuklighet -->
+<!--   - Mer normal personlighet vid BP -->
+<!--   - Högre förekomst av samtidigt substansbrukssyndrom -->
+<!--   - Migrän vanligare vid BP [@Romo-Nava2021]  -->
+
+<!-- Depressiv episod med blandade drag (se avsnitt \@ref(episode-mixed)) är en riskfaktor för att utveckla BP I eller BPII (Ref: DSM-5). -->
+
+<!-- Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med unipolär depression, av yngre debutålder (och smalare åldersintervall för debut), fler episoder, kortare epidoder, längre sömntid än vid unipolär depression, mer normal personlighet, högre förekomst av samtidigt substansbrukssyndrom, och mer humörvängningar mellan episoder. Bipolär depression är lika vanligt hos män som hos kvinnor. Bipolärt syndrom har starkare ärftlighet (både avseende konkordans mellan monozygota tvillingar och förekomst av bipolaritet hos förstagradssläktingar). Det bör noteras att heterogeniteten är stor inom respektiva grupp (bipolär respektive unipolär depression) [@Goodwin2007, p9]. -->
+
+<!-- Mer framträdande vid unipolär depression: Ångest, somatiska symtom, normal aktivitetsnivå eller psykomotorisk agitation, minskad aptit, insomningssvårigheter, smärtkänslighet, viktförlust, senare debut (> 25 å), lägre depressionsduration (> 6m) [@Goodwin2007;@Yatham2018]. -->
+
+#### Urat?
 
 ```{r } 
 #| label: uricacid-bipolar
@@ -442,37 +477,9 @@ arrows(1:5, dta$ua_m-dta$ua_sd, 1:5, dta$ua_m+dta$ua_sd, length=0.05, angle=90, 
 
 ``` 
 
-#### Tecken på bipolär- snarare än unipolär depression [@Goodwin2007;@Yatham2018]
+Allopurinol mot mani[@Lu2021]
 
-- Ärftlighet: Bipolärt syndrom hos syskon, föräldrar eller barn
-- Debut och förlopp
-  - Många (>4) eller tätt återkommande (en depression per två år) depressioner
-  - Kortare duration av depressiva episoder (< 6 mån) 
-  - Debutålder (<25 år): Vanligast 14-20 år, jämfört m vanligast ca 30-40 år vid unipolär depression. BP kan dock debutera när som helst under livet
-  - Vid bipolärt syndrom ses på gruppnivå ökad förekomst av depression höst/vinter och mani under vår/sommar
-- Symtom
-  - Psykotiska symtom (tex röster, vanföreställningar)
-  - Rusande tankar
-  - Atypisk depression (ökad sömn inklusive sömn dagtid, ökad aptit, "leaden paralysis")
-  - Under depression _ökad_ energi, _ökad_ aktivitet, eller _extrem_ irritabilitet [@Goodwin2007;@Benazzi2005]
-  - Psykomotorisk hämning eller - agitation
-  - Psykotiska symtom eller skuldkänslor av patologisk grad
-  - Instabilt humör/ humörsvängningar inom episoden [@Goodwin2007] och mer humörvängningar mellan episoder [@Yatham2018]
-- Utlösande faktorer
-  - Post-partum depression eller -psykos
-  - Reagerar med irritabilitet på antidepressiva
-- Samsjuklighet
-  - Mer normal personlighet vid BP
-  - Högre förekomst av samtidigt substansbrukssyndrom
-  - Migrän vanligare vid BP [@Romo-Nava2021] 
-
-Depressiv episod med blandade drag (se avsnitt \@ref(episode-mixed)) är en riskfaktor för att utveckla BP I eller BPII (Ref: DSM-5).
-
-<!-- Depression vid biolärt syndrom (typ I eller II) karakteriseras, jämfört med unipolär depression, av yngre debutålder (och smalare åldersintervall för debut), fler episoder, kortare epidoder, längre sömntid än vid unipolär depression, mer normal personlighet, högre förekomst av samtidigt substansbrukssyndrom, och mer humörvängningar mellan episoder. Bipolär depression är lika vanligt hos män som hos kvinnor. Bipolärt syndrom har starkare ärftlighet (både avseende konkordans mellan monozygota tvillingar och förekomst av bipolaritet hos förstagradssläktingar). Det bör noteras att heterogeniteten är stor inom respektiva grupp (bipolär respektive unipolär depression) [@Goodwin2007, p9]. -->
-
-Mer framträdande vid unipolär depression: Ångest, somatiska symtom, normal aktivitetsnivå eller psykomotorisk agitation, minskad aptit, insomningssvårigheter, smärtkänslighet, viktförlust, senare debut (> 25 å), lägre depressionsduration (> 6m) [@Goodwin2007;@Yatham2018].
-
-#### Screening för bipolärt syndrom vid misstanke 
+### Screening för bipolärt syndrom vid misstanke 
 
 MDQ är en screeningsskala för bipolärt syndrom. 
 
@@ -548,7 +555,6 @@ Psykiatrisk samsjuklighet är vanligt, ffa ångestsyndrom (hos ca 75%), ADHD, up
 
 <!-- DSM: Co-occurring mental disorders are common, with the most frequent disorders being any anxiety disorder (e.g., panic attacks, social anxiety disorder [social phobia], specific phobia), occurring in approximately three-fourths of individuals; ADHD, any disruptive, im- pulse-control, or conduct disorder (e.g., intermittent explosive disorder, oppositional defiant disorder, conduct disorder), and any substance use disorder (e.g., alcohol use disorder) occur in over half of individuals with bipolar I disorder. Adults with bipolar I disorder have high rates of serious and/or untreated co-occurring medical conditions.  -->
 
-
 **Migrän**  är tre gånger vanligare vid BP än i befolkningen (Prevalens 30-50%) och båda tillstånden är associerade med "evening chronotype". Kombinationen BP + migrän är förknippat med tidigare debut av BP, fler episoder (ffa depression) och samsjuklighet (ökad förekomst av fibromyalgi, astma, psoriasis, ätstörning, ångest, substansbrukssyndrom, kardiovaskulär sjukdom och obesitas har beskrivits). Möjligen även ökad suicidalitet. Det finns ingen etablerad vetenskaplig grund för behandlingsval vid kombinationen av migrän och BP, men några aspekter kan beaktas. Betablockare som används som migränprofylax kan förvärra depressiva symtom. Triptaner kan öka risk för serotininsyndromet om det kombineras med antidepressiva. Valproat kan teoretiskt ha verkan mot båda tillstånden (off-label som migränprofylax). Topiramat kan också beaktas [@Romo-Nava2021; @Engmann2012].
 
 <!-- Bipolar Affective Disorder and Migraine engmann 2012  [@Engmann2012] -->
@@ -561,7 +567,7 @@ Psykiatrisk samsjuklighet är vanligt, ffa ångestsyndrom (hos ca 75%), ADHD, up
 
 #### Uteslut bakomliggande medicinsk åkomma {#mania-somatic-causes}
 
-Överväg särskilt vid debut av mani sent i livet.
+Överväg särskilt vid debut av mani sent i livet. Se Larsson 1988[@Larson1988].
 
 - Demens
 - Delirium
@@ -589,17 +595,15 @@ Psykiatrisk samsjuklighet är vanligt, ffa ångestsyndrom (hos ca 75%), ADHD, up
   - Subklinisk hypothyreos
 - mm
 
-Se [@Larson1988]
-
 ### Differentiera mot andra psykiatriska tillstånd {#differential-psychiatric}
 
 <!-- DSM: Generalized anxiety disorder, panic disorder, posttraumatic stress disorder, or other anxiety disorders. These disorders need to be considered in the differential diagnosis as either the primary disorder or, in some  -->
 
 #### Personlighetssyndrom
 
-Vid emotionellt instabilt personlighetssyndrom förekommer humörsvängningar i kombination med instabila relationer och växlande självbild, uttalad impulsivitet, rädsla för att bli övergiven. Eufori och långvariga perioder med god funktion är mycket ovanligt  [@Yatham2018].
+Vid emotionellt instabilt personlighetssyndrom förekommer humörsvängningar i kombination med instabila relationer och växlande självbild, uttalad impulsivitet, rädsla för att bli övergiven. Eufori och långvariga perioder med god funktion är mycket ovanligt[@Yatham2018].
 
-Vid narcissistiskt personlighetssyndrom kan grandiositet föreligga, men är ej förknippat med humörförändringar eller funktionsnedsättning  [@Yatham2018].
+Vid narcissistiskt personlighetssyndrom kan grandiositet föreligga, men är ej förknippat med humörförändringar eller funktionsnedsättning[@Yatham2018].
 
 #### Differentiera manisk psykos vs schizofreni
 
@@ -618,7 +622,6 @@ Ungefär en tredjedel av personer med bipolärt syndrom har någon gång upplevt
 Tidig debut med psykotisk depression är kopplat till ökad risk för senare manisk episod. Stämningsinkongruenta psykotiska symtom är förknippat med sämre prognos, kan vara mer likt schizofreni [@Goodwin2007, p53ff]?
 
 Olika vanligt/olika typer av psykotiska symtom vid depressiv vs manisk episod och BPI vs BPII.
-
 
 ## Behandling
 
@@ -660,13 +663,15 @@ c. Antipsykotiska medel: Kvetiapin eller olanzapin
 
 <!-- I alla faser (akut mani, akut depression, och underhållsbehandling) kan dessa ges i monoterapi eller kombination (a+c eller b+c följt av a+b+c vid otillräcklig effekt). -->
 
-**Monoterapi:** Litium, valproat, kvetiapin, och olanzapin  har gott stöd för effekt i alla faser (mani, depression, proyfylax). Valproat kan vara något sämre som profylax mot mani än de andra. 
+**Monoterapi:** Litium, valproat, kvetiapin, och olanzapin  har gott stöd för effekt i alla faser (mani, depression, proyfylax). Valproat kan vara något sämre som profylax mot mani än de andra.
 
-**Kombinationsbehandling:** Kvetiapin tillsammans med litium eller valproat har effekt i alla faser, men är kanske mindre effektivt vid akut depression.
+**Kombinationsbehandling:** Kombinationsbehandling anses mer effektivt än monoterapi (ca 20% fler svarar på behandlingen)[@Yatham2018]. Kvetiapin tillsammans med litium eller valproat har effekt i alla faser, men är kanske mindre effektivt vid akut depression. Andra kombinationer används också, men har svagare vetenskapligt stöd.
 
-**Lamotrigin** i monoterapi har preventiv effekt mot depressioner och kanske litet effekt vid pågående depression. Det rekommenderas som kombinationsbehandling i en del riktlinjer, trots bristande underlag.
+**Lamotrigin** i monoterapi har preventiv effekt mot depressioner och kanske viss effekt vid pågående depression. Det rekommenderas som kombinationsbehandling i en del riktlinjer, trots bristande underlag.
 
 <!-- Lamotrigin kan i vissa riktlinjer kan ingå som monoterapi eller i kombination. Det  har vetenskapligt stöd för prevention av depressioner och "any episode". Det fungerar inte vid akut mani men kan möjligen ha en viss effekt mot pågående bipolär depression. -->
+
+Tabell: Huvudsakliga behandlingsalternativ i olika faser av bipolärt syndrom typ 1.
 
 | Behandling   | Mani | Depr  | Prof  | Prof mani | Prof depr | Notering        |
 |--------------|------|-------|-------|-----------|-----------|-----------------|
@@ -713,6 +718,26 @@ Annat att prova vid akut depression: Li/val + (or modafinil or pramipexole), Li 
 <!-- Antipsykotiska medel vilka anges som förstahandsval i mono- eller kombinationsbehandling (med Li eller Val) av depression i någon riktlinje[@Jeong2023]: ARP/QTP/OLZ/LUR/CAR (Ris vid psykotisk depr) -->
 
 <!-- Antipsykotiska medel vilka anges som förstahandsval i mono- eller kombinationsbehandling (med Li eller Val) av mani i någon riktlinje[@Jeong2023]: Aripiprazol, kvetiapin, risperidon, asenapin, kariprazin, paliperidon, (olanzapin), (haloperidol), (ziprasidon). De inom parentes är förstahandsval i vissa och andrahandsval i andra riktlinjer. -->
+
+<!-- Se även Lancet 2013 Treatment of bipolar disorder "Lithium has the strongest evidence for long-term relapse prevention; the evidence for anticonvulsants such as divalproex and lamotrigine is less robust and there is much uncertainty about the longer term benefits of antipsychotics" [@Geddes2013]->
+
+<!-- **LÄSVÄRD:** -->
+<!-- Bipolar depression: a major unsolved challenge, https://journalbipolardisorders.springeropen.com/articles/10.1186/s40345-019-0160-1 -->
+<!-- "Remarkably few treatments are proved to be highly and consistently effective in acute episodes of bipolar depression, and there is even less evidence supporting substantial long-term protection from recurrences (Table 4)." -->
+
+<!-- ### Bipolärbehandling publikaionsbias -->
+
+<!-- ```{r }  -->
+<!-- #| label: my-publbias -->
+
+<!-- dta <- fread("../notes/bipolar-medication-publication-bias-NassirGhaemi2008.csv") -->
+<!-- dta <- dta[, .(Company, Drug, Studies, Publ, Neg_publ, Neg_unpubl)] -->
+<!-- kable(dta) -->
+
+<!-- ```  -->
+
+<!-- \footlineextra{\simplecite{NassirGhaemi2008}} -->
+
 
 ### Behandling tumregler
 
@@ -775,7 +800,7 @@ Tabellerna är hierarkiskt ordnade så att de läkemedel som står högre upp b�
 
 <!-- Diskutera antidepressivas roll. Relatera till tid i mani/depression? -->
 
-Med litium eller valproat uppnår ca 50% respons (minst 50% reduktion av YMRS) efter tre veckor, jämfört med 25% för placebo. Tillägg av olanzapin/risperidon/kvetiapin (troligen samma för andra antipsykotiska medel) till litium eller valproat är bättre än placebo hos dem med ingen eller partiell respons. [@Goodwin2007] 
+Med litium eller valproat uppnår ca 50% respons (minst 50% reduktion av YMRS) efter tre veckor, jämfört med 25% för placebo. Tillägg av olanzapin/risperidon/kvetiapin (troligen samma för andra antipsykotiska medel) till litium eller valproat är bättre än placebo hos dem med ingen eller partiell respons[@Goodwin2007].
 
 - Avsluta pågående antidepressiva läkemdel.
 - Tillse god sömn med hypnotiska medel eller bensodiazepiner.
@@ -788,7 +813,7 @@ CANMAT noterar att alla antimaniska läkemedel separerar från placebo inom en v
 
 I återhämtningsfasen av mani är det vanligt med svängningar i stämningsläge och beteende, varför läkemedel med effekt mot depression, eller kombinationsbehandling, kan vara lämpligt. Snabbt insättande av behandling kan motiveras av att maniska perioder kan påverka hjärnan [@Abe2015].
 
-Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på behandlingen). Särskilt vid behov av snabb respons (uttalad mani, suicidrisk) kan kombinationsbehandling vara att föredra. Likaså om tidigare partiell respons (akut eller i i underhållsfas) på monoterapi. Väg in patientens villighet att ta kombinationsbehandling.  [@Yatham2018]
+Kombinationsbehandling är mer effektivt än monoterapi (ca 20% fler svarar på behandlingen)[@Yatham2018]. Särskilt vid behov av snabb respons (uttalad mani, suicidrisk) kan kombinationsbehandling vara att föredra. Likaså om tidigare partiell respons (akut eller i i underhållsfas) på monoterapi. Väg in patientens villighet att ta kombinationsbehandling.
 
 #### Faktorer som kan påverka val av behandling av maniskt skov {#treatment-factors-mania}
 
@@ -897,6 +922,8 @@ Om patienten står på litium, överväg öka litiumkoncentrationen till >0.8.
 Kvetiapin + litium har ej studerats avseende effekt vid bipolär depression, men kan övervägas när något av dessa läkemedel redan används.
 
 Tidig förbättring (inom 2v) är en hygglig prediktor för respons, emedan utebliven förbättring är en mer robust prediktor för icke-respons. Detta kan beaktas vid byte av behandling. Undantaget är lamotrigin, som kräver långsam titrering. [@Yatham2018]
+
+För en läsvärd diskussion om behandling vid BP depression se [@Baldessarini2020].
 
 #### Faktorer som kan påverka val av behandling av depressivt skov {#treatment-factors-depression}
 

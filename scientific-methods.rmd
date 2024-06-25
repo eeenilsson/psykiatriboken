@@ -1,0 +1,214 @@
+# Anteckningar om vetenskaplig metod
+
+## Inledning
+
+- Population
+- Medelvärde
+- Spridningsmått
+- Konfidensintervall
+- Prediktionsintervall
+
+## Population
+
+Figuren nedan visar ett fiktivt exempel på hur två olika studier representerar ett urval från hela populationen (grå färg). Medelvärde och spridning (konfidensintervall) är markerade med en punkt och en linje.
+
+```{r } 
+#| label: population 
+
+## MADRS distribution parameters, from [@SchultevanMaaren2013] (4627 psychiatric outpatients):
+madrs_distr <- c(11, 18, 23, 28, 36, 23.44, 7.75)
+names(madrs_distr) <- c("P5", "P25", "P50", "P75", "P95", "Mean", "SD")
+names(madrs_distr) <- tolower(names(madrs_distr))
+
+## Generate population:
+pacman::p_load(truncnorm)
+pop = data.table(
+    indx = 1:1000,
+    madrs = round(rtruncnorm(n=1000, a=0, b=60, mean=madrs_distr[["mean"]], sd=madrs_distr[["sd"]]), digits=0),
+    age = round(rtruncnorm(n=1000, a=18, b=65, mean=39.3, sd=12.3), digits=0),
+    female = rbinom(n=1000, 1, prob= 0.616)
+    ## sample = rbinom(n=1000, 2, prob= c(0.5, 0.25))
+)
+
+## Sample from pop to studies, weighting sampling by MADRS score:
+set.seed(1)
+pop[, study := 0]
+indx_study1 <- sample(pop[, indx], 300, prob = pop[, madrs])
+pop[indx %in% indx_study1, study := 1]
+indx_study2 <- sample(pop[study !=1, indx], 100, prob = pop[study !=1, madrs^2])
+pop[indx %in% indx_study2, study := 2]
+
+## summary(pop)
+## summary(pop[study==1, ])
+## summary(pop[study==2, ])
+
+## ## residuals:
+## pop[, res := madrs - mean(madrs)]
+
+## classes:
+pop[, study:=factor(study)]
+
+## Assign treatment and effect
+set.seed(1)
+pop[, trt := rbinom(n=1000, 1, prob= 0.5)]
+pop[, effect_pbo := round(rtruncnorm(n=1000, a=-30, b=30, mean=-6, sd=9), digits=0)]
+pop[, effect_trt := round(rtruncnorm(n=1000, a=-30, b=30, mean=-3, sd=9), digits=0)]
+pop[, effect:=ifelse(trt==1, effect_trt+effect_pbo, effect_pbo)]
+pop[, rest:=madrs+effect]
+pop[, overshoot:=ifelse(rest<0, abs(rest), 0)]
+
+pop[, effect_pbo:=effect_pbo+overshoot]
+## pop[, effect_trt:=effect_trt+overshoot]
+
+## re-calculate:
+pop[, effect:=ifelse(trt==1, effect_trt+effect_pbo, effect_pbo)]
+pop[, rest:=madrs+effect]
+pop[, madrs_after:=madrs+effect]
+
+## ## make a model:
+## m <- lm(madrs_after~madrs+age+female+trt, data=pop[study==1, ])
+## summary(m)
+## confint(m)
+
+## pop[trt==1, ]
+## pop[, rest]
+
+## pop[, madrs_after := round(rtruncnorm(n=1000, a=0, b=60, mean=madrs_distr[["mean"]], sd=madrs_distr[["sd"]]), digits=0)]
+
+## For all patients (n = 1357) the observed mean treatment difference (escitalopram v. placebo) from baseline after 8 weeks of treatment (LOCF) was 3.2 (s.d. = 9.5) MADRS points, https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/assessing-the-true-effect-of-active-antidepressant-therapy-v-placebo-in-major-depressive-disorder-use-of-a-mixture-model/BF5EB5DC141E78C610F260300C2FFD79
+
+## https://link.springer.com/article/10.1007/s00213-014-3584-4:
+## Depressed patients assigned to placebo in trials using taped SIGMA interviews with RAPS appraisal had a significantly larger MADRS change score (M = −11.5 ± 12.7) compared to patients assigned to placebo in trials using traditional semi-structured interviews (−5.4 ± 8.9; F(df = 1.57) = 5.58, p = 0.022).
+
+## Summary stats:
+s <- pop[, .(n=.N, max = max(madrs), q99 = quantile(madrs, 0.99), m = mean(madrs), sd=sd(madrs), maxcount = max(density(madrs)$y*.N)), by = c("study")]
+s <- rbind(
+    s,
+ pop[, .(study = NA, n=.N, max = max(madrs), q99 = quantile(madrs, 0.99), m = mean(madrs), sd=sd(madrs), maxcount = max(density(madrs)$y*.N))]
+)
+
+## SE and CI
+s[, se := sd/sqrt(n)]
+s[, ci_lower:=m-se*1.96]
+s[, ci_upper:=m+se*1.96]
+source("../functions/round_df.r")
+s <- round_df(s, 2)
+## is.data.table(s)
+s[, lab := ifelse(!is.na(study), paste0("Study ", study, " M"), "Population M")]
+
+## Plot:
+p <- ggplot(pop, aes(madrs)) + geom_density(aes(y = after_stat(count)), alpha = 0.2)
+p <- p + geom_density(aes(y = after_stat(count), fill = study), alpha = 0.2, data=pop[study==1|study==2, ])
+use <- s[is.na(study)|study==1|study==2, ]
+p <- p + geom_point(data = use, aes(y=maxcount-max(maxcount)*0.05, x=m), pch=2, size = 2)
+p <- p + geom_segment(aes(x = ci_lower, y = maxcount-max(maxcount)*0.05, xend = ci_upper, yend = maxcount-max(maxcount)*0.05), arrow = arrow(angle=90, ends="both", length = unit(0.25, "cm")), data = use)
+p_density <- p
+
+## Plot 2
+pop2 <- pop
+a <- pop[study==1|study==2, ]
+a[, study:=NA]
+pop2[study==0, study:=NA]
+pop2 <- rbind(pop2, a) ## add study 1 and 2 with study = NA
+
+p <- ggplot(pop2, aes(madrs, y = study, color=study)) +
+    geom_point(position=position_jitter(width=0.2, height=0.2)) +
+    labs(x="MADRS", y="Studie")
+
+p_strip <- p+geom_pointrange(aes(y=study, x=m, xmin=ci_lower, xmax=ci_upper), data=s[is.na(study)|study==1|study==2, ], fatten=8, linewidth=1, colour="black")
+
+## VAriance
+## The formula for variance (s2) is the sum of the squared differences between each data point and the mean, divided by the number of data points. When working with data from a complete population the sum of the squared differences between each data point and the mean is divided by the size of the data set, n. When working with a sample, divide by the size of the data set minus 1, n - 1. Take the square root of the sample variance to get the standard deviation.
+
+## MADRS
+## Items are rated on a 7-point Likert scale anchored at 4 points (0: symptom is absent; 6: symptom is totally dominant) and summed to yield a total score that ranges from 0 to 60. Scores from 0 to 8 denote “Normal/no” depression; total scores from 9 to 18 denote “Possible/mild” depression; total scores from 19 to 26 denote “Moderate” depression; total scores from 27 to 34 denote “Severe” depression; and scores from 35 onward denote “Very severe” depression
+
+## pARTICIPANTS 
+## The ROM patient-group consisted of a baseline sample of 4627 psychiatric outpatients, aged between 18 and 65 years (61.0% females; mean age=39.3, SD=12.3), diagnosed with and treated for depressive disorders (MDD or dysthymia) in the Leiden University Medical Center (LUMC) Department of Psychiatry or the Rivierduinen specialized mental healthcare centers. Baseline assessment was part of the usual ROM procedure. On average, 80% of the referred patients with a tentative diagnosis of Mood-, Anxiety- and/or Somatoform (MAS) disorder were assessed with ROM in the study period
+
+
+
+``` 
+
+```{r } 
+#| label: p-strip
+p_strip
+``` 
+
+Referens MADRS distribution se [@SchultevanMaaren2013].
+
+## Beräkning av varians och precision
+
+- Residual = observerat värde - medelvärde
+- Varians (S^2) = summa(residualer^2) / n-1
+- Standardavvikelse (SD) = sqrt(varians)
+- Standard Error (SE) = SD/sqrt(n)
+- Konfidensintervall = Medelvärde +/- 1.96*SE
+
+## Effekt
+
+a. Sann effekt $\theta$, eller i en viss studie $\theta_\kappa$
+b. Observerad effekt $\hat{\theta}_\kappa$
+
+a och b skiljer sig pga att urvalet representerar ej hela populationen och därför ger upphov till sampling error $\epsilon_\kappa$
+
+\begin{equation}
+\hat{\theta}_\kappa$ = $\hat{\theta} + \epsilon_\kappa
+\end{equation}
+
+$\epsilon_\kappa$ kan kvantifieras av Standard Error (SE), vilket bygger på ett antagande om fördelning (oftast normalfördelning)
+
+<!-- \begin{displaymath}SE=s/\sqrt{n}\end{displaymath} -->
+
+\begin{equation}
+SE = \frac{s}{\sqrt{n}}
+\end{equation}
+
+s är standardavvikelsen
+
+<!-- $\begin{math} SE \end{math}$  -->
+
+## Medelvärde mm
+
+Det aritmetiska medelvärdet $\bar{x}$ beräknas genom att summera alla individuella värden $x_i$ i urvalet och sedan dividera summan med urvalets storlek (n).
+
+\begin{equation}
+\bar{x} = \frac{\sum^{n}_{i=1}x_i}{n}
+\end{equation}
+
+Standard error of a proportion:
+
+\begin{equation}
+SE_{p} = \sqrt{\frac{p(1-p)}{n}}
+\end{equation}
+
+Proportioner transformeras ofta med logit innan de slås samman (annars skevhet om p nära 0 eller 1). För detta används odds.
+
+## RR och OR
+
+| Exposed | Outcome | Not Outcome | Risk              | Odds        |
+|---------|---------|-------------|-------------------|-------------|
+| Yes     | A       | B           | A/(A+B)           | A/B         |
+| No      | C       | D           | C/(C+D)           | C/D         |
+| Ratio   |         |             | (A/(A+B))/C/(C+D) | (A/B)/(C/D) |
+
+Risk: Cumulative incidence (average risk). Om utfallet är ovanligt är odds~risk.
+
+<!-- [@Cummings2009] -->
+
+<!-- CMH: https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704-ep713_confounding-em/BS704-EP713_Confounding-EM7.html -->
+
+<!-- The Upper Limits of Risk Ratios and Recommendations for Reporting Risk Ratios, Odds Ratios, and Rate Ratios[@Chao] -->
+
+<!-- Zero counts add 0.5? (Behövs ej vid MH): https://handbook-5-1.cochrane.org/chapter_16/16_9_2_studies_with_zero_cell_counts.htm -->
+
+
+## Prediktionsintervall
+
+[@FaggionJr2021]
+
+## Resurser
+
+[Cohcrane](https://www.cochranelibrary.com/search)
+
+[Metaanalyser i R](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/effects.html)
