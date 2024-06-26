@@ -2038,19 +2038,22 @@ De intas 1-2 tim före sänggående
 
 Tabell: Dosering H1-antihistaminer
 
-| Läkemedel    | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
-|--------------|------------|--------|------------|----------|--------|
-| Hydroxizin   | Atarax     | 25     | 0.5+0.5+1  | -        | 100    |
-| Prometazin   | Lergigan   | 25     | 1-2x1-3    | 25-50    | 150    |
-| Alimemazin   | Theralen   | 20     | -          | 10-30    |        |
-| Propiomazin  | Propavan   | 25     | -          | 25-50    |        |
-| Mirtazapin   | Mirtin     | 15     |            | 7.5-15   |        |
-| Amitriptylin | Sensaval   | 10     |            | 10-20    |        |
-| Kvetiapin    | Quetiapin  | 25     |            | 12.5-800 |        |
-| Melatonin    |            | 1      |            | 1-2      | 2      |
-| Zolpidem     |            |        |            |          |        |
-| Zopiklon     |            | 5      |            | 5-7.5    |        |
-|              | Suvorexant |        |            |          |        |
+| Läkemedel      | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
+|----------------|------------|--------|------------|----------|--------|
+| Hydroxizin     | Atarax     | 25     | 0.5+0.5+1  | -        | 100    |
+| Prometazin     | Lergigan   | 25     | 1-2x1-3    | 25-50    | 150    |
+| Alimemazin     | Theralen   | 20     | -          | 10-30    |        |
+| Propiomazin    | Propavan   | 25     | -          | 25-50    |        |
+| Mirtazapin     | Mirtin     | 15     |            | 7.5-15   |        |
+| Mianserin      |            | 10     |            | 10-30    |        |
+| Amitriptylin   | Sensaval   | 10     |            | 10-20    |        |
+| Kvetiapin      | Quetiapin  | 25     |            | 12.5-800 |        |
+| Levomepromazin |            | 25     |            | 25-50    |        |
+| Melatonin      |            | 1      |            | 1-2      | 2      |
+| Zolpidem       |            |        |            |          |        |
+| Zopiklon       |            | 5      |            | 5-7.5    |        |
+| Klometiazol    | Heminevrin |        |            | 300-600  |        |
+|                | Suvorexant |        |            |          |        |
 
 Alimemazin vid Alkoholism och eufomani: Lätta och medelsvåra orostillstånd: Initialt 40–60 mg 2–3 gånger dagligen. Därefter 5–10 mg 2–3 gånger dagligen
 
