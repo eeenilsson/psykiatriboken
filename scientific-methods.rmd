@@ -1,4 +1,4 @@
-# Anteckningar om vetenskaplig metod
+# Vetenskaplig metod
 
 ## Inledning
 
@@ -203,12 +203,42 @@ Risk: Cumulative incidence (average risk). Om utfallet är ovanligt är odds~ris
 <!-- Zero counts add 0.5? (Behövs ej vid MH): https://handbook-5-1.cochrane.org/chapter_16/16_9_2_studies_with_zero_cell_counts.htm -->
 
 
-## Prediktionsintervall
+## Prediktionsintervall och konfidensintervall
 
-[@FaggionJr2021]
+Exempel: Låt säga att kroppslängden hos alla vuxna i världen är i medeltal 171 cm. I en studie av kroppslängd kommer ett urval av dessa att finnas med och medelvärdet kan då bli tex 168 cm. Det 95%-iga konfidensintervallet i studien kan vara tex 160-175 cm (hur snävt det blir beror på studiens N). Siffran 95% innebär att om studien görs om flera gånger kommer 95% av studiernas CI att innehålla det sanna medelvärdet (171 cm).
+
+Konfidensintervallet representerar precisionen för det beräknade medelvärdet. Man kan säga att CI är det intervall där poulationens sanna medelvärde sannolikt ligger.
+
+Prediktionsintervall (PI) är en uppskattning av det intervall inom vilket en enda framtida observation (med en viss sannolikhet) kommer att falla, givet vad som redan observerats. Det uttalar sig alltså inte om medelvärdet.
+
+Exempel: Om man mäter ett antal kast med en 6-sidig tärning kommer konfidensintervallet att krympa närmare medelvärdet 3.5 ju fler observationer som görs. Prediktionsintervallet däremot kommer att vara ca 1-6 oavsett hur många mätningar som gjorts.
+
+I metaanlyser anges vanligen I2 och T2 som mått på heterogenitet. I2 är beroende av sample size (K), vilket kan ge låga (icke signifikanta) värden när det är få studier och tvärtom. T2 är svårtolkat eftersom det är ett värde upphöjt i två och därför inte korresponderar till effektmåttet[@FaggionJr2021].
+
+I metaanalyser är prediktionintervallet användbart eftersom det fångar heterogenitet mellan studier på samma skala som utfallet har mätts med[@FaggionJr2021] (i motsats till andra vanliga mått på heterogenitet).
+
+I en metaanlys representerar PI variabiliteten i effekten över olika "settings" (studier med tex olika inklusionskriterier). När det är låg heterogenitet mellan studier närmar sig PI konfidensintervallet. Vid hög heterogenitet blir PI vidare än CI.
+
+I en metaanalys är PI det intervall inom vilket medelvärdet i en ny studie förväntas falla om den studien valdes slumpmässigt från den population av studier som ingår i metaanalysen. Det kan också tolkas som en sammanfattning av spridningen av undeliggande effekter i de inkluderade studierna.
+
+Problem med PI i metaanalyser är att det bygger på ett antagande om att effekterna i de olika studierna är normalfördelade, vilket ifall antalet studier är litet kan ge felaktigt snnävt eller stort PI. Cochrane rekommenderar att PI presenteras om det är >10 studier och en funnel plot inte visar någon tydlig assymetri.
+
+<!-- When the pattern of the forest plot itself suggests that there are different types of population with rather different effect sizes (as in this example), then the “combined” effect size is not a useful parameter any more. [https://www.erim.eur.nl/fileadmin/erim_content/images/meta-essentials/How_to_interpret_results_of_meta-analysis_1.4.pdf] -->
+
+<!-- I2 is a measure for the proportion of observed variance that reflects real differences in effect size. (See Borenstein et al., 2009: 117-119, for how I2 is computed.) It is expressed as a percentage with a range from 0 to 100 percent. It is a relative measure. It is not a measure of variation in terms of the scale of the effect size parameter. Hence its usefulness is limited. Borenstein et al. (2009: 119) advise to use I2 as a criterion for a decision whether a subgroup analysis or moderator analysis (discussed below) is indicated. If I2 is low, then there is no heterogeneity to speak of and hence nothing to be explored in a subgroup or moderator analysis. If I2 is large, then such an analysis is likely to be worthwhile. -->
+
+<!-- Both T2 and Tau are measures of the dispersion of true effect sizes between studies in terms of the scale of the effect size. (See Borenstein et al., 2009: 114-117, for how T2 and Tau are estimated.) T2 is an estimate of the variance of the true effect sizes. Or, in the words of Borenstein et al. (2009: 114): “If we had an infinitely large sample of studies, each itself infinitely large (so that the estimate in each study was the true effect) and computed the variance of these effects, this variance would be T2”. T2 is not used itself as a measure of heterogeneity but is used in two other ways: (1) it is used to compute Tau; and (2) it is used to assign weights to the studies in the meta-analysis under the random-effects model (discussed below). Tau is an estimate of the standard deviation of the distribution of true effect sizes, under the assumption that these true effect sizes are normally distributed. Tau is used for computing the prediction interval. -->
+
+<!-- Summarizing, how should this multiple information about heterogeneity be interpreted and used? We recommend to use I2 as the main source of information about the extent of heterogeneity. As soon as I2 is larger than an (arbitrary) proportion (say 25%), the meta-analyst should not interpret the combined effect size as meaningful and should not conduct any form of significance testing. After such a decision has been made, the meta-analyst should focus on an analysis of the dispersion of true effect sizes, and of its determinants (moderators). Tau is a useful first indication of the extent of this dispersion.  However, the prediction interval is a more direct and more easily interpretable indicator. -->
+
+<!-- Because the prediction interval is estimated based on the effect sizes observed in the studies that are meta- analysed, the prediction interval corresponds more or less (depending on whether sampling variation in the meta-analysed studies is large or small) with the range of effect sizes that are meta-analysed and that are represented in the forest plot. This implies that the prediction interval can only “predict” with some accuracy if no relevant selection bias exists in the set of populations that have been studied (i.e., if the populations of which the effect size estimate is included in the meta-analysis are “representative” for the domain). If selection bias exists, then effect sizes observed in future studies might occur beyond the limits of the prediction interval. Because selection bias is more likely than not (which will be argued below), it is recommended to interpret the prediction interval as a description of the range of observed effect sizes rather than as a prediction of the range of effect sizes that will be observed in future studies (despite its name “prediction” interval). -->
+
+Probabilistiskt svar på AD: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8134509/
 
 ## Resurser
 
 [Cohcrane](https://www.cochranelibrary.com/search)
+
+[Cochrane handbook](https://training.cochrane.org/handbook/current/chapter-10)
 
 [Metaanalyser i R](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/effects.html)

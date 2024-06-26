@@ -996,35 +996,113 @@ Trautner om toxicitet
 
 ### Indikationer
 
-Li har fått ökat vetenskapligt stöd för behandling av bipolär sjukdom på senare år, bland annat när det använts som jämförelseläkemedel i långtidsstudierna av lamotrigin. Används också som tilläggsbehandling för unipolär depression, för att förebygga cycloid psykos och provas ibland mot borderlinetillstånd och patologisk impulsivitet.
+Li har fått ökat vetenskapligt stöd för behandling av bipolär sjukdom på senare år, bland annat när det använts som jämförelseläkemedel i långtidsstudierna av lamotrigin. Används också som tilläggsbehandling för unipolär depression, för att förebygga cykloid psykos och provas ibland mot borderlinetillstånd och patologisk impulsivitet. Antisuicidal effekt vid bipolärt syndrom.
 
 Senast (2010) som Socialstyrelsen rekommenderade något vad gäller bipolär sjukdom. För att förebygga återfall efter en manisk eller depressiv episod bör hälso-och sjukvården erbjuda: läkemedelsbehandling med litium (prioritet 1); läkemedelsbehandling med tillägg av psykologisk behandling med KBT (prioritet 2); patientutbildning (prioritet 3) och närståendeutbildning (prioritet 3) som komplement till återfallsförebyggande läkemedelsbehandling.
 
-Litium kan även användas vid unipolär depression. Personer med täta depressiva skov liknar bipolärt syndrom i fråga om hereditet, debutålder, atypiska symtom och profylaktisk respons på litium [goodwin]. Det finns flera små randomiserade, kontrollerade och blindade studier av litiumprofylax mot recidiv av unipolär depression (totalt n = 229). De visade samantaget att 75 % fick recidiv med placebo och 36 % med litiumbehandling [@Bauer2013book]. Recidiverande depression kan således vara en indikation för profylaktisk litiumbehandling.
+Litium kan även användas vid unipolär depression. Personer med täta depressiva skov liknar bipolärt syndrom i fråga om hereditet, debutålder, atypiska symtom och profylaktisk respons på litium[@Goodwin2007]. Det finns flera små randomiserade, kontrollerade och blindade studier av litiumprofylax mot recidiv av unipolär depression (totalt n = 229). De visade samantaget att 75 % fick recidiv med placebo och 36 % med litiumbehandling[@Bauer2013book]. Recidiverande depression kan således vara en indikation för profylaktisk litiumbehandling. Efter behandling av unipolär depression med ECT har litium troligen en liten till medelstor effekt (weighted OR of 0.53, CI = 0.34, 0.82), liknande den vid profylax efter uni- eller bipolär episod som ej behandlats med ECT[@Lambrichts2021].
 
-Litium efter ECT.
+Tecken på sämre effekt vid affektiva blandtillstånd (mixed state). Detta gäller dock även annan behandling,
 
-Cykloid psykos kan vara indikation för litium
-
-antisuicidal effekt.
-
-Tecken på sämre effekt vid affektiva blandtillstånd (mixed state). (?)
-
-Response to litium network https://rlink.eu.com/ bipolär
+[Response to litium network](https://rlink.eu.com/)
 
 ### Biverkningar
 
-Tabell med vanlighetsgrad
+Tabell: Biverkningar av litium (ungefärlig incidens)[@Gitlin2016]
 
-- Kan ge skadeverkningar i form av hypothyreos, polyuri, acne, psoriasis, hyperparathyroidism och (kanske) i sällsynta fall nedsatt filtrationskapacitet i njurarna.
-- Kan ge biverkningar: diarré, tremor, törst, viktuppgång och i vissa fall kognitiv nedsättning (lindrig).
-- Toxisk i höga koncentrationer (uttorkning, njursjukdomar, feber, överdosering).
+| Biverkan                   | Frekvens | Dos | Minskar | Åtgärd                     |
+|----------------------------|----------|-----|---------|----------------------------|
+| Någon biverkan             | 75%      |     |         |                            |
+| Viktuppgång (M 4 kg)       | 70%      | Ja? |         |                            |
+| Ökad törst                 | 70%      |     | Ja      |                            |
+| Polyuri                    | 70%      |     | Nej     | Hydroklortiazid, kvällsdos |
+| Sexuell dysfunktion        | 40%      |     |         | Sildenafil                 |
+| Acne                       | 40%      |     |         |                            |
+| Leukocytos                 | 40%      |     |         | 1/5 övergående             |
+| Tremor                     | 25%      | Ja  | Ja      | Propranolol, B6, kvällsdos |
+| Illamående                 | 15%      |     | Ja      |                            |
+| Struma                     | 30%      |     |         |                            |
+| Subklinisk hypothyreos     | 20%      |     |         | Thyroxin om TSH >10        |
+| Hypothyreos                | 15%      |     |         | Thyroxin                   |
+| Hyperthyreos               | 1%       |     |         | Mb Graves förekommer       |
+| Hyperkalcemi               | 25%      |     |         |                            |
+| Hyperparathyroidism        | 10%      |     |         |                            |
+| Parkinsonism               | 15%      |     | Ja      |                            |
+| Myoklonus                  | 10%      |     | Ja      |                            |
+| Dyskinesi                  | 10%      |     | Ja      |                            |
+| Diarre                     | 10%      |     | Ja      | Litiumkarbonat             |
+| Perifera ödem              | 10%      |     |         |                            |
+| Psoriasis                  | 5%       |     |         |                            |
+| Akatisi                    | 1%       |     | Ja      |                            |
+| Trötthet                   |          |     |         |                            |
+| Ökad aptit                 |          |     |         |                            |
+| Kognitiva besvär           |          |     |         | Modafinil?                 |
+| SILENT (konfusion, stupor) |          |     |         | Irreversibel ataxi         |
+| Ataxi                      |          |     |         |                            |
+| Kronisk njursvikt          | ovanligt |     |         | Ev vid >10å beh            |
+
+>A rare, probably irreversible, syndrome acronymized as SILENT (Syndrome of Irreversible Lithium-Effectuated Neurotoxicity) involving persisting cerebellar dysfunction with ataxia or unsteady gait has been reported in a few cases (Aditanjee et al. 2005)[@Tondo2019].
+
+Tremor
+
+- Låg dos propranolol
+- Hög dos vitamin B6
+- Dosreduktion
+
+Polyuri
+
+- Hydroklortiazid 50 mg (ökar litiumkonc, reducera dosen med 1/3, ny konc efter 3d, följ kalium)
+- Amilorid 5 mg bid
+
+Movement disorders[@Rissardo2022]
+
+#### Thyroideapåverkan[@Kibirige2013]
+
+- Minskar syntes och frisättning av T3 och T4
+- Ökar risken för thyroidea-autoimmunitet <!-- due to its effect of augmenting the activity of B lymphocytes and reducing the ratio of circulating suppressor to cytotoxic T cells -->
+
+Hypothyreos
+
+- Diagnosticeras efter 18m (medel), men kan uppstå inom några månader
+- Vanligare (50%) om positiva TPO-antikroppar
+- Vanligare hos kvinnor, ålder >50, och hereditet för thyroideasjukdom
+
+Hyperthyreos och thyroidit
+
+- Oftast i samband med smärtfri, övergående thyroidit (Följs ofta av hypothyreos)
+- Förekommer även granulomatous thyroidit, lymphocytisk thyroiditi
+
+> Baseline and regular assessment of thyroid function tests (TSH, free T4); thyroid size using thyroid ultrasonography and measurement of titres of auto-antibodies against thyroid peroxidase is recommended among patients prior and during lithium therapy.
+
+> Patients with lithium induced hyperthyroidism are best treated with anti thyroid drugs like carbimazole with/without steroids. Radioiodine or thyroidectomy should be reserved for patients with lithium induced Graves’ disease especially in cases of poor compliance to the anti thyroid drugs. In cases of a toxic nodular goitre with/without compressive symptoms, a thyroidectomy is indicated. In cases of lithium induced thyroiditis, ablative radioiodine is not indicated because of its poor uptake. Conservative management with regular follow up is recommended in such cases since majority of the patients develop hypothyroidism subsequently
+
+#### Kontraindikationer[@Tondo2019]
+
+- Hjärtinfarkt
+- Akut njursvikt
+- Brugada syndrom, ventrikulär arytmi
+
+Försiktighet vid[@Tondo2019]:
+
+- Arytmi
+- Njursvikt
+- Psoriasis
+- Myeloid leukemi
+- Addison
+- Hypothyreos
+- Neurologisk sjukdom (texmyasteni, epilepsi, parkinson)
+
+
+#### Intoxikation
+
+Toxisk i höga koncentrationer (uttorkning, njursjukdomar, feber, överdosering).
 
 Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1.3 mmol/l. 1.5-2.5 mmol/l ger lindrig– måttlig intoxikation med symtom av slöhet, tremor, yrsel, sluddrigt tal, diarré, muskelryckningar. Koncentrationer därutöver ger allvarlig intoxikation med risk för konfusion, agitation, njurskador, hallucinationer, kramper, koma och hjärtrytmrubbningar. För att undvika intoxikation ska alla patienter instrueras att tillfälligt utsätta Litium under några dagar vid risk för intorkning eller minskad njurfunktion (dvs hög feber, njursjukdom, svår diarré, vattenbrist). De ska instrueras att aldrig ta andra mediciner utan att fått dessa ordinerade av läkare som känner till att de tar Litium (paracetamol går bra).
 
-2.5-3.0 mEq/L potentially dangerous evenin the absence of toxic symptoms  [@Deleon2016presentation]
+> Abnormally high blood levels of lithium (above 1.5 mEq/L) can increase risk of intoxication, signs of which are severe tremor, confusion, vomiting, abdominal pain, diarrhea, abnormally increased reflexes, speech difficulties, abnormal heart rhythm, hypotension, and convulsions[@Tondo2019]. 
 
-- Ger ökad risk för hjärtmissbildningar under första trimestern. Går över i bröstmjölk. Bör användas under graviditet och amning endast efter särskilt övervägande.
+2.5-3.0 mEq/L potentially dangerous even in the absence of toxic symptoms  [@Deleon2016presentation]
+
 
 #### Effekter på njuren
 
@@ -1032,9 +1110,11 @@ Intoxikation. Vaksamhet för litiumförgiftning vid nivåer över 1.3 mmol/l. 1.
 
 > Long-term lithium therapy is associated with impairment of urinary concentrating ability in up to 50% of patients with polyuria of greater than 3 liters per 24 hours in 20% of patients (Boton et al. 1987). Such increased urine volume carries a potential risk to the patients because of sodium depletion, excessive fluid loss, or reduced intake. In 5 to 10% of patients, the impairment of urinary concentrating ability may be irreversible or only partly reversible upon lithium discontinuation [...] In contrast, glomerular function remains relatively unscathed. Johnson et al. (1984) found a mild-to-moderate decrease in 15% of patients, with a fall in glomerular filtration rate (GFR) correlated with age. They concluded that progressive impairment of glomerular and tubular function during lithium maintenance is related more to age, episodes of lithium intoxication, and concurrent drug administration, than it is to duration of lithium treatment  [@Johnson1998].
 
-#### Kronisk njursvikt
-
 > Lithium-induced CKD occurs mostly in patients who have been receiving lithium for more than 10–20years; occasionally, renal insufficiency develops earlier (within 10 years of lithium initiation)  [@Grunfeld2009]
+
+#### Vid graviditet och amning
+
+Ger ökad risk för hjärtmissbildningar under första trimestern. Går över i bröstmjölk. Bör användas under graviditet och amning endast efter särskilt övervägande.
 
 ### Farmakokinetik
 
@@ -1432,7 +1512,7 @@ Notera att Bazetts formel för beräkning av QTc överkorrigerar, så använd an
 
 Se även avsnittet om sömn \@ref(sleep-physiology).
 
-Två typer av system kan sägas vara av betydelse för farmakodynamiken hos sömnmedel: System som främjar vakenhet (hypokretin/orexin, noradrenalin, histamin, acetylkolin, serotonin, dopamin) och system som främjar sömn (GABA, adenosin, galanin, melatonin). Den kliniska effekten av sömnmedel är inte alltid direkt kopplad till farmakodynamiska egenskaper såsom tid till maximal koncentration, delvis beroende på att de olika systemen (tex histamin, melatonin) är olika aktiva under dygnet och att faramkologisk påverkan på dessa således kan ha olika effekt beroende på när den infaller. Om vakenhetsfrämjande system har hög aktivitet kan effekten av att påverka en enskild receptortyp vara otillräcklig. ett exempel är histaminblockad om noradrenalinsystemet är starkt aktiverat eller dagtid då hypokretin/orexinsystemet är aktivt.
+Två typer av system kan sägas vara av betydelse för farmakodynamiken hos sömnmedel: System som främjar vakenhet (hypokretin/orexin, noradrenalin, histamin, acetylkolin, serotonin, dopamin) och system som främjar sömn (GABA, adenosin, galanin, melatonin). Den kliniska effekten av sömnmedel är inte alltid direkt kopplad till farmakodynamiska egenskaper såsom tid till maximal koncentration, delvis beroende på att de olika systemen (tex histamin, melatonin) är olika aktiva under dygnet och att faramkologisk påverkan på dessa således kan ha olika effekt beroende på när den infaller. Om vakenhetsfrämjande system har hög aktivitet kan effekten av att påverka en enskild receptortyp vara otillräcklig. Ett exempel är histaminblockad om noradrenalinsystemet är starkt aktiverat eller dagtid då hypokretin/orexinsystemet är aktivt.
 
 Om annan referens ej ges är informationen från Kryger [@Kryger2017].
 
@@ -1720,6 +1800,22 @@ Resultaten från dessa två studier sammanfattas i tabellen nedan:
 
 N i tabellen = lamotrigin eller placebo. Ytterligare grupp med litium (N 121 resp 46).
 
+### Identifierade studier av profylax vid bipolärt syndrom
+
+| Author    | Year | Trial ID  | Population         | Ref              |
+|-----------|------|-----------|--------------------|------------------|
+| Calabrese | 2000 | 105-614   | Rapid cycling      | [@Calabrese2000] |
+| Calabrese | 2003 | SCAB2006  | Recently depressed | [@Calabrese2003] |
+| Bowden    | 2003 | SCAB2006  | Recently manic     | [@Bowden2003]    |
+| Koyama    | 2011 | SCA104779 | Recent episode*    | [@Koyama2011]    |
+| Zhang     | 2022 | SCA113783 | Recent episode*    | [@Zhang2022]     |
+| SCAB2005  | -    | SCAB2005  | Rapid cycling      | [@SCAB2005]      |
+
+(*) Recently depressed, hypomanic, manic, or mixed episode. 
+
+Zhang 2022 was completed in 2015, previously unpublished. All studies were sponsored by GSK.
+
+
 ### Lamotrigin prevention BD episod
 
 ```{r , fig.cap="Lamotrigin prevention av bipolär episod (mani eller depression)." , out.width = '100%'} 
@@ -1737,6 +1833,8 @@ knitr::include_graphics("../dropbox/images/psychiatry/lamotrigine_meta_plot_depr
 ``` 
 
 ~8 months incidence on placebo ~40%
+
+Notera att det är stor heterogenitet mellan studierna, vilket gör det olämpligt att väga samman effekterna och att signifikanstestningen ej är tillförlitlig. Studien av Bowden 2003 sicker ut (nyligen maniska/hypomana patienter), liksom SCAB2005 (rapid cycling). Intressant nog sticker dessa två studier ut något åt andra hållet för prevention av mani. En hypotetisk förklaring skulle kunna vara att mani ofta följs av depression, varför den profylaktiska effekten mot depression blir tydligare hos nyligen maniska patienter. Det har noterats tidigare att patienter med MDI-mönster svarar bättre på profylaktisk behandling[@Tondo2019].
 
 ### Lamotrigin prevention BD mani
 
@@ -1909,6 +2007,81 @@ Om uppehåll >5d börja om titrering.
 [Psykiatri sydväst, Lamotrigin vid bipolär sjukdom](https://www.psykiatrisydvast.se/4a85bc/globalassets/verksamheter/psykiatri/psykiatri-sydvast/pdf-er/affektiva/lamotrigin-vid-bipolar-sjd.pdf)
 
 [Internetmedicin, läkemedelsreaktioner och hud](https://www.internetmedicin.se/hud-och-konssjukdomar/lakemedelsreaktioner-och-hud)
+
+## Sederande antihistaminer
+
+Se [@Church2013]
+
+Cuvillo Comparative pharmacology of the H1 antihistamines
+
+Se [@Nolen1997] [@Viukari1984]
+
+Stimulering av H1-receptorn i nervsystemet av histamin (storhjärnan, cerebellum, neurohypofysen, ryggmärgen) höjer vakenhet under dagen och inverkar på minne, inlärning, vätskebalans, hämning av födiontag, kroppstemperatur, kardiovaskulär reglering, och stressrespons (ACTH, b-endorfin). 
+
+Eftersom histamin H1-receptorn har en basal aktivitet och antihistaminer binder andra delar än histamin är de tekniskt "inversa agonister" snarare än antagonister. Alimemazin och propiomazin är neurolepyika, men används som sederande läkemedel pga deras antihistaminerga effekt. Tolerans mot den sederande effekten kan uppstå efter ca 3 dagar (Diphenhydramin)[@Nolen1997].
+
+H1-antihistaminer har effekt på ett flertal receptortyper beroende på preparat. Alla har antikolinerga effekter. De används som sömnmedel pga sina antihistaminerga effekter. Nattetid förlänger H1-antihistaminerna tiden till REM-sömn och minskar dess duration. Substanserna är fentiaziner eller fentiazinliknande (dvs besläktade med vissa antipsykotiska läkemedel). Fall av malignt neuroleptikasyndrom finns rapporterade. Propiomazin liknar strukturellt och farmakologiskt klozapin. Alimemazin liknar strukturellt tricykliska antidepressiva. Den aktiva metaboliten av Hydroxyzin är cetrizin.
+
+Amitriptylin och mirtazapin i låga doser kan troligen användas på liknande sätt[@Bakker2021;@IvgyMay2015]
+
+Indikationer: 
+
+- Korttidsbehandling sömn: Alimemazin, propiomazin, prometazin.
+
+- Ångest: Prometazin, hydroxizin
+
+- Antiemetiskt: Prometazin, alimemazin
+
+Biverkningar: Negativ inverkan på bilkörning, inlärning, dyskinesi, blefarospasm, takycardi, konfusion, QTT, arytmi, fallrisk, antikolinerga effekter (undvik vid prostatism, glaukom)
+
+De intas 1-2 tim före sänggående
+
+Tabell: Dosering H1-antihistaminer
+
+| Läkemedel    | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
+|--------------|------------|--------|------------|----------|--------|
+| Hydroxizin   | Atarax     | 25     | 0.5+0.5+1  | -        | 100    |
+| Prometazin   | Lergigan   | 25     | 1-2x1-3    | 25-50    | 150    |
+| Alimemazin   | Theralen   | 20     | -          | 10-30    |        |
+| Propiomazin  | Propavan   | 25     | -          | 25-50    |        |
+| Mirtazapin   | Mirtin     | 15     |            | 7.5-15   |        |
+| Amitriptylin | Sensaval   | 10     |            | 10-20    |        |
+| Kvetiapin    | Quetiapin  | 25     |            | 12.5-800 |        |
+| Melatonin    |            | 1      |            | 1-2      | 2      |
+| Zolpidem     |            |        |            |          |        |
+| Zopiklon     |            | 5      |            | 5-7.5    |        |
+|              | Suvorexant |        |            |          |        |
+
+Alimemazin vid Alkoholism och eufomani: Lätta och medelsvåra orostillstånd: Initialt 40–60 mg 2–3 gånger dagligen. Därefter 5–10 mg 2–3 gånger dagligen
+
+Tabell: Farmakokinetik H1-antihistaminer
+
+| Läkemedel      | Peak | T1/2 (h) | Insomning | Uppvaknanden | Sömntid | Duration |
+|----------------|------|----------|-----------|--------------|---------|----------|
+| Diphenhydramin | 2    | 8        | Ja        | 4 tim        | +1 tim  | 4-6      |
+| Hydroxizin     | 2    | 14-25    |           |              |         |          |
+| Prometazin     | 4-10 | 12-15    | Ja        |              | Ja      | 4-6      |
+| Alimemazin     | 2    | 4        |           |              |         |          |
+| Propiomazin    | 1-2  | 8        | Ja        | Ja           | Ja      |          |
+
+
+<!-- Antikolinerga: Caution in patients with prostatic hypertrophy, urinary retention and angle-closure glaucoma. Fallrisk. -->
+
+Tabell: Receptorprofil H1-antihistaminer
+
+| Läkemedel      | H1 | mACh | D2 | 5-HT | a1 | NMDA |
+|----------------|----|------|----|------|----|------|
+| Diphenhydramin |    |      |    |      |    |      |
+| Hydroxyzin     |    |      |    |      |    |      |
+| Prometazin     | x  | x    | x  |      |    | x    |
+| Alimemazin     |    |      |    |      |    |      |
+| Propiomazin    | x  | x    | x  | x    | x  |      |
+
+<!-- Promethazine is a an antagonist of histamine H1, post-synaptic mesolimbic dopamine, alpha adrenergic, muscarinic (M1-5), and NMDA receptors -->
+
+<!-- propiomazine Structurally and pharmacologically similar to clozapine, propiomazine binds to alpha(1), dopamine, histamine H1, muscarinic, and serotonin type 2 (5-HT2) receptors.     Propiomazine acts as an antagonist of dopamine 1, 2, and 4 receptors, serotonin (5-HT) receptor types 2A and 2C, muscarinic receptors 1 through 5, alpha(1)-receptors, and histamine H1-receptors. Its main use as a sedative is due to its antihistamine effect. -->
+
+<!-- Alimemazin.  It acts as an anti-histamine, a sedative, and an anti-emetic (anti-nausea). Trimeprazine is used principally as an anti-emetic, to prevent motion sickness or as an anti-histamine in combination with other medications in cough and cold preparations. Tricyclic antihistamines are also structurally-related to the tricyclic antidepressants, explaining the antihistaminergic adverse effects of these two drug classes and also the poor tolerability profile of tricyclic H1-antihistamines. -->
 
 ## Vissa biverkningar av psykofarmaka
 ### Arytmirisk

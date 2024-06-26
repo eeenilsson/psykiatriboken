@@ -63,7 +63,21 @@ Personer med täta depressiva skov liknar bipolärt syndrom i fråga om heredite
 
 Notation: Mönstret hos en individ med bipolärt syndrom kan vara övervägande svåra maniska skov, och mindre svåra depressioner, eller tvärtom, och kan noteras som Md respektide mD, där mD motsvarar ungefär bipolär II (emedan md kan motsvara cyclotymi) [@Goodwin2007]. 
 
+Vissa patienter (ca 50%) har en återkommande ordning i vilket mani följs av depression (MDI) eller tvärtom (DMI)[@Tondo2017]: 
+
+- MDI (sequence mania-depression-free interval)
+- DMI (sequence depression-mania-free interval)
+- CC-LC (continuous circular course with long cycles)
+- CC-RC (continuous circular course with rapid cycles)
+- IRR (irregular course).
+
+Kategorisering i dessa mönster kan eventuellt förutsäga rspons på litium[@Maj1989;@Tondo2019].
+
+> Responsiveness to lithium (and alternative treatments) has been inferior among patients with relatively complicated forms of bipolar disorder, such as with rapid-cycling, psychotic features, co-occurring anxiety syndromes or substance-abuse, as well as in depression-prone cases or those following the DMI course pattern, and lithium is less effective in preventing recurrences of bipolar depression than mania. Importantly, the same limitations hold true for alternative treatments, including anticonvulsants and modern antipsychotics[@Tondo2019].
+
 Tidig debut med psykotisk depression är kopplat till ökad risk för senare manisk episod. Stämningsinkongruenta psykotiska symtom är förknippat med sämre prognos, kan vara mer likt schizofreni [@Goodwin2007, p53ff]?
+
+Förlopp episod och tid i olika faser[@Tondo2017].
 
 
 ##### Suicidrisk
@@ -599,9 +613,19 @@ Psykiatrisk samsjuklighet är vanligt, ffa ångestsyndrom (hos ca 75%), ADHD, up
 
 <!-- DSM: Generalized anxiety disorder, panic disorder, posttraumatic stress disorder, or other anxiety disorders. These disorders need to be considered in the differential diagnosis as either the primary disorder or, in some  -->
 
-#### Personlighetssyndrom
+#### EIPS
 
-Vid emotionellt instabilt personlighetssyndrom förekommer humörsvängningar i kombination med instabila relationer och växlande självbild, uttalad impulsivitet, rädsla för att bli övergiven. Eufori och långvariga perioder med god funktion är mycket ovanligt[@Yatham2018].
+- Instabila relationer
+- Växlande självbild
+- Uttalad impulsivitet
+- Rädsla för att bli övergiven
+- Humörsväningar utlöses av omgivningsfaktorer och varar minuter-timmar
+- Eufori och långvariga perioder med god funktion är mycket ovanligt
+- Kan bättras över livstiden
+- Ej episodisk
+- Motorisk acceleration talar för mani
+
+<!-- Vid emotionellt instabilt personlighetssyndrom förekommer humörsvängningar i kombination med instabila relationer och växlande självbild, uttalad impulsivitet, rädsla för att bli övergiven. Eufori och långvariga perioder med god funktion är mycket ovanligt[@Yatham2018]. -->
 
 Vid narcissistiskt personlighetssyndrom kan grandiositet föreligga, men är ej förknippat med humörförändringar eller funktionsnedsättning[@Yatham2018].
 

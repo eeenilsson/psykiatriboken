@@ -304,8 +304,11 @@ litium-profylax-rctseverus2018
 historik-1
 indikationer-1
 biverkningar-2
+thyroideapåverkankibirige2013
+kontraindikationertondo2019
+intoxikation
 effekter-på-njuren
-kronisk-njursvikt
+vid-graviditet-och-amning
 farmakokinetik
 dosering-i-praktiken
 mer-om-litiumkoncentration
@@ -349,6 +352,7 @@ administratrion-av-läkemedlet
 lamotrigin
 lamotrigin-vid-akut-bp-depression
 lamotrigin-profylax-vid-bipolärt-syndrom
+identifierade-studier-av-profylax-vid-bipolärt-syndrom
 lamotrigin-prevention-bd-episod
 lamotrigin-prevention-bd-depression
 lamotrigin-prevention-bd-mani
@@ -472,7 +476,7 @@ beräkning-av-varians-och-precision
 effekt
 medelvärde-mm
 rr-och-or
-prediktionsintervall
+prediktionsintervall-och-konfidensintervall
 resurser-6
 epilog
 ordlista
