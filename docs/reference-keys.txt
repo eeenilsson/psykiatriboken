@@ -9,7 +9,10 @@ fig:biv-jfr
 fig:biv-1
 fig:biv-2
 fig:antidepressant-weight-gain
+fig:hyperbole
+fig:antidepr-lewis
 fig:fig-older-adults-antidepressants
+fig:publ-bias
 tab:bipolar-symptoms
 tab:bipolar-treatment-mania-yatham2018
 tab:bipolar-treatment-depression-yatham2018
@@ -123,7 +126,9 @@ jämförelse-biverkningar-mot-placebo
 biverkningar-av-ssri-5-diff-vs-placebo
 viktförändring-av-olika-antidepressiva
 utsättningssymtom
+hyperbol-nedtrappning-för-att-undvika-utsättningssymtom
 behandlingslängd
+natutalförlopp-återfallsrisk-avslut
 depression-i-anslutning-till-förlossning
 depression-elderly
 antidepressivas-effektivitet
@@ -161,7 +166,7 @@ samsjuklighet
 differentialdiagnostik-vid-mani
 mania-somatic-causes
 differential-psychiatric
-personlighetssyndrom
+eips
 differentiera-manisk-psykos-vs-schizofreni
 bipolar-adhd
 psykos-vid-bipolärt-syndrom
@@ -200,8 +205,11 @@ bedömningssamtalsmall
 bedömning-inför-läkemedelsbehandling
 ökad-kardiell-risk-vid
 uppföljning
+åtgärder-vid-högt-blodtryck
 särskild-observans
 adhd-medication
+val-av-behandling
+toleransutveckling
 psykopedagogiska-insatser
 psykologisk-behandling
 arbetsterapeutiska-behandlingsinsatser
@@ -265,6 +273,7 @@ utsöndring-av-ssri-i-bröstmjölk
 resurser-3
 antidepressant-meds
 likheter-bland-de-flesta-antidepressiva
+verkningsmekanismer
 olikheter-i-receptorprofil
 finns-dos-respons
 tricykliska-antidepressiva
@@ -366,6 +375,7 @@ biverkningar-av-lamotrigin
 lamotrigin-hudutslag
 lamotrigin-titrering
 resurser-lamotrigin
+sederande-antihistaminer
 vissa-biverkningar-av-psykofarmaka
 arytmirisk
 side-effects-anticholinergic
@@ -460,6 +470,11 @@ tiden-mellan-vårdintyg-med-kvarhållning-och-intagningsbeslut
 intagningsbeslut
 tvångsvård-efter-beslut-av-rätten
 gemensamma-bestämmelser-om-vården
+öppen-psykiatrisk-tvångsvård
+samordnad-vårdplan
+förfarande-efter-beslut-från-rätten
+återintagning-från-öppen-psykiatrisk-tvångsvård
+material
 resurser-5
 intyg
 tandvårdsstöd
@@ -469,7 +484,10 @@ vid-psykos
 vid-affektiva-syndrom
 vid-personlighetsstörning
 vid-utvecklingsstörning-eller-adhd
-anteckningar-om-vetenskaplig-metod
+psykiatrisk-anamnes-och-status
+anamnes-kortfattat
+status-kortfattat
+vetenskaplig-metod
 inledning-5
 population
 beräkning-av-varians-och-precision

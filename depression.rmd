@@ -137,6 +137,7 @@ Risken för levertransaminasstegring med agomelatin är kring 2.5% (0.5% med pla
 
 \*Markeringen med asterisk visar de som också i CANMAT-guidelines konstateras ha visst stöd för bättre effekt (där anges också sertralin som ett medel som visat fördel avseende effekt).
 
+
 #### Effektivitet {#antidepressant-efficacy}
 
 Effektiviteten av antidepressiva är omdiskuterad. Ett stort problem är publikationsbias, där negativa studier sällan publiceras. Värdering av effekt i tex metaanalyser bör därför inkludera opublicerade studier. Placeboeffekten (eller regression till medelvärdet) är dock betydande. Effektstorleken för antidepressiva är ~ 0.3 (motsvarar 2-3 poäng på MADRS eller 10% symtomreduktion jfr placebo). Lägre efficacy hos äldre, se \@ref(depression-elderly).
@@ -533,6 +534,13 @@ Utsättningssymtom vid avslut av antidepressiva är relativt vanligt. Grovt räk
 
 Exempel på symtom är nervositet, ångest, sömnsvårigheter, svettningar, yrsel, irritabilitet, spändhet, illamående, och humörsvängningar. De varar oftast i 1-2 veckor (i ovanliga fall upp till ett år) och upphör snabbt vid återinsättning. Förekomsten kan troligen minskas genom gradvis uttrappning under någon eller några månader. Hyperbol nedtrappning kan övervägas.
 
+Tala för utsättningssymtom snarare än recidiv:
+
+- Snabb förbättring efter återinsättning
+- Samtidigt uppträdande av både psykiska och fysiska (tex illamående, kräkningar, yrsel, "brain zaps") symtom
+
+Tabell: Incidens utsättningssymtom
+
 | Utsatt läkemedel | DESS +4p eller mer |
 |------------------|:------------------:|
 | Placebo          | 2-12%              |
@@ -540,7 +548,9 @@ Exempel på symtom är nervositet, ångest, sömnsvårigheter, svettningar, yrse
 | Paroxetin        | 28-32%             |
 | Venlafaxin       | 32%                |
 
-Visar resultat av byte från aktiv behandling till placebo (eller från placebo till placebo)[@Baldwin2007]. Förkortningar: DESS, Discontinuation Emergent Signs and Symptoms (DESS) checklist.
+Tabellen ovan visar resultat av byte från aktiv behandling till placebo (eller från placebo till placebo)[@Baldwin2007]. Förkortningar: DESS, Discontinuation Emergent Signs and Symptoms (DESS) checklist.
+
+Tabell: Incidens utsättningssymtom efter olika antidepressiva
 
 | DESSitem                 | Pbo | Esc5 | Esc10 | Esc20 | Par20 |
 |:-------------------------|:----|:-----|:------|:------|:------|
@@ -572,12 +582,80 @@ Tabellen anger % symtom vid abrupt byte till placebo hos patienter med GAD[@Bald
 
 De flesta SSRI samt bupropion och mirtazapin har halveringstid 24-36 tim, fluoxetin 4-6 dagar. Venlafaxin 5 tim, duloxetin 12 tim.
 
+#### Hyperbol nedtrappning för att undvika utsättningssymtom
+
+Det finns goda argument för att kort nedtrappningsperiod ger större risk för utsättningsesvär än en längre sådan[@Horowitz2019]. Hyperbol nedtrappning kan vara att föredra på teoretisk grund och det kan medföra en kortare nedtrappningsperiod än linjär nedtrappning, eftersom dosen reduceras procentuellt sett mer i början[@Horowitz2019].
+
+Den teoretiska grunden för hyperbol nedtrappning baseras på att läkemedlets "occupancy" av receptorn uppvisar en hyperbol effekt, dvs att dosökning i det lägre intervallet små doser har en relativt högre effekt på bindingsgrad än dosökningar vid högre dosintervall. För att uppnå en linjär farmakologisk effekt kan därför hyperbol nedtrappning användas. Eftersom antidepressiva leder till uppreglering av postsynaptiska receptorer är det också rimligt att det tar viss tid innan dessa nedregleras. Steady-state efter en dosreduktion uppnås för de flesta antidepressiva efter ungefär 1-2 veckor, så detta kan betraktas som ett minimum för varje steg med dosreduktion. Eftersom utsättningssymtom kan kvarstå i flera veckor kan tex 4 veckor för varje nedtrappningssteg vara en strategi om varje dossteg skall utvärderas.
+
+Nedtrappning under exempelvis en månad är troligen för snabbt för att påtagligt minska utsättningsbesvär och en lämpligare målsättning kan vara tex 4 månader[@Horowitz2019]. Rent praktiskt kan ett förfarande vara att reducera med tex en (fyra?) veckas intervall och att backa i dos och glesa ut nedtrappningen om besvärliga utsättningssymtom inträffar. Exempel på nedtrappning[@Ruhe2019]. 
+
+Ett praktiskt problem är begränsad delbarhet av tabletter. En strategi kan vara att byta till fluoxetin som har längre halveringstid, samt finns tillgängligt som oral lösning för att uppnå de lägsta doseringarna. Eftersom fluoxetin tar längre tid att uppnå steady-state kan man teoretiskt motivera större steg vid varje nedtrappning. Dock interagera fluoxetin med en del andra läkemedel. Escitalopram finns även som oral lösning (20 mg/ml, 1 droppe = 1 mg). För läkemedel i kapslar kan ett (omständigt) alternativ vara att öppna kapseln och räkna korn.
+
+```{r , fig.cap="Illustration av förhållandet mellan dos och bindingsgrad"} 
+#| label: hyperbole
+
+x <- 0:100
+hyperbole <- function(x, m=100, k=5){(m*x)/(k+x)}
+plot(x, hyperbole(x), xlab="Dos (%)", ylab="Bindningsgrad (%)")
+
+``` 
+
+Tabell: Exempel på hyperbol nedtrappning med fluoxetin oral lösning (4 mg/ml).
+
+| Steg | Dos | Fluoxetin, ml |
+|:-----|:----|:--------------|
+| 1    | 40  | 10            |
+| 2    | 20  | 5             |
+| 3    | 12  | 3             |
+| 4    | 8   | 2             |
+| 5    | 4   | 1             |
+| 6    | 2   | 1/2           |
+| 7    | 1   | 1/4           |
+| 8    | 0.5 | 1/8           |
+| 9    | 0   | 0             |
+
+Steg 2-4 kan slås ihop till ett steg med 2.5 ml.
+
+? Dispergerbar tablett (20 mg) 1 => 1/2 => 1/4
 
 ### Behandlingslängd
 
 Till fullständig remission och därefter 6-12 månader. Trappa sedan ut långsamt för att undvika utsättningssymtom.
 
 Två eller flera depressioner under en femårsperiod medför indikation för långtidsprofylax. Vid fortsatt behandling under 1-3 år halveras återfallsrisken. Återfallspreventiv psykoterapeutisk behandling bör övervägas.
+
+Ett observandum är att i studerna på återfallsprofylax kan en del av effekten bero på utsättningssymtom[@Hengartner2021;@Voehringer2011].
+
+### Natutalförlopp, återfallsrisk, avslut
+
+En studie som illustrerar återfallsrisken och problemet med utsättningssymtom visas i tabellen och figuren nedan[@Lewis2021]. Inklusionskriterier var minst 2 tidigare epidoser och Minst AD >9 mån, eller AD i >2å samt i remission (recovery). 
+
+Tabell: Studie av avslut av antidepressiva i primärvård[@Lewis2021]
+
+| Item            | Maintainance | Discontinued | Test           |
+|-----------------|--------------|--------------|----------------|
+| Randomized      | 238          | 240          |                |
+| Adherence       | 70%          | 52%          |                |
+| Relapse by v 52 | 92 (39%)     | 135 (56%)    | HR 1.56 to 2.7 |
+| PHQ 12w         | 4.1          | 6.3          | *              |
+| PHQ 26w         | 4.2          | 5.0          | *              |
+| PHQ 39w         | 3.8          | 4.4          | NS             |
+| PHQ 52w         | 3.7          | 4.0          | NS             |
+| DESS 12w        | 1.3          | 3.1          | *              |
+| DESS 26w        | 1.4          | 1.9          | *              |
+| DESS 39w        | 0.8          | 1.7          | *              |
+| DESS 52w        | 0.8          | 1.7          | NS             |
+
+Discontinuation var över 2 månader. Trots gradvis uttrappning identifierade 70% v patienterna att de bytt till placebo och DESS var högre fram till vecka 39.
+
+```{r antidepr-lewis, fig.cap="Antidepressant discontinuation PHQ and DESS" , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/antidepressant-discontinuation_Lewis2021.png")
+
+``` 
+
+ 
 
 ## Depression i anslutning till förlossning
 
@@ -640,6 +718,13 @@ I en studie av Turner et al [@Turner2008] sammanställdes data från publicerade
 
 <!-- Av totalt 74 registrerade studier klassificerades resultaten som positiva (av FDA) för 38 (51%) av studierna och negativa (24 st) eller tveksamma (12 st) för 36 (49%) av studierna. Trettiosju av de 38 positiva studierna publicerades. Av de 36 negativa eller tveksamma studierna publicerades endast 14 st, och av dessa framställdes resultaten i 11 studier som positiva, trots att reultaten ej gav stöd för det. -->
 
+```{r publ-bias, fig.cap="Publikationsbias för antidepressiva. Från[@Turner2008]. Elva med negativt eller tveksamt resultat framställdes som positiva. Totalt N = 12564 pers.." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/fig_antidepressant_publication_bias.png")
+
+``` 
+Analysen uppdaterades 2022 och man fann en något ökad publicering av negativa resultat[@Turner2022].
+
 | Resultat | Genomförda | Publicerade | Publikation motsvarar ej resultat | N    |
 |----------|------------|-------------|-----------------------------------|------|
 | Positivt | 38         | 37          | 0                                 | 7155 |
@@ -650,7 +735,50 @@ Tabell: Antal genomförda och publicerade studier klassificerade efter FDAs vär
 
 Effektstorleken var 0.37 (CI 0.33 till 0.41) för publicerade studier och 0.15 (CI 0.08 till 0.22) för opublicerade. Den sammanlagda effektstorleken för publicerade och opublicerade studier var 0.31. En effektstorlek på 0.2 kan betraktas som liten och 0.5 som medel (motsvarar 3 p förbättring på HAM-D och anges ibland som gränsen för "kliniskt signifikant").
 
-Det bör även noteras att placeboeffekten är framträdande vid behandling av depression (sannolikt även regression mot medelvärdet). Den ökar med antalet uppföljningsbesök i en studie och är mindre framträdande vid svårare depression[@Ioannidis2008].
+Det bör även noteras att placeboeffekten är framträdande vid behandling av depression (sannolikt även regression mot medelvärdet). Den ökar med antalet uppföljningsbesök i en studie och är kanske mindre framträdande vid svårare depression[@Ioannidis2008].
+
+Frågor kring antidepressivas effektivitet vid akut respektive underhållsbehandling, problemen med publikationbias och studiedesign, samt betydelsen av utsättningssymtom som ett metodologiskt problem i underhållsstudier, mm, har diskuterats. Debatten är något polariserad, med olika grupperingar "för" och "emot" antidepressiva, se tex [@Horowitz2022a].
+
+| Påstående                                                  | För                                 | Emot                                | Syntes       |
+|------------------------------------------------------------|-------------------------------------|-------------------------------------|--------------|
+| Stor publikationsbias                                      | [@Turner2008;@Turner2022]           | -                                   | Ja           |
+| Liten effektstorlek i studier                              | [@Turner2008;@Cipriani2018]         | -                                   | Ja           |
+| Effektstorleken ej kliniskt signifikant                    | [@Moncrieff2015]                    | [@Hieronymus2020a]                  | Nja          |
+| Respons och remission problematiska mått                   | [@Kirsch2007]                       | ?                                   | Ja           |
+| Subgrupper svarar bättre                                   | (*)                                 | [@Munkholm2020;@Maslej2021]         | Nej          |
+| HAMD17 överskattar antidepressiv effekt                    | [@Hieronymus2021a]                  | [@Hieronymus2020a;@Hieronymus2021a] | Nej          |
+| HAMD17 underskattar antidepressiv effekt                   | [@Hieronymus2021a]                  |                                     | Litet        |
+| Antidepressiva är effektiva recidivprofylax                | [@Borges2014;@Geddes2003;@Kato2021] | [@Hengartner2021;@Voehringer2011]   | Nja          |
+| Effekten som recidivprofyax förklaras av utsättningsbesvär | [@Hengartner2021;@Voehringer2011]   |                                     | Delvis       |
+| Antidepressiva har mer effekt vid svårare depression       | [@Khan2002;@Kirsch2008]             | [@Rabinowitz2016]                   | Nej          |
+| Antidepressiva uppvisar dos-respons                        | [@Hieronymus2019]                   |                                     | Liten effekt |
+
+[@Rabinowitz2016]
+
+(*)En studie som visade att variabliteten i respons på läkemedel var störree än den för placebo (ett stöd för att subgrupper av patienter svarar bättre)[@Maslej2020] drogs tillbaks pga felaktig analys[@Oenguer2020].
+
+Att det föreligger betydande publikationsbias, dvs att negativa studier ej publiceras eller att deras resultat förvanskas, tycks det råda samstämmighet om. Detta är ett stort problem när vetenskapen skall värderas. Slutsats: Värdering av antidepressivas effekt (i tex metaanalyser) måste inkludera opublicerade studier för att vara meningsfull.
+
+Att den beräknade effektstorleken vid akut behandling är liten (SMD ca 0.3, motsvarande 2-3 poäng på HAMD17) tycks det också råda samsyn om. Effektstorleken kan vara större om endast kärnsymtom vid depression används[@Hieronymus2021a], men den blir ändå liten. Huruvida detta är en kliniskt relevant effekt är omdiskuterat, men man kan svårligen kalla det för en stor effekt. En relaterad fråga är om det finns subgrupper med patienter som har en tydlig effekt, men de analyser som gjorts ger inget stöd för detta. Det kan noteras att pga stor variablitet i placeboeffekt, stor andel drop-outs, samt att depressionsskattning hos friska ej är 0, kan det vara orealistiskt att förvänta sig hög effektstorlek i randomiserade kontrollerade prövningar av antidepressiva[@Hieronymus2021].
+
+Att antidepressiva har större effekt (eller att placeboeffekten är mindre) vid svårare depression tycks inte stämma, utan vara en artefakt av metoden som använts för att beräkna detta (metaanalys snarare än individdata)[@Rabinowitz2016].
+
+Att siffror för respons och remission är missledande tycks uppenbart med tanke på den betydande placeboeffekten. En liten effekt av antidepressiva kan därför ge skillnader i respons/remission.
+
+Att utsättningssymtom är vanligt tycks väl belagt[@Baldwin2007], likaså att de kan kvarstå i upp till ett år[@Lewis2021]. Allvarlighetsgraden av dessa är oklar, men att de kan misstolkas som återfall i depression verkar sannolikt[@Hengartner2021;@Voehringer2011]. Det är ett observandum att återfall i depression eftar avslut av antidepressiva i huvudsak sker tidigt efter avslut av behandlingen och överensstämmer tidsmässigt med den period då utsättningssymtom är vanligast. Med tanke på depressionens episodiska naturalförlopp skulle man snarare vänta sig en jämn spridning av återfall under observationstiden. Likaså är det förvånande att antidepressiva skulle ha en mycket större profylaktisk effekt än akut effekt.
+
+Sammantaget verkar det sannolikt att:
+
+1. Antidepressiva har en betydande placeboeffekt och förloppet varierar mycket mellan individer.
+2. Antidepressiva ger i medeltal en liten effekt utöver placebo och den extra effekten av läkemedlet är ungefär lika för alla som behandlas.
+3. Antidepressiva skyddar mot återfall, men en del av den effekten förklaras av utsättningssymtom.
+
+En liten effekt på en skattningsskala kan ha ett värde. Dessutom kan det finnas effekt på symtom som inte fångas av skalan. Den lilla effekten jämfört med placebo gör det mycket svårt att utvärdera effekten av antidepressiv behandling hos en enskild individ. Både de som försämras och de som förbättras kan ha effekt av behandlingen eller inte. Det går inte att veta hur deras depression skulle ha utvecklats utan behandling. Detta gör det också svårt att rekommendera byte av antidepressiva eller kombinationbehandling (för båda strategierna är det vetenskapliga stödet minimalt).
+
+Den lilla effekten jämfört med placebo gör att biverkningar bör vägas in vid beslut om fortsatt behandling.
+
+Med tanke på att medeleffekten är liten och att dosökning över minsta effektiva dos endast ger en mycket liten ytterligare effekt, bör eventuella dosökningar och deras biverkningar utvärderas noggrannt. Om biverkningarna ökar och den eventuella positiva effekten som patienten upplever inte håller i sig, bör man överväga att återgå till lägre dos.
+
 
 ## Indikationer
 

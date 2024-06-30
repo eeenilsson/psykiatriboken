@@ -236,6 +236,11 @@ Se tabell 42-1 (farmakokinetik), 42-2 (receptorbindning) och 42-3 (polysomnograf
 - Renal elimination av metaboliter
 - Hämmar minst en av CYParna
 
+### Verkningsmekanismer
+
+I stort sett alla antidepressiva har gemensamt att de påverkar monoaminsignalleringen i hjärnan (och andra delar av kroppen). Hämning av serotoninåterupptaget via SERT är gemensamt för de flesta antidepressiva\@ref(fig:antidepressant-affinity). Den sk "monoaminhypotesen", att depression orsakas av en obalans i monoaminer i hjärnan, ligger till grund för forskningen som lett till framtagandet av antidepressiva medel. Uppfattningen att det rör sig om "serotoninbrist" saknas det stöd för, vilket varit känt sedan länge[@Moncrieff2023]. I grunden vet man därför inte varför antidepressiva läkemedel har antidepressiv effekt. Eftersom en mekanisktisk förklaring av orsakerna till depression saknas är det rimligt att anta att effekten av antidepressiva endast till viss del överlappar symtomen vid depression. För en kritisk diskussion om "drug centered" respektive "disease centered" modell för förståelse om hur psykofarmaka verkar, se[@Moncrieff2017]. En intressant observation är att exempelvis en sederande effekt av vissa antidepressiva kan påverka skattningen av depression, även om kärnsymtomen inte nödvändigtvis påverkas. Omvänt kan biverkningar av antidepressiva (tex gastrointestinala problem) medföra en försämrad skattning ev deras effekt.
+
+
 ### Olikheter i receptorprofil
 
 ```{r antidepressant-affinity, out.width = '85%', fig.cap = 'Antidepressiva läkemedels affinitet till vissa receptorer', fig.fullwidth = TRUE} 
@@ -2010,15 +2015,11 @@ Om uppehåll >5d börja om titrering.
 
 ## Sederande antihistaminer
 
-Se [@Church2013]
-
-Cuvillo Comparative pharmacology of the H1 antihistamines
-
-Se [@Nolen1997] [@Viukari1984]
+Se [@Nolen1997;@Viukari1984;@Church2013]. <!-- Cuvillo Comparative pharmacology of the H1 antihistamines -->
 
 Stimulering av H1-receptorn i nervsystemet av histamin (storhjärnan, cerebellum, neurohypofysen, ryggmärgen) höjer vakenhet under dagen och inverkar på minne, inlärning, vätskebalans, hämning av födiontag, kroppstemperatur, kardiovaskulär reglering, och stressrespons (ACTH, b-endorfin). 
 
-Eftersom histamin H1-receptorn har en basal aktivitet och antihistaminer binder andra delar än histamin är de tekniskt "inversa agonister" snarare än antagonister. Alimemazin och propiomazin är neurolepyika, men används som sederande läkemedel pga deras antihistaminerga effekt. Tolerans mot den sederande effekten kan uppstå efter ca 3 dagar (Diphenhydramin)[@Nolen1997].
+Eftersom histamin H1-receptorn har en basal aktivitet och antihistaminer binder andra delar än histamin är de tekniskt "inversa agonister" snarare än antagonister. Alimemazin och propiomazin är neurolepyika, men används som sederande läkemedel pga deras antihistaminerga effekt. Tolerans mot den sederande effekten kan uppstå redan efter ca 3 dagar (Diphenhydramin)[@Nolen1997], vanligen efter 7-20 dagar. Uppehåll 3-14 dagar återställer effekten. Tolerans mot en antihistamin ger det mot andra[@Dannenberg1951].
 
 H1-antihistaminer har effekt på ett flertal receptortyper beroende på preparat. Alla har antikolinerga effekter. De används som sömnmedel pga sina antihistaminerga effekter. Nattetid förlänger H1-antihistaminerna tiden till REM-sömn och minskar dess duration. Substanserna är fentiaziner eller fentiazinliknande (dvs besläktade med vissa antipsykotiska läkemedel). Fall av malignt neuroleptikasyndrom finns rapporterade. Propiomazin liknar strukturellt och farmakologiskt klozapin. Alimemazin liknar strukturellt tricykliska antidepressiva. Den aktiva metaboliten av Hydroxyzin är cetrizin.
 
@@ -2032,9 +2033,7 @@ Indikationer:
 
 - Antiemetiskt: Prometazin, alimemazin
 
-Biverkningar: Negativ inverkan på bilkörning, inlärning, dyskinesi, blefarospasm, takycardi, konfusion, QTT, arytmi, fallrisk, antikolinerga effekter (undvik vid prostatism, glaukom)
-
-De intas 1-2 tim före sänggående
+Biverkningar: Negativ inverkan på bilkörning, inlärning, dyskinesi, blefarospasm, takycardi, konfusion, QTT, arytmi, fallrisk, antikolinerga effekter (undvik vid prostatism, glaukom).
 
 Tabell: Dosering H1-antihistaminer
 
@@ -2044,18 +2043,23 @@ Tabell: Dosering H1-antihistaminer
 | Prometazin     | Lergigan   | 25     | 1-2x1-3    | 25-50    | 150    |
 | Alimemazin     | Theralen   | 20     | -          | 10-30    |        |
 | Propiomazin    | Propavan   | 25     | -          | 25-50    |        |
+
+De intas 1-2 tim före sänggående. Alimemazin vid Alkoholism och eufomani: Lätta och medelsvåra orostillstånd: Initialt 40–60 mg 2–3 gånger dagligen. Därefter 5–10 mg 2–3 gånger dagligen
+
+Tabell: Andra sömnmedel
+
+| Läkemedel      | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
+|----------------|------------|--------|------------|----------|--------|
 | Mirtazapin     | Mirtin     | 15     |            | 7.5-15   |        |
-| Mianserin      |            | 10     |            | 10-30    |        |
+| Mianserin      | Mianserin  | 10     |            | 10-30    |        |
 | Amitriptylin   | Sensaval   | 10     |            | 10-20    |        |
 | Kvetiapin      | Quetiapin  | 25     |            | 12.5-800 |        |
-| Levomepromazin |            | 25     |            | 25-50    |        |
-| Melatonin      |            | 1      |            | 1-2      | 2      |
-| Zolpidem       |            |        |            |          |        |
-| Zopiklon       |            | 5      |            | 5-7.5    |        |
-| Klometiazol    | Heminevrin |        |            | 300-600  |        |
-|                | Suvorexant |        |            |          |        |
-
-Alimemazin vid Alkoholism och eufomani: Lätta och medelsvåra orostillstånd: Initialt 40–60 mg 2–3 gånger dagligen. Därefter 5–10 mg 2–3 gånger dagligen
+| Levomepromazin | Nozinan    | 25     |            | 25-50    |        |
+| Melatonin      | Aritonin   | 1      |            | 1-2      | 2      |
+| Zolpidem       | Stilnoct   | 10     |            | 5-10     | 10     |
+| Zopiklon       | Imovane    | 5      |            | 3.75-7.5 | 7.5    |
+| Klometiazol    | Heminevrin | 300    |            | 300-600  |        |
+| Suvorexant     | Belsomra   | 10     |            | 10-20    |        |
 
 Tabell: Farmakokinetik H1-antihistaminer
 

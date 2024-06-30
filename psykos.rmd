@@ -1,0 +1,222 @@
+# Psykos {#psychosis}
+
+Kan ej skilja på inre och yttre.
+
+Psykos inbegriper (enskilt eller i någonn kombination):
+
+- Hallucinationer
+- Vanföreställningar
+- Desorganiserat beteende
+- Desorganiserat tal
+
+Hallucinationer: Sensoriska upplevelser som saknar yttre stimulus. Vid psykos saknas insikt om att yttre orsak inte finns.
+
+Vanföreställningar: Helt osannolika föreställningar som personen är starkt övertygad om ävan när motsatsen bevisas. Kan beskrivas som persekutoriska, grandiosa, grandiosa, erotomana, religiösa.
+
+Desorganiserat beteende: Udda rörelser, kroppspositioner, katatoni.
+
+Desorganiserat tal: Ologiskt innehåll, obegriplighet, tangentialitet, neologismer, klangassociationer, ordsallad, ekolali mm.
+
+Biologiska, psykosociala, och kulturella faktorer kan bidra.
+
+I psykiatrisk diagnostik används tex duration (tex >6 månader vid schizofreni) och relation till affektiva episoder (endast inom- eller finns även utanför) för att indela psykoser i olika diagnoser.
+
+[@Lieberman2018]
+
+Överskott på dopaminerg och glutamaterg signalering kan vara en biologisk process som orsakar psykos. Kannabinoidreceptorer och serotonin (psykedelika) kan också vara inblandade.
+
+Huntingtons sjukdom kan ge psykos (10%), ofta även depression, kognitiv nedsättning, irritabilitet.
+
+## Differentialdiagnostik
+
+| Orsak               | Debutålder | Förlopp  | Funktion | Not             | Livstid |
+|---------------------|------------|----------|----------|-----------------|---------|
+| Akut psykos         |            |          |          |                 | 0.05    |
+| Schizofreni         | 15-30      | Smygande |          |                 | 0.3-0.9 |
+| Schizofreniform     |            |          |          |                 | 0.07    |
+| Schizoaffektiv      |            | Smygande |          |                 | 0.3     |
+| Vanföreställnsyndr  | Medelålder |          |          |                 | 0.18    |
+| Depression m psykos | 15-30      |          |          |                 | 0.33    |
+| Bipolär m psykos    | 15-30      |          |          |                 | 0.12    |
+| Post partum         |            |          |          |                 | 0.07    |
+| Neurodegenerativ    | Äldre      |          |          |                 |         |
+| Toxisk              |            | Snabbt   | Snabb    |                 |         |
+| Medicinskt tilst    |            | Snabbt   | Snabb    |                 |         |
+| Delirium            |            |          |          | Ouppmärksamhet  |         |
+| Demens              |            |          |          | Kognitiv defekt |         |
+| SLE                 |            |          |          | 30% NMDAR-ak    |         |
+| Ovariecancer        |            |          |          | NMDAR-ak        |         |
+| Tertiärsyfilis      |            |          |          |                 |         |
+
+Toxisk/medicinsk: a history of headaches, seizures, or visual, olfactory, or tactile hallucinations; and an absence of a family history of psychotic disorders
+
+Visuella hallucinationer eller ändrad medvetandegrad kan tala för sekundär orsak.
+
+Schizofreni och schizoaffektid sjukdomsförlopp: premorbid, prodromal, syndromal, progressive, and chronic stages 
+
+Hereditet: Schizofreni och bipolär m psykos har vardera konkordans 50% hos enäggstvillingar. Förstagraddsläktingar till person med psykos har 10-15 ggr högre prevalens.
+
+
+## Tankestörning
+
+
+## Akut psykos
+
+ICD: Akut och övergående psykos
+DSM: Brief psychotic disorder
+
+Psykotiska symtom under 1 dag till 1 månad, utan annan orsak (stressor kan ingå i ICD-definitionen).
+
+<!-- Orsaker, principiellt: -->
+
+<!-- - Biologiska (neurologiska, droger, medicinska, psykiatriska) -->
+<!-- - Psykologiska (stress) -->
+<!-- - Sociokulturella -->
+
+sychiatric causes include schizophrenia, schizoaffective disorder, bipolar disorder, major depressive disorder, delusional disorder, schizophreniform disorder, brief psychotic disorder, and postpartum psychosis
+
+Kartlägg ärftlighet, sociala faktorer, missbruk, drogbruk, livshändelser, 
+
+Autoimmun encefalit: Kramper, katatoni, autonom instabilitet, hyperkinesi.
+
+### Provtagning
+
+- Drogscreening
+- Uteslut infektion: Temp, blodstatus, urinsticka, ev lungröntgen, blododling, LP.
+- Uteslut metabol orsak: Krea (uremi), glukos, leverstatus (leversvikt, Wilsons), elektrolyter inkl kalcium (Addison, cushing, hyperpara)
+- Endokrint: Thyroideastatus
+- Uteslut autoimmun orsak: ANA (SLE),
+- Övrigt: HIV, syfilis, (ceruloplasmin). Ev EEG (EP), läkemedelskonc, tungmetaller
+- B12, folat
+- Alkoholmarkör?
+- MR: Demyeliniserande sjukdom, stroke, hjärntumör
+
+## Behandling
+
+"Numerous agents have been
+examined as adjunctive treatments to antipsy-
+chotic medications, but their effects are modest,
+and evidence for their efficacy is limited. 35 The
+same is true for combinations of conventional
+antipsychotic drugs.
+
+ECT is effective for cata-
+tonia and for mood disorders with psychotic
+symptoms and is indicated in patients with
+schizophrenia or schizoaffective disorders when
+symptoms are unresponsive to antipsychotic
+medications.
+One promising application of neuromodula-
+tion is for control of psychotic auditory or verbal
+hallucinations. Initial studies were performed
+with TMS applied over the region of the left
+temporal lobe that overlies the auditory cortex. 36
+More recently, tDCS applied over the region of
+the auditory cortex has led to reductions in hallu-
+cinations and in persistent negative symptoms of
+schizophrenia, such as apathy and social with-
+drawal.
+
+Cognitive and behavioral rehabilitation has been
+used in the treatment of idiopathic psychotic
+disorders — in particular, schizophrenia.39 The
+most widely studied of these techniques is social
+skills training, in which patients are instructed,
+after stabilization of their acute psychotic symp-
+toms, about appropriate modes of behavior and
+communication with others and about practical
+life skills that may have been impaired by psy-
+chotic disorders. Another psychosocial treatment
+with strong empirical support is family psycho-
+education, which enables family members to help
+support the patient’s recovery.
+
+Cognitive behavioral therapy (CBT), a treat-
+ment originally developed for mood and anxiety
+disorders, may also be useful for psychotic symp-
+toms. Specific CBT approaches used in treating
+patients with schizophrenia include cognitive
+restructuring (i.e., engaging patients to change
+beliefs about their hallucinations and delusions),
+behavioral exposure to stimuli that trigger psy-
+chotic symptoms to enhance reality testing, self-
+monitoring, and graded coping skills. CBT in
+patients with schizophrenia can also help to re-
+duce the distress caused by hallucinations or
+delusional beliefs."
+
+## Särskilda typer av psykos
+
+   - The delusion in Capgras syndrome is the belief that a familiar person has been replaced by an impostor.
+
+Capgras
+
+- Vanföreställning om att en välkänd nära person har bytts ut mot en bedragare
+- Organisk orsak (lewykroppsdemens, EP, stroke, B12-brist, hepatisk encefalopati, diabetes, hypothyroidism) i 25% av fallen
+
+### Lewykroppsdemens och parkinson med demens
+
+Konfusion, parkinsonism, synhallucinationer, påminner om parkinson med demens. Den mest vanliga demenssjukdomen efter alzheimers. Prevalens ca 15% av demenspatienter i kliniska material, i patologiska studier 20%.  Ofta fluktuerande symtom vilket kan föranleda att man söker akut
+
+#### Lewy body demens – Identifiera de 4 kärntecken
+
+1. Fluktuerande kognition/uppmärksamhet och vakenhet(uttalad trötthet, episodisk konfusion, vilda drömmar, mycket trött, sover >2 timmar på dagen)
+
+- Vanligt med dagar (till veckor) där den kognitiva funktionen är avsevärt bättre
+- Dvs Slöhet samt kognitiv dysfunktion. Orsakad av autonom dysfunktion med cirkulationsproblem
+
+2. Återkommande synhallucinationer(synhallucinationer med insikt, brukar vara välformade och detaljerade. dubletter av maken/makan = capgras)
+
+- Sällan auditiva hallucinationer
+
+3. REM-sömnstörning (vilda drömmar, kan föregå de kognitiva symptomen).
+
+- Agerar ut drömmarna: Endast viókalisering är normalt, men sparkar, viftar, ramlar ur sängen. Kan vara tidigt tecken.
+
+4. Minst ett av parkinsonismens kardinalsymptom (bradykinesi, vilotremor, rigiditet). Bradykinesi är det viktigaste symtomet vid parkinsonism.
+
+- Oftast bilateralt symmetriskt (jfr Mb Parkinson ofta ensidig första året)
+
+#### Lewy body demens – stödjande kliniska tecken
+
+(behövs inte för diagnos)
+
+- Svår neuroleptika känslighet
+- Postural instabilitet. Upprepade fall
+- Svimning eller övergående episoder med okontaktbarhet
+- Svår autonom dysfunktion (förstoppning, ortostatisk hypotension, urininkontinens
+- Hypersomni
+- Hypoosmi
+- Hallucinationer av andra modaliteter 
+- Systematiserade vanföreställningar (cotard)
+- Apati, oro, depression
+
+Stödjande biomarkörer
+
+- Relativt bevarade mediala temporallober på CT/MR
+- Generellt lågt upptag på SPECT/PET
+perfusion/metabolism scan med reducerad occipital
+aktivitet, ”cingulate island sign” på FDG-PET.
+- DaT(dopamine transporter) SCAN, För diff diagn mellan DLB och AD
+- Uttalad långsam EEG aktivitet posteriort med periodiska fluktuationer i prealpha/theta området.
+
+#### Lewy body demens – kriterier, tolkning
+
+- Sannolik (probable) DLB: 2 eller fler kärntecken eller 1 kärntecken + 1 eller fler indikativa biomarkörer
+- Möjlig (possible) DLB: 1 eller fler kärntecken eller 1 eller fler indikativa biomarkörer
+
+<!-- *** Medicinering: (för detaljer se sist) -->
+
+<!-- - Förstahands behandling: Acetylkolinesterashämmare (förbättrar även hallucinos) -->
+<!-- - RCT studie: Rivastigmine -->
+<!-- - Parkinsonismen – L-dopa -->
+<!-- - Drömsömnen – Mirtazapin (upp till 45 mg, hjälper mot rem-sömnstörningar), Klonazepam, Melatonin -->
+<!-- - Hallucinationer – öka kolinesterashämmare, (Quetiapin?, Klozapin?) -->
+<!-- - Ortostatism – Stödstrumpor, Midodrine -->
+<!-- - Depression – SNRI, Mirtazapin -->
+<!-- - Nokturi - ? Behandling:EJ antikolinergika (Detrusitol, Emselex, -->
+<!-- Vesicare) -->
+<!-- Inkontinenshjälpmedel. Minskad dryck, fr a kaffe, öl till -->
+<!-- kvällen/natten. -->
+
+<!-- https://www.bmj.com/content/374/bmj.n1779/rr-4 -->

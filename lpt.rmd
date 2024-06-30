@@ -628,6 +628,107 @@ Vårdplanen ska så långt möjligt utformas i samråd med patienten och, om det
 >Regeringen eller den myndighet som regeringen bestämmer meddelar föreskrifter om hur uppgiftsskyldigheten enligt första stycket ska fullgöras. Lag (2012:938).
 
 
+## Öppen psykiatrisk tvångsvård
+
+Hur används detta i praktiken?
+
+[Dalarna](https://www.regiondalarna.se/contentassets/dceb2b05e4394d298f84433fcdb8ab19/oppen-psykiatrisk-tvangsvard-och-oppen-rattspsykiatrisk-vard.pdf)
+
+Då chefsöverläkaren ansöker om öppen psykiatrisk tvångsvård har denna bedömt att patienten inte har ett oundgängligt behov av sjukhusvård. Om en patient tex inte behöver vårdas inneliggande av andra skäl änbristande följsamhet, eller antar jag tex om hen saknar anhöriga som kan larma vid försämring eller liknande förhållanden, kan ÖPT med villkor om medicinering och kontakt med vården vara ett alternativ. I praktiken får då öppenvården ansvar för att bedriva vården (uppföljning) men chefsöverläkaren i slutenvården har det medicinska och juridiska ansvaret för tvångsvården (vid tex medicinjusteringar sker samråd).
+
+De särskilda villkoren får avse:
+
+- skyldighet att underkasta sig medicinering eller annan vård eller behandling,
+- skyldighet att hålla kontakt med en viss person,
+- skyldighet att vistas på ett hem eller annan institution för vård eller behandling eller att besöka en vårdcentral eller anlita socialtjänsten,
+- vistelseort, bostad, utbildning eller arbete,
+- förbud mot att använda berusningsmedel,
+- förbud mot att vistas på en viss plats eller att ta kontakt med en viss person, eller
+- annat som är nödvändigt eller följer av vårdplanen.
+
+Inga tvångsåtgärder får förekomma inom den öppna psykiatriska tvångsvården. Inte heller får insatser ges med tvång enligt social- tjänstlagen. De olika villkoren för den öppna psykiatriska tvångs- vården kan till exempel vara att patienten ska ta ordinerad medi- cin, ha regelbunden kontakt med en viss mottagning eller med viss vårdpersonal. Villkoren kan också vara att patienten ska ta emot vissa kommunala insatser, hålla sig drogfri med mera.
+
+Patienter som vårdas inom den öppna psykiatriska tvångsvården har ofta vårdats under lång tid inom den slutna psykiatriska tvångsvården eller haft flera vårdkontakter. Den frivilliga vården har inte varit tillräcklig för att hindra patienterna från att återinsjukna i all- varlig psykisk störning
+
+### Samordnad vårdplan
+
+Samordnad vårdplan ska innehålla uppgifter om:
+
+- det bedömda behovet av insatser från sjukvården och kommunen
+- eventuella åtgärder som vidtas av andra än regionen eller kommunen
+- vilken enhet vid regionen eller kommunen som ansvarar för respektive insats
+- beslut om insatser
+- patientens inställning till insatserna i vårdplanen
+
+Dokumentation sker i befintligt journalsystem, SIP, där varje enhet själva
+ansvarar för sin dokumentation.
+
+- vem som är fast vårdkontakt, 
+- vem som är patientansvarig läkare i öppenvården och i slutenvården.
+- i vilken omfattning patienten ska träffa läkare i öppenvården samt hur kontakten/behandlingen i övrigt skall se ut.
+- de villkor för ÖPT/ÖRV som chefsöverläkaren anser ska gälla för patienten och som kommer att föreslås till förvaltningsrätten.
+- vad patienten har för inställning till vården och villkoren i en samordnade vårdplanen samt om patienten deltagit i planeringen eller inte.
+
+Chefsöverläkare meddelar på vårdplaneringen om ansökan gällande ÖPT/ÖRV kommer att skrivas samt vilken vecka/dag som förhandlingen troligen kommer att ske. Finns behov av stöd vid transport till förhandlingen ska genomförandet av
+detta planeras och dokumenteras i vårdplanen
+
+Justerad vårdplan skrivs ut i slutenvården och lämnas till medicinsk
+sekreterare för att bifogas chefsöverläkarens ansökan om ÖPT eller ÖRV.
+Patienten och berörda myndigheter har rätt att få en kopia på justerad
+vårdplan.
+
+### Förfarande efter beslut från rätten
+
+Förvaltningsrätten beslutar om ÖPT/ÖRV och fastställer dess villkor.
+
+Efter förhandlingen ansvarar chefsöverläkaren för att domen förs in i journalen. **Om villkoren i domen skiljer sig ifrån de villkor som angivits i vårdplan/ansökan skall detta förtydligas**. Chefsöverläkaren skall meddela domen till ansvarig på avdelningen, öppenvården och kommunen
+
+När patienten vårdas enligt ÖPT/ÖRV har öppenvårdsläkaren ansvar att bedriva vård och behandling medans chefsöverläkaren i slutenvården har det medicinska och juridiska ansvaret för tvångsvården
+
+Fast vårdkontakt och behandlande läkare i öppenvårdspsykiatrin ansvarar för patientens vård och behandling. 
+
+- öppenvårdspsykiatrin regelbundet ska bedöma patientens tillstånd genom besök till fast vård kontakt och läkarbesök. 
+- Läkarbesök skall planeras in efter behov men minst två gånger per år. 
+- Om patienten har svårt att ta sig till öppenvården ska hembesök genomföras.
+
+Iakttas försämring av patientens tillstånd eller biverkningar kontaktas i första hand behandlande läkare i öppenvården för en bedömning och åtgärd.
+
+- Om läkarbedömningen är att patientens tillstånd kräver medicinjusteringar kontaktas patientens ansvariga läkare i slutenvård för samsyn gällande medicinering. 
+- Öppenvårdens läkare ska efter komunicerad samsyn justera läkemedelsjournal och skriva eventuella recept samt tillgodose administrering av läkemedel.
+
+<!-- Om du inte når läkaren direkt så kontakta patientens fasta vårdkontakt i slutenvården eller hemavdelningen och be dem förmedla kontakt med ansvarig chefsöverläkare. Öppenvårdens läkare ska efter komunicerad samsyn justera läkemedelsjournal och skriva eventuella recept samt tillgodose administrering av läkemedel. Om läkarbedömningen är att patientens tillstånd kräver slutenvård kontaktas slutenvården enligt överenskommet i vårdplanen -->
+
+<!-- Fast vårdkontakt i öppenvården ansvarar för att provtagning sker enligt gällande rutiner/riktlinjer eller ordination. Provtagning och mätvärden skall tas minst en gång om året. Om patienten inte medverkar skall detta tas upp med ansvarig läkare i öppenvårds-psykiatrin som får avgöra hur man går vidare -->
+
+Då patienten har en dom på ÖPT/ÖRV görs samordnade vård-planeringar enligt LPT regelbundet, minst en gång i halvåret för att ta ställning till om ÖPT/ÖRV kan avskrivas eller om ansökan om fortsatt ÖPT/ÖRV skall skrivas. Kallelser till dessa samordnade vårdplaneringar bör skickas ca 3-8 veckor före utsatt datum. Fast vårdkontakt i öppenvården ansvarar för att boka samt kalla berörda personer/enheter till den samordnade vårdplaneringen.
+
+Chefsöverläkaren har ansvaret för att följa upp den samordnade vårdplanen genom att hålla sig uppdaterad om patientens tillstånd och behov. Detta kan ske genom direkt kontakt med patienten, med den öppna psykiatriska vården, primärvården och den kommunala verksamheten
+
+### Återintagning från öppen psykiatrisk tvångsvård
+
+För att en patient ska återintas räcker det **inte** med att patienten inte rättar sig efter de villkor som föreskrivits. 
+
+Det räcker således inte för en återintagning att patienten inte tar ordinerad medicin eller inte deltar i en planerad missbruksbehandling eller inte kommer i tid till planerade återbesök. En återintagning ska bedömas utifrån det individuella fallet och är beroende av patientens sjukdomstillstånd och de villkor som är föreskrivna. Villkoren ska vara ändamålsenliga utifrån vården av patienten. Förutsättningar för att patienten kan återintas kan till exempel vara att patienten överhuvudtaget vägrar att infinna sig på återbesök eller för annan behandling, vilket bedöms komma att ha negativa konsekvenser för patientens hälsa. Chefsöverläkaren får fatta beslut om återintagning i de fall förvaltningsrättens beslut inte kan avvaktas. Patienten ska då uppfylla de kriterier som finns för vård enligt lpt.
+
+### Material
+
+[Material](https://www.vardochinsats.se/schizofreni-och-liknande-tillstaand/behandling-och-stoed/tvaangsvaard-oeppen/)
+
+Anmälan till IVO inspektionen för Vård och Omsorg, IVO 
+
+Om hot och våld inom vården med checklista för hot- och våldssituationer, Vårdhandboken
+
+Information till patienten (olika språk)
+
+Broschyren Psykiatrisk tvångsvård – Information till dig som vårdas enligt lagen om psykiatrisk tvångsvård, NSPH, SKR (pdf, ny flik)
+
+Dina rättigheter i tvångsvården – vård enligt LPT, Socialstyrelsen (pdf, ny flik)
+
+Kunskapsdokument
+
+Kliniska riktlinjer för vård och behandling vid psykiatrisk tvångsvård, Svenska psykiatriska föreningen (pdf, ny flik)
+
+
 ## Resurser
 
 [LPT lagtext](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-19911128-om-psykiatrisk-tvangsvard_sfs-1991-1128) [@Socialdepartementet1991lpt]

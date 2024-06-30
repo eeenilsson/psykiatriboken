@@ -194,22 +194,72 @@ Om något av ovanstående föreligger, tag EKG och överväg kardiologkonsult.
 
 ## Uppföljning
 
-- Baslinje: Blodtryck, puls, biverkningsformulär och ASRS
-- Två veckor efter insättning eller dosökning: Blodtryck, puls, biverkningsformulär och ASRS.
-- Återbesök hos läkare efter fyra veckor till sex veckor efter första besöket.
-- Sexmånaderskontroll efter optimerad dostitering: provtagning (ASAT, ALAT, Na, K, krea, CDT
-och peth och urindrogscreening ), kontroll av puls och blodtryck hos sjuksköterska. Kiralt
-amfetamin-urinprov om patienten står på Elvanse och/eller Attentin/Metamina
-(lisdexamfetamin/dexamfetamin). Skattning av behandlingseffekt (ASRS) och eventuella
-biverkningar (se biverkningsformulär) får också göras hos sjuksköterska i samband med
-sexmånaderskontrollen.
-- Vid stabil och okomplicerad behandling, kontroll därefter, två gånger per år hos sjuksköterska
-med kontroll av blodtryck, puls, vikt samt skattning av behandlingseffekt (ASRS) och eventuella
-biverkningar (se biverkningsformulär). Det är viktigt med en individuell bedömning.
-- Årskontrollprover/undersökningar: ASAT, ALAT, Na, K, krea CDT och peth och
-urindrogscreening, puls, blodtryck och EKG. Kiralt amfetaminurinprov vid behov.
-- Årsbesök hos läkare en gång/år. Det är viktigt med en individuell bedömning.
-- Fortlöpande bedömning av behovet av fortsatt medicinering hos specialistläkare i psykiatri.
+Kontroller görs vid baslinje, 2v efter dosökning, efter 6 månader, och därefter årligen.
+
+Då kontrolleras BT, puls, ASRS, biverkningsformulär och prover (prover ej efter dosökning men vid övriga kontroller).
+
+Prover: provtagning (ASAT, ALAT, Na, K, krea, CDT och peth och urindrogscreening ). Kiralt amfetamin-urinprov om patienten står på Elvanse och/eller Attentin/Metamina (lisdexamfetamin/dexamfetamin).
+
+EKG?
+
+<!-- | Uppföljning     | BT | Puls | ASRS | Bivekn | Prover | -->
+<!-- |-----------------|----|------|------|--------|--------| -->
+<!-- | Baslinje        | x  | x    | x    | x      | x      | -->
+<!-- | 2v efter dosökn | x  | x    | x    | x      |        | -->
+<!-- | 6m              | x  | x    | x    | x      | x      | -->
+<!-- | Årligen         | x  | x    | x    | x      | x      | -->
+
+<!-- - Baslinje: Blodtryck, puls, biverkningsformulär och ASRS -->
+<!-- - Två veckor efter insättning eller dosökning: Blodtryck, puls, biverkningsformulär och ASRS. -->
+<!-- - Återbesök hos läkare efter fyra veckor till sex veckor efter första besöket. -->
+<!-- - Sexmånaderskontroll efter optimerad dostitering: provtagning (ASAT, ALAT, Na, K, krea, CDT -->
+<!-- och peth och urindrogscreening ), kontroll av puls och blodtryck hos sjuksköterska. Kiralt -->
+<!-- amfetamin-urinprov om patienten står på Elvanse och/eller Attentin/Metamina -->
+<!-- (lisdexamfetamin/dexamfetamin). Skattning av behandlingseffekt (ASRS) och eventuella -->
+<!-- biverkningar (se biverkningsformulär) får också göras hos sjuksköterska i samband med -->
+<!-- sexmånaderskontrollen. -->
+<!-- - Vid stabil och okomplicerad behandling, kontroll därefter, två gånger per år hos sjuksköterska -->
+<!-- med kontroll av blodtryck, puls, vikt samt skattning av behandlingseffekt (ASRS) och eventuella -->
+<!-- biverkningar (se biverkningsformulär). Det är viktigt med en individuell bedömning. -->
+<!-- - Årskontrollprover/undersökningar: ASAT, ALAT, Na, K, krea CDT och peth och -->
+<!-- urindrogscreening, puls, blodtryck och EKG. Kiralt amfetaminurinprov vid behov. -->
+<!-- - Årsbesök hos läkare en gång/år. Det är viktigt med en individuell bedömning. -->
+<!-- - Fortlöpande bedömning av behovet av fortsatt medicinering hos specialistläkare i psykiatri. -->
+
+### Åtgärder vid högt blodtryck
+
+Förslag
+
+Centralstimulantia (inklusive atomoxetin) ökar blodtrycket med i snitt  2 enheter (1-3 enheter för de flesta) och pulsen 6 enheter (4-8 enheter för de flesta). Omkring 4% av de som behandlas får puls > 90[@Mick2013]. Högt blodtryck ger inga symtom, om det inte är väldigt högt (svår hypertoni). Däremot ger det över tid ökad risk för hjärt-kärlsjukdom.
+
+Tabell: Åtgärder vid högt blodtryck
+
+| Systoliskt | Diastoliskt | Diagnos               | Åtgärd                               |
+|------------|-------------|-----------------------|--------------------------------------|
+| <120       | <80         | Optimalt              |                                      |
+| 130        | 85          | Högt normalt          | Ingen (livsstilsråd)                 |
+| 140        | 90          | Hypertoni             | Omkontroll efter 1-3v                |
+| 160        | 100         | Måttlig hypertoni     | Uppehåll läkemedel, omkontroll 1-3 v |
+| 180        | 110         | Mycket högt blodtryck | Kontakta läkare                      |
+| 240        | 130         | Svår hypertoni        | Kan vara akut. Kontakta läkare       |
+
+Högsta värdet (systoliskt/diastoliskt) gäller. För diagnosen "hypertoni" krävs ett förhöjt blotryck vid minst tre mätningar med minst en veckas mellanrum. Undantag: Vid mycket högt blodtryck kan diagnosen ställas efter en mätning.
+
+Om blodtrycket är förhöjt, låt patienten vila i fem minuter och tag ett nytt. Det lägsta värdet gäller.
+
+Om blodtrycket är >140/90 vid två mätningar (med >1 v mellanrum), diskutera dossänkning med patienten och tag ett uppföljande blodtryck efter 1-3 v. Om det då är >140/90kontakta läkare för remiss till vårdcentralen för blodtrycksbehandling.
+
+Om blodtrycket är >160/100 vid två mätningar pausas behandlingen tills det är åtgärdat. Tag ett uppföljande blodtryck efter 1 v. Om det är >140/90kontakta läkare för remiss till vårdcentralen för blodtrycksbehandling.
+
+Vid puls >100 låt patienten vila 5 minuter och kontrollera igen. Om fortfarande >100 kontakta läkare.
+
+**Läkare:**
+
+Om blodtrycket är > 140/90 vid tre mätningar (med >1 v mellanrum) skrivs remiss till vårdcentralen för blodtrycksbehandling. Alternativt prova dossänkning.
+
+Om blodtrycket är > 180/110 är det sannolikt olämpligt att försöka sig på fortsatt behandling med centralstimulantia. Läkemedlet bör sättas ut och blodtrycket kontrolleras efter en vecka. HAr det då mot förmodan normaliserats kan man försöka med en lägre dos.
+
+Vid takycardi bör patienten bedömas avseende symom på hjärtsvikt, arytmi, etc. Ett EKG bör kontrolleras. Dossänkning och uppföljning efter ungefär en vecka rekommenderas (om symtom på hjärtsjukdom finns, tex förmaksflimmer, kan akut handläggning behövas). Om fortsatt >100, utsättning? Tillägg av guanfacin (off-label) kan vara ett alternativ, det sänker puls och blodtryck.
 
 ## Särskild observans
 
@@ -237,11 +287,15 @@ Omkring 70% svarar på behandling och förbättrar både symtom på ouppmärksam
 
 Vanliga biverkningar är insomni, illamående, anorexi, minskad aptit, viktförlust, huvudvärk, irritabilitet, humörsvängningar, buksmärta, ökad puls, förhöjt blodtryck. Kan även ge tics. I ovanliga fall kramper, psykos, hepatotoxicitet. Många biverkningar minskar över tid. Vissa biverkningar, tex irritabilitet, som uppträder sent på dagen kan bero på rebound-fenomen och föranleda extra dos av CS på eftermiddagen. Samma gäller för insomni.
 
-**Atomoxtin** (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. Bupropion är kan användas som andrahandsval mot ADHD-symtom [@Kolar2008].
+**Atomoxtin** (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. 
 
 >Atomoxetin (Strattera) kaps. 10, 18, 25, 40, 60 och 80 mg: är ett icke-narkotikaklassat läkemedel.  Preparatet kan användas om metylfenidat inte har tillräcklig effekt och/eller när det inte är lämpligt att använda centralstimulerande medel, t.ex. vid svåra tics, allvarlig sömnstörning, behov av effekt över hela dygnet, okontrollerat missbruk/risk för missbruk eller annan felaktig användning av centralstimulantia. Atomoxetin har inte satts i samband med missbruk (Läkemedelsverket, 2009).  Effekt uppnås efter ca 4-6 v. Atomoxetin kan kombineras med centralstimulantia och har visat god effekt vid insomningsproblem om det ges på kvällen.  (Vårdprogrem BC stockholm).
 
 >The initial therapeutic effects of atomoxetine usually take 1 to 4 weeks to become apparent.[5][25][26] A further 2 to 4 weeks may be required for the full therapeutic effects to be seen.[27][25] Incrementally increasing response may occur up to 1 year or longer.[26][28] The maximum recommended total daily dose in children and adolescents over 70 kg and adults is 100 mg (Wikipedia)
+
+**Bupropion** kan användas som andrahandsval mot ADHD-symtom [@Kolar2008].
+
+**Guanfacin** är inte godkänt för behandling av ADHD hos vuxna, men det finns studier som talar för en positiv effekt på ADHD-symtom och tics vid monoterapi[@Ota2021;@Iwanami2020]. Hos barn har en enstaka studie av kombinationsbehandling visat positiv effekt på ADHD-symtom och arbetsminne men ej kognition[@Bilder2016].
 
 Se [NICE Guidelines för läkemedelsbehandling av ADHD](https://www.nice.org.uk/guidance/ng87/chapter/Recommendations#medication).
 
@@ -318,7 +372,26 @@ p
 ## dev.off()
 
 ``` 
- 
+
+### Val av behandling
+
+En strategi är att låta patienten prova dels metylfenidat och dels något amfetaminpreparat, för att värdera vilket som fungerar bäst.
+
+ <!-- One is a nasty experience with no benefits and lots of side effects. Ten is the best result the patient can imagine. Anything six or below is a treatment failure, and physicians should keep looking for a better medication. Seven is acceptable, but the goal is between eight and ten. -->
+
+Undersök patientens förvöntningar. Målet är normal funktion, inte att "känna sig stimulerad". Symtom som prokrastinering, distraktion, otålighet, impulsivitet och rastlöshet bör förbättras av behandlingen.
+
+<!-- Physicians can sit down with patients and say, “Let’s make a list of the things about ADHD that you want to get rid of, that you don’t like.” There are lots ADHD characteristics that people do like — the cleverness, the problem-solving, the creativity, the wacky, zany sense of humor — and the nice thing is, all of those things stay when medication gets rid of the things that a person doesn’t like. Then ask, “What is it about ADHD that bothers you the most?” The impairments that respond to medication are procrastination, distraction, finding it hard to stick with boring tasks, impatience, impulsivity, and restlessness. Symptoms that are not as affected by medication include disorganization, argumentativeness, and oppositional behavior. -->
+
+Öka dosen tills dosökning inte längre ger någon tydlig effekt. Backa därefter till senaste dos.
+
+<!-- Physicians can say, “Look at your target symptoms. Each time, when we raise the dose, you should see a clear, dramatic improvement in all your target symptoms, and no side effects other than a mild, transient loss of appetite.” So long as you see things getting better and better, without side effects, physicians can keep raising the dose. At some point though, physicians will raise the dose and the patient will say, “There weren’t any further improvements. Every other time we raised the dose I could clearly see improvement. This time, this dose and the previous dose seem exactly the same to me.” At that point, the previous dose is the very lowest dose that gives the patient 100% of what that medication has to offer.  -->
+
+### Toleransutveckling
+
+Toleransutveckling mot centralstimulantia, dvs avtagande effekt över tid, förekommer sannolikt hos upp till 30% av patienter[@Handelman2022]. Den kan uppträda snabbt (inom dagar-veckor), eller gradvis upp till flera år efter start av behandling. Det uppkommer sannolikt främst vid doser över rekommenderad maxdos.
+
+Någon evidensbaserad åtgörd finns ej, men planerade uppehåll (drug holidays) eller byte till annat preparat kan provas.
 
 ## Psykopedagogiska insatser
 

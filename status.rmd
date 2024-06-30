@@ -1,0 +1,45 @@
+# Psykiatrisk anamnes och status
+
+## Anamnes, kortfattat
+
+  - Första debut
+  - Utlösande faktorer
+  - Förlopp, episoder (fria intervall)
+  - Funktionspåverkan, ADL, arbete
+  - Associerade kroppsliga symtom
+  - Ärftlighet: Bipolaritet, psykos, depression
+  - Uppväxt, skola, trauman
+  - Drog/alkoholbruk, analgetika, naturläkemedel
+  - Psykosocialt: Arbete, relationer
+  - Tvång: Tvätt, ritualer, kontrolltvång 
+
+- Sömn (lägger sig, somnar, vaknar under natten, kliver upp)
+- Irritation, ilska
+- Ångest, rädsla, undvikande
+- Smärta, värk, smärtstillande
+
+## Status, kortfattat
+
+Status grundar sig på samtalet. Testa orientering och fråga om hallucinationer och suicidalitet. Observera beteende, gångmönster, tremor, tics, övervikt/avmagring. MoCa kan genomföras, ger information som kan ingå i psykiskt status (uppmärksamhet, minne, mm).
+
+"Ordnat yttre, vaken och orienterad. God formell och emotionell kontakt. Adekvat beteende. Normal uppmärksamhet och psykomotorik. Neutral grundstämning. Adekvata affekter med normal variation ("kan le under samtalet"). Normalt talflöde, tankeförlopp och tankeinnehåll ("håller röd tråd"). Negerar hallucinationer. God sjukdomsinsikt. Inga tankar på att skada sig själv eller andra."
+
+Eventuellt kommentera även: "Ingen övervikt eller avmagring. Normalt gångmönster, muskeltonus, och pupillstorlek. Ingen tremor, inga tics eller stereotypier."
+
+Exempel på avvikelser:
+
+- Hypervigilans
+- Ange vilken affekt patient främst förmedlar (Ångestpåverkad, orolig, irriterad, arg, ledsen, skamfylld, grandios mm)
+- Kognitiv hämning, emotionell hämning, initiativsvårigheter
+- Formella tankestörningar: Tankefattighet (minkad talproduktion), tankestopp, inhiberat tänkande, perseveration, omständlighet, tengentialitet, distraherat tal, tankeflykt (byter ämne) < uppluckrade associationer < osammanhängande tal, "loss of goal", ordsallad, neologismer, ekolali, förbisvar, gåtor, verbigeration, överinklusion, ologiskt tal.
+
+Skattningsskalor att överväga:
+
+- PHQ-9 Screening för depression
+- ASRS Screening för ADHD
+- MDQ eller HCL-32 Screening för bipolär
+- MADRS-S
+- HAD för ångest/depression
+
+
+<!-- Symtomskattning: https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures -->
