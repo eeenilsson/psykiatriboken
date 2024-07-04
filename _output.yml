@@ -49,5 +49,6 @@ bookdown::gitbook:
       vk: no
       all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
     info: yes
+  self_contained: true
   keep_tex: true
 
