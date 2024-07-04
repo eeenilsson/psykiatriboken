@@ -638,14 +638,15 @@ Tabell: Studie av avslut av antidepressiva i primärvård[@Lewis2021]
 | Randomized      | 238          | 240          |                |
 | Adherence       | 70%          | 52%          |                |
 | Relapse by v 52 | 92 (39%)     | 135 (56%)    | HR 1.56 to 2.7 |
-| PHQ 12w         | 4.1          | 6.3          | *              |
-| PHQ 26w         | 4.2          | 5.0          | *              |
-| PHQ 39w         | 3.8          | 4.4          | NS             |
-| PHQ 52w         | 3.7          | 4.0          | NS             |
-| DESS 12w        | 1.3          | 3.1          | *              |
-| DESS 26w        | 1.4          | 1.9          | *              |
-| DESS 39w        | 0.8          | 1.7          | *              |
-| DESS 52w        | 0.8          | 1.7          | NS             |
+
+<!-- | PHQ 12w         | 4.1          | 6.3          | *              | -->
+<!-- | PHQ 26w         | 4.2          | 5.0          | *              | -->
+<!-- | PHQ 39w         | 3.8          | 4.4          | NS             | -->
+<!-- | PHQ 52w         | 3.7          | 4.0          | NS             | -->
+<!-- | DESS 12w        | 1.3          | 3.1          | *              | -->
+<!-- | DESS 26w        | 1.4          | 1.9          | *              | -->
+<!-- | DESS 39w        | 0.8          | 1.7          | *              | -->
+<!-- | DESS 52w        | 0.8          | 1.7          | NS             | -->
 
 Discontinuation var över 2 månader. Trots gradvis uttrappning identifierade 70% v patienterna att de bytt till placebo och DESS var högre fram till vecka 39.
 
