@@ -93,61 +93,25 @@ Autoimmun encefalit: Kramper, katatoni, autonom instabilitet, hyperkinesi.
 
 ## Behandling
 
-"Numerous agents have been
-examined as adjunctive treatments to antipsy-
-chotic medications, but their effects are modest,
-and evidence for their efficacy is limited. 35 The
-same is true for combinations of conventional
-antipsychotic drugs.
+"Numerous agents have been examined as adjunctive treatments to antipsy- chotic medications, but their effects are modest, and evidence for their efficacy is limited. 35 The same is true for combinations of conventional antipsychotic drugs.
 
-ECT is effective for cata-
-tonia and for mood disorders with psychotic
-symptoms and is indicated in patients with
-schizophrenia or schizoaffective disorders when
-symptoms are unresponsive to antipsychotic
-medications.
-One promising application of neuromodula-
-tion is for control of psychotic auditory or verbal
-hallucinations. Initial studies were performed
-with TMS applied over the region of the left
-temporal lobe that overlies the auditory cortex. 36
-More recently, tDCS applied over the region of
-the auditory cortex has led to reductions in hallu-
-cinations and in persistent negative symptoms of
-schizophrenia, such as apathy and social with-
-drawal.
+ECT is effective for cata- tonia and for mood disorders with psychotic symptoms and is indicated in patients with schizophrenia or schizoaffective disorders when symptoms are unresponsive to antipsychotic medications.  One promising application of neuromodula- tion is for control of psychotic auditory or verbal hallucinations. Initial studies were performed with TMS applied over the region of the left temporal lobe that overlies the auditory cortex. 36 More recently, tDCS applied over the region of the auditory cortex has led to reductions in hallu- cinations and in persistent negative symptoms of schizophrenia, such as apathy and social with- drawal.
 
-Cognitive and behavioral rehabilitation has been
-used in the treatment of idiopathic psychotic
-disorders — in particular, schizophrenia.39 The
-most widely studied of these techniques is social
-skills training, in which patients are instructed,
-after stabilization of their acute psychotic symp-
-toms, about appropriate modes of behavior and
-communication with others and about practical
-life skills that may have been impaired by psy-
-chotic disorders. Another psychosocial treatment
-with strong empirical support is family psycho-
-education, which enables family members to help
-support the patient’s recovery.
+Cognitive and behavioral rehabilitation has been used in the treatment of idiopathic psychotic disorders — in particular, schizophrenia.39 The most widely studied of these techniques is social skills training, in which patients are instructed, after stabilization of their acute psychotic symp- toms, about appropriate modes of behavior and communication with others and about practical life skills that may have been impaired by psy- chotic disorders. Another psychosocial treatment with strong empirical support is family psycho- education, which enables family members to help support the patient’s recovery.
 
-Cognitive behavioral therapy (CBT), a treat-
-ment originally developed for mood and anxiety
-disorders, may also be useful for psychotic symp-
-toms. Specific CBT approaches used in treating
-patients with schizophrenia include cognitive
-restructuring (i.e., engaging patients to change
-beliefs about their hallucinations and delusions),
-behavioral exposure to stimuli that trigger psy-
-chotic symptoms to enhance reality testing, self-
-monitoring, and graded coping skills. CBT in
-patients with schizophrenia can also help to re-
-duce the distress caused by hallucinations or
-delusional beliefs."
+Cognitive behavioral therapy (CBT), a treat- ment originally developed for mood and anxiety disorders, may also be useful for psychotic symp- toms. Specific CBT approaches used in treating patients with schizophrenia include cognitive restructuring (i.e., engaging patients to change beliefs about their hallucinations and delusions), behavioral exposure to stimuli that trigger psy- chotic symptoms to enhance reality testing, self- monitoring, and graded coping skills. CBT in patients with schizophrenia can also help to re- duce the distress caused by hallucinations or delusional beliefs."
+
+## Behandling av akut försämring vid schizofreni
+
+Antipsykotiska medel har viss men måttlig effekt vid akut försämring (SMD 0.45 för positiva symtom; 0.35, för negativa symtom, livskvalitet och fungktion)[@Leucht2017]. 
+
+<!-- The analysis included 167 double-blind randomized controlled trials with 28,102 mainly chronic participants. The standardized mean difference (SMD) for overall efficacy was 0.47 (95% credible interval 0.42, 0.51), but accounting for small-trial effects and publication bias reduced the SMD to 0.38. At least a “minimal” response occurred in 51% of the antipsychotic group versus 30% in the placebo group, and 23% versus 14% had a “good” response. Positive symptoms (SMD 0.45) improved more than negative symptoms (SMD 0.35) and depression (SMD 0.27). Quality of life (SMD 0.35) and functioning (SMD 0.34) improved even in the short term. Antipsychotics differed substantially in side effects. Of the response predictors  -->
+
+
 
 ## Särskilda typer av psykos
 
-   - The delusion in Capgras syndrome is the belief that a familiar person has been replaced by an impostor.
+- The delusion in Capgras syndrome is the belief that a familiar person has been replaced by an impostor.
 
 Capgras
 
