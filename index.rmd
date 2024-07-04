@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo=FALSE,
 options(knitr.graphics.auto_pdf = TRUE) ## if latex .pdf files will replace .png
 ## options(knitr.table.format = "markdown") # for kable tables
 options(knitr.kable.NA = '')
-
+knitr::opts_knit$set(self.contained = TRUE)
 source('load_functions.r')
 
 ```
