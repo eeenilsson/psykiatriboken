@@ -167,7 +167,7 @@ Innan behandling med läkemedel för ADHD:
 - Riskbedömning avseende substansbruk och "drug diversion", kriminalitet
 - Omvårdnadsbehov
 - Medicinsk anamnes, kontraindikationer
-  - Förekomst av epilepsi och glaukom
+  - Förekomst av epilepsi (dock saknas tydligt samband till ökad anfallsfrekvens) och glaukom
   - Kardiovaskulär eller cerebrovaskulär sjuklighet, hereditet för plötslig död eller ventrikulär arytmi
 - Nuvarande medicinering
 - Längd vikt.
@@ -226,11 +226,12 @@ EKG?
 <!-- - Årsbesök hos läkare en gång/år. Det är viktigt med en individuell bedömning. -->
 <!-- - Fortlöpande bedömning av behovet av fortsatt medicinering hos specialistläkare i psykiatri. -->
 
+
 ### Åtgärder vid högt blodtryck
 
 Förslag
 
-Centralstimulantia (inklusive atomoxetin) ökar blodtrycket med i snitt  2 enheter (1-3 enheter för de flesta) och pulsen 6 enheter (4-8 enheter för de flesta). Omkring 4% av de som behandlas får puls > 90[@Mick2013]. Högt blodtryck ger inga symtom, om det inte är väldigt högt (svår hypertoni). Däremot ger det över tid ökad risk för hjärt-kärlsjukdom.
+Centralstimulantia (inklusive atomoxetin[@Wernicke2003]) ökar blodtrycket med i snitt  2 enheter (1-3 enheter för de flesta) och pulsen 6 enheter (4-8 enheter för de flesta). Omkring 4% av de som behandlas får puls > 90[@Mick2013]. Högt blodtryck ger inga symtom, om det inte är väldigt högt (svår hypertoni). Däremot ger det över tid ökad risk för hjärt-kärlsjukdom. <!-- och omkring 7% av barn får BT >95:e percentilen[@Graham2011] -->
 
 Tabell: Åtgärder vid högt blodtryck
 
@@ -269,25 +270,31 @@ Hjärtsjukdom: Vid anamnes för kardiovaskulär eller cerebrovaskulär sjuklighe
 
 Psykossjukdom: Obehandlad psykossjukdom innebär en absolut kontraindikation för behandling med centralstimulantia. Tidigare, övergående missbruksinducerade psykoser är inte kontraindikation men bör föranleda försiktighet.  
 
-Depression: Centralstimulantia och atomoxetin ska ges med försiktighet till patienter med svår depression, svår ångest eller aktuella suicidtankar, eftersom risk för försämring av dessa tillstånd finns.  Samexisterande tillstånd bör vara optimalt stabiliserade innan ADHD-läkemedel insättes.  
+Depression: Centralstimulantia och atomoxetin ska ges med försiktighet till patienter med svår depression, svår ångest eller aktuella suicidtankar, eftersom risk för försämring av dessa tillstånd finns.  Samexisterande tillstånd bör vara optimalt stabiliserade innan ADHD-läkemedel insättes (?).  
 
 Bipolär sjukdom: För behandling med centralstimulantia eller atomoxetin vid bipolär sjukdom krävs att patienten först har en väl inställd behandling med stämningsstabiliserande läkemedel. Även då krävs försiktighet och tätare kontroller av ADHD-medicinering eftersom dessa preparat kan försämra den bipolära sjukdomen.  
 
-Epilepsi: Vid behandling av vuxna med epilepsi, hjärnskada eller CNS-sjukdom bör försiktighet iakttas vid behandling med centralstimulantia och atomoxetin. Samråd gärna med neurolog.  
+Epilepsi: Vid behandling av vuxna med epilepsi, hjärnskada eller CNS-sjukdom bör försiktighet iakttas vid behandling med centralstimulantia och atomoxetin. Samråd gärna med neurolog.
+
+> Behandlingen med centralstimulantia har flera vanliga biverkningar; epileptiska anfall beskrivs som en sällsynt biverkan. I varningstexter i Fass står att metylfenidat bör användas med försiktighet vid epilepsi. Det vetenskapliga underlaget är för litet för att avgöra hur stor denna risk kan vara. Två randomiserade kontrollerade studier är utförda på personer med epilepsi, men med få deltagare och korta behandlingstider; dessutom finns observationsstudier som har inkluderat behandling av patienter med epilepsi som inte varit anfallsfria. Den sammantagna bedömningen är att risken för försämrad anfallskontroll är låg när personer med epilepsi behandlas med metylfenidat. För övriga läkemedel som används vid ADHD saknas underlag för att bedöma riskerna [Läkartidningen 2018](https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temaartikel/2018/05/begransad-risk-att-lakemedel-for-adhd-depression-eller-psykos-ger-epileptiska-anfall/).
 
 Tics: Centralstimulerande läkemedel kan öka eller utlösa motoriska och verbala tics och dyskinesier. I vissa fall bör detta motivera en dosreduktion eller ett avbrytande av behandling. Ibland kan istället minskade tics ses vid behandling med centralstimulantia.
 
 ## Läkemedel för ADHD {#adhd-medication}
 
-**Metylfenidat** är förstahandsval för barn, ungdomar och vuxna enligt lokala vårdprogrammet. Rekommendationsgrad A enligt läkemedelsverket 2016.
-
-**Lisdexamfetamin** (Elvanse) är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat (Concerta) provas. För vuxna kan upp till 108 mg Concerta behövas [@Kolar2008]. När båda dessa provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället. Dexamfetamin kan användas om den längre durationen hos föstahandsvalen ej tolereras.
-
-Omkring 70% svarar på behandling och förbättrar både symtom på ouppmärksamhet och hyperaktivitet [@Kolar2008]. Läkemedlen blockerar återupptag av noradrenalin och dopamin och amfetamin ökar frisättningen av dopamin. Metylfenidat ökar frisättningen av noradrenalin i delar av hjärnan [@Kolar2008].
+Omkring 70% svarar på behandling med centralstimulantia och de förbättrar både symtom på ouppmärksamhet och hyperaktivitet [@Kolar2008]. Läkemedlen blockerar återupptag av noradrenalin och dopamin. Amfetamin ökar även frisättningen av dopamin emedan Metylfenidat ökar frisättningen av noradrenalin i delar av hjärnan [@Kolar2008].
 
 Vanliga biverkningar är insomni, illamående, anorexi, minskad aptit, viktförlust, huvudvärk, irritabilitet, humörsvängningar, buksmärta, ökad puls, förhöjt blodtryck. Kan även ge tics. I ovanliga fall kramper, psykos, hepatotoxicitet. Många biverkningar minskar över tid. Vissa biverkningar, tex irritabilitet, som uppträder sent på dagen kan bero på rebound-fenomen och föranleda extra dos av CS på eftermiddagen. Samma gäller för insomni.
 
-**Atomoxtin** (SNRI) kan ha en viss ångestlindrande effekt. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI. 
+Centralstimulantia är förstahandsval pga att de är välstuderade, har god effekt och kan vara generellt något fördelaktigt avseende biverkningar. Andra preparat har sannolikt liknande effektstorlek och kan användas i vissa situationer.
+
+När både lisdexamfetamin och metylfenidat provats i sex veckor i maxdos och om effekt uteblir kan atomoxetin provas istället. Dexamfetamin kan användas om den längre durationen hos föstahandsvalen ej tolereras.
+
+**Lisdexamfetamin** (Elvanse) är förstahandsval för vuxna. Vid otillräcklig effekt kan metylfenidat (Concerta) provas.
+
+**Metylfenidat** är förstahandsval för barn, ungdomar och vuxna enligt lokala vårdprogrammet. Rekommendationsgrad A enligt läkemedelsverket 2016. För vuxna kan upp till 108 mg Concerta behövas[@Kolar2008].
+
+**Atomoxetin** (NRI) har effektstorlek jämförbar med centralstimulantia[@Cortese2018]. Effekt kan ses efter 1-2 veckor, mer tydligt efter 4-8 veckor, och kan öka något upp till 52 veckor[@Childress2015]. Hos barn har atomoxetin visats mer fördelaktigt än metylfenidat avseende sömn, ångest, och emotionsreglering[@Childress2015]. Det minskar även alkoholintaget vid samtidigt alkoholberoende[@Childress2015]. Atomoxetin ger mindre problem med insomning än centralstimulantia och kan eventuellt förbättra insomningen[@Stein2012]. Metaboliseras via CYP2D6 och kan därför vara svårt att kombinera med SSRI.
 
 >Atomoxetin (Strattera) kaps. 10, 18, 25, 40, 60 och 80 mg: är ett icke-narkotikaklassat läkemedel.  Preparatet kan användas om metylfenidat inte har tillräcklig effekt och/eller när det inte är lämpligt att använda centralstimulerande medel, t.ex. vid svåra tics, allvarlig sömnstörning, behov av effekt över hela dygnet, okontrollerat missbruk/risk för missbruk eller annan felaktig användning av centralstimulantia. Atomoxetin har inte satts i samband med missbruk (Läkemedelsverket, 2009).  Effekt uppnås efter ca 4-6 v. Atomoxetin kan kombineras med centralstimulantia och har visat god effekt vid insomningsproblem om det ges på kvällen.  (Vårdprogrem BC stockholm).
 
@@ -297,7 +304,20 @@ Vanliga biverkningar är insomni, illamående, anorexi, minskad aptit, viktförl
 
 **Guanfacin** är inte godkänt för behandling av ADHD hos vuxna, men det finns studier som talar för en positiv effekt på ADHD-symtom och tics vid monoterapi[@Ota2021;@Iwanami2020]. Hos barn har en enstaka studie av kombinationsbehandling visat positiv effekt på ADHD-symtom och arbetsminne men ej kognition[@Bilder2016].
 
+**Klonidin** är inte godkänt för behandling av ADHD (dock godkännande för barn 2024 i USA, extended release), men det finns studier som talar för en positiv effekt på ADHD-symtom och tics hos barn[@Neuchat2023]. Det finns även visad effekt som kombinationsbehandling med centralstimulantia[@Kollins2011].
+
 Se [NICE Guidelines för läkemedelsbehandling av ADHD](https://www.nice.org.uk/guidance/ng87/chapter/Recommendations#medication).
+
+Tabell: Jämförelse ADHD-läkemedel hos vuxna
+
+| Läkemedel       | Effekt | Insomning | Tics       | Ångest  | BT, puls | Kombinera CS   |
+|-----------------|--------|-----------|------------|---------|----------|----------------|
+| Lisdexamfetamin | 0.79   |           | Ökar       | -       | Ökar     | -              |
+| Metylfenidat    | 0.49   |           | Ökar       | -       | Ökar     | -              |
+| Atomoxetin      | 0.45   | Bättre    | Neutralt   | Minskar | Ökar     | Ok             |
+| Guanfacin       | 0.67?  | Variabel  | Minskar    |         | Minskar  | Ok             |
+| Klonidin        | 0.71?  | Variabel  | Minskar    |         | Minskar  | Ok             |
+| Bupropion       | 0.46   | Sämre     | Förekommer |         | Ökar     | Ok (kramprisk) |
 
 ```{r adhd-medication-one } 
 
@@ -387,11 +407,78 @@ Undersök patientens förvöntningar. Målet är normal funktion, inte att "kän
 
 <!-- Physicians can say, “Look at your target symptoms. Each time, when we raise the dose, you should see a clear, dramatic improvement in all your target symptoms, and no side effects other than a mild, transient loss of appetite.” So long as you see things getting better and better, without side effects, physicians can keep raising the dose. At some point though, physicians will raise the dose and the patient will say, “There weren’t any further improvements. Every other time we raised the dose I could clearly see improvement. This time, this dose and the previous dose seem exactly the same to me.” At that point, the previous dose is the very lowest dose that gives the patient 100% of what that medication has to offer.  -->
 
+### Hur effektiva är de olika läkemedlen jämfört med varandra?
+
+I en nätverks-metaanalys[@Cortese2018] fanns inga statistiskt signifikanta skillnader mellan amfetaminer, metylfenidat, bupropion, och atomoxetin hos vuxna. Hos barn sågs inte heller någon statistiskt signifikant skillnad för klonidin och guanfacin jämfört med övriga preparat. Hos både barn och vuxna tenderade dock amfetaminer att vara något effektivare än övriga preparat (inklusive metylfenidat) och hos barn tenderade atomoxetin att vara något mindre effektivt. Effekten av bupropion uppvisade vida konfidensintervall. Hos barn (men ej hos vuxna) hade metylfenidat tendens till färre drop-outs pga biverkningar jämfört med amfetaminer.
+
+```{r adhd-medication-cortese, fig.cap="Relativ effektivitet för ADHD-läkemedel[@Cortese2018]." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/adhd-medication_Cortese2018.png")
+
+``` 
+
 ### Toleransutveckling
 
 Toleransutveckling mot centralstimulantia, dvs avtagande effekt över tid, förekommer sannolikt hos upp till 30% av patienter[@Handelman2022]. Den kan uppträda snabbt (inom dagar-veckor), eller gradvis upp till flera år efter start av behandling. Det uppkommer sannolikt främst vid doser över rekommenderad maxdos.
 
-Någon evidensbaserad åtgörd finns ej, men planerade uppehåll (drug holidays) eller byte till annat preparat kan provas.
+Någon evidensbaserad åtgärd finns ej, men planerade uppehåll (drug holidays) eller byte till annat preparat (tex annat CS, atomoxetin) kan provas.
+
+## Samsjuklighet och åtgärd vid biverkningar av läkemedel
+
+Tabell: Läkemedelsändringar att överväga vid samsjuklighet eller biverkningar
+
+| Situation                | Överväg                                        |
+|--------------------------|------------------------------------------------|
+| Tolerans CS              | Atomoxetin, byt CS, guanfacin, pausa           |
+| Alkoholberoende          | Atomoxetin                                     |
+| Hypertoni                | Tillägg guanfacin                              |
+| Takycardi                | Tillägg guanfacin                              |
+| Ångest                   | Atomoxetin, SSRI, bupropion                    |
+| Depression               | Optimera dos, bupropion, SSRI                  |
+| Sömnsvårigheter          | Atomoxetin, tillägg guanfacin                  |
+| Antipsykotiska läkemedel | Atomoxetin, guanfacin                          |
+| Bipolärt syndom          | Välkontrollerat först, icke-dopaminergt medel? |
+| Psykos                   | Välkontrollerat först, icke-dopaminergt medel? |
+| Tics                     | Byt till atomoxetin, guanfacin                 |
+
+Dossänkning är förstås ofta ett alternativ.
+
+
+### Sömnsvårigheter
+
+ADHD kan vara förknippat med insomningssvårigheter, uppvaknanden, förskjutning av dygnsrytm, och dagtrötthet[@Stein2012]. Centralstimulantia kan ge insomningssvårigheter (dosberoende), men i vissa fall även förbättrad sömn[@Stein2012]. En teori är att sömnbesvär kan bero på rastlöshet till följd av rebound-effekt och i vissa fall förbättras med hjälp av en liten kvällsdos[@Graham2011]. I motsats kan atomoxetin ge sömnighet, särskilt vid snabb titrering och den första tiden. Även klonidin kan ge sömnighet. Melatonin kan ha effekt på barn med ADHD?
+
+Effekten på sömn är variabel även för klonidin och guanfacin. Båda kan ge somnolens men försämrad sömn förekommer också.
+
+### Alkoholöverkonsumtion
+
+Överväg atomoxetin. Det minskar även alkoholintaget vid samtidigt alkoholberoende[@Childress2015].
+
+### Antipsykotiska läkemedel
+
+Antipsykotiska läkemedel och centralstimulantia motverkar sannolikt varandra och kombinationen bör undvikas[@Yanofski2010]. Om indikation för båda behandlingarna föreligger bör ett icke-dopaminergt ADHD-läkemedel väljas först. Försiktighet vid uttrappning/byte mellan dessa klasser bör iakttas.
+
+> According to mainstream psychiatry basic research and psychopharmacology, stimulant and antipsychotic medications have opposing mechanisms of action. [...]In reality, while the main therapeutic sites of stimulants and antipsychotics are different, they both interact at the same receptors sub-types and do so in the same parts of the brain[@Yanofski2010].
+
+> While not commonly used clinically, and contrary to basic science research, clinical research has suggested that concurrent use of stimulants and antipsychotics may actually be more effective at treating ADHD than use of stimulants alone[@Yanofski2010].
+
+> Antipsychotic medications cause post-synaptic up-regulation of DA receptors over time.51 Removing the antagonism on these hypersensitive DA receptors while simultaneously increasing synaptic DA levels by an indirect agonist could cause an extreme hyperdopaminergic state[@Yanofski2010].
+
+### Viktförlust
+
+För att gå upp i vikt:
+
+- Mindre måltider oftare
+- Lägg till hälsosamt snacks mellan måltiderna (yoghyrt, rispudding)
+- Ost, nötter, fröer
+- Högkaloridryck mellan måltider, tex milkshake
+- Balanserad diet (frukt, grönsaker, fiberrikt, mjölkprodukter mm)
+- Lägg till potein med bönor, fisk, ägg, magert kött
+- Styrketräning
+
+### Tics
+
+> Because tics are naturally waxing and waning, it is often difficult to decide if a worsening of tics is provoked by a drug. Therefore, a long-term observation of at least 3 months is sometimes required before a clinical decision can be made[@Graham2011].
 
 ## Psykopedagogiska insatser
 
@@ -412,3 +499,51 @@ Kuratorn vägleder patienten i frågor som rör ekonomi, bostad, studier, arbete
 ## Vårdplan
 
 Fast vårdkontakt ansvarar för att sådan upprättas. Vårdplanen modifieras allteftersom och utifrån patientens behov. Den ansvarige läkaren involveras i upprättande av vårdplanen.
+
+## Graviditet och amning
+
+För lisdexamfetamin och metylfenidat finns inte tecken på några stora, tydliga negativa effekter när de tas under graviditet. Dock visar djurstudier att det kan finnas en fosterpåverkan. Det finns något begränsat med studier på människor. För båda dess kan sägas att behandling kan fortsätta under graviditet om fördelarna bedöms överväga riskerna. Annat stöd (tex KBT) under graviditet kan övervägas.
+
+| Potentiell risk              | Exponering grav | Association    | Evidens för          |
+|------------------------------|-----------------|----------------|----------------------|
+| Perinatal död                | Tidig           |                | Nej                  |
+| Låg födslovikt               | Tidig           |                | Nej                  |
+| Hög födslovikt               | Tidig           |                | Nej                  |
+| Hämmad fostertillväxt        | Tidig           |                | Nej                  |
+| Hämmad fostertillväxt        | Sen             | Teoretisk      | Okänt                |
+| Större missbildningar        |                 |                | Nej[@Szpunar2023]    |
+| Kardiella missbildningar     |                 | Ja, 1.3 vs 1%  | Ja[@Richardson2023]  |
+| För tidig födsel             |                 | Ja, 10 vs 7.5% |                      |
+| Barnets senare utveckling    |                 |                | Nej[@BangMadsen2023] |
+| Preeklampsi                  |                 | Fallrapporter  |                      |
+| Abruptio placenta            |                 | Fallrapporter  |                      |
+| Utsättningssymtom hos barnet |                 | Teoretisk      |                      |
+
+<!-- På längre sikt tycks exponering i fosterlivet ej ha effekt på barnets utveckling[@BangMadsen2023]. -->
+
+<!-- Ingen större teratogen effekt[@Szpunar2023] -->
+
+<!-- "The available safety data, although somewhat limited, have not associated use of therapeutic amfetamines in early pregnancy with an increased risk of congenital major malformation overall, cardiac malformation overall or any specific cardiac malformation. Use in the first half of pregnancy has not been associated with increased risks of perinatal death, impacts on birth weight outcomes (such as low birth weight, high birth weight or small for gestational age). However, the risk of growth impairment with use of therapeutic amfetamines in the later stages of pregnancy is unknown. Given that amfetamines can cause vasoconstriction, there is a theoretical risk of impaired placental perfusion, with possible impacts on fetal growth." https://uktis.org/monographs/use-of-therapeutic-amfetamines-in-pregnancy/ -->
+
+<!-- "As therapeutic amfetamines are centrally acting stimulants, a possibility of neonatal withdrawal and associated complications may exist. Possible associations with placental abruption, pre-eclampsia, low 1-minute Apgar scores, and the requirement for neonatal resuscitation and neonatal admission have been described following maternal use in pregnancy. -->"
+
+<!-- Preterm: The findings from this study suggest an absolute risk of approximately 10%, relative to a background risk of 7.5%.  -->
+
+<!-- No studies investigating the risk of miscarriage, neurodevelopmental impairment or childhood cancer have been located in the literature.  -->
+
+<!-- ### Lisdexamphetamine -->
+
+<!-- US FDA pregnancy category C: Animal reproduction studies have shown an adverse effect on the fetus and there are no adequate and well-controlled studies in humans, but potential benefits may warrant use of the drug in pregnant women despite potential risks. -->
+
+<!-- ### Metylfenidat -->
+
+<!-- The baseline rate of congenital malformations in the United States is approximately 3% of all pregnancies -->
+
+<!-- Meta- analysis of 4 cohort studies with almost 3000 women exposed to methylphenidate only, and almost 3 million unexposed controls, yielded an OR of 1.26(95 % confidence interval 1.05–1.51) for major malformations, and 1.59 (95 % confidence interval 1.02–2.49) for cardiac malformations.[@Gadot2015] -->
+
+<!-- These findings indicate that maternal T1 methylphenidate use may be associated with a small increased risk of CHD. Given that CHDs occur in approximately 1% of all live born infants,11 the absolute risk following in utero methylphenidate exposure is estimated as 1.3%. This is equivalent to 3 additional infants with a CHD for every 1,000 exposed to methylphenidate.[@Richardson2023] -->
+
+<!-- As this small increased risk is demonstrated through the pooling of observational data, a causal association cannot be confirmed due to unmeasured confounding (eg, recreational drug or alcohol use) that may have influenced the primary source studies. However, maternal T1 methylphenidate use may be a prognostic risk factor for fetal CHD. Additional antenatal screening, with a fetal echocardiogram between 18–22 weeks gestation, could be considered following T1 methylphenidate exposure. -->
+
+
+<!-- Risk Summary: Published studies and postmarketing reports are insufficient to inform a drug-associated risk of of major birth defects, miscarriage, or adverse pregnancy-related outcomes; based on animal data, this drug may cause fetal harm.  -->

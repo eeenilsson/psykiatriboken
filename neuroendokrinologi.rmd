@@ -1,4 +1,4 @@
-# Neuroendokrinologi {#neuroendokrinologi}
+# Psykoneuroendokrinologi {#neuroendokrinologi}
 
 _Hypothalamus_ och _hypofysen_ sammanlänkar det centrala nervystemet med kroppens endokrina organ. Här integreras det enokrina systemet med externa impulser från lukt, smak, sexualitet mm och kan i sin tur påverka beteenden relaterade till dessa. Från hypothalamus går signaler till övriga delar av hjärnan och koordinerar därigenom beteenden som är komplementära till de hormonella signalerna. De så kallade _hypothalamic-pituitary-axlarna_ regleras genom feed-back signaler via nedströms hormoner men även via signaler från andra områden i hjärnan.
 
@@ -26,6 +26,208 @@ include_graphics('../dropbox/images/psychiatry/neuroendocrine-tuberoinfundibular
 include_graphics('../dropbox/images/psychiatry/neoroendocrine-neuron-glandular-cells.png')
 
 ```
+
+## Cirkumventrikulära organ
+
+Review: Peering Through the Windows of the Brain[@Gross1987]
+
+Chapter 2Circumventricular Organs
+Integrators of Circulating Signals Controlling Hydration, Energy Balance, and Immune Function Alastair V Ferguson
+https://www.ncbi.nlm.nih.gov/books/NBK200964/
+
+Bok: The Sensory Circumventricular Organs of the Mammalian Brain McKinley 2003
+https://link.springer.com/book/10.1007/978-3-642-55532-9
+
+Sju cirkumventriulära organ som karakteriseras av:
+
+- Nära kontakt med blod och cerebrospinalvätska (ventriklar eller subarachnoidalutrymmet)
+- Rikt vaskulariserade
+- Innerverade?
+
+Integrerar neural information med kemiska signaler i blodet för reglering av tex vätskebalans, laktation, förlossning, matintag, reproduktion, metabolism, rytmer, vakenhet, kardiovaskulär funktion.
+
+1. AP, area postrema; 
+2. ME, median eminence; 
+3. NL, pituitary neural lobe; 
+4. OVLT, organum vasculosum of the lamina terminalis; 
+5. PI, pineal gland; 
+6. SCO, subcommissuralorgan; and 
+7. SFO, subfornical organ
+
+These circumventricular organs are often divided into sensitive organs (vascular
+organ of the lamina terminalis, subfornical organ and area
+postrema), and secretory organs (the neurohypophysis and
+pineal gland
+
+| CVO  | Stimuli                         | Signal ut                   | Funktioner   |
+|------|---------------------------------|-----------------------------|--------------|
+| AP   | Dehydrering (Ang II, tonicitet) | Vasopressin, törst, saltsug | Vätskebalans |
+| ME   |                                 |                             |              |
+| NL   |                                 |                             |              |
+| OVLT | Dehydrering (Ang II, tonicitet) | Vasopressin, törst, saltsug | Vätskebalans |
+| PI   | Ljus                            | Melatonin                   | Dygnsrytm    |
+| SCO  |                                 |                             |              |
+| SFO  | Dehydrering (Ang II, tonicitet) | Vasopressin, törst, saltsug | Vätskebalans |
+|      |                                 |                             |              |
+
+>Circumventricular organs exhibit rapid mor­ phological plasticity during chronic stresses. For example, neural and glial adaptations occur in the neurohypophysis within 48 h of the onset of endo­ crine stimulation[@Gross1987].
+
+<!-- Circumventricular organs: definition and role in the regulation of endocrine and autonomic function https://pubmed.ncbi.nlm.nih.gov/10831247/ -->
+
+## VAgusnerven
+
+> New genetic and structural evidence of vagal afferent fiber anatomy motivates two hypotheses: (1) that sensory signals informing on the physiological state of the body compute both spatial and temporal viscerosensory features as they ascend the vagus nerve, following patterns found in other sensory architectures, such as the visual and olfactory systems; and (2) that ascending and descending signals modulate one another, calling into question the strict segregation of sensory and motor signals, respectively. Finally, we discuss several implications of our two hypotheses for understanding the role of viscerosensory signal processing in predictive energy regulation (i.e., allostasis) as well as the role of metabolic signals in memory and in disorders of prediction (e.g., mood disorders)[@Shaffer2023]
+
+> "Symptoms of depression, such as insensitivity to context (e.g., Rottenberg et al., 2005), have been hypothesized to arise from metabolic problems and associated allostatic disruptions that make it difficult for the brain to update its prediction signals in the presence of prediction errors (for discussion and references, see Barrett et al., 2016; Shaffer et al., 2022). Symptoms of anxiety, in contrast, might arise when overly precise visceromotor predictions are routinely generated, resulting in noisy (less informative) prediction error signals (Paulus et al., 2019, Paulus and Stein, 2010)."[@Shaffer2023]
+
+## Neurosteroider
+
+[Neurosteroids in psychiatry](https://psychscenehub.com/psychinsights/neurosteroids-in-psychiatry/)
+
+
+## Premenstruellt dysforiskt syndrom (PMDD)
+
+Premenstruellt dysforiskt syndrom (PMDD, PMDS), tidigare Late luteal dysphoric disorder (LLDD) [@SundstroemPoromaa2023]<!-- [@Mishra2024] -->
+
+- Premenstruella besvär: 80%
+- PMS: 5-10%, symtom som är påtagliga eller ger funktionsnedsättning
+- PMDS: Svår form av PMS
+
+PMDS:
+
+- 1 av 30 kvinnor
+- Symtom sent i lutealfas (efter ägglossning)
+  - Nedstämdhet, irritabilitet, affektlabilitet, ångest
+  - Upphör inom dagar efter start av mens<!-- (duration mv 6 dagar) -->
+- Snabb effekt av SSRI (om det har effekt)
+- Genetik: Viss ärftlighet. Gener som kodar för serotonin- och östrogenreceptorer. 
+
+```{r menscykel-hormoner.jpg, fig.cap='Menscykel hormoner.' }
+
+include_graphics('../dropbox/images/psychiatry/menscykel-hormoner.jpg')
+
+``` 
+
+<!-- ### PMDS -->
+
+<!-- - 1 av 30 kvinnor -->
+<!-- - Nedstämdhet, irritabilitet, affektlabilitet, ångest (Diagnos i DSM-5) -->
+<!-- - Startar sent i lutealfasen (efter ägglossning) -->
+<!-- - Upphör inom några dagar efter start av mens (duration mv 6 dagar) -->
+<!-- - Riskfaktorer: PTSD, rökning, övervikt -->
+<!-- - Genetik: Viss ärftlighet. Gener som kodar för serotonin- och östrogenreceptorer.  --><!-- 5HT1A-R  estrogen receptor alpha gene (ESR1) -->
+
+<!-- Av 100 kvinnor: -->
+<!-- - 90 besvär vid mens -->
+<!-- - 30 PMS -->
+<!-- - 3 PMDS -->
+
+### Diagnostik
+
+Enligt DSM-5. Checklista symtom:
+
+- Humörsvängningar (tex ledsen, gråter lätt, mer känslig för att bli avvisad)
+- Irriterad, arg, eller mer konflikter
+- Nedstämd, hopplöshet, värdelöshetskänslor
+- Ångest, spändhet, uppvarvning
+- Minskat intresse för vanliga aktiviteter (tex arbete, skola, vänner, hobby)
+- Svårt att fokusera
+
+Minst ett av:
+
+- Slö, blir lätt trött, tydligt minskad energi
+- Tydlig aptitförändring eller överätning, eller craving efter särskild mat
+- Ökad sömn eller sömsvårigheter
+- Känsla av att vara överväldigad eller att förlora kontrollen
+- Kroppsliga symtom (ömma eller svullna bröst, ledsmärta, muskelsmärta, känsla av uppsvälldhet, eller viktuppgång)
+
+Minst fem totalt. Föreligger i de flesta menscykler senaste året.
+
+"In the majority of menstrual cycles, at least five symptoms must be present in the final week before the onset of menses, start to improve within a few days after the onset of menses, and become minimal or absent in the week postmenses."
+
+
+Kartläggning prospektivt under två cykler:
+
+[Självskattningsschema](https://res.cloudinary.com/internetmedicin/image/upload/v1702834863/pm-images/attatchments/PMDS_Sjalvskattning_zwock7.pdf)
+
+"DRSP scores were captured by daily ratings using a smartphone application" [@Comasco2021]
+
+Tex ökning 50% i 5 av 11 symtom, varav minst 1 core, follikulär (d6-11) vs lutealfas (d -7 till -1)
+
+### Patofysiologi PMDS (hypotes)
+
+<!-- - Avvikande CNS-respons (amygdala, hippocampus) på könshormoner vid PMDD -->
+<!-- - Nivåer av könshormoner skiljer sig ej vid PMDD -->
+<!-- - Variation i serotonin- och östrogenreceptorer (?) -->
+<!-- - Amygdala har ökad reaktivitet i lutealfasen -->
+<!-- - Allopregananolon är en metabolit av progesteron som påverkar GABA-receptorn -->
+<!-- - GABA-receptorn är plastisk, subenheterna ändras under menscykeln -->
+<!-- - Allopregananolon är normalt anxiolytiskt -->
+<!--   - Vid PMDD **förbättras** symtomen när allopregnanolon minskas i lutealfasen -->
+<!-- - Symtom vid PMDD varierar med nivåer av allopregananolon -->
+<!--   - Både höga och låga nivåer kopplat till sämre humör -->
+
+Avvikande CNS-respons på könshormoner i lutealfas[@Stiernman2023]
+
+- Progesteron & metaboliter modulerar GABA-A-receptorn
+- Receptorn utvecklar ej "tolerans" för neuroaktiva steroider under cykeln
+- Amygdala ökad reaktivitet i lutealfas
+
+<!-- - Ökad GABA-A-Receptor aktivitet är ångestdämpande  -->
+<!-- - GABA-receptorn är plastisk, subenheterna ändras under menscykeln -->
+<!-- - Amygdala har ökad reaktivitet i lutealfas -->
+<!-- - Symtom vid PMDD varierar med nivåer av allopregananolon -->
+<!--   - Både höga och låga nivåer kopplat till sämre humör -->
+
+  <!-- - Dvs är "neuroaktiva steroider" (NAS) -->
+  <!-- - Progesteron minskar GABA-aktivitet (NAM), allopregnanolon ökar den (PAM) -->
+  <!-- - Ökad GABAA-R aktivitet är ångestdämpande -->
+
+Ref[@Bixo2017]
+
+<!-- \includegraphics[width=0.3\textwidth]{../dropbox/images/psychiatry/pmds-faces.png} -->
+
+<!-- Fig: Vid PMDS i lutealfas snabbare men mindre korrekt tolkning av känslouttryck (ljusblå/röd = follikulär fas)[@Stiernman2023]. -->
+
+
+### PMDS behandling
+
+- SSRI[@Marjoribanks2013]
+  - Liten till måttlig effekt.
+  - Effekten kommer snabbt (oftast inom 1 dag)
+  - Kan tas endast i lutealfas (ca 1-2v före mens) eller kontinuerligt
+- Preventivmedel som innehåller drospirenone (progestin)[@Lopez2012]
+  - Tex Yaz
+  - Andra typer av p-piller kan fungera
+- Spironolakton 100 mg under de dagar PMDD pågår
+  - Motverkar även effekten av steroidhormoner på receptornivå i CNS
+- GnRH-agonister + substitution
+  - Vid svår PMDD
+- Experimentellt: Progesteronreceptor-modulerare? (ulipristal acetate, UPA)[@Comasco2021]
+  - Blockerar ägglossningen
+  - Bibehåller östradiol- och progesteronnivån på konstant måttliga nivåer.
+
+<!-- Psykiska biverkningar av preventivmedel https://umu.diva-portal.org/smash/get/diva2:1542455/FULLTEXT01.pdf -->
+
+## Könshormoner
+
+PET kan differentiera pre- från postmenopausala kvinnor. Uppreglering östrogenreceptorer[@Mosconi2024]. <!-- Se PET-bild i denna ref! -->
+
+## Thyroidea vid psykisk sjukdom
+
+Thyroideahormon reglerar utvecklingen av nervsystemet
+
+## Endokrinologi vid bipolärt syndrom
+
+Hormonal Treatments for Bipolar Disorder: A Review of the Literature [@Nguyen2012]
+
+## Övrigt
+
+Neuroendokrin kontroll av aptit och metabolism[@Yoo2021]
+
+Sömn
+
+Behavioral endocrinology
 
 ## Resurser
 

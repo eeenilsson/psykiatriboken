@@ -29,24 +29,27 @@ Huntingtons sjukdom kan ge psykos (10%), ofta även depression, kognitiv nedsät
 
 ## Differentialdiagnostik
 
-| Orsak               | Debutålder | Förlopp  | Funktion | Not             | Livstid |
-|---------------------|------------|----------|----------|-----------------|---------|
-| Akut psykos         |            |          |          |                 | 0.05    |
-| Schizofreni         | 15-30      | Smygande |          |                 | 0.3-0.9 |
-| Schizofreniform     |            |          |          |                 | 0.07    |
-| Schizoaffektiv      |            | Smygande |          |                 | 0.3     |
-| Vanföreställnsyndr  | Medelålder |          |          |                 | 0.18    |
-| Depression m psykos | 15-30      |          |          |                 | 0.33    |
-| Bipolär m psykos    | 15-30      |          |          |                 | 0.12    |
-| Post partum         |            |          |          |                 | 0.07    |
-| Neurodegenerativ    | Äldre      |          |          |                 |         |
-| Toxisk              |            | Snabbt   | Snabb    |                 |         |
-| Medicinskt tilst    |            | Snabbt   | Snabb    |                 |         |
-| Delirium            |            |          |          | Ouppmärksamhet  |         |
-| Demens              |            |          |          | Kognitiv defekt |         |
-| SLE                 |            |          |          | 30% NMDAR-ak    |         |
-| Ovariecancer        |            |          |          | NMDAR-ak        |         |
-| Tertiärsyfilis      |            |          |          |                 |         |
+| Orsak               | Debutålder             | Förlopp  | Funktion | Not                            | Livstid |
+|---------------------|------------------------|----------|----------|--------------------------------|---------|
+| Akut psykos         |                        |          |          |                                | 0.05    |
+| Schizofreni         | 15-30                  | Smygande |          |                                | 0.3-0.9 |
+| Schizofreniform     |                        |          |          |                                | 0.07    |
+| Schizoaffektiv      |                        | Smygande |          |                                | 0.3     |
+| Vanföreställnsyndr  | Medelålder             |          |          |                                | 0.18    |
+| Depression m psykos | 15-30                  |          |          |                                | 0.33    |
+| Bipolär m psykos    | 15-30                  |          |          |                                | 0.12    |
+| Post partum         |                        |          |          |                                | 0.07    |
+| Neurodegenerativ    | Äldre                  |          |          |                                |         |
+| Toxisk              |                        | Snabbt   | Snabb    |                                |         |
+| Medicinskt tilst    |                        | Snabbt   | Snabb    |                                |         |
+| Delirium            |                        |          |          | Ouppmärksamhet                 |         |
+| Demens              |                        |          |          | Kognitiv defekt                |         |
+| SLE                 |                        |          |          | 30% NMDAR-ak                   |         |
+| Ovariecancer        |                        |          |          | NMDAR-ak                       |         |
+| Tertiärsyfilis      |                        |          |          |                                |         |
+| Epilepsi            |                        |          |          |                                |         |
+| Limbisk encefalit   | Paraneoplastisk, viral | Subakut  |          | HSV1, VZV, mm. Sänkt medv grad |         |
+| Wernicke-Korsakoff  |                        |          |          |                                |         |
 
 Toxisk/medicinsk: a history of headaches, seizures, or visual, olfactory, or tactile hallucinations; and an absence of a family history of psychotic disorders
 
@@ -56,6 +59,15 @@ Schizofreni och schizoaffektid sjukdomsförlopp: premorbid, prodromal, syndromal
 
 Hereditet: Schizofreni och bipolär m psykos har vardera konkordans 50% hos enäggstvillingar. Förstagraddsläktingar till person med psykos har 10-15 ggr högre prevalens.
 
+Vid epilepsi är förekomsten av schzofreni dubblerad. Andra type av psykoser förekommer och brukar delas in efter tidsrelationen till epileptiska anfall (iktal-, postiktal- och interiktal psykos). Psykos är vanligare vid temporallobsepilepsi (prevalens 10%)[@Maguire2018].
+
+>"In postictal psychosis, as in this case, there is lucid period of between a few hours and a few days, followed by insomnia and agitation, leading to psychosis. The psychotic symptoms are typi- cally positive, with prominent persecutory delusions, and often a strong affective component. Patients may be aggressive with directed violence.18 19 The symp- toms generally last a few (mean 9–10) days, although are sometimes more protracted, lasting weeks to months and requiring psychotropic medication."[@Maguire2018]
+
+>Psychotic symptoms sometimes form part of the seizure (ictal psychosis). They are of sudden onset, brief and abort as the seizure aborts. Ictal psychosis may occur in the context of non-convulsive status epilep- ticus where patients may show bizarre behaviour and thought incoherence, with or without loss of aware- ness. Delusions and hallucinations are less common than in postictal psychosis; patients may show other seizure features, such as motor or orobuccal automa- tisms as part of temporal lobe epilepsy.[@Maguire2018]
+
+>A more difficult challenge for clinicians is to distin- guish interictal psychosis from schizophrenia. Interictal psychosis can manifest as brief or chronic forms. The chronic forms of interictal psychosis may closely resemble schizophrenia; however, several features help to distinguish the two. Schizophrenia often begins in young adulthood. In contrast, interictal psychosis manifests predomi- nantly with the positive psychotic symptoms of delusions and hallucinations, which are less likely to be third-person auditory, and have better preserved personality traits and no negative symptoms. The psychosis can last days to months but may be more protracted. It can be very difficult to distinguish between interictal psychosis and postictal psychosis and in many patients these coexist. [@Maguire2018]
+
+Se [@Skikic2020] för kliniskt vägledd diagnoistik.
 
 ## Tankestörning
 
@@ -82,14 +94,23 @@ Autoimmun encefalit: Kramper, katatoni, autonom instabilitet, hyperkinesi.
 ### Provtagning
 
 - Drogscreening
-- Uteslut infektion: Temp, blodstatus, urinsticka, ev lungröntgen, blododling, LP.
+- Uteslut infektion: Temp, blodstatus, urinsticka, ev lungröntgen, ev blododling, ev LP.
 - Uteslut metabol orsak: Krea (uremi), glukos, leverstatus (leversvikt, Wilsons), elektrolyter inkl kalcium (Addison, cushing, hyperpara)
 - Endokrint: Thyroideastatus
 - Uteslut autoimmun orsak: ANA (SLE),
-- Övrigt: HIV, syfilis, (ceruloplasmin). Ev EEG (EP), läkemedelskonc, tungmetaller
-- B12, folat
+- Övrigt: HIV, syfilis, (ceruloplasmin). Ev EEG (EP), läkemedelskonc, tungmetaller (om misstänkt exponering i hem eller yrke2)
+- B12, folat, Mg, (Vit A, B1, B3?) om undernärd eller vegan.
 - Alkoholmarkör?
-- MR: Demyeliniserande sjukdom, stroke, hjärntumör
+- MR: Demyeliniserande sjukdom, stroke, hjärntumör. Screening endast vid neurologiska fynd, eller ålder >45.
+- Genetisk testning om ålder <13 å.
+
+EEG? " EEG uppvisade oacceptabelt låg diagnostisk säkerhet. Det finns inget stöd för EEG som diagnosmetod vid psykotisk sjukdom, eller för att utesluta annan cerebral sjukdom av organisk genes, hos patienter med förstagångsinsjuknande i psykotiska symtom.  Otillräckligt vetenskapligt underlag" [Länk](https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/su4372-1728378332-280/surrogate/2012_47%20HTA-rapport%20EEG%20as%20a%20diagnostic%20tool%20in%20patients%20with%20first%20episode%20psychosis.pdf). Vid katatoni där orsaken är oklar kan EEG ha ett värde för att skilja mellan organisk- och ickeorganisk orsak[@Hosseini2023]. EEG kan övervägas om "Staring spells, episodic loss of consciousness, myoclonic movements/rigidity?"[@Skikic2020]
+
+I nationella vårdprogrammet anges samtliga undersökningar under "kan utföras" [Länk](https://www.vardochinsats.se/schizofreni-och-liknande-tillstaand/kartlaeggning-och-utredning/initial-utredning-schizofreni-och-schizofreniliknande-tillstaand/).
+
+Symtom som kan föranleda utvidgad utredning (tex MR, EEG, paraneoplastisk panel): Avvikande nervstatus (tex nystagmus, afasi, motoriska bortfall, myoklonus), medvetandesänkning, frånvaroattacker, konfusion, huvudvärk, illamående/kräkning, inkontinens, feber
+
+Wilsons sjukdom är ovanlig, men många får psykiatriska symtom. Kayser-Fleischer ring (gyllenbrun, kan vara grön, röd, blå) föreligger hos 95%, så frånvaro av detta torde kunna göra mäting av ceruloplasmin onödig. Misstänk vid: Psychiatric disease with signs of hepatic or neurological disease? "Kayser-Fleischer rings may not be easily visible on routine examination. In the initial stages, a slit lamp is generally necessary to identify the rings. However, visibility with the naked eye becomes possible as the disease progresses, especially in patients with lightly pigmented irises and severe copper overload. Therefore, a slit-lamp examination is imperative for diagnosis."[@Pandey2024]
 
 ## Behandling
 
@@ -106,7 +127,7 @@ Cognitive behavioral therapy (CBT), a treat- ment originally developed for mood 
 Antipsykotiska medel har viss men måttlig effekt vid akut försämring (SMD 0.45 för positiva symtom; 0.35, för negativa symtom, livskvalitet och fungktion)[@Leucht2017]. 
 
 <!-- The analysis included 167 double-blind randomized controlled trials with 28,102 mainly chronic participants. The standardized mean difference (SMD) for overall efficacy was 0.47 (95% credible interval 0.42, 0.51), but accounting for small-trial effects and publication bias reduced the SMD to 0.38. At least a “minimal” response occurred in 51% of the antipsychotic group versus 30% in the placebo group, and 23% versus 14% had a “good” response. Positive symptoms (SMD 0.45) improved more than negative symptoms (SMD 0.35) and depression (SMD 0.27). Quality of life (SMD 0.35) and functioning (SMD 0.34) improved even in the short term. Antipsychotics differed substantially in side effects. Of the response predictors  -->
-
+ 
 
 
 ## Särskilda typer av psykos

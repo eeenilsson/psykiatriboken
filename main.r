@@ -23,7 +23,7 @@ if("plyr" %in% (.packages())){
 ##source("data_prepare.r") ## Only needs to be run when updated
 
 ## Render
-opts_knit$set(base.url='https://github.com/.../raw/.../')
+## opts_knit$set(base.url='https://github.com/.../raw/.../')
 bookdown::render_book("index.rmd", "bookdown::gitbook")
 bookdown::render_book("index.rmd", "bookdown::pdf_book")
 bookdown::render_book("index.rmd", "bookdown::pdf_book", output_dir = "../dropbox")

@@ -14,6 +14,37 @@ Här beskrivs allmänna principer och särskilda psykofarmakologiska aspekter. V
 
 - Följsamhet
 
+### Halveringstid, utsättning, byte mm
+
+Se "Psychotropic Drugs With Long Half-Lives: Implications for Drug Discontinuation, Occasional Missed Doses, Dosing Interval, and Pregnancy Planning" [@Andrade2022].
+
+Halveringstiden för de flesta antidepressiva är kring 24 tim, vilket medger dosering 1 gång per dygn. Steady state uppnås efter ungefär fem halveringstider. Tmax är 1-5 tim för de flesta. 
+
+Undantag, tex:
+
+- Venlafaxin (Thalf 5h or 11 for active metabolite; Tmax 2.5h or 7h for XR)
+- Agomelatin Thalf 1-2h?
+- Vortioxetin halflife 60h
+- Fluoxetin: The half-life of fluoxetine is 1–3 days, and that of its active metabolite norfluoxetine is 7–15 days.11,12 The half-life of fluoxetine may increase during maintenance therapy because fluoxetine inhibits its own metabolism.
+
+Vid byte av tex antidepressiva bör balanseras:
+
+- Risken för utsättningssymtom vid låga nivåer av läkemedlet
+- Risken för överdosering/biverkningar (tex serotonergt syndrom)
+
+Resonemang:
+
+Vid byte blir utsättningssymtomen sannolikt relaterade till skillnader i receptorprofil. 
+
+Kanske mindre besvär att byta mellan två SRI. Kan möjliggöra tvärt byte (undantag fluoxtin).
+
+Vid byte till preparat med helt annan receptorprofil (tex till/från bupropion, mirtazapin, agomelatin) kanske risken för utsättningssymtom är större. En möjlig strategi är att halvera preparat A i en vecka, sedan sätta in preparat B parallellt i halvdos en vecka, sedan avslut A och måldos B.
+
+Vid byte från fluoxetin kanske avslut en vecka, sedan starta läkemedel B?
+
+Vid byte från venlafaxin, kvarstå på det (i halv dos?) tills 3-4 halveringstider för preparat B passerat?
+
+
 
 ## Metabolism av psykotropa läkemedel
 
@@ -29,7 +60,7 @@ För antidepressiva finns inte vetenskapligt stöd för att genotypning av CYP-4
 
 **Rökning** kan påverka metabolismen av psykotropa läkemedel. Exempelvis reduceras nivåerna av agomelatin, vissa bensodiazepiner, klozapin, duloxetin, haloperidol, olanzapin, och TCA [@Maudsley2018, p754].
 
-**Alkohol** kan påverka metabolismen av psykotropa läkemedel. Exempelvis kan nivåerna av aripiprazol, bensodiazepiner, klozapin, haloperidol, mirtazapin, kvetapin, risperidon, TAC och venlafaxin initialt bli högre pga kompetetiv metabolism med alkohol via CYP3A4. Induktion av detta enzym pga alkohol (kvarstår veckor efter avslutat alkoholintag) kan därefter leda till ökad metabolism av dessa läkemedel med minskad behandlingsffekt som följd [@Maudsley2018, p755]. 
+**Alkohol** kan påverka metabolismen av psykotropa läkemedel. Exempelvis kan nivåerna av aripiprazol, bensodiazepiner, klozapin, haloperidol, mirtazapin, kvetapin, risperidon, TCA och venlafaxin initialt bli högre pga kompetetiv metabolism med alkohol via CYP3A4. Induktion av detta enzym pga alkohol (kvarstår veckor efter avslutat alkoholintag) kan därefter leda till ökad metabolism av dessa läkemedel med minskad behandlingsffekt som följd [@Maudsley2018, p755]. 
 
 ## Mätning av plasmakoncentrationer
 
@@ -142,6 +173,8 @@ Andra psykofarmaka:
 Följande potentiella risker har identifierats: Missbildningar, persisterande pulmonell hypertension (andningsbesvär i anslutning till förlossningen), Poor adaptation, Premature birth, Intrauterine growth retardation, Neonatal adaptive syndrome
 
 Persisterande pulmonell hypertension: Risk utan AD 1.2/1000, med AD 3/1000, OR 2.1 (1.5-3).
+
+Djurstudier visar att manlig avkomma till mödrar som intagit fluoxetin har negativ testikelpåverkan[@MonteiroFilho2014].
 
 #### Missbildningar hos barnet
 
@@ -541,7 +574,6 @@ Risken för TD är ungefär 5% per år med FGA, hälften med SGA och kanske läg
 
 <!-- Is the comparison FGA vs SGA valid? -->
 
-
 #### Akatisi
 
 Kan även uppträda när AP _sätts ut_ eller reduceras
@@ -608,9 +640,26 @@ Ref [@Maudsley2018]
 
 ### Metabola biverkningar
 
-"Marked differences exist between antipsychotics in terms of metabolic side-effects, with olanzapine and clozapine exhibiting the worst profiles and aripiprazole, brexpiprazole, cariprazine, lurasidone, and ziprasidone the most benign profiles."[@Pillinger2020]
+>"Marked differences exist between antipsychotics in terms of metabolic side-effects, with olanzapine and clozapine exhibiting the worst profiles and aripiprazole, brexpiprazole, cariprazine, lurasidone, and ziprasidone the most benign profiles."[@Pillinger2020]
 
-Incidensen av metabolt syndrom det första året med behanling är 10% (aripiprazol, ziprasidon, haloperidol, perfenazin) till 50% (olanzapin, risperidon, kvetiapin). 
+Incidensen av metabolt syndrom det första året med behandling är 10% (aripiprazol, ziprasidon, haloperidol, perfenazin) till 50% (olanzapin, risperidon, kvetiapin). 
+
+#### Viktuppgång
+
+Tabell: Ranking (störst till minst)[@Dent2012].
+
+| Rank | Läkemedel    | Viktuppgång medel, kg |
+|------|--------------|-----------------------|
+| 1    | Klozapin     | 10                    |
+| 2    | Olanzapin    | 8                     |
+| 3    | Klorpromazin | 7                     |
+| 4    | Kvetiapin    | 4                     |
+| 5    | Risperidon   | 4                     |
+| 6    | Aripiprazol  | 0                     |
+| 7    | Haloperidol  | 0                     |
+| 8    | Flufenazin   | 0                     |
+| 9    | Ziprasidon   | 0                     |
+| 10   | Perfenazin   | 0                     |
 
 #### Metabola syndromet
 
@@ -990,6 +1039,38 @@ Effektstorlek 1.9 för mani (1.5 RCT; 3.5 NRT)
 - Depression: RR 0.78, 95% CI 0.59 to 1.03
 
 <!-- Maintainance BP comparison diffreent meds and combinations [@Kishi2021] -->
+
+### Effekt av litium vid unipolär depression[@Undurraga2019]
+
+
+Tabell: Evidens från RCTer av litium vid unipolär depression[@Undurraga2019]
+
+| Situation    | Monoterapi/tillägg | K  | N   | Effekt                       |
+|--------------|--------------------|----|-----|------------------------------|
+| Akut MDD     | Mono               | 6  | 218 | Nej (jfr AD eller pbo)       |
+| Akut MDD     | Tillägg till AD    | 12 | 541 | OR 2.3, CI 1.6–3.5, p<0.0001 |
+| Profylax MDD | Mono               | 7  |     | OR 4.5, CI 1.4–15, p 0.011   |
+| Profylax MDD | Tillägg till AD    | 9  |     | OR 2.4, CI 1.0–5.4, p 0.038  |
+
+Dock bör biverkningsrisken vägas in[@HincapieCastillo2017]. Har antisúicidal effekt vid BP eller MDD.
+
+Litium särskilt rekommenderas vid[@Ercis2023]:
+
+- Svår depression med suicidrisk (antisuicidal effekt)
+- Svår depression
+- >3 depressiva episoder
+- Viktförlust
+- Psykomotorisk hämning
+- Förstagradssläkting med MDD eller BP.
+- Efter ECT
+
+Målkonc:
+
+Lägre gräns: 0.4 to 0.6 mEq/L, de flesta studier 0.5–0.6 mEq/L
+Övre gräns: 0.6 to 1.2 mEq/L
+Förslagsvis: 0.5-0.7
+
+Vid utsättning bör litium trappas ned gradvis över tre månader för att minska risken för relaps.
 
 ### Historik
 
@@ -1583,17 +1664,100 @@ Agomelatin är en MT1/MT2-agonist och har positiva effekter på sömn hos deprim
 
 Preparat: Melatonin, ramelteon, agomelatin.
 
-### Ickeselektiva antihistaminer
+### Sederande antihistaminer
 
-Diphenhydramin, doxylamin.
-
-Litet forskning om dessa. Kan minska uppvaknanden och förbättre självrapporterad sömneffektivitet men ej sömnlatens, total sömntid eller polysomnografiska variabler.
+Litet forskning om dessa. Kan minska uppvaknanden och förbättre självrapporterad sömneffektivitet men ej sömnlatens, total sömntid eller polysomnografiska variabler (?).
 
 Kan vara fördelaktigt om problem med upprätthållande av sömn föreligger utan insomningssvårigheter. 
 
 Kan vara lämpliga för problem med uppvaknanden utan insomningsproblem, särskilt hos personer med allergiska besvär.
 
 Biverkningar: Dagtrötthet, antikolinerga biverkningar (se **avsnitt \@ref(side-effects-anticholinergic)**). Vissa patienter svarar paradoxalt med CNS-aktivering, rastlöshet, och ökad ångest. 
+
+Se [@Nolen1997;@Viukari1984;@Church2013]. <!-- Cuvillo Comparative pharmacology of the H1 antihistamines -->
+
+<!-- Diphenhydramin, doxylamin. -->
+
+
+#### Inledning
+
+Stimulering av H1-receptorn i nervsystemet av histamin (storhjärnan, cerebellum, neurohypofysen, ryggmärgen) höjer vakenhet under dagen och inverkar på minne, inlärning, vätskebalans, hämning av födiontag, kroppstemperatur, kardiovaskulär reglering, och stressrespons (ACTH, b-endorfin). 
+
+Eftersom histamin H1-receptorn har en basal aktivitet och antihistaminer binder andra delar än histamin är de tekniskt "inversa agonister" snarare än antagonister. Alimemazin och propiomazin är neuroleptika, men används som sederande läkemedel pga deras antihistaminerga effekt. 
+
+H1-antihistaminer har effekt på ett flertal receptortyper beroende på preparat. Alla har antikolinerga effekter. De används som sömnmedel pga sina antihistaminerga effekter. Substanserna är fentiaziner eller fentiazinliknande (dvs besläktade med vissa antipsykotiska läkemedel och det kan noteras att fall av malignt neuroleptikasyndrom finns rapporterade). Propiomazin liknar strukturellt och farmakologiskt klozapin. Alimemazin liknar strukturellt tricykliska antidepressiva. Den aktiva metaboliten av Hydroxyzin är cetrizin.
+
+Amitriptylin och mirtazapin har antihistaminerg effekt i låga doser kan troligen användas på liknande sätt[@Bakker2021;@IvgyMay2015]
+
+Nattetid förlänger H1-antihistaminerna tiden till REM-sömn och minskar dess duration. 
+
+Tabell: Receptorprofil H1-antihistaminer
+
+| Läkemedel      | H1 | mACh | D2 | 5-HT | a1 | NMDA |
+|----------------|----|------|----|------|----|------|
+| Diphenhydramin |    |      |    |      |    |      |
+| Hydroxyzin     |    |      |    |      |    |      |
+| Prometazin     | x  | x    | x  |      |    | x    |
+| Alimemazin     |    |      |    |      |    |      |
+| Propiomazin    | x  | x    | x  | x    | x  |      |
+
+<!-- Promethazine is a an antagonist of histamine H1, post-synaptic mesolimbic dopamine, alpha adrenergic, muscarinic (M1-5), and NMDA receptors -->
+
+<!-- propiomazine Structurally and pharmacologically similar to clozapine, propiomazine binds to alpha(1), dopamine, histamine H1, muscarinic, and serotonin type 2 (5-HT2) receptors.     Propiomazine acts as an antagonist of dopamine 1, 2, and 4 receptors, serotonin (5-HT) receptor types 2A and 2C, muscarinic receptors 1 through 5, alpha(1)-receptors, and histamine H1-receptors. Its main use as a sedative is due to its antihistamine effect. -->
+
+<!-- Alimemazin.  It acts as an anti-histamine, a sedative, and an anti-emetic (anti-nausea). Trimeprazine is used principally as an anti-emetic, to prevent motion sickness or as an anti-histamine in combination with other medications in cough and cold preparations. Tricyclic antihistamines are also structurally-related to the tricyclic antidepressants, explaining the antihistaminergic adverse effects of these two drug classes and also the poor tolerability profile of tricyclic H1-antihistamines. -->
+
+Tabell: Farmakokinetik H1-antihistaminer
+
+| Läkemedel      | Peak | T1/2 (h) | Insomning | Uppvaknanden | Sömntid | Duration |
+|----------------|------|----------|-----------|--------------|---------|----------|
+| Diphenhydramin | 2    | 8        | Ja        | 4 tim        | +1 tim  | 4-6      |
+| Hydroxizin     | 2    | 14-25    |           |              |         |          |
+| Prometazin     | 4-10 | 12-15    | Ja        |              | Ja      | 4-6      |
+| Alimemazin     | 2    | 4        |           |              |         |          |
+| Propiomazin    | 1-2  | 8        | Ja        | Ja           | Ja      |          |
+
+#### Klinisk användning
+
+Tolerans mot den sederande effekten kan uppstå redan efter ca 3 dagar (Diphenhydramin)[@Nolen1997], vanligen efter 7-20 dagar. Uppehåll 3-14 dagar återställer effekten. Tolerans mot en antihistamin ger det mot andra[@Dannenberg1951].
+
+Indikationer: 
+
+- Korttidsbehandling sömn: Alimemazin, propiomazin, prometazin.
+
+- Ångest: Prometazin, hydroxizin
+
+- Antiemetiskt: Prometazin, alimemazin
+
+Biverkningar: Negativ inverkan på bilkörning, inlärning, dyskinesi, blefarospasm, takycardi, konfusion, QTT, arytmi, fallrisk, antikolinerga effekter (undvik vid prostatism, glaukom).
+
+Tabell: Dosering H1-antihistaminer
+
+| Läkemedel      | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
+|----------------|------------|--------|------------|----------|--------|
+| Hydroxizin     | Atarax     | 25     | 0.5+0.5+1  | -        | 100    |
+| Prometazin     | Lergigan   | 25     | 1-2x1-3    | 25-50    | 150    |
+| Alimemazin     | Theralen   | 20     | -          | 10-30    |        |
+| Propiomazin    | Propavan   | 25     | -          | 25-50    |        |
+
+De intas 1-2 tim före sänggående. Alimemazin vid Alkoholism och eufomani: Lätta och medelsvåra orostillstånd: Initialt 40–60 mg 2–3 gånger dagligen. Därefter 5–10 mg 2–3 gånger dagligen
+
+Tabell: Andra sömnmedel
+
+| Läkemedel      | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
+|----------------|------------|--------|------------|----------|--------|
+| Mirtazapin     | Mirtin     | 15     |            | 7.5-15   |        |
+| Mianserin      | Mianserin  | 10     |            | 10-30    |        |
+| Amitriptylin   | Sensaval   | 10     |            | 10-20    |        |
+| Kvetiapin      | Quetiapin  | 25     |            | 12.5-800 |        |
+| Levomepromazin | Nozinan    | 25     |            | 25-50    |        |
+| Melatonin      | Aritonin   | 1      |            | 1-2      | 2      |
+| Zolpidem       | Stilnoct   | 10     |            | 5-10     | 10     |
+| Zopiklon       | Imovane    | 5      |            | 3.75-7.5 | 7.5    |
+| Klometiazol    | Heminevrin | 300    |            | 300-600  |        |
+| Suvorexant     | Belsomra   | 10     |            | 10-20    |        |
+
+<!-- Antikolinerga: Caution in patients with prostatic hypertrophy, urinary retention and angle-closure glaucoma. Fallrisk. -->
 
 ### Antidepressiva som sömnmedel
 
@@ -2013,84 +2177,9 @@ Om uppehåll >5d börja om titrering.
 
 [Internetmedicin, läkemedelsreaktioner och hud](https://www.internetmedicin.se/hud-och-konssjukdomar/lakemedelsreaktioner-och-hud)
 
-## Sederande antihistaminer
-
-Se [@Nolen1997;@Viukari1984;@Church2013]. <!-- Cuvillo Comparative pharmacology of the H1 antihistamines -->
-
-Stimulering av H1-receptorn i nervsystemet av histamin (storhjärnan, cerebellum, neurohypofysen, ryggmärgen) höjer vakenhet under dagen och inverkar på minne, inlärning, vätskebalans, hämning av födiontag, kroppstemperatur, kardiovaskulär reglering, och stressrespons (ACTH, b-endorfin). 
-
-Eftersom histamin H1-receptorn har en basal aktivitet och antihistaminer binder andra delar än histamin är de tekniskt "inversa agonister" snarare än antagonister. Alimemazin och propiomazin är neurolepyika, men används som sederande läkemedel pga deras antihistaminerga effekt. Tolerans mot den sederande effekten kan uppstå redan efter ca 3 dagar (Diphenhydramin)[@Nolen1997], vanligen efter 7-20 dagar. Uppehåll 3-14 dagar återställer effekten. Tolerans mot en antihistamin ger det mot andra[@Dannenberg1951].
-
-H1-antihistaminer har effekt på ett flertal receptortyper beroende på preparat. Alla har antikolinerga effekter. De används som sömnmedel pga sina antihistaminerga effekter. Nattetid förlänger H1-antihistaminerna tiden till REM-sömn och minskar dess duration. Substanserna är fentiaziner eller fentiazinliknande (dvs besläktade med vissa antipsykotiska läkemedel). Fall av malignt neuroleptikasyndrom finns rapporterade. Propiomazin liknar strukturellt och farmakologiskt klozapin. Alimemazin liknar strukturellt tricykliska antidepressiva. Den aktiva metaboliten av Hydroxyzin är cetrizin.
-
-Amitriptylin och mirtazapin i låga doser kan troligen användas på liknande sätt[@Bakker2021;@IvgyMay2015]
-
-Indikationer: 
-
-- Korttidsbehandling sömn: Alimemazin, propiomazin, prometazin.
-
-- Ångest: Prometazin, hydroxizin
-
-- Antiemetiskt: Prometazin, alimemazin
-
-Biverkningar: Negativ inverkan på bilkörning, inlärning, dyskinesi, blefarospasm, takycardi, konfusion, QTT, arytmi, fallrisk, antikolinerga effekter (undvik vid prostatism, glaukom).
-
-Tabell: Dosering H1-antihistaminer
-
-| Läkemedel      | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
-|----------------|------------|--------|------------|----------|--------|
-| Hydroxizin     | Atarax     | 25     | 0.5+0.5+1  | -        | 100    |
-| Prometazin     | Lergigan   | 25     | 1-2x1-3    | 25-50    | 150    |
-| Alimemazin     | Theralen   | 20     | -          | 10-30    |        |
-| Propiomazin    | Propavan   | 25     | -          | 25-50    |        |
-
-De intas 1-2 tim före sänggående. Alimemazin vid Alkoholism och eufomani: Lätta och medelsvåra orostillstånd: Initialt 40–60 mg 2–3 gånger dagligen. Därefter 5–10 mg 2–3 gånger dagligen
-
-Tabell: Andra sömnmedel
-
-| Läkemedel      | Namn       | Styrka | Dos ångest | Dos sömn | Maxdos |
-|----------------|------------|--------|------------|----------|--------|
-| Mirtazapin     | Mirtin     | 15     |            | 7.5-15   |        |
-| Mianserin      | Mianserin  | 10     |            | 10-30    |        |
-| Amitriptylin   | Sensaval   | 10     |            | 10-20    |        |
-| Kvetiapin      | Quetiapin  | 25     |            | 12.5-800 |        |
-| Levomepromazin | Nozinan    | 25     |            | 25-50    |        |
-| Melatonin      | Aritonin   | 1      |            | 1-2      | 2      |
-| Zolpidem       | Stilnoct   | 10     |            | 5-10     | 10     |
-| Zopiklon       | Imovane    | 5      |            | 3.75-7.5 | 7.5    |
-| Klometiazol    | Heminevrin | 300    |            | 300-600  |        |
-| Suvorexant     | Belsomra   | 10     |            | 10-20    |        |
-
-Tabell: Farmakokinetik H1-antihistaminer
-
-| Läkemedel      | Peak | T1/2 (h) | Insomning | Uppvaknanden | Sömntid | Duration |
-|----------------|------|----------|-----------|--------------|---------|----------|
-| Diphenhydramin | 2    | 8        | Ja        | 4 tim        | +1 tim  | 4-6      |
-| Hydroxizin     | 2    | 14-25    |           |              |         |          |
-| Prometazin     | 4-10 | 12-15    | Ja        |              | Ja      | 4-6      |
-| Alimemazin     | 2    | 4        |           |              |         |          |
-| Propiomazin    | 1-2  | 8        | Ja        | Ja           | Ja      |          |
-
-
-<!-- Antikolinerga: Caution in patients with prostatic hypertrophy, urinary retention and angle-closure glaucoma. Fallrisk. -->
-
-Tabell: Receptorprofil H1-antihistaminer
-
-| Läkemedel      | H1 | mACh | D2 | 5-HT | a1 | NMDA |
-|----------------|----|------|----|------|----|------|
-| Diphenhydramin |    |      |    |      |    |      |
-| Hydroxyzin     |    |      |    |      |    |      |
-| Prometazin     | x  | x    | x  |      |    | x    |
-| Alimemazin     |    |      |    |      |    |      |
-| Propiomazin    | x  | x    | x  | x    | x  |      |
-
-<!-- Promethazine is a an antagonist of histamine H1, post-synaptic mesolimbic dopamine, alpha adrenergic, muscarinic (M1-5), and NMDA receptors -->
-
-<!-- propiomazine Structurally and pharmacologically similar to clozapine, propiomazine binds to alpha(1), dopamine, histamine H1, muscarinic, and serotonin type 2 (5-HT2) receptors.     Propiomazine acts as an antagonist of dopamine 1, 2, and 4 receptors, serotonin (5-HT) receptor types 2A and 2C, muscarinic receptors 1 through 5, alpha(1)-receptors, and histamine H1-receptors. Its main use as a sedative is due to its antihistamine effect. -->
-
-<!-- Alimemazin.  It acts as an anti-histamine, a sedative, and an anti-emetic (anti-nausea). Trimeprazine is used principally as an anti-emetic, to prevent motion sickness or as an anti-histamine in combination with other medications in cough and cold preparations. Tricyclic antihistamines are also structurally-related to the tricyclic antidepressants, explaining the antihistaminergic adverse effects of these two drug classes and also the poor tolerability profile of tricyclic H1-antihistamines. -->
 
 ## Vissa biverkningar av psykofarmaka
+
 ### Arytmirisk
 
 Se: Läkemedel som kan orsaka allvarliga rubbningar i hjärtats rytm - Fokus på förskrivning av antidepressiva och antipsykotiska läkemedel till äldre [@Socialstyrelsen2019tdp].

@@ -1,5 +1,7 @@
 # Depression
 
+<!-- Allostasis, Action, and Affect in Depression: Insights from the Theory of Constructed Emotion[@Shaffer2022] -->
+
 ## Diagnoskriterier enligt ICD-10
 
 A. Att minst två av symtomen nedstämdhet, energifattigdom och minskad aktivitet dominerat under minst de senaste två veckorna.
@@ -74,24 +76,26 @@ Effektstorlek [Ref Cipriani, Eriksson].
 
 Det finns flera teoretiska argument för att olika individer skulle kunna svara olika väl på antidepressiv behandling (polymorfismer i CYP-systemet, polymorfismer receptorer; skillnader i -neuroanatomi, symtom, svårighetsgrad, samsjuklighet, kön, ålder, och genes). Klinisk erfarenhet tycks också underbygga detta. Trots det har man i vetenskapliga studier ej kunnat påvisa att någon enskild faktor förutsäger respons på visst antidepressivt läkemedel.
 
-Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det finns inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas [@Kennedy2016]:
+Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det finns inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas för ett pragmatiskt preparatval[@Kennedy2016]:
 
 - Samsjuklighet med tex ångestsyndrom
 - Psykotiska symtom
 - Respons på- och biverkningar av tidigare antidepressiv behandling
 - Potentiella interaktioner med befintlig läkemedelsbehandling
 - Förväntad biverkningsprofil
+  - Risk för viktuppgång
   - Initial ångeststegring och försämrad sömn av SSRI <!-- TODO Beskriv alternativ -->
   - Riskklassificering avseende arytmirisk (vid hög ålder, hjärt-kärlsjukdom mm) SE [TdP-kapitlet](#psykofarmakologi-tdp)
 - Enkelhet (antal doser, behov av monitorering)
+- Graviditetsplaner (överväg psykoterapi som ett alternativ, sertralin kan vara ett förstahandsval vid läkemedelsbehandling)
 
-Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vägas in. Vid psykotiska symtom rekommenderas samtidig behandling med antipsykotiskt läkemedel. Vid sömnstörning kan mirtazapin, och agomelatin vara att föredra. Duloxetin kan ha smärtlindrande effekt. Vid samsjuklighet med ångestsyndrom kan ett läkemedel som har indikation för detta med fördel användas.
-
-**Framträdande ångest** vid en depressiv episod kan defineras som förekomst minst två av följande: Känsla av att vara spänd, rastlöshet, koncentrationssvårigheter pga oro, rädsla för att något katastrofalt skall inträffa eller känsla av att man kommer att tappa kontrollen över sig själv. I dessa fall, eller om det föreligger samsjuklighet med något ångestsyndrom rekommenderas ett antidepressivt medel som har visad effekt vid generaliserat ångestsyndrom [@Dsm2013]. Någon skillnad mellan grupperna SSRI, SNRI, och bupropion har inte påvisats i detta avseende [@Kennedy2016].
+Biverkningsprofil och interaktioner med befintlig läkemedelsbehandling bör vägas in. Vid psykotiska symtom rekommenderas samtidig behandling med antipsykotiskt läkemedel. Vid sömnstörning kan mirtazapin eller agomelatin vara att föredra. Duloxetin kan ha smärtlindrande effekt. Bupropion är viktneutralt och kan vara av värde vid samtidig ADHD. Vid samsjuklighet med ångestsyndrom kan ett läkemedel som har indikation för detta med fördel användas.
 
 <!-- Tabell farmakokinetik, indikationer, biverkningar mm: https://www.hse.ie/eng/services/publications/clinical-strategy-and-programmes/ssris-snris-for-the-treatment-of-depression.pdf -->
 
 #### Samsjuklighet och subtyp av depression
+
+**Framträdande ångest** vid en depressiv episod kan defineras som förekomst minst två av följande: Känsla av att vara spänd, rastlöshet, koncentrationssvårigheter pga oro, rädsla för att något katastrofalt skall inträffa eller känsla av att man kommer att tappa kontrollen över sig själv. I dessa fall, eller om det föreligger samsjuklighet med något ångestsyndrom rekommenderas ett antidepressivt medel som har visad effekt vid generaliserat ångestsyndrom [@Dsm2013]. Någon skillnad mellan grupperna SSRI, SNRI, och bupropion har inte påvisats i detta avseende [@Kennedy2016].
 
 **Katatoni** vid depression bör föranleda behandling med bensodiazepiner [@Kennedy2016] och/eller ECT [REF].
 
@@ -117,7 +121,9 @@ Vid **depression med somatiska symtom** är det främst samtidig förekomst av s
 
 #### Första behandling
 
-Vid start av behandling där patienten inte har någon pågående antidepressiv behandling sedan tidigare kan exempelvis riktlinjerna från CANMAT tillämpas gällande förstahandsval (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-first)**)
+Vid start av behandling där patienten inte har någon pågående antidepressiv behandling sedan tidigare kan exempelvis riktlinjerna från CANMAT tillämpas gällande förstahandsval (**Tabell \@ref(tab:depression-canmat-antidepressant-recommendation-first)**). Även om man inte kunnat påvisa några säkra skillnader i effekt mellan dessa preparat visade en stor metaanalys att vissa läkemedel tenderade att ge bättre respons och samtidigt god tolerabilitet [@Cipriani2018]. De läkemedel som tenderade att ligga bäst till avseende effekt och samtidigt ha god tolerabilitet (färre avslut av behandlingen) var agomelatin, escitalopram\*, venlafaxin\*, vortioxetin. Läkemedel med fördelaktig effekt men utan fördel avseende tolerabilitet var amitriptylin, mirtazapin\*, och paroxetin. Läkemedel med tendens till lägst effektivitet var fluoxetin, reboxetin, fluvoxamin och trazodon. 
+
+\*Markeringen med asterisk visar de som också i CANMAT-guidelines konstateras ha visst stöd för bättre effekt (där anges också sertralin som ett medel som visat fördel avseende effekt).
 
 <!-- TODO: Förtydliga. Vad betyder egentligen första, andra och tredjehandsval i dett sammanhang? -->
 
@@ -131,12 +137,42 @@ knitr::kable(tbl, caption = "Förstahandsval enligt CANMAT")
 
 ``` 
 
-Även om man inte kunnat påvisa några säkra skillnader i effekt mellan dessa preparat visade en stor metaanalys att vissa läkemedel tenderade att ge bättre respons och samtidigt god tolerabilitet [@Cipriani2018]. De läkemedel som tenderade att ligga bäst till avseende effekt och samtidigt ha god tolerabilitet (färre avslut av behandlingen) var agomelatin, escitalopram\*, venlafaxin\*, vortioxetin. Läkemedel med fördelaktig effekt men utan fördel avseende tolerabilitet var amitriptylin, mirtazapin\*, och paroxetin. Läkemedel med tendens till lägst effektivitet var fluoxetin, reboxetin, fluvoxamin och trazodon. 
+Tabell: Egenskaper hos några antidepressiva läkemedel
 
-Risken för levertransaminasstegring med agomelatin är kring 2.5% (0.5% med placebo) och det är oklart om risken skiljer sig från andra antidepressiva[@Perlemuter2016].
+| Substans     | Namn       | Normaldos              | Vikt           | Notering                            |
+|--------------|------------|------------------------|----------------|-------------------------------------|
+| Escitalopram | Cipralex   | 10\textsuperscript{+}  | Rent 'SSRI'    |                                     |
+| Citalopram   | Cipramil   | 20\textsuperscript{+}  | $\uparrow$     | Escitalopram + overksam molekyl     |
+| Sertralin    | Zoloft     | 50\textsuperscript{+}  | $\rightarrow$  |                                     |
+| Fluoxetin    | Fontex     | 20                     | $\rightarrow$  |                                     |
+| Paroxetin    | Seroxat    | 20                     | $\uparrow$     | $\uparrow$Utsättningssymtom         |
+| Duloxetin    | Cymbalta   | 60                     |                | 'SNRI', smärtstillande              |
+| Venlafaxin   | Efastad    | 75\textsuperscript{+}  | $\rightarrow$? | 'SNRI', $\uparrow$utsättningssymtom |
+| Vortioxetin  | Brintellix | 10\textsuperscript{+}  |                | Vid högre dos $\uparrow$illamående  |
+| Amitriptylin | Saroten    | 125                    | $\uparrow$     | Sövande, smärtstillande             |
+| Bupropion    | Voxra      | 150\textsuperscript{+} | $\downarrow$   | Rökavvänjning, ADHD                 |
+| Agomelatin   | Valdoxan   | 25\textsuperscript{+}  |                | Sövande?                            |
+| Mirtazapin   | Mirtin     | 15\textsuperscript{+}  | $\uparrow$     | Sövande, $\downarrow$illamående     |
 
-\*Markeringen med asterisk visar de som också i CANMAT-guidelines konstateras ha visst stöd för bättre effekt (där anges också sertralin som ett medel som visat fördel avseende effekt).
+**Dosering:** För de doser som är markerade med \textsuperscript{+** kan dosökning upp till dubbel normaldos ibland ge viss ytterligare effekt. Högre dos medför ökad risk för biverkningar. För mirtazapin minskar sömneffekten vid doser över 20 mg.
 
+**Sexuella biverkningar:** Mindre vanligt med läkemedlen mirtazapin, bupropion, agomelatin, och låg dos (max 10 mg) vortioxetin.
+
+**Viktuppgång:** De flesta antidepressiva kan ge viktuppgång (0-3 kg). Det är vanligare tex vid behandling med mirtazapin, paroxetin, och amitriptylin. Sertralin och fluoxetin är mer vikneutrala och bupropion brukar ge litet viktnedgång.
+
+<!-- De flesta antidepressiva ger en liten viktuppgång (0-3 kg). De som oftare ger viktuppgång ($\uparrow$), är vikneutrala ($\rightarrow$), eller kan ge minskad vikt ($\downarrow$) är markerade med pilar i tabellen. -->
+
+**Illamående:** Mirtazapin, agomelatin och kanske bupropion kan vara att föredra.
+
+**Sömnproblem:** Mirtazapin (ger sömn) eller agomelatin ('sömnneutralt') kan vara att föredra.
+
+**Övrigt:** Mirtazapin är en antihistamin och fungerar därför mot tex pollenallergi. Bupropion kan minska ADHD-symtom. Vid behandling med agomelatin brukar man följa leverproverna första halvåret.
+
+**Agomelatin:** Detta läkemedel har fördelen att det mer sällan ger sömnproblem och sexuella biverkningar. Ungefär 1-2 av 100 som behandlas får dock påverkade leverprover. Därför följer man leverproverna första halvåret. Allvarlig leverpåverkan är mycket sällsynt och risken minskas genom att man följer proverna på detta sätt och avslutar behandlingen om de påverkas. För extra säkerhet kan det vara bra att känna till tecken på leverpåverkan: Gulfärgad hud, mörk urin, blek/vitaktig avföring, smärta i övre högra delen av magen, och trötthet. Risken för levertransaminasstegring med agomelatin är kring 2.5% (0.5% med placebo) och det är oklart om risken skiljer sig från andra antidepressiva[@Perlemuter2016].
+
+ <!-- Any patient who develops increased serum transaminases should have their liver function tests repeated within 48 hours -->
+ <!-- Agomelatine should be immediately discontinued if an increase in serum transaminases exceeds 3x ULN, or if patients present with symptoms or signs of potential liver injury, such as: dark urine; pale stools; jaundice; pain in the right upper abdomen; sustained new-onset and unexplained fatigue -->
+ <!-- The most recent review of hepatotoxicity found that the frequency of elevated transaminases > 3 ULN is dose-dependent, being higher in patients receiving 50 mg compared with 25 mg agomelatine (2.5  versus 1.4  respectively), https://www.gov.uk/drug-safety-update/agomelatine-valdoxan-thymanax-risk-of-dose-related-hepatotoxicity-and-liver-failure -->
 
 #### Effektivitet {#antidepressant-efficacy}
 
@@ -144,7 +180,7 @@ Effektiviteten av antidepressiva är omdiskuterad. Ett stort problem är publika
 
 Ibland hävdas att antidepressiva har större effekt vid svårare depression jämfört med lindrigare. Detta tycktes bekräftas av en metaanalys som visade att fler av de studier som visade effekt av antidepressiva inkluderade patienter med svårare depression[@Khan2002;@Kirsch2008]. En senare analys antydde att skillnaden berodde på mindre respons på placebo i dessa studier[@Kirsch2008]. Se även diskussionsdelen i [@Voehringer2011], där STAR-D mm diskuteras.
 
-Dock visar en senare analys där individdata använts (detta är en bättre metod för att undersöka interaktion mellan behandling och svårighetsgrad) att det saknades en interaktion mellan svårighetsgrad och effekt av läkemedel[@Rabinowitz2016].
+Dock visar en senare analys där individdata använts (detta är en bättre metod för att undersöka interaktion mellan behandling och svårighetsgrad) att det saknades en interaktion mellan svårighetsgrad och effekt av läkemedel[@Rabinowitz2016] (N=10737). Det kan noteras att en liknande men mindre analys (N=718) visade en interaktion mellan svårighetsgrad och behandlingseffekt, men att döma av Figur 2 i den artikeln berodde det på ett litet antal outliers[@Fournier2010].
 
 Den hittills största analysen av publicerade och opublicerade data på effekt av antidepressiva är "Selective serotonin reuptake inhibitors versus placebo in patients with major depressive disorder. A systematic review with meta-analysis and Trial Sequential Analysis" [@Cipriani2018].
 
@@ -270,7 +306,7 @@ Dock finns betydande problem med studier av underhållsbehandling[@Voehringer201
 
 STAR*D-studien motsvarar troligen bättre verkligheten. Där bibehöll hälften av de som svarat på akut behandling remission efter ett år med fortsatt läkemedelsbehandling[@Voehringer2011].
 
-Se även [@Horder2011]
+Se även [@Horder2011;@VanLeeuwen2021] och Läkartidningen[@Hoegberg2023] som sammanfattar "Problemet är att randomiserade utsättningsstudier inte lämpar sig för läkemedel som ger abstinenssymtom som överlappar med grundsjukdomen ".
 
 Se även [@Kirsch2007] om "response rate illusion".
 
@@ -287,6 +323,24 @@ Uppföljning efter nyinsättning rekommenderas efter två veckor, och därefter 
 - Effekt på depressionssymtom
 
 För utvärdering av effekt bör skattning av depressionssymtom med tex MADRS eller MADRS-S ingå som en del av bedömningen. Därutöver kan tex funktionsnivå och motoriska symtom behöva vägas in.
+
+Eftersom effektstorleken för antidepressiv behandling är liten (ca 2p förbättring på MADRS), sannolikt homogen mellan individer, och placeboeffekt/naturalförlopp medför större förändringar än läkemedelseffekten, innebär det en utmaning att utvärdera närvaro eller frånvaro av antidepressiv effekt hos en individ.
+
+```{r antidepressant-example, fig.cap="Hypotetisk illustration av behandling med placebo (heldragen linje) respektive antidepressiva (streckad linje) för två individer." , out.width = '100%'} 
+
+knitr::include_graphics("../dropbox/images/psychiatry/antidepressant-treatment-example.png")
+
+```
+
+Om man förmodar att vissa patienter får en mer dramatisk positiv effekt av behandling måste man acceptera att andra patienter i samma omfattning får en försämring, för att medelvärdet skall hamna där studierna visar att det ligger. Detta illustreras nedan.
+
+```{r antidepressant-example-mean, fig.cap="Hypotetisk illustration av behandling med placebo (heldragen linje) respektive antidepressiva (streckad linje) för två individer. En person får en förbättring av MADRS med 8p, för att medelvärdet skall bli -2p måste den andra få en försämring med 6p." , out.width = '100%'} 
+
+knitr::include_graphics("../dropbox/images/psychiatry/antidepressant-treatment-example-mean.png")
+
+```
+
+Studier som undersökt variansen i respons på läkemedel vs variansen hos placebo har funnit lika varians i båda grupperna, vilket talar för att effekten av läkemedel är ganska lika mellan individer.
 
 ### Monitorering
 
@@ -333,6 +387,7 @@ Byte inom klass har visst stöd, men byte till annan klass stöds också av en d
 - Subtyp av depression (bipolaritet, persisterande depression, atypisk depression, psykotiska symtom)
 
 Se CANMAT [@Kennedy2016]
+
 
 ### Augmentationsbehandling 
 
@@ -417,6 +472,27 @@ Modafinil:
 
 FASS: Rekommenderad startdos är 200 mg dagligen. Doser upp till 400 mg i en dos eller två fördelade doser kan ges till patienter som svarar otillräckligt på den initiala 200 mg modafinildosen. Kontraindikationer är okontrollerad måttlig till svår hypertension eller hjärtarytmier.
 
+Se nätverks-metaanalys av olika augmentationsbehandlingar[@Nunez2022]:
+
+- Response: In order of decreasing efficacy, T3, nortriptyline (N=23), aripiprazole, brexpiprazole, quetiapine, lithium, modafinil, olanzapine (fluoxetine), cariprazine and lisdexamfetamine were statistically significant compared to placebo, with RRs ranging from 1.18 (1.03–1.37) for lisdexamfetamine to 1.90 (1.16–3.11) for T3. 
+
+<!-- - Remission: In order of efficacy, T4, aripiprazole, risperidone, quetiapine, olanzapine(fluoxetine), brexpiprazole were statistically significant compared to placebo with RRs ranging from 1.44 (1.00–2.08) for brexpiprazole to 1.91 (1.04–3.52) for T4.  Not: Lägre N för remission så svårare visa effekt?-->
+
+- Discontinuation: Discontinuation rates were significantly higher compared to placebo for ziprasidone (RR= 20.12, 95% CI 1.17–344.58), mirtazapine (RR= 4.12, 95% CI, 1.97–8.63), and cariprazine (RR= 1.72 (95% CI 1.09–2.73).
+
+<!-- Kommentar: Any differences in effect were largely washed out by the CIs—particularly nortriptyline’s, which was based on only 23 patients. Among the options, the antipsychotics had the most studies and the largest sample sizes (aripiprazole, n = 1147; brexpiprazole, n = 599; cariprazine, n = 963; lithium, n = 469; modafinil, n = 284; nortriptyline, n = 23; T3, n = 114). Discontinuation rates were higher with cariprazine (1.72, 1.09–2.73), as well as with two drugs that failed the significance test—ziprasidone (20.12, 1.17–344.58) and mirtazapine (4.12, 1.97–8.63). The authors raised concern about one result—lisdexamfetamine—as earlier meta-analyses were not as favorable toward this stimulant. Indeed, the two large trials of lisdexamfetamine were negative while the two smaller ones were positive. . -->
+ 
+ 
+```{r augm-nunez, fig.cap="Resultat från metaanalys av respons på augmentationsbehandling[@Nunez2022]" , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/antidepressant-augmentation_Nunez2022.png")
+
+``` 
+
+ 
+<!-- png("../dropbox/images/psychiatry/antidepressant-augmentation_Nunez2022.png") -->
+
+
 ### Kombinationsbehandling
 
 <!-- Combining Antidepressants in Acute Treatment of Depression: A Meta-Analysis of 38 Studies Including 4511 Patients  [@Henssler2016] -->
@@ -426,6 +502,8 @@ Studier av kombinationsbehandling med två antidepressiva vid svårbehandlad dep
 <!-- Combination of a monoamine reuptake inhibitor (SSRI, SNRI, and TCA) with an antagonist of the presynaptic α2-autoreceptor (mianserin, mirtazapine, and trazodone) (13 studies) resulted in a statistically, significantly higher effect than other combinations (24 studies) (SMD 0.47; 95% CI 0.24 to 0.71, compared with SMD 0.17; 95% CI 0.02 to 0.32, P = 0.03). Restriction of this analysis to randomized, double-blind studies only consolidated the finding (SMD 0.54; 95% CI 0.29 to 0.79 [10 studies], compared with SMD 0.04; 95% CI –0.27 to 0.35 [8 studies]; P = 0.01); I2 = 47%) -->
 
 <!-- The combination of Effexor (venlafaxine) and Remeron (mirtazapine) has been dubbed “California Rocket Fuel” by Stephen Stahl (see page 290 of his Essential Psychopharmacology, 2nd Edition) because of the multiple ways the combination boosts various neurotransmitter systems. The STAR-D study found that this combination outperformed the MAOI Parnate (tranylcypromine), though the difference was not statistically significant (McGrath PJ et al., Am J Psychiatry 2006; 163(9): 1531-1541). Psychiatrists in Ireland recently reported on a series of 32 patients with refractory depression who were given this combination. The response rate, based on the Clinical Global Impression Scale, was 44% at four weeks and 50% at eight weeks. Most patients who responded were on Effexor XR at 225 mg/day or higher and Remeron 30 mg to 45 mg HS. In terms of side effects, 12% of patients reported moderate to severe weight gain and another 12% reported at least moderate sedation (Hannan N et al., J Psychopharm 2007;21(2):161-164). -->
+
+<!-- Se https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/combining-antidepressants-a-review-of-evidence/10A101DFD409DCB1FDCBB951F391F7AE -->
 
 ### Dosering av antidepressiva
 
@@ -465,11 +543,13 @@ Eriksson et al [@Hieronymus2018]
 
 De vanligaste biverkningarna av SSRI är illamående, hosta, diarré, asteni, buksmärta, nervositet, dyspepsi, tremor, och sexuella problem.
 
-Antidessiva kan även ge tex hyperhidros (antikolinerg effekt), ökad blödningsrisk (SSRI), QT-tidsförlängning, hyponatremi, och osteoporos. En del påverkar även kramptröskeln. Se avsnittet "Biverkningar av psykofarmaka" i kapitlet om psykofarmakologi. 
+Antidessiva kan även ge tex hyperhidros (antikolinerg effekt), ökad blödningsrisk (ca 1.5x ökad risk för magblödning, 5x om samtidigt NSAID[@Edinoff]), försämrad spermiekvalitet[@Xu2022;@Solek2021], QT-tidsförlängning, hyponatremi (1-7%, oftast övergående), förlust av benmassa och dubblerad risk för frakturer[@Hu2024]. En del påverkar även kramptröskeln. Se avsnittet "Biverkningar av psykofarmaka" i kapitlet om psykofarmakologi. 
+
+[Se socialstyrelsen om risk för frakturer av SSRI](https://www.sbu.se/en/publications/responses-from-the-sbu-enquiry-service/risk-of-fractures-in-patients-treated-with-selective-serotonin-reuptake-inhibitors-ssri/)
 
 Det finns vissa skillnader mellan olika preparat. Tex ger bupropion, mirtazapin, agomelatin, och måttlig dos vortioxetin mindre risk för sexuella biverkningar och bupropion ger mindre viktuppgång (i medeltal minskad vikt).
 
-Nedan följer figurer som visar den relativa riskan för olika biverkningar och preparat jämfört med placebo [@Sinyor2020].
+Nedan följer figurer som visar den relativa risken för olika biverkningar och preparat jämfört med placebo [@Sinyor2020].
 
 #### Jämförelse biverkningar mellan preparat
 
@@ -582,15 +662,17 @@ Tabellen anger % symtom vid abrupt byte till placebo hos patienter med GAD[@Bald
 
 De flesta SSRI samt bupropion och mirtazapin har halveringstid 24-36 tim, fluoxetin 4-6 dagar. Venlafaxin 5 tim, duloxetin 12 tim.
 
+>Case series clinical reports indicate that an abrupt cessation of ADM beyond the first month of treatment leads to relatively minor somatic withdrawal symptoms (e.g., dizziness) for about 25% of adults following treatment with ADM, and that these symptoms generally last 3–10 days. About 15% of responders upon stopping ADM medication experience longer lasting and more intense somatic and anxiety symptoms lasting at least 2–4 weeks, and approximately 7%–10% of responders experience symptoms that measurably impair health and social- emotional function lasting (without rescue ADM treatment) weeks to a few months[@Safer2017]
+
 #### Hyperbol nedtrappning för att undvika utsättningssymtom
 
-Det finns goda argument för att kort nedtrappningsperiod ger större risk för utsättningsesvär än en längre sådan[@Horowitz2019]. Hyperbol nedtrappning kan vara att föredra på teoretisk grund och det kan medföra en kortare nedtrappningsperiod än linjär nedtrappning, eftersom dosen reduceras procentuellt sett mer i början[@Horowitz2019].
+Det finns goda argument för att kort nedtrappningsperiod ger större risk för utsättningsesvär än en längre sådan[@Horowitz2019]. Hyperbol nedtrappning kan vara att föredra på teoretisk grund och det kan medföra en kortare nedtrappningsperiod än linjär nedtrappning, eftersom dosen reduceras procentuellt sett mer i början[@Horowitz2019]. Dock bör noteras att en redan en halvering av behandlingsdosen kan leda till utsättningssymtom som i sin tur kan öka risken för återfall[@Safer2017].
 
 Den teoretiska grunden för hyperbol nedtrappning baseras på att läkemedlets "occupancy" av receptorn uppvisar en hyperbol effekt, dvs att dosökning i det lägre intervallet små doser har en relativt högre effekt på bindingsgrad än dosökningar vid högre dosintervall. För att uppnå en linjär farmakologisk effekt kan därför hyperbol nedtrappning användas. Eftersom antidepressiva leder till uppreglering av postsynaptiska receptorer är det också rimligt att det tar viss tid innan dessa nedregleras. Steady-state efter en dosreduktion uppnås för de flesta antidepressiva efter ungefär 1-2 veckor, så detta kan betraktas som ett minimum för varje steg med dosreduktion. Eftersom utsättningssymtom kan kvarstå i flera veckor kan tex 4 veckor för varje nedtrappningssteg vara en strategi om varje dossteg skall utvärderas.
 
-Nedtrappning under exempelvis en månad är troligen för snabbt för att påtagligt minska utsättningsbesvär och en lämpligare målsättning kan vara tex 4 månader[@Horowitz2019]. Rent praktiskt kan ett förfarande vara att reducera med tex en (fyra?) veckas intervall och att backa i dos och glesa ut nedtrappningen om besvärliga utsättningssymtom inträffar. Exempel på nedtrappning[@Ruhe2019]. 
+Nedtrappning under exempelvis en månad är troligen för snabbt för att påtagligt minska utsättningsbesvär och en lämpligare målsättning kan vara tex fyra månader[@Horowitz2019]. Rent praktiskt kan ett förfarande vara att reducera med tex en (fyra?) veckas intervall och att backa i dos och glesa ut nedtrappningen om besvärliga utsättningssymtom inträffar. Exempel på nedtrappning[@Ruhe2019]. 
 
-Ett praktiskt problem är begränsad delbarhet av tabletter. En strategi kan vara att byta till fluoxetin som har längre halveringstid, samt finns tillgängligt som oral lösning för att uppnå de lägsta doseringarna. Eftersom fluoxetin tar längre tid att uppnå steady-state kan man teoretiskt motivera större steg vid varje nedtrappning. Dock interagera fluoxetin med en del andra läkemedel. Escitalopram finns även som oral lösning (20 mg/ml, 1 droppe = 1 mg). För läkemedel i kapslar kan ett (omständigt) alternativ vara att öppna kapseln och räkna korn.
+Ett praktiskt problem är begränsad delbarhet av tabletter. En strategi kan vara att byta till fluoxetin som har längre halveringstid, samt finns tillgängligt som oral lösning för att uppnå de lägsta doseringarna. Eftersom fluoxetin tar längre tid att uppnå steady-state kan man teoretiskt motivera större steg vid varje nedtrappning. Dock interagera fluoxetin med en del andra läkemedel. Även escitalopram finns som oral lösning (20 mg/ml, 1 droppe = 1 mg). För läkemedel i kapslar kan ett (omständigt) alternativ vara att öppna kapseln och räkna korn (då kan dosen behöva delas upp på två tillfällen för att undvika svängningar i läkemedelskoncentration under dagen).
 
 ```{r , fig.cap="Illustration av förhållandet mellan dos och bindingsgrad"} 
 #| label: hyperbole
@@ -601,33 +683,67 @@ plot(x, hyperbole(x), xlab="Dos (%)", ylab="Bindningsgrad (%)")
 
 ``` 
 
-Tabell: Exempel på hyperbol nedtrappning med fluoxetin oral lösning (4 mg/ml).
+Tabell: Exempel på hyperbol nedtrappning med fluoxetin oral lösning (4 mg/ml) eller escitalopram oral lösning (20 mg/ml).
 
-| Steg | Dos | Fluoxetin, ml |
-|:-----|:----|:--------------|
-| 1    | 40  | 10            |
-| 2    | 20  | 5             |
-| 3    | 12  | 3             |
-| 4    | 8   | 2             |
-| 5    | 4   | 1             |
-| 6    | 2   | 1/2           |
-| 7    | 1   | 1/4           |
-| 8    | 0.5 | 1/8           |
-| 9    | 0   | 0             |
+| Steg | Dos, mg | Fluoxetin, ml | Escitalopram, droppar |
+|:-----|:--------|:--------------|-----------------------|
+| 1    | 40      | 10            | -                     |
+| 2    | 20      | 5             | 20                    |
+| 3    | 12      | 3             | 12                    |
+| 4    | 8       | 2             | 8                     |
+| 5    | 4       | 1             | 4                     |
+| 6    | 2       | 1/2           | 2                     |
+| 7    | 1       | 1/4           | 1                     |
+| 8    | 0.5     | 1/8           | 0.5                   |
+| 9    | 0       | 0             | 0                     |
 
 Steg 2-4 kan slås ihop till ett steg med 2.5 ml.
 
 ? Dispergerbar tablett (20 mg) 1 => 1/2 => 1/4
 
-### Behandlingslängd
+Tabell: Exempel på hyperbol nedtrappning med escitalopram tablett 5 mg.
+
+| Steg | Dos, mg | Escitalopram 5 mg, antal tabl |
+|:-----|:--------|:------------------------------|
+| 1    | 20      | 4                             |
+| 2    | 10      | 2                             |
+| 3    | 5       | 1                             |
+| 4    | 2.5     | 1/2                           |
+| 5    | 1.25    | 1/4                           |
+| 6    | 0       | 0                             |
+
+Fler steg med mindre doser skulle vara önskvärt, men svårt att göra praktiskt pga delning av tabletten.
+
+
+### Behandlingslängd och recidivprofylax
 
 Till fullständig remission och därefter 6-12 månader. Trappa sedan ut långsamt för att undvika utsättningssymtom.
 
 Två eller flera depressioner under en femårsperiod medför indikation för långtidsprofylax. Vid fortsatt behandling under 1-3 år halveras återfallsrisken. Återfallspreventiv psykoterapeutisk behandling bör övervägas.
 
-Ett observandum är att i studerna på återfallsprofylax kan en del av effekten bero på utsättningssymtom[@Hengartner2021;@Voehringer2011].
+Ett observandum är att i studerna på återfallsprofylax kan en del av effekten (eller hela) bero på utsättningssymtom[@Hengartner2021;@Voehringer2011].
 
-### Natutalförlopp, återfallsrisk, avslut
+För diskussion om metodfrågor och sammanfattning av relapse prevention trials, se [@Jacobsen2020]. Safer 2017[@Safer2017] ger en nykter beskrivning av problemen. Se Table 2 Antidepressant and placebo responder extension studies: relapse rates, 16–52 weeks.
+
+>  [...] longer initial treatment was associated significantly with a larger drug-placebo contrast (greater effect size, whether based on placebo/drug RR or the difference in relapse rates between placebo and antidepressant, RD) during continuation treatment[...] In addition, with linear regression modeling, recurrence rates with both drug and placebo increased with longer exposure time, as expected, although recurrence risk with placebo grew much more than with drug (r = +0.57 vs. +0.30, respectively)[@Sim2016]
+
+> Although entry and stabilization criteria have varied across studies, traditional relapse-prevention study designs have all included an open-label active treatment period during which patients are stabilized and achieve remission, followed by randomization to 1 of 2 arms, active or placebo[...] stabilization periods have often been <16 weeks, which may not be sufficient time to establish a sustained response[@Jacobsen2020]
+
+> studies of antidepressant maintenance therapy have indicated that transitioning to placebo or reducing the maintenance dose by half increases the risk of relapse compared with maintaining an effective dose[@Jacobsen2020;@Safer2017]
+
+> There is an overwhelming acceptance by experts in psychiatry that antidepressant medication (ADM) is useful for the maintenance treat- ment of adults with major depressive disorder (MDD). The primary basis for this is the many (> 70) industry sponsored, placebo sub- stitution (randomized withdrawal) trials which follow a set protocol.  First, restrictively (enriched) screened samples of adults diagnosed with MDD are entered into an open ADM efficacy trial. Then the responders are urged to enter into a randomized, double-blind, placebo-controlled (RDBPC) maintenance trial. At the beginning of this trial, known as a placebo substitution trial, about a third of the ADM responders are abruptly switched to placebo, whereas the other responders continue on the ADM that benefited them. The consistent result of these main- tenance trials is that those switched to placebo experience a relapse rate two or more times the rate of responders who were maintained on their antidepressant medication[@Safer2017].
+
+> However, there are other ADM randomized, controlled maintenance methodologies that present different MDD relapse outcomes. A total of five (including placebo substitution) published maintenance meth- odologies will be presented and relapse rates from their treatment trials will be detailed and compared. The totality of maintenance findings raise doubt about the value of placebo substitution trials to provide the primary rationale for antidepressant long term treatment, and ad- ditionally reveal that the issues encompassing ADM maintenance for adults diagnosed with MDD are very complex[@Safer2017].
+
+> drugs with a shorter half- life lead more rapidly to relapse[@Safer2017].
+
+> virtually all other ADM maintenance research reports document that the majority of relapses occurring after a drug discontinuation or a switch to placebo occurred during the following one to three months[@Safer2017].
+
+Fördelningen av återfall vid byte till placebo är vänsterförskjuten:
+
+> Time to recurrence was significantly longer for escitalopram-treated patients, mean ± SD of 252 ± 134 days and median of 357 days, compared with those patients receiving placebo treatment, mean ± SD of 130 ± 135 days and median of 58 days[@Kornstein2006] [Not: Kaplan-Meier kurvan indikerar att escitalopram och pbo divergerar främst under de första 60 dagarna]
+
+### Naturalförlopp, återfallsrisk, avslut
 
 En studie som illustrerar återfallsrisken och problemet med utsättningssymtom visas i tabellen och figuren nedan[@Lewis2021]. Inklusionskriterier var minst 2 tidigare epidoser och Minst AD >9 mån, eller AD i >2å samt i remission (recovery). 
 
@@ -656,57 +772,7 @@ include_graphics("../dropbox/images/psychiatry/antidepressant-discontinuation_Le
 
 ``` 
 
- 
-
-## Depression i anslutning till förlossning
-
-Ungefär 5% av mödrar drabbas av depression under graviditet eller tiden efter förlossning [Ref DSM5]. Enligt en stor finsk studie är dock incidensen av "Major depression" 0.8% under graviditet [@Räisänen2014]. Den dominerande riskfaktorn är tidigare depression, vilket ungefär hälften av de mödrar som drabbas har haft [@Räisänen2014]. Ofta föreligger även svår ångest och panikattacker. Psykotiska drag ses hos ungefär en på 1000 förlossningar. I DSM-5 kan depressionsdiagnosen anges som "with peripartum onset" om depressionen startat under graviditeten eller inom fyra veckor efter förlossning. Risken för återfall vid nästa graviditet är ungefär 40% [Ref: DSM5]. 
-
-Barn vars mammor har depression kring förlossningen löper ökad risk för "failure to thrive", "attachement disorder" och försenad utveckling vid ett års ålder. Dessa besvär kan förebyggas genom att mammans besvär behandlas. Depresionen medför även risker för mamman, såsom minskad energi, sömnstörningar och försämrad anknytning till barnet, liksom ökad risk för självmord [@Langan2016].
-
-Depression i anslutning till förlossning bör skiljas från "baby blues", som är kortvarig, har milda symptom och påverkar fungerandet minimalt [@Langan2016]. Mödrar som drabbas av depression bör utvärderas avseende bpolär sjukdom, postpartum-psykos och suicidrisk [@Langan2016].
-
-Mild eller måttlig depression kan behandlas med psykoterapi eller antidepressiva läkemedel emedan måttlig till svår depression bör behanlas med båda. 
-
-Läkemedelsbehandling: Se avsnittet om SSRI vid graviditet och amning, \@ref(ssri-pregnancy). 
-
-Se antidepressants-pregnancy.csv
-
-Risk factors for and perinatal outcomes of major depression during pregnancy [@Räisänen2014]
-
-## Depression hos äldre {#depression-elderly}
-
-Effekten av antidepressiva läkemedel är lägre i högre åldrar[@Stone2022]. **Figur \@ref(fig:fig-older-adults-antidepressants)** visar effekten av antidepressiv läkemedelsbehandling i olika åldersgrupper [@Tedeschini2011].  Andelen som uppnår respons minskar med stigande ålder. Skillnaden mellan antidepressiv behandling och placebo minskar också i de högre åldersgrupperna. Respons definierades här som 50% eller större reduktion av depressiva symtom enligt skattingsskalorna MADRS eller HDRS.
-
-Någon skillnad i behandlingseffekt mellan olika grupper av antidepressiva (TCA, SSRI, och nyare ickeselektiva serotninåterupptagshämmare) har inte kunnat påvisas [@Bartels2003] <!-- [Note: Hur mycket är det studerat?] -->.
-
-Den minskade effekten av antidepressiva hos äldre bör ställas mot en ökad risk för biverkningar [REF].
-
-```{r fig-older-adults-antidepressants, fig.cap = 'Effekt av antidepressiva läkemedel i olika åldersgrupper'} 
-## Se Tedeschini2011, Figure 3. Comparison (using analysis of variance) of Antidepressant and Placebo Response Rates in Younger Adult and Older Adult Patients. Clinical response was defined as a 50% or greater reduction in HDRS or MADRS scores, from baseline to endpoint, or a CGI-I score < 3 at the final visit. For consistency, the HDRS was chosen over the MADRS or CGI-I when response rates from multiple scales were reported. For studies that reported only CGI-based response rates, HDRS-based response rates were either obtained from the sponsor or imputed using the method of Walsh et al.
-## source('varnames.r')
-tbl <- data.table::fread('../notes/fig_data_tedeschini2011.csv')
-tbl[["age_category"]] <- query_label(tbl$age_category, varnames)
-tbl[["Behandling"]] <- as.factor(query_label(tbl$treatment, varnames))
-tbl[["age_category"]] <- factor(tbl[["age_category"]], levels = c("Vuxen < 66 år", "55+", "65+"))
-p <- ggplot(data=tbl, aes(x=age_category, y=response_rate, fill=Behandling)) +
-    scale_y_continuous(breaks = seq(0, 100, 10), limits = c(0,100))+
-    ylab("Respons på antidepressiv behandling (%)")+
-    xlab("Ålderskategori")+
-    geom_bar(stat="identity", position=position_dodge())+
-    theme_polar()
-p
-
-
-kable(tbl, format = "markdown")
-
-``` 
-
-Tillägg av aripiprazol eller bupropion vid svårbehandlad depression hos äldre har studerats i en stor studie [@LenzeEric2023]. Den visade att tillägg av aripiprazol gav förbättrat välmående men ej högre andel remission än byte till- eller tillägg av bupropion.
-
-<!-- The Economist plot: https://www.economist.com/graphic-detail/2023/01/10/antidepressants-are-over-prescribed-but-genuinely-help-some-patients?utm_medium=cpc.adword.pd&utm_source=google&ppccampaignID=18151738051&ppcadID=&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrEZW7q_x-uMdyoPnW29x7D4Xgc6hD_wAHGpmOlGKj1PZBPtM52_G8BoCe_QQAvD_BwE&gclsrc=aw.ds -->
-
-## Antidepressivas effektivitet
+### Antidepressivas effektivitet
 
 Effekten av SSRI och andra antidepressiva är välstuderad i kliniska prövningar och metaanalyser ger stöd för att de har en viss effekt mot pågående depression[@Cipriani2018]. Dock föreligger en publikationsbias som gjort att effektstorleken kan vara överdriven i publicerade studier[@Turner2008].
 
@@ -778,7 +844,54 @@ En liten effekt på en skattningsskala kan ha ett värde. Dessutom kan det finna
 
 Den lilla effekten jämfört med placebo gör att biverkningar bör vägas in vid beslut om fortsatt behandling.
 
-Med tanke på att medeleffekten är liten och att dosökning över minsta effektiva dos endast ger en mycket liten ytterligare effekt, bör eventuella dosökningar och deras biverkningar utvärderas noggrannt. Om biverkningarna ökar och den eventuella positiva effekten som patienten upplever inte håller i sig, bör man överväga att återgå till lägre dos.
+Med tanke på att medeleffekten är liten och att dosökning över minsta effektiva dos endast ger en mycket liten ytterligare effekt, bör eventuella dosökningar och deras biverkningar utvärderas noggrannt. Om biverkningarna ökar och den eventuella positiva effekten som patienten upplever inte håller i sig, bör man överväga att återgå till lägre dos. 
+
+## Depression i anslutning till förlossning
+
+Ungefär 5% av mödrar drabbas av depression under graviditet eller tiden efter förlossning [Ref DSM5]. Enligt en stor finsk studie är dock incidensen av "Major depression" 0.8% under graviditet [@Räisänen2014]. Den dominerande riskfaktorn är tidigare depression, vilket ungefär hälften av de mödrar som drabbas har haft [@Räisänen2014]. Ofta föreligger även svår ångest och panikattacker. Psykotiska drag ses hos ungefär en på 1000 förlossningar. I DSM-5 kan depressionsdiagnosen anges som "with peripartum onset" om depressionen startat under graviditeten eller inom fyra veckor efter förlossning. Risken för återfall vid nästa graviditet är ungefär 40% [Ref: DSM5]. Mödrar som drabbas av depression bör utvärderas avseende bipolär sjukdom, postpartum-psykos och suicidrisk [@Langan2016].
+
+Barn vars mammor har depression kring förlossningen löper ökad risk för "failure to thrive", "attachement disorder" och försenad utveckling vid ett års ålder. Dessa besvär kan förebyggas genom att mammans besvär behandlas. Depresionen medför även risker för mamman, såsom minskad energi, sömnstörningar och försämrad anknytning till barnet, liksom ökad risk för självmord [@Langan2016].
+
+Depression i anslutning till förlossning bör skiljas från "baby blues", som är kortvarig, har milda symptom och påverkar fungerandet minimalt [@Langan2016]. 
+
+Mild eller måttlig depression kan behandlas med psykoterapi eller antidepressiva läkemedel emedan måttlig till svår depression bör behandlas med båda (?). rTMS och ECT bör övervägas som alternativ. Läkemedelsbehandling: Se avsnittet om SSRI vid graviditet och amning, \@ref(ssri-pregnancy). Se antidepressants-pregnancy.csv
+
+Risk factors for and perinatal outcomes of major depression during pregnancy [@Räisänen2014]
+
+## Depression hos äldre {#depression-elderly}
+
+Effekten av antidepressiva läkemedel är lägre i högre åldrar[@Stone2022]. **Figur \@ref(fig:fig-older-adults-antidepressants)** visar effekten av antidepressiv läkemedelsbehandling i olika åldersgrupper [@Tedeschini2011].  Andelen som uppnår respons minskar med stigande ålder. Skillnaden mellan antidepressiv behandling och placebo minskar också i de högre åldersgrupperna. Respons definierades här som 50% eller större reduktion av depressiva symtom enligt skattingsskalorna MADRS eller HDRS.
+
+Argument finns för att SSRI-behandling av äldre med depression saknar evidens [Läkartidningen](https://lakartidningen.se/opinion/debatt/2019/12/ssri-behandling-av-aldre-med-depression-saknar-evidens/).
+
+Någon skillnad i behandlingseffekt mellan olika grupper av antidepressiva (TCA, SSRI, och nyare ickeselektiva serotninåterupptagshämmare) har inte kunnat påvisas [@Bartels2003] <!-- [Note: Hur mycket är det studerat?] -->.
+
+Den minskade effekten av antidepressiva hos äldre bör ställas mot en ökad risk för biverkningar [REF].
+
+```{r fig-older-adults-antidepressants, fig.cap = 'Effekt av antidepressiva läkemedel i olika åldersgrupper'} 
+## Se Tedeschini2011, Figure 3. Comparison (using analysis of variance) of Antidepressant and Placebo Response Rates in Younger Adult and Older Adult Patients. Clinical response was defined as a 50% or greater reduction in HDRS or MADRS scores, from baseline to endpoint, or a CGI-I score < 3 at the final visit. For consistency, the HDRS was chosen over the MADRS or CGI-I when response rates from multiple scales were reported. For studies that reported only CGI-based response rates, HDRS-based response rates were either obtained from the sponsor or imputed using the method of Walsh et al.
+## source('varnames.r')
+tbl <- data.table::fread('../notes/fig_data_tedeschini2011.csv')
+tbl[["age_category"]] <- query_label(tbl$age_category, varnames)
+tbl[["Behandling"]] <- as.factor(query_label(tbl$treatment, varnames))
+tbl[["age_category"]] <- factor(tbl[["age_category"]], levels = c("Vuxen < 66 år", "55+", "65+"))
+p <- ggplot(data=tbl, aes(x=age_category, y=response_rate, fill=Behandling)) +
+    scale_y_continuous(breaks = seq(0, 100, 10), limits = c(0,100))+
+    ylab("Respons på antidepressiv behandling (%)")+
+    xlab("Ålderskategori")+
+    geom_bar(stat="identity", position=position_dodge())+
+    theme_polar()
+p
+
+
+kable(tbl, format = "markdown")
+
+``` 
+
+Tillägg av aripiprazol eller bupropion vid svårbehandlad depression hos äldre har studerats i en stor studie [@LenzeEric2023]. Den visade att tillägg av aripiprazol gav förbättrat välmående men ej högre andel remission än byte till- eller tillägg av bupropion.
+
+<!-- The Economist plot: https://www.economist.com/graphic-detail/2023/01/10/antidepressants-are-over-prescribed-but-genuinely-help-some-patients?utm_medium=cpc.adword.pd&utm_source=google&ppccampaignID=18151738051&ppcadID=&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrEZW7q_x-uMdyoPnW29x7D4Xgc6hD_wAHGpmOlGKj1PZBPtM52_G8BoCe_QQAvD_BwE&gclsrc=aw.ds -->
+
 
 
 ## Indikationer
