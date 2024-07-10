@@ -804,6 +804,16 @@ Effektstorleken var 0.37 (CI 0.33 till 0.41) för publicerade studier och 0.15 (
 
 Det bör även noteras att placeboeffekten är framträdande vid behandling av depression (sannolikt även regression mot medelvärdet). Den ökar med antalet uppföljningsbesök i en studie och är kanske mindre framträdande vid svårare depression[@Ioannidis2008].
 
+Figuren nedan visar det kumulativa resultatet av publication bias, selektivt rapporterande av utfall, spin etc.
+
+```{r publ-spin, fig.cap="The cumulative impact of reporting and citation biases on the evidence base for antidepressants. (a) displays the initial, complete cohort of trials, while (b) through (e) show the cumulative effect of biases. Each circle indicates a trial, while the color indicates the results or the presence of spin. Circles connected by a grey line indicate trials that were published together in a pooled publication. In (e), the size of the circle indicates the (relative) number of citations received by that category of studies[@Vries2018]." , out.width = '100%'} 
+
+include_graphics("../dropbox/images/psychiatry/antidepressant-spin_Vries2018.png")
+
+``` 
+
+**Selektivt rapporterande:** By omitting unfavorable outcomes or switching the status of the primary and secondary outcomes. Without access to the FDA reviews, it would not have been possible to conclude that these trials, when analyzed according to protocol, were not positive. **Spin:** Tex spin in the abstract (i.e. concluding that the treatment was effective when it was not, or suggesting the treatment is at least numerically better than placebo). **Citation bias:** Positive trials were cited three times as frequently as negative trial
+
 Frågor kring antidepressivas effektivitet vid akut respektive underhållsbehandling, problemen med publikationbias och studiedesign, samt betydelsen av utsättningssymtom som ett metodologiskt problem i underhållsstudier, mm, har diskuterats. Debatten är något polariserad, med olika grupperingar "för" och "emot" antidepressiva, se tex [@Horowitz2022a].
 
 | Påstående                                                  | För                                 | Emot                                | Syntes       |

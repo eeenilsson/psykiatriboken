@@ -71,6 +71,102 @@ Se [@Skikic2020] för kliniskt vägledd diagnoistik.
 
 ## Tankestörning
 
+### Tankeförlopp (formella tankestörningar)
+
+- Formell tankestörning innebär en oförmåga att vidmakthålla ett sammanhängande samtal och avspeglar störning i tankarnas organisation och uttryck (hur de formuleras) snarare än deras innehåll.
+- Avvikelse kan övergripande beskrivas som stört eller desorganiserat tänkande.
+- Beskriv kvantitet, tempo/flöde, logiskt sammanhang.
+
+#### Typer av stört tankeförlopp
+
+- Tankefattighet (poverty of thought/poverty of speech/alogia): Minskad mängd tal eller fattigt innehåll (utarmat/innehållslöst tal, stereotypier).
+- Inhiberat tänkande: Tankarna tycks flöda långsamt med få associationer.
+- Blockering/tankestopp/tankespärr(thought blocking, speech blocking): Plötsligt, omotiverat uppehåll mitt i en tankekedja (kan eller kan inte ta upp tråden igen). Enligt DSM-IV skall tankestopp anses föreligga enbart om personen spontant berättar att tankarna försvann, eller om han eller hon anger detta som skäl till sin tystnad på direkt fråga från intervjuaren. Observera att man normalt kan bli blockerad då man pratar om ett ångestladdat ämne, eller vid uttalad trötthet.
+- Ökat talflöde/forcerat talflöde (Pressure of speech, pressured speech, rapid speech): Oupphörligt, snabbt tal utan pauser. Ibland höjd röst och med onödiga ord. Svårt att avbyta. Fortsätter tala även när ingen lyssnar. 
+- Perseveration: Ihärdig repetition av ord ("Det är fint att vara här i Örebro, Örebro, Örebro") eller idéer även när en annan person försöker byta ämne. Har svårt att avbryta en tankegång. Kan också yttra sig i att man ger samma svar på olika frågor, tex: "Heter du Jhonny?" "Ja."; "Är du på sjukhuset?" "Ja"; "Är du ett bord", "Ja".
+- Omständlighet (circumstantiality): Klarar inte att svara på frågor utan att ge många irrelevanta detaljer och utvikningar men klarar sedan att återvända till ämnet i stort. 
+- Tangentialitet (tangentiality): Avviker från ämnet utan att kunna återvända eller ge den efterfrågade informationen. Variation: tangential circumstantial (being vague, ie, "beating around the bush")
+- Distraherat tal (Distractible speech): During mid speech, the subject is changed in response to an external stimulus. e.g. "Then I left San Francisco and moved to... where did you get that tie?"
+- Tankeflykt/idéflykt (flight of ideas, change topics): Snabb tankeström med tvära kast från ett ämne till ett annat, med svårförståeliga kopplingar (samma tema, poetiska associationer, rim, ordlekar) mellan idéerna. Olika grad, från lätt uppluckrade associationer till osammanhängande tal.
+- Klangassociationer (clanging, clang associations, rhyming words, word plays, idiosynchratic associations): En svårare form av tankeflykt där tankegången hänger ihop genom ljud snarare än innehåll. Ordvalet kan styras av ljudlikhet, tex med överdrivet rimmande eller ordlekar.
+- Associationsrikedom (derailment, knight's move thinking): Extrem irrelevans. Tankarna/talet rör sig från ämnet till ett annat ämne som är orelaterat eller mycket vagt relaterat.
+- Loss of goal – Failure to follow a train of thought to a natural conclusion. e.g. "Why does my computer keep crashing?", "Well, you live in a stucco house, so the pair of scissors needs to be in another drawer."
+- Uppluckrade associationer: Byter omotiverat spår från den ena meningen till den andra, utan någon som helst eller mycket långsökt koppling.
+- Inkoherens/splittring/ordsallad (incoherence, schizaphasia): Obegripligt tal eftersom personen byter spår inom själva meningsbyggnaden. Enskilda ord är riktiga men kombineras på ett vis som gör talet obegripligt. Ordsallad beskriver en hög grad av splittring.
+- Neologismer (neologisms): Formar nyord (som inte har någon allmänt accepterad betydelse), exempelvis genom att sätta ihop två existerande ord, eller använder existerande ord på ett excentriskt vis.
+- Ekolali (echolalia): Upprepning av en annas ord. Variant: Palilalia (upprepning av sina egna ord).
+- Parafasi (paraphasia): Språkstörning som består i oavsiktlig förväxling av ord (semantic paraphasia, "I slipped on the coat, on the ice I mean, and broke my book.") och enskilda ljud (phonemic paraphasia, "I slipped on the lice and broke my arm."). 
+- Förbisvar: Ger ett felaktigt svar på en fråga trots att frågan uppfattats. Ex: "Är det något som tynger dig?" "Ja, bordet är tungt".
+- Andra: punning (talking in riddles), verbigeration (the constant or obsessive repetition of meaningless words or phrases), overinclusion (overgeneralization and inability to maintain boundaries in categories), racing (rapid thoughts), self-reference (patient repeatedly and inappropriately refers back to self. e.g. "What's the time?", "It's 7 o'clock. That's my problem."), Word approximations (old words used in a new and unconventional way. e.g. "His boss was a seeover."), Illogicality (Conclusions are reached that do not follow logically (non-sequiturs or faulty inferences). e.g. "Do you think this will fit in the box?" draws a reply like "Well duh; it's brown, isn't it?"), Stilted speech (Speech characterized by the use of words or phrases that are flowery, excessive, and pompous.[9] e.g. "The attorney comported himself indecorously."), Evasive interaction (Attempts to express ideas and/or feelings about another individual come out as evasive or in a diluted form, e.g.: "I... er ah... you are uh... I think you have... uh-- acceptable erm... uh... hair.")
+
+#### Tolkning
+
+| Tankestörning       | Typiskt vid                                 |
+|---------------------|---------------------------------------------|
+| Idéflykt            | Mani                                        |
+| Inhiberat tänkande  | Depression, Schizofreni, demens             |
+| Perseveration       | Demens                                      |
+| Omständlighet       | Schizofreni, Ångest, personlighetsstörining |
+| Tankefattighet      | Schizofreni                                 |
+| Tankeblockering     | Schizofreni                                 |
+| Klanagassociationer | Mani, Schizofreni                           |
+| Ekolali             | Tourette                                    |
+| Neologismer         | Schizofreni, mani                           |
+
+<!-- - Flight of ideas is typical of mania. Conversely, patients with depression may have retarded or inhibited thinking. Poverty of thought is one of the negative symptoms of schizophrenia, and might also be a feature of severe depression or dementia. A patient with dementia might also experience thought perseveration. Formal thought disorder is a common feature of schizophrenia. Circumstantial thinking might be observed in anxiety disorders or certain kinds of personality disorders. -->
+
+<!-- - Störningar i tankeförlopp kan tala för psykos. psykotiska tankestörningar: omotiverade uppehåll i talet? fråga efter tankestopp, tankepåsättning, tankeutbredning, tankedetraktion, tanketrängsel -->
+
+<!-- - Alogia (also poverty of speech) – A poverty of speech, either in amount or content; it can occur as a negative symptom of schizophrenia. -->
+
+<!-- - Blocking: This is a type of formal thought disorder that can be seen in schizophrenia.[1] -->
+
+<!-- - Clanging or Clang association – It is most commonly seen in bipolar affective disorder (manic phase), although it is often observed in patients with primary psychoses, namely schizophrenia and schizoaffective disorder. -->
+
+<!-- - Perseveration can include palilalia and logoclonia, and can be an indication of organic brain disease such as Parkinson's. Perseveration  Kan ses vid vissa psykotiska tillstånd, vid desorientering samt hos vissa epileptiker. Förekommer ibland hos deprimerade patienter i form av ett svåravledbart ältande.   -->
+
+<!-- - Idéflykt: It is most characteristic of the manic phase of bipolar illness. -->
+
+<!-- - Ekolali: This can be a symptom of Tourette's Syndrome. -->
+
+<!-- - Neologismer: psykos, ffa scizofreni. Mani? -->
+
+- Övergående depersonalisation är ett vanligt fenomen (som uppges kunna förekomma hos 50 % av befolkningen), speciellt hos barn och ungdomar men även hos vuxna när de reser till nya och okända platser, i samband med uttröttning eller starka känsloreaktioner.
+
+- Tanketrängsel: Tanketrängsel vid schizofreni visar bara en yttre likhet med den tankeflykt / idéflykt som förekommer vid den maniska fasen i manodepressiva psykoser. Vid schizofreni sprängs främmande tankefragment in i de logiska tankesekvenserna.
+
+- Ökat talflöde: Förekommer i första hand vid hypomana- och maniska tillstånd, men kan observeras även vid påverkan av t ex centralstimulerande medel och vid psykotiska sjukdomstillstånd.
+
+### Tankeinnehåll (Innehållsmässiga tankestörningar)
+
+- Avspeglar personens föreställingar och tolkning av stimuli. 
+- Undersök intensitet, vilken vikt patienten lägger vid tankarna, känslor som är förknippade med tankarna, om tankarna upplevs vara under ens egen kontroll, graden av övertygelse som är förknippad med tankarna.
+- Disorders of thought content reflect the patient’s ideas, beliefs, and interpretations of stimuli. Delusions, the most obvious example
+
+#### Vanföreställningar
+
+- Övervärdiga idéer: a false belief that is held with conviction but not with delusional intensity. Hypochondriasis is an overvalued idea that one is suffering from an illness, dysmorphophobia is an overvalued idea that a part of one's body is abnormal, and people with anorexia nervosa may have an overvalued idea of being thin.
+- En vanföreställning låter sig ej korrigeras, trots att övertygelsen är uppenbart felaktig och personens begåvning och utbildning bör göra det möjligt för honom att inse detta. 
+
+<!-- "a false, unshakeable idea or belief which is out of keeping with the patient's educational, cultural and social background ... held with extraordinary conviction and subjective certainty". The patient's delusions may be described as persecutory or paranoid delusions, delusions of reference, grandiose delusions, erotomanic delusions, delusional jealousy or delusional misidentification. Delusions may be described as mood-congruent (the delusional content in keeping with the mood), typical of manic or depressive psychoses, or mood-incongruent (delusional content not in keeping with the mood) which are more typical of schizophrenia. Delusions of control, or passivity experiences (in which the individual has the experience of the mind or body being under the influence or control of some kind of external force or agency), are typical of schizophrenia. Examples of this include experiences of thought withdrawal, thought insertion, thought broadcasting, and somatic passivity. Schneiderian first rank symptoms are a set of delusions and hallucinations which have been said to be highly suggestive of a diagnosis of schizophrenia. Delusions of guilt, delusions of poverty, and nihilistic delusions (belief that one has no mind or is already dead) are typical of depressive psychoses. -->
+
+- Bisarr vanföreställning: Fullkomligt otroligt. Man behöver med andra ord inte fundera över om personen kan ha rätt i det han tror.
+- Icke-bisarr vanföreställning: Vanföreställning som hypotetiskt skulle kunna överensstämma med verkligheten. Ex: Förföljd av polisen.
+- Tankedetraktion: Tankedetraktion är en form av innehållsstörning med vanföreställningar, som innebär att den drabbade tror att de egna tankarna blivit borttagna ur huvudet till exempel av en utomjordisk makt eller av någon människa
+- Påverkansupplevelser/tankepåsättning (thought pressure, pressure of ideas, thought insertion, intrusive thoughts, thought control): Föreställning att ens tankar/känslor/handlingar kommer som ett tvång utifrån.
+- Tanketrängsel: Flera tankar med olika innehåll och inriktning tränger sig på i medvetandet samtidigt.
+- Tankeutbredning/tankeeko: Upplevelse av att de egna tankarna samtidigt tänks av någon annan, likt ett eko eller en radiosändning.
+- Hänsyftningsidéer: Personen har tankar om att tillfälligheter och yttre händelser har en speciell och ovanlig betydelse som är specifik för just honom eller henne. Personen känner till exempel att det som skrivs i tidningarna eller diskuteras i radion i själva verket syftar på honom eller henne. 
+- Depressiva vanföreställningar Handlar om otillräcklighet, skuld, sjukdom, död, nihilism eller bestraffning. Kan inkludera förföljelseparanoia om denna förknippas med självnedvärderande teman som t ex välförtjänt straff. Exempel på depressiva vanföreställningar är
+- Grandiosa / megalomana vanföreställningar Handlar om uppblåst självbild, makt, kunskaper, identitet eller ett speciellt förhållande till gudar eller kända personer. 
+- Magiskt tänkande: En felaktig föreställning om att ens tankar, ord eller handlingar kan förorsaka eller förhindra ett speciellt händelseförlopp på ett sätt som inte följer allmänt accepterade principer om orsak och verkan.
+- Förföljelseparanoia: Vanföreställningar där huvudtemat är att personen (eller någon närstående) attackeras, trakasseras, luras, förföljs eller motarbetas.  
+- Svartsjukeparanoia: Vanföreställningar om att ens sexuella partner är otrogen. Vanligt vid alkoholberoende.  
+- Erotomani: Vanföreställning om att en annan person, vanligtvis med högre status, är förälskad i personen.  
+- Somatiska vanföreställningar: Vanföreställningar som gäller kroppens utseende eller funktioner. Dessa har ofta en depressiv prägel
+- Dysmorfofobi: Tillstånd som strikt sett inte når upp till vanföreställningsstatus. Orealistisk upplevelse av att någonting i utseendet är ”fel”. Objektivt finner man inget anmärkningsvärt i patientens utseende. 
+- Dysmorfoparanoia: Vanföreställningar där personen kan vara helt fixerad vid sin upplevda deformitet och invalidiserad av sin upplevelse.
+
 
 ## Akut psykos
 
@@ -98,19 +194,21 @@ Autoimmun encefalit: Kramper, katatoni, autonom instabilitet, hyperkinesi.
 - Uteslut metabol orsak: Krea (uremi), glukos, leverstatus (leversvikt, Wilsons), elektrolyter inkl kalcium (Addison, cushing, hyperpara)
 - Endokrint: Thyroideastatus
 - Uteslut autoimmun orsak: ANA (SLE),
-- Övrigt: HIV, syfilis, (ceruloplasmin). Ev EEG (EP), läkemedelskonc, tungmetaller (om misstänkt exponering i hem eller yrke2)
+- Övrigt: HIV, syfilis, (ceruloplasmin). Ev EEG (EP), läkemedelskonc, tungmetaller (om misstänkt exponering i hem eller yrke)
 - B12, folat, Mg, (Vit A, B1, B3?) om undernärd eller vegan.
 - Alkoholmarkör?
 - MR: Demyeliniserande sjukdom, stroke, hjärntumör. Screening endast vid neurologiska fynd, eller ålder >45.
 - Genetisk testning om ålder <13 å.
 
-EEG? " EEG uppvisade oacceptabelt låg diagnostisk säkerhet. Det finns inget stöd för EEG som diagnosmetod vid psykotisk sjukdom, eller för att utesluta annan cerebral sjukdom av organisk genes, hos patienter med förstagångsinsjuknande i psykotiska symtom.  Otillräckligt vetenskapligt underlag" [Länk](https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/su4372-1728378332-280/surrogate/2012_47%20HTA-rapport%20EEG%20as%20a%20diagnostic%20tool%20in%20patients%20with%20first%20episode%20psychosis.pdf). Vid katatoni där orsaken är oklar kan EEG ha ett värde för att skilja mellan organisk- och ickeorganisk orsak[@Hosseini2023]. EEG kan övervägas om "Staring spells, episodic loss of consciousness, myoclonic movements/rigidity?"[@Skikic2020]
-
 I nationella vårdprogrammet anges samtliga undersökningar under "kan utföras" [Länk](https://www.vardochinsats.se/schizofreni-och-liknande-tillstaand/kartlaeggning-och-utredning/initial-utredning-schizofreni-och-schizofreniliknande-tillstaand/).
 
 Symtom som kan föranleda utvidgad utredning (tex MR, EEG, paraneoplastisk panel): Avvikande nervstatus (tex nystagmus, afasi, motoriska bortfall, myoklonus), medvetandesänkning, frånvaroattacker, konfusion, huvudvärk, illamående/kräkning, inkontinens, feber
 
-Wilsons sjukdom är ovanlig, men många får psykiatriska symtom. Kayser-Fleischer ring (gyllenbrun, kan vara grön, röd, blå) föreligger hos 95%, så frånvaro av detta torde kunna göra mäting av ceruloplasmin onödig. Misstänk vid: Psychiatric disease with signs of hepatic or neurological disease? "Kayser-Fleischer rings may not be easily visible on routine examination. In the initial stages, a slit lamp is generally necessary to identify the rings. However, visibility with the naked eye becomes possible as the disease progresses, especially in patients with lightly pigmented irises and severe copper overload. Therefore, a slit-lamp examination is imperative for diagnosis."[@Pandey2024]
+**EEG:** "EEG uppvisade oacceptabelt låg diagnostisk säkerhet. Det finns inget stöd för EEG som diagnosmetod vid psykotisk sjukdom, eller för att utesluta annan cerebral sjukdom av organisk genes, hos patienter med förstagångsinsjuknande i psykotiska symtom.  Otillräckligt vetenskapligt underlag" [Länk](https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/su4372-1728378332-280/surrogate/2012_47%20HTA-rapport%20EEG%20as%20a%20diagnostic%20tool%20in%20patients%20with%20first%20episode%20psychosis.pdf). Vid katatoni där orsaken är oklar kan EEG ha ett värde för att skilja mellan organisk- och ickeorganisk orsak[@Hosseini2023]. EEG kan övervägas om "Staring spells, episodic loss of consciousness, myoclonic movements/rigidity"[@Skikic2020]
+
+**Ceruloplasmin:** Wilsons sjukdom är ovanlig, men många får psykiatriska symtom. Kayser-Fleischer ring (gyllenbrun, kan vara grön, röd, blå) föreligger hos 95%, så frånvaro av detta torde kunna göra mäting av ceruloplasmin onödig. Misstänk vid: Psychiatric disease with signs of hepatic or neurological disease? "Kayser-Fleischer rings may not be easily visible on routine examination. In the initial stages, a slit lamp is generally necessary to identify the rings. However, visibility with the naked eye becomes possible as the disease progresses, especially in patients with lightly pigmented irises and severe copper overload. Therefore, a slit-lamp examination is imperative for diagnosis."[@Pandey2024]
+
+**Syfilis:** Neurosyfilis[@Ropper2019]. Kan ge psykiatriska symtom som första tecken.
 
 ## Behandling
 

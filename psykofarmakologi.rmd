@@ -1685,7 +1685,7 @@ Stimulering av H1-receptorn i nervsystemet av histamin (storhjärnan, cerebellum
 
 Eftersom histamin H1-receptorn har en basal aktivitet och antihistaminer binder andra delar än histamin är de tekniskt "inversa agonister" snarare än antagonister. Alimemazin och propiomazin är neuroleptika, men används som sederande läkemedel pga deras antihistaminerga effekt. 
 
-H1-antihistaminer har effekt på ett flertal receptortyper beroende på preparat. Alla har antikolinerga effekter. De används som sömnmedel pga sina antihistaminerga effekter. Substanserna är fentiaziner eller fentiazinliknande (dvs besläktade med vissa antipsykotiska läkemedel och det kan noteras att fall av malignt neuroleptikasyndrom finns rapporterade). Propiomazin liknar strukturellt och farmakologiskt klozapin. Alimemazin liknar strukturellt tricykliska antidepressiva. Den aktiva metaboliten av Hydroxyzin är cetrizin.
+H1-antihistaminer har effekt på ett flertal receptortyper beroende på preparat. Alla har antikolinerga effekter. De används som sömnmedel pga sina antihistaminerga effekter. Substanserna är fentiaziner eller fentiazinliknande (dvs besläktade med vissa antipsykotiska läkemedel och det kan noteras att fall av malignt neuroleptikasyndrom finns rapporterade). Propiomazin liknar strukturellt och farmakologiskt klozapin. Prometazin linkar klorpromazin. Alimemazin liknar strukturellt tricykliska antidepressiva. Den aktiva metaboliten av Hydroxyzin är cetrizin.
 
 Amitriptylin och mirtazapin har antihistaminerg effekt i låga doser kan troligen användas på liknande sätt[@Bakker2021;@IvgyMay2015]
 
@@ -1700,6 +1700,8 @@ Tabell: Receptorprofil H1-antihistaminer
 | Prometazin     | x  | x    | x  |      |    | x    |
 | Alimemazin     |    |      |    |      |    |      |
 | Propiomazin    | x  | x    | x  | x    | x  |      |
+
+[PubChem om Prometazin](https://pubchem.ncbi.nlm.nih.gov/compound/Promethazine#section=Chemical-Disease-Co-Occurrences-in-Literature)
 
 <!-- Promethazine is a an antagonist of histamine H1, post-synaptic mesolimbic dopamine, alpha adrenergic, muscarinic (M1-5), and NMDA receptors -->
 
