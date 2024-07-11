@@ -25,6 +25,8 @@ I psykiatrisk diagnostik används tex duration (tex >6 månader vid schizofreni)
 
 Överskott på dopaminerg och glutamaterg signalering kan vara en biologisk process som orsakar psykos. Kannabinoidreceptorer och serotonin (psykedelika) kan också vara inblandade.
 
+Psykologiska modeller av psykos inbegriper bla att psykos kan vara en följd av nedsatt förmåga att processa otydliga stimuli samt en tendens att ta ett beslut p åbasen av mindre information[@Garety1991;@Garety2007].
+
 Huntingtons sjukdom kan ge psykos (10%), ofta även depression, kognitiv nedsättning, irritabilitet.
 
 ## Differentialdiagnostik
