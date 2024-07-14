@@ -81,6 +81,47 @@ Se [@Skikic2020] för kliniskt vägledd diagnoistik.
 
 #### Typer av stört tankeförlopp
 
+Med formella tankestörningar menas förändringar i talproduktion och tankeprocess. De kan indelas i positiva- och negativa, samt objektiva och subjektiva (där de senare måste efterfrågas).
+
+**Positiva:** Tex urspårning, uppluckring av associationer, neologismer och konstlat tal [stilted speech].
+
+**Negativa:** Minskad produktion av tal eller tankar. Tex tankefattighet, långsamt tänkande.
+
+**Subjektiva:**
+
+- Positiva: Tex pressure of thoughts, thought interference
+
+- Negativa:  Tex inhibited thinking, dysfunction of thought initiative
+
+disorganization, emptiness, and incoherence.
+
+Tabell: Karakteristiska formella tankestörningar
+
+| Pos/Neg | Obj/Subj | Karakteristiskt                                                                                  | Beskrivande    |
+|---------|----------|--------------------------------------------------------------------------------------------------|----------------|
+| Pos     | Obj      | derailment and crosstalk                                                                         | Desorganiserad |
+| Pos     | Subj     | pressure/rush of thought and thought interference                                                |                |
+| Neg     | Obj      | poverty of speech, slowed thinking and concretism                                                | Tomhet         |
+| Neg     | Subj     | poverty of thought, inhibited thinking, and dysfunction of thought initiative and intentionality | Introspektiv   |
+
+Objective positive FTD is highest in mania and objective negative FTD is highest in schizophrenia and major depressive disorder[@Kircher2018].
+
+Chronic positive FTD is a diagnostic marker for schizophrenia, and negative FTD in schizophrenia is associated with poor social functioning and outcome[@Kircher2018].
+
+FTDs in individuals with schizophrenia have been consistently associated with cognitive impairment in executive functioning, attention, verbal fluency, and working memory[@Kircher2018].
+
+Dimensioner av formell tankesörning[@Stein2022;@Kircher2018;@Kircher2014]. Supplementet i ref [@Kircher2014] innehåller definitioner. Se även "Scale for the assessment of thought, language, and communication (TLC)"[@Andreasen1986] för beskrivning av vissa tankestörningar.
+
+Förenkling: Beskriv ökad/minskad tal/tankeproduktion. Grad av urspårning/uppluckring i associationer. Tanketrängsel. Förbisvar. Om tex neologismer eller konstlat tal förekommer kommenteras det.
+
+"Normalt taltempo och tankeförlopp."
+
+"Ökat taltempo. Måttligt uppluckrade associationer. Beskriver tanketrängsel. En del förbisvar."
+
+<!-- En del av termerna är relaterade med varandra?. Några begrepp som kanske kan ses som grader på en skala: Omständlighet < tangentialitet < idéflykt < uppluckrade associationer < ordsallad. -->
+
+Terminologin är inte helt konsekvent i olika källor, men nedan beskrivs ett urval.
+
 - Tankefattighet (poverty of thought/poverty of speech/alogia): Minskad mängd tal eller fattigt innehåll (utarmat/innehållslöst tal, stereotypier).
 - Inhiberat tänkande: Tankarna tycks flöda långsamt med få associationer.
 - Blockering/tankestopp/tankespärr(thought blocking, speech blocking): Plötsligt, omotiverat uppehåll mitt i en tankekedja (kan eller kan inte ta upp tråden igen). Enligt DSM-IV skall tankestopp anses föreligga enbart om personen spontant berättar att tankarna försvann, eller om han eller hon anger detta som skäl till sin tystnad på direkt fråga från intervjuaren. Observera att man normalt kan bli blockerad då man pratar om ett ångestladdat ämne, eller vid uttalad trötthet.
@@ -88,13 +129,13 @@ Se [@Skikic2020] för kliniskt vägledd diagnoistik.
 - Perseveration: Ihärdig repetition av ord ("Det är fint att vara här i Örebro, Örebro, Örebro") eller idéer även när en annan person försöker byta ämne. Har svårt att avbryta en tankegång. Kan också yttra sig i att man ger samma svar på olika frågor, tex: "Heter du Jhonny?" "Ja."; "Är du på sjukhuset?" "Ja"; "Är du ett bord", "Ja".
 - Omständlighet (circumstantiality): Klarar inte att svara på frågor utan att ge många irrelevanta detaljer och utvikningar men klarar sedan att återvända till ämnet i stort. 
 - Tangentialitet (tangentiality): Avviker från ämnet utan att kunna återvända eller ge den efterfrågade informationen. Variation: tangential circumstantial (being vague, ie, "beating around the bush")
-- Distraherat tal (Distractible speech): During mid speech, the subject is changed in response to an external stimulus. e.g. "Then I left San Francisco and moved to... where did you get that tie?"
 - Tankeflykt/idéflykt (flight of ideas, change topics): Snabb tankeström med tvära kast från ett ämne till ett annat, med svårförståeliga kopplingar (samma tema, poetiska associationer, rim, ordlekar) mellan idéerna. Olika grad, från lätt uppluckrade associationer till osammanhängande tal.
-- Klangassociationer (clanging, clang associations, rhyming words, word plays, idiosynchratic associations): En svårare form av tankeflykt där tankegången hänger ihop genom ljud snarare än innehåll. Ordvalet kan styras av ljudlikhet, tex med överdrivet rimmande eller ordlekar.
 - Associationsrikedom (derailment, knight's move thinking): Extrem irrelevans. Tankarna/talet rör sig från ämnet till ett annat ämne som är orelaterat eller mycket vagt relaterat.
-- Loss of goal – Failure to follow a train of thought to a natural conclusion. e.g. "Why does my computer keep crashing?", "Well, you live in a stucco house, so the pair of scissors needs to be in another drawer."
 - Uppluckrade associationer: Byter omotiverat spår från den ena meningen till den andra, utan någon som helst eller mycket långsökt koppling.
 - Inkoherens/splittring/ordsallad (incoherence, schizaphasia): Obegripligt tal eftersom personen byter spår inom själva meningsbyggnaden. Enskilda ord är riktiga men kombineras på ett vis som gör talet obegripligt. Ordsallad beskriver en hög grad av splittring.
+- Distraherat tal (Distractible speech): During mid speech, the subject is changed in response to an external stimulus. e.g. "Then I left San Francisco and moved to... where did you get that tie?"
+- Klangassociationer (clanging, clang associations, rhyming words, word plays, idiosynchratic associations): En svårare form av tankeflykt där tankegången hänger ihop genom ljud snarare än innehåll. Ordvalet kan styras av ljudlikhet, tex med överdrivet rimmande eller ordlekar.
+- Loss of goal – Failure to follow a train of thought to a natural conclusion. e.g. "Why does my computer keep crashing?", "Well, you live in a stucco house, so the pair of scissors needs to be in another drawer."
 - Neologismer (neologisms): Formar nyord (som inte har någon allmänt accepterad betydelse), exempelvis genom att sätta ihop två existerande ord, eller använder existerande ord på ett excentriskt vis.
 - Ekolali (echolalia): Upprepning av en annas ord. Variant: Palilalia (upprepning av sina egna ord).
 - Parafasi (paraphasia): Språkstörning som består i oavsiktlig förväxling av ord (semantic paraphasia, "I slipped on the coat, on the ice I mean, and broke my book.") och enskilda ljud (phonemic paraphasia, "I slipped on the lice and broke my arm."). 
@@ -111,7 +152,7 @@ Se [@Skikic2020] för kliniskt vägledd diagnoistik.
 | Omständlighet       | Schizofreni, Ångest, personlighetsstörining |
 | Tankefattighet      | Schizofreni                                 |
 | Tankeblockering     | Schizofreni                                 |
-| Klanagassociationer | Mani, Schizofreni                           |
+| Klangassociationer | Mani, Schizofreni                           |
 | Ekolali             | Tourette                                    |
 | Neologismer         | Schizofreni, mani                           |
 
