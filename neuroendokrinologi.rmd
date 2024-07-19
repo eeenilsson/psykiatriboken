@@ -74,7 +74,7 @@ pineal gland
 
 <!-- Circumventricular organs: definition and role in the regulation of endocrine and autonomic function https://pubmed.ncbi.nlm.nih.gov/10831247/ -->
 
-## VAgusnerven
+## Vagusnerven
 
 > New genetic and structural evidence of vagal afferent fiber anatomy motivates two hypotheses: (1) that sensory signals informing on the physiological state of the body compute both spatial and temporal viscerosensory features as they ascend the vagus nerve, following patterns found in other sensory architectures, such as the visual and olfactory systems; and (2) that ascending and descending signals modulate one another, calling into question the strict segregation of sensory and motor signals, respectively. Finally, we discuss several implications of our two hypotheses for understanding the role of viscerosensory signal processing in predictive energy regulation (i.e., allostasis) as well as the role of metabolic signals in memory and in disorders of prediction (e.g., mood disorders)[@Shaffer2023]
 
@@ -83,6 +83,34 @@ pineal gland
 ## Neurosteroider
 
 [Neurosteroids in psychiatry](https://psychscenehub.com/psychinsights/neurosteroids-in-psychiatry/)
+
+
+## Kvinnliga könshormoner
+
+Tabell: Neurologiska och psykiatriska symtom vid fluktuationer i kvinnliga könshormoner
+
+| Tillstånd                         | Sjukdom/symtom              | Referens     |
+|-----------------------------------|-----------------------------|--------------|
+| Perimenopaus                      | Kognitiv nedsättning        | [@Zsido2023] |
+| Östrogentillskott postmenopaus    | Bibehållen kognition        | [@Zsido2023] |
+| Progesterontillskott postmenopaus | Motverkar östrogeneffekten  | [@Zsido2023] |
+| Efter menopaus                    | Minskad risk för depression |              |
+| Graviditet                        | Ökad risk för depression?   |              |
+| Postpartum                        | Ökad risk för depression?   |              |
+
+
+Progesteronnivåerna ändras 80-faldigt under menscykeln[@Zsido2023].
+
+Ej säkert att depression är vanligare vid graviditet eller postpartum[@Freeman2014].
+
+> The available research suggests that depression is one of the more common complications of the prenatal and postpartum periods. However, a considerable amount of uncertainty remains in the level of its prevalence and incidence. After a careful review of the evidence, we cannot say with certainty that peri- natal depression is higher at any particular trimester during pregnancy or month in the first postpartum year, although some evidence points to the second and third months postpartum having slightly higher prevalence.  Furthermore, the available evidence from case- control studies of perinatal women and women of similar age at nonchildbearing times does not support the hypothesis that the prevalence of depression is higher during pregnancy or in the first year postpar- tum compared with nonchildbearing times[@Freeman2014].
+
+
+ATT LÄSA:
+
+Perimenopause as a neurological transition state[@Brinton2015].
+
+
 
 
 ## Premenstruellt dysforiskt syndrom (PMDD)
@@ -121,6 +149,45 @@ include_graphics('../dropbox/images/psychiatry/menscykel-hormoner.jpg')
 <!-- - 90 besvär vid mens -->
 <!-- - 30 PMS -->
 <!-- - 3 PMDS -->
+
+Hur påverkas hormonnivåer av p-piller: https://helloclue.com/articles/cycle-a-z/progesterone-101
+
+> In a study of 43 people taking the mini-pill containing the progestin norethindrone, 60% had low progesterone levels without the typical peak, demonstrating either no ovulation or low progesterone production from the corpus luteum (31). The remaining 40% of people likely ovulated since they had a progesterone peak of at least 5 ng/mL for a minimum of 5 days, like people not on hormonal birth control (31). 
+
+[The menstrual rhythm of the brain](https://www.mpg.de/20964081/1013-nepf-the-menstrual-rhythm-of-the-brain-149575-x)
+
+Changes in human medial temporal lobe volume in female adults during menstrual cycle[@Zsido2023]
+
+Characterization of the physiological pattern of episodic gonadotropin secretion throughout the human menstrual cycle 
+
+Vermesh M, Kletzky OA. Longitudinal evaluation of the luteal phase and its transition into the follicular phase. J Clin Endocrinol Metab. 1987 [@Vermesh1987]
+
+[From Website The Menstrual cycle](https://www.gfmer.ch/Presentations_En/Menstrual_cycle/Menstrual_cycle_Bischof.htm)
+
+```{r } 
+#| label: menstrual-cycle 
+
+dta <- fread("../notes/menstrual-cycle-hormones_Vermesh1987.csv")
+dta <- dta[source==2, .(phase, day, lh, fsh, oestradiol, progesteron)]
+
+dtl <- melt(dta, id.vars=c("phase", "day"))
+
+dtl[, indx:=value/max(value), by = c("variable")]
+
+## add approx relative max amplitudes
+dtl[variable=="lh", amplitude:=1]
+dtl[variable=="fsh", amplitude:=0.3]
+dtl[variable=="oestradiol", amplitude:=0.8]
+dtl[variable=="progesteron", amplitude:=0.8]
+dtl[, y:=indx*amplitude]
+
+p <- ggplot(dtl, aes(y=y, x=day, color=variable))
+p+geom_smooth()+theme_classic()
+
+``` 
+
+Figur: Relativa hormonnivåer under menscykeln.
+ 
 
 ### Diagnostik
 

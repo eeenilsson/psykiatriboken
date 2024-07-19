@@ -302,13 +302,15 @@ När både lisdexamfetamin och metylfenidat provats i sex veckor i maxdos och om
 
 **Bupropion** kan användas som andrahandsval mot ADHD-symtom [@Kolar2008].
 
-**Guanfacin** är inte godkänt för behandling av ADHD hos vuxna, men det finns studier som talar för en positiv effekt på ADHD-symtom och tics vid monoterapi[@Ota2021;@Iwanami2020]. Hos barn har en enstaka studie av kombinationsbehandling visat positiv effekt på ADHD-symtom och arbetsminne men ej kognition[@Bilder2016].
+**Guanfacin** är inte godkänt för behandling av ADHD hos vuxna, men det finns studier som talar för en positiv effekt på ADHD-symtom och tics vid monoterapi[@Ota2021;@Iwanami2020]. Hos barn har en enstaka studie av kombinationsbehandling visat positiv effekt på ADHD-symtom och arbetsminne men ej kognition[@Bilder2016]. Guanfacin är en postsynaptisk alfa-2-R antagonist som är mer selektiv för denna jämfört med klonidin. De vanligaste biverkningarna är sedering, muntorrhet, och yrsel[@Gormley2014], och förstoppning. Den blodtryckssänkande effekten är dosberoende. Bär trappas ut gradvis för att undvika "rebound hypertension". Studie på säkerhet hos vuxna finns[@Iwanami2020].
+
+> For patients currently prescribed strong CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, grapefruit juice) and starting on GXR, the dose should be limited to 2 mg daily. For patients taking 3A4 inducers (e.g., carbamazepine, phenytoin, St. John's wort) and starting GXR, the titration may occur at 2 mg/week and total daily dose may be titrated up to 8 mg[@Gormley2014].
 
 **Klonidin** är inte godkänt för behandling av ADHD (dock godkännande för barn 2024 i USA, extended release), men det finns studier som talar för en positiv effekt på ADHD-symtom och tics hos barn[@Neuchat2023]. Det finns även visad effekt som kombinationsbehandling med centralstimulantia[@Kollins2011].
 
 Se [NICE Guidelines för läkemedelsbehandling av ADHD](https://www.nice.org.uk/guidance/ng87/chapter/Recommendations#medication).
 
-Tabell: Jämförelse ADHD-läkemedel hos vuxna
+Tabell: Jämförelse ADHD-läkemedel hos vuxna[@Cortese2018]
 
 | Läkemedel       | Effekt | Insomning | Tics       | Ångest  | BT, puls | Kombinera CS   |
 |-----------------|--------|-----------|------------|---------|----------|----------------|
@@ -393,6 +395,9 @@ p
 
 ``` 
 
+[Safe prescribing of stimulants](https://www.sf.gov/sites/default/files/2024-04/SAFER_PRESCRIBING_OF_STIMULANT_AND_NON-STIMULANT_MEDICATION_GUIDELINE_2023.pdf): Har användbara tabeller, bla dos-ekvialens, graviditet, mm.
+
+
 ### Val av behandling
 
 En strategi är att låta patienten prova dels metylfenidat och dels något amfetaminpreparat, för att värdera vilket som fungerar bäst.
@@ -427,19 +432,22 @@ Någon evidensbaserad åtgärd finns ej, men planerade uppehåll (drug holidays)
 
 Tabell: Läkemedelsändringar att överväga vid samsjuklighet eller biverkningar
 
-| Situation                | Överväg                                        |
-|--------------------------|------------------------------------------------|
-| Tolerans CS              | Atomoxetin, byt CS, guanfacin, pausa           |
-| Alkoholberoende          | Atomoxetin                                     |
-| Hypertoni                | Tillägg guanfacin                              |
-| Takycardi                | Tillägg guanfacin                              |
-| Ångest                   | Atomoxetin, SSRI, bupropion                    |
-| Depression               | Optimera dos, bupropion, SSRI                  |
-| Sömnsvårigheter          | Atomoxetin, tillägg guanfacin                  |
-| Antipsykotiska läkemedel | Atomoxetin, guanfacin                          |
-| Bipolärt syndom          | Välkontrollerat först, icke-dopaminergt medel? |
-| Psykos                   | Välkontrollerat först, icke-dopaminergt medel? |
-| Tics                     | Byt till atomoxetin, guanfacin                 |
+| Situation                | Överväg                                                                                                              |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Tolerans CS              | Atomoxetin[@EvidensSaknas2024], byt CS[@EvidensSaknas2024], guanfacin[@EvidensSaknas2024], pausa[@EvidensSaknas2024] |
+| Alkoholberoende          | Atomoxetin[@Childress2015]                                                                                           |
+| Hypertoni                | Tillägg guanfacin                                                                                                    |
+| Takycardi                | Tillägg guanfacin                                                                                                    |
+| Ångest                   | Atomoxetin[@Childress2015], SSRI, bupropion                                                                          |
+| Depression               | Optimera dos, bupropion, SSRI                                                                                        |
+| Sömnsvårigheter          | Atomoxetin[@Childress2015;@Stein2012], tillägg guanfacin                                                             |
+| Antipsykotiska läkemedel | Atomoxetin, guanfacin                                                                                                |
+| Bipolärt syndom          | Välkontrollerat först, välj icke-dopaminergt medel?                                                                  |
+| Psykos                   | Välkontrollerat först, välj icke-dopaminergt medel?                                                                  |
+| Tics                     | Byt till atomoxetin, guanfacin                                                                                       |
+| Social ångest            | Atomoxetin[@Adler2009]                                                                                               |
+| Hetsätning               | Atomoxetin[@McElroy2007]                                                                                             |
+| Rökstopp                 | Bupropion                                                                                                            |
 
 Dossänkning är förstås ofta ett alternativ.
 
@@ -449,6 +457,13 @@ Dossänkning är förstås ofta ett alternativ.
 ADHD kan vara förknippat med insomningssvårigheter, uppvaknanden, förskjutning av dygnsrytm, och dagtrötthet[@Stein2012]. Centralstimulantia kan ge insomningssvårigheter (dosberoende), men i vissa fall även förbättrad sömn[@Stein2012]. En teori är att sömnbesvär kan bero på rastlöshet till följd av rebound-effekt och i vissa fall förbättras med hjälp av en liten kvällsdos[@Graham2011]. I motsats kan atomoxetin ge sömnighet, särskilt vid snabb titrering och den första tiden. Även klonidin kan ge sömnighet. Melatonin kan ha effekt på barn med ADHD?
 
 Effekten på sömn är variabel även för klonidin och guanfacin. Båda kan ge somnolens men försämrad sömn förekommer också.
+
+Om sömn och åtgärder vid ADHD[@Surman2021]. Nämner även screeninginstrument och anamnesfrågor.
+
+- Morgonljusterapi
+- Tyngdtäcke
+- Melatonin
+- KBT-I
 
 ### Alkoholöverkonsumtion
 

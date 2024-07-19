@@ -25,7 +25,7 @@ I psykiatrisk diagnostik används tex duration (tex >6 månader vid schizofreni)
 
 Överskott på dopaminerg och glutamaterg signalering kan vara en biologisk process som orsakar psykos. Kannabinoidreceptorer och serotonin (psykedelika) kan också vara inblandade.
 
-Psykologiska modeller av psykos inbegriper bla att psykos kan vara en följd av nedsatt förmåga att processa otydliga stimuli samt en tendens att ta ett beslut p åbasen av mindre information[@Garety1991;@Garety2007].
+Psykologiska modeller av psykos inbegriper bla att psykos kan vara en följd av nedsatt förmåga att processa otydliga stimuli samt en tendens att ta ett beslut på basen av mindre information[@Garety1991;@Garety2007].
 
 Huntingtons sjukdom kan ge psykos (10%), ofta även depression, kognitiv nedsättning, irritabilitet.
 
@@ -40,7 +40,7 @@ Huntingtons sjukdom kan ge psykos (10%), ofta även depression, kognitiv nedsät
 | Vanföreställnsyndr  | Medelålder             |          |          |                                | 0.18    |
 | Depression m psykos | 15-30                  |          |          |                                | 0.33    |
 | Bipolär m psykos    | 15-30                  |          |          |                                | 0.12    |
-| Post partum         |                        |          |          |                                | 0.07    |
+| Post partum         |                        |          |          | Oftast bipolärt syndrom        | 0.07    |
 | Neurodegenerativ    | Äldre                  |          |          |                                |         |
 | Toxisk              |                        | Snabbt   | Snabb    |                                |         |
 | Medicinskt tilst    |                        | Snabbt   | Snabb    |                                |         |
@@ -69,19 +69,24 @@ Vid epilepsi är förekomsten av schzofreni dubblerad. Andra type av psykoser f�
 
 >A more difficult challenge for clinicians is to distin- guish interictal psychosis from schizophrenia. Interictal psychosis can manifest as brief or chronic forms. The chronic forms of interictal psychosis may closely resemble schizophrenia; however, several features help to distinguish the two. Schizophrenia often begins in young adulthood. In contrast, interictal psychosis manifests predomi- nantly with the positive psychotic symptoms of delusions and hallucinations, which are less likely to be third-person auditory, and have better preserved personality traits and no negative symptoms. The psychosis can last days to months but may be more protracted. It can be very difficult to distinguish between interictal psychosis and postictal psychosis and in many patients these coexist. [@Maguire2018]
 
-Se [@Skikic2020] för kliniskt vägledd diagnoistik.
+Se [@Skikic2020] för kliniskt vägledd diagnostik.
 
 ## Tankestörning
 
+Kan indelas i störning av tankeförlopp (formell tankestörning) respektive -innehåll (vanföreställingar).
+
 ### Tankeförlopp (formella tankestörningar)
 
-- Formell tankestörning innebär en oförmåga att vidmakthålla ett sammanhängande samtal och avspeglar störning i tankarnas organisation och uttryck (hur de formuleras) snarare än deras innehåll.
-- Avvikelse kan övergripande beskrivas som stört eller desorganiserat tänkande.
-- Beskriv kvantitet, tempo/flöde, logiskt sammanhang.
+<!-- Formell tankestörning är desorganiserat tänkande, vilket ger avvikelser i hur personen uttrycker sig i tal och skrift. -->
+
+Formell tankestörning innebär en oförmåga att vidmakthålla ett sammanhängande samtal och avspeglar störning i tankarnas organisation och uttryck (hur de formuleras) snarare än deras innehåll.
+
+<!-- - Avvikelse kan övergripande beskrivas som stört eller desorganiserat tänkande. -->
+<!-- - Beskriv kvantitet, tempo/flöde, logiskt sammanhang. -->
 
 #### Typer av stört tankeförlopp
 
-Med formella tankestörningar menas förändringar i talproduktion och tankeprocess. De kan indelas i positiva- och negativa, samt objektiva och subjektiva (där de senare måste efterfrågas).
+De kan indelas i positiva- och negativa, samt objektiva och subjektiva (där de senare måste efterfrågas).
 
 **Positiva:** Tex urspårning, uppluckring av associationer, neologismer och konstlat tal [stilted speech].
 
@@ -93,7 +98,7 @@ Med formella tankestörningar menas förändringar i talproduktion och tankeproc
 
 - Negativa:  Tex inhibited thinking, dysfunction of thought initiative
 
-disorganization, emptiness, and incoherence.
+<!-- disorganization, emptiness, and incoherence. -->
 
 Tabell: Karakteristiska formella tankestörningar
 
@@ -104,19 +109,19 @@ Tabell: Karakteristiska formella tankestörningar
 | Neg     | Obj      | poverty of speech, slowed thinking and concretism                                                | Tomhet         |
 | Neg     | Subj     | poverty of thought, inhibited thinking, and dysfunction of thought initiative and intentionality | Introspektiv   |
 
-Objective positive FTD is highest in mania and objective negative FTD is highest in schizophrenia and major depressive disorder[@Kircher2018].
+>Objective positive FTD is highest in mania and objective negative FTD is highest in schizophrenia and major depressive disorder[@Kircher2018].
 
-Chronic positive FTD is a diagnostic marker for schizophrenia, and negative FTD in schizophrenia is associated with poor social functioning and outcome[@Kircher2018].
+>Chronic positive FTD is a diagnostic marker for schizophrenia, and negative FTD in schizophrenia is associated with poor social functioning and outcome[@Kircher2018].
 
-FTDs in individuals with schizophrenia have been consistently associated with cognitive impairment in executive functioning, attention, verbal fluency, and working memory[@Kircher2018].
+>FTDs in individuals with schizophrenia have been consistently associated with cognitive impairment in executive functioning, attention, verbal fluency, and working memory[@Kircher2018].
 
 Dimensioner av formell tankesörning[@Stein2022;@Kircher2018;@Kircher2014]. Supplementet i ref [@Kircher2014] innehåller definitioner. Se även "Scale for the assessment of thought, language, and communication (TLC)"[@Andreasen1986] för beskrivning av vissa tankestörningar.
 
-Förenkling: Beskriv ökad/minskad tal/tankeproduktion. Grad av urspårning/uppluckring i associationer. Tanketrängsel. Förbisvar. Om tex neologismer eller konstlat tal förekommer kommenteras det.
+<!-- Förenkling: Beskriv ökad/minskad tal/tankeproduktion (=tempo?). Grad av urspårning/uppluckring i associationer. Förbisvar. Fråga om Tanketrängsel, rusande tankar, inhiberat tänkande. Om ovanligare yttringar som tex neologismer eller konstlat tal förekommer kommenteras det. -->
 
-"Normalt taltempo och tankeförlopp."
+<!-- "Normalt taltempo och tankeförlopp." -->
 
-"Ökat taltempo. Måttligt uppluckrade associationer. Beskriver tanketrängsel. En del förbisvar."
+<!-- "Ökat taltempo. Måttligt uppluckrade associationer. Beskriver tanketrängsel. En del förbisvar." -->
 
 <!-- En del av termerna är relaterade med varandra?. Några begrepp som kanske kan ses som grader på en skala: Omständlighet < tangentialitet < idéflykt < uppluckrade associationer < ordsallad. -->
 
@@ -142,19 +147,38 @@ Terminologin är inte helt konsekvent i olika källor, men nedan beskrivs ett ur
 - Förbisvar: Ger ett felaktigt svar på en fråga trots att frågan uppfattats. Ex: "Är det något som tynger dig?" "Ja, bordet är tungt".
 - Andra: punning (talking in riddles), verbigeration (the constant or obsessive repetition of meaningless words or phrases), overinclusion (overgeneralization and inability to maintain boundaries in categories), racing (rapid thoughts), self-reference (patient repeatedly and inappropriately refers back to self. e.g. "What's the time?", "It's 7 o'clock. That's my problem."), Word approximations (old words used in a new and unconventional way. e.g. "His boss was a seeover."), Illogicality (Conclusions are reached that do not follow logically (non-sequiturs or faulty inferences). e.g. "Do you think this will fit in the box?" draws a reply like "Well duh; it's brown, isn't it?"), Stilted speech (Speech characterized by the use of words or phrases that are flowery, excessive, and pompous.[9] e.g. "The attorney comported himself indecorously."), Evasive interaction (Attempts to express ideas and/or feelings about another individual come out as evasive or in a diluted form, e.g.: "I... er ah... you are uh... I think you have... uh-- acceptable erm... uh... hair.")
 
+Tabell: Formella tankestörningar[@Kircher2018] med % förekomst i en studie där deltagarna hade Depression (n = 63),	Schizophrenia (n = 63),	Mania (n = 20), eller var Healthy (n = 64)
+
+```{r } 
+#| label: tald 
+
+dta <- fread("../notes/formal_thought_disorder.csv")
+dta <- as.data.table(lapply(dta, function(x){gsub("\n", "", x)}))
+dta[, percent := as.numeric(percent)]
+
+setorder(dta, -percent)
+
+## N=192?
+
+knitr::kable(dta[, .(tald_item, percent)])
+
+``` 
+
+ 
+
 #### Tolkning
 
-| Tankestörning       | Typiskt vid                                 |
-|---------------------|---------------------------------------------|
-| Idéflykt            | Mani                                        |
-| Inhiberat tänkande  | Depression, Schizofreni, demens             |
-| Perseveration       | Demens                                      |
-| Omständlighet       | Schizofreni, Ångest, personlighetsstörining |
-| Tankefattighet      | Schizofreni                                 |
-| Tankeblockering     | Schizofreni                                 |
+| Tankestörning      | Typiskt vid                                 |
+|--------------------|---------------------------------------------|
+| Idéflykt           | Mani                                        |
+| Inhiberat tänkande | Depression, Schizofreni, demens             |
+| Perseveration      | Demens                                      |
+| Omständlighet      | Schizofreni, Ångest, personlighetsstörining |
+| Tankefattighet     | Schizofreni                                 |
+| Tankeblockering    | Schizofreni                                 |
 | Klangassociationer | Mani, Schizofreni                           |
-| Ekolali             | Tourette                                    |
-| Neologismer         | Schizofreni, mani                           |
+| Ekolali            | Tourette                                    |
+| Neologismer        | Schizofreni, mani                           |
 
 <!-- - Flight of ideas is typical of mania. Conversely, patients with depression may have retarded or inhibited thinking. Poverty of thought is one of the negative symptoms of schizophrenia, and might also be a feature of severe depression or dementia. A patient with dementia might also experience thought perseveration. Formal thought disorder is a common feature of schizophrenia. Circumstantial thinking might be observed in anxiety disorders or certain kinds of personality disorders. -->
 
@@ -224,7 +248,7 @@ Psykotiska symtom under 1 dag till 1 månad, utan annan orsak (stressor kan ing�
 <!-- - Psykologiska (stress) -->
 <!-- - Sociokulturella -->
 
-sychiatric causes include schizophrenia, schizoaffective disorder, bipolar disorder, major depressive disorder, delusional disorder, schizophreniform disorder, brief psychotic disorder, and postpartum psychosis
+Psychiatric causes include schizophrenia, schizoaffective disorder, bipolar disorder, major depressive disorder, delusional disorder, schizophreniform disorder, brief psychotic disorder, and postpartum psychosis
 
 Kartlägg ärftlighet, sociala faktorer, missbruk, drogbruk, livshändelser, 
 
@@ -257,11 +281,11 @@ Symtom som kan föranleda utvidgad utredning (tex MR, EEG, paraneoplastisk panel
 
 "Numerous agents have been examined as adjunctive treatments to antipsy- chotic medications, but their effects are modest, and evidence for their efficacy is limited. 35 The same is true for combinations of conventional antipsychotic drugs.
 
-ECT is effective for cata- tonia and for mood disorders with psychotic symptoms and is indicated in patients with schizophrenia or schizoaffective disorders when symptoms are unresponsive to antipsychotic medications.  One promising application of neuromodula- tion is for control of psychotic auditory or verbal hallucinations. Initial studies were performed with TMS applied over the region of the left temporal lobe that overlies the auditory cortex. 36 More recently, tDCS applied over the region of the auditory cortex has led to reductions in hallu- cinations and in persistent negative symptoms of schizophrenia, such as apathy and social with- drawal.
+ECT is effective for catatonia and for mood disorders with psychotic symptoms and is indicated in patients with schizophrenia or schizoaffective disorders when symptoms are unresponsive to antipsychotic medications.  One promising application of neuromodula- tion is for control of psychotic auditory or verbal hallucinations. Initial studies were performed with TMS applied over the region of the left temporal lobe that overlies the auditory cortex. 36 More recently, tDCS applied over the region of the auditory cortex has led to reductions in hallu- cinations and in persistent negative symptoms of schizophrenia, such as apathy and social with- drawal.
 
 Cognitive and behavioral rehabilitation has been used in the treatment of idiopathic psychotic disorders — in particular, schizophrenia.39 The most widely studied of these techniques is social skills training, in which patients are instructed, after stabilization of their acute psychotic symp- toms, about appropriate modes of behavior and communication with others and about practical life skills that may have been impaired by psy- chotic disorders. Another psychosocial treatment with strong empirical support is family psycho- education, which enables family members to help support the patient’s recovery.
 
-Cognitive behavioral therapy (CBT), a treat- ment originally developed for mood and anxiety disorders, may also be useful for psychotic symp- toms. Specific CBT approaches used in treating patients with schizophrenia include cognitive restructuring (i.e., engaging patients to change beliefs about their hallucinations and delusions), behavioral exposure to stimuli that trigger psy- chotic symptoms to enhance reality testing, self- monitoring, and graded coping skills. CBT in patients with schizophrenia can also help to re- duce the distress caused by hallucinations or delusional beliefs."
+Cognitive behavioral therapy (CBT), a treatment originally developed for mood and anxiety disorders, may also be useful for psychotic symp- toms. Specific CBT approaches used in treating patients with schizophrenia include cognitive restructuring (i.e., engaging patients to change beliefs about their hallucinations and delusions), behavioral exposure to stimuli that trigger psy- chotic symptoms to enhance reality testing, self- monitoring, and graded coping skills. CBT in patients with schizophrenia can also help to re- duce the distress caused by hallucinations or delusional beliefs."
 
 ## Behandling av akut försämring vid schizofreni
 
@@ -273,12 +297,14 @@ Antipsykotiska medel har viss men måttlig effekt vid akut försämring (SMD 0.4
 
 ## Särskilda typer av psykos
 
-- The delusion in Capgras syndrome is the belief that a familiar person has been replaced by an impostor.
-
 Capgras
 
 - Vanföreställning om att en välkänd nära person har bytts ut mot en bedragare
 - Organisk orsak (lewykroppsdemens, EP, stroke, B12-brist, hepatisk encefalopati, diabetes, hypothyroidism) i 25% av fallen
+
+Post parum psykos
+
+- Ofta bipolärt syndrom.
 
 ### Lewykroppsdemens och parkinson med demens
 

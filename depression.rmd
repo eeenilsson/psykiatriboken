@@ -76,7 +76,7 @@ Effektstorlek [Ref Cipriani, Eriksson].
 
 Det finns flera teoretiska argument för att olika individer skulle kunna svara olika väl på antidepressiv behandling (polymorfismer i CYP-systemet, polymorfismer receptorer; skillnader i -neuroanatomi, symtom, svårighetsgrad, samsjuklighet, kön, ålder, och genes). Klinisk erfarenhet tycks också underbygga detta. Trots det har man i vetenskapliga studier ej kunnat påvisa att någon enskild faktor förutsäger respons på visst antidepressivt läkemedel.
 
-Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression  [@Cipriani2018]. Det finns inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas för ett pragmatiskt preparatval[@Kennedy2016]:
+Olika antidepressiva läkemedel har liknande effektstorlek vid behandling av depression[@Cipriani2018]. Det finns inga faktorer som kan använads för att förutsäga vilket läkemedel som har bäst effekt i en viss patientgrupp, men följande faktorer kan beaktas för ett pragmatiskt preparatval[@Kennedy2016]:
 
 - Samsjuklighet med tex ångestsyndrom
 - Psykotiska symtom

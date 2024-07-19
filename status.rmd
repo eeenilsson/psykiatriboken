@@ -31,7 +31,7 @@ Exempel på avvikelser:
 - Hypervigilans
 - Ange vilken affekt patient främst förmedlar (Ångestpåverkad, orolig, irriterad, arg, ledsen, skamfylld, grandios mm)
 - Kognitiv hämning, emotionell hämning, initiativsvårigheter
-- Formella tankestörningar: Tankefattighet (minkad talproduktion), tankestopp, inhiberat tänkande, perseveration, omständlighet, tengentialitet, distraherat tal, tankeflykt (byter ämne) < uppluckrade associationer < osammanhängande tal, "loss of goal", ordsallad, neologismer, ekolali, förbisvar, gåtor, verbigeration, överinklusion, ologiskt tal.
+- Formella tankestörningar: Beskriv ökad/minskad tal/tankeproduktion (=tempo?). Grad av urspårning/uppluckring i associationer. Förbisvar. Fråga om Tanketrängsel, rusande tankar, inhiberat tänkande. Om ovanligare yttringar som tex neologismer eller konstlat tal förekommer kommenteras det. Exempel på termer: Tankefattighet (minkad talproduktion), tankestopp, inhiberat tänkande, perseveration, omständlighet, tengentialitet, distraherat tal, tankeflykt (byter ämne) < uppluckrade associationer < osammanhängande tal, "loss of goal", ordsallad, neologismer, ekolali, förbisvar, gåtor, verbigeration, överinklusion, ologiskt tal.
 
 Skattningsskalor att överväga:
 

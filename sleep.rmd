@@ -22,6 +22,35 @@ Hypnagoga hallucinationer
 
 ## Parasomnier 
 
+## Anamnes och skattningsskalor
+
+[Prospektiv sömndagbok](https://viss.nu/download/18.7f0158e4176840aa3316bdd9/1609159272664/somndagbok.pdf)
+
+SASS är en retrospektiv sömndagbok. SASS-Y delar upp samma frågor i veckodag respektive helg[@Dietch2019]. Följande frågor (fri översättning) ingår (tiderna är "i medeltal"):
+
+1. När lade du dig?
+2. När försökte du somna?
+3. Hur länge tog det att somna?
+4. Hur många gånger vaknade du (borträknat sista gången)?
+5. Hur långa var dessa uppvaknanden?
+6. Vilken tid var ditt sista uppvaknande?
+7. När klev du upp?
+8. Hur bra var din sömn? 1= mycket dåligt, 2= ganska dåligt, 3= varken bra eller dåligt, 4= ganska bra, 5= mycket bra.
+9. Hyr länge har du sovit så här? År, månader, veckor.
+
+- Tupplurar under dagen?
+- Dagtrötthet?
+- Screening RLS: "När du försöker slappna av på kvällen eller sova på natten, har du någon gång en obehaglig, rastlös känsla i benen som lättar när du rör på dem eller går?"
+- Fråga om energinivå på morgonen kan screena för föredragen dygnsrytm.
+- Screening för sömnapné.
+
+I [@Surman2021] diskuteras en del screeningfrmulär och anamnestiska frågor.
+
+
+Validity of two retrospective questionnaire versions of the Consensus Sleep Diary: the whole week and split week Self-Assessment of Sleep Surveys[@Dietch2019]. Finns som app?
+
+Carney CE; Buysse DJ; Ancoli-Israel S; Edinger JD; Krystal AD; Lichstein KL; Morin CM. The consensus sleep diary: standardizing prospective sleep self-monitoring. SLEEP 2012;35(2):287-302. 
+
 ## Sömnhygien
 
 [Sömndagbok](https://kunskapsstodforvardgivare.se/download/18.26e8250017c6f95090f8fa4/1634146276938/Soemndagbok20150316.pdf)
@@ -32,3 +61,178 @@ Hypnagoga hallucinationer
 
 Se **avsnitt \@ref(sleep-meds)
 
+> It is prudent to educate patients about, and prescribe, approaches that may have the least impact on daytime function. [...] While drug half-lives and clinical trials of some agents suggest that they may target initial, middle, or late sleep impairments, it is the first author’s experience that the duration and quality of sedation effect among these agents varies significantly from patient to patient[@Surman2021].
+
+> Opinion statements [53] have suggested that melatonin may be favorable as a first choice supplement for shifting sleep time, using lower doses 4–6 h before bedtime to establish biological evening, and/or higher doses before bedtime for sedative initiation of sleep[@Surman2021].
+
+> Interestingly, although amitriptyline is widely used for its sedative properties in neurological populations, a recent review could not find strong evidence for its impact on sleep [54]. This same review evaluated evidence for sleep benefit from other antidepressants, finding that only doxepin and trazodone had the highest scientific evidence among these agents, based on self-report evidence for sleep improvement. A recent study [55] considering effects of trazodone on cognition measures across 16 studies with at least 25 mg exposure for one week suggested mixed evidence for a dose-dependent negative effect on next-day cognition. These findings, again, emphasize the important trade-off that clinicians may face in trying to optimize sleep while supporting daytime function[@Surman2021].
+
+Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: An American Academy of Sleep Medicine Clinical Practice Guideline Sateia) [@Sateia2017]
+
+Efficacy, acceptability, and tolerability of all available treatments for insomnia in the elderly: a systematic review and network meta-analysis[@Samara2020].
+
+
+
+```{r } 
+
+#| label: sleep-meds 
+pacman::p_load(data.table, ggplot2)
+dta <- fread("../notes/sleep-meds_Samara2020.csv")
+
+norm <- data.table(
+    variable = c("latency", "tst"),
+    mean = c(14.6, 390),
+    sd = c(24.5, 73)
+)
+
+
+dta[, ci_lower:= gsub(",.*", "", ci)]
+dta[, ci_upper:= gsub("^[^,]*", "", ci)]
+dta[, ci_upper:= gsub(", ", "", ci_upper)]
+dta[, ci_lower:= as.numeric(ci_lower)]
+dta[, ci_upper:= as.numeric(ci_upper)]
+
+
+tmp <- dta[vs=="Placebo"|vs=="Artificial juice", ]
+toplot <- tmp[variable=="onset"|variable=="tst", .(drug, variable, md_smd, ci_lower, ci_upper)]
+## toplot$drug = with(toplot, reorder(drug, -md_smd))
+
+## ## ggplot
+## p <- ggplot(toplot, aes(y=md_smd, ymax=ci_upper, ymin=ci_lower, x=drug, color=variable))
+## p+geom_point()+geom_errorbar()+coord_flip()+facet_grid(cols=vars(variable))
+
+toplot <- tmp[variable=="onset"|variable=="tst"|variable=="adverse_effect_or", .(drug, variable, md_smd, ci_lower, ci_upper)]
+
+## compute absolute sleep/wake times
+tmp <- dcast(toplot, drug~variable, value.var=c("md_smd", "ci_lower", "ci_upper"))
+tmp <- na.omit(tmp)
+tmp[, bedtime:=-1]
+tmp[, sleep_pbo:=0]
+tmp[, wake_pbo:=sleep_pbo+5]
+tmp[, sleep_med:=sleep_pbo+md_smd_onset/60]
+tmp[, sleep_med_ci_lower:=sleep_pbo+ci_lower_onset/60]
+tmp[, sleep_med_ci_upper:=sleep_pbo+ci_upper_onset/60]
+tmp[, wake_med:=wake_pbo+md_smd_tst/60]
+tmp[, wake_med_ci_lower:=wake_pbo+ci_lower_tst/60]
+tmp[, wake_med_ci_upper:=wake_pbo+ci_upper_tst/60]
+setorder(tmp, -sleep_med)
+## tmp<- as.data.table(tmp)
+## tmp$drug = with(tmp, reorder(drug, -sleep_med))
+tmp$drug <- factor(tmp$drug, levels=tmp$drug)
+
+## shrink <- 0.1*3
+## origo <- 0
+## tmp[, tst_med:=(wake_pbo-sleep_pbo+md_smd_tst/60)*shrink+origo]
+## tmp[, tst_med_ci_lower:=(wake_pbo-sleep_pbo+ci_lower_tst/60)*shrink+origo]
+## tmp[, tst_med_ci_upper:=(wake_pbo-sleep_pbo+ci_upper_tst/60)*shrink+origo]
+
+## Plot ====
+par(mar=c(4,8,4,4)+2)
+plot(1, type="n", xlab="Tid (tim)", ylab="", yaxt="n", xaxt="n", xlim=c(-1, 9), ylim=c(1, length(tmp$drug)))
+title(sub="Fig: Effekt av sömnmedel till äldre (Samara 2020 Acta Psychiatrica)", adj=0)
+axis(2, labels=tmp$drug, at=1:length(tmp$drug), las=1)
+axis(1, labels=-1:6, at=-1:6)
+abline(v=0, lty=2)
+abline(v=5, lty=2)
+
+## tst
+rect(xleft=0, xright=tmp$md_smd_tst/60+5, ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="steelblue3")
+arrows(tmp$ci_lower_tst/60+5, as.numeric(tmp$drug), tmp$md_smd_tst/60+5, as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
+
+## onset
+points(y=tmp$drug, x=tmp$sleep_med)
+arrows(tmp$sleep_med_ci_upper, as.numeric(tmp$drug), tmp$sleep_med_ci_lower, as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "black", lwd = 3)
+## points(y=tmp$drug, x=tmp$wake_med, col="red")
+
+## barplot(tmp$tst_med, horiz = TRUE, add=T, xpd=FALSE)
+## rect(xleft=origo, xright=tmp$tst_med, ybottom=as.numeric(tmp$drug)-0.1, ytop= as.numeric(tmp$drug)+0.1)
+
+## plot odds for adverse effects
+m <- matrix(
+    c(tmp$ci_lower_adverse_effect_or,
+        tmp$md_smd_adverse_effect_or,        
+        tmp$ci_upper_adverse_effect_or)
+)
+dim(m) <- c(length(tmp$ci_lower_adverse_effect_or), 3)
+mrel <- m/10*3+7
+rect(xleft=7, xright=mrel[, 2], ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="orange")
+arrows(mrel[, 1], as.numeric(tmp$drug), mrel[, 2], as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
+## x <- c(0, 1, 2, 3, 4, 5, 6)
+## axis(3, labels=x, at=x/10*3+7)
+## log odds: https://www.statisticshowto.com/log-odds/
+
+## ## plot odds for sedation
+## m <- matrix(
+##     c(tmp$ci_lower_sedation_or,
+##         tmp$md_smd_sedation_or,        
+##         tmp$ci_upper_sedation_or)
+## )
+## dim(m) <- c(length(tmp$ci_lower_sedation_or), 3)
+## mrel <- m/10*3+7
+## rect(xleft=7, xright=mrel[, 2], ybottom=as.numeric(tmp$drug), ytop= as.numeric(tmp$drug)-0.15, col="coral1")
+## arrows(mrel[, 1], as.numeric(tmp$drug)-0.15/2, mrel[, 2], as.numeric(tmp$drug)-0.15/2,  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
+
+
+## quality
+z <- dta[variable=="quality", .(drug, md_smd, ci_lower, ci_upper, vs)]
+z <- z[vs == "Placebo"|vs == "Artificial juice", ]
+z <- z[tmp, on="drug"]
+m <- matrix(
+    c(z$md_smd,
+        z$ci_lower,        
+        z$ci_upper)
+)
+dim(m) <- c(length(z$md_smd), 3)
+m <- m*-1
+mrel <- m/3+6
+rect(xleft=6, xright=mrel[, 2], ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="forestgreen")
+arrows(mrel[, 1], as.numeric(tmp$drug), mrel[, 2], as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
+
+
+## ## Daytime impairment
+## z <- dta[variable=="daytime_impairment", .(drug, md_smd, ci_lower, ci_upper, vs)]
+## z <- z[vs == "Placebo"|vs == "Artificial juice", ]
+## z <- z[tmp, on="drug"]
+## m <- matrix(
+##     c(z$md_smd,
+##         z$ci_lower,        
+##         z$ci_upper)
+## )
+## dim(m) <- c(length(z$md_smd), 3)
+## m <- m*-1
+## mrel <- m/2+8
+## rect(xleft=8, xright=mrel[, 2], ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="cornsilk4")
+## arrows(mrel[, 1], as.numeric(tmp$drug), mrel[, 2], as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
+
+
+## Labels
+text(2.5, length(tmp$drug)+0.7, labels="Total sömntid", xpd=NA)
+text(6, length(tmp$drug)+0.7, labels="Sömnkvalitet", xpd=NA, adj=0)
+text(-0.5, length(tmp$drug)+0.7, labels="Insomning", xpd=NA)
+text(7, length(tmp$drug)+0.7, labels="Relativ biverkningsrisk", xpd=NA, adj=0)
+
+
+
+``` 
+
+
+<!-- Sleep latency (melatonin study, N = 360): 76.4 (63.2) -->
+<!-- Normalvärden kvinnor: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10104359/pdf/zpac028.pdf -->
+<!-- TIB, min 373 460 ± 65 -->
+<!-- TST, min N=374 390 ± 73 -->
+<!-- Sleep eff, % 371 85.2 ± 11.0 -->
+<!-- Awakenings/h 373 2.44 ± 1.50 -->
+<!-- Sleep latency, min 374 14.6 ± 24.5 -->
+<!-- N3 latency, min 370 35.8 ± 44.1 -->
+<!-- REM latency, min 367 119.4 ± 72.2 -->
+<!-- N1 % 374 17.4 ± 8.3 -->
+<!-- N2 % 373 50.1 ± 8.9 -->
+<!-- N3 % 374 15.6 ± 8.4 -->
+<!-- REM % 374 16.9 ± 7.5 -->
+<!-- AHI/h 367 19.8 ± 19.8 -->
+<!-- AHI/h ≥ 15 180 51.0% -->
+<!-- AHI/h 0–14.999 187 49.0% -->
+<!-- Subjective sleep duration, min 367 425 ± 73 -->
+
+How to interpret the results of a sleep study
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246141/

@@ -71,7 +71,7 @@ Vissa patienter (ca 50%) har en återkommande ordning i vilket mani följs av de
 - CC-RC (continuous circular course with rapid cycles)
 - IRR (irregular course).
 
-Kategorisering i dessa mönster kan eventuellt förutsäga rspons på litium[@Maj1989;@Tondo2019].
+Kategorisering i dessa mönster kan eventuellt förutsäga rspons på litium[@Maj1989;@Tondo2019]. <!-- De som har MDI-mönster har mycket kortare tid mellan mani och depression (2 vs 107 veckor)[@Sani2017]. -->
 
 > Responsiveness to lithium (and alternative treatments) has been inferior among patients with relatively complicated forms of bipolar disorder, such as with rapid-cycling, psychotic features, co-occurring anxiety syndromes or substance-abuse, as well as in depression-prone cases or those following the DMI course pattern, and lithium is less effective in preventing recurrences of bipolar depression than mania. Importantly, the same limitations hold true for alternative treatments, including anticonvulsants and modern antipsychotics[@Tondo2019].
 
@@ -111,6 +111,35 @@ p
 ``` 
  
 Subsyndromalt 3 ggr vanligare än syndromalt.
+
+Antal episoder (any) per år = 0.4 (SD 0.3)[@Solomon2010]. Mediantiden i sjukdom (any) är 23%[@Solomon2010]. Ca 80-90% återhämtar sig inom två år från en episod[@Solomon2010].
+
+Tabell: Tid till återhämtning (veckor vid olika percentiler) efter olika typer av bipolära episoder[@Solomon2010]
+
+```{r } 
+#| label: solomon2010
+
+dta <- fread("../notes/bipolar-episode-duration_Solomon2010.csv")
+names(dta) <- c("Typ", "N episoder", "25%", "50%", "75%")
+knitr::kable(dta)
+
+``` 
+
+> Major cycling was defined as alternating periods of depression (major depression or minor depression) and mood elevation (mania or hypomania), immediately contiguous with each other or separated by less than 8 consecutive weeks with euthymia. In addition, at least 1 major pole (major depression or mania) was present at some point during the episode. Mixed major cycling was defined as an episode of major cycling that at some point also included a mixed state, ie, a period with concurrent depression and mood elevation. (These mixed states were distinguished from and not synonymous with the mixed episodes defined earlier). Minor cycling was defined as alternating periods of hypomania and minor depression, immediately contiguous with each other or separated by less than 8 consecutive weeks with euthymia[@Solomon2010].
+
+> Overall, across the entire set of these first 5 mood episodes, 25% of the subjects recovered within 5 weeks of onset of the episode (ie, the first quartile), 50% of the subjects recovered within 13 weeks of onset (ie, the median), and 75% recovered within 38 weeks (ie, the third quartile)[@Solomon2010].
+
+<!-- I en studie där 160 personer med BPI följdes i ca 10 år (medelvärde)[@Sani2017]: -->
+
+<!-- | Typ av episod | Antal (range) | Duration, veckor (SD, range) | -->
+<!-- |---------------|---------------|------------------------------| -->
+<!-- | Any           | 6 (1-24)      | 16 (19, 1-188)               | -->
+<!-- | Mani          | 3 (0-17)      |                              | -->
+<!-- | Hypomani      | 0.5 (0-7)     |                              | -->
+<!-- | Depression    | 2.4 (0-14)    |                              | -->
+<!-- | Med psykos    | 2 (1-11)      |                              | -->
+
+<!-- Förenklat: 1 episod varannat år, hälften mani, varar i snitt 4 månader (oftast 0-12??).  -->
 
 #### Sjukdomsbörda i samhället
 
@@ -167,7 +196,13 @@ Vid hypomani saknas uttalad nedsättning av social funktion eller arbetsförmåg
 
 #### Rapid cycling
 
-Minst fyra hypomaniska, maniska eller depressiva episoder (som uppfyller de fulla kriterierna) det senaste 12 månaderna. Episoder avgränsas av antingen symtomfrihet i minst två månader eller övergång till motsatt polaritet. Är associerat med substansbrukssyndrom, hypothyroidism, antidepressiva. Förekomst av rapid cycling har betydelse för val av behandling. Glöm ej undersöka thyroideastatus. 
+Minst fyra hypomaniska, maniska eller depressiva episoder (som uppfyller de fulla kriterierna) det senaste 12 månaderna. Episoder avgränsas av antingen symtomfrihet i minst två månader eller övergång till motsatt polaritet. Är associerat med substansbrukssyndrom, hypothyroidism, antidepressiva. Förekomst av rapid cycling har möjligen betydelse för val av behandling. Glöm ej undersöka thyroideastatus. 
+
+> The concept of "rapid cycling" (RC) was proposed nearly five decades ago by (Dunner and Fieve 1974) to describe bipolar manic-depressive patients with an inferior prophylactic response to lithium treatment and an episode recurrence rate of at least four/year. The criterion of four mood episodes to describe these difficult-to-treat patients was chosen arbitrarily to obtain sufficiently large samples to study (Dunner et al. 1977)[@Miola2023].
+
+En studie av 1261 personer med BP fann livstidsrisk 9% för rapid cycling, samt att endast 20% av dessa återföll i RC därefter[@Miola2023]. Förekomst av RC är vanligare vid BPII, DMI-mönster, och hos kvinnor[@Miola2023]. Personer med RC har sämre effekt av läkemedelsbehandling. Notera att gränsen på fyra episoder per år är arbiträr.
+
+> We also found no association of thyroid functioning and RC, though such an association has been proposed (Bauer et al. 1990; Sack et al. 1988) though not always supported (Wehr et al. 1988; Maj et al. 1994; Post et al. 1997). In general, it remains unclear whether hypothyroidism can predispose to RC-BD or whether treatment of BD with thyroid-altering agents such as lithium can contribute to risk of RC (Carvalho et al. 2014; Buoli et al. 2017), although there is support for selective therapeutic benefits of L-thyroxine for RC-BD (Gyulai et al. 2018)[@Miola2023].
 
 #### Med melankoliska drag
 
@@ -619,7 +654,7 @@ Psykiatrisk samsjuklighet är vanligt, ffa ångestsyndrom (hos ca 75%), ADHD, up
 - Växlande självbild
 - Uttalad impulsivitet
 - Rädsla för att bli övergiven
-- Humörsväningar utlöses av omgivningsfaktorer och varar minuter-timmar
+- Humörsvängningar utlöses av omgivningsfaktorer och varar minuter-timmar
 - Eufori och långvariga perioder med god funktion är mycket ovanligt
 - Kan bättras över livstiden
 - Ej episodisk
