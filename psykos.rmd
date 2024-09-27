@@ -1,7 +1,5 @@
 # Psykos {#psychosis}
 
-Kan ej skilja på inre och yttre.
-
 Psykos inbegriper (enskilt eller i någonn kombination):
 
 - Hallucinationer
@@ -9,25 +7,28 @@ Psykos inbegriper (enskilt eller i någonn kombination):
 - Desorganiserat beteende
 - Desorganiserat tal
 
-Hallucinationer: Sensoriska upplevelser som saknar yttre stimulus. Vid psykos saknas insikt om att yttre orsak inte finns.
+**Hallucinationer:** Sensoriska upplevelser som saknar yttre stimulus. Vid psykos saknas insikt om att yttre orsak inte finns.
 
-Vanföreställningar: Helt osannolika föreställningar som personen är starkt övertygad om ävan när motsatsen bevisas. Kan beskrivas som persekutoriska, grandiosa, grandiosa, erotomana, religiösa.
+**Vanföreställningar:** Helt osannolika föreställningar som personen är starkt övertygad om ävan när motsatsen bevisas. Kan beskrivas som tex persekutoriska, grandiosa, grandiosa, erotomana, religiösa.
 
-Desorganiserat beteende: Udda rörelser, kroppspositioner, katatoni.
+**Desorganiserat beteende:** Udda rörelser, kroppspositioner, katatoni.
 
-Desorganiserat tal: Ologiskt innehåll, obegriplighet, tangentialitet, neologismer, klangassociationer, ordsallad, ekolali mm.
+**Desorganiserat tal:** Speglar ett avvikande tankeförlopp med exemeplvis tvära kast mellan ämnen, rusande tankar, eller plötsliga stopp i tankeförloppet. 
 
-Biologiska, psykosociala, och kulturella faktorer kan bidra.
+<!-- ologiskt innehåll, obegriplighet. -->
+ <!-- tangentialitet, neologismer, klangassociationer, ordsallad, ekolali mm. -->
 
-I psykiatrisk diagnostik används tex duration (tex >6 månader vid schizofreni) och relation till affektiva episoder (endast inom- eller finns även utanför) för att indela psykoser i olika diagnoser.
-
-[@Lieberman2018]
+Biologiska, psykosociala, och kulturella faktorer kan bidra till att en psykos uppstår och hur den uttrycks.
 
 Överskott på dopaminerg och glutamaterg signalering kan vara en biologisk process som orsakar psykos. Kannabinoidreceptorer och serotonin (psykedelika) kan också vara inblandade.
 
-Psykologiska modeller av psykos inbegriper bla att psykos kan vara en följd av nedsatt förmåga att processa otydliga stimuli samt en tendens att ta ett beslut på basen av mindre information[@Garety1991;@Garety2007].
+Psykologiska modeller av psykos inbegriper bla att psykos kan vara en följd av nedsatt förmåga att processa otydliga stimuli samt en tendens att ta ett beslut på basen av mindre information än vad andra gör[@Garety1991;@Garety2007]. Kan även beskrivas som att individen ej kan skilja på den inre och yttre världen.
 
-Huntingtons sjukdom kan ge psykos (10%), ofta även depression, kognitiv nedsättning, irritabilitet.
+Kroppsliga sjukdomar som kan orsaka psykos är tex Huntingtons sjukdom, SLE, paraneoplastiska symtom (ffa vid ovarialteratom), och syfilis.
+
+I psykiatrisk diagnostik används tex duration (tex >6 månader vid schizofreni) och relation till affektiva episoder (endast inom- eller finns även utanför) för att indela psykoser i olika diagnoser.
+
+För en översikt se Lieberman 2018[@Lieberman2018].
 
 ## Differentialdiagnostik
 
@@ -59,6 +60,8 @@ Visuella hallucinationer eller ändrad medvetandegrad kan tala för sekundär or
 
 Schizofreni och schizoaffektid sjukdomsförlopp: premorbid, prodromal, syndromal, progressive, and chronic stages 
 
+Dissociation, PTSD?
+
 Hereditet: Schizofreni och bipolär m psykos har vardera konkordans 50% hos enäggstvillingar. Förstagraddsläktingar till person med psykos har 10-15 ggr högre prevalens.
 
 Vid epilepsi är förekomsten av schzofreni dubblerad. Andra type av psykoser förekommer och brukar delas in efter tidsrelationen till epileptiska anfall (iktal-, postiktal- och interiktal psykos). Psykos är vanligare vid temporallobsepilepsi (prevalens 10%)[@Maguire2018].
@@ -68,6 +71,8 @@ Vid epilepsi är förekomsten av schzofreni dubblerad. Andra type av psykoser f�
 >Psychotic symptoms sometimes form part of the seizure (ictal psychosis). They are of sudden onset, brief and abort as the seizure aborts. Ictal psychosis may occur in the context of non-convulsive status epilep- ticus where patients may show bizarre behaviour and thought incoherence, with or without loss of aware- ness. Delusions and hallucinations are less common than in postictal psychosis; patients may show other seizure features, such as motor or orobuccal automa- tisms as part of temporal lobe epilepsy.[@Maguire2018]
 
 >A more difficult challenge for clinicians is to distin- guish interictal psychosis from schizophrenia. Interictal psychosis can manifest as brief or chronic forms. The chronic forms of interictal psychosis may closely resemble schizophrenia; however, several features help to distinguish the two. Schizophrenia often begins in young adulthood. In contrast, interictal psychosis manifests predomi- nantly with the positive psychotic symptoms of delusions and hallucinations, which are less likely to be third-person auditory, and have better preserved personality traits and no negative symptoms. The psychosis can last days to months but may be more protracted. It can be very difficult to distinguish between interictal psychosis and postictal psychosis and in many patients these coexist. [@Maguire2018]
+
+Huntingtons sjukdom kan ge psykos (10%), ofta även depression, kognitiv nedsättning, irritabilitet.
 
 Se [@Skikic2020] för kliniskt vägledd diagnostik.
 
@@ -277,6 +282,8 @@ Symtom som kan föranleda utvidgad utredning (tex MR, EEG, paraneoplastisk panel
 
 **Syfilis:** Neurosyfilis[@Ropper2019]. Kan ge psykiatriska symtom som första tecken.
 
+
+
 ## Behandling
 
 "Numerous agents have been examined as adjunctive treatments to antipsy- chotic medications, but their effects are modest, and evidence for their efficacy is limited. 35 The same is true for combinations of conventional antipsychotic drugs.
@@ -305,6 +312,7 @@ Capgras
 Post parum psykos
 
 - Ofta bipolärt syndrom.
+
 
 ### Lewykroppsdemens och parkinson med demens
 

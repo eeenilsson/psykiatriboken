@@ -84,7 +84,7 @@ include_graphics('../dropbox/images/psychiatry/concentration_response_individual
 
 Situationer där mätning av plasmakoncentrationer kan ha värde  [@Schoretsanitis2020a]:
 
-1. Uncertain adherence to antipsychotics38
+1. Uncertain adherence to antipsychotics
 2. No clinical response within established therapeutic dose ranges
 3. Symptom recurrence or relapse during maintenance treatment
 4. Adverse drug reactions (ADRs)
@@ -332,7 +332,7 @@ Antidepressant Drugs Effects on Blood Pressure  [@Calvi2021]
 
 ## Antipsykotiska läkemedel {#antipsychotics}
 
-Klinisk effekt av antipsyotiska läkemedel har påvisats vid 65-90% bindinng till D2-receptrorn och risken för motoriska biverkningar ökar vid en bindningsgrad på 80% (vilket ses vid ungefär 6 mg/d för risperidon, 30 mg/d för olanzapin, och 160 mg/d för ziprasidone). D2 occupancy optimum kan vara 65% [@Farde1988]. 
+Klinisk effekt av antipsykotiska läkemedel har påvisats vid 65-90% bindning till D2-receptorn och risken för motoriska biverkningar ökar vid en bindningsgrad på 80% (vilket ses vid ungefär 6 mg/d för risperidon, 30 mg/d för olanzapin, och 160 mg/d för ziprasidone). D2 occupancy optimum kan vara 65% [@Farde1988]. 
 
 ### Receptoraffinitet
 
@@ -381,6 +381,35 @@ Se \@ref(tab:tdm-antipsychotics-table) för mätning av serumkoncentrationer av 
 <!-- ```  -->
 
 
+I en metaanalys (K=26, N=4776) av läkemedelsbehandling vid schizofreni såg man att effektkurvan för återfallsrisk var hyperbol för de flesta antipsykotiska medel och att den planade ut vid 5-mg/d risperidonekvivalenter[@Leucht2021]. Exempelvis var återfallsrisken (under ca ett år) 67% för placebo, 57% för 1 mg risperidonekvivalenter, 47% för 2 mg, 38% för 3 mg, 32% för 4 mg, 30% för 5 mg. För patienter som var i remission vid baslinje planade effektkurvan ut tidigare (2.5 mg risperidonekvivalenter), likaså för FGA (3 mg). Man fann liknande resultat vid akut schizofreni[@Leucht2020]. 
+
+Denna referens[@Leucht2020] innehåller även dos-responskurvor för individuella antipsykotiska medel (Fig 2 i artikeln). Effekten ser ut att plana ut vid SMD 0.6 (0.4 för negativa symtom) för de fleasta AP, vissa har ej undersökts i tillräckliga doser för att se utplaningen. För olanzapin och klozapin ses ingen tydlig utplaning och ökningen av SMD tycks fortsätta mer linjärt åtminstone till SMD 0.8-1. Kvetiapin och brexipiprazol planar ut vid SMD 0.3; kariprazin och asenapin vid SMD 0.4.
+
+The ED95 is the dose required to achieve the desired effect in 95% of the population.
+
+
+```{r antipsychotic-equivalents_Leucht2020, out.width = '95%', fig.cap = 'Dosering av antipsykotiska läkemedel[@Leucht2021; @Leucht2020]', fig.fullwidth = TRUE} 
+
+include_graphics("../dropbox/images/psychiatry/antipsychotic-equivalents_Leucht2020.png")
+```
+
+Tabell: Förenkling av doser för ED50  ED95 vid 6 mg. 
+
+| Läkemedel | Min | Mål |
+|-----------|-----|-----|
+| Ris       | 3   | 6   |
+| Hal       | 3   | 6   |
+| Car       | 1.5 | 6   |
+| Ari       | 5   | 10  |
+| Pal       | 5   | 15  |
+| Ola       | 5   | 15  |
+| Zip       | 50  | 200 |
+| Que       | 200 | 500 |
+
+
+[Konverteringskalkylator doser](https://lvhjmo.org/calc/)
+
+
 ### Biverkningar översikt
 
 Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken för olika typer av biverkningar av antipsykotiska läkemedel. Många av biverkningarna är dosberoende. Källa: Maudsley.
@@ -390,6 +419,10 @@ Figur \@ref(fig:antipsychotics-side-effects) visar grovt den relativa risken fö
 source('antipsychotics-side-effects.r', print.eval=TRUE)
 
 ```
+
+
+
+<!-- En sammanfattning av metaanalyser (umbrella-review) av biverkningar totalt från olika AP [@Chow2023]. Observera att flera symtom exkluderades. Exempelvis [@Huhn2019] inkluderades ej heller, av oklar anlending (see Appendix 7 for all excluded adverse effects with reasons and Appendix 8 for eligible but excluded studies).. -->
 
 ### Motoriska biverkningar
 
@@ -1567,15 +1600,76 @@ Biverkningar förebyggas,  uppmärksammas, och behandlas.
 
 Förebygg genom att tex ge läkemedel mot förstoppning, utsättning av andra läkemedel som ger ökad risk för samma biverkningar (tex antikolinerga medel).
 
+#### Förstoppning och ileus
+
+Klozapin gör att transit-tiden genom kolon förlängs. Det finns en korrelation med plasmanivåer av klozapin. Detta kan förmodas bero på antikolinerga effekter och kanske H1- och 5HT3-R antagonism. Incidens förstoppning är 30-60% och risken för ileus fördubblad och dosberoende (risken för fatal ileus sjudubblad), och uppträder oftast efter 3-4 års behandling. 
+
+Redan innan start av behandling bör man tillse tillräcklig frekvens och skonsistens på avföringen. Under behandling med klozapin behövs ofta en kombination av ett osmotiskt och ett stimulernde preparat.
+
+1. Fysisk aktivitet, kost, vätskeintag (2-3L/d)
+2. Översyn andra läkemedel som kan ge förstoppning
+3. Osmotiskt laxativ
+4. Tillfälligt tillägg av stimulerande laxativ vid behov för att upprätthålla avföringsfrekvens
+5. Undvik bulkmedel
+6. Vid förstoppning: Lägg till åtgärd varje 48 tim.
+7. Vid svårbehandlad förstoppning, överväg dossänkning klozapin
+
+<!-- Ducosate has both softening and stimulant properties -->
+<!-- Prolonged use of stimulant laxatives may lead to degenerative changes in colonic muscles and nerves ? Disproven enl cloz handbook -->
+
+| Typ             | Substans                | Läkemedel   | Notering               |
+|-----------------|-------------------------|-------------|------------------------|
+| Osmotiskt       | Makrogol                | Forlax      |                        |
+| Osmotiskt       | Makrogol + elektrolyter | Movicol     | Långtidsbruk ok        |
+| Osmotiskt       | Laktulos                | Laktulos    | Gaser, långtidsbruk ok |
+| Stimulerande    | Bisakodyl               | Dulcolax    |                        |
+| Stimulerande    | Senna                   | Pursennid   |                        |
+| Stimuleriande   | Natriumpikosulfat       | Cilaxoral   |                        |
+| Mjukgörande     | Dukosat                 | Klyx        | Finns endast som klyx  |
+| 5HT4R-agonist   | Prukaloprid             | Prukaloprid | Finns ej?              |
+| My-R-antagonist | Naloxegol               | Moventig    | Subv vid opioid        |
+| Sekretorisk     | Linaklotid              | Constella   | Guanylatcyklas-R-ag    |
+
+Bulkmedel: Sterkuliagummi (Inolaxol), loppfrö (Vi-Siblin) rekommenderas **EJ** vid klozapinbehandling pga att långsam kolonpassage riskerar torka ut läkemedlet och ge klumpbidlning.
+
+Risker med laxantiaterapi är bland annat elektrolytrubbningar. Dehydrering kan uppkomma. Bulkmedel ska inte användas som laxermedel under behandling med opioider eller klozapin pga risk för ileus. Utvärdera alltid effekten av laxantia och ändra/avsluta behandlingen om utebliven effekt eller biverkningar.
+
+Förstoppning, två eller mer av (vid 25% av tillfällena):
+
+- Ansträngning vid defekation
+- Klumpig eller hård avföring
+- Känsla av ofullständig tömning
+- Känsla av anorektal obstruktion
+- Behöver manuellt avhjälpa hinder
+- Mindre än tre avföringar per vecka
+
+Tecken på ileus:
+
+- Buksmärta eller obehag > 1 tim
+- Kräkning
+- Uppspänd buk
+- Frånvaro av- eller metalliska tarmljud
+- Diarré, särskilt om blodig
+- Lågt blodtryck, hög puls
+
+
+#### Hypersalivering
+
+Ökad salivproduktion (Sialorrhé) är en tidig biverkan.
+
+[NHS Clozapine-induced hypersalivation
+- treatment guidance](https://www.oxfordhealthformulary.nhs.uk/docs/Clozapine-induced%20hypersalivation%20revised_DTG%20approved_Dec%202023.pdf)
+
+Skopolamin (plåster)
+
+Ipratroprium (nässpray)
+
 #### Antikolinerga biverkningar av klozapin
 
 TODO: Något om farmakodynamiken vid olika M-receptorer.
 
 För mer om antikolinerga biverkningar, se **avsnitt \@ref(side-effects-anticholinergic)**.
 
-##### Sialorrhé
-
-Ökad salivproduktion är en tidig biverkan.
 
 ##### Motoriska biverkningar
 

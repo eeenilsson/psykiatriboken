@@ -51,4 +51,6 @@ bookdown::gitbook:
     info: yes
   self_contained: true
   keep_tex: true
+  split_bib: true
+  css: style.css
 

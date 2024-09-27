@@ -154,3 +154,103 @@ Från kapitlet om demens, allmänna råd:
 - Vid omdömesdefekter bör läkaren försöka bedöma i vad mån dessa har betydelse för trafiksäkerheten.
 
 
+## Sjukpenning
+
+### Inledning
+
+International Classification of Functioning, Disability, and Health (ICF) kan användas för inspiration om vilka domäner i personens fungerande som kan beskrivas. Den finns i [engelsk webbversion][https://icd.who.int/browse/2024-01/icf/en] och [på svenska][https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/klassifikationer-och-koder/2024-2-8921.pdf]. Funktionsnedsätntingen kan enl ICF graderas som: Ingen, mild, måttlig, svår, eller fullständig. WHO Disability Assessment Schedule (WHODAS 2.0) är ett generiskt bedömningsinstrument som utgör en standardiserad metod för att mäta hälsa och funktionshinder över kulturgränser.
+
+Bedömning av "genomförande" beskriver vad en person förmår att göra nu i sin aktuella omgivning. Bedömning av "kapacitet" beskriver en persons förmåga att utföra en uppgift
+eller handling vid högsta möjliga funktionsnivå som en person kan tänkas uppnå inom en given domän.
+
+### FUNKTIONSNEDSÄTTNING (undersökningsfynd, testresultat och observationer)
+
+Positiva fynd i psykiskt status, tex nedsatt uppmärksamhet, sänkt stämningsläge, hög ångestnivå, psykomotorisk hämning. 
+
+Problem med... (gradera? mild/måttlig/svår/fullständig)
+
+Energi och drivkraft: Nedsatt energinivå, motivation, och aptit. Initiativsvårigheter. Uthållighet. Undvikande.
+
+Kognition: Exekutiva funktioner såsom uppmärksamhet, arbetsminne, tänkande, impulskontroll, kognitiv flexibilitet, planering, och problemlösning.
+
+Social funktion: Känsloreglering. Förstå och etablera mellanmänskliga relationer. Impulskontroll.
+
+Autism eller IF: Därutöver är omdöme, emotionella funktioner (lämplighet, reglering) och förmågan att förstå och etablera mellanmänskliga relationer nedsatt. Likaså språk, abstraktion, impulskontroll. 
+
+**Mer ovanligt:**
+
+Svårigheter att upprätthålla kontinuitet i medvetande (tex vid dissociation). Ambivalens.
+ 
+<!-- Svårigheter som påverkar patientens möjligheter att utföra sin sysselsättning: -->
+<!-- Emotioner, nedstämdhet, energinivå, motivation, impulskontroll, minne, sömn, aptit, viktuppehållande funktioner -->
+
+**Övrigt:**
+
+Omgivningsfaktorer kan kommenteras (fysiska förutsättningar, nätverk, service, tjänster och system)
+
+### AKTIVITETSBEGRÄNSNING (kan ej göra pga sin sjukdom...)
+
+Genomföra/upprätthålla daglig rutin.
+
+Hantera stress och andra psykologiska krav (tex ansvar).
+
+Bibehålla uppmärksamhet, fatta beslut, ta initiativ, och ha uthållighet. 
+
+Ökad uttröttbarhet, och ökat behov av återhämtning.
+
+Inlärning och att tillämpa kunskap.
+
+Självständigt förbereda, initiera, och organisera (enkla/komplexa) uppgifter
+
+Uttrycka sig verbalt/ickeverbalt, i skrift
+
+Interpersonella relationer: Tex respekt, tolerans, sociala signaler, reglera beteenden
+
+Vilket stöd behöver patienten nu?
+
+### Arbetsrehabiliterande insatser
+
+Arbetsträning är vanligen upp till 25% av ordinarie arbetstid. Kan minskas. Plan tillsammans m arbetsgivare och FK.
+ 
+LSS-lagen. Arbetsverksamhet (förutsätter sjukskrivning?).
+ 
+FHV. Kan lyftas på möte med arbetsgivaren. Arbetsförmågeutredning tex när pat ej kan göra vissa uppgifter.
+ 
+Coaching via coachingteamet. Avslutas när man kommit upp i ordinarie arbetstid, tex om Försäkrad hos FK tex 13 tim (om detta var ordinarie arbetstid).
+ 
+Rehabkoordinator när det finns en plan för återgång i arbete.
+ 
+Aktivitetsstöd när man är inskriven hos arbetsförmedlingen.
+
+<!-- ** ICF -->
+<!-- *** Globala mentala funktioner: -->
+<!-- [- Medvetande (kontinuitet-tex vid dissociation, grad)] -->
+<!-- - Uppmärksamhet (bibehålla, delad uppmärksamhet) -->
+<!-- - Orientering -->
+<!-- - Intellektuella funktioner: Förstå och integrera mentala funktioner, inklusive alla kognitiva funktioner -->
+<!-- - Psykosociala funktioner: Förstå och integrera mentala funktioner som krävs för att etablera reciprokala [mellanmänskliga?] sociala interaktioner -->
+ <!-- [Temperament och personlighet (tex öppenhet, pålitlighet, mm)] -->
+ 
+<!-- Minne -->
+<!-- Psykomotorik -->
+<!-- Ambivalens -->
+<!-- Emotionella funktioner (lämplighet, reglering) -->
+<!-- Tänka (tempo, innehåll, kontroll) -->
+<!-- Högre kognitiva: Abstraktion, organisering och planering, tidsplanering, kognitiv flexibilitet, förståelse, omdöme, problemlösning -->
+<!-- Språk, kalkylering -->
+ 
+<!-- *** Energi och drivkraft: -->
+<!-- - Energinivå -->
+<!-- - Motivation -->
+<!-- - Impulskontroll -->
+<!-- - Aptit -->
+ 
+<!-- *** Aktiviteter och medverkan -->
+<!-- - Inlärning och att tillämpa kunskap -->
+<!-- - Genomföra uppgifter: Självständigt Förbereda, initiera, och organisera enkla/komplexa uppgifter -->
+<!-- - Genomföra daglig rutin -->
+<!-- - Hantera stress och andra psykologiska krav (tex ansvar) -->
+<!-- - Kommunikation, Uttrycka sig verbalt/ickeverbalt, i skrift -->
+<!-- - Interpersonella relationer: Tex respekt, tolerans, sociala signaler, reglera beteendenm -->
+
+<!-- Fatta beslut -->

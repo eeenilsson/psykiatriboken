@@ -451,6 +451,7 @@ Tabell: Läkemedelsändringar att överväga vid samsjuklighet eller biverkninga
 
 Dossänkning är förstås ofta ett alternativ.
 
+> ADHD patients are at greater risk for several psychiatric disorders such as depression, bipolar disorder, and anxiety disorders [6]. Overlapping and distinctive features between these disorders are, however, notable [6]. According to Katzman et al., substance use disorder and personality disorders are more common among ADHD patients than in the general population. Up to 44% of all ADHD children suffer from restless legs syndrome (RLS), and 26% of RLS patients are reported suffering from ADHD or at least severe ADHD symptoms[@Wilenius]
 
 ### Sömnsvårigheter
 
@@ -464,6 +465,11 @@ Om sömn och åtgärder vid ADHD[@Surman2021]. Nämner även screeninginstrument
 - Tyngdtäcke
 - Melatonin
 - KBT-I
+
+Andra sömnrelaterade fenomen som är överrepresenterade vid ADHD är restless legs (40%), kanske senare dygnsrytm. ADHD är överrepresenterat vid narkolepsi.
+<!-- Sleep disorders in ADHD: https://www.dovepress.com/sleep-disorders-in-patients-with-adhd-impact-and-management-challenges-peer-reviewed-fulltext-article-NSS -->
+
+> Recent epidemiological evidence indicates that diagnosis of attention-deficit/hyperactivity disorder (ADHD) is associated with increased risk for diseases of the basal ganglia and cerebellum, including Parkinson's disease (PD). The evidence reviewed here indicates that deficits in striatal dopamine are a shared component of the causal chains that produce these disorders. Neuropsychological studies of adult ADHD, prodromal PD, and early-stage PD reveal similar deficits in executive functions, memory, attention, and inhibition that are mediated by similar neural substrates. These and other findings are consistent with the possibility that ADHD may be part of the PD prodrome. The mechanisms that may mediate the association between PD and ADHD include neurotoxic effects of stimulants, other environmental exposures, and Lewy pathology.[https://pubmed.ncbi.nlm.nih.gov/33560690/]
 
 ### Alkoholöverkonsumtion
 

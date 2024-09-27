@@ -22,9 +22,67 @@ Hypnagoga hallucinationer
 
 ## Parasomnier 
 
+## Narkolepsi
+
+Narkolepsi är en ovanlig sjukdom som gör att hjärnan inte kan styra sömn och vakenhet på ett normalt sätt. Det kan till exempel ge följande problem:
+
+- Överdriven dagtrötthet: Trött och sömnig under dagen, så att det är svårt att fokusera och hålla sig vaken.
+- Sömnattacker: Somnar plötsligt utan förvarning. Kan inträffa tex under samtal eller måltid. Vanligen sekunder-minuter.
+- Kataplexi: Tillfällig förlust av muskelkontroll, vilket ger svaghet och kan leda till kollaps, ofta som en reaktion på känslor som skratt och ilska. Från dagligen till någon gång per år.
+- Sömnparalys: Tillfällig oförmåga att röra sig eller prata i samband med att man just skall somna eller just vaknat. Vanligen sekunder-minuter.
+- Överdrivet drömmande och uppvaknande under natten: Drömmarna uppträder ofta i samband med insomning (hypnagoga hallucinationer), eller uppvakning (hypnopompiska hallucinationer).
+
+En orsak till narkolepsi tros vara brist på hypokretin (orexin), vilket kan bero på att immunystemet angiper de celler som producerar det eller blockerar de receptorer det verkar på. Utlösande faktorer tros kunna vara tex hormonförändringar (pubertet, menopaus), större psykologisk stress, infektioner. Symtomen börjar oftast i ungdomen.
+
+Personer med narkolepsi går snabbt in i drömsömnen (REM) och den muskelsvaghet och drömmande som sker under REM kan uppträda i vaket tillstånd.
+
+ADHD är relativt valigt vid narkolepsi (ffa typ 2)[@Ren2024].
+
 ## Anamnes och skattningsskalor
 
-[Prospektiv sömndagbok](https://viss.nu/download/18.7f0158e4176840aa3316bdd9/1609159272664/somndagbok.pdf)
+- Screening (insomni, OSAS, annat?)
+- Svårighetsgrad
+- Effekt av behandling
+
+Skalor: 
+https://insomnia.arizona.edu/measures
+https://www.sleepprimarycareresources.org.au/insomnia/assessment-questionnaires
+
+"The Pittsburgh Sleep Quality Index (PSQI) is a useful tool in assessing a range of sleep health and sleep disorder symptoms"
+
+Bedömning av sömn En forskningsöversikt om bedömningsinstrument för barn och vuxna med funktionsnedsättning:
+https://vardgivare.skane.se/siteassets/1.-vardriktlinjer/habilitering/fou-rapporter/2018/fourapport-2018nr2.pdf
+
+ISI verkar enkel, kan användas för screening av insomni, och uppföljning av behandlingseffekt.
+
+ESS Epworth, för dagtrötthet
+
+Wisconsin verkar ha screening/anamnesfrågor för olika tillstånd.
+
+### Anamnestiska frågor
+
+- Tupplurar under dagen?
+- Dagtrötthet?
+- Screening RLS: "När du försöker slappna av på kvällen eller sova på natten, har du någon gång en obehaglig, rastlös känsla i benen som lättar när du rör på dem eller går?"
+- Fråga om energinivå på morgonen kan screena för föredragen dygnsrytm.
+- Screening för sömnapné.
+- Skiftarbete?
+
+I [@Surman2021] diskuteras en del screeningfrmulär och anamnestiska frågor.
+
+Pittsburgh Sleep Quality Index 
+
+### Prospektiv sömndagbok
+
+[Formulär prospektiv sömndagbok](https://viss.nu/download/18.7f0158e4176840aa3316bdd9/1609159272664/somndagbok.pdf): Liknar SASS
+
+### ISI, retrospektiv symtomskattning svårighetsgrad
+
+https://viss.nu/download/18.7353d1b51757f917add379db/1610097077243/ISI_svensk_version_2017.pdf
+
+En kortare tre-frågorsversion finns
+
+### SASS, retrospektiv sömndagbok
 
 SASS är en retrospektiv sömndagbok. SASS-Y delar upp samma frågor i veckodag respektive helg[@Dietch2019]. Följande frågor (fri översättning) ingår (tiderna är "i medeltal"):
 
@@ -37,15 +95,6 @@ SASS är en retrospektiv sömndagbok. SASS-Y delar upp samma frågor i veckodag 
 7. När klev du upp?
 8. Hur bra var din sömn? 1= mycket dåligt, 2= ganska dåligt, 3= varken bra eller dåligt, 4= ganska bra, 5= mycket bra.
 9. Hyr länge har du sovit så här? År, månader, veckor.
-
-- Tupplurar under dagen?
-- Dagtrötthet?
-- Screening RLS: "När du försöker slappna av på kvällen eller sova på natten, har du någon gång en obehaglig, rastlös känsla i benen som lättar när du rör på dem eller går?"
-- Fråga om energinivå på morgonen kan screena för föredragen dygnsrytm.
-- Screening för sömnapné.
-
-I [@Surman2021] diskuteras en del screeningfrmulär och anamnestiska frågor.
-
 
 Validity of two retrospective questionnaire versions of the Consensus Sleep Diary: the whole week and split week Self-Assessment of Sleep Surveys[@Dietch2019]. Finns som app?
 
@@ -71,150 +120,13 @@ Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia 
 
 Efficacy, acceptability, and tolerability of all available treatments for insomnia in the elderly: a systematic review and network meta-analysis[@Samara2020].
 
+```{r sleep-medications-efficacy-elderly, fig.cap="Sömnmedel, effektivitet hos äldre[@Samara2020]." , out.width = '100%'} 
 
-
-```{r } 
-
-#| label: sleep-meds 
-pacman::p_load(data.table, ggplot2)
-dta <- fread("../notes/sleep-meds_Samara2020.csv")
-
-norm <- data.table(
-    variable = c("latency", "tst"),
-    mean = c(14.6, 390),
-    sd = c(24.5, 73)
-)
-
-
-dta[, ci_lower:= gsub(",.*", "", ci)]
-dta[, ci_upper:= gsub("^[^,]*", "", ci)]
-dta[, ci_upper:= gsub(", ", "", ci_upper)]
-dta[, ci_lower:= as.numeric(ci_lower)]
-dta[, ci_upper:= as.numeric(ci_upper)]
-
-
-tmp <- dta[vs=="Placebo"|vs=="Artificial juice", ]
-toplot <- tmp[variable=="onset"|variable=="tst", .(drug, variable, md_smd, ci_lower, ci_upper)]
-## toplot$drug = with(toplot, reorder(drug, -md_smd))
-
-## ## ggplot
-## p <- ggplot(toplot, aes(y=md_smd, ymax=ci_upper, ymin=ci_lower, x=drug, color=variable))
-## p+geom_point()+geom_errorbar()+coord_flip()+facet_grid(cols=vars(variable))
-
-toplot <- tmp[variable=="onset"|variable=="tst"|variable=="adverse_effect_or", .(drug, variable, md_smd, ci_lower, ci_upper)]
-
-## compute absolute sleep/wake times
-tmp <- dcast(toplot, drug~variable, value.var=c("md_smd", "ci_lower", "ci_upper"))
-tmp <- na.omit(tmp)
-tmp[, bedtime:=-1]
-tmp[, sleep_pbo:=0]
-tmp[, wake_pbo:=sleep_pbo+5]
-tmp[, sleep_med:=sleep_pbo+md_smd_onset/60]
-tmp[, sleep_med_ci_lower:=sleep_pbo+ci_lower_onset/60]
-tmp[, sleep_med_ci_upper:=sleep_pbo+ci_upper_onset/60]
-tmp[, wake_med:=wake_pbo+md_smd_tst/60]
-tmp[, wake_med_ci_lower:=wake_pbo+ci_lower_tst/60]
-tmp[, wake_med_ci_upper:=wake_pbo+ci_upper_tst/60]
-setorder(tmp, -sleep_med)
-## tmp<- as.data.table(tmp)
-## tmp$drug = with(tmp, reorder(drug, -sleep_med))
-tmp$drug <- factor(tmp$drug, levels=tmp$drug)
-
-## shrink <- 0.1*3
-## origo <- 0
-## tmp[, tst_med:=(wake_pbo-sleep_pbo+md_smd_tst/60)*shrink+origo]
-## tmp[, tst_med_ci_lower:=(wake_pbo-sleep_pbo+ci_lower_tst/60)*shrink+origo]
-## tmp[, tst_med_ci_upper:=(wake_pbo-sleep_pbo+ci_upper_tst/60)*shrink+origo]
-
-## Plot ====
-par(mar=c(4,8,4,4)+2)
-plot(1, type="n", xlab="Tid (tim)", ylab="", yaxt="n", xaxt="n", xlim=c(-1, 9), ylim=c(1, length(tmp$drug)))
-title(sub="Fig: Effekt av sömnmedel till äldre (Samara 2020 Acta Psychiatrica)", adj=0)
-axis(2, labels=tmp$drug, at=1:length(tmp$drug), las=1)
-axis(1, labels=-1:6, at=-1:6)
-abline(v=0, lty=2)
-abline(v=5, lty=2)
-
-## tst
-rect(xleft=0, xright=tmp$md_smd_tst/60+5, ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="steelblue3")
-arrows(tmp$ci_lower_tst/60+5, as.numeric(tmp$drug), tmp$md_smd_tst/60+5, as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
-
-## onset
-points(y=tmp$drug, x=tmp$sleep_med)
-arrows(tmp$sleep_med_ci_upper, as.numeric(tmp$drug), tmp$sleep_med_ci_lower, as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "black", lwd = 3)
-## points(y=tmp$drug, x=tmp$wake_med, col="red")
-
-## barplot(tmp$tst_med, horiz = TRUE, add=T, xpd=FALSE)
-## rect(xleft=origo, xright=tmp$tst_med, ybottom=as.numeric(tmp$drug)-0.1, ytop= as.numeric(tmp$drug)+0.1)
-
-## plot odds for adverse effects
-m <- matrix(
-    c(tmp$ci_lower_adverse_effect_or,
-        tmp$md_smd_adverse_effect_or,        
-        tmp$ci_upper_adverse_effect_or)
-)
-dim(m) <- c(length(tmp$ci_lower_adverse_effect_or), 3)
-mrel <- m/10*3+7
-rect(xleft=7, xright=mrel[, 2], ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="orange")
-arrows(mrel[, 1], as.numeric(tmp$drug), mrel[, 2], as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
-## x <- c(0, 1, 2, 3, 4, 5, 6)
-## axis(3, labels=x, at=x/10*3+7)
-## log odds: https://www.statisticshowto.com/log-odds/
-
-## ## plot odds for sedation
-## m <- matrix(
-##     c(tmp$ci_lower_sedation_or,
-##         tmp$md_smd_sedation_or,        
-##         tmp$ci_upper_sedation_or)
-## )
-## dim(m) <- c(length(tmp$ci_lower_sedation_or), 3)
-## mrel <- m/10*3+7
-## rect(xleft=7, xright=mrel[, 2], ybottom=as.numeric(tmp$drug), ytop= as.numeric(tmp$drug)-0.15, col="coral1")
-## arrows(mrel[, 1], as.numeric(tmp$drug)-0.15/2, mrel[, 2], as.numeric(tmp$drug)-0.15/2,  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
-
-
-## quality
-z <- dta[variable=="quality", .(drug, md_smd, ci_lower, ci_upper, vs)]
-z <- z[vs == "Placebo"|vs == "Artificial juice", ]
-z <- z[tmp, on="drug"]
-m <- matrix(
-    c(z$md_smd,
-        z$ci_lower,        
-        z$ci_upper)
-)
-dim(m) <- c(length(z$md_smd), 3)
-m <- m*-1
-mrel <- m/3+6
-rect(xleft=6, xright=mrel[, 2], ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="forestgreen")
-arrows(mrel[, 1], as.numeric(tmp$drug), mrel[, 2], as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
-
-
-## ## Daytime impairment
-## z <- dta[variable=="daytime_impairment", .(drug, md_smd, ci_lower, ci_upper, vs)]
-## z <- z[vs == "Placebo"|vs == "Artificial juice", ]
-## z <- z[tmp, on="drug"]
-## m <- matrix(
-##     c(z$md_smd,
-##         z$ci_lower,        
-##         z$ci_upper)
-## )
-## dim(m) <- c(length(z$md_smd), 3)
-## m <- m*-1
-## mrel <- m/2+8
-## rect(xleft=8, xright=mrel[, 2], ybottom=as.numeric(tmp$drug)-0.15, ytop= as.numeric(tmp$drug)+0.15, col="cornsilk4")
-## arrows(mrel[, 1], as.numeric(tmp$drug), mrel[, 2], as.numeric(tmp$drug),  code=3, length=0.02, angle = 90, col = "white", lwd = 3)
-
-
-## Labels
-text(2.5, length(tmp$drug)+0.7, labels="Total sömntid", xpd=NA)
-text(6, length(tmp$drug)+0.7, labels="Sömnkvalitet", xpd=NA, adj=0)
-text(-0.5, length(tmp$drug)+0.7, labels="Insomning", xpd=NA)
-text(7, length(tmp$drug)+0.7, labels="Relativ biverkningsrisk", xpd=NA, adj=0)
-
-
+include_graphics("../dropbox/images/psychiatry/sleep-medications-efficacy-elderly.png")
 
 ``` 
 
+Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis[@Crescenzo2022]
 
 <!-- Sleep latency (melatonin study, N = 360): 76.4 (63.2) -->
 <!-- Normalvärden kvinnor: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10104359/pdf/zpac028.pdf -->

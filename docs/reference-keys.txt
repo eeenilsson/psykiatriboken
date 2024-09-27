@@ -25,6 +25,7 @@ tab:anxiety-medications
 tab:table-adhd-farmacokinetics
 tab:table-adhd-dosing
 fig:adhd-medication-cortese
+fig:sleep-medications-efficacy-elderly
 fig:direct-indirect-pathway
 fig:original-basal-ganglia-model
 fig:image-basal-ganglia-coronal
@@ -263,6 +264,12 @@ inledning-3
 modell-för-reglering-av-sömn-och-vakenhet
 diverse
 parasomnier
+narkolepsi
+anamnes-och-skattningsskalor
+anamnestiska-frågor
+prospektiv-sömndagbok
+isi-retrospektiv-symtomskattning-svårighetsgrad
+sass-retrospektiv-sömndagbok
 sömnhygien
 läkemedelsbehandling-3
 basal-ganglia
@@ -290,6 +297,7 @@ neuroendokrinologi
 cirkumventrikulära-organ
 vagusnerven
 neurosteroider
+kvinnliga-könshormoner
 premenstruellt-dysforiskt-syndrom-pmdd
 diagnostik-1
 patofysiologi-pmds-hypotes
@@ -380,8 +388,9 @@ monitorering-under-behandling
 titrering
 serumkoncentrationer
 biverkningar-av-klozapin
+förstoppning-och-ileus
+hypersalivering
 antikolinerga-biverkningar-av-klozapin
-sialorrhé
 motoriska-biverkningar-1
 kardiella-biverkningar
 sleep-meds
@@ -529,11 +538,16 @@ vid-psykos
 vid-affektiva-syndrom
 vid-personlighetsstörning
 vid-utvecklingsstörning-eller-adhd
+sjukpenning
+inledning-6
+funktionsnedsättning-undersökningsfynd-testresultat-och-observationer
+aktivitetsbegränsning-kan-ej-göra-pga-sin-sjukdom
+arbetsrehabiliterande-insatser
 psykiatrisk-anamnes-och-status
 anamnes-kortfattat
 status-kortfattat
 vetenskaplig-metod
-inledning-6
+inledning-7
 population
 beräkning-av-varians-och-precision
 effekt
