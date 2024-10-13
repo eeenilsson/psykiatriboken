@@ -165,46 +165,38 @@ eller handling vid högsta möjliga funktionsnivå som en person kan tänkas upp
 
 ### FUNKTIONSNEDSÄTTNING (undersökningsfynd, testresultat och observationer)
 
-Positiva fynd i psykiskt status, tex nedsatt uppmärksamhet, sänkt stämningsläge, hög ångestnivå, psykomotorisk hämning. 
-
-Problem med... (gradera? mild/måttlig/svår/fullständig)
-
-Energi och drivkraft: Nedsatt energinivå, motivation, och aptit. Initiativsvårigheter. Uthållighet. Undvikande.
-
-Kognition: Exekutiva funktioner såsom uppmärksamhet, arbetsminne, tänkande, impulskontroll, kognitiv flexibilitet, planering, och problemlösning.
-
-Social funktion: Känsloreglering. Förstå och etablera mellanmänskliga relationer. Impulskontroll.
-
-Autism eller IF: Därutöver är omdöme, emotionella funktioner (lämplighet, reglering) och förmågan att förstå och etablera mellanmänskliga relationer nedsatt. Likaså språk, abstraktion, impulskontroll. 
-
-**Mer ovanligt:**
-
-Svårigheter att upprätthålla kontinuitet i medvetande (tex vid dissociation). Ambivalens.
- 
 <!-- Svårigheter som påverkar patientens möjligheter att utföra sin sysselsättning: -->
-<!-- Emotioner, nedstämdhet, energinivå, motivation, impulskontroll, minne, sömn, aptit, viktuppehållande funktioner -->
+<!-- (gradera? mild/måttlig/svår/fullständig) -->
+
+Positiva fynd i psykiskt status, tex nedsatt uppmärksamhet, sänkt stämningsläge, hög ångestnivå, psykomotorisk hämning. Skattningsskalor.
+
+Har nedsättning av...
+
+Energi och drivkraft: Initiativ, energinivå, motivation, uthållighet, och aptit.
+
+Kognition och exekutiva funktioner: Uppmärksamhet, arbetsminne, tänkande, impulskontroll, kognitiv flexibilitet, planering, och problemlösning.
+
+Emotionella funktioner: Lämplighet, reglering, impulskontroll.
 
 **Övrigt:**
+
+Svårigheter att upprätthålla kontinuitet i medvetande (tex vid dissociation). Ambivalens. Undvikande beteende. Sömnsvårigheter. Omdöme.
+
+Autism eller IF: Därutöver är omdöme, emotionella funktioner (lämplighet, reglering) och förmågan att förstå och etablera mellanmänskliga relationer nedsatt. Likaså språk (uttrycka sig verbalt/ickeverbalt, i skrift), abstraktion, impulskontroll.
+
+Social funktion: Förstå och etablera mellanmänskliga relationer. 
 
 Omgivningsfaktorer kan kommenteras (fysiska förutsättningar, nätverk, service, tjänster och system)
 
 ### AKTIVITETSBEGRÄNSNING (kan ej göra pga sin sjukdom...)
 
-Genomföra/upprätthålla daglig rutin.
+Energi och drivkraft: Ta initiativ. Genomföra/upprätthålla daglig rutin. Ökad uttröttbarhet och ökat behov av återhämtning.
 
-Hantera stress och andra psykologiska krav (tex ansvar).
+Exekutiva funktioner: Bibehålla uppmärksamhet, planering, fatta beslut, och ha uthållighet. Inlärning och att tillämpa kunskap. Självständigt förbereda, initiera, och organisera (enkla/komplexa) uppgifter.
 
-Bibehålla uppmärksamhet, fatta beslut, ta initiativ, och ha uthållighet. 
+Hantera stress och andra psykologiska krav.
 
-Ökad uttröttbarhet, och ökat behov av återhämtning.
-
-Inlärning och att tillämpa kunskap.
-
-Självständigt förbereda, initiera, och organisera (enkla/komplexa) uppgifter
-
-Uttrycka sig verbalt/ickeverbalt, i skrift
-
-Interpersonella relationer: Tex respekt, tolerans, sociala signaler, reglera beteenden
+Emotionella/sociala funktioner: Tex respekt, tolerans, sociala signaler, reglera beteenden.
 
 Vilket stöd behöver patienten nu?
 
