@@ -1,6 +1,6 @@
 # Ångest
 
-## Läkemedelsbehandling
+## Läkemedelsbehandling indikationer
 
 Se [@Garakani2020]
 
@@ -51,6 +51,128 @@ kable(tbl1, caption = "Bensodiazepiner med godkännande i EU eller USA mot ånge
 Abbreviations: GAD: generalised anxiety disorder; MAOIs: monoamine oxidase inhibitors; OCD: obsessive compulsive disorder; PD: panic disorder; PTSD: post-traumatic stress disorder; SAD: social anxiety disorder. 
 
 >The off-label use of the listed antidepressants, antipsychotics and others that are not approved for any anxiety, trauma-related or obsessive disorder is supported by clinical studies, meta-analysis and more recent network meta-analysis [@Garakani2020].
+
+
+### Ångestsyndrom antidepressiva
+
+Med reservation för publikationsbias (positiva resultat korrekt ca 5 gånger mer än negativa[@Roest2015]) tycks SSRI enligt en metaanalys (K = 57, N = 16056) ha effekt mot ångestsyndrom (SMD = 0.60; 95% CI [0.55–0.65], z = 29.2, P < 0.001, vs placebo) [@Jakubovski2019]. Det mesta av effekten kommer inom 1-2 månader med viss ytterligare effektökning upp till kanske tre månader. Effektstorleken baserat på FDAs register är ca 0.33 (Hedges g, liten effekt).
+
+Över tid föreligger små eller inga skillnader i respons beroende på diagnos (SA, GAD, PD) för SSRI. För SNRI kan PD möjligen svara något mindre på behandlingen än de båda andra diagnoserna[@Jakubovski2019]. 
+
+En minimalt dos-respons-samband (SMD 0.5 vs 0.6) kan finnas i intervallet 50-300 mg imipraminekvivalenter (7.5-23 mg escitalopram) för SSRI men ej för SNRI. Högre dos ökar också biverkningarna[@Jakubovski2019].
+
+SSRI kan möjligen vara något mer effektivt än SNRI (SMD 0.6 vs 0.5), men ej vid "longitudinell analys". Skillnader mellan olika preparat inom SSRI respektive SNRI-gruppen kunde ej påvisas[@Jakubovski2019].
+
+> 100 mg of imipramine = 120 mg of sertraline = 100 mg of fluvoxamine = 20 mg of paroxetine or fluoxetine = 30 mg of citalopram = 15 mg of escitalopram = 100 mg of venlafaxine = 40 mg of duloxetine.
+
+
+<!-- [@Beyer2024] -->
+
+
+<!-- Comprehensive, evidence-based guides to direct treatment of generalized anxiety disorder are limited, with one noteworthy exception being the “Canadian Clinical Practice Guidelines for the Management of Anxiety, Posttraumatic Stress and Obsessive-Compulsive Disorders” (45). In this sizeable review, the authors stratified treatment interventions according to established efficacy, quality of evidence, and tolerability and safety considerations; furthermore, they proposed a hierarchy of first-, second-, and third-line monotherapy options as well as ranked adjunctive treatment options. The authors concluded that SSRIs and SNRIs along with pregabalin should be considered first-line treatments. They characterized TCAs, BZDs, vortioxetine, bupropion XL, buspirone, quetiapine, and hydroxyzine as second-line treatments. They qualified miscellaneous antidepressants and valproic acid (VPA) in rare formulations as third-line treatments. Finally, for adjunctive treatment, they favored pregabalin over second-generation antipsychotics (45). https://focus.psychiatryonline.org/doi/10.1176/appi.focus.20200048 -->
+
+<!-- Se /notes/antianxiety-medication-Katzman2014.csv -->
+<!-- Se[@Katzman2014] -->
+<!-- MAOI = monoamine oxidase inhibitor; RIMA = reversible inhibitor of monoamine oxidase A; SNRI = serotonin–norepinephrine reuptake inhibitor; SR = sustained release; SSRI = selective serotonin reuptake inhibitor; TCA = tricyclic antidepressant; XR = extended release  -->
+<!-- *Monotherapy and augmentation -->
+<!-- †Augmentation only, usually added to an antidepressant medication -->
+<!-- §Two studies: combination of exposure therapy and clomipramine; another an augmentation study adding clomipramine to fluoxetine -->
+<!-- ‡Used as monotherapy and in one study as an augmentation agent to mirtazapine -->
+<!-- First-line	Level 1 or Level 2 evidence plus clinical support for efficacy and safety -->
+<!-- Second-line	Level 3 evidence or higher plus clinical support for efficacy and safety -->
+<!-- Third-line	Level 4 evidence or higher plus clinical support for efficacy and safety -->
+<!-- Not recommended	Level 1 or Level 2 evidence for lack of efficacy -->
+
+
+### Ångestsyndrom antidepressiva 1:a/2:a-handsval
+
+```{r } 
+#| label: anxiety-can 
+
+dta <- fread("../notes/antianxiety-medication-Katzman2014.csv", na.strings = c(""))
+dta[, drug:=str_squish(drug)]
+dta[, drug:=str_trim(drug)]
+dta[, drug := gsub("[^A-z| ]", "", drug)]
+
+## labels add
+lookup <- dta[!is.na(class), .(class, subclass, drug)]
+setkey(dta, class)
+setkey(lookup, class)
+dta <- lookup[dta, on = c("drug")]
+dta[is.na(class), class := i.class]
+dta[is.na(subclass), subclass := i.subclass]
+## dta[is.na(class), ] ## check
+dta[, i.subclass:=NULL]
+dta[, i.class:=NULL]
+
+## tmp[is.na(mono), mono := ""]
+## tmp[is.na(adj), adj := ""]
+
+## tmp <- dta[mono==1|mono==2|adj==1|adj==2, .(drug, indication, mono, adj)]
+## tmp[, mono_adj := paste0("m", mono, "a", adj)]
+## tmp[, mono_adj := gsub("mNA", "", mono_adj)]
+## tmp[, mono_adj := gsub("aNA", "", mono_adj)]
+
+## Monoterapier
+tmp <- dta[mono==1|mono==2, .(drug, indication, mono, class)]
+tmp <- unique(tmp)
+tbl <- dcast(drug+class~indication, data = tmp, value.var="mono")
+
+## Curate paroxetine IR/CR
+tbl[drug == "Paroxetine", sa := 1]
+tbl <- tbl[drug!="Paroxetine CR" & drug!="Paroxetine IR", ]
+
+setorder(tbl, class, gad, ocd, pd, ptsd, sa, na.last=TRUE)
+tbl[, drug := gsub(" XR| XL| CR| IR", "", drug)]
+tbl <- unique(tbl)
+toremove <- c("Fluvoxamine", "Phenelzine", "Imipramine", "Bromazepam")
+tbl <- tbl[!drug %in% toremove, ]
+
+colnames(tbl) <- toupper(colnames(tbl))
+mycols <- colnames(tbl)
+mycols <- mycols[mycols != "CLASS"]
+tbl_ad <- tbl[CLASS == "antidepressant", ..mycols]
+tbl_other <- tbl[CLASS != "antidepressant", ..mycols]
+
+## Adjunctive treatments
+tmp <- dta[adj==1|adj==2, .(drug, indication, adj, class)]
+tbl <- dcast(drug+class~indication, data = tmp, value.var="adj")
+colnames(tbl) <- toupper(colnames(tbl))
+mycols <- colnames(tbl)
+mycols <- mycols[mycols != "CLASS"]
+tbl_adj <- tbl[, ..mycols]
+
+## Kable
+kable(tbl_ad)
+
+``` 
+
+1:a och 2:a hands val monoterapi.
+
+Ref [@Katzman2014]
+
+### Ångestsyndrom andra läkemedel
+
+```{r } 
+#| label: anxiety-meds-other
+kable(tbl_other)
+
+```
+
+1:a och 2:a hands val monoterapi [@Katzman2014].
+
+### Ångestsyndrom tilläggspreparat
+
+```{r } 
+#| label: anxiety-meds-adjunctive
+setorder(tbl_adj, GAD, OCD, PD, PTSD, na.last=TRUE)
+kable(tbl_adj)
+``` 
+1:a och 2:a hands val som tillägg till andra läkemedel.
+
+Ref [@Katzman2014]
+
+
 
 ## Ångestsyndrom hos barn
 

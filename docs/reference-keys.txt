@@ -215,7 +215,10 @@ skattningsinstrument
 hcl-32
 resources
 ångest
-läkemedelsbehandling-2
+läkemedelsbehandling-indikationer
+ångestsyndrom-antidepressiva
+ångestsyndrom-andra-läkemedel
+ångestsyndrom-tilläggspreparat
 ångestsyndrom-hos-barn
 adhd
 differentialdiagnostik-1
@@ -271,7 +274,7 @@ prospektiv-sömndagbok
 isi-retrospektiv-symtomskattning-svårighetsgrad
 sass-retrospektiv-sömndagbok
 sömnhygien
-läkemedelsbehandling-3
+läkemedelsbehandling-2
 basal-ganglia
 striatum
 den-direkta-och-indirekta-banan
